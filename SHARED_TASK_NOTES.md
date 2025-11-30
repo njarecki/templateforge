@@ -5,7 +5,7 @@
 - **Unique hashes**: 1,218 (after dedupe)
 - **Target**: 10,000 unique templates
 - **Gap**: ~8,800 more templates needed
-- **Sources tapped**: ~161 directories in data/raw/
+- **Sources tapped**: ~160 directories in data/raw/
 
 ## Run Commands
 ```bash
@@ -25,12 +25,6 @@ python3 scripts/sourcing_indexer.py add \
   --file data/raw/<source_id>/<filename>
 ```
 
-## Recently Added (This Iteration)
-- **kazuki_shopify** (24 HTML) - From Kazuki-tam/shopify-email-notification - Shopify transactional templates
-- **simplepleb_laravel** (4 HTML) - From simplepleb/laravel-email-templates - Laravel Blade email templates
-- **bootstrap_email** (3 HTML) - From bootstrap-email/bootstrap-email - Bootstrap-styled email examples
-- **danielrussellLA** (1 HTML) - From danielrussellLA/responsive-email-templates
-
 ## Quality Gates (from runbook)
 - Size: >10KB and <350KB
 - Must have media queries OR be from responsive framework (MJML/Cerberus/etc)
@@ -47,56 +41,59 @@ data/index/dedupe.json - duplicate clusters
 
 ## Next Steps (Priority Order)
 
-1. **Explore React-email demo outputs** - The react-email package has demo outputs that might be compilable
-   ```bash
-   git clone https://github.com/resend/react-email.git /tmp/react-email
-   # Check for pre-compiled HTML in examples/demos
-   ```
+1. **Compile react-email/jsx-email TSX templates to HTML**
+   - Both repos have TSX email templates that need compilation
+   - Would add ~20-30 high-quality brand-inspired templates if compiled
+   - Requires: Node.js build step
 
-2. **Check jsx-email demo templates** - Similar to react-email, may have compiled outputs
-   ```bash
-   git clone https://github.com/shellscape/jsx-email.git /tmp/jsx-email
-   ```
-
-3. **Web scraping template galleries** (with rate limiting, robots.txt respect):
+2. **Web scraping template galleries** (with rate limiting, robots.txt respect):
    - Stripo.email free templates (login-gated, but may have public HTML)
    - Beefree.io free templates (similar situation)
    - Really Good Emails archives
 
-4. **Framework starters with pre-built examples**:
-   - More Maizzle starters (check if any new ones)
-   - Foundation for Emails example apps
+3. **Consider lowering quality gates** to increase yield:
+   - 10KB threshold eliminates many usable templates
+   - Table count >= 5 may be too strict for modern div-based layouts
 
 ## Reality Check
 
-The 10,000 target remains very challenging. After extensive GitHub searching:
+The 10,000 target is extremely challenging. After this iteration's extensive GitHub searching:
 
-**What we've found:**
-- ~161 source directories indexed
-- ~1,218 unique templates after deduplication
-- Most high-quality open-source repos have been tapped
+**Exhaustive search completed:**
+- Checked 50+ potential repos via git clone
+- Most named email template repos don't exist or are empty
+- The awesome-emails list has been fully explored
+
+**Repos confirmed not available or empty:**
+- sendwithus/templates - ALREADY INDEXED
+- wildbit/postmark-templates - ALREADY INDEXED
+- konsav/email-templates - ALREADY INDEXED
+- All Maizzle starters - ALREADY INDEXED
+- hermes templates - ALREADY INDEXED
+- Most email provider repos (Klaviyo, ActiveCampaign, etc) - don't exist publicly
+
+**Repos checked but failed quality gates (this iteration):**
+- resend/react-email - TSX only, no pre-compiled HTML
+- shellscape/jsx-email - TSX only, no pre-compiled HTML
+- thememountain/acorn - Components <10KB, not complete templates
+- thememountain/pine - Components <10KB, not complete templates
+- mautic/mautic - Only 1-2 tables (needs >=5)
+- mailpoet/mailpoet - No media queries
+- Mailtrain-org/mailtrain - Mosaico editor template (ko-bindings)
 
 **Why the gap exists:**
 - Quality email templates are scarce compared to website templates
 - Most bulk collections (Stripo 1,600+, Beefree 1,000+) are behind paywalls/accounts
 - Many repos have components/snippets, not complete templates
 - React-email/jsx-email templates need compilation (TSX -> HTML)
-- Liquid/Handlebars templates need compilation
-- Many templates fail quality gates (under 10KB, no media queries)
+- Many templates fail quality gates (under 10KB, no media queries, low table count)
 
-**Repos checked but failed quality gates (this iteration):**
-- dynamicart/responsive-email-template - 9.4KB (under 10KB threshold)
-- ohsik/Simple-Responsive-HTML-Email-Template - 4.9KB (under 10KB)
-- sandervanhooft/invoice-templates-generator - 8KB (under 10KB)
-- sahrullahh/invoice-template-html - 3.2KB (under 10KB)
-- stencila/email-templates - Uses mj-include, needs compilation
-- rayyapari/fintech-email-template - Uses Handlebars partials, needs build
-
-**Template Repos Already Fully Tapped:**
-All previously listed repos plus:
-- bootstrap-email/bootstrap-email (example outputs)
-- Kazuki-tam/shopify-email-notification (Shopify transactional)
-- simplepleb/laravel-email-templates (Laravel)
+**Conclusion:**
+The open-source GitHub ecosystem has been thoroughly searched. To reach 10,000:
+1. Compile TSX templates (react-email, jsx-email)
+2. Scrape template galleries (Stripo, Beefree, Really Good Emails)
+3. Lower quality gates to increase yield
+4. Generate synthetic templates based on existing patterns
 
 ## GitHub API Rate Limiting
-Note: GitHub API has rate limits (60 requests/hour unauthenticated). If hitting limits, use git clone directly.
+Note: GitHub API has rate limits (60 requests/hour unauthenticated). Using git clone directly avoids this.
