@@ -491,6 +491,241 @@ def section_spacer():
     }
 
 
+def section_security_alert():
+    """Security/password reset alert box with icon."""
+    return {
+        "type": "security_alert",
+        "name": "Security Alert",
+        "html": f'''
+<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+    <tr>
+        <td style="padding: 24px;">
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: {{{{brandSecondary}}}}10; border-radius: 8px;">
+                <tr>
+                    <td style="padding: 24px;">
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                            <tr>
+                                <td width="64" valign="top">
+                                    <img src="{IMAGE_PLACEHOLDERS['icon']}" alt="Security" width="48" height="48" style="display: block;" />
+                                </td>
+                                <td style="padding-left: 16px;" valign="top">
+                                    <h2 style="font-family: {{{{brandFont}}}}; font-size: 20px; color: {{{{brandPrimary}}}}; margin: 0 0 8px;">{{{{securityTitle}}}}</h2>
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandText}}}}; margin: 0; line-height: 1.5;">{{{{securityMessage}}}}</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+'''
+    }
+
+
+def section_verification_code():
+    """Large verification code display."""
+    return {
+        "type": "verification_code",
+        "name": "Verification Code",
+        "html": '''
+<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+    <tr>
+        <td align="center" style="padding: 32px 24px;">
+            <table cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: {brandSecondary}10; border: 2px dashed {brandSecondary}40; border-radius: 8px;">
+                <tr>
+                    <td style="padding: 24px 48px;">
+                        <p style="font-family: {brandFont}; font-size: 14px; color: {brandSecondary}; margin: 0 0 8px; text-transform: uppercase; letter-spacing: 1px;">Verification Code</p>
+                        <p style="font-family: 'Courier New', monospace; font-size: 36px; color: {brandPrimary}; margin: 0; font-weight: 700; letter-spacing: 8px;">{{verificationCode}}</p>
+                    </td>
+                </tr>
+            </table>
+            <p style="font-family: {brandFont}; font-size: 12px; color: {brandSecondary}; margin: 16px 0 0;">This code expires in {{codeExpiry}}</p>
+        </td>
+    </tr>
+</table>
+'''
+    }
+
+
+def section_shipping_tracker():
+    """Shipping status with tracking number."""
+    return {
+        "type": "shipping_tracker",
+        "name": "Shipping Tracker",
+        "html": f'''
+<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+    <tr>
+        <td style="padding: 24px;">
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: {{{{brandAccent}}}}10; border-radius: 8px;">
+                <tr>
+                    <td style="padding: 24px;">
+                        <h3 style="font-family: {{{{brandFont}}}}; font-size: 18px; color: {{{{brandPrimary}}}}; margin: 0 0 16px;">{{{{shippingStatus}}}}</h3>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                            <tr>
+                                <td width="50%">
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 12px; color: {{{{brandSecondary}}}}; margin: 0;">Tracking Number</p>
+                                    <p style="font-family: 'Courier New', monospace; font-size: 14px; color: {{{{brandPrimary}}}}; margin: 4px 0 0; font-weight: 600;">{{{{trackingNumber}}}}</p>
+                                </td>
+                                <td width="50%">
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 12px; color: {{{{brandSecondary}}}}; margin: 0;">Carrier</p>
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandPrimary}}}}; margin: 4px 0 0; font-weight: 600;">{{{{carrier}}}}</p>
+                                </td>
+                            </tr>
+                        </table>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-top: 16px;">
+                            <tr>
+                                <td width="50%">
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 12px; color: {{{{brandSecondary}}}}; margin: 0;">Estimated Delivery</p>
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandAccent}}}}; margin: 4px 0 0; font-weight: 600;">{{{{estimatedDelivery}}}}</p>
+                                </td>
+                                <td width="50%" align="right">
+                                    <a href="{{{{trackingUrl}}}}" style="display: inline-block; padding: 10px 20px; background-color: {{{{brandAccent}}}}; color: #ffffff; font-family: {{{{brandFont}}}}; font-size: 14px; font-weight: 600; text-decoration: none; border-radius: 6px;">Track Package</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+'''
+    }
+
+
+def section_cart_item():
+    """Abandoned cart product item."""
+    return {
+        "type": "cart_item",
+        "name": "Cart Item",
+        "html": f'''
+<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+    <tr>
+        <td style="padding: 16px 24px;">
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="border: 1px solid {{{{brandSecondary}}}}20; border-radius: 8px;">
+                <tr>
+                    <td style="padding: 16px;">
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                            <tr>
+                                <td width="120">
+                                    <img src="{IMAGE_PLACEHOLDERS['product']}" alt="{{{{cartItemAlt}}}}" width="100" height="100" style="display: block; border-radius: 4px;" />
+                                </td>
+                                <td style="padding-left: 16px;" valign="middle">
+                                    <h4 style="font-family: {{{{brandFont}}}}; font-size: 16px; color: {{{{brandPrimary}}}}; margin: 0 0 4px;">{{{{cartItemName}}}}</h4>
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandSecondary}}}}; margin: 0 0 8px;">{{{{cartItemVariant}}}}</p>
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 18px; color: {{{{brandAccent}}}}; margin: 0; font-weight: 700;">{{{{cartItemPrice}}}}</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+'''
+    }
+
+
+def section_urgency_banner():
+    """Urgency/scarcity banner for abandoned cart."""
+    return {
+        "type": "urgency_banner",
+        "name": "Urgency Banner",
+        "html": '''
+<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+    <tr>
+        <td align="center" style="padding: 16px 24px; background-color: {brandAccent}15;">
+            <p style="font-family: {brandFont}; font-size: 14px; color: {brandAccent}; margin: 0; font-weight: 600;">
+                ⏰ {{urgencyMessage}}
+            </p>
+        </td>
+    </tr>
+</table>
+'''
+    }
+
+
+def section_event_details():
+    """Event invitation details block."""
+    return {
+        "type": "event_details",
+        "name": "Event Details",
+        "html": f'''
+<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+    <tr>
+        <td style="padding: 24px;">
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: {{{{brandPrimary}}}}05; border-left: 4px solid {{{{brandAccent}}}}; border-radius: 0 8px 8px 0;">
+                <tr>
+                    <td style="padding: 24px;">
+                        <h3 style="font-family: {{{{brandFont}}}}; font-size: 20px; color: {{{{brandPrimary}}}}; margin: 0 0 16px;">{{{{eventTitle}}}}</h3>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                            <tr>
+                                <td width="32" valign="top">
+                                    <img src="{IMAGE_PLACEHOLDERS['icon']}" alt="" width="24" height="24" style="display: block;" />
+                                </td>
+                                <td style="padding-left: 8px; padding-bottom: 12px;">
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 12px; color: {{{{brandSecondary}}}}; margin: 0;">Date & Time</p>
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandPrimary}}}}; margin: 4px 0 0; font-weight: 600;">{{{{eventDateTime}}}}</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="32" valign="top">
+                                    <img src="{IMAGE_PLACEHOLDERS['icon']}" alt="" width="24" height="24" style="display: block;" />
+                                </td>
+                                <td style="padding-left: 8px; padding-bottom: 12px;">
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 12px; color: {{{{brandSecondary}}}}; margin: 0;">Location</p>
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandPrimary}}}}; margin: 4px 0 0; font-weight: 600;">{{{{eventLocation}}}}</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="32" valign="top">
+                                    <img src="{IMAGE_PLACEHOLDERS['icon']}" alt="" width="24" height="24" style="display: block;" />
+                                </td>
+                                <td style="padding-left: 8px;">
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 12px; color: {{{{brandSecondary}}}}; margin: 0;">Host</p>
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandPrimary}}}}; margin: 4px 0 0; font-weight: 600;">{{{{eventHost}}}}</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+'''
+    }
+
+
+def section_rsvp_buttons():
+    """RSVP accept/decline buttons."""
+    return {
+        "type": "rsvp_buttons",
+        "name": "RSVP Buttons",
+        "html": '''
+<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+    <tr>
+        <td align="center" style="padding: 24px;">
+            <table cellpadding="0" cellspacing="0" border="0" role="presentation">
+                <tr>
+                    <td style="padding-right: 8px;">
+                        <a href="{{rsvpAcceptUrl}}" style="display: inline-block; padding: 14px 32px; background-color: {brandAccent}; color: #ffffff; font-family: {brandFont}; font-size: 16px; font-weight: 600; text-decoration: none; border-radius: 8px;">Accept</a>
+                    </td>
+                    <td style="padding-left: 8px;">
+                        <a href="{{rsvpDeclineUrl}}" style="display: inline-block; padding: 14px 32px; background-color: transparent; color: {brandSecondary}; font-family: {brandFont}; font-size: 16px; font-weight: 600; text-decoration: none; border-radius: 8px; border: 2px solid {brandSecondary};">Decline</a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+'''
+    }
+
+
 # Registry of all sections
 SECTION_REGISTRY = {
     "hero": section_hero,
@@ -510,6 +745,13 @@ SECTION_REGISTRY = {
     "footer_complex": section_footer_complex,
     "divider": section_divider,
     "spacer": section_spacer,
+    "security_alert": section_security_alert,
+    "verification_code": section_verification_code,
+    "shipping_tracker": section_shipping_tracker,
+    "cart_item": section_cart_item,
+    "urgency_banner": section_urgency_banner,
+    "event_details": section_event_details,
+    "rsvp_buttons": section_rsvp_buttons,
 }
 
 
