@@ -50,3 +50,12 @@ Start Now
 - Harvest ≥300 unique base templates across sources above, maximizing diversity (welcome, promo, ecommerce, newsletter, transactional).
 - Populate data/raw and data/index with accurate metadata and dedupe results.
 - When done with all listed sources, expand GitHub queries and continue.
+
+Helper Script (must use)
+- Initialize folders: `python3 scripts/sourcing_indexer.py init`
+- After saving each file under `data/raw/<source_id>/<slug>.<html|mjml>`, index it:
+  `python3 scripts/sourcing_indexer.py add --source-id <id> --source-name "<name>" --url <url> --license <license> --type <html|mjml> --file data/raw/<source_id>/<slug>.<html|mjml>`
+- Periodically dedupe: `python3 scripts/sourcing_indexer.py dedupe`
+- Show progress: `python3 scripts/sourcing_indexer.py stats`
+
+Index record includes: id, source_id, source_name, url, license, type, file_path, byte_size, content_hash, quick_features.
