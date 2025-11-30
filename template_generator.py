@@ -143,6 +143,24 @@ TEMPLATE_TYPES = {
         "sections": ["header_nav", "progress_tracker", "1col_text", "3col_features", "cta_band", "footer_simple"],
         "description": "Onboarding email showing user progress and next steps"
     },
+    "company_update": {
+        "name": "Company Update",
+        "category": "Newsletter",
+        "sections": ["header_nav", "hero", "stats_metrics", "1col_text", "team_members", "cta_band", "footer_complex"],
+        "description": "Company update newsletter with stats and team highlights"
+    },
+    "product_comparison": {
+        "name": "Product Comparison",
+        "category": "Ecommerce",
+        "sections": ["header_nav", "hero", "comparison_table", "testimonial", "cta_band", "footer_simple"],
+        "description": "Product comparison email with feature table"
+    },
+    "annual_report": {
+        "name": "Annual Report",
+        "category": "Newsletter",
+        "sections": ["header_nav", "hero", "stats_metrics", "story_block", "team_members", "cta_band", "social_icons", "footer_complex"],
+        "description": "Year-in-review or annual report style email"
+    },
 }
 
 
