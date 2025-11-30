@@ -1,0 +1,93 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}, Arial, sans-serif" />
+      <mj-text color="{brandText}" line-height="1.5" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" border-radius="4px" />
+    </mj-attributes>
+    <mj-style>
+      .cta-button { text-transform: uppercase; letter-spacing: 1px; }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="{brandBG}" width="640px">
+    <!-- Offer Banner -->
+    <mj-section background-color="{brandAccent}" padding="10px 20px">
+      <mj-column>
+        <mj-text align="center" color="#ffffff" font-size="14px" font-weight="bold">
+          ⚡ LIMITED TIME: 40% OFF EVERYTHING ⚡
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Header Nav -->
+    <mj-section background-color="{brandBG}" padding="20px">
+      <mj-column width="30%">
+        <mj-image src="https://placehold.co/150x50/png?text=LOGO" alt="Company Logo" width="120px" />
+      </mj-column>
+      <mj-column width="70%">
+        <mj-navbar base-url="#">
+          <mj-navbar-link href="#" color="{brandText}">Shop</mj-navbar-link>
+          <mj-navbar-link href="#" color="{brandText}">New</mj-navbar-link>
+          <mj-navbar-link href="#" color="{brandText}">Sale</mj-navbar-link>
+        </mj-navbar>
+      </mj-column>
+    </mj-section>
+
+    <!-- Hero -->
+    <mj-section background-color="{brandSecondary}" padding="60px 20px">
+      <mj-column>
+        <mj-text align="center" font-size="42px" font-weight="bold" color="{brandPrimary}">
+          FLASH SALE
+        </mj-text>
+        <mj-text align="center" font-size="20px" padding-top="10px">
+          Don't miss out on our biggest sale of the season
+        </mj-text>
+        <mj-button href="#" align="center" padding-top="30px" font-size="16px" css-class="cta-button">
+          SHOP NOW
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Product Grid -->
+    <mj-section padding="40px 20px">
+      <mj-column width="50%">
+        <mj-image src="https://placehold.co/280x280/png?text=Product+1" alt="Featured Product 1" />
+        <mj-text align="center" font-weight="bold" padding-top="15px">Premium Item</mj-text>
+        <mj-text align="center"><s>$199</s> <span style="color:{brandAccent}">$119</span></mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image src="https://placehold.co/280x280/png?text=Product+2" alt="Featured Product 2" />
+        <mj-text align="center" font-weight="bold" padding-top="15px">Deluxe Edition</mj-text>
+        <mj-text align="center"><s>$249</s> <span style="color:{brandAccent}">$149</span></mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- CTA Band -->
+    <mj-section background-color="{brandPrimary}" padding="30px 20px">
+      <mj-column>
+        <mj-text align="center" color="#ffffff" font-size="18px" font-weight="bold">
+          Use code FLASH40 at checkout
+        </mj-text>
+        <mj-button href="#" background-color="#ffffff" color="{brandPrimary}" align="center" padding-top="20px">
+          CLAIM YOUR DISCOUNT
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section padding="30px 20px">
+      <mj-column>
+        <mj-social font-size="12px" icon-size="24px" mode="horizontal" align="center">
+          <mj-social-element name="facebook" href="#" />
+          <mj-social-element name="twitter" href="#" />
+          <mj-social-element name="instagram" href="#" />
+        </mj-social>
+        <mj-text align="center" font-size="12px" color="#888888" padding-top="20px">
+          © 2024 Company Name. All rights reserved.<br/>
+          123 Business Street, City, Country<br/><br/>
+          <a href="#" style="color:#888888">Unsubscribe</a> | <a href="#" style="color:#888888">Privacy Policy</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

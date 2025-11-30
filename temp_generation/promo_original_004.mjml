@@ -1,0 +1,92 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}, Arial, sans-serif" />
+      <mj-text color="{brandText}" line-height="1.5" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" border-radius="25px" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="{brandBG}" width="640px">
+    <!-- Header -->
+    <mj-section padding="20px">
+      <mj-column>
+        <mj-image src="https://placehold.co/150x50/png?text=BRAND" alt="Brand Logo" width="130px" align="center" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Gradient Hero -->
+    <mj-section background-color="{brandSecondary}" padding="50px 30px">
+      <mj-column>
+        <mj-text align="center" font-size="14px" color="{brandAccent}" font-weight="600" letter-spacing="2px">
+          MEMBER EXCLUSIVE
+        </mj-text>
+        <mj-text align="center" font-size="42px" font-weight="bold" color="{brandPrimary}" padding-top="10px">
+          Early Access Sale
+        </mj-text>
+        <mj-text align="center" font-size="18px" padding-top="15px">
+          Shop new arrivals before everyone else with an extra 20% off
+        </mj-text>
+        <mj-button href="#" align="center" padding-top="25px" font-size="14px" padding="14px 35px">
+          Shop Now
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Featured Categories -->
+    <mj-section padding="40px 20px 20px">
+      <mj-column>
+        <mj-text align="center" font-size="18px" font-weight="bold">
+          Shop by Category
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="10px 15px">
+      <mj-column width="33%">
+        <mj-image src="https://placehold.co/180x180/png?text=Tops" alt="Tops Category" border-radius="50%" />
+        <mj-text align="center" font-weight="bold" padding-top="12px">Tops</mj-text>
+        <mj-text align="center" font-size="13px" color="{brandAccent}">Up to 30% off</mj-text>
+      </mj-column>
+      <mj-column width="33%">
+        <mj-image src="https://placehold.co/180x180/png?text=Bottoms" alt="Bottoms Category" border-radius="50%" />
+        <mj-text align="center" font-weight="bold" padding-top="12px">Bottoms</mj-text>
+        <mj-text align="center" font-size="13px" color="{brandAccent}">Up to 25% off</mj-text>
+      </mj-column>
+      <mj-column width="33%">
+        <mj-image src="https://placehold.co/180x180/png?text=Accessories" alt="Accessories Category" border-radius="50%" />
+        <mj-text align="center" font-weight="bold" padding-top="12px">Accessories</mj-text>
+        <mj-text align="center" font-size="13px" color="{brandAccent}">Up to 40% off</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Offer Details -->
+    <mj-section padding="30px 20px">
+      <mj-column background-color="{brandSecondary}" border-radius="10px" padding="25px">
+        <mj-text align="center" font-size="16px" font-weight="bold">
+          Your exclusive code:
+        </mj-text>
+        <mj-text align="center" font-size="28px" font-weight="bold" color="{brandPrimary}" padding-top="10px">
+          EARLY20
+        </mj-text>
+        <mj-text align="center" font-size="13px" color="#666666" padding-top="10px">
+          Valid until Dec 5, 2024 • Online only
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section padding="25px 20px">
+      <mj-column>
+        <mj-social font-size="12px" icon-size="26px" mode="horizontal" align="center">
+          <mj-social-element name="facebook" href="#" />
+          <mj-social-element name="instagram" href="#" />
+          <mj-social-element name="twitter" href="#" />
+        </mj-social>
+        <mj-text align="center" font-size="11px" color="#888888" padding-top="20px">
+          © 2024 Brand Name Inc.<br/>
+          <a href="#" style="color:#888888">Unsubscribe</a> | <a href="#" style="color:#888888">View in browser</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

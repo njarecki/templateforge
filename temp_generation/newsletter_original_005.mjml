@@ -1,0 +1,108 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}, Georgia, serif" />
+      <mj-text color="{brandText}" line-height="1.7" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" border-radius="2px" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="{brandBG}" width="640px">
+    <!-- Header -->
+    <mj-section padding="25px 20px" border-bottom="2px solid {brandPrimary}">
+      <mj-column>
+        <mj-text align="center" font-size="32px" font-weight="bold" color="{brandPrimary}" font-style="italic">
+          The Weekly Digest
+        </mj-text>
+        <mj-text align="center" font-size="12px" color="#888888" padding-top="5px">
+          Issue #47 • November 2024
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Featured Story Hero -->
+    <mj-section padding="30px 20px">
+      <mj-column>
+        <mj-image src="https://placehold.co/600x300/png?text=Featured+Story" alt="Featured Story Image" />
+        <mj-text font-size="24px" font-weight="bold" padding-top="20px">
+          The Future of Remote Work: What 2025 Holds
+        </mj-text>
+        <mj-text font-size="15px" padding-top="15px">
+          As we approach a new year, the landscape of remote work continues to evolve. Industry experts share their predictions on hybrid models, digital nomad trends, and the tools that will shape how we collaborate.
+        </mj-text>
+        <mj-button href="#" align="left" padding-top="20px">
+          Read Full Article
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Divider -->
+    <mj-section padding="0 20px">
+      <mj-column>
+        <mj-divider border-color="{brandSecondary}" border-width="1px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Two Column Stories -->
+    <mj-section padding="30px 20px">
+      <mj-column width="50%">
+        <mj-image src="https://placehold.co/280x180/png?text=Story+2" alt="Story 2 Image" />
+        <mj-text font-size="18px" font-weight="bold" padding-top="15px">
+          Tech Trends to Watch
+        </mj-text>
+        <mj-text font-size="14px" padding-top="10px">
+          From AI assistants to sustainable tech, here are the innovations making waves this season.
+        </mj-text>
+        <mj-text padding-top="10px">
+          <a href="#" style="color:{brandPrimary}">Read more →</a>
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image src="https://placehold.co/280x180/png?text=Story+3" alt="Story 3 Image" />
+        <mj-text font-size="18px" font-weight="bold" padding-top="15px">
+          Productivity Hacks
+        </mj-text>
+        <mj-text font-size="14px" padding-top="10px">
+          Simple strategies that top performers use to maximize their output without burning out.
+        </mj-text>
+        <mj-text padding-top="10px">
+          <a href="#" style="color:{brandPrimary}">Read more →</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Quote Block -->
+    <mj-section background-color="{brandSecondary}" padding="30px 40px">
+      <mj-column>
+        <mj-text font-size="20px" font-style="italic" align="center">
+          "The best time to start was yesterday. The second best time is now."
+        </mj-text>
+        <mj-text font-size="14px" align="center" padding-top="15px" color="#666666">
+          — Inspirational Quote
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- CTA -->
+    <mj-section padding="30px 20px">
+      <mj-column>
+        <mj-text align="center" font-size="16px">
+          Enjoying our newsletter? Share it with a friend!
+        </mj-text>
+        <mj-button href="#" align="center" padding-top="15px">
+          Share Newsletter
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section padding="25px 20px" border-top="1px solid #dddddd">
+      <mj-column>
+        <mj-text align="center" font-size="11px" color="#888888">
+          © 2024 The Weekly Digest<br/>
+          You're receiving this because you subscribed at our website.<br/><br/>
+          <a href="#" style="color:#888888">Unsubscribe</a> | <a href="#" style="color:#888888">Update preferences</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

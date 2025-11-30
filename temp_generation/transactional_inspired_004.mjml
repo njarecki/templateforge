@@ -1,0 +1,108 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}, Arial, sans-serif" />
+      <mj-text color="{brandText}" line-height="1.5" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" border-radius="6px" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="{brandBG}" width="640px">
+    <!-- Header -->
+    <mj-section padding="25px 20px">
+      <mj-column>
+        <mj-image src="https://placehold.co/140x45/png?text=LOGO" alt="Company Logo" width="120px" align="center" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Status Banner -->
+    <mj-section background-color="{brandPrimary}" padding="20px">
+      <mj-column>
+        <mj-text align="center" color="#ffffff" font-size="18px" font-weight="bold">
+          📦 Your Order Has Shipped!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Tracking Info -->
+    <mj-section padding="30px 20px">
+      <mj-column>
+        <mj-text font-size="15px">
+          Great news! Your order is on its way. Here are your tracking details:
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="{brandSecondary}" padding="25px" border-radius="8px">
+      <mj-column width="50%">
+        <mj-text font-size="12px" color="#666666">ORDER NUMBER</mj-text>
+        <mj-text font-size="16px" font-weight="bold">#ORD-789456</mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text font-size="12px" color="#666666">TRACKING NUMBER</mj-text>
+        <mj-text font-size="16px" font-weight="bold">1Z999AA10123456784</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Delivery Timeline -->
+    <mj-section padding="30px 20px">
+      <mj-column>
+        <mj-text font-size="14px" font-weight="bold">Delivery Timeline</mj-text>
+        <mj-text padding-top="15px" font-size="14px">
+          <span style="color:{brandAccent}">●</span> Order placed — Nov 25<br/>
+          <span style="color:{brandAccent}">●</span> Shipped — Nov 27<br/>
+          <span style="color:#cccccc">○</span> Out for delivery — Est. Nov 29<br/>
+          <span style="color:#cccccc">○</span> Delivered — Est. Nov 30
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- CTA -->
+    <mj-section padding="10px 20px">
+      <mj-column>
+        <mj-button href="#" align="center" font-size="14px">
+          Track Package
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Order Summary -->
+    <mj-section padding="30px 20px">
+      <mj-column>
+        <mj-text font-size="14px" font-weight="bold" padding-bottom="15px">What's in your package</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0 20px">
+      <mj-column width="25%">
+        <mj-image src="https://placehold.co/100x100/png?text=Item" alt="Product" />
+      </mj-column>
+      <mj-column width="75%">
+        <mj-text font-weight="bold">Wireless Charging Pad</mj-text>
+        <mj-text font-size="13px" color="#666666">Qty: 1 • $39.99</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Shipping Address -->
+    <mj-section padding="30px 20px">
+      <mj-column>
+        <mj-text font-size="14px" font-weight="bold">Shipping to</mj-text>
+        <mj-text font-size="13px" padding-top="10px" color="#666666">
+          John Smith<br/>
+          456 Oak Avenue, Apt 12<br/>
+          Brooklyn, NY 11201
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section padding="25px 20px" background-color="{brandSecondary}">
+      <mj-column>
+        <mj-text align="center" font-size="12px" color="#666666">
+          Questions about your order? <a href="#" style="color:{brandPrimary}">Contact Support</a><br/><br/>
+          © 2024 Company Name<br/>
+          <a href="#" style="color:#666666">Unsubscribe</a> from shipping notifications
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

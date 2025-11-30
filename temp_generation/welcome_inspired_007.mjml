@@ -1,0 +1,98 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}, Arial, sans-serif" />
+      <mj-text color="{brandText}" line-height="1.6" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" border-radius="4px" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="{brandBG}" width="640px">
+    <!-- Header -->
+    <mj-section padding="30px 20px">
+      <mj-column>
+        <mj-image src="https://placehold.co/160x55/png?text=BRAND" alt="Brand Logo" width="140px" align="center" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Welcome Banner -->
+    <mj-section background-color="{brandPrimary}" padding="40px 30px">
+      <mj-column>
+        <mj-text align="center" color="#ffffff" font-size="28px" font-weight="bold">
+          Welcome to the Club!
+        </mj-text>
+        <mj-text align="center" color="rgba(255,255,255,0.9)" font-size="16px" padding-top="10px">
+          You've unlocked exclusive member benefits
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Intro -->
+    <mj-section padding="35px 25px">
+      <mj-column>
+        <mj-text font-size="15px">
+          Hi there!<br/><br/>
+          We're excited to welcome you to our community. As a new member, you now have access to exclusive perks that'll make your experience even better.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Benefits Grid -->
+    <mj-section padding="0 20px">
+      <mj-column width="50%" background-color="{brandSecondary}" padding="20px" border-radius="8px">
+        <mj-text font-size="24px" align="center">🎁</mj-text>
+        <mj-text font-size="14px" font-weight="bold" align="center" padding-top="10px">Welcome Gift</mj-text>
+        <mj-text font-size="13px" align="center" color="#666666" padding-top="5px">15% off your first order</mj-text>
+      </mj-column>
+      <mj-column width="50%" background-color="{brandSecondary}" padding="20px" border-radius="8px">
+        <mj-text font-size="24px" align="center">⭐</mj-text>
+        <mj-text font-size="14px" font-weight="bold" align="center" padding-top="10px">Early Access</mj-text>
+        <mj-text font-size="13px" align="center" color="#666666" padding-top="5px">Shop new arrivals first</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="15px 20px 30px">
+      <mj-column width="50%" background-color="{brandSecondary}" padding="20px" border-radius="8px">
+        <mj-text font-size="24px" align="center">🚀</mj-text>
+        <mj-text font-size="14px" font-weight="bold" align="center" padding-top="10px">Free Shipping</mj-text>
+        <mj-text font-size="13px" align="center" color="#666666" padding-top="5px">On all orders over $50</mj-text>
+      </mj-column>
+      <mj-column width="50%" background-color="{brandSecondary}" padding="20px" border-radius="8px">
+        <mj-text font-size="24px" align="center">🎂</mj-text>
+        <mj-text font-size="14px" font-weight="bold" align="center" padding-top="10px">Birthday Treat</mj-text>
+        <mj-text font-size="13px" align="center" color="#666666" padding-top="5px">Special gift each year</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- CTA -->
+    <mj-section padding="20px">
+      <mj-column>
+        <mj-button href="#" align="center" font-size="15px" padding="15px 40px">
+          Start Shopping
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Promo Code -->
+    <mj-section padding="20px">
+      <mj-column background-color="{brandSecondary}" border-radius="8px" padding="20px">
+        <mj-text align="center" font-size="13px" color="#666666">Your welcome code:</mj-text>
+        <mj-text align="center" font-size="24px" font-weight="bold" color="{brandPrimary}" padding-top="5px">WELCOME15</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section padding="30px 20px">
+      <mj-column>
+        <mj-social font-size="12px" icon-size="26px" mode="horizontal" align="center">
+          <mj-social-element name="facebook" href="#" />
+          <mj-social-element name="instagram" href="#" />
+          <mj-social-element name="twitter" href="#" />
+        </mj-social>
+        <mj-text align="center" font-size="11px" color="#888888" padding-top="20px">
+          © 2024 Brand Name<br/>
+          <a href="#" style="color:#888888">Unsubscribe</a> | <a href="#" style="color:#888888">Preferences</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

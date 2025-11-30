@@ -1,0 +1,103 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}, Arial, sans-serif" />
+      <mj-text color="{brandText}" line-height="1.5" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" border-radius="50px" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#fff5f5" width="640px">
+    <!-- Header -->
+    <mj-section padding="25px 20px">
+      <mj-column>
+        <mj-image src="https://placehold.co/150x50/fff5f5/e91e63/png?text=BEAUTY" alt="Beauty Brand Logo" width="130px" align="center" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Hero -->
+    <mj-section padding="30px 20px">
+      <mj-column>
+        <mj-text align="center" font-size="14px" color="{brandAccent}" letter-spacing="2px">
+          LIMITED TIME OFFER
+        </mj-text>
+        <mj-text align="center" font-size="38px" font-weight="bold" color="{brandPrimary}" padding-top="10px">
+          Holiday Glow Sale
+        </mj-text>
+        <mj-text align="center" font-size="16px" color="#666666" padding-top="10px">
+          Get party-ready with up to 40% off bestsellers
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Hero Image -->
+    <mj-section padding="0 20px">
+      <mj-column>
+        <mj-image src="https://placehold.co/600x350/fce4ec/e91e63/png?text=Holiday+Collection" alt="Holiday Collection" border-radius="12px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Featured Products -->
+    <mj-section padding="35px 15px 15px">
+      <mj-column width="50%">
+        <mj-image src="https://placehold.co/280x280/ffffff/e91e63/png?text=Serum" alt="Glow Serum" border-radius="10px" />
+        <mj-text align="center" font-weight="bold" padding-top="12px">Radiance Serum</mj-text>
+        <mj-text align="center" font-size="13px" color="#999999"><s>$68</s></mj-text>
+        <mj-text align="center" font-size="18px" color="{brandAccent}" font-weight="bold">$48</mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image src="https://placehold.co/280x280/ffffff/e91e63/png?text=Palette" alt="Eye Palette" border-radius="10px" />
+        <mj-text align="center" font-weight="bold" padding-top="12px">Shimmer Palette</mj-text>
+        <mj-text align="center" font-size="13px" color="#999999"><s>$55</s></mj-text>
+        <mj-text align="center" font-size="18px" color="{brandAccent}" font-weight="bold">$38</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0 15px 30px">
+      <mj-column width="50%">
+        <mj-image src="https://placehold.co/280x280/ffffff/e91e63/png?text=Lipstick" alt="Lipstick Set" border-radius="10px" />
+        <mj-text align="center" font-weight="bold" padding-top="12px">Luxe Lip Set</mj-text>
+        <mj-text align="center" font-size="13px" color="#999999"><s>$45</s></mj-text>
+        <mj-text align="center" font-size="18px" color="{brandAccent}" font-weight="bold">$32</mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image src="https://placehold.co/280x280/ffffff/e91e63/png?text=Mist" alt="Setting Mist" border-radius="10px" />
+        <mj-text align="center" font-weight="bold" padding-top="12px">Glow Mist</mj-text>
+        <mj-text align="center" font-size="13px" color="#999999"><s>$32</s></mj-text>
+        <mj-text align="center" font-size="18px" color="{brandAccent}" font-weight="bold">$22</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- CTA -->
+    <mj-section padding="10px 20px">
+      <mj-column>
+        <mj-button href="#" align="center" font-size="15px" padding="15px 45px">
+          Shop the Sale
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Gift with Purchase -->
+    <mj-section padding="30px 20px">
+      <mj-column background-color="#ffffff" border-radius="12px" padding="25px">
+        <mj-text align="center" font-size="14px" color="{brandAccent}" font-weight="bold">🎁 BONUS</mj-text>
+        <mj-text align="center" font-size="16px" font-weight="bold" padding-top="8px">Free Gift with $75+ Purchase</mj-text>
+        <mj-text align="center" font-size="13px" color="#666666" padding-top="5px">Deluxe makeup bag + 3 travel-size products</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section padding="25px 20px">
+      <mj-column>
+        <mj-social font-size="12px" icon-size="26px" mode="horizontal" align="center">
+          <mj-social-element name="instagram" href="#" />
+          <mj-social-element name="facebook" href="#" />
+          <mj-social-element name="youtube" href="#" />
+        </mj-social>
+        <mj-text align="center" font-size="11px" color="#888888" padding-top="20px">
+          © 2024 Beauty Brand<br/>
+          <a href="#" style="color:#888888">Unsubscribe</a> | <a href="#" style="color:#888888">Preferences</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

@@ -1,0 +1,114 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}, Arial, sans-serif" />
+      <mj-text color="{brandText}" line-height="1.5" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" border-radius="4px" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="{brandBG}" width="640px">
+    <!-- Header -->
+    <mj-section padding="20px">
+      <mj-column>
+        <mj-image src="https://placehold.co/150x50/png?text=LOGO" alt="Company Logo" width="130px" align="center" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Success Banner -->
+    <mj-section background-color="#22c55e" padding="25px 20px">
+      <mj-column>
+        <mj-text align="center" color="#ffffff" font-size="24px" font-weight="bold">
+          ✓ Order Confirmed!
+        </mj-text>
+        <mj-text align="center" color="#ffffff" font-size="14px" padding-top="5px">
+          Order #ORD-2024-78543
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Order Info -->
+    <mj-section padding="30px 20px">
+      <mj-column>
+        <mj-text font-size="16px">
+          Hi {{customer_name}},<br/><br/>
+          Thank you for your order! We've received your purchase and are preparing it for shipment.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Order Summary -->
+    <mj-section background-color="{brandSecondary}" padding="25px 20px">
+      <mj-column>
+        <mj-text font-size="18px" font-weight="bold" padding-bottom="15px">
+          Order Summary
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="{brandSecondary}" padding="0 20px">
+      <mj-column width="20%">
+        <mj-image src="https://placehold.co/100x100/png?text=Item" alt="Product thumbnail" width="80px" />
+      </mj-column>
+      <mj-column width="55%">
+        <mj-text font-weight="bold">Premium Wireless Headphones</mj-text>
+        <mj-text font-size="13px" color="#666666">Color: Matte Black • Qty: 1</mj-text>
+      </mj-column>
+      <mj-column width="25%">
+        <mj-text align="right" font-weight="bold">$149.00</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="{brandSecondary}" padding="15px 20px 25px">
+      <mj-column>
+        <mj-divider border-color="#dddddd" border-width="1px" />
+        <mj-text padding-top="15px">
+          <table width="100%" style="font-size:14px">
+            <tr><td>Subtotal</td><td align="right">$149.00</td></tr>
+            <tr><td>Shipping</td><td align="right">$0.00</td></tr>
+            <tr><td>Tax</td><td align="right">$12.67</td></tr>
+            <tr><td style="font-weight:bold;padding-top:10px">Total</td><td align="right" style="font-weight:bold;padding-top:10px">$161.67</td></tr>
+          </table>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Shipping Info -->
+    <mj-section padding="25px 20px">
+      <mj-column width="50%">
+        <mj-text font-weight="bold" font-size="14px">Shipping Address</mj-text>
+        <mj-text font-size="13px" padding-top="10px">
+          {{customer_name}}<br/>
+          123 Main Street<br/>
+          City, State 12345
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text font-weight="bold" font-size="14px">Estimated Delivery</mj-text>
+        <mj-text font-size="13px" padding-top="10px">
+          November 28-30, 2024<br/>
+          Standard Shipping
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- CTA -->
+    <mj-section padding="10px 20px 30px">
+      <mj-column>
+        <mj-button href="#" align="center">
+          Track Your Order
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section padding="25px 20px" background-color="{brandSecondary}">
+      <mj-column>
+        <mj-text align="center" font-size="12px" color="#666666">
+          Questions? Contact us at support@company.com<br/><br/>
+          © 2024 Company Name. All rights reserved.<br/>
+          <a href="#" style="color:#666666">Unsubscribe</a> from order updates
+        </mj-text>
+      </mj:column>
+    </mj-section>
+  </mj-body>
+</mjml>
