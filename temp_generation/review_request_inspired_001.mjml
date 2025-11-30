@@ -1,0 +1,152 @@
+<mjml>
+  <mj-head>
+    <mj-title>How Did We Do?</mj-title>
+    <mj-preview>Share your feedback on your recent purchase</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}, Helvetica, Arial, sans-serif" />
+      <mj-text font-size="16px" color="{brandText}" line-height="24px" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" font-size="16px" font-weight="bold" border-radius="4px" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="{brandBG}" width="640px">
+    <!-- Header -->
+    <mj-section background-color="#ffffff" padding="25px 40px">
+      <mj-column>
+        <mj-image src="https://placehold.co/120x40/333333/ffffff?text=STORE" alt="Store Logo" width="120px" align="center" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Hero -->
+    <mj-section background-color="{brandPrimary}" padding="40px">
+      <mj-column>
+        <mj-text font-size="32px" font-weight="bold" color="#ffffff" align="center">
+          How Was Your Experience?
+        </mj-text>
+        <mj-text color="#ffffff" align="center" padding-top="15px" font-size="18px">
+          Your feedback helps us improve and helps other shoppers make better decisions.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Product to Review -->
+    <mj-section background-color="#ffffff" padding="40px">
+      <mj-column width="35%">
+        <mj-image src="https://placehold.co/180x180/f5f5f5/333333?text=Product" alt="Product you purchased" />
+      </mj-column>
+      <mj-column width="65%">
+        <mj-text font-size="12px" color="#888888" text-transform="uppercase">
+          You Purchased
+        </mj-text>
+        <mj-text font-size="20px" font-weight="bold" padding-top="10px">
+          Premium Leather Messenger Bag
+        </mj-text>
+        <mj-text font-size="14px" color="#888888" padding-top="10px">
+          Order #{{OrderNumber}}<br />
+          Delivered on {{DeliveryDate}}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Star Rating -->
+    <mj-section background-color="#ffffff" padding="0 40px 30px">
+      <mj-column>
+        <mj-text align="center" font-weight="bold" font-size="18px">
+          Rate Your Purchase
+        </mj-text>
+        <mj-text align="center" padding-top="20px" font-size="40px">
+          <a href="#" style="text-decoration: none; color: #ffc107;">&#9733;</a>
+          <a href="#" style="text-decoration: none; color: #ffc107;">&#9733;</a>
+          <a href="#" style="text-decoration: none; color: #ffc107;">&#9733;</a>
+          <a href="#" style="text-decoration: none; color: #ffc107;">&#9733;</a>
+          <a href="#" style="text-decoration: none; color: #ffc107;">&#9733;</a>
+        </mj-text>
+        <mj-text align="center" font-size="14px" color="#888888" padding-top="10px">
+          Click a star to rate
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- CTA -->
+    <mj-section background-color="#ffffff" padding="0 40px 40px">
+      <mj-column>
+        <mj-button href="#" width="100%">
+          Write a Review
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Benefits -->
+    <mj-section background-color="#f9f9f9" padding="30px 40px">
+      <mj-column>
+        <mj-text font-size="18px" font-weight="bold" align="center">
+          Why Your Review Matters
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#f9f9f9" padding="0 20px 30px">
+      <mj-column width="33%">
+        <mj-image src="https://placehold.co/50x50/f5f5f5/333333?text=1" alt="Help others" width="50px" align="center" />
+        <mj-text font-size="14px" font-weight="bold" align="center" padding-top="10px">Help Others</mj-text>
+        <mj-text font-size="12px" align="center" color="#666666">Your insights guide future shoppers</mj-text>
+      </mj-column>
+      <mj-column width="33%">
+        <mj-image src="https://placehold.co/50x50/f5f5f5/333333?text=2" alt="Earn rewards" width="50px" align="center" />
+        <mj-text font-size="14px" font-weight="bold" align="center" padding-top="10px">Earn Points</mj-text>
+        <mj-text font-size="12px" align="center" color="#666666">Get 50 bonus points for reviewing</mj-text>
+      </mj-column>
+      <mj-column width="33%">
+        <mj-image src="https://placehold.co/50x50/f5f5f5/333333?text=3" alt="Shape products" width="50px" align="center" />
+        <mj-text font-size="14px" font-weight="bold" align="center" padding-top="10px">Shape Products</mj-text>
+        <mj-text font-size="12px" align="center" color="#666666">Help us improve our offerings</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Related Products -->
+    <mj-section background-color="#ffffff" padding="30px 40px 15px">
+      <mj-column>
+        <mj-text font-size="18px" font-weight="bold" align="center">
+          You Might Also Like
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="10px 20px 40px">
+      <mj-column width="33%">
+        <mj-image src="https://placehold.co/150x150/f5f5f5/333333?text=Related+1" alt="Related product 1" />
+        <mj-text font-size="13px" font-weight="bold" align="center" padding-top="10px">Leather Wallet</mj-text>
+        <mj-text font-size="13px" align="center" color="{brandPrimary}">$49.99</mj-text>
+      </mj-column>
+      <mj-column width="33%">
+        <mj-image src="https://placehold.co/150x150/f5f5f5/333333?text=Related+2" alt="Related product 2" />
+        <mj-text font-size="13px" font-weight="bold" align="center" padding-top="10px">Travel Pouch</mj-text>
+        <mj-text font-size="13px" align="center" color="{brandPrimary}">$29.99</mj-text>
+      </mj-column>
+      <mj-column width="33%">
+        <mj-image src="https://placehold.co/150x150/f5f5f5/333333?text=Related+3" alt="Related product 3" />
+        <mj-text font-size="13px" font-weight="bold" align="center" padding-top="10px">Key Holder</mj-text>
+        <mj-text font-size="13px" align="center" color="{brandPrimary}">$19.99</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="#333333" padding="30px 40px">
+      <mj-column>
+        <mj-social font-size="15px" icon-size="25px" mode="horizontal" align="center">
+          <mj-social-element name="instagram" href="#" background-color="#555555" />
+          <mj-social-element name="facebook" href="#" background-color="#555555" />
+          <mj-social-element name="twitter" href="#" background-color="#555555" />
+        </mj-social>
+        <mj-text font-size="12px" align="center" color="#ffffff" padding-top="20px">
+          Questions? <a href="#" style="color: #ffffff;">Contact Support</a>
+        </mj-text>
+        <mj-text font-size="12px" align="center" color="#888888" padding-top="15px">
+          <a href="#" style="color: #888888;">Unsubscribe</a> | <a href="#" style="color: #888888;">Privacy Policy</a>
+        </mj-text>
+        <mj-text font-size="12px" align="center" color="#888888" padding-top="10px">
+          © 2024 Store Name. All rights reserved.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

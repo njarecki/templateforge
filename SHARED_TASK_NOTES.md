@@ -1,9 +1,10 @@
 # TemplateForge Generation Task Notes
 
 ## Current Status (Updated 2025-11-30)
-- **Generated**: 10 templates (8 original, 2 inspired)
+- **Generated**: 20 templates (8 original, 12 inspired)
 - **Target**: 10,000 unique templates (score ≥85)
 - **Required split**: 50% inspired / 50% original
+- **Current split**: 40% original / 60% inspired
 - **All templates**: Valid HTML, MJML-compiled
 
 ## Run Commands
@@ -28,11 +29,11 @@ npx mjml input.mjml -o output.html
 ```
 
 ## Category Distribution (Current)
-- Ecommerce: 3
-- Transactional: 3
-- Promo: 2
-- Newsletter: 1
-- Welcome: 1
+- Ecommerce: 6
+- Transactional: 6
+- Promo: 4
+- Newsletter: 2
+- Welcome: 2
 
 ## Section Library (from runbook)
 hero, subhero, 1col_text, 2col_text_image, 3col_features, product_grid, testimonial, story_block, cta_band, header_nav, offer_banner, order_summary, social_icons, footer_simple, footer_complex, divider, spacer
@@ -48,27 +49,36 @@ All images: placeholder URLs from placehold.co
 
 ## Next Steps (Priority)
 
-1. **Generate more "inspired" templates** - Currently at 20% inspired, need 50%
-   - Use seed templates from `data/index/templates_enriched.json`
-   - Abstract section maps and recombine with variations
-   - Focus on high-quality seeds (has_media_queries, table_count≥8, 20-220KB)
+1. **Generate more "original" templates** - Currently at 40% original, need 50%
+   - Create diverse original layouts using section library
+   - Focus on underrepresented categories: Welcome, Newsletter
 
-2. **Increase volume across categories**:
-   - Welcome: More onboarding flows
-   - Newsletter: Blog digests, weekly roundups
-   - Ecommerce: Cart recovery, product launches, reviews
-   - Transactional: Account confirmations, receipts
-   - Promo: Flash sales, seasonal, loyalty
+2. **Scale up volume**:
+   - Batch generate 50+ templates per session
+   - Continue until 10,000 unique templates reached
+   - Categories needed most: Welcome, Newsletter
 
 3. **Apply style variations**:
-   - Each template should have 2-3 style variants
-   - Use all 10 style packs for diversity
+   - Create 2-3 style variants per template
+   - All 10 style packs now being used
 
-4. **Batch generation approach**:
-   - Create 50 templates per session
-   - Compile all MJML → HTML
-   - Add to index with proper metadata
+4. **Batch generation workflow**:
+   - Create MJML templates in temp_generation/
+   - Compile all: `for f in *.mjml; do npx mjml "$f" -o "${f%.mjml}.html"; done`
+   - Add each with proper metadata via design_pipeline.py
    - Run dedupe after each batch
+
+## Templates Added This Session (10 inspired)
+- welcome_inspired_002 (Welcome, Apple Light Minimal, score 88)
+- receipt_inspired_001 (Transactional, Linear Dark, score 89)
+- cart_inspired_001 (Ecommerce, DTC Pastel, score 90)
+- newsletter_inspired_002 (Newsletter, Editorial Serif, score 91)
+- promo_inspired_001 (Promo, Brutalist Bold, score 90)
+- account_confirm_inspired_001 (Transactional, Minimal White, score 87)
+- product_launch_inspired_001 (Ecommerce, Black & Gold Premium, score 92)
+- review_request_inspired_001 (Transactional, Warm Neutral, score 88)
+- event_invite_inspired_001 (Promo, Modern Gradient, score 91)
+- loyalty_program_inspired_001 (Ecommerce, Neon Gaming, score 89)
 
 ## Quality Criteria (from runbook)
 - Score ≥85 to keep
