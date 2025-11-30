@@ -1608,6 +1608,323 @@ def section_multi_step_form():
     }
 
 
+def section_referral_program():
+    """Referral program section with unique referral link and rewards info."""
+    return {
+        "type": "referral_program",
+        "name": "Referral Program",
+        "html": f'''
+<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+    <tr>
+        <td style="padding: 24px;">
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: {{{{brandAccent}}}}10; border-radius: 12px; border: 2px dashed {{{{brandAccent}}}}40;">
+                <tr>
+                    <td style="padding: 32px;" align="center">
+                        <!-- Icon/Image -->
+                        <table width="80" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                            <tr>
+                                <td align="center" style="width: 80px; height: 80px; background-color: {{{{brandAccent}}}}; border-radius: 50%;">
+                                    <img src="{IMAGE_PLACEHOLDERS['icon']}" alt="Refer" width="40" height="40" style="display: block;" />
+                                </td>
+                            </tr>
+                        </table>
+
+                        <h2 style="font-family: {{{{brandFont}}}}; font-size: 24px; color: {{{{brandPrimary}}}}; margin: 24px 0 8px;">{{{{referralHeadline}}}}</h2>
+                        <p style="font-family: {{{{brandFont}}}}; font-size: 16px; color: {{{{brandSecondary}}}}; margin: 0 0 24px; max-width: 400px;">{{{{referralDescription}}}}</p>
+
+                        <!-- Reward highlight -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="max-width: 360px; margin: 0 auto 24px;">
+                            <tr>
+                                <td width="50%" style="padding: 16px; background-color: {{{{brandBG}}}}; border-radius: 8px 0 0 8px; text-align: center;">
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 12px; color: {{{{brandSecondary}}}}; margin: 0 0 4px; text-transform: uppercase;">You Get</p>
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 24px; color: {{{{brandAccent}}}}; margin: 0; font-weight: 700;">{{{{referralYourReward}}}}</p>
+                                </td>
+                                <td width="50%" style="padding: 16px; background-color: {{{{brandBG}}}}; border-radius: 0 8px 8px 0; text-align: center; border-left: 2px solid {{{{brandSecondary}}}}20;">
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 12px; color: {{{{brandSecondary}}}}; margin: 0 0 4px; text-transform: uppercase;">They Get</p>
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 24px; color: {{{{brandAccent}}}}; margin: 0; font-weight: 700;">{{{{referralTheirReward}}}}</p>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <!-- Referral link -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="max-width: 400px; margin: 0 auto 20px;">
+                            <tr>
+                                <td style="padding: 14px 20px; background-color: {{{{brandBG}}}}; border: 1px solid {{{{brandSecondary}}}}30; border-radius: 8px;">
+                                    <p style="font-family: monospace; font-size: 14px; color: {{{{brandPrimary}}}}; margin: 0; word-break: break-all;">{{{{referralLink}}}}</p>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <a href="{{{{referralShareUrl}}}}" style="display: inline-block; padding: 14px 32px; background-color: {{{{brandAccent}}}}; color: #ffffff; font-family: {{{{brandFont}}}}; font-size: 16px; font-weight: 600; text-decoration: none; border-radius: 8px;">{{{{referralCtaLabel}}}}</a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+'''
+    }
+
+
+def section_loyalty_points():
+    """Loyalty points section showing current balance, tier status, and rewards."""
+    return {
+        "type": "loyalty_points",
+        "name": "Loyalty Points",
+        "html": f'''
+<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+    <tr>
+        <td style="padding: 24px;">
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="background: linear-gradient(135deg, {{{{brandPrimary}}}} 0%, {{{{brandAccent}}}} 100%); border-radius: 16px;">
+                <tr>
+                    <td style="padding: 32px;">
+                        <!-- Header -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                            <tr>
+                                <td>
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: #ffffff99; margin: 0 0 4px; text-transform: uppercase; letter-spacing: 1px;">{{{{loyaltyProgramName}}}}</p>
+                                    <h2 style="font-family: {{{{brandFont}}}}; font-size: 28px; color: #ffffff; margin: 0;">{{{{loyaltyUserName}}}}</h2>
+                                </td>
+                                <td align="right" valign="top">
+                                    <table cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: #ffffff20; border-radius: 20px; padding: 6px 16px;">
+                                        <tr>
+                                            <td>
+                                                <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: #ffffff; margin: 0; font-weight: 600;">{{{{loyaltyTier}}}}</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <!-- Points display -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin: 24px 0;">
+                            <tr>
+                                <td align="center">
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 56px; color: #ffffff; margin: 0; font-weight: 700; line-height: 1;">{{{{loyaltyPoints}}}}</p>
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 16px; color: #ffffff99; margin: 8px 0 0;">points available</p>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <!-- Progress to next tier -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-bottom: 24px;">
+                            <tr>
+                                <td>
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: #ffffff30; border-radius: 4px; height: 8px;">
+                                        <tr>
+                                            <td width="{{{{loyaltyProgressPercent}}}}%" style="background-color: #ffffff; border-radius: 4px; height: 8px;"></td>
+                                            <td></td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding-top: 8px;">
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 13px; color: #ffffff99; margin: 0;">{{{{loyaltyPointsToNext}}}} points to {{{{loyaltyNextTier}}}}</p>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                            <tr>
+                                <td align="center">
+                                    <a href="{{{{loyaltyRedeemUrl}}}}" style="display: inline-block; padding: 14px 32px; background-color: #ffffff; color: {{{{brandPrimary}}}}; font-family: {{{{brandFont}}}}; font-size: 16px; font-weight: 600; text-decoration: none; border-radius: 8px;">{{{{loyaltyCtaLabel}}}}</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+'''
+    }
+
+
+def section_gift_card():
+    """Gift card section with amount, code, and redemption info."""
+    return {
+        "type": "gift_card",
+        "name": "Gift Card",
+        "html": f'''
+<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+    <tr>
+        <td style="padding: 24px;">
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: {{{{brandPrimary}}}}; border-radius: 16px; overflow: hidden;">
+                <tr>
+                    <td style="padding: 0;">
+                        <!-- Decorative header strip -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: {{{{brandAccent}}}};">
+                            <tr>
+                                <td style="padding: 16px 32px;">
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: #ffffff; margin: 0; font-weight: 600; text-transform: uppercase; letter-spacing: 2px;">{{{{giftCardBrandName}}}}</p>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <!-- Main gift card body -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                            <tr>
+                                <td style="padding: 32px;">
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 16px; color: #ffffff99; margin: 0 0 8px;">Gift Card</p>
+                                    <h2 style="font-family: {{{{brandFont}}}}; font-size: 48px; color: #ffffff; margin: 0 0 24px; font-weight: 700;">{{{{giftCardAmount}}}}</h2>
+
+                                    <!-- Gift card code -->
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: #ffffff15; border-radius: 8px; margin-bottom: 24px;">
+                                        <tr>
+                                            <td style="padding: 20px;">
+                                                <p style="font-family: {{{{brandFont}}}}; font-size: 12px; color: #ffffff80; margin: 0 0 8px; text-transform: uppercase;">Your Gift Code</p>
+                                                <p style="font-family: monospace; font-size: 28px; color: #ffffff; margin: 0; letter-spacing: 4px; font-weight: 600;">{{{{giftCardCode}}}}</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <!-- From/To info -->
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-bottom: 24px;">
+                                        <tr>
+                                            <td width="50%">
+                                                <p style="font-family: {{{{brandFont}}}}; font-size: 12px; color: #ffffff80; margin: 0 0 4px; text-transform: uppercase;">From</p>
+                                                <p style="font-family: {{{{brandFont}}}}; font-size: 16px; color: #ffffff; margin: 0;">{{{{giftCardFrom}}}}</p>
+                                            </td>
+                                            <td width="50%">
+                                                <p style="font-family: {{{{brandFont}}}}; font-size: 12px; color: #ffffff80; margin: 0 0 4px; text-transform: uppercase;">To</p>
+                                                <p style="font-family: {{{{brandFont}}}}; font-size: 16px; color: #ffffff; margin: 0;">{{{{giftCardTo}}}}</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <!-- Personal message -->
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="border-left: 3px solid {{{{brandAccent}}}}; padding-left: 16px; margin-bottom: 24px;">
+                                        <tr>
+                                            <td>
+                                                <p style="font-family: {{{{brandFont}}}}; font-size: 16px; color: #ffffff; margin: 0; font-style: italic;">"{{{{giftCardMessage}}}}"</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                                        <tr>
+                                            <td align="center">
+                                                <a href="{{{{giftCardRedeemUrl}}}}" style="display: inline-block; padding: 14px 32px; background-color: {{{{brandAccent}}}}; color: #ffffff; font-family: {{{{brandFont}}}}; font-size: 16px; font-weight: 600; text-decoration: none; border-radius: 8px;">{{{{giftCardCtaLabel}}}}</a>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 12px; color: #ffffff60; margin: 20px 0 0; text-align: center;">Valid until {{{{giftCardExpiry}}}}</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+'''
+    }
+
+
+def section_subscription_renewal():
+    """Subscription renewal section with plan details, renewal date, and action buttons."""
+    return {
+        "type": "subscription_renewal",
+        "name": "Subscription Renewal",
+        "html": f'''
+<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+    <tr>
+        <td style="padding: 24px;">
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="border: 1px solid {{{{brandSecondary}}}}20; border-radius: 12px;">
+                <tr>
+                    <td style="padding: 32px;">
+                        <!-- Status indicator -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-bottom: 24px;">
+                            <tr>
+                                <td>
+                                    <table cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: {{{{subscriptionStatusColor}}}}15; border-radius: 20px; padding: 6px 16px;">
+                                        <tr>
+                                            <td style="padding-right: 8px;">
+                                                <table width="8" height="8" cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: {{{{subscriptionStatusColor}}}}; border-radius: 50%;">
+                                                    <tr><td></td></tr>
+                                                </table>
+                                            </td>
+                                            <td>
+                                                <p style="font-family: {{{{brandFont}}}}; font-size: 13px; color: {{{{subscriptionStatusColor}}}}; margin: 0; font-weight: 600;">{{{{subscriptionStatus}}}}</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <h2 style="font-family: {{{{brandFont}}}}; font-size: 24px; color: {{{{brandPrimary}}}}; margin: 0 0 8px;">{{{{subscriptionHeadline}}}}</h2>
+                        <p style="font-family: {{{{brandFont}}}}; font-size: 16px; color: {{{{brandSecondary}}}}; margin: 0 0 24px;">{{{{subscriptionDescription}}}}</p>
+
+                        <!-- Plan details card -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: {{{{brandSecondary}}}}08; border-radius: 8px; margin-bottom: 24px;">
+                            <tr>
+                                <td style="padding: 24px;">
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                                        <tr>
+                                            <td>
+                                                <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandSecondary}}}}; margin: 0 0 4px;">Current Plan</p>
+                                                <p style="font-family: {{{{brandFont}}}}; font-size: 20px; color: {{{{brandPrimary}}}}; margin: 0; font-weight: 600;">{{{{subscriptionPlanName}}}}</p>
+                                            </td>
+                                            <td align="right">
+                                                <p style="font-family: {{{{brandFont}}}}; font-size: 28px; color: {{{{brandPrimary}}}}; margin: 0; font-weight: 700;">{{{{subscriptionPrice}}}}</p>
+                                                <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandSecondary}}}}; margin: 0;">{{{{subscriptionBillingCycle}}}}</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <!-- Divider -->
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin: 20px 0;">
+                                        <tr>
+                                            <td style="border-top: 1px solid {{{{brandSecondary}}}}20;"></td>
+                                        </tr>
+                                    </table>
+
+                                    <!-- Renewal info -->
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                                        <tr>
+                                            <td width="50%">
+                                                <p style="font-family: {{{{brandFont}}}}; font-size: 13px; color: {{{{brandSecondary}}}}; margin: 0 0 4px;">Renewal Date</p>
+                                                <p style="font-family: {{{{brandFont}}}}; font-size: 16px; color: {{{{brandPrimary}}}}; margin: 0; font-weight: 600;">{{{{subscriptionRenewalDate}}}}</p>
+                                            </td>
+                                            <td width="50%">
+                                                <p style="font-family: {{{{brandFont}}}}; font-size: 13px; color: {{{{brandSecondary}}}}; margin: 0 0 4px;">Payment Method</p>
+                                                <p style="font-family: {{{{brandFont}}}}; font-size: 16px; color: {{{{brandPrimary}}}}; margin: 0; font-weight: 600;">{{{{subscriptionPaymentMethod}}}}</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <!-- Action buttons -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                            <tr>
+                                <td align="center" style="padding-right: 8px;">
+                                    <a href="{{{{subscriptionManageUrl}}}}" style="display: inline-block; padding: 14px 24px; background-color: {{{{brandAccent}}}}; color: #ffffff; font-family: {{{{brandFont}}}}; font-size: 16px; font-weight: 600; text-decoration: none; border-radius: 8px;">{{{{subscriptionPrimaryCtaLabel}}}}</a>
+                                </td>
+                                <td align="center" style="padding-left: 8px;">
+                                    <a href="{{{{subscriptionUpgradeUrl}}}}" style="display: inline-block; padding: 14px 24px; background-color: transparent; color: {{{{brandAccent}}}}; font-family: {{{{brandFont}}}}; font-size: 16px; font-weight: 600; text-decoration: none; border-radius: 8px; border: 2px solid {{{{brandAccent}}}};">{{{{subscriptionSecondaryCtaLabel}}}}</a>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <p style="font-family: {{{{brandFont}}}}; font-size: 13px; color: {{{{brandSecondary}}}}; margin: 20px 0 0; text-align: center;">Questions? <a href="{{{{subscriptionHelpUrl}}}}" style="color: {{{{brandAccent}}}}; text-decoration: underline;">Contact Support</a></p>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+'''
+    }
+
+
 # Registry of all sections
 SECTION_REGISTRY = {
     "hero": section_hero,
@@ -1646,6 +1963,10 @@ SECTION_REGISTRY = {
     "rating_stars": section_rating_stars,
     "gallery_carousel": section_gallery_carousel,
     "multi_step_form": section_multi_step_form,
+    "referral_program": section_referral_program,
+    "loyalty_points": section_loyalty_points,
+    "gift_card": section_gift_card,
+    "subscription_renewal": section_subscription_renewal,
 }
 
 
