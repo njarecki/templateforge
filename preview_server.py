@@ -478,15 +478,16 @@ class PreviewHandler(http.server.SimpleHTTPRequestHandler):
 
 
 def run_server(port=DEFAULT_PORT):
-    """Start the preview server."""
+    """Start the preview server bound to localhost only."""
     handler = PreviewHandler
 
-    with socketserver.TCPServer(("", port), handler) as httpd:
+    # Bind explicitly to 127.0.0.1 to avoid interface restrictions in sandboxes
+    with socketserver.TCPServer(("127.0.0.1", port), handler) as httpd:
         print("=" * 50)
         print("TemplateForge Preview Server")
         print("=" * 50)
         print()
-        print(f"Server running at: http://localhost:{port}")
+        print(f"Server running at: http://127.0.0.1:{port}")
         print()
         print("Endpoints:")
         print(f"  /                     - Template gallery")
