@@ -1,7 +1,7 @@
 # TemplateForge Task Notes
 
 ## Current State
-Core pipeline is complete with MJML output support added. Run `python3 pipeline.py --output output_batch.json` to generate a full batch.
+Core pipeline is complete with preview server added. Run `python3 pipeline.py --preview` to browse templates in browser.
 
 ## What's Working
 - 16 template types across 6 categories (Welcome, SaaS, Ecommerce, Newsletter, Promo, Transactional)
@@ -11,35 +11,36 @@ Core pipeline is complete with MJML output support added. Run `python3 pipeline.
 - Validation and auto-fix for accessibility/best practices
 - Generates 144 total templates per run
 - External template fetching from MJML and Foundation repos
-- **NEW**: MJML output format support for easier downstream editing
+- MJML output format support for easier downstream editing
+- **NEW**: Preview server for browsing templates in browser
 
-## MJML Output Support
-Templates can now be output in MJML format alongside HTML:
+## Preview Server
+Start the server with:
 ```bash
-python3 pipeline.py -f mjml -o batch_mjml.json     # Full batch with MJML
-python3 pipeline.py -t welcome -f mjml             # Single template MJML
-python3 pipeline.py -t welcome -o template.mjml    # Direct .mjml file output
+python3 pipeline.py --preview              # Starts on port 8080
+python3 pipeline.py --preview --port 3000  # Custom port
+python3 preview_server.py                  # Direct run
 ```
 
-The `mjml_converter.py` module converts all 24 section types to native MJML components:
-- mj-section, mj-column for layout
-- mj-text, mj-button, mj-image for content
-- mj-social for social icons
-- mj-divider, mj-spacer for spacing
+Endpoints:
+- `/` - Template gallery with all 16 types grouped by category
+- `/preview/<type>?skin=<skin>&format=html|mjml` - Render individual template
+- `/compare/<type>` - Side-by-side comparison of all 5 skins
+- `/api/templates` - JSON list of templates
+- `/api/skins` - JSON list of skins
 
 ## Next Steps
-1. **Preview server** - Add a simple HTTP server to preview templates in browser
+1. **Expand section library** - Add countdown timer, video placeholder, accordion sections
 
-2. **Expand section library** - Add countdown timer, video placeholder, accordion sections
+2. **Template derivation** - Use fetched external templates to derive new template types automatically
 
-3. **Template derivation** - Use fetched external templates to derive new template types automatically
-
-4. **MJML compilation** - Add option to compile MJML to HTML using mjml CLI (requires npm)
+3. **MJML compilation** - Add option to compile MJML to HTML using mjml CLI (requires npm)
 
 ## File Structure
 ```
 pipeline.py            # Main entry point
-mjml_converter.py      # MJML output support (NEW)
+preview_server.py      # HTTP preview server (NEW)
+mjml_converter.py      # MJML output support
 external_sources.py    # External template fetching
 design_system.py       # Tokens, skins, spacing rules
 section_library.py     # 24 section components
@@ -50,11 +51,9 @@ template_validator.py  # Validation and auto-fix
 ## Quick Commands
 ```bash
 python3 pipeline.py --help                    # All options
+python3 pipeline.py --preview                 # Start preview server
 python3 pipeline.py --list-templates          # 16 template types
 python3 pipeline.py --list-skins              # 5 design skins
-python3 pipeline.py --list-sections           # 24 section types
-python3 pipeline.py --list-external-sources   # External sources
-python3 pipeline.py --fetch-external -o ext.json  # Fetch external
-python3 pipeline.py -t password_reset -s linear_dark  # Single template
-python3 pipeline.py -t welcome -f mjml -o out.mjml    # MJML output
+python3 pipeline.py -t welcome -f mjml -o out.mjml  # Single MJML template
+python3 pipeline.py -o batch.json             # Full batch generation
 ```

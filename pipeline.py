@@ -30,6 +30,7 @@ from external_sources import (
     EXTERNAL_SOURCES,
 )
 from mjml_converter import convert_template_to_mjml, generate_mjml_template
+from preview_server import run_server as run_preview_server
 
 
 def run_pipeline(output_file=None, verbose=True, output_format="html"):
@@ -323,8 +324,24 @@ def main():
         choices=["html", "mjml"],
         default="html"
     )
+    parser.add_argument(
+        "--preview",
+        action="store_true",
+        help="Start the preview server to browse templates in browser"
+    )
+    parser.add_argument(
+        "--port",
+        type=int,
+        default=8080,
+        help="Port for preview server (default: 8080)"
+    )
 
     args = parser.parse_args()
+
+    # Preview server mode
+    if args.preview:
+        run_preview_server(args.port)
+        return
 
     # List commands
     if args.list_templates:
