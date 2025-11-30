@@ -22,6 +22,13 @@ from template_generator import (
 from design_system import DESIGN_SKINS
 from section_library import get_all_sections, list_section_types
 from template_validator import validate_template, validate_batch, fix_template_issues
+from external_sources import (
+    fetch_all_external_templates,
+    fetch_templates_from_source,
+    list_available_sources,
+    extract_section_patterns,
+    EXTERNAL_SOURCES,
+)
 
 
 def run_pipeline(output_file=None, verbose=True):
@@ -152,6 +159,66 @@ def run_single_template(template_type, skin="apple_light", output_file=None):
     return template
 
 
+def run_external_fetch(source_id=None, output_file=None, verbose=True):
+    """
+    Fetch templates from external public sources.
+
+    This implements Step 1 of the OBJECTIVE.md pipeline:
+    "Find high-quality public email HTML/MJML templates from legal/open sources"
+    """
+    if verbose:
+        print("=" * 60)
+        print("TemplateForge External Template Sourcing")
+        print("=" * 60)
+        print()
+
+    if source_id:
+        if source_id not in EXTERNAL_SOURCES:
+            print(f"Unknown source: {source_id}")
+            print(f"Available: {', '.join(EXTERNAL_SOURCES.keys())}")
+            return None
+        if verbose:
+            print(f"Fetching from: {source_id}")
+        templates = fetch_templates_from_source(source_id, verbose)
+        results = {
+            'source': source_id,
+            'templates_fetched': templates,
+            'summary': {
+                'total_templates': len(templates)
+            }
+        }
+    else:
+        results = fetch_all_external_templates(verbose)
+
+    # Extract patterns for analysis
+    templates_list = results.get('templates_fetched', [])
+    patterns = extract_section_patterns(templates_list)
+    results['section_patterns'] = patterns
+
+    if verbose:
+        print()
+        print("Section patterns extracted:")
+        for pattern in sorted(patterns, key=lambda x: -x['occurrences']):
+            print(f"  {pattern['type']}: {pattern['occurrences']} occurrences")
+        print()
+
+    # Save if output specified
+    if output_file:
+        with open(output_file, 'w') as f:
+            json.dump(results, f, indent=2)
+        if verbose:
+            print(f"Saved to: {output_file}")
+            print(f"File size: {os.path.getsize(output_file) / 1024:.1f} KB")
+
+    if verbose:
+        print()
+        print("=" * 60)
+        print("External fetch complete!")
+        print("=" * 60)
+
+    return results
+
+
 def main():
     """CLI entry point."""
     import argparse
@@ -201,6 +268,20 @@ def main():
         action="store_true",
         help="Output only JSON (no progress messages)"
     )
+    parser.add_argument(
+        "--fetch-external",
+        action="store_true",
+        help="Fetch templates from external public sources (MJML, Foundation)"
+    )
+    parser.add_argument(
+        "--external-source",
+        help="Specific external source to fetch (mjml_templates, foundation_emails)"
+    )
+    parser.add_argument(
+        "--list-external-sources",
+        action="store_true",
+        help="List available external template sources"
+    )
 
     args = parser.parse_args()
 
@@ -221,6 +302,27 @@ def main():
         print("Available section types:")
         for section_type in list_section_types():
             print(f"  {section_type}")
+        return
+
+    if args.list_external_sources:
+        print("Available external template sources:")
+        for source in list_available_sources():
+            print(f"\n  {source['id']}:")
+            print(f"    Name: {source['name']}")
+            print(f"    Type: {source['type']}")
+            print(f"    Templates ({source['template_count']}): {', '.join(source['templates'][:5])}...")
+        return
+
+    # External fetch mode
+    if args.fetch_external or args.external_source:
+        verbose = not (args.quiet or args.json_only)
+        result = run_external_fetch(
+            source_id=args.external_source,
+            output_file=args.output,
+            verbose=verbose
+        )
+        if args.json_only and not args.output:
+            print(json.dumps(result))
         return
 
     # Generate single template
