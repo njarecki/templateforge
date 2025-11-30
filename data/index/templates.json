@@ -9455,6 +9455,358 @@
         "has_media_queries": false,
         "table_count": 1
       }
+    },
+    {
+      "id": "f59e20c64836572fa420edfa39d0f707",
+      "source_id": "melissatrimarco",
+      "source_name": "MelissaTrimarco/HTML_Email",
+      "url": "https://github.com/MelissaTrimarco/HTML_Email",
+      "license": "Unknown",
+      "type": "html",
+      "file_path": "data/raw/melissatrimarco/marketing_email.html",
+      "byte_size": 37796,
+      "content_hash": "92af1da60a038067c4396238601fcfcca1c31aeeca7b763979090222a93c4dcd",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 24
+      }
+    },
+    {
+      "id": "b32796bebdb8da0edc40b1c7af0876e7",
+      "source_id": "pagopa",
+      "source_name": "pagopa/pn-email-templates",
+      "url": "https://github.com/pagopa/pn-email-templates",
+      "license": "EUPL-1.2",
+      "type": "html",
+      "file_path": "data/raw/pagopa/Mail_CourtesyNotification_index.html",
+      "byte_size": 17830,
+      "content_hash": "efb34bf93551e4de29dfdecab0903799dfdd9ac93c990bfeecba7cdbd83bdc72",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 30
+      }
+    },
+    {
+      "id": "78aabbae927377bf73f5acf429350971",
+      "source_id": "pagopa",
+      "source_name": "pagopa/pn-email-templates",
+      "url": "https://github.com/pagopa/pn-email-templates",
+      "license": "EUPL-1.2",
+      "type": "html",
+      "file_path": "data/raw/pagopa/Mail_VerificationCodeMessage_index.html",
+      "byte_size": 13619,
+      "content_hash": "72f1fb37ab1f816a8544b510a46d4e11c29b1c8bf5960a0f3419c3a01992fd39",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 22
+      }
+    },
+    {
+      "id": "9419cb5962d4c4abbf5de4680975aaca",
+      "source_id": "pagopa",
+      "source_name": "pagopa/pn-email-templates",
+      "url": "https://github.com/pagopa/pn-email-templates",
+      "license": "EUPL-1.2",
+      "type": "html",
+      "file_path": "data/raw/pagopa/PEC_ReceivedNotification_index.html",
+      "byte_size": 12104,
+      "content_hash": "0604b84d7fb8545265f2d21841fdeb0c2e9d27fe24feadb33a2be9cc9a31fafb",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 16
+      }
+    },
+    {
+      "id": "9578027d7cfc3be407881197e555a1e5",
+      "source_id": "pagopa",
+      "source_name": "pagopa/pn-email-templates",
+      "url": "https://github.com/pagopa/pn-email-templates",
+      "license": "EUPL-1.2",
+      "type": "html",
+      "file_path": "data/raw/pagopa/PEC_ValidationContactsRejectMessage_index.html",
+      "byte_size": 11844,
+      "content_hash": "d1dce62c9fb01f771a3b8c756a6279673336f334319568251afb70c33c5f8396",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 22
+      }
+    },
+    {
+      "id": "ff61ed376c3c8e5b077149255ad75709",
+      "source_id": "pagopa",
+      "source_name": "pagopa/pn-email-templates",
+      "url": "https://github.com/pagopa/pn-email-templates",
+      "license": "EUPL-1.2",
+      "type": "html",
+      "file_path": "data/raw/pagopa/PEC_ValidationContactsSuccessMessage_index.html",
+      "byte_size": 9963,
+      "content_hash": "903644d22b3dea33df1cc480a4511e6774e04de41a5698949868b2645cc60403",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 16
+      }
+    },
+    {
+      "id": "638676780934ff4020c332ac392259f2",
+      "source_id": "pagopa",
+      "source_name": "pagopa/pn-email-templates",
+      "url": "https://github.com/pagopa/pn-email-templates",
+      "license": "EUPL-1.2",
+      "type": "html",
+      "file_path": "data/raw/pagopa/PEC_VerificationCodeMessage_index.html",
+      "byte_size": 9910,
+      "content_hash": "f298b7c081519db13c96908383824d348bb6709ddd5abede0dd4846affa69548",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 16
+      }
+    },
+    {
+      "id": "d18a528d4deebc34e20cdfd72cc57f01",
+      "source_id": "dewtech",
+      "source_name": "diansoviyani/Transactional-Email-DewTech",
+      "url": "https://github.com/diansoviyani/Transactional-Email-DewTech",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/dewtech/receipt.html",
+      "byte_size": 25797,
+      "content_hash": "c4807aa215fe470d6a5dd6072fc5fc3c81919bbd0be9515df2db60039bd20536",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 42
+      }
+    },
+    {
+      "id": "f55687f5819bd73014da92aa586ec790",
+      "source_id": "mailteorite",
+      "source_name": "Mailteorite/mjml-email-templates",
+      "url": "https://github.com/Mailteorite/mjml-email-templates",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "/home/nick/templateforge/data/raw/mailteorite/abandoned-cart_01-cart-recovery-benefits.mjml",
+      "byte_size": 11337,
+      "content_hash": "b71a2dc0114af8d69551def027a7b9c48d179f690cc3e6fb3669ee08e6906671",
+      "quick_features": {
+        "sections_detected": 7,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "d45dafa58a3250c06ff61bff54123af3",
+      "source_id": "mailteorite",
+      "source_name": "Mailteorite/mjml-email-templates",
+      "url": "https://github.com/Mailteorite/mjml-email-templates",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "/home/nick/templateforge/data/raw/mailteorite/account-activation_01-welcome-donation-activation.mjml",
+      "byte_size": 8368,
+      "content_hash": "845ecc2e78aedd2d81303134532cb1490a57a56927b331d845ddab435b70ece2",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "dc66918a3c9ae05b41b95a8824b6bc1c",
+      "source_id": "mailteorite",
+      "source_name": "Mailteorite/mjml-email-templates",
+      "url": "https://github.com/Mailteorite/mjml-email-templates",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "/home/nick/templateforge/data/raw/mailteorite/account-activation_02-email-verification-security.mjml",
+      "byte_size": 7901,
+      "content_hash": "7ab1375b1cb6a029c619ff839894f9d643e3e712c257c059b141d67ab2bf4811",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "3960a64be81422718bfdb97b928d836e",
+      "source_id": "mailteorite",
+      "source_name": "Mailteorite/mjml-email-templates",
+      "url": "https://github.com/Mailteorite/mjml-email-templates",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "/home/nick/templateforge/data/raw/mailteorite/feedback_01-webinar-thank-you-review.mjml",
+      "byte_size": 7067,
+      "content_hash": "b16d321d9d89b169f7429d28c1d0740dfe665384d5bbc1b35d82c3301ca51bb6",
+      "quick_features": {
+        "sections_detected": 5,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "d024b787e52290485f48efde4cb8af8e",
+      "source_id": "mailteorite",
+      "source_name": "Mailteorite/mjml-email-templates",
+      "url": "https://github.com/Mailteorite/mjml-email-templates",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "/home/nick/templateforge/data/raw/mailteorite/newsletter_01-weekly-data-analysis.mjml",
+      "byte_size": 9883,
+      "content_hash": "adc300588890ee6f3b4d95e6a393ccae23d12d3935256fb6df3044d874ee771c",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "72a003430b77f2a8d2022159df459710",
+      "source_id": "mailteorite",
+      "source_name": "Mailteorite/mjml-email-templates",
+      "url": "https://github.com/Mailteorite/mjml-email-templates",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "/home/nick/templateforge/data/raw/mailteorite/newsletter_02-newsletter-productivity-tips.mjml",
+      "byte_size": 8622,
+      "content_hash": "563ca9a1e491e48bbe00853d6c8a3a48722642a9161c24dd1d5b0b0b18f30ebc",
+      "quick_features": {
+        "sections_detected": 6,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "2565df4d5c197a4461ec9049d822ecfe",
+      "source_id": "mailteorite",
+      "source_name": "Mailteorite/mjml-email-templates",
+      "url": "https://github.com/Mailteorite/mjml-email-templates",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "/home/nick/templateforge/data/raw/mailteorite/product-launch_01-new-flavor-simple.mjml",
+      "byte_size": 6669,
+      "content_hash": "f09b4340eff6b637523727e75cb570dae45df22c900015ab46e61aa340e99c6b",
+      "quick_features": {
+        "sections_detected": 5,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "7dee3be9645fa0170b0960918fc4a010",
+      "source_id": "mailteorite",
+      "source_name": "Mailteorite/mjml-email-templates",
+      "url": "https://github.com/Mailteorite/mjml-email-templates",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "/home/nick/templateforge/data/raw/mailteorite/product-launch_02-teaser-mystery.mjml",
+      "byte_size": 6434,
+      "content_hash": "1512a7dc634edfc08c18272f18dc1f38cce3164153ee56b8d2765d604100886f",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "0abc0490f9c3de21bf18a4f17599d4f3",
+      "source_id": "mailteorite",
+      "source_name": "Mailteorite/mjml-email-templates",
+      "url": "https://github.com/Mailteorite/mjml-email-templates",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "/home/nick/templateforge/data/raw/mailteorite/receipt-invoice_01-review-request-post-delivery.mjml",
+      "byte_size": 7996,
+      "content_hash": "5983a8cf5c404a5d2f8188329bf9c34ff87cf7768c321fd601a3a842e5aee560",
+      "quick_features": {
+        "sections_detected": 5,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "ab44c4fabf477998b37e8d23037ecc9d",
+      "source_id": "mailteorite",
+      "source_name": "Mailteorite/mjml-email-templates",
+      "url": "https://github.com/Mailteorite/mjml-email-templates",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "/home/nick/templateforge/data/raw/mailteorite/reengagement_01-breakup-final.mjml",
+      "byte_size": 6885,
+      "content_hash": "7b04f9eae4f7ea822d4cb6cc6a8368120d6a50ea1d21e5891bc0fb7b60866634",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "ba11fec90f51687b4d1b4f5b0c4799ab",
+      "source_id": "mailteorite",
+      "source_name": "Mailteorite/mjml-email-templates",
+      "url": "https://github.com/Mailteorite/mjml-email-templates",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "/home/nick/templateforge/data/raw/mailteorite/reengagement_02-anniversary-milestone.mjml",
+      "byte_size": 11354,
+      "content_hash": "805be4d0421dd8f3123afe11f1f117e7f4d830d0059f4eaed05f186852b7e53f",
+      "quick_features": {
+        "sections_detected": 5,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "ea6e1724832410f31f0b3961518556c8",
+      "source_id": "mailteorite",
+      "source_name": "Mailteorite/mjml-email-templates",
+      "url": "https://github.com/Mailteorite/mjml-email-templates",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "/home/nick/templateforge/data/raw/mailteorite/reengagement_03-win-back-poll-feedback.mjml",
+      "byte_size": 7016,
+      "content_hash": "7aeb2f38d4460ab8cde0d3b4281632c6b909a111207996f57524b598ddaea936",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "007917a7e548fd31416b98f669089350",
+      "source_id": "mailteorite",
+      "source_name": "Mailteorite/mjml-email-templates",
+      "url": "https://github.com/Mailteorite/mjml-email-templates",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "/home/nick/templateforge/data/raw/mailteorite/shipping-update_01-card-shipped.mjml",
+      "byte_size": 7522,
+      "content_hash": "8d75ac602186de91d980da8ad18bb5f473ba352d8f647ec5b918e461b59b9f39",
+      "quick_features": {
+        "sections_detected": 5,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "9161c2aa21abba680380fabdf0762d4c",
+      "source_id": "mailteorite",
+      "source_name": "Mailteorite/mjml-email-templates",
+      "url": "https://github.com/Mailteorite/mjml-email-templates",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "/home/nick/templateforge/data/raw/mailteorite/upsell_01-order-bump-discount.mjml",
+      "byte_size": 9585,
+      "content_hash": "c3dcba46cc611c1604ed5ee99975a0b0c41953043af71ca50a71f60168825813",
+      "quick_features": {
+        "sections_detected": 5,
+        "has_media_queries": false,
+        "table_count": 0
+      }
     }
   ]
 }
