@@ -576,6 +576,519 @@ def section_to_mjml_rsvp_buttons(skin_name="apple_light"):
     </mj-section>'''
 
 
+def section_to_mjml_countdown_timer(skin_name="apple_light"):
+    """Convert countdown timer to MJML."""
+    skin = DESIGN_SKINS.get(skin_name, DESIGN_SKINS["apple_light"])
+
+    return f'''    <mj-section padding="32px 24px" background-color="{skin['brandPrimary']}">
+      <mj-column>
+        <mj-text align="center" font-size="14px" color="{skin['brandBG']}" text-transform="uppercase" letter-spacing="2px" padding="0 0 16px">
+          {{{{countdownLabel}}}}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 24px 32px" background-color="{skin['brandPrimary']}">
+      <mj-column width="25%">
+        <mj-text align="center" background-color="{skin['brandBG']}" border-radius="8px" padding="16px 8px">
+          <p style="font-size: 36px; color: {skin['brandPrimary']}; margin: 0; font-weight: 700;">{{{{countdownDays}}}}</p>
+        </mj-text>
+        <mj-text align="center" font-size="12px" color="{skin['brandBG']}" text-transform="uppercase" padding="8px 0 0">
+          Days
+        </mj-text>
+      </mj-column>
+      <mj-column width="25%">
+        <mj-text align="center" background-color="{skin['brandBG']}" border-radius="8px" padding="16px 8px">
+          <p style="font-size: 36px; color: {skin['brandPrimary']}; margin: 0; font-weight: 700;">{{{{countdownHours}}}}</p>
+        </mj-text>
+        <mj-text align="center" font-size="12px" color="{skin['brandBG']}" text-transform="uppercase" padding="8px 0 0">
+          Hours
+        </mj-text>
+      </mj-column>
+      <mj-column width="25%">
+        <mj-text align="center" background-color="{skin['brandBG']}" border-radius="8px" padding="16px 8px">
+          <p style="font-size: 36px; color: {skin['brandPrimary']}; margin: 0; font-weight: 700;">{{{{countdownMins}}}}</p>
+        </mj-text>
+        <mj-text align="center" font-size="12px" color="{skin['brandBG']}" text-transform="uppercase" padding="8px 0 0">
+          Mins
+        </mj-text>
+      </mj-column>
+      <mj-column width="25%">
+        <mj-text align="center" background-color="{skin['brandBG']}" border-radius="8px" padding="16px 8px">
+          <p style="font-size: 36px; color: {skin['brandPrimary']}; margin: 0; font-weight: 700;">{{{{countdownSecs}}}}</p>
+        </mj-text>
+        <mj-text align="center" font-size="12px" color="{skin['brandBG']}" text-transform="uppercase" padding="8px 0 0">
+          Secs
+        </mj-text>
+      </mj-column>
+    </mj-section>'''
+
+
+def section_to_mjml_video_placeholder(skin_name="apple_light"):
+    """Convert video placeholder to MJML."""
+    skin = DESIGN_SKINS.get(skin_name, DESIGN_SKINS["apple_light"])
+
+    return f'''    <mj-section padding="24px">
+      <mj-column>
+        <mj-image src="{IMAGE_PLACEHOLDERS['hero']}" alt="{{{{videoAlt}}}}" href="{{{{videoUrl}}}}" border-radius="8px" />
+        <mj-button href="{{{{videoUrl}}}}" background-color="{skin['brandAccent']}" border-radius="50%" width="60px" height="60px" padding="0" css-class="video-play-btn">
+          &#9658;
+        </mj-button>
+        <mj-text align="center" font-size="14px" color="{skin['brandSecondary']}" padding="16px 0 0">
+          {{{{videoCaption}}}}
+        </mj-text>
+      </mj-column>
+    </mj-section>'''
+
+
+def section_to_mjml_accordion_faq(skin_name="apple_light"):
+    """Convert accordion FAQ to MJML."""
+    skin = DESIGN_SKINS.get(skin_name, DESIGN_SKINS["apple_light"])
+
+    return f'''    <mj-section padding="24px">
+      <mj-column>
+        <mj-text font-size="24px" color="{skin['brandPrimary']}" padding="0 0 24px">
+          Frequently Asked Questions
+        </mj-text>
+        <!-- FAQ Item 1 -->
+        <mj-text padding="0 0 8px" border-bottom="1px solid {skin['brandSecondary']}20">
+          <h3 style="font-size: 16px; color: {skin['brandPrimary']}; margin: 0 0 8px; font-weight: 600;">{{{{faq1Question}}}}</h3>
+          <p style="font-size: 14px; color: {skin['brandText']}; margin: 0 0 16px; line-height: 1.6;">{{{{faq1Answer}}}}</p>
+        </mj-text>
+        <!-- FAQ Item 2 -->
+        <mj-text padding="16px 0 8px" border-bottom="1px solid {skin['brandSecondary']}20">
+          <h3 style="font-size: 16px; color: {skin['brandPrimary']}; margin: 0 0 8px; font-weight: 600;">{{{{faq2Question}}}}</h3>
+          <p style="font-size: 14px; color: {skin['brandText']}; margin: 0 0 16px; line-height: 1.6;">{{{{faq2Answer}}}}</p>
+        </mj-text>
+        <!-- FAQ Item 3 -->
+        <mj-text padding="16px 0 8px" border-bottom="1px solid {skin['brandSecondary']}20">
+          <h3 style="font-size: 16px; color: {skin['brandPrimary']}; margin: 0 0 8px; font-weight: 600;">{{{{faq3Question}}}}</h3>
+          <p style="font-size: 14px; color: {skin['brandText']}; margin: 0 0 16px; line-height: 1.6;">{{{{faq3Answer}}}}</p>
+        </mj-text>
+        <mj-text align="center" padding="16px 0 0">
+          <a href="{{{{faqUrl}}}}" style="font-size: 14px; color: {skin['brandAccent']}; text-decoration: underline;">View all FAQs &rarr;</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>'''
+
+
+def section_to_mjml_pricing_table(skin_name="apple_light"):
+    """Convert pricing table to MJML."""
+    skin = DESIGN_SKINS.get(skin_name, DESIGN_SKINS["apple_light"])
+
+    return f'''    <mj-section padding="24px">
+      <mj-column>
+        <mj-text align="center" font-size="24px" color="{skin['brandPrimary']}" padding="0 0 8px">
+          Choose Your Plan
+        </mj-text>
+        <mj-text align="center" font-size="16px" color="{skin['brandSecondary']}" padding="0 0 24px">
+          {{{{pricingSubheadline}}}}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 24px 24px">
+      <!-- Basic Plan -->
+      <mj-column width="33%" border="1px solid {skin['brandSecondary']}30" border-radius="8px">
+        <mj-text align="center" font-size="14px" color="{skin['brandSecondary']}" text-transform="uppercase" letter-spacing="1px" padding="24px 16px 8px">
+          {{{{plan1Name}}}}
+        </mj-text>
+        <mj-text align="center" font-size="36px" color="{skin['brandPrimary']}" font-weight="700" padding="0 16px">
+          {{{{plan1Price}}}}
+        </mj-text>
+        <mj-text align="center" font-size="12px" color="{skin['brandSecondary']}" padding="4px 16px 16px">
+          {{{{plan1Period}}}}
+        </mj-text>
+        <mj-text font-size="13px" color="{skin['brandText']}" padding="0 16px 6px">
+          &#10003; {{{{plan1Feature1}}}}
+        </mj-text>
+        <mj-text font-size="13px" color="{skin['brandText']}" padding="0 16px 6px">
+          &#10003; {{{{plan1Feature2}}}}
+        </mj-text>
+        <mj-text font-size="13px" color="{skin['brandText']}" padding="0 16px 16px">
+          &#10003; {{{{plan1Feature3}}}}
+        </mj-text>
+        <mj-button href="{{{{plan1Url}}}}" background-color="transparent" color="{skin['brandAccent']}" border="2px solid {skin['brandAccent']}" padding="0 16px 24px">
+          Select Plan
+        </mj-button>
+      </mj-column>
+      <!-- Pro Plan (Featured) -->
+      <mj-column width="33%" border="2px solid {skin['brandAccent']}" border-radius="8px" background-color="{skin['brandAccent']}08">
+        <mj-text align="center" font-size="12px" color="#ffffff" background-color="{skin['brandAccent']}" text-transform="uppercase" letter-spacing="1px" padding="8px 16px" border-radius="6px 6px 0 0">
+          Most Popular
+        </mj-text>
+        <mj-text align="center" font-size="14px" color="{skin['brandSecondary']}" text-transform="uppercase" letter-spacing="1px" padding="16px 16px 8px">
+          {{{{plan2Name}}}}
+        </mj-text>
+        <mj-text align="center" font-size="36px" color="{skin['brandPrimary']}" font-weight="700" padding="0 16px">
+          {{{{plan2Price}}}}
+        </mj-text>
+        <mj-text align="center" font-size="12px" color="{skin['brandSecondary']}" padding="4px 16px 16px">
+          {{{{plan2Period}}}}
+        </mj-text>
+        <mj-text font-size="13px" color="{skin['brandText']}" padding="0 16px 6px">
+          &#10003; {{{{plan2Feature1}}}}
+        </mj-text>
+        <mj-text font-size="13px" color="{skin['brandText']}" padding="0 16px 6px">
+          &#10003; {{{{plan2Feature2}}}}
+        </mj-text>
+        <mj-text font-size="13px" color="{skin['brandText']}" padding="0 16px 6px">
+          &#10003; {{{{plan2Feature3}}}}
+        </mj-text>
+        <mj-text font-size="13px" color="{skin['brandText']}" padding="0 16px 16px">
+          &#10003; {{{{plan2Feature4}}}}
+        </mj-text>
+        <mj-button href="{{{{plan2Url}}}}" background-color="{skin['brandAccent']}" padding="0 16px 24px">
+          Select Plan
+        </mj-button>
+      </mj-column>
+      <!-- Enterprise Plan -->
+      <mj-column width="33%" border="1px solid {skin['brandSecondary']}30" border-radius="8px">
+        <mj-text align="center" font-size="14px" color="{skin['brandSecondary']}" text-transform="uppercase" letter-spacing="1px" padding="24px 16px 8px">
+          {{{{plan3Name}}}}
+        </mj-text>
+        <mj-text align="center" font-size="36px" color="{skin['brandPrimary']}" font-weight="700" padding="0 16px">
+          {{{{plan3Price}}}}
+        </mj-text>
+        <mj-text align="center" font-size="12px" color="{skin['brandSecondary']}" padding="4px 16px 16px">
+          {{{{plan3Period}}}}
+        </mj-text>
+        <mj-text font-size="13px" color="{skin['brandText']}" padding="0 16px 6px">
+          &#10003; {{{{plan3Feature1}}}}
+        </mj-text>
+        <mj-text font-size="13px" color="{skin['brandText']}" padding="0 16px 6px">
+          &#10003; {{{{plan3Feature2}}}}
+        </mj-text>
+        <mj-text font-size="13px" color="{skin['brandText']}" padding="0 16px 6px">
+          &#10003; {{{{plan3Feature3}}}}
+        </mj-text>
+        <mj-text font-size="13px" color="{skin['brandText']}" padding="0 16px 6px">
+          &#10003; {{{{plan3Feature4}}}}
+        </mj-text>
+        <mj-text font-size="13px" color="{skin['brandText']}" padding="0 16px 16px">
+          &#10003; {{{{plan3Feature5}}}}
+        </mj-text>
+        <mj-button href="{{{{plan3Url}}}}" background-color="transparent" color="{skin['brandAccent']}" border="2px solid {skin['brandAccent']}" padding="0 16px 24px">
+          Contact Sales
+        </mj-button>
+      </mj-column>
+    </mj-section>'''
+
+
+def section_to_mjml_progress_tracker(skin_name="apple_light"):
+    """Convert progress tracker to MJML."""
+    skin = DESIGN_SKINS.get(skin_name, DESIGN_SKINS["apple_light"])
+
+    return f'''    <mj-section padding="24px">
+      <!-- Step 1 (Completed) -->
+      <mj-column width="25%">
+        <mj-text align="center" background-color="{skin['brandAccent']}" border-radius="50%" padding="8px" css-class="step-circle">
+          <span style="font-size: 18px; color: #ffffff; font-weight: 700;">&#10003;</span>
+        </mj-text>
+        <mj-text align="center" font-size="12px" color="{skin['brandAccent']}" font-weight="600" padding="8px 0 0">
+          {{{{step1Label}}}}
+        </mj-text>
+      </mj-column>
+      <!-- Step 2 (Current) -->
+      <mj-column width="25%">
+        <mj-text align="center" background-color="{skin['brandAccent']}" border-radius="50%" padding="8px" css-class="step-circle">
+          <span style="font-size: 18px; color: #ffffff; font-weight: 700;">2</span>
+        </mj-text>
+        <mj-text align="center" font-size="12px" color="{skin['brandPrimary']}" font-weight="600" padding="8px 0 0">
+          {{{{step2Label}}}}
+        </mj-text>
+      </mj-column>
+      <!-- Step 3 (Pending) -->
+      <mj-column width="25%">
+        <mj-text align="center" border="2px solid {skin['brandSecondary']}40" border-radius="50%" padding="8px" css-class="step-circle">
+          <span style="font-size: 18px; color: {skin['brandSecondary']}; font-weight: 700;">3</span>
+        </mj-text>
+        <mj-text align="center" font-size="12px" color="{skin['brandSecondary']}" padding="8px 0 0">
+          {{{{step3Label}}}}
+        </mj-text>
+      </mj-column>
+      <!-- Step 4 (Pending) -->
+      <mj-column width="25%">
+        <mj-text align="center" border="2px solid {skin['brandSecondary']}40" border-radius="50%" padding="8px" css-class="step-circle">
+          <span style="font-size: 18px; color: {skin['brandSecondary']}; font-weight: 700;">4</span>
+        </mj-text>
+        <mj-text align="center" font-size="12px" color="{skin['brandSecondary']}" padding="8px 0 0">
+          {{{{step4Label}}}}
+        </mj-text>
+      </mj-column>
+    </mj-section>'''
+
+
+def section_to_mjml_app_store_badges(skin_name="apple_light"):
+    """Convert app store badges to MJML."""
+    skin = DESIGN_SKINS.get(skin_name, DESIGN_SKINS["apple_light"])
+
+    return f'''    <mj-section padding="24px">
+      <mj-column>
+        <mj-text align="center" font-size="16px" color="{skin['brandPrimary']}" padding="0 0 16px">
+          {{{{appStoreHeadline}}}}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 24px 24px">
+      <mj-column width="50%">
+        <mj-image src="{IMAGE_PLACEHOLDERS['product']}" alt="Download on the App Store" href="{{{{appStoreUrl}}}}" width="135px" align="right" border-radius="6px" />
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image src="{IMAGE_PLACEHOLDERS['product']}" alt="Get it on Google Play" href="{{{{playStoreUrl}}}}" width="135px" align="left" border-radius="6px" />
+      </mj-column>
+    </mj-section>'''
+
+
+def section_to_mjml_team_members(skin_name="apple_light"):
+    """Convert team members to MJML."""
+    skin = DESIGN_SKINS.get(skin_name, DESIGN_SKINS["apple_light"])
+
+    return f'''    <mj-section padding="24px">
+      <mj-column>
+        <mj-text align="center" font-size="24px" color="{skin['brandPrimary']}" padding="0 0 24px">
+          {{{{teamHeadline}}}}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 24px 24px">
+      <!-- Member 1 -->
+      <mj-column width="33%">
+        <mj-image src="{IMAGE_PLACEHOLDERS['avatar']}" alt="{{{{member1Name}}}}" width="100px" border-radius="50%" />
+        <mj-text align="center" font-size="16px" color="{skin['brandPrimary']}" padding="12px 0 0">
+          {{{{member1Name}}}}
+        </mj-text>
+        <mj-text align="center" font-size="14px" color="{skin['brandSecondary']}" padding="4px 0 0">
+          {{{{member1Role}}}}
+        </mj-text>
+      </mj-column>
+      <!-- Member 2 -->
+      <mj-column width="33%">
+        <mj-image src="{IMAGE_PLACEHOLDERS['avatar']}" alt="{{{{member2Name}}}}" width="100px" border-radius="50%" />
+        <mj-text align="center" font-size="16px" color="{skin['brandPrimary']}" padding="12px 0 0">
+          {{{{member2Name}}}}
+        </mj-text>
+        <mj-text align="center" font-size="14px" color="{skin['brandSecondary']}" padding="4px 0 0">
+          {{{{member2Role}}}}
+        </mj-text>
+      </mj-column>
+      <!-- Member 3 -->
+      <mj-column width="33%">
+        <mj-image src="{IMAGE_PLACEHOLDERS['avatar']}" alt="{{{{member3Name}}}}" width="100px" border-radius="50%" />
+        <mj-text align="center" font-size="16px" color="{skin['brandPrimary']}" padding="12px 0 0">
+          {{{{member3Name}}}}
+        </mj-text>
+        <mj-text align="center" font-size="14px" color="{skin['brandSecondary']}" padding="4px 0 0">
+          {{{{member3Role}}}}
+        </mj-text>
+      </mj-column>
+    </mj-section>'''
+
+
+def section_to_mjml_comparison_table(skin_name="apple_light"):
+    """Convert comparison table to MJML."""
+    skin = DESIGN_SKINS.get(skin_name, DESIGN_SKINS["apple_light"])
+
+    return f'''    <mj-section padding="24px">
+      <mj-column>
+        <mj-text align="center" font-size="24px" color="{skin['brandPrimary']}" padding="0 0 24px">
+          {{{{comparisonHeadline}}}}
+        </mj-text>
+        <mj-table border="1px solid {skin['brandSecondary']}30" border-radius="8px">
+          <tr style="background-color: {skin['brandPrimary']}; color: {skin['brandBG']};">
+            <td style="padding: 12px 16px; font-weight: 600;">Feature</td>
+            <td style="padding: 12px 16px; text-align: center; font-weight: 600;">{{{{compCol1}}}}</td>
+            <td style="padding: 12px 16px; text-align: center; font-weight: 600;">{{{{compCol2}}}}</td>
+          </tr>
+          <tr style="background-color: {skin['brandBG']};">
+            <td style="padding: 12px 16px; border-bottom: 1px solid {skin['brandSecondary']}20;">{{{{compRow1Feature}}}}</td>
+            <td style="padding: 12px 16px; text-align: center; border-bottom: 1px solid {skin['brandSecondary']}20;">{{{{compRow1Col1}}}}</td>
+            <td style="padding: 12px 16px; text-align: center; border-bottom: 1px solid {skin['brandSecondary']}20;">{{{{compRow1Col2}}}}</td>
+          </tr>
+          <tr style="background-color: {skin['brandSecondary']}08;">
+            <td style="padding: 12px 16px; border-bottom: 1px solid {skin['brandSecondary']}20;">{{{{compRow2Feature}}}}</td>
+            <td style="padding: 12px 16px; text-align: center; border-bottom: 1px solid {skin['brandSecondary']}20;">{{{{compRow2Col1}}}}</td>
+            <td style="padding: 12px 16px; text-align: center; border-bottom: 1px solid {skin['brandSecondary']}20;">{{{{compRow2Col2}}}}</td>
+          </tr>
+          <tr style="background-color: {skin['brandBG']};">
+            <td style="padding: 12px 16px; border-bottom: 1px solid {skin['brandSecondary']}20;">{{{{compRow3Feature}}}}</td>
+            <td style="padding: 12px 16px; text-align: center; border-bottom: 1px solid {skin['brandSecondary']}20;">{{{{compRow3Col1}}}}</td>
+            <td style="padding: 12px 16px; text-align: center; border-bottom: 1px solid {skin['brandSecondary']}20;">{{{{compRow3Col2}}}}</td>
+          </tr>
+          <tr style="background-color: {skin['brandSecondary']}08;">
+            <td style="padding: 12px 16px;">{{{{compRow4Feature}}}}</td>
+            <td style="padding: 12px 16px; text-align: center;">{{{{compRow4Col1}}}}</td>
+            <td style="padding: 12px 16px; text-align: center;">{{{{compRow4Col2}}}}</td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>'''
+
+
+def section_to_mjml_stats_metrics(skin_name="apple_light"):
+    """Convert stats metrics to MJML."""
+    skin = DESIGN_SKINS.get(skin_name, DESIGN_SKINS["apple_light"])
+
+    return f'''    <mj-section padding="32px 24px" background-color="{skin['brandPrimary']}">
+      <mj-column width="25%">
+        <mj-text align="center" font-size="36px" color="{skin['brandBG']}" font-weight="700" padding="0">
+          {{{{stat1Value}}}}
+        </mj-text>
+        <mj-text align="center" font-size="14px" color="{skin['brandBG']}" css-class="opacity-80" padding="4px 0 0">
+          {{{{stat1Label}}}}
+        </mj-text>
+      </mj-column>
+      <mj-column width="25%">
+        <mj-text align="center" font-size="36px" color="{skin['brandBG']}" font-weight="700" padding="0">
+          {{{{stat2Value}}}}
+        </mj-text>
+        <mj-text align="center" font-size="14px" color="{skin['brandBG']}" css-class="opacity-80" padding="4px 0 0">
+          {{{{stat2Label}}}}
+        </mj-text>
+      </mj-column>
+      <mj-column width="25%">
+        <mj-text align="center" font-size="36px" color="{skin['brandBG']}" font-weight="700" padding="0">
+          {{{{stat3Value}}}}
+        </mj-text>
+        <mj-text align="center" font-size="14px" color="{skin['brandBG']}" css-class="opacity-80" padding="4px 0 0">
+          {{{{stat3Label}}}}
+        </mj-text>
+      </mj-column>
+      <mj-column width="25%">
+        <mj-text align="center" font-size="36px" color="{skin['brandBG']}" font-weight="700" padding="0">
+          {{{{stat4Value}}}}
+        </mj-text>
+        <mj-text align="center" font-size="14px" color="{skin['brandBG']}" css-class="opacity-80" padding="4px 0 0">
+          {{{{stat4Label}}}}
+        </mj-text>
+      </mj-column>
+    </mj-section>'''
+
+
+def section_to_mjml_rating_stars(skin_name="apple_light"):
+    """Convert rating stars to MJML."""
+    skin = DESIGN_SKINS.get(skin_name, DESIGN_SKINS["apple_light"])
+
+    return f'''    <mj-section padding="24px">
+      <mj-column background-color="{skin['brandSecondary']}08" border-radius="8px" padding="24px">
+        <mj-table>
+          <tr>
+            <td width="120" valign="middle">
+              <img src="{IMAGE_PLACEHOLDERS['product']}" alt="{{{{ratingProductAlt}}}}" width="100" height="100" style="border-radius: 8px;" />
+            </td>
+            <td style="padding-left: 16px;" valign="middle">
+              <h3 style="font-size: 18px; color: {skin['brandPrimary']}; margin: 0 0 8px;">{{{{ratingProductName}}}}</h3>
+              <p style="font-size: 20px; color: {skin['brandAccent']}; margin: 0; letter-spacing: 2px;">&#9733;&#9733;&#9733;&#9733;&#9734; <span style="font-size: 16px; color: {skin['brandPrimary']}; font-weight: 700;">{{{{ratingScore}}}}</span></p>
+              <p style="font-size: 14px; color: {skin['brandSecondary']}; margin: 8px 0 0;">{{{{ratingCount}}}} reviews</p>
+            </td>
+          </tr>
+        </mj-table>
+        <mj-divider border-color="{skin['brandSecondary']}20" border-width="1px" padding="16px 0" />
+        <mj-text font-size="14px" font-style="italic" color="{skin['brandText']}" padding="0">
+          &ldquo;{{{{ratingReviewText}}}}&rdquo;
+        </mj-text>
+        <mj-text font-size="13px" color="{skin['brandSecondary']}" padding="8px 0 0">
+          &mdash; {{{{ratingReviewAuthor}}}}
+        </mj-text>
+      </mj-column>
+    </mj-section>'''
+
+
+def section_to_mjml_gallery_carousel(skin_name="apple_light"):
+    """Convert gallery carousel to MJML."""
+    skin = DESIGN_SKINS.get(skin_name, DESIGN_SKINS["apple_light"])
+
+    return f'''    <mj-section padding="24px">
+      <mj-column>
+        <mj-text align="center" font-size="24px" color="{skin['brandPrimary']}" padding="0 0 16px">
+          {{{{galleryHeadline}}}}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 24px">
+      <mj-column width="25%">
+        <mj-image src="{IMAGE_PLACEHOLDERS['product']}" alt="{{{{galleryItem1Alt}}}}" href="{{{{galleryItem1Url}}}}" border-radius="8px" />
+        <mj-text align="center" font-size="13px" color="{skin['brandPrimary']}" padding="8px 0 0">
+          {{{{galleryItem1Label}}}}
+        </mj-text>
+      </mj-column>
+      <mj-column width="25%">
+        <mj-image src="{IMAGE_PLACEHOLDERS['product']}" alt="{{{{galleryItem2Alt}}}}" href="{{{{galleryItem2Url}}}}" border-radius="8px" />
+        <mj-text align="center" font-size="13px" color="{skin['brandPrimary']}" padding="8px 0 0">
+          {{{{galleryItem2Label}}}}
+        </mj-text>
+      </mj-column>
+      <mj-column width="25%">
+        <mj-image src="{IMAGE_PLACEHOLDERS['product']}" alt="{{{{galleryItem3Alt}}}}" href="{{{{galleryItem3Url}}}}" border-radius="8px" />
+        <mj-text align="center" font-size="13px" color="{skin['brandPrimary']}" padding="8px 0 0">
+          {{{{galleryItem3Label}}}}
+        </mj-text>
+      </mj-column>
+      <mj-column width="25%">
+        <mj-image src="{IMAGE_PLACEHOLDERS['product']}" alt="{{{{galleryItem4Alt}}}}" href="{{{{galleryItem4Url}}}}" border-radius="8px" />
+        <mj-text align="center" font-size="13px" color="{skin['brandPrimary']}" padding="8px 0 0">
+          {{{{galleryItem4Label}}}}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="16px 24px 24px">
+      <mj-column>
+        <mj-text align="center">
+          <a href="{{{{galleryViewAllUrl}}}}" style="font-size: 14px; color: {skin['brandAccent']}; text-decoration: underline;">View all &rarr;</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>'''
+
+
+def section_to_mjml_multi_step_form(skin_name="apple_light"):
+    """Convert multi-step form to MJML."""
+    skin = DESIGN_SKINS.get(skin_name, DESIGN_SKINS["apple_light"])
+
+    return f'''    <mj-section padding="24px">
+      <mj-column background-color="{skin['brandSecondary']}08" border-radius="8px" padding="24px">
+        <mj-text font-size="20px" color="{skin['brandPrimary']}" padding="0 0 8px">
+          {{{{formHeadline}}}}
+        </mj-text>
+        <mj-text font-size="14px" color="{skin['brandSecondary']}" padding="0 0 20px">
+          {{{{formSubheadline}}}}
+        </mj-text>
+        <!-- Progress bar -->
+        <mj-table padding="0 0 8px">
+          <tr>
+            <td style="background-color: {skin['brandSecondary']}20; border-radius: 4px; height: 8px;">
+              <div style="background-color: {skin['brandAccent']}; border-radius: 4px; height: 8px; width: 33%;"></div>
+            </td>
+          </tr>
+        </mj-table>
+        <mj-text font-size="12px" color="{skin['brandSecondary']}" padding="0 0 24px">
+          Step {{{{formCurrentStep}}}} of {{{{formTotalSteps}}}}
+        </mj-text>
+        <!-- Field 1 -->
+        <mj-text font-size="13px" color="{skin['brandPrimary']}" font-weight="600" padding="0 0 6px">
+          {{{{formField1Label}}}}
+        </mj-text>
+        <mj-text background-color="{skin['brandBG']}" border="1px solid {skin['brandSecondary']}40" border-radius="6px" padding="12px 14px" font-size="14px" color="{skin['brandSecondary']}">
+          {{{{formField1Placeholder}}}}
+        </mj-text>
+        <!-- Field 2 -->
+        <mj-text font-size="13px" color="{skin['brandPrimary']}" font-weight="600" padding="16px 0 6px">
+          {{{{formField2Label}}}}
+        </mj-text>
+        <mj-text background-color="{skin['brandBG']}" border="1px solid {skin['brandSecondary']}40" border-radius="6px" padding="12px 14px" font-size="14px" color="{skin['brandSecondary']}">
+          {{{{formField2Placeholder}}}}
+        </mj-text>
+        <!-- Field 3 -->
+        <mj-text font-size="13px" color="{skin['brandPrimary']}" font-weight="600" padding="16px 0 6px">
+          {{{{formField3Label}}}}
+        </mj-text>
+        <mj-text background-color="{skin['brandBG']}" border="1px solid {skin['brandSecondary']}40" border-radius="6px" padding="12px 14px 20px" font-size="14px" color="{skin['brandSecondary']}">
+          {{{{formField3Placeholder}}}}
+        </mj-text>
+        <mj-button href="{{{{formContinueUrl}}}}" background-color="{skin['brandAccent']}" padding="0">
+          {{{{formContinueLabel}}}}
+        </mj-button>
+      </mj-column>
+    </mj-section>'''
+
+
 # Registry mapping section types to MJML converters
 MJML_SECTION_REGISTRY = {
     "hero": section_to_mjml_hero,
@@ -602,6 +1115,18 @@ MJML_SECTION_REGISTRY = {
     "urgency_banner": section_to_mjml_urgency_banner,
     "event_details": section_to_mjml_event_details,
     "rsvp_buttons": section_to_mjml_rsvp_buttons,
+    "countdown_timer": section_to_mjml_countdown_timer,
+    "video_placeholder": section_to_mjml_video_placeholder,
+    "accordion_faq": section_to_mjml_accordion_faq,
+    "pricing_table": section_to_mjml_pricing_table,
+    "progress_tracker": section_to_mjml_progress_tracker,
+    "app_store_badges": section_to_mjml_app_store_badges,
+    "team_members": section_to_mjml_team_members,
+    "comparison_table": section_to_mjml_comparison_table,
+    "stats_metrics": section_to_mjml_stats_metrics,
+    "rating_stars": section_to_mjml_rating_stars,
+    "gallery_carousel": section_to_mjml_gallery_carousel,
+    "multi_step_form": section_to_mjml_multi_step_form,
 }
 
 
