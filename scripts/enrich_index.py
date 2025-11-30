@@ -97,6 +97,8 @@ def tag_categories(filename: str, content: str) -> List[str]:
 
 def compile_mjml_string(mjml_content: str) -> Dict[str, Any]:
     # Local import to avoid heavy deps at module import time
+    import sys
+    sys.path.insert(0, str(ROOT))
     from mjml_converter import compile_mjml_to_html
     return compile_mjml_to_html(mjml_content, minify=False, beautify=False)
 
