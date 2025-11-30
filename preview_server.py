@@ -18,6 +18,7 @@ from template_generator import (
     TEMPLATE_TYPES,
 )
 from design_system import DESIGN_SKINS, IMAGE_PLACEHOLDERS
+import urllib.parse
 from section_library import list_section_types
 from template_validator import fix_template_issues
 from mjml_converter import convert_template_to_mjml
@@ -26,18 +27,34 @@ from mjml_converter import convert_template_to_mjml
 DEFAULT_PORT = 8080
 
 
-TRANSPARENT_PNG_DATA_URI = (
-    "data:image/png;base64,"
-    "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGMAAQAABQAB" 
-    "J9i8WQAAAABJRU5ErkJggg=="
-)
+def _svg_data_uri(width: int, height: int, label: str) -> str:
+    """Create a simple gray SVG placeholder as a data URI."""
+    svg = f"""
+<svg xmlns='http://www.w3.org/2000/svg' width='{width}' height='{height}'>
+  <rect width='100%' height='100%' fill='#e5e7eb'/>
+  <rect x='0.5' y='0.5' width='{width-1}' height='{height-1}' fill='none' stroke='#9ca3af' stroke-width='1'/>
+  <text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle'
+        font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif'
+        font-size='{max(12, min(width, height)//10)}' fill='#6b7280'>{label}</text>
+</svg>
+""".strip()
+    return "data:image/svg+xml;charset=UTF-8," + urllib.parse.quote(svg)
 
 
 def inline_placeholder_images(html: str) -> str:
-    """Replace remote placeholder image URLs with inline transparent PNGs for preview."""
+    """Replace remote placeholder image URLs with visible inline SVG placeholders for preview only."""
+    # Map each known placeholder URL to an appropriately sized SVG
+    size_map = {
+        IMAGE_PLACEHOLDERS.get('hero'): (640, 320, '640×320'),
+        IMAGE_PLACEHOLDERS.get('product'): (300, 300, '300×300'),
+        IMAGE_PLACEHOLDERS.get('icon'): (64, 64, '64×64'),
+        IMAGE_PLACEHOLDERS.get('logo'): (150, 50, '150×50'),
+        IMAGE_PLACEHOLDERS.get('avatar'): (80, 80, '80×80'),
+    }
     result = html
-    for url in IMAGE_PLACEHOLDERS.values():
-        result = result.replace(url, TRANSPARENT_PNG_DATA_URI)
+    for url, (w, h, label) in size_map.items():
+        if url:
+            result = result.replace(url, _svg_data_uri(w, h, label))
     return result
 
 
@@ -296,7 +313,7 @@ def get_index_page():
         function getPreviewUrl(type) {
             const skin = document.getElementById('skinSelect').value;
             const format = document.getElementById('formatSelect').value;
-            return `/preview/${type}?skin=${skin}&format=${format}`;
+            return `/preview/${type}?skin=${skin}&format=${format}&inline=1`;
         }
 
         document.querySelectorAll('.preview-btn').forEach(btn => {
