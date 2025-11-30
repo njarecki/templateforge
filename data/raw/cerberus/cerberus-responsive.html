@@ -6,14 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Use the latest (edge) version of IE rendering engine -->
     <meta name="x-apple-disable-message-reformatting">  <!-- Disable auto-scale in iOS 10 Mail entirely -->
     <meta name="format-detection" content="telephone=no,address=no,email=no,date=no,url=no"> <!-- Tell iOS not to automatically link certain text strings. -->
-    <meta name="color-scheme" content="light dark">
-    <meta name="supported-color-schemes" content="light dark">
+    <meta name="color-scheme" content="light">
+    <meta name="supported-color-schemes" content="light">
     <title></title> <!-- The title tag shows in email notifications, like Android 4.4. -->
 
     <!-- What it does: Makes background images in 72ppi Outlook render at correct size. -->
     <!--[if gte mso 9]>
     <xml>
         <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
             <o:PixelsPerInch>96</o:PixelsPerInch>
         </o:OfficeDocumentSettings>
     </xml>
@@ -31,7 +32,7 @@
         </style>
     <![endif]-->
 
-    <!-- All other clients get the webfont reference; some will render the font and others will silently fail to the fallbacks. More on that here: https://web.archive.org/web/20190717120616/http://stylecampaign.com/blog/2015/02/webfont-support-in-email/ -->
+    <!-- All other clients get the webfont reference; some will render the font and others will silently fail to the fallbacks. More on that here: http://stylecampaign.com/blog/2015/02/webfont-support-in-email/ -->
     <!--[if !mso]><!-->
     <!-- insert web font reference, eg: <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'> -->
     <!--<![endif]-->
@@ -41,10 +42,10 @@
     <!-- CSS Reset : BEGIN -->
     <style>
 
-        /* What it does: Tells the email client that both light and dark styles are provided. A duplicate of meta color-scheme meta tag above. */
+        /* What it does: Tells the email client that only light styles are provided but the client can transform them to dark. A duplicate of meta color-scheme meta tag above. */
         :root {
-          color-scheme: light dark;
-          supported-color-schemes: light dark;
+          color-scheme: light;
+          supported-color-schemes: light;
         }
 
         /* What it does: Remove spaces around the email design added by some email clients. */
@@ -210,42 +211,6 @@
             }
         }
 
-        /* Dark Mode Styles : BEGIN */
-        @media (prefers-color-scheme: dark) {
-            .email-bg {
-                background: #111111 !important;
-            }
-            .darkmode-bg {
-                background: #222222 !important;
-            }
-            h1,
-            h2,
-            h3,
-            p,
-            li,
-            .darkmode-text,
-            .email-container a:not([class]) {
-                color: #F7F7F9 !important;
-            }
-            td.button-td-primary,
-            td.button-td-primary a {
-                background: #ffffff !important;
-                border-color: #ffffff !important;
-                color: #222222 !important;
-            }
-            td.button-td-primary:hover,
-            td.button-td-primary a:hover {
-                background: #cccccc !important;
-                border-color: #cccccc !important;
-            }
-            .footer td {
-                color: #aaaaaa !important;
-            }
-            .darkmode-fullbleed-bg {
-                background-color: #0F3016 !important;
-            }
-        }
-        /* Dark Mode Styles : END */
     </style>
     <!-- Progressive Enhancements : END -->
 
@@ -256,10 +221,10 @@
 	2. center tag: for Gmail and Inbox mobile apps and web versions of Gmail, GSuite, Inbox, Yahoo, AOL, Libero, Comcast, freenet, Mail.ru, Orange.fr
 	3. mso conditional: For Windows 10 Mail
 -->
-<body width="100%" style="margin: 0; padding: 0 !important; mso-line-height-rule: exactly; background-color: #222222;" class="email-bg">
-  <center role="article" aria-roledescription="email" lang="en" style="width: 100%; background-color: #222222;" class="email-bg">
+<body width="100%" style="margin: 0; padding: 0 !important; mso-line-height-rule: exactly; background-color: #222222;">
+  <center role="article" aria-roledescription="email" lang="en" style="width: 100%; background-color: #222222;">
     <!--[if mso | IE]>
-    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #222222;" class="email-bg">
+    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #222222;">
     <tr>
     <td>
     <![endif]-->
@@ -289,7 +254,7 @@
 
             <!-- Hero Image, Flush : BEGIN -->
             <tr>
-                <td style="background-color: #ffffff;" class="darkmode-bg">
+                <td style="background-color: #ffffff;">
                     <img src="https://via.placeholder.com/1200x600" width="600" height="" alt="alt_text" border="0" style="width: 100%; max-width: 600px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 15px; color: #555555; margin: auto; display: block;" class="g-img">
                 </td>
             </tr>
@@ -297,7 +262,7 @@
 
             <!-- 1 Column Text + Button : BEGIN -->
             <tr>
-                <td style="background-color: #ffffff;" class="darkmode-bg">
+                <td style="background-color: #ffffff;">
                     <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
                         <tr>
                             <td style="padding: 20px; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
@@ -357,7 +322,7 @@
 
 	        <!-- 2 Even Columns : BEGIN -->
 	        <tr>
-	            <td style="padding: 10px; background-color: #ffffff;" class="darkmode-bg">
+	            <td style="padding: 10px; background-color: #ffffff;">
 	                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
 	                    <tr>
 	                        <!-- Column : BEGIN -->
@@ -400,7 +365,7 @@
 
 	        <!-- 3 Even Columns : BEGIN -->
 	        <tr>
-	            <td style="padding: 10px; background-color: #ffffff;" class="darkmode-bg">
+	            <td style="padding: 10px; background-color: #ffffff;">
 	                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
 	                    <tr>
 	                        <!-- Column : BEGIN -->
@@ -459,7 +424,7 @@
 
 	        <!-- Thumbnail Left, Text Right : BEGIN -->
 	        <tr>
-	            <td dir="ltr" width="100%" style="padding: 10px; background-color: #ffffff;" class="darkmode-bg">
+	            <td dir="ltr" width="100%" style="padding: 10px; background-color: #ffffff;">
 	                <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
 	                    <tr>
 	                        <!-- Column : BEGIN -->
@@ -502,7 +467,7 @@
 
 	        <!-- Thumbnail Right, Text Left : BEGIN -->
 	        <tr>
-	            <td dir="rtl" width="100%" style="padding: 10px; background-color: #ffffff;" class="darkmode-bg">
+	            <td dir="rtl" width="100%" style="padding: 10px; background-color: #ffffff;">
 	                <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
 	                    <tr>
 	                        <!-- Column : BEGIN -->
@@ -553,11 +518,11 @@
 
 	        <!-- 1 Column Text : BEGIN -->
 	        <tr>
-	            <td style="background-color: #ffffff;" class="darkmode-bg">
+	            <td style="background-color: #ffffff;">
 	                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
 	                    <tr>
 	                        <td style="padding: 20px; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
-	                            <p style="margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent laoreet malesuada cursus. Maecenas scelerisque congue eros eu posuere. Praesent in felis ut velit pretium lobortis rhoncus ut&nbsp;erat.</p>
+	                            Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent laoreet malesuada cursus. Maecenas scelerisque congue eros eu posuere. Praesent in felis ut velit pretium lobortis rhoncus ut&nbsp;erat.
 	                        </td>
 	                    </tr>
 	                </table>
@@ -569,7 +534,7 @@
 	    <!-- Email Body : END -->
 
 	    <!-- Email Footer : BEGIN -->
-        <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="600" style="margin: auto;" class="footer">
+        <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="600" style="margin: auto;" class="email-container">
 	        <tr>
 	            <td style="padding: 20px; font-family: sans-serif; font-size: 12px; line-height: 15px; text-align: center; color: #ffffff;">
 	                <webversion style="color: #ffffff; text-decoration: underline; font-weight: bold;">View as a Web Page</webversion>
@@ -583,7 +548,7 @@
 	    <!-- Email Footer : END -->
 
 	    <!-- Full Bleed Background Section : BEGIN -->
-	    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #709f2b;" class="darkmode-fullbleed-bg">
+	    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #709f2b;">
 	        <tr>
 	            <td>
 	                <div align="center" style="max-width: 600px; margin: auto;" class="email-container">
