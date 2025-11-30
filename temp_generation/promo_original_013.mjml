@@ -1,0 +1,117 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}" />
+      <mj-text color="{brandText}" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" />
+    </mj-attributes>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .full-width { width: 100% !important; }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="{brandBG}" width="640px">
+    <mj-section background-color="#ffffff" padding="20px 30px">
+      <mj-column width="40%">
+        <mj-image src="https://placehold.co/140x50/png?text=LOGO" alt="Company logo" width="140px" align="left" />
+      </mj-column>
+      <mj-column width="60%">
+        <mj-text align="right" font-size="13px" padding-top="15px" color="{brandPrimary}" font-weight="bold">
+          Member Exclusive Offer Inside
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="{brandSecondary}" padding="50px 40px">
+      <mj-column>
+        <mj-text font-size="14px" color="{brandAccent}" font-weight="bold" letter-spacing="2px" align="center">
+          VIP MEMBERS ONLY
+        </mj-text>
+        <mj-text font-size="38px" font-weight="bold" align="center" color="{brandPrimary}" padding-top="15px" line-height="1.2">
+          Early Access Sale
+        </mj-text>
+        <mj-text font-size="18px" align="center" padding-top="15px" line-height="1.5">
+          You've earned it. Shop our biggest sale of the season before anyone else.
+        </mj-text>
+        <mj-button href="#" font-size="16px" padding="14px 45px" border-radius="4px" padding-top="25px">
+          Shop Early Access
+        </mj-button>
+        <mj-text font-size="13px" align="center" color="#888888" padding-top="15px">
+          Offer valid until midnight. No code needed.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="50px 30px 30px">
+      <mj-column>
+        <mj-text font-size="24px" font-weight="bold" align="center" color="{brandPrimary}">
+          Your Exclusive Benefits
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="0 30px 40px">
+      <mj-column width="33%">
+        <mj-text font-size="36px" align="center" color="{brandAccent}" font-weight="bold">30%</mj-text>
+        <mj-text font-size="14px" align="center" font-weight="bold">OFF SITEWIDE</mj-text>
+        <mj-text font-size="12px" align="center" color="#888888">All categories included</mj-text>
+      </mj-column>
+      <mj-column width="33%">
+        <mj-text font-size="36px" align="center" color="{brandAccent}" font-weight="bold">FREE</mj-text>
+        <mj-text font-size="14px" align="center" font-weight="bold">SHIPPING</mj-text>
+        <mj-text font-size="12px" align="center" color="#888888">No minimum purchase</mj-text>
+      </mj-column>
+      <mj-column width="33%">
+        <mj-text font-size="36px" align="center" color="{brandAccent}" font-weight="bold">2X</mj-text>
+        <mj-text font-size="14px" align="center" font-weight="bold">POINTS</mj-text>
+        <mj-text font-size="12px" align="center" color="#888888">Double rewards today</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f9f9f9" padding="40px 20px">
+      <mj-column width="50%">
+        <mj-image src="https://placehold.co/280x320/png?text=Featured+1" alt="Featured item 1" />
+        <mj-text font-size="13px" color="{brandAccent}" padding-top="15px" font-weight="bold">EDITOR'S PICK</mj-text>
+        <mj-text font-size="17px" font-weight="bold" padding-top="5px">Signature Collection</mj-text>
+        <mj-text font-size="15px" color="#666666" padding-top="5px">Starting at $49</mj-text>
+        <mj-button href="#" font-size="13px" padding="10px 25px" border-radius="3px" padding-top="15px">
+          Shop Now
+        </mj-button>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image src="https://placehold.co/280x320/png?text=Featured+2" alt="Featured item 2" />
+        <mj-text font-size="13px" color="{brandAccent}" padding-top="15px" font-weight="bold">TRENDING</mj-text>
+        <mj-text font-size="17px" font-weight="bold" padding-top="5px">Limited Edition</mj-text>
+        <mj-text font-size="15px" color="#666666" padding-top="5px">Starting at $79</mj-text>
+        <mj-button href="#" font-size="13px" padding="10px 25px" border-radius="3px" padding-top="15px">
+          Shop Now
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="{brandPrimary}" padding="35px 30px">
+      <mj-column>
+        <mj-text font-size="22px" font-weight="bold" align="center" color="#ffffff">
+          Sale Ends Tonight at Midnight
+        </mj-text>
+        <mj-button href="#" background-color="#ffffff" color="{brandPrimary}" font-size="15px" padding="12px 40px" border-radius="25px" padding-top="20px" font-weight="bold">
+          Don't Miss Out
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#2d2d2d" padding="30px">
+      <mj-column>
+        <mj-social font-size="15px" icon-size="25px" mode="horizontal" align="center">
+          <mj-social-element name="facebook" href="#" alt="Facebook" />
+          <mj-social-element name="twitter" href="#" alt="Twitter" />
+          <mj-social-element name="instagram" href="#" alt="Instagram" />
+        </mj-social>
+        <mj-text align="center" color="#999999" font-size="12px" padding-top="20px">
+          You're receiving this as a VIP member. <a href="#" style="color: #cccccc;">Manage preferences</a>
+        </mj-text>
+        <mj-text align="center" color="#666666" font-size="11px" padding-top="10px">
+          <a href="#" style="color: #888888;">Unsubscribe</a> | <a href="#" style="color: #888888;">Privacy Policy</a>
+        </mj-text>
+        <mj-text align="center" color="#555555" font-size="10px" padding-top="10px">
+          Brand Name Inc, 100 Commerce Lane, Business City 55443
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

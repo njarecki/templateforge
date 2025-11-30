@@ -1,0 +1,131 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}" />
+      <mj-text color="{brandText}" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" />
+    </mj-attributes>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .mobile-center { text-align: center !important; }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="{brandBG}" width="640px">
+    <mj-section background-color="{brandPrimary}" padding="10px 20px">
+      <mj-column>
+        <mj-text align="center" color="#ffffff" font-size="13px">
+          Use code SAVE20 for an extra 20% off your order
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="20px 30px">
+      <mj-column>
+        <mj-image src="https://placehold.co/160x55/png?text=LOGO" alt="Brand logo" width="160px" align="center" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="{brandSecondary}" padding="55px 40px">
+      <mj-column>
+        <mj-text font-size="16px" color="{brandAccent}" align="center" font-weight="bold" letter-spacing="2px">
+          THIS WEEKEND ONLY
+        </mj-text>
+        <mj-text font-size="46px" font-weight="bold" align="center" color="{brandPrimary}" padding-top="15px" line-height="1.1">
+          Buy One,<br/>Get One Free
+        </mj-text>
+        <mj-text font-size="18px" align="center" padding-top="18px" color="#555555">
+          Stock up on your favorites. Mix and match any items.
+        </mj-text>
+        <mj-button href="#" font-size="16px" padding="15px 50px" border-radius="5px" padding-top="30px">
+          Shop the Sale
+        </mj-button>
+        <mj-text font-size="12px" align="center" color="#888888" padding-top="15px">
+          Offer valid through Sunday 11:59 PM EST
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="50px 30px 30px">
+      <mj-column>
+        <mj-text font-size="24px" font-weight="bold" align="center" color="{brandPrimary}">
+          Best Sellers
+        </mj-text>
+        <mj-text font-size="15px" align="center" color="#666666" padding-top="8px">
+          Our most-loved items—perfect for mixing and matching
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="20px 20px 40px">
+      <mj-column width="25%">
+        <mj-image src="https://placehold.co/140x180/png?text=Item+1" alt="Bestseller 1" />
+        <mj-text font-size="12px" font-weight="bold" align="center" padding-top="10px">Classic Tee</mj-text>
+        <mj-text font-size="12px" align="center" color="#666666">$25</mj-text>
+      </mj-column>
+      <mj-column width="25%">
+        <mj-image src="https://placehold.co/140x180/png?text=Item+2" alt="Bestseller 2" />
+        <mj-text font-size="12px" font-weight="bold" align="center" padding-top="10px">Joggers</mj-text>
+        <mj-text font-size="12px" align="center" color="#666666">$45</mj-text>
+      </mj-column>
+      <mj-column width="25%">
+        <mj-image src="https://placehold.co/140x180/png?text=Item+3" alt="Bestseller 3" />
+        <mj-text font-size="12px" font-weight="bold" align="center" padding-top="10px">Hoodie</mj-text>
+        <mj-text font-size="12px" align="center" color="#666666">$55</mj-text>
+      </mj-column>
+      <mj-column width="25%">
+        <mj-image src="https://placehold.co/140x180/png?text=Item+4" alt="Bestseller 4" />
+        <mj-text font-size="12px" font-weight="bold" align="center" padding-top="10px">Cap</mj-text>
+        <mj-text font-size="12px" align="center" color="#666666">$18</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f8f8f8" padding="35px 30px">
+      <mj-column>
+        <mj-text font-size="20px" font-weight="bold" align="center" color="{brandPrimary}">
+          How It Works
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f8f8f8" padding="15px 30px 35px">
+      <mj-column width="33%">
+        <mj-text font-size="32px" align="center" color="{brandAccent}" font-weight="bold">1</mj-text>
+        <mj-text font-size="13px" align="center" font-weight="bold">Add 2+ Items</mj-text>
+        <mj-text font-size="12px" align="center" color="#666666">Fill your cart with your picks</mj-text>
+      </mj-column>
+      <mj-column width="33%">
+        <mj-text font-size="32px" align="center" color="{brandAccent}" font-weight="bold">2</mj-text>
+        <mj-text font-size="13px" align="center" font-weight="bold">Check Out</mj-text>
+        <mj-text font-size="12px" align="center" color="#666666">Discount applies automatically</mj-text>
+      </mj-column>
+      <mj-column width="33%">
+        <mj-text font-size="32px" align="center" color="{brandAccent}" font-weight="bold">3</mj-text>
+        <mj-text font-size="13px" align="center" font-weight="bold">Save Big</mj-text>
+        <mj-text font-size="12px" align="center" color="#666666">Free item on us!</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="{brandAccent}" padding="35px 30px">
+      <mj-column>
+        <mj-text font-size="22px" font-weight="bold" align="center" color="#ffffff">
+          Ready to Save?
+        </mj-text>
+        <mj-button href="#" background-color="#ffffff" color="{brandAccent}" font-size="15px" padding="14px 45px" border-radius="25px" padding-top="20px" font-weight="bold">
+          Start Shopping
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#222222" padding="30px">
+      <mj-column>
+        <mj-social font-size="15px" icon-size="25px" mode="horizontal" align="center">
+          <mj-social-element name="facebook" href="#" alt="Facebook" />
+          <mj-social-element name="instagram" href="#" alt="Instagram" />
+          <mj-social-element name="twitter" href="#" alt="Twitter" />
+        </mj-social>
+        <mj-text align="center" color="#888888" font-size="12px" padding-top="20px">
+          Free shipping on all BOGO orders. Easy returns within 30 days.
+        </mj-text>
+        <mj-text align="center" color="#666666" font-size="11px" padding-top="12px">
+          <a href="#" style="color: #999999;">Unsubscribe</a> | <a href="#" style="color: #999999;">Privacy Policy</a>
+        </mj-text>
+        <mj-text align="center" color="#555555" font-size="10px" padding-top="8px">
+          Brand Store, 789 Retail Road, Shopping Town 44556
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

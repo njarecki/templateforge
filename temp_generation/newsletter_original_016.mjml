@@ -1,0 +1,151 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}" />
+      <mj-text color="{brandText}" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" />
+    </mj-attributes>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .stack-column { display: block !important; width: 100% !important; }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="{brandBG}" width="640px">
+    <mj-section background-color="#ffffff" padding="20px 30px">
+      <mj-column width="50%">
+        <mj-image src="https://placehold.co/150x50/png?text=HEALTH" alt="Health newsletter logo" width="150px" align="left" />
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text align="right" font-size="12px" color="#888888" padding-top="15px">
+          Your Weekly Wellness Update
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="{brandSecondary}" padding="45px 35px">
+      <mj-column>
+        <mj-text font-size="32px" font-weight="bold" align="center" color="{brandPrimary}" line-height="1.2">
+          Feel Your Best This Winter
+        </mj-text>
+        <mj-text font-size="16px" align="center" color="#555555" padding-top="15px" line-height="1.5">
+          Expert tips for staying healthy, energized, and balanced during the colder months.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="40px 30px">
+      <mj-column>
+        <mj-image src="https://placehold.co/580x300/png?text=Winter+Wellness" alt="Winter wellness" width="580px" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="10px 35px 40px">
+      <mj-column>
+        <mj-text font-size="12px" color="{brandAccent}" font-weight="bold" letter-spacing="1px">
+          THIS WEEK'S FOCUS
+        </mj-text>
+        <mj-text font-size="24px" font-weight="bold" color="{brandPrimary}" padding-top="10px" line-height="1.3">
+          Boosting Your Immune System Naturally
+        </mj-text>
+        <mj-text font-size="15px" color="#666666" padding-top="15px" line-height="1.7">
+          Cold and flu season is here, but you don't have to feel powerless. From vitamin-rich foods to sleep optimization, discover evidence-based strategies to strengthen your body's defenses.
+        </mj-text>
+        <mj-button href="#" font-size="14px" padding="12px 30px" border-radius="4px" padding-top="20px">
+          Read Full Article
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f8f8f8" padding="40px 30px 25px">
+      <mj-column>
+        <mj-text font-size="20px" font-weight="bold" color="{brandPrimary}">
+          More Wellness Tips
+        </mj-text>
+        <mj-divider border-color="{brandPrimary}" border-width="2px" padding="12px 0 0 0" width="50px" align="left" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f8f8f8" padding="15px 30px">
+      <mj-column width="35%">
+        <mj-image src="https://placehold.co/200x130/png?text=Tip+1" alt="Wellness tip 1" />
+      </mj-column>
+      <mj-column width="65%">
+        <mj-text font-size="12px" color="{brandAccent}" font-weight="bold">NUTRITION</mj-text>
+        <mj-text font-size="17px" font-weight="bold" padding-top="5px" line-height="1.3" color="{brandPrimary}">
+          5 Warming Recipes for Cold Days
+        </mj-text>
+        <mj-text font-size="13px" color="#666666" padding-top="8px">
+          Nourishing soups and stews packed with healing ingredients.
+        </mj-text>
+        <mj-text font-size="12px" padding-top="8px">
+          <a href="#" style="color: {brandPrimary}; font-weight: bold;">Read More</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f8f8f8" padding="15px 30px">
+      <mj-column width="35%">
+        <mj-image src="https://placehold.co/200x130/png?text=Tip+2" alt="Wellness tip 2" />
+      </mj-column>
+      <mj-column width="65%">
+        <mj-text font-size="12px" color="{brandAccent}" font-weight="bold">FITNESS</mj-text>
+        <mj-text font-size="17px" font-weight="bold" padding-top="5px" line-height="1.3" color="{brandPrimary}">
+          Indoor Workouts to Beat the Cold
+        </mj-text>
+        <mj-text font-size="13px" color="#666666" padding-top="8px">
+          Stay active without braving the elements.
+        </mj-text>
+        <mj-text font-size="12px" padding-top="8px">
+          <a href="#" style="color: {brandPrimary}; font-weight: bold;">Read More</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f8f8f8" padding="15px 30px 40px">
+      <mj-column width="35%">
+        <mj-image src="https://placehold.co/200x130/png?text=Tip+3" alt="Wellness tip 3" />
+      </mj-column>
+      <mj-column width="65%">
+        <mj-text font-size="12px" color="{brandAccent}" font-weight="bold">MENTAL HEALTH</mj-text>
+        <mj-text font-size="17px" font-weight="bold" padding-top="5px" line-height="1.3" color="{brandPrimary}">
+          Fighting Winter Blues
+        </mj-text>
+        <mj-text font-size="13px" color="#666666" padding-top="8px">
+          Simple ways to boost your mood when days are short.
+        </mj-text>
+        <mj-text font-size="12px" padding-top="8px">
+          <a href="#" style="color: {brandPrimary}; font-weight: bold;">Read More</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="{brandAccent}" padding="35px 30px">
+      <mj-column>
+        <mj-text font-size="18px" font-weight="bold" align="center" color="#ffffff">
+          Quick Tip of the Week
+        </mj-text>
+        <mj-text font-size="15px" align="center" color="#ffffff" padding-top="12px" line-height="1.6">
+          "Drink a glass of warm water with lemon first thing in the morning to kickstart your metabolism and support digestion."
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="35px 30px">
+      <mj-column>
+        <mj-text font-size="16px" font-weight="bold" align="center" color="{brandPrimary}">
+          Share the Wellness
+        </mj-text>
+        <mj-social font-size="15px" icon-size="28px" mode="horizontal" align="center" padding-top="15px">
+          <mj-social-element name="facebook" href="#" alt="Facebook" />
+          <mj-social-element name="twitter" href="#" alt="Twitter" />
+          <mj-social-element name="instagram" href="#" alt="Instagram" />
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#1a1a1a" padding="30px">
+      <mj-column>
+        <mj-text align="center" color="#888888" font-size="12px">
+          Subscribed to wellness updates from Health Weekly.
+        </mj-text>
+        <mj-text align="center" color="#666666" font-size="11px" padding-top="12px">
+          <a href="#" style="color: #999999;">Unsubscribe</a> | <a href="#" style="color: #999999;">Preferences</a> | <a href="#" style="color: #999999;">Archive</a>
+        </mj-text>
+        <mj-text align="center" color="#555555" font-size="10px" padding-top="10px">
+          Health Weekly, 200 Wellness Way, Healthy City 33445
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

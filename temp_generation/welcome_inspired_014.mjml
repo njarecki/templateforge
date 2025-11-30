@@ -1,0 +1,128 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}" />
+      <mj-text color="{brandText}" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" />
+    </mj-attributes>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .mobile-hide { display: none !important; }
+        .mobile-full { width: 100% !important; }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="{brandBG}" width="640px">
+    <mj-section background-color="{brandPrimary}" padding="12px 20px">
+      <mj-column>
+        <mj-text align="center" color="#ffffff" font-size="12px">
+          Your account has been activated! Start exploring now.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="25px 30px">
+      <mj-column>
+        <mj-image src="https://placehold.co/180x60/png?text=BRAND" alt="Brand logo" width="180px" align="center" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="{brandSecondary}" padding="50px 40px">
+      <mj-column>
+        <mj-text font-size="40px" font-weight="bold" align="center" color="{brandPrimary}" line-height="1.1">
+          Hello, Friend!
+        </mj-text>
+        <mj-text font-size="18px" align="center" padding-top="20px" line-height="1.5" color="#555555">
+          Welcome to a world of possibilities. We're so glad you're here.
+        </mj-text>
+        <mj-button href="#" font-size="16px" padding="16px 50px" border-radius="30px" padding-top="30px">
+          Explore Your Dashboard
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="50px 30px 30px">
+      <mj-column>
+        <mj-text font-size="24px" font-weight="bold" align="center" color="{brandPrimary}">
+          Here's What You Can Do
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="10px 30px 40px">
+      <mj-column width="50%">
+        <mj-image src="https://placehold.co/260x180/png?text=Feature+A" alt="Feature A" />
+        <mj-text font-size="18px" font-weight="bold" align="center" padding-top="15px" color="{brandPrimary}">
+          Create Projects
+        </mj-text>
+        <mj-text font-size="14px" align="center" color="#666666" padding-top="8px" line-height="1.5">
+          Start building with our intuitive project tools and templates.
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image src="https://placehold.co/260x180/png?text=Feature+B" alt="Feature B" />
+        <mj-text font-size="18px" font-weight="bold" align="center" padding-top="15px" color="{brandPrimary}">
+          Collaborate
+        </mj-text>
+        <mj-text font-size="14px" align="center" color="#666666" padding-top="8px" line-height="1.5">
+          Invite your team and work together seamlessly in real-time.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="0 30px 50px">
+      <mj-column width="50%">
+        <mj-image src="https://placehold.co/260x180/png?text=Feature+C" alt="Feature C" />
+        <mj-text font-size="18px" font-weight="bold" align="center" padding-top="15px" color="{brandPrimary}">
+          Track Progress
+        </mj-text>
+        <mj-text font-size="14px" align="center" color="#666666" padding-top="8px" line-height="1.5">
+          Monitor your achievements with beautiful analytics dashboards.
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image src="https://placehold.co/260x180/png?text=Feature+D" alt="Feature D" />
+        <mj-text font-size="18px" font-weight="bold" align="center" padding-top="15px" color="{brandPrimary}">
+          Get Insights
+        </mj-text>
+        <mj-text font-size="14px" align="center" color="#666666" padding-top="8px" line-height="1.5">
+          Unlock powerful data insights to make better decisions.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="{brandAccent}" padding="40px 30px">
+      <mj-column>
+        <mj-text font-size="22px" font-weight="bold" align="center" color="#ffffff">
+          Questions? We've Got Answers.
+        </mj-text>
+        <mj-text font-size="15px" align="center" color="#ffffff" padding-top="12px">
+          Check out our knowledge base or chat with our friendly support team.
+        </mj-text>
+        <mj-button href="#" background-color="#ffffff" color="{brandAccent}" font-size="14px" padding="12px 35px" border-radius="5px" padding-top="20px">
+          Visit Help Center
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="35px 30px">
+      <mj-column>
+        <mj-text font-size="16px" align="center" color="#888888">
+          Connect with us
+        </mj-text>
+        <mj-social font-size="15px" icon-size="30px" mode="horizontal" align="center" padding-top="15px">
+          <mj-social-element name="facebook" href="#" alt="Facebook" />
+          <mj-social-element name="twitter" href="#" alt="Twitter" />
+          <mj-social-element name="instagram" href="#" alt="Instagram" />
+          <mj-social-element name="linkedin" href="#" alt="LinkedIn" />
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#222222" padding="25px 30px">
+      <mj-column>
+        <mj-text align="center" color="#888888" font-size="12px">
+          You're receiving this because you created an account with us.
+        </mj-text>
+        <mj-text align="center" color="#666666" font-size="11px" padding-top="12px">
+          <a href="#" style="color: #999999;">Unsubscribe</a> | <a href="#" style="color: #999999;">Preferences</a> | <a href="#" style="color: #999999;">Privacy</a>
+        </mj-text>
+        <mj-text align="center" color="#555555" font-size="10px" padding-top="10px">
+          Company Name, 200 Welcome Way, Onboard City 77889
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

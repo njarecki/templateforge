@@ -1,0 +1,168 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}" />
+      <mj-text color="{brandText}" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" />
+    </mj-attributes>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .mobile-full { width: 100% !important; }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="{brandBG}" width="640px">
+    <mj-section background-color="#ffffff" padding="25px 30px">
+      <mj-column>
+        <mj-image src="https://placehold.co/150x50/png?text=LOGO" alt="Company logo" width="150px" align="center" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="{brandPrimary}" padding="40px 35px">
+      <mj-column>
+        <mj-image src="https://placehold.co/80x80/png?text=Check" alt="Success checkmark" width="70px" align="center" />
+        <mj-text font-size="28px" font-weight="bold" align="center" color="#ffffff" padding-top="20px">
+          Order Confirmed!
+        </mj-text>
+        <mj-text font-size="16px" align="center" color="#ffffff" padding-top="10px">
+          Thank you for your purchase. We're getting your order ready.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="35px 30px">
+      <mj-column>
+        <mj-text font-size="18px" font-weight="bold" color="{brandPrimary}">
+          Order Details
+        </mj-text>
+        <mj-divider border-color="#eeeeee" padding="15px 0" />
+        <mj-text font-size="14px" color="#666666">
+          <strong>Order Number:</strong> #ORD-2024-78456
+        </mj-text>
+        <mj-text font-size="14px" color="#666666" padding-top="5px">
+          <strong>Order Date:</strong> November 29, 2024
+        </mj-text>
+        <mj-text font-size="14px" color="#666666" padding-top="5px">
+          <strong>Payment Method:</strong> Visa ending in 4242
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f9f9f9" padding="30px">
+      <mj-column>
+        <mj-text font-size="16px" font-weight="bold" color="{brandPrimary}" padding-bottom="15px">
+          Items Ordered
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f9f9f9" padding="0 30px 15px">
+      <mj-column width="20%">
+        <mj-image src="https://placehold.co/100x100/png?text=Item+1" alt="Product 1" width="80px" />
+      </mj-column>
+      <mj-column width="55%">
+        <mj-text font-size="15px" font-weight="bold">Premium Wireless Headphones</mj-text>
+        <mj-text font-size="13px" color="#666666">Color: Matte Black | Qty: 1</mj-text>
+      </mj-column>
+      <mj-column width="25%">
+        <mj-text font-size="15px" font-weight="bold" align="right">$149.99</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f9f9f9" padding="0 30px 15px">
+      <mj-column width="20%">
+        <mj-image src="https://placehold.co/100x100/png?text=Item+2" alt="Product 2" width="80px" />
+      </mj-column>
+      <mj-column width="55%">
+        <mj-text font-size="15px" font-weight="bold">USB-C Charging Cable</mj-text>
+        <mj-text font-size="13px" color="#666666">Length: 6ft | Qty: 2</mj-text>
+      </mj-column>
+      <mj-column width="25%">
+        <mj-text font-size="15px" font-weight="bold" align="right">$29.98</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f9f9f9" padding="15px 30px 30px">
+      <mj-column>
+        <mj-divider border-color="#dddddd" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f9f9f9" padding="0 30px 10px">
+      <mj-column width="70%">
+        <mj-text font-size="14px" color="#666666">Subtotal</mj-text>
+      </mj-column>
+      <mj-column width="30%">
+        <mj-text font-size="14px" align="right">$179.97</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f9f9f9" padding="0 30px 10px">
+      <mj-column width="70%">
+        <mj-text font-size="14px" color="#666666">Shipping</mj-text>
+      </mj-column>
+      <mj-column width="30%">
+        <mj-text font-size="14px" align="right">$0.00</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f9f9f9" padding="0 30px 10px">
+      <mj-column width="70%">
+        <mj-text font-size="14px" color="#666666">Tax</mj-text>
+      </mj-column>
+      <mj-column width="30%">
+        <mj-text font-size="14px" align="right">$14.40</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f9f9f9" padding="10px 30px 30px">
+      <mj-column width="70%">
+        <mj-text font-size="18px" font-weight="bold" color="{brandPrimary}">Total</mj-text>
+      </mj-column>
+      <mj-column width="30%">
+        <mj-text font-size="18px" font-weight="bold" align="right" color="{brandPrimary}">$194.37</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="30px">
+      <mj-column width="50%">
+        <mj-text font-size="14px" font-weight="bold" color="{brandPrimary}">Shipping Address</mj-text>
+        <mj-text font-size="13px" color="#666666" padding-top="10px" line-height="1.6">
+          John Smith<br/>
+          123 Main Street, Apt 4B<br/>
+          New York, NY 10001<br/>
+          United States
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text font-size="14px" font-weight="bold" color="{brandPrimary}">Estimated Delivery</mj-text>
+        <mj-text font-size="13px" color="#666666" padding-top="10px" line-height="1.6">
+          December 3-5, 2024<br/>
+          Standard Shipping<br/>
+          <br/>
+          <a href="#" style="color: {brandPrimary};">Track Order</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="{brandSecondary}" padding="30px">
+      <mj-column>
+        <mj-text font-size="16px" font-weight="bold" align="center" color="{brandPrimary}">
+          Need Help?
+        </mj-text>
+        <mj-text font-size="14px" align="center" color="#666666" padding-top="10px">
+          Our support team is here for you 24/7
+        </mj-text>
+        <mj-button href="#" font-size="14px" padding="12px 30px" border-radius="5px" padding-top="15px">
+          Contact Support
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#222222" padding="30px">
+      <mj-column>
+        <mj-social font-size="15px" icon-size="25px" mode="horizontal" align="center">
+          <mj-social-element name="facebook" href="#" alt="Facebook" />
+          <mj-social-element name="twitter" href="#" alt="Twitter" />
+          <mj-social-element name="instagram" href="#" alt="Instagram" />
+        </mj-social>
+        <mj-text align="center" color="#888888" font-size="12px" padding-top="20px">
+          This is a transactional email regarding your recent order.
+        </mj-text>
+        <mj-text align="center" color="#666666" font-size="11px" padding-top="10px">
+          <a href="#" style="color: #999999;">Unsubscribe from marketing</a> | <a href="#" style="color: #999999;">Privacy Policy</a>
+        </mj-text>
+        <mj-text align="center" color="#555555" font-size="10px" padding-top="10px">
+          Company Name, 456 Commerce Ave, Business City 33445
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

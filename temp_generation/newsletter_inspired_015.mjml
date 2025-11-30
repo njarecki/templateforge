@@ -1,0 +1,158 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}" />
+      <mj-text color="{brandText}" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" />
+    </mj-attributes>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .mobile-stack { display: block !important; width: 100% !important; }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="{brandBG}" width="640px">
+    <mj-section background-color="#ffffff" padding="25px 30px">
+      <mj-column width="50%">
+        <mj-image src="https://placehold.co/150x50/png?text=MONTHLY" alt="Monthly newsletter logo" width="150px" align="left" />
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text align="right" font-size="12px" color="#888888" padding-top="15px">
+          December 2024 Edition
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="{brandPrimary}" padding="50px 40px">
+      <mj-column>
+        <mj-text font-size="38px" font-weight="bold" align="center" color="#ffffff" line-height="1.2">
+          Year in Review
+        </mj-text>
+        <mj-text font-size="18px" align="center" color="#ffffff" padding-top="15px" line-height="1.5">
+          The stories that shaped 2024—and what's coming next.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="45px 35px 30px">
+      <mj-column>
+        <mj-text font-size="22px" font-weight="bold" color="{brandPrimary}">
+          From the Editor
+        </mj-text>
+        <mj-text font-size="15px" color="#666666" padding-top="15px" line-height="1.7">
+          What a year it's been! From breakthrough technologies to shifting cultural landscapes, 2024 has given us no shortage of stories to tell. In this special edition, we look back at the moments that mattered most.
+        </mj-text>
+        <mj-text font-size="14px" color="#888888" padding-top="15px" font-style="italic">
+          — Sarah Chen, Editor-in-Chief
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f5f5f5" padding="40px 30px">
+      <mj-column>
+        <mj-text font-size="12px" color="{brandAccent}" font-weight="bold" letter-spacing="2px">
+          TOP STORY
+        </mj-text>
+        <mj-image src="https://placehold.co/580x320/png?text=Top+Story+2024" alt="Top story of 2024" width="580px" padding-top="15px" />
+        <mj-text font-size="24px" font-weight="bold" color="{brandPrimary}" padding-top="20px" line-height="1.3">
+          The Year AI Went Mainstream
+        </mj-text>
+        <mj-text font-size="15px" color="#666666" padding-top="12px" line-height="1.6">
+          From chatbots to creative tools, artificial intelligence touched nearly every aspect of daily life in 2024. Here's how it happened and what it means for the future.
+        </mj-text>
+        <mj-button href="#" font-size="14px" padding="12px 30px" border-radius="4px" padding-top="20px">
+          Read the Full Story
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="45px 30px 25px">
+      <mj-column>
+        <mj-text font-size="20px" font-weight="bold" color="{brandPrimary}">
+          Most Read Stories of 2024
+        </mj-text>
+        <mj-divider border-color="{brandSecondary}" border-width="3px" padding="12px 0" width="60px" align="left" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="10px 30px">
+      <mj-column width="8%">
+        <mj-text font-size="24px" font-weight="bold" color="{brandAccent}">1</mj-text>
+      </mj-column>
+      <mj-column width="92%">
+        <mj-text font-size="16px" font-weight="bold" color="{brandPrimary}">The Remote Work Revolution Continues</mj-text>
+        <mj-text font-size="13px" color="#666666" padding-top="5px">How companies are adapting to hybrid models</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="10px 30px">
+      <mj-column width="8%">
+        <mj-text font-size="24px" font-weight="bold" color="{brandAccent}">2</mj-text>
+      </mj-column>
+      <mj-column width="92%">
+        <mj-text font-size="16px" font-weight="bold" color="{brandPrimary}">Climate Tech's Breakthrough Year</mj-text>
+        <mj-text font-size="13px" color="#666666" padding-top="5px">New solutions that are making a real difference</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="10px 30px">
+      <mj-column width="8%">
+        <mj-text font-size="24px" font-weight="bold" color="{brandAccent}">3</mj-text>
+      </mj-column>
+      <mj-column width="92%">
+        <mj-text font-size="16px" font-weight="bold" color="{brandPrimary}">The Creator Economy Matures</mj-text>
+        <mj-text font-size="13px" color="#666666" padding-top="5px">Beyond influencers: Building sustainable businesses</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="10px 30px">
+      <mj-column width="8%">
+        <mj-text font-size="24px" font-weight="bold" color="{brandAccent}">4</mj-text>
+      </mj-column>
+      <mj-column width="92%">
+        <mj-text font-size="16px" font-weight="bold" color="{brandPrimary}">Healthcare's Digital Transformation</mj-text>
+        <mj-text font-size="13px" color="#666666" padding-top="5px">Telehealth, AI diagnosis, and personalized medicine</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="10px 30px 40px">
+      <mj-column width="8%">
+        <mj-text font-size="24px" font-weight="bold" color="{brandAccent}">5</mj-text>
+      </mj-column>
+      <mj-column width="92%">
+        <mj-text font-size="16px" font-weight="bold" color="{brandPrimary}">The Return of Local Commerce</mj-text>
+        <mj-text font-size="13px" color="#666666" padding-top="5px">Why consumers are shopping closer to home</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="{brandSecondary}" padding="35px 30px">
+      <mj-column>
+        <mj-text font-size="18px" font-weight="bold" align="center" color="{brandPrimary}">
+          What to Watch in 2025
+        </mj-text>
+        <mj-text font-size="14px" align="center" color="#666666" padding-top="10px" line-height="1.5">
+          Our editors' predictions for the trends that will define the year ahead.
+        </mj-text>
+        <mj-button href="#" font-size="14px" padding="12px 30px" border-radius="20px" padding-top="18px">
+          Read Predictions
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="35px 30px">
+      <mj-column>
+        <mj-text font-size="16px" font-weight="bold" align="center" color="{brandPrimary}">
+          Thank you for reading this year!
+        </mj-text>
+        <mj-social font-size="15px" icon-size="28px" mode="horizontal" align="center" padding-top="15px">
+          <mj-social-element name="facebook" href="#" alt="Facebook" />
+          <mj-social-element name="twitter" href="#" alt="Twitter" />
+          <mj-social-element name="linkedin" href="#" alt="LinkedIn" />
+          <mj-social-element name="instagram" href="#" alt="Instagram" />
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#1a1a1a" padding="30px">
+      <mj-column>
+        <mj-text align="center" color="#888888" font-size="12px">
+          You're receiving our monthly newsletter.
+        </mj-text>
+        <mj-text align="center" color="#666666" font-size="11px" padding-top="10px">
+          <a href="#" style="color: #999999;">Unsubscribe</a> | <a href="#" style="color: #999999;">Preferences</a> | <a href="#" style="color: #999999;">View Online</a>
+        </mj-text>
+        <mj-text align="center" color="#555555" font-size="10px" padding-top="10px">
+          Monthly Review, 100 Media Plaza, Press City 77889
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
