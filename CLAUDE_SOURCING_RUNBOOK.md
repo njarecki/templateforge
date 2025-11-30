@@ -47,9 +47,10 @@ Status Reporting (every 30–60 minutes)
 - Never say “complete”; continue until STOP.
 
 Start Now
-- Harvest ≥300 unique base templates across sources above, maximizing diversity (welcome, promo, ecommerce, newsletter, transactional).
+- Harvest ≥1000 unique base templates across sources above, maximizing diversity (welcome, promo, ecommerce, newsletter, transactional). Keep going until the index shows at least 1000 unique (post‑dedupe) items.
 - Populate data/raw and data/index with accurate metadata and dedupe results.
-- When done with all listed sources, expand GitHub queries and continue.
+- Aim for breadth: at least 6 distinct sources and representation from all five categories.
+- When done with all listed sources, expand GitHub queries and continue until the 1000 unique target is reached.
 
 Helper Script (must use)
 - Initialize folders: `python3 scripts/sourcing_indexer.py init`
@@ -57,5 +58,11 @@ Helper Script (must use)
   `python3 scripts/sourcing_indexer.py add --source-id <id> --source-name "<name>" --url <url> --license <license> --type <html|mjml> --file data/raw/<source_id>/<slug>.<html|mjml>`
 - Periodically dedupe: `python3 scripts/sourcing_indexer.py dedupe`
 - Show progress: `python3 scripts/sourcing_indexer.py stats`
+
+Success Criteria (do not stop before this)
+- At least 1000 indexed items after dedupe.
+- ≥95% records with both license and URL populated.
+- Healthy mix of `mjml` and `html`; prioritize MJML when available.
+- Source diversity (≥6 sources) and category diversity (welcome, promo, ecommerce, newsletter, transactional all present).
 
 Index record includes: id, source_id, source_name, url, license, type, file_path, byte_size, content_hash, quick_features.
