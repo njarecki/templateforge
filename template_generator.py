@@ -279,6 +279,31 @@ TEMPLATE_TYPES = {
         "sections": ["header_nav", "payment_failed", "accordion_faq", "footer_simple"],
         "description": "Payment failure notification with retry and update payment options"
     },
+    # Additional specialized templates
+    "order_hold": {
+        "name": "Order Hold",
+        "category": "Ecommerce",
+        "sections": ["header_nav", "order_hold", "1col_text", "footer_simple"],
+        "description": "Order hold notification with action required and deadline warning"
+    },
+    "subscription_paused": {
+        "name": "Subscription Paused",
+        "category": "Transactional",
+        "sections": ["header_nav", "subscription_paused", "1col_text", "footer_simple"],
+        "description": "Subscription pause confirmation with resume option and feature reminder"
+    },
+    "referral_success": {
+        "name": "Referral Success",
+        "category": "Promo",
+        "sections": ["header_nav", "referral_success", "testimonial", "cta_band", "footer_simple"],
+        "description": "Referral reward earned notification with stats and share options"
+    },
+    "wishlist_price_drop": {
+        "name": "Wishlist Price Drop",
+        "category": "Ecommerce",
+        "sections": ["header_nav", "1col_text", "wishlist_item", "price_alert", "urgency_banner", "cta_band", "footer_simple"],
+        "description": "Price drop notification for items in customer wishlist with urgency"
+    },
 }
 
 
