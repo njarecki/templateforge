@@ -14303,6 +14303,4118 @@
         "has_media_queries": true,
         "table_count": 6
       }
+    },
+    {
+      "id": "da3311dcbea95e497e995206b35f0512",
+      "source_id": "emailoctopus_full",
+      "source_name": "EmailOctopus Templates",
+      "url": "https://github.com/threeheartsdigital/emailoctopus-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/emailoctopus_full/abacus_blog.html",
+      "byte_size": 50097,
+      "content_hash": "21182aa11f3b3fd18b287cc145e7369cd070615cb273b5a4362f1d0da90e41f4",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 61
+      }
+    },
+    {
+      "id": "d152dfb306a5b05a3bb1b55630242732",
+      "source_id": "emailoctopus_full",
+      "source_name": "EmailOctopus Templates",
+      "url": "https://github.com/threeheartsdigital/emailoctopus-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/emailoctopus_full/abacus_product.html",
+      "byte_size": 27961,
+      "content_hash": "572b3911ee47a0c2cf39afd56088e96763bd2b52cae199411b3875b7ba72301e",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 30
+      }
+    },
+    {
+      "id": "17100b3f8b880be0f0b41977b052d5fc",
+      "source_id": "emailoctopus_full",
+      "source_name": "EmailOctopus Templates",
+      "url": "https://github.com/threeheartsdigital/emailoctopus-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/emailoctopus_full/abacus_re-opt-in.html",
+      "byte_size": 10834,
+      "content_hash": "b9312d3fc89d408115aa396eac8b943f4377c8e744f9e705d867ddc55cf7c70c",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 14
+      }
+    },
+    {
+      "id": "d7b2a90238c1e1dfebc9743599067959",
+      "source_id": "emailoctopus_full",
+      "source_name": "EmailOctopus Templates",
+      "url": "https://github.com/threeheartsdigital/emailoctopus-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/emailoctopus_full/abacus_transactional.html",
+      "byte_size": 24132,
+      "content_hash": "e0cb4982867d8405c2e2738271d058fb8fe179683c9aeb427e3392c1df936c76",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 27
+      }
+    },
+    {
+      "id": "1e8c2b02ee6291ab317b8b5890d379a4",
+      "source_id": "emailoctopus_full",
+      "source_name": "EmailOctopus Templates",
+      "url": "https://github.com/threeheartsdigital/emailoctopus-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/emailoctopus_full/karakol_blog.html",
+      "byte_size": 27445,
+      "content_hash": "04b8a097358c460866f48460ef8bb45bed620f07e6bb6309bdaa4f890313b7ea",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": true,
+        "table_count": 24
+      }
+    },
+    {
+      "id": "9d3ab374efd00c635f25fcd4b72a184a",
+      "source_id": "emailoctopus_full",
+      "source_name": "EmailOctopus Templates",
+      "url": "https://github.com/threeheartsdigital/emailoctopus-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/emailoctopus_full/karakol_product.html",
+      "byte_size": 21806,
+      "content_hash": "68e20f3dee595ba08bed301effb3e271dab31b4f85ef28b43b33481c70f624b6",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": true,
+        "table_count": 23
+      }
+    },
+    {
+      "id": "65941e0e5d1b0ccd02ef8ed0c6f7599f",
+      "source_id": "emailoctopus_full",
+      "source_name": "EmailOctopus Templates",
+      "url": "https://github.com/threeheartsdigital/emailoctopus-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/emailoctopus_full/karakol_transactional.html",
+      "byte_size": 16140,
+      "content_hash": "4248c13e5aacbaea701eb23654976ca2e30c0dd5adedb6d62b8635d9894bb1da",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 14
+      }
+    },
+    {
+      "id": "9a45309467e345e7eb9b6bd79043590e",
+      "source_id": "emailoctopus_full",
+      "source_name": "EmailOctopus Templates",
+      "url": "https://github.com/threeheartsdigital/emailoctopus-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/emailoctopus_full/plain_re-opt-in.html",
+      "byte_size": 5826,
+      "content_hash": "f52a90b6f2efff81695c0d4790c99a2cb2edb5368a4a8fd2685d092c64cf07c3",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 9
+      }
+    },
+    {
+      "id": "162de70d12f1f073f82068773340da8a",
+      "source_id": "emailoctopus_full",
+      "source_name": "EmailOctopus Templates",
+      "url": "https://github.com/threeheartsdigital/emailoctopus-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/emailoctopus_full/wayfair_blog.html",
+      "byte_size": 53016,
+      "content_hash": "5ae9af047f007b1fbea816592faac34349c3fd501a1f9b7321c5724c26c85bf8",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 34
+      }
+    },
+    {
+      "id": "5f89c2f05e8749970d5ff21ef4ee3715",
+      "source_id": "emailoctopus_full",
+      "source_name": "EmailOctopus Templates",
+      "url": "https://github.com/threeheartsdigital/emailoctopus-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/emailoctopus_full/wayfair_newsletter.html",
+      "byte_size": 84187,
+      "content_hash": "30743c9cc679b5716dc1b7ef038989a7c872dc1141be6b5b9cd74632dfa8434b",
+      "quick_features": {
+        "sections_detected": 5,
+        "has_media_queries": true,
+        "table_count": 76
+      }
+    },
+    {
+      "id": "3e310e7fa81df5168771984e92ec9520",
+      "source_id": "emailoctopus_full",
+      "source_name": "EmailOctopus Templates",
+      "url": "https://github.com/threeheartsdigital/emailoctopus-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/emailoctopus_full/wayfair_transactional.html",
+      "byte_size": 30059,
+      "content_hash": "fe1146ae22c55e8c02f64915e2af74dd674219b65a7c66b8e97ffa389e4fc8eb",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 26
+      }
+    },
+    {
+      "id": "727f971fb02f1345e034fd81b5eb781d",
+      "source_id": "designmodo_postcards",
+      "source_name": "Designmodo Postcards",
+      "url": "https://github.com/designmodo/html-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/designmodo_postcards/app_email_html_newsletter.html",
+      "byte_size": 75962,
+      "content_hash": "70025f939c0aa0d043ea8b483deee2705c22b0f159c6079b66b33818f0e25a2b",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": true,
+        "table_count": 63
+      }
+    },
+    {
+      "id": "cdea46d76f2906ee6a5a746fde31baad",
+      "source_id": "designmodo_postcards",
+      "source_name": "Designmodo Postcards",
+      "url": "https://github.com/designmodo/html-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/designmodo_postcards/ecommerce_email_html_template.html",
+      "byte_size": 54532,
+      "content_hash": "3a135552df1dc8eef3493866649a3209d158dea610ba91b8d3779957ad1d3526",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": true,
+        "table_count": 53
+      }
+    },
+    {
+      "id": "f5b6cfa2ff5fecaeb02848e6d8c8d0c1",
+      "source_id": "designmodo_postcards",
+      "source_name": "Designmodo Postcards",
+      "url": "https://github.com/designmodo/html-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/designmodo_postcards/email_newsletter_with_best_articles.html",
+      "byte_size": 86799,
+      "content_hash": "cb561cb3bb0ed88984febf60f74efff6d833b4c991445989b7f91b1248434889",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": true,
+        "table_count": 82
+      }
+    },
+    {
+      "id": "80a67ef2dbb3dea915ff5ffe07a1d629",
+      "source_id": "designmodo_postcards",
+      "source_name": "Designmodo Postcards",
+      "url": "https://github.com/designmodo/html-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/designmodo_postcards/responsive_email_html_template.html",
+      "byte_size": 70388,
+      "content_hash": "938a4c5268ee880536a18027e338ed02ec762a21c44bbe80a085b34e0dff4986",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": true,
+        "table_count": 60
+      }
+    },
+    {
+      "id": "3d442d65986efed0334f5412b836f457",
+      "source_id": "designmodo_postcards",
+      "source_name": "Designmodo Postcards",
+      "url": "https://github.com/designmodo/html-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/designmodo_postcards/weekly_custom_email_newsletter.html",
+      "byte_size": 52023,
+      "content_hash": "8059aaf6a719f4b5bd923f2de6dee22f90ec162302a1acfa51ad94771916dc6d",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 41
+      }
+    },
+    {
+      "id": "424700775c68bfada0c29b56ad8b941f",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/shopify_templates/customer_contact_buyer.html",
+      "byte_size": 2399,
+      "content_hash": "7c948d0ae5793f40a07d59d284c0342f703e703f9d99cc7551a4ccd64000be7e",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 8
+      }
+    },
+    {
+      "id": "1cfec028b1844d11695866886062a586",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/shopify_templates/customer_customer_account_activate.html",
+      "byte_size": 540,
+      "content_hash": "b116b3c8ba52b23f2c8b0baf24c326b41e5ca537193e1f2ebce17ec48759665e",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "19b23ce114f146c094baf345e6507777",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/shopify_templates/customer_customer_account_reset.html",
+      "byte_size": 3265,
+      "content_hash": "077fe99f43b1109056211b8fe660e88eab7b449f907b774364d7462f4286890b",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 11
+      }
+    },
+    {
+      "id": "d540daf482b9119c6e94cd6520657817",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/shopify_templates/customer_customer_account_welcome.html",
+      "byte_size": 3102,
+      "content_hash": "6e7b3676e2058baa17252cfc7c955fc78c0cc53606c9499f8ec66646a74c6527",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 10
+      }
+    },
+    {
+      "id": "d4e27c82463c71d7edd0c1aa5206abc3",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/shopify_templates/customer_customer_update_payment_method.html",
+      "byte_size": 3247,
+      "content_hash": "6939490606e0d2d5bc26709bb04ad1ac12f8c019736f9781b417639fde8fa88b",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 10
+      }
+    },
+    {
+      "id": "2aa98d8c169a64a2ce5359132d4ecb04",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/shopify_templates/email_marketing_customer_marketing_confirmation.html",
+      "byte_size": 3289,
+      "content_hash": "ab101bd3a9f59a923523fc44bc38763504fc9f274aa22ce335a80fc1c5061ca3",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 10
+      }
+    },
+    {
+      "id": "d734be64eb1c8065e189d302eef2ba93",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/shopify_templates/local_pickup_pickup_receipt.html",
+      "byte_size": 11882,
+      "content_hash": "50915150a5b59edea477b20ad7f8d3dd837ce2460fbec7d9607c644ec36f65f8",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 19
+      }
+    },
+    {
+      "id": "dc9f23b1d5dd720991acf80f1601cb69",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/shopify_templates/local_pickup_ready_for_pickup.html",
+      "byte_size": 13566,
+      "content_hash": "733ac4154e670fc55528930c4f5d76aba724ff9aab5f4e7b620587862a4c7077",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 23
+      }
+    },
+    {
+      "id": "16638646f58d8aa6050d708d123ea0e7",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/shopify_templates/orders_abandoned_checkout_notification.html",
+      "byte_size": 6914,
+      "content_hash": "1b333ca5fb1fb28692377ced5389c23f6ca73ba6f6c7a65b4c8747da1eaa8188",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 16
+      }
+    },
+    {
+      "id": "7d0d37788808c8b30a22bf8611accdcd",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/shopify_templates/orders_buy_online.html",
+      "byte_size": 13564,
+      "content_hash": "8e54aa7993080e5545352c697b220d506a20c7bd00bb0a8b3178f3cac538bcf3",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 26
+      }
+    },
+    {
+      "id": "5da37cf7e22f6503f286e34d5c047656",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/shopify_templates/orders_draft_order_invoice.html",
+      "byte_size": 13992,
+      "content_hash": "c8abd282e546653e0eb20639ce6166349f0f6ae4e7d9b922d23aa8ec19a64913",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 25
+      }
+    },
+    {
+      "id": "9812b884c006454a3a8400566c599bc6",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/shopify_templates/orders_failed_payment_processing.html",
+      "byte_size": 3650,
+      "content_hash": "03650f3868c91eb3b4b8b919ee63d34bc254d69ad7350e37cfa287cafdb809a8",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 13
+      }
+    },
+    {
+      "id": "e39edbbe409fbc48b7b538ef0b879249",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/shopify_templates/orders_gift_card_notification.html",
+      "byte_size": 3535,
+      "content_hash": "d5f87a4618c6eb410e6253eaba78823db67250ec1ea182c4497b871b3ad2b1e8",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": false,
+        "table_count": 9
+      }
+    },
+    {
+      "id": "3c747afb77950143f2c609f4b035349c",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/shopify_templates/orders_order_cancelled.html",
+      "byte_size": 12621,
+      "content_hash": "5a5f6f3e4a7e57ec301b82f1c93edbd0e7bf56815416419ca1fe6a8e56673a12",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 17
+      }
+    },
+    {
+      "id": "913f9654fbcdf8d5375be5ebf54b8e24",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/shopify_templates/orders_order_confirmation.html",
+      "byte_size": 16824,
+      "content_hash": "5150547f1d4538f7b05aec7deb992cd80d068446b648fc20fa2678c2e2a6cc41",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 30
+      }
+    },
+    {
+      "id": "9f5b3ba94f85d5d5aeab97dcb8910f71",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/shopify_templates/orders_order_edited.html",
+      "byte_size": 15060,
+      "content_hash": "4875f5c212a20c11cc6651cdb8c982193d6af5578f2b9dcb1743f9c5c8129cf4",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 27
+      }
+    },
+    {
+      "id": "c04730c810bef355b5fe0e1f26b69c98",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/shopify_templates/orders_order_edit_invoice.html",
+      "byte_size": 9197,
+      "content_hash": "69256697cf35b96f478eef3f68b00f9236565d2b68491303c9ba18d5eecd256f",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 20
+      }
+    },
+    {
+      "id": "b41986cb5ed39d31485a4f7f200d8378",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/shopify_templates/orders_order_invoice.html",
+      "byte_size": 10986,
+      "content_hash": "7e530adf0a45ca61b86580bb932c9531683750154aa1c7342ff671f1532ed5f4",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 26
+      }
+    },
+    {
+      "id": "6f56de1ae1ad616efd650ea9d56f18c0",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/shopify_templates/orders_pos_exchange_receipt.html",
+      "byte_size": 16440,
+      "content_hash": "0d74e44d0e6936abfa7e251a181cc9676826148a4234b5b65126b917311535b7",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 26
+      }
+    },
+    {
+      "id": "7d0fabfce2ec6d0d87f943f843b4f3e6",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/shopify_templates/orders_refund_notification.html",
+      "byte_size": 11697,
+      "content_hash": "c41b290b3ed34ec6b6c73c88db10fc58c97816c766b98f2d799b83273a85b0e5",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 17
+      }
+    },
+    {
+      "id": "4a168a5ba86ff433422e19827531479e",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/shopify_templates/orders_store_receipt.html",
+      "byte_size": 12833,
+      "content_hash": "2f51e7633a650a44c9e1ee2867744a50f312a4fba35fdb5098b4e1df59e3c74f",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 24
+      }
+    },
+    {
+      "id": "736474747fde3c1b55c2ed8ef6db0532",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/shopify_templates/returns_return_created.html",
+      "byte_size": 8525,
+      "content_hash": "560c219621208c167e3bf0cd7661fcf0bb1a1a0e5ab683bcca9a258a5a0c77e7",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 19
+      }
+    },
+    {
+      "id": "200aceb9c116ee4515dc03cf267c827b",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/shopify_templates/returns_return_label_notification.html",
+      "byte_size": 3965,
+      "content_hash": "ae7779ba03a30f0ef2c5ef0ab860d7c92398d6638eb7490a47131fd8356e5eb9",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 14
+      }
+    },
+    {
+      "id": "b393c8da126d1e7694c92e61217d5761",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/shopify_templates/shipping_fulfillment_request.html",
+      "byte_size": 1227,
+      "content_hash": "92851b223431b5f7a655a4073fc7f37db9a9a82c09dda3a158b34cc68c92c2ef",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "c91df62687f211e16248278fc0d0d374",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/shopify_templates/shipping_shipment_delivered.html",
+      "byte_size": 8814,
+      "content_hash": "18bb22017a1e76d623b32c4b459b372d1a6a8bcc15762ed64888f977da6c23c5",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 18
+      }
+    },
+    {
+      "id": "a265908cf12efd4380000af42160efa3",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/shopify_templates/shipping_shipment_out_for_delivery.html",
+      "byte_size": 8829,
+      "content_hash": "54d834381a1a424e42c829492d248729f4d5924f1d473a5dd6630838188c7f78",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 18
+      }
+    },
+    {
+      "id": "d3cb320af44b8c5a9a92f79cd2f9a9f5",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/shopify_templates/shipping_shipping_confirmation.html",
+      "byte_size": 8765,
+      "content_hash": "0969c722f6c519ca0ef8cc43b4d17c049f6c55660b892c6de605c8c73760dc4b",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 18
+      }
+    },
+    {
+      "id": "eb250f72d977a97a0469e6fe122488ae",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/shopify_templates/shipping_shipping_update.html",
+      "byte_size": 7417,
+      "content_hash": "63c07f877b962fdc6f676af7f04be9144f9f36bb7b8d515039a0450b6d4a1f7a",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 18
+      }
+    },
+    {
+      "id": "f27a3985a2a3c7764a623004661792b3",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/shopify_templates/staff_new_order_notification.html",
+      "byte_size": 1375,
+      "content_hash": "30197bc3cc28b2cf0b9ccea2eb0264115308530f689071f6db3b94d03c71802d",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "65a951c0c443b7d49df6a0464c6eadff",
+      "source_id": "accessible_emails_full",
+      "source_name": "Accessible Emails (Rodriguez)",
+      "url": "https://github.com/rodriguezcommaj/accessible-emails",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/accessible_emails_full/account-update-template.html",
+      "byte_size": 9982,
+      "content_hash": "3b0dc6fe96c35898d225714516e17eac63e0e2acb76f266d10eb60c402ec9862",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "fa9b7992297b854c19deb716d642bfb3",
+      "source_id": "accessible_emails_full",
+      "source_name": "Accessible Emails (Rodriguez)",
+      "url": "https://github.com/rodriguezcommaj/accessible-emails",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/accessible_emails_full/newsletter-template.html",
+      "byte_size": 12920,
+      "content_hash": "fb8f86a404a5081229e074749f07d767984c6dbf44084500e00184d4aa6327fd",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "c175d9d6f7d5e62aeec2a49690a3bb84",
+      "source_id": "accessible_emails_full",
+      "source_name": "Accessible Emails (Rodriguez)",
+      "url": "https://github.com/rodriguezcommaj/accessible-emails",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/accessible_emails_full/personal-note-template.html",
+      "byte_size": 10375,
+      "content_hash": "880fbf3a497d334d7bf1656dc9e1ad2934722f33671a975fbe2f68987445d1c9",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "b34503354ca5ba3614fd2b6399225e6b",
+      "source_id": "accessible_emails_full",
+      "source_name": "Accessible Emails (Rodriguez)",
+      "url": "https://github.com/rodriguezcommaj/accessible-emails",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/accessible_emails_full/product-feature-template.html",
+      "byte_size": 11330,
+      "content_hash": "3a165c56f53c8be3bdd2913276cc51f2be683308a9af971d7fc77d026ff147a1",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": true,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "25cbbaf0bc59a3f3fdd1e3cda7fe1e9d",
+      "source_id": "appcues",
+      "source_name": "Appcues Email Templates",
+      "url": "https://github.com/appcues/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/appcues/welcome.html",
+      "byte_size": 21592,
+      "content_hash": "b60decc9f2fd07bac68133d2ee5ace1d648bb8c17a1a5efbf080cd444204b15b",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 15
+      }
+    },
+    {
+      "id": "b26128cbb5258329069adededc63b94c",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/layouts_default.html",
+      "byte_size": 692,
+      "content_hash": "d5707aa88e5b776558af1986a4e83ec2ee63f8b329eb15d727bd27720753e5a5",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "7201fe4e78a2aa113ed362c8f6ec0703",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/layouts_pdf.html",
+      "byte_size": 816,
+      "content_hash": "683da6ed8a5fa1b32f6fa8879eeabfb52a3801867894ba13aaaa35461e70370e",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "2a5904d76808ec9cc98181ce25dd083f",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/layouts_dhanapala.html",
+      "byte_size": 682,
+      "content_hash": "590371ca3c1a39d4ea2f8dfdbc6ea34b35f3c41b6363fcd47c450033fd3a3986",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "08b026878b1219e6e154becf3f3556f7",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_emas_transaction-refund.html",
+      "byte_size": 2699,
+      "content_hash": "8d4980ae8148e0519059d413f3ce2ec907f4201f4a4d4a51de6db0c0e0cb11f4",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "69fa5cfd4a1b8b85427ed66c340df331",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_emas_send-gift-card.html",
+      "byte_size": 1335,
+      "content_hash": "d5b41a01f6743bb22086ddf2de05cfdf67cd93d0c91b4091253e221e6ac25638",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "61a6542ca79f473373fd35e2826f4a69",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_emas_sell-success.html",
+      "byte_size": 2589,
+      "content_hash": "6bb8e24adf9d01dfbeb348f5af7a39ccc335dd8e744a9442c3f8e29ed713e5d9",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "e68e77004afd44f48bb0e3faee21b702",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_emas_sell-failed.html",
+      "byte_size": 2814,
+      "content_hash": "5bfb8a8ed4645f38abd0d175e2b0b1d7ee03c8339ccf8e7697ae93a8be4f84f7",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "5f3578e779006f31a203c702a88d5ddd",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_emas_upgrade-success-prime.html",
+      "byte_size": 1642,
+      "content_hash": "72bc8838bc5eb4f2a1cced7f12a8fb3e15cf2ba31c640a60b079a59f59208e17",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "73d148f941ce83d50af8759518f927c5",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_emas_price-has-change.html",
+      "byte_size": 3260,
+      "content_hash": "c1fa2a87a89965fcd79ae3318e910c3d23de31a495c5c77561333c3acb02c1da",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 3
+      }
+    },
+    {
+      "id": "897064aa2e2c31e1564aad90490281b1",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_emas_price-has-change-decrease.html",
+      "byte_size": 3196,
+      "content_hash": "ad2ef53feead3fc1dcba1d0e931a39ed18ce17bead00e1c8f0c762bdb1c226bb",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 3
+      }
+    },
+    {
+      "id": "2918afc1448e05cfd0e7df3c64526639",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_emas_buy-pending.html",
+      "byte_size": 2754,
+      "content_hash": "3b912fc979b209fa54f2c33ef3d938f987d30d3cc00b871fda76fee64c84687a",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "644d9ccd622aa1159d3d68d31e9c099f",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_emas_sell-on-process.html",
+      "byte_size": 2624,
+      "content_hash": "577d675c7d8752ee4d507ff2ddd2943b8285cc7774e975942528af110f8d0b2c",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "4424deecde7c184718f4bb6372fcd6b0",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_emas_sell-success-to-saldo.html",
+      "byte_size": 2962,
+      "content_hash": "6d9b2faca4453d65bf76cca5b4ca3fd70fa914fd520654f9015bf27f6d4e3b6c",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "751c1674129f03aacfe738222662db59",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_emas_limit-value-prestige.html",
+      "byte_size": 1654,
+      "content_hash": "490afefed6d4a031dece4258aea42a01136acefc265f53d6589ef1ba51b6e574",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "570c266fa0d5710b86044d90728b6868",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_emas_limit-value-prime.html",
+      "byte_size": 1702,
+      "content_hash": "d3fc834a25a6440feacac1899242e728df54662af092e8be4dca74342da8c375",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "b4187128633ce6b0baece6403e43e2da",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_emas_limit-transaction-prestige.html",
+      "byte_size": 1697,
+      "content_hash": "dde053122e410b25532d6edb702fdd850d9cd065e1d83fa83750ef370284e0e0",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "d462cc8a32ee1895199dc3bf7d073409",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_emas_price-will-change.html",
+      "byte_size": 2632,
+      "content_hash": "438fc4d88a31748e04c3871193cd57e9486ffa7c7a28543f30d0c5ba83d9cee5",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "c2dc7ac1fd1e1210c79273487e2151de",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_emas_buy-success.html",
+      "byte_size": 2840,
+      "content_hash": "973051e0f8f2fade1cf440342200f38ed462cefd853007d402bbe141714d8945",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "2f88387bf178b2b25a093bc79f1a9c58",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_emas_monthly-report.html",
+      "byte_size": 5986,
+      "content_hash": "7d2ede268c21001dc3cce62bd9c3b8e9bdbdd304ff240266f19aac6201150510",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 5
+      }
+    },
+    {
+      "id": "9787b4b39cdd1af2ba9955592dd3f320",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_emas_upgrade-success-prestige.html",
+      "byte_size": 1702,
+      "content_hash": "e12cfdcaf444a3bbf7940e1e1c0d64ef639e8ce34650c276454a95673233098b",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "6fb44fbdbf91e4dd8ba38c4c34b0068e",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_emas_promo-kilau.html",
+      "byte_size": 5917,
+      "content_hash": "134ce99d75f099172478eb8e2ba7ba7229d737d98a883bb698fc38959160a8b1",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 8
+      }
+    },
+    {
+      "id": "6be2ce87e1398afe1890d4b59f7fc37e",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_modal-toko_blocked-saldo.html",
+      "byte_size": 1629,
+      "content_hash": "3a81ef4a09fa7da4b4a63ef7fdd4eeba6d5effd79833d8941a935af2c6eda62a",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "ad357005f3670926bac0ba0fa90a01ac",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_modal-toko_repayment-failed.html",
+      "byte_size": 2264,
+      "content_hash": "72b39a827096162c8b5ea6e49510dfee86ff843bf3617777b25c8cba80851bf9",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 3
+      }
+    },
+    {
+      "id": "1f5b9371a6a714db819659425a39496e",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_modal-toko_inactive-phase2.html",
+      "byte_size": 1353,
+      "content_hash": "4974ba052c03606222acf8f7b0473c6393fb58f869f942127ffa72584d7627e1",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "f67a93f655e8a3e8754332171b875338",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_modal-toko_eligible.html",
+      "byte_size": 3850,
+      "content_hash": "dfbf2d259f0e37c9e2396ffaff1bff056a8cfd55627032c27db0f2c2784d2e72",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "2038a7d7bf6cf2e14b313c540d666f30",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_modal-toko_application-rejected.html",
+      "byte_size": 2126,
+      "content_hash": "81cb3813df9c21739e759a89be18562f2843e5b2986afde45c2ad22e632501a9",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "065692bf4f2484a6fc8a4ecec930fe8d",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_modal-toko_reactived-phase2.html",
+      "byte_size": 1202,
+      "content_hash": "975ce702efee1d6d94fbfd649e5f44fa98d2c6df3bec720709cb92f82757268d",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "8495b2ea18e16b94a8675493e7f5460a",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_modal-toko_reminder-to-pay.html",
+      "byte_size": 2375,
+      "content_hash": "7b8636898955a5588d8905ffe752ab7cc2ed426b803a4d4303d6bf0873e16336",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "1271ebced8e08f0a63ceca38190ad61a",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_modal-toko_intro.html",
+      "byte_size": 1383,
+      "content_hash": "ef7b1406ad9964d999b1a9b8cc617fc0baee7c4d18cdc2eedbac93af9a5b952f",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "df6b2a88502f977da13f6c986d779403",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_modal-toko_repayment-autodebit-failed.html",
+      "byte_size": 2958,
+      "content_hash": "e743de38d87109cb4f3f0c003080668378882264bc8970b4e1fd040575c9ab41",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "b505516a5d4d686de53e1583ea0ab184",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_modal-toko_billing-cycle-publish.html",
+      "byte_size": 2047,
+      "content_hash": "957ad5878672f095b0f68ba0e26477fe69f10be152cc0429b3cb86276301d833",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "5613369c4e824ed3c6b01ace8cef2c1e",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_modal-toko_billing-reminder.html",
+      "byte_size": 1917,
+      "content_hash": "d78395413ea5c60816c157cda4fe2f7afecab7ef3f9e0016620480f0a731727c",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "d7c100703787634dd536e17ea76bf2ed",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_modal-toko_repayment-success.html",
+      "byte_size": 2038,
+      "content_hash": "2fc1efe9ccd107fa504d957b118ac523f905e3faa96f9adc1dc401f6ed0816ac",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 3
+      }
+    },
+    {
+      "id": "7c47b9d4ea7f88c8f434155eb524c264",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_modal-toko_application-approved.html",
+      "byte_size": 2198,
+      "content_hash": "51dac7bc72cc7926ecef0ef96045b2058ce5d37f27da3cba29816d7f576dd17f",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "ee3309905cd99e9c4a6bb5162d78fbc6",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_modal-toko_billing-reminder-d-3.html",
+      "byte_size": 2023,
+      "content_hash": "2532aeed8950914fd3cd0e9ca9a32ce49af41af504cdff8bf9467e74867482f5",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "6422b486cf58f957aef6e3b093cb11b4",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_modal-toko_refund-to-saldo.html",
+      "byte_size": 1852,
+      "content_hash": "b5f6a5cbfb7d7fe22720857157fc979bab66417e3205bfe5300c3cd92f5b2322",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "1bdf16f5a129dc35250325bd6680d070",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_modal-toko_repayment-autodebit-success.html",
+      "byte_size": 2605,
+      "content_hash": "85586eb7e5fd1d6d367315a7cc1849ea62852a8008989974cfd2bfa397f001c7",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 3
+      }
+    },
+    {
+      "id": "5ce211adec7b4031516ac2af529a12f3",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_modal-toko_application-document-rejected.html",
+      "byte_size": 1211,
+      "content_hash": "d3b87006b36d4fa51de0f2a313e9cb0d6d9a35ffb4a83259f6571b8b242dc434",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "f10de5b53a5904c3027f05999d390e46",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_modal-toko_repayment-late.html",
+      "byte_size": 1957,
+      "content_hash": "61e3b94edaa9fb0c8243a667baa5f4fc123e90e8dfda8ae9a0b960ea68f59c8d",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "b00d84e6f405dc89e2147658961a48ca",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_modal-toko_application-inprocess.html",
+      "byte_size": 2188,
+      "content_hash": "d1d43d0d77e22618391ba77e88e78e6c62200bb254c1f37ce93f06b3b63a83c9",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "782870e35b6db252d138994baf830d2e",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_modal-toko_blocked.html",
+      "byte_size": 1250,
+      "content_hash": "1d01a0cf75db5060e2a8efec4cfd02a6be914d31cf81b7f0a06d8fc9beb64f27",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "d1ce587d0ad22092c278bd51fc8a9af9",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_modal-toko_loan-settled.html",
+      "byte_size": 1779,
+      "content_hash": "c1749062478e6c7b1e50628de9879e1cbda6e91612bd6ea536a67d5a5684e757",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "6c3ccbb7ffa61bfa5f996c025dd3ce7d",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_modal-toko_complete-your-application.html",
+      "byte_size": 1302,
+      "content_hash": "3abc7e5f6413438e3d36ba7f80f2d4005b75e92de5725db1498c574cc19b0c7f",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "f04d51171c9dbd106452d85f827c4409",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_modal-toko_disbursement.html",
+      "byte_size": 2176,
+      "content_hash": "ba3f7c4b31a737e4223bc41cd37bdbff5a03a0890b593fa7a0741fbde9d094de",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "03567cdb1c413300fad88ffd9cce7116",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_modal-toko_billing-reminder-d-1.html",
+      "byte_size": 2026,
+      "content_hash": "3895c4e0ddfe114c14b68362656b03368d6035e12e6a9834d9471797fe57368e",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "1c86b153a8c3ff0781f5041fdd6fcac0",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_modal-toko_repayment-tx-failed.html",
+      "byte_size": 2833,
+      "content_hash": "6fce7fcba1821f4ec08c2f0f4192eb05650f409d6b0fba116930e8caac99d656",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "bf08937401280b830070cd34ece1df0c",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_single-page_gc-sms-link.html",
+      "byte_size": 2772,
+      "content_hash": "3dc47b316cfbc51253d0bcd5f7cd67782f4cad3b51058faeb25912432befd902",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "827dc366eeace7d72a05f02a1858bc20",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_tokoswipe_has-been-deactivated.html",
+      "byte_size": 1216,
+      "content_hash": "1bfa469f2b86acf3e6d574fc4820d4cf04d72735de25a225a48b033a6af4ed04",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "2d03a2e136308356d88ad004927c1c1b",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_tokoswipe_has-been-blocked.html",
+      "byte_size": 1335,
+      "content_hash": "7eea6c0506e0f8cf5370b533331fbaef2edec9e1555b22daf749379fcea22fef",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "7596ea82582d1d1c37f1df878bbff53b",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_tokoswipe_rejected-document-not-verified.html",
+      "byte_size": 2387,
+      "content_hash": "f949f09297d7fce1bca8da945ea6f204b2e77c0f2b9907dfd9927dbd459b24f8",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "c90365e8a299b61e546295d8b876919b",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_tokoswipe_last-day-of-payment.html",
+      "byte_size": 2438,
+      "content_hash": "394465849d16f058a2e08635749a24c14ef04d56a065292ccae0492ffd5cb623",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "d1462665aa80d445e959c9e18080c7bd",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_tokoswipe_transaction-with-installment-success.html",
+      "byte_size": 1816,
+      "content_hash": "d0db7226aa0a34edb829b64bc64f3bb27152d176257bc745d8d2789358264772",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "99c56393ff405f57cd417eb310ca0b55",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_tokoswipe_repayment-application-tx-pending.html",
+      "byte_size": 2862,
+      "content_hash": "f3f6426efb9dad6d45fe8c8df87ea78bc82692c861c15678c84b77cb81ee3b72",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "f33c570fe1f9b79b156152c4c71cac3f",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_tokoswipe_rejected-not-enough-transaction.html",
+      "byte_size": 2312,
+      "content_hash": "d3200a6aff3a7626d966fe6c3f412674826446000cb44183e88ffdcf76641f1c",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "15be9e026ea2172b5de520985077f141",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_tokoswipe_billing-cycle-published.html",
+      "byte_size": 2386,
+      "content_hash": "316b5a1c0632db200d931e91f0486ea30ad68423dfaf00a8d1894003e7d91a12",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "73db04f4c285d0f9752b61bba84a2105",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_tokoswipe_has-been-activated.html",
+      "byte_size": 1134,
+      "content_hash": "27a12bb105698354a9453a1bb2cfc2315772fe26658a1b7cba51063b8f13c29f",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "669d6a354f8b246b5776f425044ba1e4",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_tokoswipe_repayment-application-tx-failed.html",
+      "byte_size": 2297,
+      "content_hash": "2a492dc33c9c2ba641041a317b4330d9d434308a01812ea27bffe03aae2ec255",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "86992e23af369dd8022e92227feba0d4",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_tokoswipe_installment-monthly-notifier.html",
+      "byte_size": 1809,
+      "content_hash": "e78d51ab4e130fbe471c78430b38036a01f4f85d0e2d81e033fc80d51e52c6f8",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "5180900cd302217618e1cffe57295382",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_tokoswipe_approve.html",
+      "byte_size": 2003,
+      "content_hash": "e212c353b569785e62c8d454026b3cd17bc80f597fa24df6218a86e104332a69",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "3ea8affe96bce25a26e9f98fbb0b026f",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_tokoswipe_repayment-application-tx-success.html",
+      "byte_size": 2136,
+      "content_hash": "69f2b1284662928eaebdebc810ac97c6bbc599d97af5924e5e88e75c26bed4d8",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "bcc39dae2ef628f14a863ba8af4b9bc5",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_tokoswipe_repayment-tx-success.html",
+      "byte_size": 2275,
+      "content_hash": "f8755c53fda98d08437dbec5c460ec4d152e77a671454aa81574965e81688cc4",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "4d96a02e4490db550e0d307a1ee69214",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_tokoswipe_complete-your-application.html",
+      "byte_size": 4308,
+      "content_hash": "2b67ac7467530e78e847e68860b1cebc56703b46bf68f041a6681a3d60416f2c",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 4
+      }
+    },
+    {
+      "id": "9875fe360befcb68e67fb0b6ce396d47",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_tokoswipe_application-submitted.html",
+      "byte_size": 2315,
+      "content_hash": "86d8fffd9a4c2e08f46331c5cf63a2300663f256c4da7ae3504464110300a988",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "a3ed631713923fb08e6c2452bf15ddcb",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_reksadana_monthly-report-multiple-products.html",
+      "byte_size": 2728,
+      "content_hash": "d056b655ec3003848920416a633e6e4806140674d3303d6157468de1bf5f2793",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 3
+      }
+    },
+    {
+      "id": "af896edc0e236be300e1847a0972604c",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_reksadana_subscription-sent.html",
+      "byte_size": 1357,
+      "content_hash": "7c8a2c110cc93b9d96c2ae1e6ffdd32f732d8fdbf2cba8d99db789e2b4bf7da9",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "3f61c2934850d9d7961b86db5ec16d48",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_reksadana_dana-impian-success.html",
+      "byte_size": 1050,
+      "content_hash": "3d13087fd1bcc5d742b2ba149ce69dcf1aab32bd70e5e7693bb599a6c5c49435",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "76ed9ac13041de36764dd21dff80dd7b",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_reksadana_reupload-ktp.html",
+      "byte_size": 1083,
+      "content_hash": "af75b9ac794ac4de9fd5642fd5b05200306ab6c04266727996408d5760f0d1aa",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "b6c6420f3451f58ee91e5fc57343e51b",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_reksadana_dana-impian-failed.html",
+      "byte_size": 1213,
+      "content_hash": "0e16b365cef001d2433c88177db1abb2218bf9d748ac1881d51ca79f325480fa",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "945b1ddaed71f7ed587cc6ba7e8a1505",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_reksadana_dana-impian-completed.html",
+      "byte_size": 1733,
+      "content_hash": "0948f5a2332442450a3745813a34dd123f528d83a244512aeeb992d96c1021ba",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "e6bd7caad240ecb70e5ad8dfad9c0ddf",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_reksadana_monthly-report-no-pdf.html",
+      "byte_size": 1782,
+      "content_hash": "14fdc5ef19db3cc0ea2014f0271e9dfa72ba1b867e6ae082827a3ac505109f02",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "0654a95fd9855b3428d1e6b466102537",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_reksadana_subscription-waiting.html",
+      "byte_size": 1879,
+      "content_hash": "8c6287cf9258528f3f68fb683ba05d21311d16bfa983a14b1dce42578a8d18a5",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "7c991050c165948e8814d2a1672289e1",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_reksadana_dana-impian-created.html",
+      "byte_size": 2433,
+      "content_hash": "6dacdcc5036c12df2717609d2790e1cff679e6e18a8183341ed4fd744e1a4be1",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "f116bc527a35b1b2943612b3728678b0",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_reksadana_subscription.html",
+      "byte_size": 1920,
+      "content_hash": "0793124ef5344f1f51d64572c9ff7e11d18f447f441303ddde825440ce189c87",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 3
+      }
+    },
+    {
+      "id": "7480469b4f494e3a3b5e1cf93a7a7d44",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_reksadana_dana-impian-stopped.html",
+      "byte_size": 1732,
+      "content_hash": "0870f3a61b2d500451bdcff2e25d8bfe0cc1c479f2588f2f93739eb416a85137",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "74ee6b59954e03e4f28e26573757831f",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_reksadana_dana-impian-reminder.html",
+      "byte_size": 2449,
+      "content_hash": "3795c4e45ea4ef35ec393b1519ece4b282ba6d686579e238d44ee01e8cfd4f6e",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "164a8574c60a11ed240c9fdd0629e2d0",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_reksadana_monthly-report-one-product.html",
+      "byte_size": 2162,
+      "content_hash": "f21b648ecaca855b3d45deae00f4bc67507bd077448dcddb10ea3d3276cfc16e",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 3
+      }
+    },
+    {
+      "id": "ce6f17a89bbcc4bf7102d0f65b2f6e97",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_dhanapala_repayment-reminder.html",
+      "byte_size": 1992,
+      "content_hash": "157142ac7e94262e9c114e64ec415aaa8cf4907e4bab5a2cc84dc1effcb5b4a0",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "9fe23566c179874165e712e37c9335ed",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_dhanapala_digisign-reminder.html",
+      "byte_size": 2050,
+      "content_hash": "13a39b078949e12a7529e028a1419858fb3d341e11d683448f5333aa14d7c16e",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "e8f09b2772b4ad4288b6776ebe4e45fb",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_dhanapala_repayment-reminder-due-date.html",
+      "byte_size": 1963,
+      "content_hash": "8ba30d60f112e55660cb0e083d46fe241b0146622dcb04b4715a6bded636d0d7",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "fb0162a789b6ef4527c657945ba16230",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_dhanapala_new-welcome.html",
+      "byte_size": 3062,
+      "content_hash": "d449b9b53004ca37efaa7c58469a37fb136e84288f92a19027b4a230d137f12e",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "f79046271db15b44b0907c8741419557",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_dhanapala_application-rejected.html",
+      "byte_size": 2023,
+      "content_hash": "df4007702e105b751e338063e780213ce854a2ba5e4ebcb17f280a3768b991e3",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "65762cc7232d43066b21b0b45ad7b1a9",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_dhanapala_loan-done.html",
+      "byte_size": 1679,
+      "content_hash": "2b13b4a416ed24044d01fc3bd3bc1f1dd4c31f0f8d25b2b15b34b22d8db40930",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "0fe5d3ff9f324e8c95db7d94fe89f663",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_dhanapala_email-verification.html",
+      "byte_size": 1476,
+      "content_hash": "0fedb9325fa6083ba0aa711fa1fbbf708fe26235d05ad7e7301ebcd93af2fb9d",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "3a3dead45c509dd38a54b836c73afe30",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_dhanapala_new-forgot-password.html",
+      "byte_size": 1701,
+      "content_hash": "46c8667e7ed9f2276eba847c503d4f9d470c7ecaf35b9c6fe75903197801c19c",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "0d7b26f7960d8c9cf2381a41f253fc22",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_dhanapala_new-digisign-reminder.html",
+      "byte_size": 2746,
+      "content_hash": "2d9e7878fc4c9708512e47d0a5b0315b3bc21f6b9299a502e40d45efe93806fe",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 3
+      }
+    },
+    {
+      "id": "f4487c3be3c138efd18e1cca8c095da9",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_dhanapala_new-disbursement-done.html",
+      "byte_size": 2697,
+      "content_hash": "4cdbc8e2921fcd9fa6ef355805ad025444e67768257808b2dad34186e73f1ca5",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "35fdb1422c41d139b6e4d14d155b51be",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_dhanapala_new-verification.html",
+      "byte_size": 1308,
+      "content_hash": "42999a81869583432a7568629497f7df0ce7d1e0e9099c81b7ed6ced6f026c7e",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "234a6761c02dc6a25fd3be88edac9f21",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_dhanapala_complete-sign.html",
+      "byte_size": 1440,
+      "content_hash": "ba637619f64807dddc70dde15e396a34a11c9aeee51a21184c243590089d7bbb",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "4c47646bfc457924137a51bd7557eabd",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_dhanapala_repayment-success.html",
+      "byte_size": 2300,
+      "content_hash": "f2e7f224d605e87f8f29d903cab297ecfdf81f73f168084b5ae05aef30b37023",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "37c726f7278ceacd21fc11f2c3b1fa33",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_dhanapala_new-application-approved.html",
+      "byte_size": 2509,
+      "content_hash": "982333c7a366e7de569e120bf02f8083c42aef826f0648ff10d5a093d2f0cf83",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 3
+      }
+    },
+    {
+      "id": "6ed1e8bdd5cba74cc0cee4c2cc9cb438",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_dhanapala_application-approved.html",
+      "byte_size": 2072,
+      "content_hash": "e077023dd9e1748c901cf807ed4fc8d56c5a9b52c50e17e254347efd0e177104",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "684a205eef38b02d86bf33d5cee2f7a3",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_dhanapala_new-expired-loan-signing.html",
+      "byte_size": 2727,
+      "content_hash": "1a6a10d299395e1d2941f3e698eb16d75d56e3b8b605b52b7a272ad6062a8083",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 3
+      }
+    },
+    {
+      "id": "e8106620d39a4c82aefc93459ab175ac",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_dhanapala_application-sent.html",
+      "byte_size": 2268,
+      "content_hash": "4ed52d964df40e98597e581c55cf6b249b522fdf9a8d6cf252c85845c11ca78f",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "18dfb87cc5a8e2198072d591a3b27fc9",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_dhanapala_new-application-processed.html",
+      "byte_size": 1864,
+      "content_hash": "644854feb4f7b47853b2fe76bc0732b24a0577ed52049f329e92f6e6813fcd44",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "6dfe482e4db25f37335f96d4ac9d5c1a",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_dhanapala_email-otp.html",
+      "byte_size": 1329,
+      "content_hash": "c523a03b5cb264d17472e71f3c2142da2db1a7db1098f6d16200e87b9e9b7d5d",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "ab90ac6d56f7b239e3ab0e0ccd38426d",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_dhanapala_loan-disbursed.html",
+      "byte_size": 2052,
+      "content_hash": "0f7597c48b4afcabe56b0c6602c9aab2a3f6ea22016340ef467188ee48cc2039",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "fb11d812725c8c82caa9ed79e40fb186",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_dhanapala_late-payment.html",
+      "byte_size": 2176,
+      "content_hash": "5896080cd6f786d2c2237571183158b0ecce1f5f601981dbdf6b576b35ed7006",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "bf976a22abcdc0975da2e7dfed0157f6",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_dhanapala_new-application-rejected.html",
+      "byte_size": 2497,
+      "content_hash": "eb6913e997dd939dc00e1a834802f123107faca3da62a706d25f5437f2725866",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "583bbbf03c8279a985fd76f32e5fb286",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_dhanapala_application-approved-with-different-amount.html",
+      "byte_size": 2362,
+      "content_hash": "34793c72accc7f41bd478b5703363224e76448318da91e446589e7ec366f9948",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "ff3bc68ddb5186fb071213770a34e272",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_pdf_eg-monthly-report.html",
+      "byte_size": 10375,
+      "content_hash": "d1cdc8020a5b425aeafbb9620cb1ce97123b2ba1e6ff1c84084d4fb5af6cd7d9",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 10
+      }
+    },
+    {
+      "id": "67c2848121e4fc4e14b493d07eda655e",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_pdf_mf-monthly-report-one-product.html",
+      "byte_size": 6281,
+      "content_hash": "7e0e1fa473310d5904e83fe09867c1faef5cea6def07b8bc74d7c5afd8fe618d",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 8
+      }
+    },
+    {
+      "id": "4b517f78250573a05cbfb62f3dd3cb0f",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_pdf_giftcard-2.html",
+      "byte_size": 3653,
+      "content_hash": "f0ae3ea8ef5a10758d3fc8fa424517101aecd43a593ca0f0f629a593b7fda203",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "717c48ab2118d498a4c204e972007294",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_pdf_giftcard.html",
+      "byte_size": 3837,
+      "content_hash": "02331efed3e02bed647cea882d5015b00505a2bc12bff863e7c3a16ddca1fd9c",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": false,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "6a14bf9dd77d9909fb3ef0ab1dbd7437",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_pdf_mf-monthly-report-multiple-products.html",
+      "byte_size": 8149,
+      "content_hash": "5613effed157c9db13355e83c3c4378615528e73ed8680c073570a6f11263361",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 9
+      }
+    },
+    {
+      "id": "52b0ec6769839c70611e502b4587557c",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_insurance_mudik-buy-success.html",
+      "byte_size": 5684,
+      "content_hash": "14fe278890024fb7a4d32c4dbf44e51ccc487b4cda894ae7d26619bc94fc901b",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 4
+      }
+    },
+    {
+      "id": "bbecff2b2dd00bf14fd3c483591f1e3e",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_insurance_flight-inprogress.html",
+      "byte_size": 5789,
+      "content_hash": "4882ba64f9370feb9ca81c214cf45f400b8009773b6e61cd03db8f6d2e6bd908",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 6
+      }
+    },
+    {
+      "id": "180d8887b366001d96d74468600fe816",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_insurance_train-buy-success.html",
+      "byte_size": 5167,
+      "content_hash": "c3e58ef53052dd19e178945e9c88d803ad7fb246722a513b15a7dc98094270c3",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 4
+      }
+    },
+    {
+      "id": "c75d1888c95109a686775bead2174d52",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_insurance_mudik-inform-to-beneficiary.html",
+      "byte_size": 5611,
+      "content_hash": "41c32aa60846349cf4bc9fba7f17bb217e83a37e920157c70795d28c14885ed3",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 4
+      }
+    },
+    {
+      "id": "06be199cbacab684211a0400283f0e1f",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_insurance_mudik-buy-waiting.html",
+      "byte_size": 2012,
+      "content_hash": "ef7373f107a86d10369c465fbe251570a0a4d363cedeba4c091578778c50b8d7",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "b38a50d5b6b835c3d07a2b4f3f473d80",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_insurance_mudik-buy-success-referral.html",
+      "byte_size": 6095,
+      "content_hash": "e8e92544ede2dd50c75b61c39acd2b69ae88324626b8e892913424732dd490ce",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 5
+      }
+    },
+    {
+      "id": "125aa7b795c4e055264a792dda0b9616",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_insurance_mudik-buy-reward.html",
+      "byte_size": 2785,
+      "content_hash": "97e34412b4e80429565518f866f07a693ee0b36a6948ab94581d1bf9c2b01114",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 4
+      }
+    },
+    {
+      "id": "14aa7cd267fa20ffeb8b870c5f596707",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_insurance_standalone-epolicy.html",
+      "byte_size": 2521,
+      "content_hash": "dcdf4ee504fa675166c5b82ec2d283474bc4ea410041891d32e22f74a25bcbdb",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "da948552e633f4f491888b840eb62799",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_insurance_flight-approved.html",
+      "byte_size": 6338,
+      "content_hash": "faed9ee070b20a3905edf61a126fd8a284346ca37727ea92d413c24e199e5eb1",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 7
+      }
+    },
+    {
+      "id": "225b8653a66239c1d8359e596bdf9066",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_insurance_flight-disbursed.html",
+      "byte_size": 6551,
+      "content_hash": "0e9122cd5c9f7760b86715bbafba4da09408297b8f4e249208a0ad6a17205514",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 7
+      }
+    },
+    {
+      "id": "d72486320aa42b4fd905db1250f2efcb",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_insurance_flight-active.html",
+      "byte_size": 5698,
+      "content_hash": "e5a4c85f8e57041020207a5b46c2c83a997b4dadf7081bb874cfcfae42f38a60",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 6
+      }
+    },
+    {
+      "id": "b46ef31f52e5ba2819b501f555471c76",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_insurance_flight-declined.html",
+      "byte_size": 6377,
+      "content_hash": "4b79cb1c32f9f120746801bbad1fc5f7a4cd93c744fa4b181915d70712249c9b",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 7
+      }
+    },
+    {
+      "id": "eddb860b82350cd86584ecb7cf8972c5",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_index.html",
+      "byte_size": 968,
+      "content_hash": "f37d996cca6b07f7eaca7d0f7fe43c7489102766c8056a21a2361475d4d42557",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "aa49bab1a8658fde30f45b4c06c4810c",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_saldo-prioritas_active-percentage-changed.html",
+      "byte_size": 2073,
+      "content_hash": "7504b43ba750c5d73f80d4d11b591fcfe1f3092607b691de7db2e674275bbdd2",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "0dd8a210c7b8ea32d4ccaed7719a497e",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_saldo-prioritas_still-inactivated.html",
+      "byte_size": 1917,
+      "content_hash": "278fd76b0052cf41ebe3ac345628e8b77ce0d43d409a4f0d3eb9e3e4da6c18ff",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "e38287efcb089e04f41cb31edbcc25d5",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_saldo-prioritas_promo-notifier.html",
+      "byte_size": 1215,
+      "content_hash": "8ce8bcf05ac825650371b9942d71eac5c3c15b481af4200115daf1fc3d2d7695",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "545c04e10acad51994ccc4398728d458",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_saldo-prioritas_active.html",
+      "byte_size": 2164,
+      "content_hash": "71e5b63efb75358b910e07823b7ef03c0bae54dba9129fa6b551bd0a1935a7a9",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "ea65013b9fb80ff4cff86f8d4bb2d94f",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_saldo-prioritas_percentage-decreased.html",
+      "byte_size": 1943,
+      "content_hash": "ab1c976f30723140e7c06336773f91c20c70eeb22f967a666ab27d2f9532f626",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "7bd187815931ee7734b6a98b55360e49",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_saldo-prioritas_limit-has-reached-max.html",
+      "byte_size": 1344,
+      "content_hash": "2da1d206d54a9ef5f26517e6d5ffdfae962fdc7b5b9b6c1c08262c7b25552520",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "665b74e25485f1e2df59fe22251179d1",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_saldo-prioritas_repayment-partial-finished.html",
+      "byte_size": 2617,
+      "content_hash": "4837621853916d7d6c49a04b659063c4e97fcc7d33f5efb6f64113383fa3b6e7",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "66ae4fa8d47547cdb6ea2af668b0a348",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_saldo-prioritas_reactivate.html",
+      "byte_size": 1957,
+      "content_hash": "1b4368341010d09c2836dd0ccf104830ea2575632956bebcf909ff8ee6742f46",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "63a2db8a47ac702c6f3801b6a7766a6c",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_saldo-prioritas_active-complete-info.html",
+      "byte_size": 2289,
+      "content_hash": "712c4cc8684a2bab956b0da50ba8ae2cad13144745ca79991151e1d03ab71e11",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "3b92f8e2b38c588129aaa4ab374f3d8b",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_saldo-prioritas_limit-added.html",
+      "byte_size": 1831,
+      "content_hash": "d14ecde874dd4c98bdb40240f70c077bd4061bf071f3e76607a3668636fb3225",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "19a4fa69e6ff78820ef8d4a76ec080ac",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_saldo-prioritas_application-applied-via-mitratoppers.html",
+      "byte_size": 2548,
+      "content_hash": "a8ffecb9cc32450dc64d2030d2c772798ee2698896ada548ca501781e732e2ac",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "9cb180f05378cc69fee86fe843a0cd6f",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_saldo-prioritas_activated.html",
+      "byte_size": 2413,
+      "content_hash": "a242bf557b1d134d0f2cd35a75ad183388ca5468fec705bf0e6c64a76ade0372",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "6c26ae2e4a2e15d8816035f7463c3e4d",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_saldo-prioritas_disabled.html",
+      "byte_size": 2620,
+      "content_hash": "e2edddda3618e523a83bb2ed0ab5b85922e7259aa492150c7e01793607140bd2",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 3
+      }
+    },
+    {
+      "id": "c7a45aaae943554c8f13bf0389e00e36",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_saldo-prioritas_repayment-admin-fees.html",
+      "byte_size": 2457,
+      "content_hash": "ebc19cc8bb4882bca3a3a30c636b9518cee0a8f89f691aca35816fcc3103538b",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "9a7e57e0a66b50a1b1640129117de4a3",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_saldo-prioritas_repayment-partial.html",
+      "byte_size": 2551,
+      "content_hash": "1741b6b4563521fc89ff9739d25e7c460f6035467e3310bdb2266a91d4ee5599",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "869e5cc29bd0c340fc92edba7ffceafc",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_saldo-prioritas_limit-decreased.html",
+      "byte_size": 1893,
+      "content_hash": "112504a25b2433f40cf67a954b6d92b37cb404d81e897e156db246e772170daa",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "55d8abf74dee0f6e422174cd69b958b0",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_saldo-prioritas_merchant-blacklisted.html",
+      "byte_size": 2033,
+      "content_hash": "8f3a7a0954826a639ac73dd01222ab46f5769782a4adbc5b5fe95b695a384e1f",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "b02c825d377b8d3919180b2bc0eb35ff",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_saldo-prioritas_limit-exceding.html",
+      "byte_size": 1249,
+      "content_hash": "6f6837de88bc43e6dd8d71330b0e7a6d2944df79d7ee63a06bad7843a58602be",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "9dc1dc54d9494aac6330a2aa99d8b4ec",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_saldo-prioritas_recovery-full.html",
+      "byte_size": 2427,
+      "content_hash": "9d70dab5c0430819c218f00b8670dccd0f4f3b55cc7ea871582814311fb90fb3",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "a5713eb291016043a2a24dc367f120a6",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_saldo-prioritas_promo-has-ended.html",
+      "byte_size": 1321,
+      "content_hash": "170307e5a8a142c8b086f90a636c89498a4d500c4fa8e96816fb1ecc6bd317fb",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "246ea976ed0274a9d40596e8c2eaea08",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_saldo-prioritas_promo-close-to-end.html",
+      "byte_size": 1348,
+      "content_hash": "a99c33b39c916c7079cf727da46353143dc0db16d90f9b9841b49e02470279c6",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "260e59217a98de1585886ac456841b0a",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_saldo-prioritas_application-sent.html",
+      "byte_size": 2548,
+      "content_hash": "a8ffecb9cc32450dc64d2030d2c772798ee2698896ada548ca501781e732e2ac",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "ccf6581f2496752530fdb4a8cfba941e",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_saldo-prioritas_activated-again.html",
+      "byte_size": 1841,
+      "content_hash": "a0184b1ac4ebb0e9a71519131df5ab2bf8164fc5b147e91bc518c3c1c423eecb",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "7d6a694aebb2faa8bc153519cb61c521",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_saldo-prioritas_percentage-added.html",
+      "byte_size": 1924,
+      "content_hash": "e6b48f3613b70b40917084bde3c933c8a35d3ec698c85a9f691fec709c80cc6b",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "5480f049289fc5fe53357773118436f7",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_saldo-prioritas_rejected.html",
+      "byte_size": 1425,
+      "content_hash": "d192102f1b2d8af7482370bf671b72a76cc670d1ba7117a3bf18c66b97f74b7b",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "796081b7f6b74ae11d494dfbb6194b73",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_saldo-prioritas_limit-close-to-max.html",
+      "byte_size": 1359,
+      "content_hash": "b312b48782fee863179490d4e3521dafbd36a3044ad8507380facf02c989569d",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "bd4c9ff73ecf680baa8d63c21028f83f",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_saldo-prioritas_disbursement.html",
+      "byte_size": 2542,
+      "content_hash": "13103d5d2b101da6c168249664cb400bc24bf0bc5b338450fa5b20509f2fb69b",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 3
+      }
+    },
+    {
+      "id": "b047702fa73809e26cf7ea4bf1d455e4",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_gift-card_payment-waiting.html",
+      "byte_size": 2460,
+      "content_hash": "3b047aacb578acb114cea809d662262f30ac9e412225e912d4e6267dcfba336e",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "b610e6a8158616ee344cbb7689f63fc6",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_gift-card_receiver.html",
+      "byte_size": 9664,
+      "content_hash": "e1815069ff39ffb353b42616076745d9a205d9a941d98b3cb90053595fab99d7",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 16
+      }
+    },
+    {
+      "id": "168c4de6248fb57f24e823377165a2ed",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_gift-card_payment-success.html",
+      "byte_size": 3536,
+      "content_hash": "31da4e339e882f1166d8979c0bb3c2fb27ff57560af89ccf196edcb05e22039e",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 5
+      }
+    },
+    {
+      "id": "9a31c7b53c7ec0149e7ea9706664f1a8",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_gift-card_birthday.html",
+      "byte_size": 2759,
+      "content_hash": "55d37a4bb85afe2ce537da83a0d321855f77454b00f2b3659a25430e4804251f",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 5
+      }
+    },
+    {
+      "id": "47b79c6857e606153650c86a4e7f8cc7",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_gift-card_payment-failed-unpaid.html",
+      "byte_size": 2345,
+      "content_hash": "c1818c82748ecd2b64f602a0b99b39e198c5b48d29a3636080f479332a1df444",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 3
+      }
+    },
+    {
+      "id": "a621f77782fb86b93e2ce52968126f2d",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_gift-card_receiver-from-tokopoints.html",
+      "byte_size": 9399,
+      "content_hash": "d02011d3a3f169ac44f2f0974d35fa722de62453e4e15eb3c889a2aac7869489",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 15
+      }
+    },
+    {
+      "id": "e6817f2a08b154ac1ac11e027929e997",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_gift-card_print-at-home.html",
+      "byte_size": 4586,
+      "content_hash": "5a565c01ed4123390ddb0562324eff6f85a330e4a052aac3e574ffe0838896f3",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 5
+      }
+    },
+    {
+      "id": "15b39c5f307755bf71f8df6b44e51e5f",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_gift-card_payment-failed.html",
+      "byte_size": 2662,
+      "content_hash": "b990bf8571d8d96a1b559b4fea2aeb14ff22b904fe022b8a35ac18d4a48364c9",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 3
+      }
+    },
+    {
+      "id": "896fc65d4a8cf348230e301d0dd77a91",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_gift-card_multiple-digital.html",
+      "byte_size": 5214,
+      "content_hash": "60d23741d0e22211df81b80b20d2b876c12e98261c88690c03858501d7ceee6d",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 3
+      }
+    },
+    {
+      "id": "7ab099a088fdab4d2ee70e305bad8742",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_kartu-kredit_application-rejected-uneligible.html",
+      "byte_size": 6724,
+      "content_hash": "01e807e7470cbb12b14b5d99def63a553e66047c0592756516d5645407deb9ee",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 6
+      }
+    },
+    {
+      "id": "d29ab4dc20bb0c8c55071b1dd3ae11c7",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_kartu-kredit_application-citibank.html",
+      "byte_size": 2749,
+      "content_hash": "3b42e525a181c8a3cb4b36a6fed115a5cb73a7d51be59004cca22d0e2e30e1bd",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "1175cde150b7536129f28ec5b034dea3",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_kartu-kredit_application.html",
+      "byte_size": 1981,
+      "content_hash": "a8b30c1630b23154a815a547662bf94477520eeee3eaafc5fcfa92a8d7d6d30e",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "588196665d4889b48362044eea7084ab",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_kartu-kredit_application-approved.html",
+      "byte_size": 1873,
+      "content_hash": "2e5847b36a31ddc4e9ccf8217448f69732613154f8dc5faad7f46bdaef9d8a1c",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "cd9e1afa81cbe3456057e048383e1309",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_kartu-kredit_application-rejected-uncontactable.html",
+      "byte_size": 2068,
+      "content_hash": "de2ebbb2c15dc658f32014c956d8c6ebbf7fd015e9b6e37dedbfab261029d20f",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "a6a39274aae83c964a65389c0edcd9e2",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_kartu-kredit_application-on-review.html",
+      "byte_size": 1875,
+      "content_hash": "338bf0822fb18d924d97b3d181881e4cbeca4cb3dba341005a7bece933f2b727",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "b7b564f584425899dc6d2af4d5164731",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_pinjaman-online_special-offer.html",
+      "byte_size": 1844,
+      "content_hash": "e69664bb55bcaab61c31e7c8fce1fd18146c600f1fe8ce26e1d49cf252c2e8a4",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "686a630f1edb922ddec004d26eb226ff",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_pinjaman-online_application-repayment.html",
+      "byte_size": 2052,
+      "content_hash": "48657792bee54cc796df0ad551c8694a26c416da8348590bfdbb5ff254ea260a",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "65a1c641d19ed6d98afb28676766e566",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_pinjaman-online_application-disburse.html",
+      "byte_size": 1811,
+      "content_hash": "69abb8ab79185aca5cc80a3f47ee749a8529ea697aecbc868ecc700ea6eb050d",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "6de5e54a0d4d547de8929a0c3e2115b5",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_pinjaman-online_application.html",
+      "byte_size": 2151,
+      "content_hash": "4ec02c2c9224f07e4cacf3a5f831d97844bf896870554664bcd91f5bccfafc7b",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "6f1844acde3d23c724f674f034199492",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_pinjaman-online_application-almost-end.html",
+      "byte_size": 1261,
+      "content_hash": "a1dc72917ab682cdfd947da48387d565470d19735af69c4170d4d53e9d331c55",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "5b675542f348dd614291154ed595fa98",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_pinjaman-online_application-repayment-end.html",
+      "byte_size": 1350,
+      "content_hash": "bbc9fd022f8998d31913b9916fa3d64946118a1b8315b66e01ddcdb91f80e4c4",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "4c8cff301584e3a9128a26baa46b62c3",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_pinjaman-online_application-repayment-reminder.html",
+      "byte_size": 2172,
+      "content_hash": "f46983d12d203b1d7423060d73170c517abfa3b798ff40a4467615d13ff5e14d",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "a263e8a6ae0bae802251125d1896264a",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_pinjaman-online_recycle-loan-application-sent.html",
+      "byte_size": 2542,
+      "content_hash": "e8de7e114e8a5398e4272d0675b5b440e29232efb1c18b66f6c934686b21088e",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "df6c07bf1452fc52bb80182d54f66dd0",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_pinjaman-online_application-approved.html",
+      "byte_size": 1917,
+      "content_hash": "a025898d4873795cc816609e9ad2a8088167925d9b779d0aac5cac4128504353",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "6d394df0e9c4799d040a9afff436c4ac",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_pinjaman-online_application-rejected-uncontactable.html",
+      "byte_size": 2190,
+      "content_hash": "f9a43554c7f02c9bd770c6601a074d254e55ad2881a8b727d396c9a58ca08e4a",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "88e32e33a76df3a09de23db11e592ae1",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_pinjaman-online_instant-loan-failed-to-disburse.html",
+      "byte_size": 2338,
+      "content_hash": "fe10cdd2182ea724d0f616c17a857c98a79bccb5e67cc255195989674fdd08c4",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "7adee807ea0637c961c875fe9f00e966",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_pinjaman-online_recycle-loan-application-rejected.html",
+      "byte_size": 2150,
+      "content_hash": "2b58b1776e45c1e957d22657fbb5881514ea64502129753a852cb5454eba18d1",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "64fb17297e265afaa548fe27b648e16a",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_pinjaman-online_application-julo.html",
+      "byte_size": 2251,
+      "content_hash": "c8a5b648349cdf2a4cfd733ec4eb374f4224ea228b8a7023d4e74a0fab387479",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "732f970ccf551fd348709bd5093b5c72",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_pinjaman-online_application-on-review.html",
+      "byte_size": 2079,
+      "content_hash": "5244ae7907d061d0afef58141740e0a7d5e36235a17e32c12ca31f45b4a015c9",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "6fa288a3ba528528dfc4cc1c254ffdc4",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_pinjaman-online_application-rejected-not-strong-credit-data.html",
+      "byte_size": 2234,
+      "content_hash": "af88a2b3a2487d971d6ca0486e871e6b00cd6187f1656d7aa74cf8a6823f032b",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "ed765952d873662a174cdeb9db636ece",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_vehicle-leasing_application-rejected.html",
+      "byte_size": 2504,
+      "content_hash": "e76a0d855bb812638c3aa2dbe21538fbf1ff9784204c19460976432394ecc585",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "04e8aebe248ee1e1b732891e90ea81ee",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_vehicle-leasing_application-approved.html",
+      "byte_size": 2394,
+      "content_hash": "abdc2b7887d42ace403eaabbd288808b17c13019db793d5650fc3500ded84ca6",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "89e6ddbed8fb109203394b047446836c",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_vehicle-leasing_form-submitted-waiting-for-payment.html",
+      "byte_size": 2410,
+      "content_hash": "ce17ebc85d98953294a3d3c1af233932b98584bf817046f2f61d3f628d167368",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "f4987ac188620cd59585147c3193b06c",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_vehicle-leasing_form-submitted-waiting-choose-payment.html",
+      "byte_size": 2757,
+      "content_hash": "0185fd58957f8d45e44b2f595d69618be0ac213e410c9469b7cbeb2ca8d66ee7",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "2c8d8eb24730cb44a7b4da9fba89a60d",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_vehicle-leasing_waiting-for-verif.html",
+      "byte_size": 2432,
+      "content_hash": "2e0ffb1e3611649d455eb8a19a686a8714b5711d9c71a614211b05b544e086ad",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "9cf01f41b83aef6e7e964348ed2b906c",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_vehicle-leasing_form-not-submitted.html",
+      "byte_size": 3125,
+      "content_hash": "527872664c6d710bba7d830e37bb2f0dd413d0e76294ef857995c9f982aa67d0",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "a5ea191b9d15c51b525eb85dae62f58a",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_vcc-mandiri_payment-approved.html",
+      "byte_size": 1942,
+      "content_hash": "53961f25b09a8987b0e6f4868186049db92347a2e5d6afb2ee3d5a73de2af2f0",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "a2836cfcae7f1cf80bc3c20228d2744f",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_vcc-mandiri_payment-pending.html",
+      "byte_size": 1864,
+      "content_hash": "a2939c742fe3a70245c84cdfa3969ff68d3820e5e73e8498f8752097f8f6351b",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "e33f16e456b918a55f1c992c5a0d6207",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_vcc-mandiri_application-permanently-rejected.html",
+      "byte_size": 1759,
+      "content_hash": "b5fad5669b549f6bfb5f30cb4725e47d07df7b98587348883f3e84e98dc0cd39",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "f2d9e71186d1b46c60619f48b83d6bec",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_purchase-protection_protection-electronic-active.html",
+      "byte_size": 3498,
+      "content_hash": "35b9eef15e54b627dea246d01a72d9dc4a04604df4e2db03e335b92f31b43321",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 3
+      }
+    },
+    {
+      "id": "63af4f2c17e667d32d12ef20ae09b646",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_purchase-protection_new-order.html",
+      "byte_size": 4461,
+      "content_hash": "2c15229807f0413feca9fa440d045c7199e8d35e7ee8dc91e577a19a58aa75b3",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 3
+      }
+    },
+    {
+      "id": "027c17df42b6309f2e9b3bfe0781fbe7",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_purchase-protection_imei-filled-seller.html",
+      "byte_size": 3342,
+      "content_hash": "0aedfdb9bf4bffd139425babf1a69c1f2115e810dafb1cc7a1bcb2311a927e0f",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 3
+      }
+    },
+    {
+      "id": "cb2c0e0a76a7d5db083e58ca4d2ad1c3",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_purchase-protection_imei-filled-buyer.html",
+      "byte_size": 3832,
+      "content_hash": "4b953db16432c443ecde7b4a67281273df012af248dbe5ff4bbfb34e16a10dab",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 3
+      }
+    },
+    {
+      "id": "29c0b0ee0c94f2b8c08988f597547334",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/pages_purchase-protection_protection-active.html",
+      "byte_size": 3577,
+      "content_hash": "bb1a9b89959385d9fcd9e6883863b2249129188db860e0109bdc2d53ff404044",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 3
+      }
+    },
+    {
+      "id": "030513d1e1e14e13e14a31230ee81f99",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/partials_gift-card.html",
+      "byte_size": 605,
+      "content_hash": "ba2e2c025d0bfa11ed017a433da219cf6ba9736f5dc01c0211f088716197b4f2",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "b1de76491b8fa5e36d6237b350b712e4",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/partials_ticker.html",
+      "byte_size": 146,
+      "content_hash": "6f5f05e70fcc81ddbed2ba8fbc18a424fe4bd8b384606051fbc4d7f9b1717296",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "d12db598ba35804015313edddf9c32dc",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/partials_footer-dhanapala.html",
+      "byte_size": 1049,
+      "content_hash": "afbc611175e9bd828b6e9fa67d099102621d670f91339ec621eb8ded21b9acc8",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": false,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "b152ec06ab96317f1efbe174cc0b47b7",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/partials_footer-pdf.html",
+      "byte_size": 367,
+      "content_hash": "5ae9f490eafde6313e4ba092c46345c4d32a448382b54caf7e9408615d6a3e82",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": false,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "7fe7688f15167052cb8e8d96b171e973",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/partials_footer.html",
+      "byte_size": 17564,
+      "content_hash": "75eda70a6104d3cfd021f571aee4eb5205311aa3c35ffdfcb468ec9df4c87704",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 16
+      }
+    },
+    {
+      "id": "fdb6955451eb1b1284618096475c0045",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/partials_intro.html",
+      "byte_size": 555,
+      "content_hash": "1993cbdae1a1393b13aec4a93f7e622f58b7e3bb60b49397dfc253d5f9929138",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "88ee80d167c2ef1042e1f4b0a667d9ba",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/partials_footer-new.html",
+      "byte_size": 13292,
+      "content_hash": "2267158d831914aa15371048996255e4d96be64c609406653955e9a576632927",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 24
+      }
+    },
+    {
+      "id": "b0b0cd23d275a93406041269721d255e",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/partials_product-intro.html",
+      "byte_size": 517,
+      "content_hash": "0da14022634351463d9a5a921cfa31a7fbc74e9e1842f21c6cec173626b5f9d0",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": false,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "4eed19dcee0905f4b3a2a25be8790206",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/partials_header.html",
+      "byte_size": 4738,
+      "content_hash": "47c842e03e2f2bc419a1cf9445c56deecfa4cfd8ce2d46c0cfa9d7533b036895",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": false,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "7e88a9e72b5eb8da961718b45f592fb0",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/partials_header-dhanapala.html",
+      "byte_size": 416,
+      "content_hash": "132f47cf0caf612d889c5d7d0c4c49b79465650b0fd7197053f0aed5b14ed8d8",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": false,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "998e6782e541c6b9730cb1ac879fb841",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/partials_header-pdf.html",
+      "byte_size": 237,
+      "content_hash": "15ca1daae17755618e4ef67c14f57b4a427d4d5b54e3c475efa3f7bd405c50d2",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": false,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "fb9597b12f2b60fea22b7ed5b4292725",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/partials_intro-new.html",
+      "byte_size": 595,
+      "content_hash": "4251649fdbef3b2a8ecaa2a224a2235e2ca62c8a7418e5f7fb25df06ccadc0e8",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "ac0185389442a6c3f5d36b8f9abd24f5",
+      "source_id": "fintech_templates",
+      "source_name": "Fintech Email Templates (rayyapari)",
+      "url": "https://github.com/rayyapari/fintech-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/fintech_templates/partials_unify-ticker.html",
+      "byte_size": 604,
+      "content_hash": "b434003e3087d3fdc95d26519fe5cfc02480bf65e12c4d6ef2687390fd57875e",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "793ae0cb2055b85d860cbfebbed2c4a1",
+      "source_id": "ethercreative",
+      "source_name": "Ethercreative Confirmation Email",
+      "url": "https://github.com/ethercreative/confirmation-email",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/ethercreative/confirmation.html",
+      "byte_size": 34884,
+      "content_hash": "d08db59c6c20c01593b5bb3ca20091afbb399a4fe0a3a05b24e5a1d1ca77c64e",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 47
+      }
+    },
+    {
+      "id": "2b79f0a0176b3a805bd8fc2614267646",
+      "source_id": "ethercreative",
+      "source_name": "Ethercreative Confirmation Email",
+      "url": "https://github.com/ethercreative/confirmation-email",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/ethercreative/confirmation-inline.html",
+      "byte_size": 74801,
+      "content_hash": "9bc3e8d5f9602df1f74a7e3a0a7c2a84bb707e76cc6a8125332b27cb2a2befb0",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 47
+      }
+    },
+    {
+      "id": "6bf924bc252e1025b862caa202884b4b",
+      "source_id": "ethercreative",
+      "source_name": "Ethercreative Confirmation Email",
+      "url": "https://github.com/ethercreative/confirmation-email",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/ethercreative/confirmed.html",
+      "byte_size": 28800,
+      "content_hash": "ed02a242332b76f2f0dee7bb1b1d6d95aa3fbacb71c6a61f741e70bd17de2ca5",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 36
+      }
+    },
+    {
+      "id": "8ef4ee681f8b379633b166b03f268d0e",
+      "source_id": "ethercreative",
+      "source_name": "Ethercreative Confirmation Email",
+      "url": "https://github.com/ethercreative/confirmation-email",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/ethercreative/confirmed-inline.html",
+      "byte_size": 63442,
+      "content_hash": "fe2ced81064991e7f4d476930cd40e3375aab8926016a2a92c7baff70bfda964",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 36
+      }
+    },
+    {
+      "id": "fd91a542788eff522ee6ca42f111efc3",
+      "source_id": "blocksedit_full",
+      "source_name": "BlocksEdit Starter Components",
+      "url": "https://github.com/blocksedit/starter-email-components",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/blocksedit_full/starter-components.html",
+      "byte_size": 36405,
+      "content_hash": "f31dbfb7cc64c92d4d72f4364e3d3131c4f69b7d7e9c5162514017c13e49a6f3",
+      "quick_features": {
+        "sections_detected": 5,
+        "has_media_queries": true,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "e6de5c0b8a8226bd99aebf6082e70052",
+      "source_id": "blocksedit_full",
+      "source_name": "BlocksEdit Starter Components",
+      "url": "https://github.com/blocksedit/starter-email-components",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/blocksedit_full/starter-components-legacy.html",
+      "byte_size": 72996,
+      "content_hash": "95697f61de5dea30dbbcf40a2cd223fce5db25349d5ef6404271fdbf8d72440f",
+      "quick_features": {
+        "sections_detected": 5,
+        "has_media_queries": true,
+        "table_count": 36
+      }
     }
   ]
 }

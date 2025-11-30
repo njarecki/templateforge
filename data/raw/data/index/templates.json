@@ -1,0 +1,740 @@
+{
+  "items": [
+    {
+      "id": "86a78033895f3b7212478d0812269582",
+      "source_id": "invoice_maizzle",
+      "source_name": "Maizzle Invoice Templates",
+      "url": "https://github.com/sandervanhooft/invoice-templates-generator",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/invoice_maizzle/receipt.html",
+      "byte_size": 8311,
+      "content_hash": "2db126fc43a4e48dc50b97c63d6ff97873693ef188cb76d3573b46b7a301cc52",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 8
+      }
+    },
+    {
+      "id": "73c3e6b2943b2913449d2ec4ed811fd7",
+      "source_id": "emailoctopus_full",
+      "source_name": "EmailOctopus Templates",
+      "url": "https://github.com/threeheartsdigital/emailoctopus-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/emailoctopus_full/abacus_blog.html",
+      "byte_size": 50097,
+      "content_hash": "21182aa11f3b3fd18b287cc145e7369cd070615cb273b5a4362f1d0da90e41f4",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 61
+      }
+    },
+    {
+      "id": "68d3c6cc3cecccbccc379bf284e119ee",
+      "source_id": "emailoctopus_full",
+      "source_name": "EmailOctopus Templates",
+      "url": "https://github.com/threeheartsdigital/emailoctopus-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/emailoctopus_full/abacus_product.html",
+      "byte_size": 27961,
+      "content_hash": "572b3911ee47a0c2cf39afd56088e96763bd2b52cae199411b3875b7ba72301e",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 30
+      }
+    },
+    {
+      "id": "b4394756f10104553983ea8c4a7e951a",
+      "source_id": "emailoctopus_full",
+      "source_name": "EmailOctopus Templates",
+      "url": "https://github.com/threeheartsdigital/emailoctopus-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/emailoctopus_full/abacus_re-opt-in.html",
+      "byte_size": 10834,
+      "content_hash": "b9312d3fc89d408115aa396eac8b943f4377c8e744f9e705d867ddc55cf7c70c",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 14
+      }
+    },
+    {
+      "id": "10cebc1e4952d4bf53fb357575daf1a9",
+      "source_id": "emailoctopus_full",
+      "source_name": "EmailOctopus Templates",
+      "url": "https://github.com/threeheartsdigital/emailoctopus-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/emailoctopus_full/abacus_transactional.html",
+      "byte_size": 24132,
+      "content_hash": "e0cb4982867d8405c2e2738271d058fb8fe179683c9aeb427e3392c1df936c76",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 27
+      }
+    },
+    {
+      "id": "09888288b9b1f3b2ea209fc5d805203b",
+      "source_id": "emailoctopus_full",
+      "source_name": "EmailOctopus Templates",
+      "url": "https://github.com/threeheartsdigital/emailoctopus-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/emailoctopus_full/karakol_blog.html",
+      "byte_size": 27445,
+      "content_hash": "04b8a097358c460866f48460ef8bb45bed620f07e6bb6309bdaa4f890313b7ea",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": true,
+        "table_count": 24
+      }
+    },
+    {
+      "id": "a0132386d53ab63cc966b7a1a78b4406",
+      "source_id": "emailoctopus_full",
+      "source_name": "EmailOctopus Templates",
+      "url": "https://github.com/threeheartsdigital/emailoctopus-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/emailoctopus_full/karakol_product.html",
+      "byte_size": 21806,
+      "content_hash": "68e20f3dee595ba08bed301effb3e271dab31b4f85ef28b43b33481c70f624b6",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": true,
+        "table_count": 23
+      }
+    },
+    {
+      "id": "8fdd5bd8faa26f8d63515843616e265d",
+      "source_id": "emailoctopus_full",
+      "source_name": "EmailOctopus Templates",
+      "url": "https://github.com/threeheartsdigital/emailoctopus-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/emailoctopus_full/karakol_transactional.html",
+      "byte_size": 16140,
+      "content_hash": "4248c13e5aacbaea701eb23654976ca2e30c0dd5adedb6d62b8635d9894bb1da",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 14
+      }
+    },
+    {
+      "id": "6afb3921259a2b1d71d55de8788f3060",
+      "source_id": "emailoctopus_full",
+      "source_name": "EmailOctopus Templates",
+      "url": "https://github.com/threeheartsdigital/emailoctopus-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/emailoctopus_full/plain_re-opt-in.html",
+      "byte_size": 5826,
+      "content_hash": "f52a90b6f2efff81695c0d4790c99a2cb2edb5368a4a8fd2685d092c64cf07c3",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 9
+      }
+    },
+    {
+      "id": "ad650f2faa0c4458640775cfbdf85db8",
+      "source_id": "emailoctopus_full",
+      "source_name": "EmailOctopus Templates",
+      "url": "https://github.com/threeheartsdigital/emailoctopus-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/emailoctopus_full/wayfair_blog.html",
+      "byte_size": 53016,
+      "content_hash": "5ae9af047f007b1fbea816592faac34349c3fd501a1f9b7321c5724c26c85bf8",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 34
+      }
+    },
+    {
+      "id": "26059bc634701a72181f0e90cd4255c2",
+      "source_id": "emailoctopus_full",
+      "source_name": "EmailOctopus Templates",
+      "url": "https://github.com/threeheartsdigital/emailoctopus-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/emailoctopus_full/wayfair_newsletter.html",
+      "byte_size": 84187,
+      "content_hash": "30743c9cc679b5716dc1b7ef038989a7c872dc1141be6b5b9cd74632dfa8434b",
+      "quick_features": {
+        "sections_detected": 5,
+        "has_media_queries": true,
+        "table_count": 76
+      }
+    },
+    {
+      "id": "9f901f16c6d3c1b6e50866017afe41b2",
+      "source_id": "emailoctopus_full",
+      "source_name": "EmailOctopus Templates",
+      "url": "https://github.com/threeheartsdigital/emailoctopus-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/emailoctopus_full/wayfair_transactional.html",
+      "byte_size": 30059,
+      "content_hash": "fe1146ae22c55e8c02f64915e2af74dd674219b65a7c66b8e97ffa389e4fc8eb",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 26
+      }
+    },
+    {
+      "id": "7a9358bdb24ff2a31cb221f9046f2c19",
+      "source_id": "designmodo_postcards",
+      "source_name": "Designmodo Postcards",
+      "url": "https://github.com/designmodo/html-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/designmodo_postcards/app_email_html_newsletter.html",
+      "byte_size": 75962,
+      "content_hash": "70025f939c0aa0d043ea8b483deee2705c22b0f159c6079b66b33818f0e25a2b",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": true,
+        "table_count": 63
+      }
+    },
+    {
+      "id": "91fc7a804eee5edd812b7cb00bd956bc",
+      "source_id": "designmodo_postcards",
+      "source_name": "Designmodo Postcards",
+      "url": "https://github.com/designmodo/html-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/designmodo_postcards/ecommerce_email_html_template.html",
+      "byte_size": 54532,
+      "content_hash": "3a135552df1dc8eef3493866649a3209d158dea610ba91b8d3779957ad1d3526",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": true,
+        "table_count": 53
+      }
+    },
+    {
+      "id": "d84d56b4fc04cfefb87777a32ade7550",
+      "source_id": "designmodo_postcards",
+      "source_name": "Designmodo Postcards",
+      "url": "https://github.com/designmodo/html-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/designmodo_postcards/email_newsletter_with_best_articles.html",
+      "byte_size": 86799,
+      "content_hash": "cb561cb3bb0ed88984febf60f74efff6d833b4c991445989b7f91b1248434889",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": true,
+        "table_count": 82
+      }
+    },
+    {
+      "id": "0267f796f90477a526458bb3009f48b9",
+      "source_id": "designmodo_postcards",
+      "source_name": "Designmodo Postcards",
+      "url": "https://github.com/designmodo/html-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/designmodo_postcards/responsive_email_html_template.html",
+      "byte_size": 70388,
+      "content_hash": "938a4c5268ee880536a18027e338ed02ec762a21c44bbe80a085b34e0dff4986",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": true,
+        "table_count": 60
+      }
+    },
+    {
+      "id": "08ccd72050bbdb1bc2c3fbeae21b4cd2",
+      "source_id": "designmodo_postcards",
+      "source_name": "Designmodo Postcards",
+      "url": "https://github.com/designmodo/html-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/designmodo_postcards/weekly_custom_email_newsletter.html",
+      "byte_size": 52023,
+      "content_hash": "8059aaf6a719f4b5bd923f2de6dee22f90ec162302a1acfa51ad94771916dc6d",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 41
+      }
+    },
+    {
+      "id": "29a3ab027048f5baa3cd22aaa4d4e1f2",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/shopify_templates/shipping_shipping_update.html",
+      "byte_size": 7417,
+      "content_hash": "63c07f877b962fdc6f676af7f04be9144f9f36bb7b8d515039a0450b6d4a1f7a",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 18
+      }
+    },
+    {
+      "id": "fbd83dc93d35ac11616851c87f3943d2",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/shopify_templates/shipping_fulfillment_request.html",
+      "byte_size": 1227,
+      "content_hash": "92851b223431b5f7a655a4073fc7f37db9a9a82c09dda3a158b34cc68c92c2ef",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "bf3f3c5578015bb905f11966a271fc24",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/shopify_templates/shipping_shipment_out_for_delivery.html",
+      "byte_size": 8829,
+      "content_hash": "54d834381a1a424e42c829492d248729f4d5924f1d473a5dd6630838188c7f78",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 18
+      }
+    },
+    {
+      "id": "a3f0f55ff798e7f3f3c652453d51f374",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/shopify_templates/shipping_shipping_confirmation.html",
+      "byte_size": 8765,
+      "content_hash": "0969c722f6c519ca0ef8cc43b4d17c049f6c55660b892c6de605c8c73760dc4b",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 18
+      }
+    },
+    {
+      "id": "a1fb847b247689cf6c0ef5d9cc24bc8e",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/shopify_templates/shipping_shipment_delivered.html",
+      "byte_size": 8814,
+      "content_hash": "18bb22017a1e76d623b32c4b459b372d1a6a8bcc15762ed64888f977da6c23c5",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 18
+      }
+    },
+    {
+      "id": "5bb2d0b44142750f7738bf1d9fbca159",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/shopify_templates/local_pickup_ready_for_pickup.html",
+      "byte_size": 13566,
+      "content_hash": "733ac4154e670fc55528930c4f5d76aba724ff9aab5f4e7b620587862a4c7077",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 23
+      }
+    },
+    {
+      "id": "bc1e1071c6500cc409a0739db599624a",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/shopify_templates/local_pickup_pickup_receipt.html",
+      "byte_size": 11882,
+      "content_hash": "50915150a5b59edea477b20ad7f8d3dd837ce2460fbec7d9607c644ec36f65f8",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 19
+      }
+    },
+    {
+      "id": "d67612c1c6d5150beffe476b85865e3f",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/shopify_templates/orders_order_invoice.html",
+      "byte_size": 10986,
+      "content_hash": "7e530adf0a45ca61b86580bb932c9531683750154aa1c7342ff671f1532ed5f4",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 26
+      }
+    },
+    {
+      "id": "236a2db304423d816a79d4c477ea9100",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/shopify_templates/orders_buy_online.html",
+      "byte_size": 13564,
+      "content_hash": "8e54aa7993080e5545352c697b220d506a20c7bd00bb0a8b3178f3cac538bcf3",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 26
+      }
+    },
+    {
+      "id": "88aa31e4b6cf13fb6cfb4f02cd336cbb",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/shopify_templates/orders_failed_payment_processing.html",
+      "byte_size": 3650,
+      "content_hash": "03650f3868c91eb3b4b8b919ee63d34bc254d69ad7350e37cfa287cafdb809a8",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 13
+      }
+    },
+    {
+      "id": "e72b3308de3bef464af914ec12530c14",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/shopify_templates/orders_pos_exchange_receipt.html",
+      "byte_size": 16440,
+      "content_hash": "0d74e44d0e6936abfa7e251a181cc9676826148a4234b5b65126b917311535b7",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 26
+      }
+    },
+    {
+      "id": "c4230b3dba257a3fdad0fe0b8fc0ca41",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/shopify_templates/orders_refund_notification.html",
+      "byte_size": 11697,
+      "content_hash": "c41b290b3ed34ec6b6c73c88db10fc58c97816c766b98f2d799b83273a85b0e5",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 17
+      }
+    },
+    {
+      "id": "7a746f2ca208fa33a10640a04cf569f0",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/shopify_templates/orders_order_cancelled.html",
+      "byte_size": 12621,
+      "content_hash": "5a5f6f3e4a7e57ec301b82f1c93edbd0e7bf56815416419ca1fe6a8e56673a12",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 17
+      }
+    },
+    {
+      "id": "996e2d2cb934d20f55ec4618ecdb5b82",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/shopify_templates/orders_store_receipt.html",
+      "byte_size": 12833,
+      "content_hash": "2f51e7633a650a44c9e1ee2867744a50f312a4fba35fdb5098b4e1df59e3c74f",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 24
+      }
+    },
+    {
+      "id": "2d09c38790039facd56cee14f934e40e",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/shopify_templates/orders_order_edited.html",
+      "byte_size": 15060,
+      "content_hash": "4875f5c212a20c11cc6651cdb8c982193d6af5578f2b9dcb1743f9c5c8129cf4",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 27
+      }
+    },
+    {
+      "id": "9c1e36892c743f45a356b8d87bcfa222",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/shopify_templates/orders_gift_card_notification.html",
+      "byte_size": 3535,
+      "content_hash": "d5f87a4618c6eb410e6253eaba78823db67250ec1ea182c4497b871b3ad2b1e8",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": false,
+        "table_count": 9
+      }
+    },
+    {
+      "id": "8e77df25e3b99d6ff5e32d65436726b0",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/shopify_templates/orders_order_confirmation.html",
+      "byte_size": 16824,
+      "content_hash": "5150547f1d4538f7b05aec7deb992cd80d068446b648fc20fa2678c2e2a6cc41",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 30
+      }
+    },
+    {
+      "id": "42eda1cbbb64cad6c5c8785e7ed06bc0",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/shopify_templates/orders_order_edit_invoice.html",
+      "byte_size": 9197,
+      "content_hash": "69256697cf35b96f478eef3f68b00f9236565d2b68491303c9ba18d5eecd256f",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 20
+      }
+    },
+    {
+      "id": "31682d860a111f0571d6d14c6fa89eed",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/shopify_templates/orders_draft_order_invoice.html",
+      "byte_size": 13992,
+      "content_hash": "c8abd282e546653e0eb20639ce6166349f0f6ae4e7d9b922d23aa8ec19a64913",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 25
+      }
+    },
+    {
+      "id": "83f1477e6ac2aa8ddf73eebc8a016a97",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/shopify_templates/orders_abandoned_checkout_notification.html",
+      "byte_size": 6914,
+      "content_hash": "1b333ca5fb1fb28692377ced5389c23f6ca73ba6f6c7a65b4c8747da1eaa8188",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 16
+      }
+    },
+    {
+      "id": "d77928ac650a8d70b5db63fd25a2e14c",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/shopify_templates/returns_return_created.html",
+      "byte_size": 8525,
+      "content_hash": "560c219621208c167e3bf0cd7661fcf0bb1a1a0e5ab683bcca9a258a5a0c77e7",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 19
+      }
+    },
+    {
+      "id": "707c3c6b909049908e2cb222899e82d6",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/shopify_templates/returns_return_label_notification.html",
+      "byte_size": 3965,
+      "content_hash": "ae7779ba03a30f0ef2c5ef0ab860d7c92398d6638eb7490a47131fd8356e5eb9",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 14
+      }
+    },
+    {
+      "id": "4752c295041ec3f0de299d1a031290de",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/shopify_templates/email_marketing_customer_marketing_confirmation.html",
+      "byte_size": 3289,
+      "content_hash": "ab101bd3a9f59a923523fc44bc38763504fc9f274aa22ce335a80fc1c5061ca3",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 10
+      }
+    },
+    {
+      "id": "00fe75f6f56fa6c83404190e9335b6e8",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/shopify_templates/staff_new_order_notification.html",
+      "byte_size": 1375,
+      "content_hash": "30197bc3cc28b2cf0b9ccea2eb0264115308530f689071f6db3b94d03c71802d",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "b4628e4b705c38b26aeed55c82a7108e",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/shopify_templates/customer_customer_update_payment_method.html",
+      "byte_size": 3247,
+      "content_hash": "6939490606e0d2d5bc26709bb04ad1ac12f8c019736f9781b417639fde8fa88b",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 10
+      }
+    },
+    {
+      "id": "421026f56b130c68ce468e884b84e207",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/shopify_templates/customer_contact_buyer.html",
+      "byte_size": 2399,
+      "content_hash": "7c948d0ae5793f40a07d59d284c0342f703e703f9d99cc7551a4ccd64000be7e",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 8
+      }
+    },
+    {
+      "id": "71c3ce4b721cef61705cff7d14ae29d7",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/shopify_templates/customer_customer_account_welcome.html",
+      "byte_size": 3102,
+      "content_hash": "6e7b3676e2058baa17252cfc7c955fc78c0cc53606c9499f8ec66646a74c6527",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 10
+      }
+    },
+    {
+      "id": "973a4a975b545c08e4f0317deec1531d",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/shopify_templates/customer_customer_account_activate.html",
+      "byte_size": 540,
+      "content_hash": "b116b3c8ba52b23f2c8b0baf24c326b41e5ca537193e1f2ebce17ec48759665e",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "94841de7bc51bda3fc5bcdd0aa666e54",
+      "source_id": "shopify_templates",
+      "source_name": "Shopify Email Templates (leemunroe)",
+      "url": "https://github.com/leemunroe/shopify-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "/home/nick/templateforge/data/raw/shopify_templates/customer_customer_account_reset.html",
+      "byte_size": 3265,
+      "content_hash": "077fe99f43b1109056211b8fe660e88eab7b449f907b774364d7462f4286890b",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 11
+      }
+    }
+  ]
+}

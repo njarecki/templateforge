@@ -1,0 +1,32 @@
+LICENSE INFORMATION FOR NPSMAIL TEMPLATE
+==========================================
+
+Repository: https://github.com/herbigt/npsmail
+Date Checked: 2025-11-30
+
+LICENSE STATUS: NO LICENSE FOUND
+
+The npsmail repository does not contain any license file (LICENSE, LICENSE.md, LICENSE.txt).
+The GitHub API confirms that the license field is null.
+The README.md does not mention any license information.
+
+LEGAL IMPLICATIONS:
+Without an explicit license, this work is protected by default copyright law.
+This means:
+- The code is "all rights reserved" by default
+- You cannot legally use, copy, modify, or distribute this work without explicit permission
+- The repository being public does not grant any usage rights
+
+RECOMMENDATION:
+- DO NOT use this template in production without contacting the author for permission
+- Consider reaching out to herbigt (the repository owner) to request they add an open source license
+- This template is saved here for reference only
+
+TEMPLATE INFORMATION:
+- Template Type: HTML email template
+- Purpose: NPS (Net Promoter Score) feedback collection
+- Built with: Foundation for Emails (Ink from ZURB)
+- Features: Responsive, 1-10 rating scale with clickable buttons
+
+For more information about copyright and licenses:
+https://choosealicense.com/no-permission/
