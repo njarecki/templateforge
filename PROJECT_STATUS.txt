@@ -1,0 +1,64 @@
+TemplateForge — Project Status & Next Steps
+
+Current Status
+- Corpus: 1,151 indexed templates; 1,008 unique post-dedupe; 104 sources.
+- Enrichment: 1,151/1,151 enriched; 176 MJML total with 152 compiled (86.4%); media-query rate 62.6%.
+- Preview: Pipeline preview on http://127.0.0.1:8080; compiled gallery on http://127.0.0.1:8090 (category index at /index.html).
+- Quality read: Broad and useful, but many are “just OK” visually — needs curation and/or larger pool.
+
+What We Built
+- Sourcing (v3): Tiered, quality-gated runbook targeting 10k unique (CLAUDE_SOURCING_RUNBOOK.md).
+- Enrichment: Compiler + metrics + categories (scripts/enrich_index.py) with nonstop runbook (CLAUDE_ENRICH_RUNBOOK.md).
+- Design generation: Nonstop runbook to synthesize 10k new templates (50% inspired / 50% original) (CLAUDE_DESIGN_RUNBOOK.md).
+- Indexing helpers:
+  - scripts/sourcing_indexer.py (init/add/dedupe/stats for raw templates)
+  - scripts/enrich_index.py (compile + metrics + categories)
+  - scripts/publish_compiled.py (publish/copy raw HTML into compiled; build gallery index)
+  - scripts/design_pipeline.py (init/add-generated/validate/dedupe/stats for generated)
+- Preview improvements: Local placeholders, compiled gallery, localhost bind.
+
+Data Snapshot
+- Indexed: 1,151; Unique: 1,008; MJML: 176; HTML: 975.
+- Enriched: 100% coverage; MJML compiled: 152/176; Media queries: 62.6%.
+- Dedupe clusters (sourced): 118.
+
+How To View
+- Pipeline preview: http://127.0.0.1:8080 (e.g., /preview/welcome?skin=apple_light&format=html&inline=1)
+- Compiled gallery: http://127.0.0.1:8090/index.html (links to files under data/compiled)
+- Quick stats:
+  - python3 scripts/sourcing_indexer.py stats
+  - python3 scripts/enrich_index.py --run
+  - python3 scripts/design_pipeline.py stats
+
+Runbooks To Use
+- Sourcing (10k target): CLAUDE_SOURCING_RUNBOOK.md
+- Compile & Enrich: CLAUDE_ENRICH_RUNBOOK.md
+- Design Generation (current focus): CLAUDE_DESIGN_RUNBOOK.md
+  - 50% inspired (recombinations), 50% original (Claude-created)
+  - Target: 10,000 new generated templates (score ≥85), generation-only phase
+
+Helper Scripts (Claude must use)
+- Sourcing index:
+  - init: python3 scripts/sourcing_indexer.py init
+  - add: python3 scripts/sourcing_indexer.py add --source-id ... --url ... --license ... --type <html|mjml> --file data/raw/...
+  - dedupe/stats: python3 scripts/sourcing_indexer.py dedupe|stats
+- Enrich:
+  - run: npm i -g mjml (if needed), then python3 scripts/enrich_index.py --run
+- Publish compiled:
+  - python3 scripts/publish_compiled.py (rebuilds data/compiled/index.html)
+- Design generation (current phase):
+  - init: python3 scripts/design_pipeline.py init
+  - add template (validates HTML):
+    python3 scripts/design_pipeline.py add-generated --id <id> --origin <inspired|original> --category <cat> --style <style> --score <0-100> --map '<[...]>' --seeds '<[...]>' --format <html|mjml> --file <path>
+  - dedupe/stats: python3 scripts/design_pipeline.py dedupe|stats
+
+Next Steps (Next Few Hours)
+- Focus now: Design generation to 10,000
+  - Use CLAUDE_DESIGN_RUNBOOK.md; maintain 50/50 inspired/original split.
+  - Use scripts/design_pipeline.py to validate and index; keep only score ≥85.
+- If sourcing needed later: run sourcing v3 (10k, tiered, quality gates). If plateaued, prepare authenticated galleries (Beefree/Stripo/Postcards/Mailchimp) via headless browser.
+
+Notes / Risks
+- A standalone scoring/curation script for the sourced set is not yet separate (the generation runbook includes a scoring rubric).
+- Preview lacks filters for “generated” vs “sourced” — optional enhancement after generation.
+- Always respect ToS; use placeholders/tokens only; no brand assets.
