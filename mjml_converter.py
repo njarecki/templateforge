@@ -2060,6 +2060,248 @@ def section_to_mjml_payment_failed(skin_name="apple_light"):
     </mj-section>'''
 
 
+def section_to_mjml_order_hold(skin_name="apple_light"):
+    """Convert order hold notification to MJML."""
+    skin = DESIGN_SKINS.get(skin_name, DESIGN_SKINS["apple_light"])
+
+    return f'''    <!-- Order hold header -->
+    <mj-section padding="24px" background-color="#fbbf2410" border-radius="12px">
+      <mj-column>
+        <mj-text align="center" font-size="48px" padding="0 0 16px">
+          ⏸️
+        </mj-text>
+        <mj-text align="center" font-size="24px" color="#fbbf24" font-weight="700" padding="0 0 8px">
+          Order On Hold
+        </mj-text>
+        <mj-text align="center" font-size="15px" color="{skin['brandSecondary']}" padding="0 0 24px">
+          We need a bit more information to process your order
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Order details -->
+    <mj-section padding="0 24px 16px">
+      <mj-column background-color="#ffffff" border-radius="8px" padding="0">
+        <mj-text font-size="14px" color="{skin['brandSecondary']}" padding="16px 20px">
+          <span style="display: inline-block; width: 50%;">Order Number</span>
+          <span style="display: inline-block; width: 50%; text-align: right; color: {skin['brandPrimary']}; font-weight: 600;">{{{{orderNumber}}}}</span>
+        </mj-text>
+        <mj-divider border-color="{skin['brandSecondary']}10" padding="0 20px" />
+        <mj-text font-size="14px" color="{skin['brandSecondary']}" padding="16px 20px">
+          <span style="display: inline-block; width: 50%;">Order Date</span>
+          <span style="display: inline-block; width: 50%; text-align: right; color: {skin['brandPrimary']};">{{{{orderDate}}}}</span>
+        </mj-text>
+        <mj-divider border-color="{skin['brandSecondary']}10" padding="0 20px" />
+        <mj-text font-size="14px" color="{skin['brandSecondary']}" padding="16px 20px">
+          <span style="display: inline-block; width: 50%;">Hold Reason</span>
+          <span style="display: inline-block; width: 50%; text-align: right; color: #fbbf24; font-weight: 500;">{{{{holdReason}}}}</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Action required -->
+    <mj-section padding="0 24px 16px">
+      <mj-column background-color="{skin['brandSecondary']}05" border-radius="8px" padding="16px 20px">
+        <mj-text font-size="13px" color="{skin['brandSecondary']}" font-weight="600" padding="0 0 8px">
+          Action Required
+        </mj-text>
+        <mj-text font-size="13px" color="{skin['brandSecondary']}" line-height="1.5" padding="0">
+          {{{{holdActionRequired}}}}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Deadline warning -->
+    <mj-section padding="0 24px 16px">
+      <mj-column>
+        <mj-text align="center" font-size="13px" color="#ef4444">
+          ⚠️ Please respond by {{{{holdDeadline}}}} to avoid cancellation
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Action buttons -->
+    <mj-section padding="0 24px 24px">
+      <mj-column>
+        <mj-button href="{{{{resolveHoldUrl}}}}" background-color="{skin['brandAccent']}" color="#ffffff" font-size="14px" font-weight="600" border-radius="8px" inner-padding="14px 32px">
+          Resolve Now
+        </mj-button>
+        <mj-text align="center" padding="16px 0 0">
+          <a href="{{{{cancelOrderUrl}}}}" style="font-family: {skin['brandFont']}; font-size: 13px; color: {skin['brandSecondary']}; text-decoration: underline;">Cancel this order</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>'''
+
+
+def section_to_mjml_subscription_paused(skin_name="apple_light"):
+    """Convert subscription paused notification to MJML."""
+    skin = DESIGN_SKINS.get(skin_name, DESIGN_SKINS["apple_light"])
+
+    return f'''    <!-- Subscription paused header -->
+    <mj-section padding="24px" background-color="{skin['brandSecondary']}08" border-radius="12px">
+      <mj-column>
+        <mj-text align="center" font-size="48px" padding="0 0 16px">
+          ⏸️
+        </mj-text>
+        <mj-text align="center" font-size="24px" color="{skin['brandPrimary']}" font-weight="700" padding="0 0 8px">
+          Subscription Paused
+        </mj-text>
+        <mj-text align="center" font-size="15px" color="{skin['brandSecondary']}" padding="0 0 24px">
+          Your subscription has been paused as requested
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Subscription details -->
+    <mj-section padding="0 24px 16px">
+      <mj-column background-color="#ffffff" border-radius="8px" padding="0">
+        <mj-text font-size="14px" color="{skin['brandSecondary']}" padding="16px 20px">
+          <span style="display: inline-block; width: 50%;">Plan</span>
+          <span style="display: inline-block; width: 50%; text-align: right; color: {skin['brandPrimary']}; font-weight: 600;">{{{{subscriptionPlan}}}}</span>
+        </mj-text>
+        <mj-divider border-color="{skin['brandSecondary']}10" padding="0 20px" />
+        <mj-text font-size="14px" color="{skin['brandSecondary']}" padding="16px 20px">
+          <span style="display: inline-block; width: 50%;">Paused on</span>
+          <span style="display: inline-block; width: 50%; text-align: right; color: {skin['brandPrimary']};">{{{{pauseDate}}}}</span>
+        </mj-text>
+        <mj-divider border-color="{skin['brandSecondary']}10" padding="0 20px" />
+        <mj-text font-size="14px" color="{skin['brandSecondary']}" padding="16px 20px">
+          <span style="display: inline-block; width: 50%;">Resume date</span>
+          <span style="display: inline-block; width: 50%; text-align: right; color: {skin['brandPrimary']};">{{{{resumeDate}}}}</span>
+        </mj-text>
+        <mj-divider border-color="{skin['brandSecondary']}10" padding="0 20px" />
+        <mj-text font-size="14px" color="{skin['brandSecondary']}" padding="16px 20px">
+          <span style="display: inline-block; width: 50%;">Status</span>
+          <span style="display: inline-block; width: 50%; text-align: right;">
+            <span style="padding: 4px 12px; background-color: {skin['brandSecondary']}15; border-radius: 12px; font-size: 12px; color: {skin['brandSecondary']}; font-weight: 600;">PAUSED</span>
+          </span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- What you'll miss -->
+    <mj-section padding="0 24px 24px">
+      <mj-column background-color="#ffffff" border-radius="8px" border="1px dashed {skin['brandSecondary']}30" padding="16px 20px">
+        <mj-text font-size="13px" color="{skin['brandSecondary']}" font-weight="600" padding="0 0 8px">
+          While paused, you won't have access to:
+        </mj-text>
+        <mj-text font-size="13px" color="{skin['brandSecondary']}" line-height="1.8" padding="0">
+          • {{{{pausedFeature1}}}}<br/>
+          • {{{{pausedFeature2}}}}<br/>
+          • {{{{pausedFeature3}}}}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Action buttons -->
+    <mj-section padding="0 24px 24px">
+      <mj-column>
+        <mj-button href="{{{{resumeNowUrl}}}}" background-color="{skin['brandAccent']}" color="#ffffff" font-size="14px" font-weight="600" border-radius="8px" inner-padding="14px 32px">
+          Resume Subscription
+        </mj-button>
+        <mj-text align="center" padding="16px 0 0">
+          <a href="{{{{manageSubscriptionUrl}}}}" style="font-family: {skin['brandFont']}; font-size: 13px; color: {skin['brandSecondary']}; text-decoration: underline;">Manage subscription settings</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>'''
+
+
+def section_to_mjml_referral_success(skin_name="apple_light"):
+    """Convert referral success notification to MJML."""
+    skin = DESIGN_SKINS.get(skin_name, DESIGN_SKINS["apple_light"])
+
+    return f'''    <!-- Referral success header -->
+    <mj-section padding="24px" background-color="#10b98110" border-radius="12px">
+      <mj-column>
+        <mj-text align="center" font-size="56px" padding="0 0 16px">
+          🎉
+        </mj-text>
+        <mj-text align="center" font-size="28px" color="#10b981" font-weight="700" padding="0 0 8px">
+          Referral Successful!
+        </mj-text>
+        <mj-text align="center" font-size="16px" color="{skin['brandSecondary']}" padding="0 0 24px">
+          {{{{referredFriendName}}}} has joined thanks to you
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Reward earned -->
+    <mj-section padding="0 24px 16px">
+      <mj-column background-color="#ffffff" border-radius="12px" padding="0">
+        <mj-section padding="12px 20px" background-color="#10b981">
+          <mj-column>
+            <mj-text font-size="12px" color="#ffffff" text-transform="uppercase" letter-spacing="1px" font-weight="600">
+              Your Reward
+            </mj-text>
+          </mj-column>
+        </mj-section>
+        <mj-section padding="24px">
+          <mj-column>
+            <mj-text align="center" font-size="48px" color="{skin['brandPrimary']}" font-weight="700" padding="0">
+              {{{{referralReward}}}}
+            </mj-text>
+            <mj-text align="center" font-size="14px" color="{skin['brandSecondary']}" padding="8px 0 0">
+              {{{{referralRewardType}}}}
+            </mj-text>
+          </mj-column>
+        </mj-section>
+      </mj-column>
+    </mj-section>
+
+    <!-- Stats -->
+    <mj-section padding="0 24px 16px">
+      <mj-column width="50%" background-color="#ffffff" border-radius="8px 0 0 8px" padding="20px">
+        <mj-text align="center" font-size="32px" color="{skin['brandPrimary']}" font-weight="700" padding="0">
+          {{{{totalReferrals}}}}
+        </mj-text>
+        <mj-text align="center" font-size="12px" color="{skin['brandSecondary']}" text-transform="uppercase" padding="4px 0 0">
+          Total Referrals
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%" background-color="#ffffff" border-radius="0 8px 8px 0" padding="20px" border-left="1px solid {skin['brandSecondary']}10">
+        <mj-text align="center" font-size="32px" color="#10b981" font-weight="700" padding="0">
+          {{{{totalEarned}}}}
+        </mj-text>
+        <mj-text align="center" font-size="12px" color="{skin['brandSecondary']}" text-transform="uppercase" padding="4px 0 0">
+          Total Earned
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Keep referring -->
+    <mj-section padding="0 24px 16px">
+      <mj-column background-color="{skin['brandSecondary']}05" border-radius="8px" padding="16px 20px">
+        <mj-text font-size="14px" color="{skin['brandPrimary']}" font-weight="600" padding="0 0 4px">
+          Keep the referrals coming!
+        </mj-text>
+        <mj-text font-size="13px" color="{skin['brandSecondary']}" line-height="1.5" padding="0">
+          Share your unique link and earn {{{{referralRewardPerReferral}}}} for each friend who signs up.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Share link -->
+    <mj-section padding="0 24px 24px">
+      <mj-column background-color="#ffffff" border-radius="8px" border="1px solid {skin['brandSecondary']}20" padding="12px 16px">
+        <mj-text font-family="monospace" font-size="13px" color="{skin['brandAccent']}" word-break="break-all">
+          {{{{referralLink}}}}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Action buttons -->
+    <mj-section padding="0 24px 24px">
+      <mj-column>
+        <mj-button href="{{{{shareReferralUrl}}}}" background-color="{skin['brandAccent']}" color="#ffffff" font-size="14px" font-weight="600" border-radius="8px" inner-padding="14px 32px">
+          Share With More Friends
+        </mj-button>
+        <mj-text align="center" padding="16px 0 0">
+          <a href="{{{{viewRewardsUrl}}}}" style="font-family: {skin['brandFont']}; font-size: 13px; color: {skin['brandSecondary']}; text-decoration: underline;">View all rewards</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>'''
+
+
 # Registry mapping section types to MJML converters
 MJML_SECTION_REGISTRY = {
     "hero": section_to_mjml_hero,
@@ -2112,6 +2354,9 @@ MJML_SECTION_REGISTRY = {
     "two_factor_code": section_to_mjml_two_factor_code,
     "account_suspended": section_to_mjml_account_suspended,
     "payment_failed": section_to_mjml_payment_failed,
+    "order_hold": section_to_mjml_order_hold,
+    "subscription_paused": section_to_mjml_subscription_paused,
+    "referral_success": section_to_mjml_referral_success,
 }
 
 

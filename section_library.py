@@ -2833,6 +2833,383 @@ def section_account_suspended():
     }
 
 
+def section_order_hold():
+    """Order hold notification with reason and action items."""
+    return {
+        "type": "order_hold",
+        "name": "Order Hold",
+        "html": f'''
+<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+    <tr>
+        <td style="padding: 24px;">
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: #fbbf2410; border-radius: 12px; border: 1px solid #fbbf2425;">
+                <tr>
+                    <td style="padding: 32px;">
+                        <!-- Alert header -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                            <tr>
+                                <td align="center" style="padding-bottom: 20px;">
+                                    <table cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: #fbbf24; border-radius: 12px;">
+                                        <tr>
+                                            <td style="padding: 14px;">
+                                                <p style="font-size: 24px; margin: 0; line-height: 1;">⏸️</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    <h2 style="font-family: {{{{brandFont}}}}; font-size: 24px; color: #fbbf24; margin: 0 0 8px;">Order On Hold</h2>
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 15px; color: {{{{brandSecondary}}}}; margin: 0;">We need a bit more information to process your order</p>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <!-- Order details -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-top: 24px;">
+                            <tr>
+                                <td>
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: #ffffff; border-radius: 8px;">
+                                        <tr>
+                                            <td style="padding: 16px 20px; border-bottom: 1px solid {{{{brandSecondary}}}}10;">
+                                                <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                                                    <tr>
+                                                        <td style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandSecondary}}}};">Order Number</td>
+                                                        <td align="right" style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandPrimary}}}}; font-weight: 600;">{{{{orderNumber}}}}</td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding: 16px 20px; border-bottom: 1px solid {{{{brandSecondary}}}}10;">
+                                                <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                                                    <tr>
+                                                        <td style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandSecondary}}}};">Order Date</td>
+                                                        <td align="right" style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandPrimary}}}};">{{{{orderDate}}}}</td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding: 16px 20px;">
+                                                <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                                                    <tr>
+                                                        <td style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandSecondary}}}};">Hold Reason</td>
+                                                        <td align="right" style="font-family: {{{{brandFont}}}}; font-size: 14px; color: #fbbf24; font-weight: 500;">{{{{holdReason}}}}</td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <!-- Action required -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-top: 20px;">
+                            <tr>
+                                <td>
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: {{{{brandSecondary}}}}05; border-radius: 8px;">
+                                        <tr>
+                                            <td style="padding: 16px 20px;">
+                                                <p style="font-family: {{{{brandFont}}}}; font-size: 13px; color: {{{{brandSecondary}}}}; margin: 0 0 8px; font-weight: 600;">Action Required</p>
+                                                <p style="font-family: {{{{brandFont}}}}; font-size: 13px; color: {{{{brandSecondary}}}}; margin: 0; line-height: 1.5;">{{{{holdActionRequired}}}}</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <!-- Deadline warning -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-top: 16px;">
+                            <tr>
+                                <td align="center">
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 13px; color: #ef4444; margin: 0;">⚠️ Please respond by {{{{holdDeadline}}}} to avoid cancellation</p>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <!-- Action buttons -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-top: 24px;">
+                            <tr>
+                                <td align="center">
+                                    <a href="{{{{resolveHoldUrl}}}}" style="display: inline-block; padding: 14px 32px; background-color: {{{{brandAccent}}}}; color: #ffffff; font-family: {{{{brandFont}}}}; font-size: 14px; font-weight: 600; text-decoration: none; border-radius: 8px;">Resolve Now</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" style="padding-top: 16px;">
+                                    <a href="{{{{cancelOrderUrl}}}}" style="font-family: {{{{brandFont}}}}; font-size: 13px; color: {{{{brandSecondary}}}}; text-decoration: underline;">Cancel this order</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+'''
+    }
+
+
+def section_subscription_paused():
+    """Subscription paused status notification with reactivation option."""
+    return {
+        "type": "subscription_paused",
+        "name": "Subscription Paused",
+        "html": f'''
+<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+    <tr>
+        <td style="padding: 24px;">
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: {{{{brandSecondary}}}}08; border-radius: 12px; border: 1px solid {{{{brandSecondary}}}}15;">
+                <tr>
+                    <td style="padding: 32px;">
+                        <!-- Header -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                            <tr>
+                                <td align="center" style="padding-bottom: 20px;">
+                                    <table cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: {{{{brandSecondary}}}}; border-radius: 12px;">
+                                        <tr>
+                                            <td style="padding: 14px;">
+                                                <p style="font-size: 24px; margin: 0; line-height: 1;">⏸️</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    <h2 style="font-family: {{{{brandFont}}}}; font-size: 24px; color: {{{{brandPrimary}}}}; margin: 0 0 8px;">Subscription Paused</h2>
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 15px; color: {{{{brandSecondary}}}}; margin: 0;">Your subscription has been paused as requested</p>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <!-- Subscription details -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-top: 24px;">
+                            <tr>
+                                <td>
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: #ffffff; border-radius: 8px;">
+                                        <tr>
+                                            <td style="padding: 16px 20px; border-bottom: 1px solid {{{{brandSecondary}}}}10;">
+                                                <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                                                    <tr>
+                                                        <td style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandSecondary}}}};">Plan</td>
+                                                        <td align="right" style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandPrimary}}}}; font-weight: 600;">{{{{subscriptionPlan}}}}</td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding: 16px 20px; border-bottom: 1px solid {{{{brandSecondary}}}}10;">
+                                                <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                                                    <tr>
+                                                        <td style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandSecondary}}}};">Paused on</td>
+                                                        <td align="right" style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandPrimary}}}};">{{{{pauseDate}}}}</td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding: 16px 20px; border-bottom: 1px solid {{{{brandSecondary}}}}10;">
+                                                <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                                                    <tr>
+                                                        <td style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandSecondary}}}};">Resume date</td>
+                                                        <td align="right" style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandPrimary}}}};">{{{{resumeDate}}}}</td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding: 16px 20px;">
+                                                <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                                                    <tr>
+                                                        <td style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandSecondary}}}};">Status</td>
+                                                        <td align="right">
+                                                            <span style="display: inline-block; padding: 4px 12px; background-color: {{{{brandSecondary}}}}15; border-radius: 12px; font-family: {{{{brandFont}}}}; font-size: 12px; color: {{{{brandSecondary}}}}; font-weight: 600;">PAUSED</span>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <!-- What you'll miss -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-top: 20px;">
+                            <tr>
+                                <td>
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: #ffffff; border-radius: 8px; border: 1px dashed {{{{brandSecondary}}}}30;">
+                                        <tr>
+                                            <td style="padding: 16px 20px;">
+                                                <p style="font-family: {{{{brandFont}}}}; font-size: 13px; color: {{{{brandSecondary}}}}; margin: 0 0 8px; font-weight: 600;">While paused, you won't have access to:</p>
+                                                <ul style="font-family: {{{{brandFont}}}}; font-size: 13px; color: {{{{brandSecondary}}}}; margin: 0; padding-left: 20px; line-height: 1.8;">
+                                                    <li>{{{{pausedFeature1}}}}</li>
+                                                    <li>{{{{pausedFeature2}}}}</li>
+                                                    <li>{{{{pausedFeature3}}}}</li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <!-- Action buttons -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-top: 24px;">
+                            <tr>
+                                <td align="center">
+                                    <a href="{{{{resumeNowUrl}}}}" style="display: inline-block; padding: 14px 32px; background-color: {{{{brandAccent}}}}; color: #ffffff; font-family: {{{{brandFont}}}}; font-size: 14px; font-weight: 600; text-decoration: none; border-radius: 8px;">Resume Subscription</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" style="padding-top: 16px;">
+                                    <a href="{{{{manageSubscriptionUrl}}}}" style="font-family: {{{{brandFont}}}}; font-size: 13px; color: {{{{brandSecondary}}}}; text-decoration: underline;">Manage subscription settings</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+'''
+    }
+
+
+def section_referral_success():
+    """Referral success notification with reward earned details."""
+    return {
+        "type": "referral_success",
+        "name": "Referral Success",
+        "html": f'''
+<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+    <tr>
+        <td style="padding: 24px;">
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: #10b98110; border-radius: 12px; border: 1px solid #10b98125;">
+                <tr>
+                    <td style="padding: 32px;">
+                        <!-- Success header -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                            <tr>
+                                <td align="center" style="padding-bottom: 20px;">
+                                    <table cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: #10b981; border-radius: 50%;">
+                                        <tr>
+                                            <td style="padding: 16px;">
+                                                <p style="font-size: 32px; margin: 0; line-height: 1;">🎉</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    <h2 style="font-family: {{{{brandFont}}}}; font-size: 28px; color: #10b981; margin: 0 0 8px;">Referral Successful!</h2>
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 16px; color: {{{{brandSecondary}}}}; margin: 0;">{{{{referredFriendName}}}} has joined thanks to you</p>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <!-- Reward earned -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-top: 24px;">
+                            <tr>
+                                <td>
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: #ffffff; border-radius: 12px; overflow: hidden;">
+                                        <tr>
+                                            <td style="background-color: #10b981; padding: 12px 20px;">
+                                                <p style="font-family: {{{{brandFont}}}}; font-size: 12px; color: #ffffff; margin: 0; text-transform: uppercase; font-weight: 600; letter-spacing: 1px;">Your Reward</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" style="padding: 24px;">
+                                                <p style="font-family: {{{{brandFont}}}}; font-size: 48px; color: {{{{brandPrimary}}}}; margin: 0; font-weight: 700;">{{{{referralReward}}}}</p>
+                                                <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandSecondary}}}}; margin: 8px 0 0;">{{{{referralRewardType}}}}</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <!-- Stats -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-top: 20px;">
+                            <tr>
+                                <td>
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: #ffffff; border-radius: 8px;">
+                                        <tr>
+                                            <td width="50%" align="center" style="padding: 20px; border-right: 1px solid {{{{brandSecondary}}}}10;">
+                                                <p style="font-family: {{{{brandFont}}}}; font-size: 32px; color: {{{{brandPrimary}}}}; margin: 0; font-weight: 700;">{{{{totalReferrals}}}}</p>
+                                                <p style="font-family: {{{{brandFont}}}}; font-size: 12px; color: {{{{brandSecondary}}}}; margin: 4px 0 0; text-transform: uppercase;">Total Referrals</p>
+                                            </td>
+                                            <td width="50%" align="center" style="padding: 20px;">
+                                                <p style="font-family: {{{{brandFont}}}}; font-size: 32px; color: #10b981; margin: 0; font-weight: 700;">{{{{totalEarned}}}}</p>
+                                                <p style="font-family: {{{{brandFont}}}}; font-size: 12px; color: {{{{brandSecondary}}}}; margin: 4px 0 0; text-transform: uppercase;">Total Earned</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <!-- Keep referring -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-top: 20px;">
+                            <tr>
+                                <td style="background-color: {{{{brandSecondary}}}}05; border-radius: 8px; padding: 16px 20px;">
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                                        <tr>
+                                            <td>
+                                                <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandPrimary}}}}; margin: 0; font-weight: 600;">Keep the referrals coming!</p>
+                                                <p style="font-family: {{{{brandFont}}}}; font-size: 13px; color: {{{{brandSecondary}}}}; margin: 4px 0 0;">Share your unique link and earn {{{{referralRewardPerReferral}}}} for each friend who signs up.</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <!-- Share link -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-top: 16px;">
+                            <tr>
+                                <td>
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: #ffffff; border-radius: 8px; border: 1px solid {{{{brandSecondary}}}}20;">
+                                        <tr>
+                                            <td style="padding: 12px 16px;">
+                                                <p style="font-family: monospace; font-size: 13px; color: {{{{brandAccent}}}}; margin: 0; word-break: break-all;">{{{{referralLink}}}}</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <!-- Action buttons -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-top: 24px;">
+                            <tr>
+                                <td align="center">
+                                    <a href="{{{{shareReferralUrl}}}}" style="display: inline-block; padding: 14px 32px; background-color: {{{{brandAccent}}}}; color: #ffffff; font-family: {{{{brandFont}}}}; font-size: 14px; font-weight: 600; text-decoration: none; border-radius: 8px;">Share With More Friends</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" style="padding-top: 16px;">
+                                    <a href="{{{{viewRewardsUrl}}}}" style="font-family: {{{{brandFont}}}}; font-size: 13px; color: {{{{brandSecondary}}}}; text-decoration: underline;">View all rewards</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+'''
+    }
+
+
 def section_payment_failed():
     """Payment failed notification with retry options and card info."""
     return {
@@ -3003,6 +3380,9 @@ SECTION_REGISTRY = {
     "two_factor_code": section_two_factor_code,
     "account_suspended": section_account_suspended,
     "payment_failed": section_payment_failed,
+    "order_hold": section_order_hold,
+    "subscription_paused": section_subscription_paused,
+    "referral_success": section_referral_success,
 }
 
 
