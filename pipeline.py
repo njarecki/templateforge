@@ -30,7 +30,13 @@ from external_sources import (
     extract_section_patterns,
     EXTERNAL_SOURCES,
 )
-from mjml_converter import convert_template_to_mjml, generate_mjml_template
+from mjml_converter import (
+    convert_template_to_mjml,
+    generate_mjml_template,
+    compile_template,
+    compile_mjml_to_html,
+    is_mjml_available,
+)
 from preview_server import run_server as run_preview_server
 from template_derivation import (
     derive_all_templates,
@@ -39,7 +45,7 @@ from template_derivation import (
 )
 
 
-def run_pipeline(output_file=None, verbose=True, output_format="html"):
+def run_pipeline(output_file=None, verbose=True, output_format="html", compile_mjml=False):
     """
     Execute the full TemplateForge pipeline.
 
@@ -56,6 +62,7 @@ def run_pipeline(output_file=None, verbose=True, output_format="html"):
         output_file: Path to save output JSON
         verbose: Whether to print progress messages
         output_format: 'html' or 'mjml' - determines template output format
+        compile_mjml: Whether to compile MJML to final HTML (requires MJML CLI)
     """
     if verbose:
         print("=" * 60)
@@ -145,6 +152,71 @@ def run_pipeline(output_file=None, verbose=True, output_format="html"):
             print(f"  - Converted {batch['metadata']['total_templates']} templates to MJML")
             print()
 
+    # Compile MJML to HTML if requested
+    if compile_mjml:
+        if verbose:
+            print("Compiling MJML to production HTML...")
+
+        if not is_mjml_available():
+            if verbose:
+                print("  WARNING: MJML CLI not found. Install with: npm install -g mjml")
+                print("  Skipping compilation step.")
+                print()
+            batch["metadata"]["compilation"] = {
+                "enabled": True,
+                "success": False,
+                "error": "MJML CLI not installed"
+            }
+        else:
+            # Ensure templates have MJML content first
+            if output_format != "mjml":
+                for template in batch["normalizedTemplates"]:
+                    if "mjml" not in template:
+                        template["mjml"] = convert_template_to_mjml(template)
+                for template in batch["reskinnedTemplates"]:
+                    if "mjml" not in template:
+                        template["mjml"] = convert_template_to_mjml(template)
+                for template in batch["layoutVariants"]:
+                    if "mjml" not in template:
+                        template["mjml"] = convert_template_to_mjml(template)
+
+            compiled_count = 0
+            error_count = 0
+
+            for template in batch["normalizedTemplates"]:
+                compile_template(template)
+                if template.get("compiled_html"):
+                    compiled_count += 1
+                else:
+                    error_count += 1
+
+            for template in batch["reskinnedTemplates"]:
+                compile_template(template)
+                if template.get("compiled_html"):
+                    compiled_count += 1
+                else:
+                    error_count += 1
+
+            for template in batch["layoutVariants"]:
+                compile_template(template)
+                if template.get("compiled_html"):
+                    compiled_count += 1
+                else:
+                    error_count += 1
+
+            if verbose:
+                print(f"  - Compiled {compiled_count} templates to HTML")
+                if error_count > 0:
+                    print(f"  - {error_count} templates had compilation errors")
+                print()
+
+            batch["metadata"]["compilation"] = {
+                "enabled": True,
+                "success": error_count == 0,
+                "compiled": compiled_count,
+                "errors": error_count
+            }
+
     # Add generation metadata
     batch["metadata"]["generated_at"] = datetime.now(timezone.utc).isoformat()
     batch["metadata"]["pipeline_version"] = "1.0.0"
@@ -175,19 +247,25 @@ def run_pipeline(output_file=None, verbose=True, output_format="html"):
     return batch
 
 
-def run_single_template(template_type, skin="apple_light", output_file=None, output_format="html"):
+def run_single_template(template_type, skin="apple_light", output_file=None, output_format="html", compile_mjml=False):
     """Generate a single template with optional output to file."""
     template = generate_template(template_type, skin)
     template = fix_template_issues(template)
 
     # Add MJML conversion if requested
-    if output_format == "mjml":
+    if output_format == "mjml" or compile_mjml:
         template["mjml"] = convert_template_to_mjml(template)
+
+    # Compile MJML to HTML if requested
+    if compile_mjml:
+        compile_template(template)
 
     if output_file:
         if output_file.endswith(".html"):
+            # Use compiled HTML if available, otherwise use generated HTML
+            html_content = template.get("compiled_html") or template["html"]
             with open(output_file, "w") as f:
-                f.write(template["html"])
+                f.write(html_content)
         elif output_file.endswith(".mjml"):
             # Output raw MJML file
             if "mjml" not in template:
@@ -360,6 +438,11 @@ def main():
         "--derived-template",
         help="Generate a specific derived template (fetches from external sources)"
     )
+    parser.add_argument(
+        "--compile",
+        action="store_true",
+        help="Compile MJML to production-ready HTML (requires: npm install -g mjml)"
+    )
 
     args = parser.parse_args()
 
@@ -447,7 +530,8 @@ def main():
             args.derived_template,
             args.skin,
             args.output,
-            output_format=args.format
+            output_format=args.format,
+            compile_mjml=args.compile
         )
         if not args.output:
             if args.json_only:
@@ -456,6 +540,11 @@ def main():
                 print(f"Generated: {result['name']} ({result['skin_name']})")
                 print(f"Sections: {', '.join(result['sections_used'])}")
                 print(f"Format: {args.format.upper()}")
+                if args.compile:
+                    if result.get('compiled_html'):
+                        print("Compiled: Yes")
+                    else:
+                        print(f"Compiled: No ({result.get('compilation_error', 'Unknown error')})")
         return
 
     # Generate single template
@@ -464,7 +553,8 @@ def main():
             args.template,
             args.skin,
             args.output,
-            output_format=args.format
+            output_format=args.format,
+            compile_mjml=args.compile
         )
         if not args.output:
             if args.json_only:
@@ -473,8 +563,16 @@ def main():
                 print(f"Generated: {result['name']} ({result['skin_name']})")
                 print(f"Sections: {', '.join(result['sections_used'])}")
                 print(f"Format: {args.format.upper()}")
+                if args.compile:
+                    if result.get('compiled_html'):
+                        print("Compiled: Yes")
+                    else:
+                        print(f"Compiled: No ({result.get('compilation_error', 'Unknown error')})")
                 if not args.quiet:
-                    if args.format == "mjml" and "mjml" in result:
+                    if args.compile and result.get('compiled_html'):
+                        print("\nCompiled HTML Preview (first 500 chars):")
+                        print(result['compiled_html'][:500] + "...")
+                    elif args.format == "mjml" and "mjml" in result:
                         print("\nMJML Preview (first 500 chars):")
                         print(result['mjml'][:500] + "...")
                     else:
@@ -493,7 +591,7 @@ def main():
 
     # Run full pipeline
     verbose = not (args.quiet or args.json_only)
-    result = run_pipeline(args.output, verbose=verbose, output_format=args.format)
+    result = run_pipeline(args.output, verbose=verbose, output_format=args.format, compile_mjml=args.compile)
 
     if args.json_only and not args.output:
         print(json.dumps(result))

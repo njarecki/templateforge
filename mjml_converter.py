@@ -3,9 +3,147 @@ MJML Converter
 
 Converts HTML email templates to MJML format for easier downstream editing.
 MJML (Mailjet Markup Language) is an open-source framework for responsive emails.
+
+Also provides MJML to HTML compilation using the MJML CLI tool.
 """
 
+import subprocess
+import shutil
+import tempfile
+import os
+
 from design_system import IMAGE_PLACEHOLDERS, COPY_TOKENS, DESIGN_SKINS
+
+
+def get_mjml_path():
+    """Get the path to the MJML CLI executable."""
+    # Check global install first
+    global_mjml = shutil.which("mjml")
+    if global_mjml:
+        return global_mjml
+
+    # Check local node_modules
+    local_paths = [
+        os.path.join(os.path.dirname(__file__), "node_modules", ".bin", "mjml"),
+        os.path.join(os.getcwd(), "node_modules", ".bin", "mjml"),
+    ]
+    for local_path in local_paths:
+        if os.path.isfile(local_path) and os.access(local_path, os.X_OK):
+            return local_path
+
+    return None
+
+
+def is_mjml_available():
+    """Check if MJML CLI is installed and available."""
+    return get_mjml_path() is not None
+
+
+def compile_mjml_to_html(mjml_content, minify=True, beautify=False):
+    """
+    Compile MJML markup to production-ready HTML using the MJML CLI.
+
+    Args:
+        mjml_content: MJML string to compile
+        minify: Whether to minify the output HTML (default: True)
+        beautify: Whether to beautify the output HTML (default: False)
+
+    Returns:
+        dict with keys:
+            - 'success': bool
+            - 'html': compiled HTML string (if success)
+            - 'error': error message (if failed)
+
+    Note: Requires MJML CLI to be installed (`npm install -g mjml`)
+    """
+    mjml_bin = get_mjml_path()
+    if not mjml_bin:
+        return {
+            'success': False,
+            'error': 'MJML CLI not found. Install with: npm install -g mjml (or npm install mjml locally)',
+            'html': None
+        }
+
+    try:
+        # Create temporary file for MJML input
+        with tempfile.NamedTemporaryFile(mode='w', suffix='.mjml', delete=False) as f:
+            f.write(mjml_content)
+            mjml_file_path = f.name
+
+        try:
+            # Build command
+            cmd = [mjml_bin, mjml_file_path, '-s']  # -s outputs to stdout
+
+            if minify:
+                cmd.extend(['--config.minify', 'true'])
+            if beautify:
+                cmd.extend(['--config.beautify', 'true'])
+
+            # Run MJML CLI
+            result = subprocess.run(
+                cmd,
+                capture_output=True,
+                text=True,
+                timeout=30
+            )
+
+            if result.returncode == 0:
+                return {
+                    'success': True,
+                    'html': result.stdout,
+                    'error': None
+                }
+            else:
+                return {
+                    'success': False,
+                    'html': None,
+                    'error': result.stderr or 'MJML compilation failed'
+                }
+
+        finally:
+            # Clean up temp file
+            os.unlink(mjml_file_path)
+
+    except subprocess.TimeoutExpired:
+        return {
+            'success': False,
+            'html': None,
+            'error': 'MJML compilation timed out'
+        }
+    except Exception as e:
+        return {
+            'success': False,
+            'html': None,
+            'error': f'MJML compilation error: {str(e)}'
+        }
+
+
+def compile_template(template_data, minify=True):
+    """
+    Compile a template's MJML to HTML.
+
+    Args:
+        template_data: Dict with 'mjml' key containing MJML string
+        minify: Whether to minify output
+
+    Returns:
+        Updated template_data with 'compiled_html' key added
+    """
+    if 'mjml' not in template_data:
+        template_data['compiled_html'] = None
+        template_data['compilation_error'] = 'No MJML content to compile'
+        return template_data
+
+    result = compile_mjml_to_html(template_data['mjml'], minify=minify)
+
+    if result['success']:
+        template_data['compiled_html'] = result['html']
+        template_data['compilation_error'] = None
+    else:
+        template_data['compiled_html'] = None
+        template_data['compilation_error'] = result['error']
+
+    return template_data
 
 
 def get_mjml_head(skin_name="apple_light"):
