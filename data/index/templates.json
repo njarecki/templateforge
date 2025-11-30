@@ -10575,6 +10575,278 @@
         "has_media_queries": false,
         "table_count": 0
       }
+    },
+    {
+      "id": "cfbb54b6022a2f8e2f54261ab1096fd1",
+      "source_id": "email_boilerplate",
+      "source_name": "Email Boilerplate",
+      "url": "https://github.com/seanpowell/Email-Boilerplate/blob/master/email.html",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/email_boilerplate/email.html",
+      "byte_size": 12196,
+      "content_hash": "47a72d8de93e77efd860da98df71f36d3645103dcccc8033bdbb349620b2c0ce",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "e3f1a42a83b4b6654aa678a978b16ebc",
+      "source_id": "email_boilerplate",
+      "source_name": "Email Boilerplate",
+      "url": "https://github.com/seanpowell/Email-Boilerplate/blob/master/email_lite.html",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/email_boilerplate/email_lite.html",
+      "byte_size": 6536,
+      "content_hash": "3806777e69f299b079b95a2bfbda42e421c7ad1aa47f09ded4ecbb721ed3ab40",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "e02a04c7794718953802e7e4497b43ef",
+      "source_id": "email_boilerplate",
+      "source_name": "Email Boilerplate",
+      "url": "https://github.com/seanpowell/Email-Boilerplate/blob/master/email_commentsremoved.html",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/email_boilerplate/email_commentsremoved.html",
+      "byte_size": 3659,
+      "content_hash": "db5b5d10adab24b2dfbbf94e5bf3eab08b7aae8e2d57f37c8ac590702a2d7225",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "65a5a4f391912cad17173eef2492d470",
+      "source_id": "email_boilerplate",
+      "source_name": "Email Boilerplate",
+      "url": "https://github.com/seanpowell/Email-Boilerplate/blob/master/email_min.html",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/email_boilerplate/email_min.html",
+      "byte_size": 3312,
+      "content_hash": "56b6b9248696870e28f53efb2b3de01ce6bf1fea715d97462151555e7058293f",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 6
+      }
+    },
+    {
+      "id": "17ec13d16531d75dcc79d27ca940d786",
+      "source_id": "mailmunch",
+      "source_name": "MailMunch",
+      "url": "https://github.com/mailmunch/email-templates/blob/master/christmas/index.html",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mailmunch/christmas.html",
+      "byte_size": 22458,
+      "content_hash": "b50f5fa5ee27e9b7be2328b5c9579040a43d5fedfedf17ce4b61bbcebf42f708",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 42
+      }
+    },
+    {
+      "id": "c30f118ba1f5d050de3a4e4c1f66baa7",
+      "source_id": "mailmunch",
+      "source_name": "MailMunch",
+      "url": "https://github.com/mailmunch/email-templates/blob/master/webinar/index.html",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mailmunch/webinar.html",
+      "byte_size": 15291,
+      "content_hash": "b93266481bc25b7f490134c64dc0ffedb80dcebb614e492bd7ee9a4e1c2396cd",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 29
+      }
+    },
+    {
+      "id": "0145d141a68fabe80eceb4228bbd194c",
+      "source_id": "chartblocks",
+      "source_name": "ChartBlocks",
+      "url": "https://github.com/ChartBlocks/html-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/chartblocks/notification.html",
+      "byte_size": 5612,
+      "content_hash": "0bef959fc6f4efa55089a29a629e48312b3ede68d5cd47174b3d58f7921c410f",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 5
+      }
+    },
+    {
+      "id": "82ce286d3d59d438a8e678265ec442b3",
+      "source_id": "bbulakh_ecommerce",
+      "source_name": "Bbulakh Ecommerce",
+      "url": "https://github.com/bbulakh/ecommerce-email/blob/main/cart-reminder.mjml",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "data/raw/bbulakh_ecommerce/cart-reminder.mjml",
+      "byte_size": 9688,
+      "content_hash": "24fc1f692e4ec10c9b841d6ee7fd297067e7b09dfd445a511e6bcad1f54f0737",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "5ea1425752273c39896d944d6e54b09a",
+      "source_id": "bbulakh_ecommerce",
+      "source_name": "Bbulakh Ecommerce",
+      "url": "https://github.com/bbulakh/ecommerce-email/blob/main/new-feature.mjml",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "data/raw/bbulakh_ecommerce/new-feature.mjml",
+      "byte_size": 7454,
+      "content_hash": "033830e3c6cbc633cc31c47075078fd47a22eca28c762a6704e5ddc10fb39944",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "f542a46fcbeb6f6169bbda65af8b3a56",
+      "source_id": "bbulakh_ecommerce",
+      "source_name": "Bbulakh Ecommerce",
+      "url": "https://github.com/bbulakh/ecommerce-email/blob/main/order-confirmation.mjml",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "data/raw/bbulakh_ecommerce/order-confirmation.mjml",
+      "byte_size": 11296,
+      "content_hash": "285fa17d2e13fcabc7344cc41ddc07030ac0cc2bf461b6e1744d7ce0107da2bf",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "f4364dced02a88dcd55d595dacf12a16",
+      "source_id": "bbulakh_ecommerce",
+      "source_name": "Bbulakh Ecommerce",
+      "url": "https://github.com/bbulakh/ecommerce-email/blob/main/survey.mjml",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "data/raw/bbulakh_ecommerce/survey.mjml",
+      "byte_size": 5488,
+      "content_hash": "3acda5f5ee3183f5dc9f38ea34e7022ffd8b6f00a67b901a7a2450bdbdc4954d",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "100c47260d4ae83a6fff36b61f9daf0e",
+      "source_id": "bbulakh_ecommerce",
+      "source_name": "Bbulakh Ecommerce",
+      "url": "https://github.com/bbulakh/ecommerce-email/blob/main/welcome.mjml",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "data/raw/bbulakh_ecommerce/welcome.mjml",
+      "byte_size": 5273,
+      "content_hash": "42089c4b86133f8639cdfeb0b153e956bd54962154a6f391899f6945e57caebb",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "03f6a5f76978c551b35443c28b6ec3e6",
+      "source_id": "supertokens",
+      "source_name": "SuperTokens",
+      "url": "https://github.com/supertokens/email-sms-templates/blob/main/email-html/email-verification.html",
+      "license": "Apache-2.0",
+      "type": "html",
+      "file_path": "data/raw/supertokens/email-verification.html",
+      "byte_size": 20238,
+      "content_hash": "36d2c5e5b90370f1f4d9117a4707aaa99d227ee4af239cb5741126da54c5cd7d",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 10
+      }
+    },
+    {
+      "id": "d093ed697f96d03f5899ff25b21d4d84",
+      "source_id": "supertokens",
+      "source_name": "SuperTokens",
+      "url": "https://github.com/supertokens/email-sms-templates/blob/main/email-html/magic-link-login.html",
+      "license": "Apache-2.0",
+      "type": "html",
+      "file_path": "data/raw/supertokens/magic-link-login.html",
+      "byte_size": 21203,
+      "content_hash": "9ed1229638b45b83260af69aded9835c615e478b44fc0bdc7b3a083fc118dcf2",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 11
+      }
+    },
+    {
+      "id": "29fbb47f5a1ce220e7475cd12e5c6985",
+      "source_id": "supertokens",
+      "source_name": "SuperTokens",
+      "url": "https://github.com/supertokens/email-sms-templates/blob/main/email-html/magic-link-otp-login.html",
+      "license": "Apache-2.0",
+      "type": "html",
+      "file_path": "data/raw/supertokens/magic-link-otp-login.html",
+      "byte_size": 23968,
+      "content_hash": "79484d684ae9758c0d50c4dbc7b7c094b255af85594729af1d43ff8face0a278",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 15
+      }
+    },
+    {
+      "id": "37fcdf33ba3b0491936a116fb3cae2ea",
+      "source_id": "supertokens",
+      "source_name": "SuperTokens",
+      "url": "https://github.com/supertokens/email-sms-templates/blob/main/email-html/otp-login.html",
+      "license": "Apache-2.0",
+      "type": "html",
+      "file_path": "data/raw/supertokens/otp-login.html",
+      "byte_size": 20333,
+      "content_hash": "57c83d0d8be2a8a9a2a06c348faa9b368a641924242b8997d578f252cb627f37",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 11
+      }
+    },
+    {
+      "id": "5ce22a71062bced83506928fe58774a4",
+      "source_id": "supertokens",
+      "source_name": "SuperTokens",
+      "url": "https://github.com/supertokens/email-sms-templates/blob/main/email-html/password-reset.html",
+      "license": "Apache-2.0",
+      "type": "html",
+      "file_path": "data/raw/supertokens/password-reset.html",
+      "byte_size": 20600,
+      "content_hash": "4c5d8c02f9f2e4b6f841e5e744eca284dc1f28779abcd1d37e0aab6a7608e53b",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 10
+      }
     }
   ]
 }
