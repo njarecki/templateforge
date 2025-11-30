@@ -726,6 +726,194 @@ def section_rsvp_buttons():
     }
 
 
+def section_countdown_timer():
+    """Countdown timer for sales, launches, or events."""
+    return {
+        "type": "countdown_timer",
+        "name": "Countdown Timer",
+        "html": '''
+<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+    <tr>
+        <td align="center" style="padding: 32px 24px; background-color: {brandPrimary};">
+            <p style="font-family: {brandFont}; font-size: 14px; color: {brandBG}; margin: 0 0 16px; text-transform: uppercase; letter-spacing: 2px;">{{countdownLabel}}</p>
+            <table cellpadding="0" cellspacing="0" border="0" role="presentation">
+                <tr>
+                    <td align="center" style="padding: 0 12px;">
+                        <table cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: {brandBG}; border-radius: 8px;">
+                            <tr>
+                                <td style="padding: 16px 20px;">
+                                    <p style="font-family: {brandFont}; font-size: 36px; color: {brandPrimary}; margin: 0; font-weight: 700;">{{countdownDays}}</p>
+                                </td>
+                            </tr>
+                        </table>
+                        <p style="font-family: {brandFont}; font-size: 12px; color: {brandBG}; margin: 8px 0 0; text-transform: uppercase;">Days</p>
+                    </td>
+                    <td align="center" style="padding: 0 12px;">
+                        <table cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: {brandBG}; border-radius: 8px;">
+                            <tr>
+                                <td style="padding: 16px 20px;">
+                                    <p style="font-family: {brandFont}; font-size: 36px; color: {brandPrimary}; margin: 0; font-weight: 700;">{{countdownHours}}</p>
+                                </td>
+                            </tr>
+                        </table>
+                        <p style="font-family: {brandFont}; font-size: 12px; color: {brandBG}; margin: 8px 0 0; text-transform: uppercase;">Hours</p>
+                    </td>
+                    <td align="center" style="padding: 0 12px;">
+                        <table cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: {brandBG}; border-radius: 8px;">
+                            <tr>
+                                <td style="padding: 16px 20px;">
+                                    <p style="font-family: {brandFont}; font-size: 36px; color: {brandPrimary}; margin: 0; font-weight: 700;">{{countdownMins}}</p>
+                                </td>
+                            </tr>
+                        </table>
+                        <p style="font-family: {brandFont}; font-size: 12px; color: {brandBG}; margin: 8px 0 0; text-transform: uppercase;">Mins</p>
+                    </td>
+                    <td align="center" style="padding: 0 12px;">
+                        <table cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: {brandBG}; border-radius: 8px;">
+                            <tr>
+                                <td style="padding: 16px 20px;">
+                                    <p style="font-family: {brandFont}; font-size: 36px; color: {brandPrimary}; margin: 0; font-weight: 700;">{{countdownSecs}}</p>
+                                </td>
+                            </tr>
+                        </table>
+                        <p style="font-family: {brandFont}; font-size: 12px; color: {brandBG}; margin: 8px 0 0; text-transform: uppercase;">Secs</p>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+'''
+    }
+
+
+def section_video_placeholder():
+    """Video placeholder with play button overlay."""
+    return {
+        "type": "video_placeholder",
+        "name": "Video Placeholder",
+        "html": f'''
+<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+    <tr>
+        <td align="center" style="padding: 24px;">
+            <a href="{{{{videoUrl}}}}" style="display: block; position: relative; text-decoration: none;">
+                <table cellpadding="0" cellspacing="0" border="0" role="presentation" style="position: relative;">
+                    <tr>
+                        <td>
+                            <img src="{IMAGE_PLACEHOLDERS['hero']}" alt="{{{{videoAlt}}}}" width="592" style="width: 100%; max-width: 592px; height: auto; display: block; border-radius: 8px;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" style="padding-top: 16px;">
+                            <!--[if mso]>
+                            <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{{{videoUrl}}}}" style="height:60px;v-text-anchor:middle;width:60px;" arcsize="50%" fillcolor="{{{{brandAccent}}}}" stroke="f">
+                            <w:anchorlock/>
+                            <center style="color:#ffffff;font-family:sans-serif;font-size:24px;">&#9658;</center>
+                            </v:roundrect>
+                            <![endif]-->
+                            <!--[if !mso]><!-->
+                            <table cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: {{{{brandAccent}}}}; border-radius: 50%; margin-top: -80px; position: relative;">
+                                <tr>
+                                    <td style="padding: 18px 22px 18px 26px;">
+                                        <span style="font-size: 24px; color: #ffffff;">&#9658;</span>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!--<![endif]-->
+                        </td>
+                    </tr>
+                </table>
+            </a>
+            <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandSecondary}}}}; margin: 16px 0 0;">{{{{videoCaption}}}}</p>
+        </td>
+    </tr>
+</table>
+'''
+    }
+
+
+def section_accordion_faq():
+    """FAQ/Accordion section (static version for email)."""
+    return {
+        "type": "accordion_faq",
+        "name": "Accordion FAQ",
+        "html": f'''
+<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+    <tr>
+        <td style="padding: 24px;">
+            <h2 style="font-family: {{{{brandFont}}}}; font-size: 24px; color: {{{{brandPrimary}}}}; margin: 0 0 24px;">Frequently Asked Questions</h2>
+
+            <!-- FAQ Item 1 -->
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="border-bottom: 1px solid {{{{brandSecondary}}}}20; margin-bottom: 16px;">
+                <tr>
+                    <td style="padding-bottom: 16px;">
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                            <tr>
+                                <td>
+                                    <h3 style="font-family: {{{{brandFont}}}}; font-size: 16px; color: {{{{brandPrimary}}}}; margin: 0 0 8px; font-weight: 600;">{{{{faq1Question}}}}</h3>
+                                </td>
+                                <td width="24" valign="top" align="right">
+                                    <span style="font-family: {{{{brandFont}}}}; font-size: 18px; color: {{{{brandAccent}}}}; font-weight: 600;">+</span>
+                                </td>
+                            </tr>
+                        </table>
+                        <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandText}}}}; margin: 0; line-height: 1.6;">{{{{faq1Answer}}}}</p>
+                    </td>
+                </tr>
+            </table>
+
+            <!-- FAQ Item 2 -->
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="border-bottom: 1px solid {{{{brandSecondary}}}}20; margin-bottom: 16px;">
+                <tr>
+                    <td style="padding-bottom: 16px;">
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                            <tr>
+                                <td>
+                                    <h3 style="font-family: {{{{brandFont}}}}; font-size: 16px; color: {{{{brandPrimary}}}}; margin: 0 0 8px; font-weight: 600;">{{{{faq2Question}}}}</h3>
+                                </td>
+                                <td width="24" valign="top" align="right">
+                                    <span style="font-family: {{{{brandFont}}}}; font-size: 18px; color: {{{{brandAccent}}}}; font-weight: 600;">+</span>
+                                </td>
+                            </tr>
+                        </table>
+                        <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandText}}}}; margin: 0; line-height: 1.6;">{{{{faq2Answer}}}}</p>
+                    </td>
+                </tr>
+            </table>
+
+            <!-- FAQ Item 3 -->
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="border-bottom: 1px solid {{{{brandSecondary}}}}20; margin-bottom: 16px;">
+                <tr>
+                    <td style="padding-bottom: 16px;">
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                            <tr>
+                                <td>
+                                    <h3 style="font-family: {{{{brandFont}}}}; font-size: 16px; color: {{{{brandPrimary}}}}; margin: 0 0 8px; font-weight: 600;">{{{{faq3Question}}}}</h3>
+                                </td>
+                                <td width="24" valign="top" align="right">
+                                    <span style="font-family: {{{{brandFont}}}}; font-size: 18px; color: {{{{brandAccent}}}}; font-weight: 600;">+</span>
+                                </td>
+                            </tr>
+                        </table>
+                        <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandText}}}}; margin: 0; line-height: 1.6;">{{{{faq3Answer}}}}</p>
+                    </td>
+                </tr>
+            </table>
+
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                <tr>
+                    <td align="center" style="padding-top: 8px;">
+                        <a href="{{{{faqUrl}}}}" style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandAccent}}}}; text-decoration: underline;">View all FAQs &rarr;</a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+'''
+    }
+
+
 # Registry of all sections
 SECTION_REGISTRY = {
     "hero": section_hero,
@@ -752,6 +940,9 @@ SECTION_REGISTRY = {
     "urgency_banner": section_urgency_banner,
     "event_details": section_event_details,
     "rsvp_buttons": section_rsvp_buttons,
+    "countdown_timer": section_countdown_timer,
+    "video_placeholder": section_video_placeholder,
+    "accordion_faq": section_accordion_faq,
 }
 
 
