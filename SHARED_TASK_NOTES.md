@@ -1,112 +1,95 @@
-# TemplateForge Sourcing Task Notes
+# TemplateForge Generation Task Notes
 
-## Current Status (Updated 2025-11-30 - Iteration 6)
-- **Indexed**: 1,453 items
-- **Unique hashes**: 1,230 (after dedupe)
-- **Target**: 10,000 unique templates
-- **Gap**: ~8,770 more templates needed
-- **Sources tapped**: ~165 directories in data/raw/
+## Current Status (Updated 2025-11-30)
+- **Generated**: 10 templates (8 original, 2 inspired)
+- **Target**: 10,000 unique templates (score ≥85)
+- **Required split**: 50% inspired / 50% original
+- **All templates**: Valid HTML, MJML-compiled
 
 ## Run Commands
 ```bash
 # Check progress
-python3 scripts/sourcing_indexer.py stats
+python3 scripts/design_pipeline.py stats
 
-# Dedupe after adding templates
-python3 scripts/sourcing_indexer.py dedupe
+# Add a generated template
+python3 scripts/design_pipeline.py add-generated \
+  --id <id> \
+  --origin <inspired|original> \
+  --category <Welcome|Promo|Ecommerce|Newsletter|Transactional> \
+  --style <style_name> \
+  --score <0-100> \
+  --map '<["section1","section2",...]>' \
+  --seeds '<["seed1","seed2"]>' \
+  --format html \
+  --file <path>
 
-# Index a new template file
-python3 scripts/sourcing_indexer.py add \
-  --source-id <source_id> \
-  --source-name "<Name>" \
-  --url "<source_url>" \
-  --license <MIT|Apache|Other> \
-  --type <html|mjml> \
-  --file data/raw/<source_id>/<filename>
+# Compile MJML to HTML
+npx mjml input.mjml -o output.html
 ```
 
-## Quality Gates (from runbook)
-- Size: >10KB and <350KB
-- Must have media queries OR be from responsive framework (MJML/Cerberus/etc)
-- Table count >= 5
-- Must have CTA/link + footer/unsubscribe
-- Uniqueness: Jaccard < 0.90 vs existing
+## Category Distribution (Current)
+- Ecommerce: 3
+- Transactional: 3
+- Promo: 2
+- Newsletter: 1
+- Welcome: 1
 
-## File Structure
-```
-data/raw/<source_id>/<slug>.{html|mjml}
-data/index/templates.json - master index
-data/index/dedupe.json - duplicate clusters
-```
+## Section Library (from runbook)
+hero, subhero, 1col_text, 2col_text_image, 3col_features, product_grid, testimonial, story_block, cta_band, header_nav, offer_banner, order_summary, social_icons, footer_simple, footer_complex, divider, spacer
 
-## New Sources Added This Iteration
+## Style Packs
+Core: Linear Dark, Apple Light Minimal, DTC Pastel, Editorial Serif, Brutalist Bold
+Extra: Minimal White, Warm Neutral, Modern Gradient, Black & Gold Premium, Neon Gaming
 
-1. **react_email_codeskills** - 2 templates (CodeSkills React-Email, compiled)
-2. **bootstrap_email** - 3 templates (lyft, product-hunt, integration)
-3. **mailjet_transactional** - 2 templates (MJML transactional)
-4. **email_system_mjml** - 3 templates (Hoffmander email system)
-5. **mjml_boilerplate** - 4 templates (Mikezotov transactional)
-6. **premail** - 1 template (Premail MJML)
-7. **maizzle_rss** - 1 template (Laracasts RSS)
+## Token Reference
+Colors: {brandBG}, {brandPrimary}, {brandSecondary}, {brandText}, {brandAccent}
+Typography: {brandFont}
+All images: placeholder URLs from placehold.co
 
-Total added: ~16 templates, ~12 unique after dedupe
+## Next Steps (Priority)
 
-## Next Steps (Priority Order)
+1. **Generate more "inspired" templates** - Currently at 20% inspired, need 50%
+   - Use seed templates from `data/index/templates_enriched.json`
+   - Abstract section maps and recombine with variations
+   - Focus on high-quality seeds (has_media_queries, table_count≥8, 20-220KB)
 
-1. **Compile official react-email demo templates**
-   - Requires full monorepo setup (workspace dependencies + Tailwind config)
-   - Has ~20 brand-inspired templates (Stripe, Nike, GitHub, Notion, etc.)
-   - Alternative: Create standalone compilation setup
+2. **Increase volume across categories**:
+   - Welcome: More onboarding flows
+   - Newsletter: Blog digests, weekly roundups
+   - Ecommerce: Cart recovery, product launches, reviews
+   - Transactional: Account confirmations, receipts
+   - Promo: Flash sales, seasonal, loyalty
 
-2. **Web scraping template galleries** (with rate limiting, robots.txt respect):
-   - Stripo.email free templates (1,600+ but login-gated)
-   - Beefree.io free templates (1,000+ but login-gated)
-   - Really Good Emails archives
+3. **Apply style variations**:
+   - Each template should have 2-3 style variants
+   - Use all 10 style packs for diversity
 
-3. **Consider lowering quality gates** to increase yield:
-   - 10KB threshold eliminates many usable templates
-   - Table count >= 5 may be too strict for modern div-based layouts
-   - Media queries requirement blocks many table-based responsive templates
+4. **Batch generation approach**:
+   - Create 50 templates per session
+   - Compile all MJML → HTML
+   - Add to index with proper metadata
+   - Run dedupe after each batch
 
-## Reality Check
+## Quality Criteria (from runbook)
+- Score ≥85 to keep
+- 640px max width
+- Table layout with role="presentation"
+- CTA present and above fold in ≥1 variant
+- Footer with unsubscribe present
+- Alt text on all images
+- Responsive stacking via media queries
 
-The 10,000 target is extremely challenging. After 6 iterations:
+## Files
+- Generated templates: `data/generated/<category>/<id>/`
+- Generated index: `data/index/generated.json`
+- Source seeds: `data/index/templates_enriched.json`
+- Compiled seeds: `data/compiled/`
+- Temp workspace: `temp_generation/`
 
-**Exhaustive GitHub search completed:**
-- All popular template repos (mjmlio, sendwithus, postmark, mailgun, etc.) - INDEXED
-- All Maizzle starters - INDEXED
-- All easy-email-pro templates - INDEXED
-- Most GitHub Topics pages for email templates explored
-- awesome-emails, awesome-opensource-email lists fully explored
-
-**Major template sources that could add 1000+ templates:**
-1. **Stripo.email** - 1,600+ templates (requires account/login)
-2. **Beefree.io** - 1,000+ templates (requires account/login)
-3. **Really Good Emails** - 5,000+ templates (may be scrapable)
-4. **Litmus Community** - Unknown count (requires exploration)
-
-**Why quality gates block many templates:**
-- Many templates <10KB (especially transactional/simple ones)
-- Table count <5 is common in modern div-based layouts
-- Media queries absent in inline-styled templates (still responsive)
-- Strict uniqueness check causes valid variations to be marked duplicates
-
-**Conclusion:**
-Open-source GitHub has been thoroughly searched. Remaining paths:
-1. Web scraping commercial galleries (Stripo, Beefree, RGE)
-2. Lower quality gates significantly
-3. Generate synthetic templates from existing patterns
-4. Compile TSX sources with full build setup
-
-## Technical Notes
-
-### React-Email Compilation
-- Official react-email demo templates need full monorepo setup
-- Tailwind config is shared across templates via imports
-- Simple templates can be compiled with `npx email export`
-- Package versions: react-email@5.0.5, @react-email/components@0.0.37
-
-### MJML Compilation
-- MJML templates compile to HTML with `npx mjml <file.mjml>`
-- Some templates use mj-include (fragments) - need full file
-- MJML 4.x produces responsive HTML with media queries
+## Quality Seeds Available (381 total)
+High-quality seeds with: media queries, table_count≥8, 20-220KB HTML
+- Ecommerce: 229 seeds
+- Newsletter: 139 seeds
+- Transactional: 76 seeds
+- Promo: 67 seeds
+- Welcome: 23 seeds

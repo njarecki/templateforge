@@ -1,0 +1,141 @@
+<mjml>
+  <mj-head>
+    <mj-title>Special Offer from {brandName}</mj-title>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}, Arial, sans-serif" />
+      <mj-text color="{brandText}" line-height="1.5" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" border-radius="0" font-weight="700" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="{brandBG}">
+    <!-- Offer Banner -->
+    <mj-section background-color="{brandAccent}" padding="10px 20px">
+      <mj-column>
+        <mj-text font-size="14px" align="center" color="#ffffff" font-weight="600">
+          Limited Time: Use code SAVE20 for 20% off your order
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Header Nav -->
+    <mj-section background-color="#ffffff" padding="15px 20px">
+      <mj-column width="30%">
+        <mj-image src="https://placehold.co/120x40/{brandPrimary}/ffffff?text={brandName}" alt="{brandName}" width="120px" align="left" />
+      </mj-column>
+      <mj-column width="70%">
+        <mj-navbar base-url="{baseUrl}">
+          <mj-navbar-link href="{shopUrl}" color="{brandText}" font-size="14px" padding="0 15px">Shop</mj-navbar-link>
+          <mj-navbar-link href="{newUrl}" color="{brandText}" font-size="14px" padding="0 15px">New</mj-navbar-link>
+          <mj-navbar-link href="{saleUrl}" color="{brandAccent}" font-size="14px" padding="0 15px" font-weight="700">Sale</mj-navbar-link>
+        </mj-navbar>
+      </mj-column>
+    </mj-section>
+
+    <!-- Hero -->
+    <mj-section background-color="{brandPrimary}" padding="0">
+      <mj-column>
+        <mj-image src="https://placehold.co/600x400/{brandSecondary}/ffffff?text=Hero+Promo+Image" alt="Promotional offer" fluid-on-mobile="true" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="{brandPrimary}" padding="30px 20px">
+      <mj-column>
+        <mj-text font-size="42px" font-weight="700" align="center" color="#ffffff" line-height="1.2">
+          FLASH SALE
+        </mj-text>
+        <mj-text font-size="64px" font-weight="700" align="center" color="{brandAccent}" padding="10px 0">
+          50% OFF
+        </mj-text>
+        <mj-text font-size="18px" align="center" color="#ffffff" padding-bottom="20px">
+          Everything in our summer collection
+        </mj-text>
+        <mj-button href="{ctaUrl}" font-size="18px" padding="20px" background-color="#ffffff" color="{brandPrimary}">
+          SHOP THE SALE
+        </mj-button>
+        <mj-text font-size="12px" align="center" color="rgba(255,255,255,0.7)" padding-top="15px">
+          Offer ends {expiryDate}. Terms apply.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Product Grid -->
+    <mj-section background-color="#ffffff" padding="40px 20px 20px">
+      <mj-column>
+        <mj-text font-size="24px" font-weight="600" align="center">
+          Top Picks for You
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="10px 20px">
+      <mj-column>
+        <mj-image src="https://placehold.co/260x260/{brandBG}/{brandText}?text=Product+1" alt="Product 1" />
+        <mj-text font-size="14px" font-weight="600" align="center" padding-top="10px">
+          Product Name One
+        </mj-text>
+        <mj-text font-size="14px" align="center">
+          <s style="color: #999;">$99</s> <span style="color: {brandAccent}; font-weight: 700;">$49</span>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-image src="https://placehold.co/260x260/{brandBG}/{brandText}?text=Product+2" alt="Product 2" />
+        <mj-text font-size="14px" font-weight="600" align="center" padding-top="10px">
+          Product Name Two
+        </mj-text>
+        <mj-text font-size="14px" align="center">
+          <s style="color: #999;">$79</s> <span style="color: {brandAccent}; font-weight: 700;">$39</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="10px 20px 30px">
+      <mj-column>
+        <mj-image src="https://placehold.co/260x260/{brandBG}/{brandText}?text=Product+3" alt="Product 3" />
+        <mj-text font-size="14px" font-weight="600" align="center" padding-top="10px">
+          Product Name Three
+        </mj-text>
+        <mj-text font-size="14px" align="center">
+          <s style="color: #999;">$129</s> <span style="color: {brandAccent}; font-weight: 700;">$64</span>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-image src="https://placehold.co/260x260/{brandBG}/{brandText}?text=Product+4" alt="Product 4" />
+        <mj-text font-size="14px" font-weight="600" align="center" padding-top="10px">
+          Product Name Four
+        </mj-text>
+        <mj-text font-size="14px" align="center">
+          <s style="color: #999;">$89</s> <span style="color: {brandAccent}; font-weight: 700;">$44</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- CTA Band -->
+    <mj-section background-color="{brandSecondary}" padding="30px 20px">
+      <mj-column>
+        <mj-text font-size="22px" font-weight="600" align="center" color="#ffffff">
+          Don't miss out on these deals
+        </mj-text>
+        <mj-button href="{ctaUrl}" padding-top="20px" font-size="16px">
+          View All Sale Items
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="#333333" padding="30px 20px">
+      <mj-column>
+        <mj-social font-size="12px" icon-size="24px" mode="horizontal">
+          <mj-social-element name="facebook" href="{socialFacebook}" background-color="#555" />
+          <mj-social-element name="twitter" href="{socialTwitter}" background-color="#555" />
+          <mj-social-element name="instagram" href="{socialInstagram}" background-color="#555" />
+        </mj-social>
+        <mj-text font-size="12px" color="#aaaaaa" align="center" padding-top="20px">
+          {companyAddress}
+        </mj-text>
+        <mj-text font-size="12px" color="#aaaaaa" align="center">
+          <a href="{unsubscribeUrl}" style="color: #aaaaaa;">Unsubscribe</a> | <a href="{preferencesUrl}" style="color: #aaaaaa;">Manage Preferences</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

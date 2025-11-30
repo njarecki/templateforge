@@ -1,0 +1,170 @@
+<mjml>
+  <mj-head>
+    <mj-title>You're Invited to {eventName}</mj-title>
+    <mj-preview>Join us at {eventLocation} on {eventDate}</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}, Helvetica, Arial, sans-serif" />
+      <mj-text font-weight="400" font-size="16px" color="{brandText}" line-height="24px" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" border-radius="4px" font-weight="600" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .card-section {
+        -webkit-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="{brandBG}" width="600px">
+    <!-- Header with location banner -->
+    <mj-section full-width="full-width" background-color="{brandPrimary}" padding-bottom="0">
+      <mj-column width="100%">
+        <mj-image src="https://placehold.co/150x50/ffffff/333333?text={brandName}" alt="{brandName}" align="center" width="150px" />
+        <mj-text color="#ffffff" font-weight="bold" align="center" text-transform="uppercase" font-size="14px" letter-spacing="2px" padding-top="25px">
+          {eventCity}
+        </mj-text>
+        <mj-text color="{brandAccent}" align="center" font-size="12px" padding-top="5px" font-weight="600" text-transform="uppercase" letter-spacing="1px" line-height="18px">
+          {eventVenue}<br />{eventAddress}
+        </mj-text>
+        <mj-image src="https://placehold.co/600x300/{brandSecondary}/ffffff?text=Event+Hero+Image" width="600px" alt="Event preview" padding="20px 0 0 0" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Sub-header band -->
+    <mj-section background-color="{brandSecondary}">
+      <mj-column width="100%">
+        <mj-image src="https://placehold.co/600x60/{brandSecondary}/ffffff?text=Decorative+Banner" width="600px" alt="" padding="0" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Main content card -->
+    <mj-wrapper padding-top="0" padding-bottom="0" css-class="card-section">
+      <mj-section background-color="#ffffff" padding="30px 25px">
+        <mj-column width="100%">
+          <mj-text color="{brandPrimary}" font-weight="bold" font-size="24px" line-height="1.3">
+            {eventHeadline}
+          </mj-text>
+          <mj-text font-size="16px" padding-top="15px">
+            Hi {firstName},
+          </mj-text>
+          <mj-text font-size="16px" padding-top="10px">
+            {eventDescription}
+          </mj-text>
+          <mj-text font-size="16px" padding-top="15px">
+            Here's what you can expect:
+          </mj-text>
+          <mj-text font-size="16px" padding-top="10px">
+            <ul style="padding-left: 20px; margin: 0;">
+              <li style="padding-bottom: 12px;"><strong>{highlight1Title}:</strong> {highlight1Desc}</li>
+              <li style="padding-bottom: 12px;"><strong>{highlight2Title}:</strong> {highlight2Desc}</li>
+              <li><strong>{highlight3Title}:</strong> {highlight3Desc}</li>
+            </ul>
+          </mj-text>
+          <mj-text font-size="16px" padding-top="20px" padding-bottom="25px">
+            Space is limited, so <a href="{rsvpUrl}" style="color: {brandPrimary};">reserve your spot</a> today before registrations close on {rsvpDeadline}.
+          </mj-text>
+          <mj-button href="{rsvpUrl}" font-size="16px" width="280px">
+            RSVP Now
+          </mj-button>
+          <mj-button href="{calendarUrl}" font-size="16px" width="280px" background-color="{brandSecondary}">
+            Add to Calendar
+          </mj-button>
+          <mj-text font-size="16px" padding-top="25px">
+            Have questions? Reply to this email or <a href="{contactUrl}" style="color: {brandPrimary};">contact our team</a>.
+          </mj-text>
+          <mj-text font-size="16px" padding-bottom="0" padding-top="15px">
+            We look forward to seeing you there!
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- 2-column images -->
+      <mj-section background-color="#ffffff" padding="0 25px 20px">
+        <mj-column width="50%">
+          <mj-image align="center" src="https://placehold.co/260x180/{brandBG}/{brandText}?text=Event+Photo+1" alt="Event photo 1" border-radius="4px" />
+        </mj-column>
+        <mj-column width="50%">
+          <mj-image align="center" src="https://placehold.co/260x180/{brandBG}/{brandText}?text=Event+Photo+2" alt="Event photo 2" border-radius="4px" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#ffffff" padding="0 25px">
+        <mj-column width="100%">
+          <mj-divider border-color="#e0e0e0" border-width="1px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Location details -->
+      <mj-section background-color="#ffffff" padding="20px 25px 10px">
+        <mj-column width="100%">
+          <mj-text color="{brandPrimary}" font-weight="bold" font-size="20px" padding-bottom="5px">
+            Event Details
+          </mj-text>
+          <mj-text font-size="16px">
+            Everything you need to know before you arrive.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#ffffff" padding="10px 25px 25px">
+        <mj-column width="50%">
+          <mj-text font-size="12px" text-transform="uppercase" font-weight="bold" padding-bottom="5px" color="{brandPrimary}">
+            Location
+          </mj-text>
+          <mj-text font-size="14px" padding-top="0" line-height="1.5">
+            {eventVenue}<br />
+            {eventAddress}<br />
+            {eventCityStateZip}
+          </mj-text>
+        </mj-column>
+        <mj-column width="50%">
+          <mj-text font-size="12px" text-transform="uppercase" font-weight="bold" padding-bottom="5px" color="{brandPrimary}">
+            Schedule
+          </mj-text>
+          <mj-text font-size="14px" padding-top="0" line-height="1.5">
+            {eventDate}<br />
+            Doors: {doorsTime}<br />
+            Program: {programTime}
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Map image -->
+      <mj-section background-color="#ffffff" padding="0 25px 25px">
+        <mj-column width="100%">
+          <mj-image src="https://placehold.co/550x250/{brandBG}/{brandText}?text=Map+Location" alt="Event location map" border-radius="4px" href="{mapUrl}" />
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <!-- Social + Footer -->
+    <mj-wrapper full-width="full-width">
+      <mj-section padding-top="25px">
+        <mj-column width="100%" padding="0">
+          <mj-social font-size="12px" icon-size="28px" mode="horizontal" padding="0" align="center">
+            <mj-social-element name="facebook" href="{socialFacebook}" background-color="#a0a0a0" />
+            <mj-social-element name="twitter" href="{socialTwitter}" background-color="#a0a0a0" />
+            <mj-social-element name="instagram" href="{socialInstagram}" background-color="#a0a0a0" />
+            <mj-social-element name="linkedin" href="{socialLinkedIn}" background-color="#a0a0a0" />
+          </mj-social>
+          <mj-text color="#666666" font-size="11px" font-weight="600" align="center" padding-top="15px">
+            <a href="{webVersionUrl}" style="color: #666666;">View in browser</a>
+          </mj-text>
+          <mj-text color="#888888" font-size="11px" align="center" line-height="16px" padding-top="10px">
+            You're receiving this email because you signed up for {brandName} events. {companyAddress}
+          </mj-text>
+          <mj-text color="#888888" font-size="11px" align="center" line-height="16px">
+            © {currentYear} {brandName}. All Rights Reserved.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding-top="5px" padding-bottom="25px">
+        <mj-column width="100%" padding-right="0">
+          <mj-text color="#666666" font-size="11px" align="center" line-height="16px" font-weight="600">
+            <a href="{privacyUrl}" style="color: #666666;">Privacy</a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;<a href="{unsubscribeUrl}" style="color: #666666;">Unsubscribe</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
