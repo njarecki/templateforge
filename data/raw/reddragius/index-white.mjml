@@ -1,0 +1,33 @@
+<mjml>
+	<!-- header-->
+	<mj-head>
+		<mj-title>
+			...
+		</mj-title>
+		<mj-preview>
+			...
+		</mj-preview>
+		<mj-include path="./mjml-shared/header-grey.mjml" />
+	</mj-head>
+	<!--// header-->
+
+	<mj-body mj-class="bg-grey">
+		<mj-section mj-class="pd10"></mj-section>
+		<mj-include path="./mjml-shared/navbar-grey.mjml" />
+		<!--// navbar-->
+
+		<!-- content-->
+		<mj-section>
+			<mj-column>
+				<mj-text>
+					...
+				</mj-text>
+			</mj-column>
+		</mj-section>
+		<!-- // content-->
+
+		<mj-include path="./mjml-shared/footer-grey.mjml" />
+		<!-- // footer-->
+
+	</mj-body>
+</mjml>

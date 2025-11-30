@@ -1,0 +1,174 @@
+<mjml>
+	<!-- header-->
+	<mj-head>
+		<mj-title>
+			Your server with ID: %vserver.recid% is ready
+		</mj-title>
+		<mj-preview>
+			Nextcloud is installed on server with ID: %vserver.recid%.
+		</mj-preview>
+		<mj-include path="./mjml-shared/header-grey.mjml" />
+	</mj-head>
+	<!--// header-->
+
+	<mj-body mj-class="bg-grey">
+		<mj-section mj-class="pd10"></mj-section>
+		<mj-include path="./mjml-shared/navbar-grey.mjml" />
+		<!--// navbar-->
+
+		<!-- content-->
+		<mj-include path="./mjml-shared/section-title-server-ready.mjml" />
+		<mj-section mj-class="pt0 pd10-10-10 bg-white br-light-bottom-lr">
+			<mj-column mj-class="w25">
+				<mj-image src="./img/nextcloud.png" width="70px"></mj-image>
+			</mj-column>
+			<mj-column mj-class="w75">
+				<mj-text padding-top="25px" mj-class="pd15-10-15 fn14-left color-grey-lt lh16">
+					Nextcloud is installed on server with ID: %vserver.recid%. You can change the current server configuration in the UI.
+				</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<mj-section mj-class="pd10"></mj-section>
+
+		<mj-include path="./mjml-shared/section-title-login.mjml" />
+		<mj-section mj-class="pd10 bg-white">
+			<mj-column>
+				<mj-text mj-class="pb0 fn14-center color-black">
+					User name: <span style="font-weight:bold;">admin</span>
+				</mj-text>
+				<mj-text mj-class="pb0 fn14-center color-black">
+					Password: <span style="font-weight:bold;">%password_nextcloud%</span>
+				</mj-text>
+				<mj-text mj-class="fn14-center color-black">
+					Web interface: <span style="font-weight:bold;"><a href="http://%hostname%" class="link-underline">http://%hostname%</a></span>
+				</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<mj-section mj-class="pd10"></mj-section>
+
+		<mj-section mj-class="pd5 bg-blue">
+			<mj-column>
+				<mj-text mj-class="caption16-white lh20">
+					Configure your own domain:
+				</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<mj-section mj-class="pd0 bg-white">
+			<mj-column>
+				<mj-text mj-class="pd-list fn14-left color-black lh20">
+					<ol>
+						<li>
+							At your DNS administrator, set the domain to the record:
+							<span style="font-weight:bold;">@ 3600 IN A %ipv4%</span>.
+						</li>
+						<li>
+							Confirm this option after signing in.
+						</li>
+					</ol>
+				</mj-text>
+			</mj-column>
+		</mj-section>
+		<!-- tipy a FAQ -->
+
+		<mj-section mj-class="pd10"></mj-section>
+
+		<mj-section mj-class="pt10 bg-white br-light-top-lr">
+			<mj-column>
+				<mj-text mj-class="caption20 lh24">
+					Official Nextcloud apps
+				</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<mj-section mj-class="pt0 pb10 bg-white br-light-lr">
+			<mj-column vertical-align="bottom">
+				<mj-image width="97px" padding="15px 0px" align="center" src="./img/desktop.png" alt="Desktop">
+				</mj-image>
+				<mj-text padding="0px 25px" mj-class="caption15-blue lh19">
+					Desktop
+				</mj-text>
+				<mj-text padding="10px 25px" mj-class="fn13-center color-grey-lt">
+					Connect to your Nextcloud with clients for Windows, macOS and Linux.
+				</mj-text>
+				<mj-button mj-class="bt-blue" href="https://nextcloud.com/install/#install-clients">
+					Download
+				</mj-button>
+			</mj-column>
+			<mj-column vertical-align="bottom">
+				<mj-image width="39px" padding="15px 0px" align="center" src="./img/mobile.png" alt="Mobile">
+				</mj-image>
+				<mj-text padding="0px 25px" mj-class="caption15-blue lh19">
+					Mobile
+				</mj-text>
+				<mj-text padding="10px 25px" mj-class="fn13-center color-grey-lt">
+					Use your Nextcloud on the go with Android and iOS apps.
+				</mj-text>
+				<mj-button mj-class="bt-blue" href="https://nextcloud.com/install/#install-clients">
+					Download
+				</mj-button>
+			</mj-column>
+		</mj-section>
+
+		<mj-section mj-class="pt0 pb0 bg-white br-light-lr">
+			<mj-column>
+				<mj-divider border-width="1px" border-color="#e5e5e5"></mj-divider>
+			</mj-column>
+		</mj-section>
+
+		<mj-section mj-class="pt10 pb10 bg-white br-light-lr">
+			<mj-column>
+				<mj-text mj-class="pb0 caption20 lh24">
+					Manage your server directly and without restrictions
+				</mj-text>
+				<mj-text mj-class="caption15-blue lh19">
+					from the Web console
+				</mj-text>
+				<mj-image width="540px" src="./img/console.png" alt="Web Console in UI"></mj-image>
+				<mj-text mj-class="fn14-center color-grey-lt lh16">
+					You need only your web browser and your root login.
+				</mj-text>
+				<mj-text mj-class="caption15-blue lh19">
+					from third-party VNC clients
+				</mj-text>
+				<mj-image width="540px" src="./img/vnc.png" alt="VNC konfigurace v UI"></mj-image>
+				<mj-text mj-class="fn14-center color-grey-lt lh16">
+					Configure your favorite VNC client according to the VNC configuration in the UI.
+				</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<mj-section mj-class="pt0 pb0 bg-white br-light-lr">
+			<mj-column>
+				<mj-divider border-width="1px" border-color="#e5e5e5"></mj-divider>
+			</mj-column>
+		</mj-section>
+
+		<mj-section mj-class="pt0 pd10-10-10 bg-white br-light-bottom-lr">
+			<mj-column>
+				<mj-text mj-class="pt10 pd15-0-15 caption20 lh24">
+					Documentation
+				</mj-text>
+				<mj-text mj-class="pd-list fn14-left color-grey-lt lh20">
+					<ul>
+						<li>
+							Nextcloud: <a href="https://docs.nextcloud.com" class="link-underline">https://docs.nextcloud.com</a>
+						</li>
+						<li>
+							CentOS operating system: <a href="https://centos.org/docs" class="link-underline">https://centos.org/docs</a>
+						</li>
+					</ul>
+				</mj-text>
+			</mj-column>
+		</mj-section>
+		<!-- // tipy a FAQ -->
+		<!-- // content-->
+
+		<!-- footer-->
+		<mj-include path="./mjml-shared/footer-grey.mjml" />
+		<!-- // footer-->
+
+	</mj-body>
+</mjml>

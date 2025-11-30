@@ -1,0 +1,72 @@
+<mjml>
+	<!-- header-->
+	<mj-head>
+		<mj-title>
+			The server with ID: %vserver.recid% is expired
+		</mj-title>
+		<mj-preview>
+			Your server with ID: %vserver.recid% (%vserver.custom_name%) is currently being blocked due to insufficient funds on your account with UID: %subject.recid%.
+		</mj-preview>
+		<mj-include path="./mjml-shared/header-grey.mjml" />
+	</mj-head>
+	<!--// header-->
+
+	<mj-body mj-class="bg-grey">
+		<mj-section mj-class="pd10"></mj-section>
+		<mj-include path="./mjml-shared/navbar-grey.mjml" />
+		<!--// navbar-->
+
+		<!-- content-->
+		<mj-section mj-class="pt10 pd10-0-10 bg-white br-light-top-lr">
+			<mj-column>
+				<mj-text mj-class="caption20 lh24">
+					The server is expired
+				</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<mj-section mj-class="pt0 pd10-10-10 bg-white br-light-bottom-lr">
+			<mj-column mj-class="w25">
+				<mj-image src="./img/service-expired.png" width="70px"></mj-image>
+			</mj-column>
+			<mj-column mj-class="w75">
+				<mj-text padding-top="15px" mj-class="pd15-10-15 fn14-left color-grey-lt lh16">
+					Your server with ID: %vserver.recid% (%vserver.custom_name%) is <span style="font-weight:bold;">currently being blocked</span> due to insufficient funds on your account with UID: %subject.recid%.
+				</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<!-- tipy a FAQ -->
+		<mj-include path="./mjml-shared/section-title-faq.mjml" />
+
+		<mj-section mj-class="pd10 bg-white br-light">
+			<mj-column>
+				<mj-text mj-class="pt10 pd15-0-15 fn15-left bold color-black">
+					Can the VPS be restored to its original state before expiration?
+				</mj-text>
+				<mj-text mj-class="pd10-15 fn13-left color-grey-lt">
+					VPS will resume as soon as your credit balance is sufficient. But your credit must be increased within a maximum of 7 days.
+				</mj-text>
+				<mj-text mj-class="pt10 pd15-0-15 fn15-left bold color-black">
+					When will the VPS be deleted after expiration?
+				</mj-text>
+				<mj-text mj-class="pd10-15 fn13-left color-grey-lt">
+					Server is deleted 7 days after expiration. If you are still interested in Server, make the payment as soon as possible, bank transfers can take some time.
+				</mj-text>
+				<mj-text mj-class="pt10 pd15-0-15 fn15-left bold color-black">
+					Can I restore deleted Server from backups?
+				</mj-text>
+				<mj-text mj-class="pd10-15 fn13-left color-grey-lt">
+					Deleted VPS can no longer be recovered from backups. Except when you have created a custom image in advance for VPS. In this case, at least a new VPS can be created from the image.
+				</mj-text>
+			</mj-column>
+		</mj-section>
+		<!-- // tipy a FAQ -->
+		<!-- // content-->
+
+		<!-- footer-->
+		<mj-include path="./mjml-shared/footer-grey.mjml" />
+		<!-- // footer-->
+
+	</mj-body>
+</mjml>

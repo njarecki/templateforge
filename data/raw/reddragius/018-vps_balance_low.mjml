@@ -1,0 +1,93 @@
+<mjml>
+	<!-- header-->
+	<mj-head>
+		<mj-title>
+		  Low credit balance on your account with UID: %subject.recid%
+		</mj-title>
+		<mj-preview>
+		  Your current credit balance is low € %vserver_accounting.balance%.
+		</mj-preview>
+		<mj-include path="./mjml-shared/header-grey.mjml" />
+	</mj-head>
+	<!--// header-->
+
+	<mj-body mj-class="bg-grey">
+    <mj-section mj-class="pd10"></mj-section>
+		<mj-include path="./mjml-shared/navbar-grey.mjml" />
+		<!--// navbar-->
+
+		<!-- content-->
+		<mj-section mj-class="pt10 pd10-0-10 bg-white br-light-top-lr">
+			<mj-column>
+				<mj-text mj-class="caption20 lh24">
+					Low credit balance
+				</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<mj-section mj-class="pd10 bg-white br-light-lr">
+			<mj-column mj-class="w25">
+				<mj-image src="./img/credit-low.png" width="70px"></mj-image>
+			</mj-column>
+			<mj-column mj-class="w75">
+				<mj-text padding-top="25px" mj-class="pd15-10-15 fn14-left color-grey-lt lh16">
+					Credit under UID: %subject.recid% is insufficient to operate the services ordered. You can raise your credit in the user interface.
+				</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<mj-section mj-class="pt0 bg-white br-light-lr">
+			<mj-column mj-class="w50">
+				<mj-text mj-class="fn14-center">
+					Current credit balance:
+				</mj-text>
+				<mj-text mj-class="fn16-center bold">
+					€ %accounting.balance%
+				</mj-text>
+			</mj-column>
+			<mj-column mj-class="w50">
+				<mj-text mj-class="fn14-center">
+					Your account will be depleted on:
+				</mj-text>
+				<mj-text mj-class="fn16-center bold">
+					%accounting.depletion_date%
+				</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<mj-section mj-class="pt0 pb10 bg-white br-light-bottom-lr">
+			<mj-column>
+				<mj-button mj-class="pt0 bt-green" href="#">
+					Go to credit increase
+				</mj-button>
+			</mj-column>
+		</mj-section>
+
+		<!-- tipy a FAQ -->
+		<mj-include path="./mjml-shared/section-title-faq.mjml" />
+
+		<mj-section mj-class="pd10 bg-white br-light">
+			<mj-column>
+				<mj-text mj-class="pt10 pd15-0-15 fn15-left bold color-black">
+					What if credit is not sufficient when the services expire?
+				</mj-text>
+				<mj-text mj-class="pd10-15 fn13-left color-grey-lt">
+					First, we will try to bill from the remaining credit. For expiring VPS services with a longer subscription time, they are changed to daily billing. If this is not possible, the services are paused for a week (can be restored) and then terminated (cannot be recovered).
+				</mj-text>
+				<mj-text mj-class="pt10 pd15-0-15 fn15-left bold color-black">
+					Why is the exhaustion date only anticipated?
+				</mj-text>
+				<mj-text mj-class="pd10-15 fn13-left color-grey-lt">
+					The date is estimated based on the current service settings (VPS, NAS, IP, licenses, backups) provided the same subscription length for the new period is kept.
+				</mj-text>
+			</mj-column>
+		</mj-section>
+		<!-- // tipy a FAQ -->
+		<!-- // content-->
+
+		<!-- footer-->
+		<mj-include path="./mjml-shared/footer-grey.mjml" />
+		<!-- // footer-->
+
+	</mj-body>
+</mjml>

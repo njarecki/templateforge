@@ -1,0 +1,61 @@
+<mjml>
+	<!-- header-->
+	<mj-head>
+		<mj-title>
+			Reminder of outstanding invoice No. %faktury.vs%
+		</mj-title>
+		<mj-preview>
+			Notification of outstanding invoice No. %faktury.vs% with due date %faktury.datum_splatnosti%.
+		</mj-preview>
+		<mj-include path="./mjml-shared/header-grey.mjml" />
+	</mj-head>
+	<!--// header-->
+
+	<mj-body mj-class="bg-grey">
+    <mj-section mj-class="pd10"></mj-section>
+		<mj-include path="./mjml-shared/navbar-grey.mjml" />
+		<!--// navbar-->
+
+		<!-- content-->
+		<mj-section mj-class="pt10 pd10-0-10 bg-white br-light-top-lr">
+			<mj-column>
+				<mj-text mj-class="caption20 lh24">
+					Reminder of outstanding invoice
+				</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<mj-section mj-class="pd10 bg-white br-light-bottom-lr">
+			<mj-column mj-class="w25">
+				<mj-image src="./img/invoice-dark.png" width="70px"></mj-image>
+			</mj-column>
+			<mj-column mj-class="w75">
+				<mj-text mj-class="pt10 pd15-0-15 fn14-left color-grey-lt lh16">
+					To this day, we do not register the payment for the operated services on the issued invoice No. %faktury.vs%.
+				</mj-text>
+				<mj-text mj-class="pd10-15 fn14-left color-grey-lt lh16">
+					Please check the payment of the above document on your part.
+				</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<mj-include path="./mjml-shared/section-title-payment-transfer.mjml" />
+
+		<mj-section mj-class="pd0 br-light">
+			<mj-include path="./mjml-shared/column-wire-transfer-rb.mjml" />
+			<mj-include path="./mjml-shared/column-wire-transfer-info-yellow.mjml" />
+		</mj-section>
+
+		<mj-include path="./mjml-shared/section-notice-vop.mjml" />
+
+		<!-- tipy a FAQ -->
+		<mj-include path="./mjml-shared/section-tip-archiv-dokladu.mjml" />
+		<!-- // tipy a FAQ -->
+		<!-- // content-->
+
+		<!-- footer-->
+		<mj-include path="./mjml-shared/footer-grey.mjml" />
+		<!-- // footer-->
+
+	</mj-body>
+</mjml>

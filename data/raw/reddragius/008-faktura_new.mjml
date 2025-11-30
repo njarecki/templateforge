@@ -1,0 +1,74 @@
+<mjml>
+	<!-- header-->
+	<mj-head>
+		<mj-title>
+			Issuing a tax document no.%faktury.cislo%
+		</mj-title>
+		<mj-preview>
+			Notice about invoice for payment No. %faktury.vs% for € %faktury.castka% with due date %faktury.datum_splatnosti%.
+		</mj-preview>
+		<mj-include path="./mjml-shared/header-grey.mjml" />
+	</mj-head>
+	<!--// header-->
+
+	<mj-body mj-class="bg-grey">
+    <mj-section mj-class="pd10"></mj-section>
+		<mj-include path="./mjml-shared/navbar-grey.mjml" />
+		<!--// navbar-->
+
+		<!-- content-->
+		<mj-section mj-class="pt10 pd10-0-10 bg-white br-light-top-lr">
+			<mj-column>
+				<mj-text mj-class="caption20 lh24">
+					Issuing a tax document
+				</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<mj-section mj-class="pd10 bg-white br-light-bottom-lr">
+			<mj-column mj-class="w25">
+				<mj-image src="./img/invoice-dark.png" width="70px"></mj-image>
+			</mj-column>
+			<mj-column mj-class="w75">
+				<mj-text padding-top="25px" mj-class="pd15-10-15 fn14-left color-grey-lt lh16">
+					We are sending you invoice No. %faktury.vs% for provided services.
+				</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<mj-include path="./mjml-shared/section-title-payment-transfer.mjml" />
+
+		<mj-section mj-class="pd0 br-light">
+			<mj-include path="./mjml-shared/column-wire-transfer-rb.mjml" />
+			<mj-column padding="37px 0px" background-color="#d8eafb" mj-class="w50">
+				<mj-text mj-class="fn13-left color-black lh16">
+					To identify your payment, you must use:
+				</mj-text>
+				<mj-text mj-class="fn13-left color-black lh16">
+					1. Correct bank account number of recipient (supplier).
+				</mj-text>
+				<mj-text mj-class="fn13-left color-black lh16">
+					2. Correct variable symbol.
+				</mj-text>
+				<mj-text mj-class="fn13-left color-black lh16">
+					3. Correct total amount to pay.
+				</mj-text>
+				<mj-text mj-class="fn13-left color-black lh16">
+					Please keep in mind the due date.
+				</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<mj-include path="./mjml-shared/section-notice-vop.mjml" />
+
+		<!-- tipy a FAQ -->
+		<mj-include path="./mjml-shared/section-tip-archiv-dokladu.mjml" />
+		<!-- // tipy a FAQ -->
+		<!-- // content-->
+
+		<!-- footer-->
+		<mj-include path="./mjml-shared/footer-grey.mjml" />
+		<!-- // footer-->
+
+	</mj-body>
+</mjml>
