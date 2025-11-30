@@ -1,0 +1,118 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}, Arial, sans-serif" />
+      <mj-text color="{brandText}" line-height="1.6" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" border-radius="6px" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#ffffff" width="640px">
+    <!-- Minimal Header -->
+    <mj-section padding="30px 20px">
+      <mj-column>
+        <mj-text font-size="24px" font-weight="bold" color="{brandPrimary}">
+          📮 The Brief
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Date Line -->
+    <mj-section padding="0 20px">
+      <mj-column>
+        <mj-divider border-color="{brandPrimary}" border-width="2px" />
+        <mj-text font-size="12px" color="#888888" padding-top="10px">
+          November 30, 2024 • 5 min read
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Main Content -->
+    <mj-section padding="25px 20px">
+      <mj-column>
+        <mj-text font-size="22px" font-weight="bold">
+          This Week's Top Story
+        </mj-text>
+        <mj-image src="https://placehold.co/600x280/png?text=Top+Story" alt="Top Story Image" padding-top="20px" border-radius="8px" />
+        <mj-text font-size="15px" padding-top="20px">
+          The tech industry saw major shifts this week as three leading companies announced unprecedented partnerships. Here's what it means for the future of digital innovation.
+        </mj-text>
+        <mj-button href="#" align="left" padding-top="15px" font-size="13px">
+          Read Full Story
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Quick Hits Section -->
+    <mj-section padding="20px" background-color="{brandSecondary}">
+      <mj-column>
+        <mj-text font-size="16px" font-weight="bold">⚡ Quick Hits</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="15px 20px" background-color="{brandSecondary}">
+      <mj-column>
+        <mj-text font-size="14px">
+          <strong>→</strong> Market update: Tech stocks rise 3.2% on positive earnings<br/><br/>
+          <strong>→</strong> New study reveals remote work productivity stats<br/><br/>
+          <strong>→</strong> Climate tech funding reaches record $5B in Q3<br/><br/>
+          <strong>→</strong> AI regulation bill passes first committee vote
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Two Column Articles -->
+    <mj-section padding="30px 20px">
+      <mj-column width="48%">
+        <mj-text font-size="11px" color="{brandAccent}" font-weight="bold">ANALYSIS</mj-text>
+        <mj-text font-size="16px" font-weight="bold" padding-top="5px">
+          What the Fed Decision Means for You
+        </mj-text>
+        <mj-text font-size="13px" color="#666666" padding-top="8px">
+          Breaking down the latest interest rate changes and their real-world impact.
+        </mj-text>
+        <mj-text padding-top="10px">
+          <a href="#" style="color:{brandPrimary};font-size:13px">Read →</a>
+        </mj-text>
+      </mj-column>
+      <mj-column width="4%">
+        <mj-spacer height="1px" />
+      </mj-column>
+      <mj-column width="48%">
+        <mj-text font-size="11px" color="{brandAccent}" font-weight="bold">OPINION</mj-text>
+        <mj-text font-size="16px" font-weight="bold" padding-top="5px">
+          Why 2025 Is the Year of AI Agents
+        </mj-text>
+        <mj-text font-size="13px" color="#666666" padding-top="8px">
+          Our editor's take on the next big shift in artificial intelligence.
+        </mj-text>
+        <mj-text padding-top="10px">
+          <a href="#" style="color:{brandPrimary};font-size:13px">Read →</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Sponsor Block -->
+    <mj-section padding="20px" background-color="#f5f5f5" border-radius="8px">
+      <mj-column>
+        <mj-text font-size="10px" color="#888888" text-transform="uppercase">Sponsored</mj-text>
+        <mj-text font-size="14px" padding-top="8px">
+          <strong>Try ProjectHub free for 30 days</strong> — The all-in-one project management tool trusted by 50K+ teams. <a href="#" style="color:{brandPrimary}">Start free trial →</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section padding="30px 20px">
+      <mj-column>
+        <mj-text align="center" font-size="13px">
+          💌 Forward this to a friend who'd enjoy it
+        </mj-text>
+        <mj-divider border-color="#e0e0e0" border-width="1px" padding="20px 0" />
+        <mj-text align="center" font-size="11px" color="#888888">
+          © 2024 The Brief Newsletter<br/>
+          <a href="#" style="color:#888888">Unsubscribe</a> | <a href="#" style="color:#888888">Preferences</a> | <a href="#" style="color:#888888">View online</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

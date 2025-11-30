@@ -1,0 +1,99 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}, Arial, sans-serif" />
+      <mj-text color="{brandText}" line-height="1.5" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" border-radius="30px" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="{brandBG}" width="640px">
+    <!-- Header with Nav -->
+    <mj-section padding="20px">
+      <mj-column width="30%">
+        <mj-image src="https://placehold.co/120x40/png?text=STORE" alt="Store Logo" width="100px" />
+      </mj-column>
+      <mj-column width="70%">
+        <mj-text align="right" font-size="13px">
+          <a href="#" style="color:{brandText};text-decoration:none">New In</a> &nbsp;&nbsp;
+          <a href="#" style="color:{brandText};text-decoration:none">Categories</a> &nbsp;&nbsp;
+          <a href="#" style="color:{brandText};text-decoration:none">Sale</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Hero Banner -->
+    <mj-section padding="0">
+      <mj-column>
+        <mj-image src="https://placehold.co/640x320/png?text=Seasonal+Collection" alt="Seasonal Collection Banner" fluid-on-mobile="true" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Intro Text -->
+    <mj-section padding="35px 30px">
+      <mj-column>
+        <mj-text align="center" font-size="26px" font-weight="bold" color="{brandPrimary}">
+          Curated Just For You
+        </mj-text>
+        <mj-text align="center" font-size="15px" padding-top="12px" color="#666666">
+          Based on your recent browsing, we think you'll love these picks.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Product Grid 3-col -->
+    <mj-section padding="0 15px">
+      <mj-column width="33%">
+        <mj-image src="https://placehold.co/190x240/png?text=Pick+1" alt="Recommended Product 1" />
+        <mj-text align="center" font-size="13px" font-weight="bold" padding-top="12px">Cozy Sweater</mj-text>
+        <mj-text align="center" font-size="14px" color="{brandAccent}">$79</mj-text>
+      </mj-column>
+      <mj-column width="33%">
+        <mj-image src="https://placehold.co/190x240/png?text=Pick+2" alt="Recommended Product 2" />
+        <mj-text align="center" font-size="13px" font-weight="bold" padding-top="12px">Ankle Boots</mj-text>
+        <mj-text align="center" font-size="14px" color="{brandAccent}">$129</mj-text>
+      </mj-column>
+      <mj-column width="33%">
+        <mj-image src="https://placehold.co/190x240/png?text=Pick+3" alt="Recommended Product 3" />
+        <mj-text align="center" font-size="13px" font-weight="bold" padding-top="12px">Wool Scarf</mj-text>
+        <mj-text align="center" font-size="14px" color="{brandAccent}">$45</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- CTA -->
+    <mj-section padding="30px 20px">
+      <mj-column>
+        <mj-button href="#" align="center" font-size="14px" padding="14px 35px">
+          Shop All Recommendations
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Testimonial -->
+    <mj-section background-color="{brandSecondary}" padding="30px 35px">
+      <mj-column>
+        <mj-text align="center" font-size="16px" font-style="italic">
+          "Absolutely love my purchases! The quality is amazing and shipping was super fast."
+        </mj-text>
+        <mj-text align="center" font-size="13px" color="#888888" padding-top="12px">
+          — Sarah M., Verified Buyer ★★★★★
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Social + Footer -->
+    <mj-section padding="30px 20px">
+      <mj-column>
+        <mj-social font-size="12px" icon-size="28px" mode="horizontal" align="center">
+          <mj-social-element name="facebook" href="#" />
+          <mj-social-element name="instagram" href="#" />
+          <mj-social-element name="pinterest" href="#" />
+        </mj-social>
+        <mj-text align="center" font-size="11px" color="#888888" padding-top="20px">
+          © 2024 Store Name. All rights reserved.<br/>
+          123 Retail Lane, Shopping City<br/><br/>
+          <a href="#" style="color:#888888">Unsubscribe</a> | <a href="#" style="color:#888888">Privacy Policy</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
