@@ -20,6 +20,40 @@ Target Sources (prioritized)
 7) Klaviyo/Shopify public examples (welcome/promo/newsletter)
 8) GitHub packs: queries such as “email mjml templates”, “responsive html email templates free”, “open-source mjml templates”.
 
+Seed URLs (Quick Start)
+- MJML official raw repo (MIT):
+  - Listing: https://github.com/mjmlio/email-templates/tree/master/templates
+  - Raw files: https://raw.githubusercontent.com/mjmlio/email-templates/master/templates/<name>.mjml
+  - Examples: arturia.mjml, austin.mjml, black-friday.mjml, christmas.mjml, welcome-email.mjml
+- Foundation for Emails examples (Inky → HTML examples):
+  - Listing: https://github.com/foundation/foundation-emails/tree/develop/templates
+  - Raw files: https://raw.githubusercontent.com/foundation/foundation-emails/develop/templates/<name>.html
+  - Examples: newsletter.html, marketing.html, sidebar.html, sidebar-hero.html, order.html
+- Stripo free gallery:
+  - Listing: https://stripo.email/templates/?price=free (paginate and collect detail pages)
+  - Each template page exposes HTML export; record URL + license note as per site terms.
+- Beefree free templates:
+  - Listing: https://beefree.io/templates/ (filter to Free)
+  - Collect detail pages; many allow public HTML preview/export.
+- Litmus community/public examples:
+  - Listing: https://litmus.com/community (filter for “Resources”, “Templates”)
+- Mailchimp examples:
+  - Guides/samples: https://mailchimp.com/resources/ and https://mailchimp.com/help/
+  - Public sample templates pages often embed full HTML.
+- Klaviyo/Shopify public examples:
+  - Klaviyo: curated examples via blog/resources (search: site:klaviyo.com "email template")
+  - Shopify: search queries like “site:shopify.com email template example welcome promo newsletter”.
+- Popular GitHub packs (pull raw files):
+  - https://github.com/leemunroe/responsive-html-email-template
+  - https://github.com/TedGoas/Cerberus
+  - https://github.com/mailgun/transactional-email-templates
+  - https://github.com/mjmlio/mjml (examples under packages/mjml-*/)
+  - https://github.com/InterNations/antwort (responsive patterns)
+  - For each repo, use raw URLs: https://raw.githubusercontent.com/<owner>/<repo>/<branch>/<path>
+
+Discovery Queries (expand when needed)
+- "email mjml template pack", "responsive html email templates free", "open-source mjml templates", "newsletter html template github", "transactional email templates html".
+
 Quality Bar (Sourcing Stage)
 - Prefer battle‑tested, responsive, section‑based layouts with modern patterns.
 - Skip low-quality/spammy templates; focus on vendor galleries and reputable packs.
