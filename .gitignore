@@ -49,3 +49,10 @@ Thumbs.db
 *_batch.json
 test_*.json
 output_*.json
+
+# Cloned repos (temporary working directories for compilation)
+data/raw/*_clone/
+data/raw/node_modules/
+data/raw/package.json
+data/raw/package-lock.json
+data/raw/compile_*.js

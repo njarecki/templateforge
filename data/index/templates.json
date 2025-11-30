@@ -22991,6 +22991,262 @@
         "has_media_queries": true,
         "table_count": 25
       }
+    },
+    {
+      "id": "20c91c9abed684e0b76913b281f38c49",
+      "source_id": "react_email_codeskills",
+      "source_name": "CodeSkills React-Email Templates (compiled)",
+      "url": "https://github.com/codeskills-dev/responsive-react-email",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/react_email_codeskills/mixed-layout.html",
+      "byte_size": 13117,
+      "content_hash": "0ee0b3370e9132f9f21a6d791a3bf49ffb20c5323296218d8c776760f11ba18c",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 15
+      }
+    },
+    {
+      "id": "a034c6748819b677629f4f37a944b6a3",
+      "source_id": "react_email_codeskills",
+      "source_name": "CodeSkills React-Email Templates (compiled)",
+      "url": "https://github.com/codeskills-dev/responsive-react-email",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/react_email_codeskills/single-layout.html",
+      "byte_size": 11069,
+      "content_hash": "bb10119c5f5ed8557d2684cd45d3d49a9a9db59dec579c771db4dcd4b21bcf24",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 17
+      }
+    },
+    {
+      "id": "d890da50ca399411d716f3b618f7426e",
+      "source_id": "bootstrap_email",
+      "source_name": "Bootstrap Email Test Templates",
+      "url": "https://github.com/bootstrap-email/bootstrap-email",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/bootstrap_email/integration.html",
+      "byte_size": 26493,
+      "content_hash": "abb1bfce18825b47db169bb37488de5b108a757d684221d02080631bb7e53319",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 27
+      }
+    },
+    {
+      "id": "2eaae7258c4ceb89b2036b82813edb72",
+      "source_id": "bootstrap_email",
+      "source_name": "Bootstrap Email Test Templates",
+      "url": "https://github.com/bootstrap-email/bootstrap-email",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/bootstrap_email/lyft.html",
+      "byte_size": 29998,
+      "content_hash": "290f97a8729e12e317ad88d33cdf258eb5a18544a6a66169c3adb422dc7c152f",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 24
+      }
+    },
+    {
+      "id": "f89ac9ce7b337e890107b950331abfb5",
+      "source_id": "bootstrap_email",
+      "source_name": "Bootstrap Email Test Templates",
+      "url": "https://github.com/bootstrap-email/bootstrap-email",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/bootstrap_email/product-hunt.html",
+      "byte_size": 25137,
+      "content_hash": "90be0d5dfd27df8c5f2203cf48d22bf35889b6b0bfc9179eca1f26b2799831a0",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 25
+      }
+    },
+    {
+      "id": "fbda5f261894ee204894e9213670fd86",
+      "source_id": "mailjet_transactional",
+      "source_name": "Mailjet MJML Transactional Templates",
+      "url": "https://github.com/mailjet/MJML_translation_for_transactional",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mailjet_transactional/brand1_reg_confirmation_en.html",
+      "byte_size": 10151,
+      "content_hash": "4ff065234d5b0293e54ad9978455711960f7a8ccff73c308f0bdbdf3d20a6e93",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 17
+      }
+    },
+    {
+      "id": "3d8c4d8e1e30b388b0cb377d7c9c91a3",
+      "source_id": "mailjet_transactional",
+      "source_name": "Mailjet MJML Transactional Templates",
+      "url": "https://github.com/mailjet/MJML_translation_for_transactional",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mailjet_transactional/brand1_reg_confirmation.html",
+      "byte_size": 10163,
+      "content_hash": "d5871ed97867266a0c3519a0fb77734daa18037535ba1423d69149367891213e",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 17
+      }
+    },
+    {
+      "id": "05c6317f9701e8e096ae0dadd99f279c",
+      "source_id": "email_system_mjml",
+      "source_name": "Hoffmander Email System MJML",
+      "url": "https://github.com/hoffmander/email-system-mjml",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/email_system_mjml/index.html",
+      "byte_size": 58969,
+      "content_hash": "5207c15086f48ac68abc87722dceb888a76166891f15e30c9d3ff3285a00afa6",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 158
+      }
+    },
+    {
+      "id": "1d92b239f11d4665e84b5b3ac0bfa6a1",
+      "source_id": "email_system_mjml",
+      "source_name": "Hoffmander Email System MJML",
+      "url": "https://github.com/hoffmander/email-system-mjml",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/email_system_mjml/aj-two-column.html",
+      "byte_size": 72738,
+      "content_hash": "8a3bca25473ea1ee00148e45b29bb22b3c465c3edd1e7f4b94df1ee51f1bf40c",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 136
+      }
+    },
+    {
+      "id": "bec7101856529cd750a4dc01ee93ccad",
+      "source_id": "email_system_mjml",
+      "source_name": "Hoffmander Email System MJML",
+      "url": "https://github.com/hoffmander/email-system-mjml",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "data/raw/email_system_mjml/aj-two-column.mjml",
+      "byte_size": 24351,
+      "content_hash": "71297b4065b61408c4555634f40c4c0b1c4769208035bb3b27321a46520b71de",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "2407d12d679ffc76443c4490a72efa57",
+      "source_id": "mjml_boilerplate",
+      "source_name": "Mikezotov MJML Boilerplate",
+      "url": "https://github.com/mikezotovdev/mjml-boilerplate",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mjml_boilerplate/EmailConfirmation.html",
+      "byte_size": 16994,
+      "content_hash": "c47db29bd530b06c52e490fed1a252bedded473552f2c341060bed061ca3a5a4",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 39
+      }
+    },
+    {
+      "id": "b0332db4d30f18a66d27cffae708b2ba",
+      "source_id": "mjml_boilerplate",
+      "source_name": "Mikezotov MJML Boilerplate",
+      "url": "https://github.com/mikezotovdev/mjml-boilerplate",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mjml_boilerplate/PasswordChanged.html",
+      "byte_size": 15675,
+      "content_hash": "bbb8f93c939beda1957d2aceb3036ebd9ac0d337df3d89aa1aef6c9a1b83749d",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 38
+      }
+    },
+    {
+      "id": "ed2df78fce55579f7180e5c516713e98",
+      "source_id": "mjml_boilerplate",
+      "source_name": "Mikezotov MJML Boilerplate",
+      "url": "https://github.com/mikezotovdev/mjml-boilerplate",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mjml_boilerplate/PasswordReset.html",
+      "byte_size": 16402,
+      "content_hash": "25fac4c9642f954c78aefcf1b89ca26cebbfa52c9ab7e44826229836378772e2",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 38
+      }
+    },
+    {
+      "id": "1bff0d232588bbc8ddee379c98994bb4",
+      "source_id": "mjml_boilerplate",
+      "source_name": "Mikezotov MJML Boilerplate",
+      "url": "https://github.com/mikezotovdev/mjml-boilerplate",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mjml_boilerplate/SignUpWelcome.html",
+      "byte_size": 16647,
+      "content_hash": "569362e123636c172f7eaedf765184913e5391ad3c6af9fdc6f1654a0b900a0b",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 38
+      }
+    },
+    {
+      "id": "c5b74fea08634c02452140a88ad1d37f",
+      "source_id": "premail",
+      "source_name": "Premail MJML Templates",
+      "url": "https://github.com/premail/premail",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/premail/example_email.html",
+      "byte_size": 88206,
+      "content_hash": "dd47ae5737e3d432c3db4475d3b86ec8e195067eff69bc46391a139e32717127",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 128
+      }
+    },
+    {
+      "id": "a8d2247de5e1ecf22b31b0025c90aabe",
+      "source_id": "maizzle_rss",
+      "source_name": "Maizzle RSS Starter",
+      "url": "https://github.com/maizzle/starter-rss",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_rss/laracasts.html",
+      "byte_size": 34573,
+      "content_hash": "d837265d1e03a76860955325dde9243191c791dd193697803e03faa39ae8e895",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 4
+      }
     }
   ]
 }
