@@ -161,6 +161,24 @@ TEMPLATE_TYPES = {
         "sections": ["header_nav", "hero", "stats_metrics", "story_block", "team_members", "cta_band", "social_icons", "footer_complex"],
         "description": "Year-in-review or annual report style email"
     },
+    "product_review_request": {
+        "name": "Product Review Request",
+        "category": "Ecommerce",
+        "sections": ["header_nav", "1col_text", "rating_stars", "cta_band", "testimonial", "footer_simple"],
+        "description": "Post-purchase review request with star rating display"
+    },
+    "collection_showcase": {
+        "name": "Collection Showcase",
+        "category": "Ecommerce",
+        "sections": ["header_nav", "hero", "gallery_carousel", "1col_text", "cta_band", "social_icons", "footer_simple"],
+        "description": "Product collection showcase with gallery carousel"
+    },
+    "survey_invitation": {
+        "name": "Survey Invitation",
+        "category": "SaaS",
+        "sections": ["header_nav", "1col_text", "multi_step_form", "1col_text", "footer_simple"],
+        "description": "Survey or feedback form invitation email"
+    },
 }
 
 
