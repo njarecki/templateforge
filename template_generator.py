@@ -113,6 +113,18 @@ TEMPLATE_TYPES = {
         "sections": ["header_nav", "1col_text", "product_grid", "cta_band", "testimonial", "footer_simple"],
         "description": "Post-purchase review solicitation"
     },
+    "product_launch": {
+        "name": "Product Launch",
+        "category": "Promo",
+        "sections": ["header_nav", "hero", "countdown_timer", "3col_features", "cta_band", "footer_simple"],
+        "description": "Product launch announcement with countdown timer"
+    },
+    "video_tutorial": {
+        "name": "Video Tutorial",
+        "category": "SaaS",
+        "sections": ["header_nav", "1col_text", "video_placeholder", "accordion_faq", "cta_band", "footer_simple"],
+        "description": "Tutorial or demo video with FAQ section"
+    },
 }
 
 
