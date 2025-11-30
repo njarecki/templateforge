@@ -10847,6 +10847,3462 @@
         "has_media_queries": true,
         "table_count": 10
       }
+    },
+    {
+      "id": "2b63716c99d7cc3ab38b67ae9ff84b13",
+      "source_id": "ckissi",
+      "source_name": "ckissi/responsive-html-email-templates",
+      "url": "https://github.com/ckissi/responsive-html-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/ckissi/cancelled-subscription.html",
+      "byte_size": 14383,
+      "content_hash": "9cb9abd54e602b783c788150354218c3505ec24de92e893472cfffe9ccc3ac56",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 14
+      }
+    },
+    {
+      "id": "f4ee25345ed4e18ac0fe378a3c4f4af4",
+      "source_id": "ckissi",
+      "source_name": "ckissi/responsive-html-email-templates",
+      "url": "https://github.com/ckissi/responsive-html-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/ckissi/confirm-email.html",
+      "byte_size": 15880,
+      "content_hash": "3e8b5ab6bcaed6d8556c6f463a2030decd94748f63334065827f20b66d2b4819",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 14
+      }
+    },
+    {
+      "id": "737c06a0402527071aa7363b53d76fc9",
+      "source_id": "ckissi",
+      "source_name": "ckissi/responsive-html-email-templates",
+      "url": "https://github.com/ckissi/responsive-html-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/ckissi/invoice.html",
+      "byte_size": 18464,
+      "content_hash": "c810ae5d16f8c396366ec279cfecf52146ccf529060595992def300d9f380239",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 15
+      }
+    },
+    {
+      "id": "627838c6db2abf7919ec4e7177859eaa",
+      "source_id": "ckissi",
+      "source_name": "ckissi/responsive-html-email-templates",
+      "url": "https://github.com/ckissi/responsive-html-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/ckissi/reset-password.html",
+      "byte_size": 14000,
+      "content_hash": "fa970db79efac11985d1e26b26ebd5ec6aba38087912efa07e1a1498aa9bd10f",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 15
+      }
+    },
+    {
+      "id": "556eea188225df2c102a1ad0d9d715cb",
+      "source_id": "ckissi",
+      "source_name": "ckissi/responsive-html-email-templates",
+      "url": "https://github.com/ckissi/responsive-html-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/ckissi/trial-expired.html",
+      "byte_size": 16154,
+      "content_hash": "eab23f46e3919904796c7135c0d94a133b5cb524be9959e1ed477a7687518fed",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 15
+      }
+    },
+    {
+      "id": "2486732183ac594bcd73606794cdf914",
+      "source_id": "ckissi",
+      "source_name": "ckissi/responsive-html-email-templates",
+      "url": "https://github.com/ckissi/responsive-html-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/ckissi/welcome.html",
+      "byte_size": 13146,
+      "content_hash": "f66d3d644637d32a0bb53ced0046654c2a64a3f29b5b4a3c0c500d6a8ae73f6d",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 14
+      }
+    },
+    {
+      "id": "802f35b98883cecea59b2f429e7d392b",
+      "source_id": "email_framework",
+      "source_name": "g13nn/Email-Framework",
+      "url": "https://github.com/g13nn/Email-Framework",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/email_framework/background-image-text-overlay.html",
+      "byte_size": 2364,
+      "content_hash": "f15c93df317d8556ac0a0bb3bd901d36738886014899e9ea9852fc82ffd078ba",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": false,
+        "table_count": 4
+      }
+    },
+    {
+      "id": "0b4f57330fb141972594f1c25f62cc1a",
+      "source_id": "email_framework",
+      "source_name": "g13nn/Email-Framework",
+      "url": "https://github.com/g13nn/Email-Framework",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/email_framework/boilerplate.html",
+      "byte_size": 4859,
+      "content_hash": "faae1c0b54679ce53e250e48e7f9078af7f47a065874bbd64c1a185ca29e4b7c",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "a098ffb7fa82c1bd03d684d28a41e404",
+      "source_id": "email_framework",
+      "source_name": "g13nn/Email-Framework",
+      "url": "https://github.com/g13nn/Email-Framework",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/email_framework/fluid-grid-master.html",
+      "byte_size": 9232,
+      "content_hash": "b8e51166e30f145b1a334acb80af36a403e310ef869dbab6bfca0380c2c0f1dd",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 11
+      }
+    },
+    {
+      "id": "5311f13209e7f6ab5c8c0b084e5d511b",
+      "source_id": "email_framework",
+      "source_name": "g13nn/Email-Framework",
+      "url": "https://github.com/g13nn/Email-Framework",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/email_framework/hybrid-grid-master.html",
+      "byte_size": 10721,
+      "content_hash": "e2dba4f136e3305516411ff2aca030ac14187083376c6f72849a02359614f589",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 14
+      }
+    },
+    {
+      "id": "75e108278de77e19a61296c022ab5385",
+      "source_id": "email_framework",
+      "source_name": "g13nn/Email-Framework",
+      "url": "https://github.com/g13nn/Email-Framework",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/email_framework/image-hero-with-mobile-block.html",
+      "byte_size": 977,
+      "content_hash": "0e5167132e9fcffd45ab98955a6002ea2d65c24651291f4e8eb17c8aff9e1dbe",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 3
+      }
+    },
+    {
+      "id": "e586ed001816324d2b1153d1b8c57663",
+      "source_id": "email_framework",
+      "source_name": "g13nn/Email-Framework",
+      "url": "https://github.com/g13nn/Email-Framework",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/email_framework/responsive-grid-master.html",
+      "byte_size": 10116,
+      "content_hash": "3e5eb56f469af73a7cde52dc693a8d18de5d873aa43d9c7305c6775d688929d4",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 11
+      }
+    },
+    {
+      "id": "1b6ebdb909f5b4c96dfc964fd97ceb1a",
+      "source_id": "email_framework",
+      "source_name": "g13nn/Email-Framework",
+      "url": "https://github.com/g13nn/Email-Framework",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/email_framework/single-image-hero.html",
+      "byte_size": 509,
+      "content_hash": "d527a6d26624b26da402b12a9eca77755d3bc668f19af4f2cef1dfbb59a6b3a6",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "da144a828d266ca488fdeb06b6501360",
+      "source_id": "mailersend",
+      "source_name": "mailersend/transactional-email-templates",
+      "url": "https://github.com/mailersend/transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mailersend/feedback-2.html",
+      "byte_size": 15716,
+      "content_hash": "2eeba1c8c18170fb841fd5ddc9a7b17644f7cb33110ea13baae779bb75b2488b",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 25
+      }
+    },
+    {
+      "id": "0e7307a95e900b728a54066fafc1ba38",
+      "source_id": "mailersend",
+      "source_name": "mailersend/transactional-email-templates",
+      "url": "https://github.com/mailersend/transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mailersend/feedback.html",
+      "byte_size": 16184,
+      "content_hash": "ba3de3852bb6a6256e6e9d5e112d85cab5ef7a0821884a7ba146770d83b9784d",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 26
+      }
+    },
+    {
+      "id": "94efe6261c9e6738a8b8e29d499979d4",
+      "source_id": "mailersend",
+      "source_name": "mailersend/transactional-email-templates",
+      "url": "https://github.com/mailersend/transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mailersend/invoice-2.html",
+      "byte_size": 25112,
+      "content_hash": "a387c2ef36e1806aa7539a6ae075c78ddfececbffd40aa7c6fe9bd7451576f48",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 37
+      }
+    },
+    {
+      "id": "27dcf9128943aafcafaffec23b891a5b",
+      "source_id": "mailersend",
+      "source_name": "mailersend/transactional-email-templates",
+      "url": "https://github.com/mailersend/transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mailersend/invoice.html",
+      "byte_size": 27328,
+      "content_hash": "372f9fce81c71da70cd0a93d3abb0345b1c07f7b81cca10602ff4fefc99b5fc7",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 40
+      }
+    },
+    {
+      "id": "0fbf58219851ee0c9340fcd0abbe3710",
+      "source_id": "mailersend",
+      "source_name": "mailersend/transactional-email-templates",
+      "url": "https://github.com/mailersend/transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mailersend/order-confirmation-2.html",
+      "byte_size": 28297,
+      "content_hash": "473422060739673f74fabb4a85bbf26aa550d4f3690b0a9ded280eb12385cc84",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 43
+      }
+    },
+    {
+      "id": "deb2cf5a239be168b392bd356f5489e4",
+      "source_id": "mailersend",
+      "source_name": "mailersend/transactional-email-templates",
+      "url": "https://github.com/mailersend/transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mailersend/order-confirmation.html",
+      "byte_size": 28746,
+      "content_hash": "99da601c001689c251e20cb5fdd93cc132e6c26f04a03d4c7b109574df54907e",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 44
+      }
+    },
+    {
+      "id": "1f7c60b6a924f1c130e28f415cf9c62f",
+      "source_id": "mailersend",
+      "source_name": "mailersend/transactional-email-templates",
+      "url": "https://github.com/mailersend/transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mailersend/password-reminder-2.html",
+      "byte_size": 17199,
+      "content_hash": "033f7b78595a914361e9ef15b78379910d0e6f5087647e1d7f26c75ce36126f5",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 26
+      }
+    },
+    {
+      "id": "3190b99643c8306ef2d9c90cf857849e",
+      "source_id": "mailersend",
+      "source_name": "mailersend/transactional-email-templates",
+      "url": "https://github.com/mailersend/transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mailersend/password-reminder-3.html",
+      "byte_size": 17252,
+      "content_hash": "d4d95843818420121ec91d5ad345ae9fefdbbcf371a58dba5980c563a6c1a3c2",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 27
+      }
+    },
+    {
+      "id": "1dc8b3b313ff58eccd8acb4a345d637b",
+      "source_id": "mailersend",
+      "source_name": "mailersend/transactional-email-templates",
+      "url": "https://github.com/mailersend/transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mailersend/password-reminder.html",
+      "byte_size": 16869,
+      "content_hash": "49fde0e3713985619895ee1b0d32e15bb96a60929fe0ba31ba5529cf95cd5b68",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 26
+      }
+    },
+    {
+      "id": "543a7bc96b4625eca3617cbb95ed1661",
+      "source_id": "mailersend",
+      "source_name": "mailersend/transactional-email-templates",
+      "url": "https://github.com/mailersend/transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mailersend/product-announcement-2.html",
+      "byte_size": 24200,
+      "content_hash": "5e934af31067ed40105b330de9b7d7a6cd5699675764f74905eec1dd1bd992e1",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 37
+      }
+    },
+    {
+      "id": "1e26b3b823dfa702d19b660f93a99205",
+      "source_id": "mailersend",
+      "source_name": "mailersend/transactional-email-templates",
+      "url": "https://github.com/mailersend/transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mailersend/product-announcement-3.html",
+      "byte_size": 22521,
+      "content_hash": "ba1a7685905d940b0745522ea572623c776fd442dfccf7166827e9d9f43b72f1",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 35
+      }
+    },
+    {
+      "id": "7c70a6d413c55f8eee70f26b979cfa32",
+      "source_id": "mailersend",
+      "source_name": "mailersend/transactional-email-templates",
+      "url": "https://github.com/mailersend/transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mailersend/product-announcement.html",
+      "byte_size": 23903,
+      "content_hash": "14924b43792e18d624f5eba158075fdd1c33a7957f163a038a718d9da6427db8",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 36
+      }
+    },
+    {
+      "id": "f4a5963dbd0dba9250a18d622f2b7f37",
+      "source_id": "mailersend",
+      "source_name": "mailersend/transactional-email-templates",
+      "url": "https://github.com/mailersend/transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mailersend/welcome-email-01.html",
+      "byte_size": 25720,
+      "content_hash": "3e956e837b87aaee6fe1c3255437051e0c0ff38303f445bc602a5989e719f3e2",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 44
+      }
+    },
+    {
+      "id": "194a8725e66d83fdc99c9b1550904886",
+      "source_id": "mailersend",
+      "source_name": "mailersend/transactional-email-templates",
+      "url": "https://github.com/mailersend/transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mailersend/welcome-email-2.html",
+      "byte_size": 22113,
+      "content_hash": "b6dd3b4cbe10cc0f4ee3a877ad2c42ce6147777f0bf3b41584c873c315302706",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 34
+      }
+    },
+    {
+      "id": "6834cf582dc2efa42bcdfd0bbee5748c",
+      "source_id": "mailersend",
+      "source_name": "mailersend/transactional-email-templates",
+      "url": "https://github.com/mailersend/transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mailersend/welcome-email-3.html",
+      "byte_size": 19248,
+      "content_hash": "a89884524e29b21cb1ed2a7a7786d8d76e52a872c8109f77192a0c35da6144ae",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 31
+      }
+    },
+    {
+      "id": "133b0d9e54ac372c7c185eab96232209",
+      "source_id": "hng_boilerplate",
+      "source_name": "oyerohabib/hng-boilerplate-email-templates",
+      "url": "https://github.com/oyerohabib/hng-boilerplate-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/hng_boilerplate/account_deactivation.html",
+      "byte_size": 54867,
+      "content_hash": "092d657ce437e31e6a91bf5173cb5a21d5f68ec2a0b5326bb958793a2d08b085",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "2566ed06528289ba3801512dcbd0fae6",
+      "source_id": "hng_boilerplate",
+      "source_name": "oyerohabib/hng-boilerplate-email-templates",
+      "url": "https://github.com/oyerohabib/hng-boilerplate-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/hng_boilerplate/account_inactivity_deactivation.html",
+      "byte_size": 55402,
+      "content_hash": "94e10bfeb260eab030bb1ffc884cecd527e3e3d8d49664aa16fd0f5608b8269b",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "5a1b316c3b1b0ee6bfde30a518be0531",
+      "source_id": "hng_boilerplate",
+      "source_name": "oyerohabib/hng-boilerplate-email-templates",
+      "url": "https://github.com/oyerohabib/hng-boilerplate-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/hng_boilerplate/activate_account.html",
+      "byte_size": 20736,
+      "content_hash": "4afa84ca191659c7952f22cc167300573a461a9725446ab6d6c2d367ecd2e8ec",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "46eb73d0e5192ee2428d50c15be2f2d8",
+      "source_id": "hng_boilerplate",
+      "source_name": "oyerohabib/hng-boilerplate-email-templates",
+      "url": "https://github.com/oyerohabib/hng-boilerplate-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/hng_boilerplate/activation_link.html",
+      "byte_size": 28285,
+      "content_hash": "5dc73bd57c500f5b084a38bcf9fb60965ebc82f1de2185c8dae5938540d1f1ff",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "053047d155b51dbbe045700561d8b786",
+      "source_id": "hng_boilerplate",
+      "source_name": "oyerohabib/hng-boilerplate-email-templates",
+      "url": "https://github.com/oyerohabib/hng-boilerplate-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/hng_boilerplate/active_account.html",
+      "byte_size": 128332,
+      "content_hash": "9ab923ba64686615f17219a1b4b26744e55cafda66b89c5f4f8e431d57a49dbe",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "e4a2291fbc37452a77c82f0e8417632b",
+      "source_id": "hng_boilerplate",
+      "source_name": "oyerohabib/hng-boilerplate-email-templates",
+      "url": "https://github.com/oyerohabib/hng-boilerplate-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/hng_boilerplate/email_complete.html",
+      "byte_size": 19285,
+      "content_hash": "2810551dd47257ded8b20f3675f342410e1c576078c4b091d28ac42ddeaa5290",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "58d91f63c920d5b6115b8b4cffbdc8b9",
+      "source_id": "hng_boilerplate",
+      "source_name": "oyerohabib/hng-boilerplate-email-templates",
+      "url": "https://github.com/oyerohabib/hng-boilerplate-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/hng_boilerplate/email_verification.html",
+      "byte_size": 1233978,
+      "content_hash": "6f2e34dd3b5cb6db38fdf4b2fc9a89f459d07f2bbf6a98529ecb6eb81727684e",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "3e64497777513d070d39efd3b800979a",
+      "source_id": "hng_boilerplate",
+      "source_name": "oyerohabib/hng-boilerplate-email-templates",
+      "url": "https://github.com/oyerohabib/hng-boilerplate-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/hng_boilerplate/invoice.html",
+      "byte_size": 18902,
+      "content_hash": "60601b2d5bb81932ae19edefb00913f2d17939c2dc839e2c2218ab671e744e83",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "af0e70584caa9b42922d917744750548",
+      "source_id": "hng_boilerplate",
+      "source_name": "oyerohabib/hng-boilerplate-email-templates",
+      "url": "https://github.com/oyerohabib/hng-boilerplate-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/hng_boilerplate/new_activation_link.html",
+      "byte_size": 21127,
+      "content_hash": "cd91d1a0dd355f25974bddac87c3e44589d799b1553479582bf5b8f6595950dd",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "7fbaceb5422e833bf4a7ad9efa07e1fe",
+      "source_id": "hng_boilerplate",
+      "source_name": "oyerohabib/hng-boilerplate-email-templates",
+      "url": "https://github.com/oyerohabib/hng-boilerplate-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/hng_boilerplate/new_feature_announcement.html",
+      "byte_size": 27542,
+      "content_hash": "58c3785c2d1a504980010be5e023dd19ca3593e2b6f165ca0b484646b1891b48",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "149e43b20bd3d24255277886f2e10047",
+      "source_id": "hng_boilerplate",
+      "source_name": "oyerohabib/hng-boilerplate-email-templates",
+      "url": "https://github.com/oyerohabib/hng-boilerplate-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/hng_boilerplate/newsletter.html",
+      "byte_size": 209744,
+      "content_hash": "531258679e7b9928cce55b2cc3dd879f2a415ff45ca057e8217da4b11939527f",
+      "quick_features": {
+        "sections_detected": 5,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "9cfeff60ec91f480a4bdd53171e2e009",
+      "source_id": "hng_boilerplate",
+      "source_name": "oyerohabib/hng-boilerplate-email-templates",
+      "url": "https://github.com/oyerohabib/hng-boilerplate-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/hng_boilerplate/password_reset_complete.html",
+      "byte_size": 59733,
+      "content_hash": "c477db22c24e5cd7ed43dab76f3519a6c3c23e80657061f7aea551c6565d7419",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "c99857beab4d554a45698e4fff8208d2",
+      "source_id": "hng_boilerplate",
+      "source_name": "oyerohabib/hng-boilerplate-email-templates",
+      "url": "https://github.com/oyerohabib/hng-boilerplate-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/hng_boilerplate/payment_receipt.html",
+      "byte_size": 55344,
+      "content_hash": "0153cadf5511ffbc7db390cc21563a2ad3eac018690f125cab27f538877a0add",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "cf76b0fdad2121a2325a8ad3ebfde72d",
+      "source_id": "hng_boilerplate",
+      "source_name": "oyerohabib/hng-boilerplate-email-templates",
+      "url": "https://github.com/oyerohabib/hng-boilerplate-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/hng_boilerplate/reset_password.html",
+      "byte_size": 24859,
+      "content_hash": "e35c6ce719260e6e117a18a4a0c79face98b14b3eafa7c2ef1cc2c97d33bf6d9",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "f3a9d445d5bafeae2630e5038532454e",
+      "source_id": "hng_boilerplate",
+      "source_name": "oyerohabib/hng-boilerplate-email-templates",
+      "url": "https://github.com/oyerohabib/hng-boilerplate-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/hng_boilerplate/subscription_cancellation.html",
+      "byte_size": 28146,
+      "content_hash": "e2cf98c8117a882dc6ca00d720b18275cd07ff88089014f0ad91c25176556a27",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "1e3175b9102da8cba11263a3e2640fc3",
+      "source_id": "hng_boilerplate",
+      "source_name": "oyerohabib/hng-boilerplate-email-templates",
+      "url": "https://github.com/oyerohabib/hng-boilerplate-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/hng_boilerplate/subscription_confirmation.html",
+      "byte_size": 23076,
+      "content_hash": "7980ed63dd8c4b6977d3ef0d7e0f09a33728d21fbfb809f2f3bf57140f36487c",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "9b37d4b5fbffae4b9797d4dca48a7056",
+      "source_id": "hng_boilerplate",
+      "source_name": "oyerohabib/hng-boilerplate-email-templates",
+      "url": "https://github.com/oyerohabib/hng-boilerplate-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/hng_boilerplate/subscription_renewal_disabled.html",
+      "byte_size": 28921,
+      "content_hash": "282aa462f0b3603a07822d23b0bfce3ea3589956f340ccf18707fe3aa7e2f2b8",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "619e817aba8c5ff7729d11a8cc91fe2b",
+      "source_id": "hng_boilerplate",
+      "source_name": "oyerohabib/hng-boilerplate-email-templates",
+      "url": "https://github.com/oyerohabib/hng-boilerplate-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/hng_boilerplate/subscription_renewal_failed.html",
+      "byte_size": 29674,
+      "content_hash": "092754648c2b32f19aa1a7c4557424e5e489fd56ea89073e1118ca400ea73257",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "d571b94a31a8e508da837ee765612e87",
+      "source_id": "hng_boilerplate",
+      "source_name": "oyerohabib/hng-boilerplate-email-templates",
+      "url": "https://github.com/oyerohabib/hng-boilerplate-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/hng_boilerplate/subscription_renewal_reminder.html",
+      "byte_size": 129000,
+      "content_hash": "6d78bc6cd3e610257bdd5ec1ecb66ebbebae095424dff22afe0826b960e6a072",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "d76f4fc48ca307e9ad0241db977df993",
+      "source_id": "hng_boilerplate",
+      "source_name": "oyerohabib/hng-boilerplate-email-templates",
+      "url": "https://github.com/oyerohabib/hng-boilerplate-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/hng_boilerplate/welcome.html",
+      "byte_size": 305695,
+      "content_hash": "d7d01b0da1daa30a605477c6c7f476f9bbab68d968a1e83d66ae85e7ec1c6547",
+      "quick_features": {
+        "sections_detected": 6,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "9c79cc3a146f1f94018ab51622c51283",
+      "source_id": "davidamunga",
+      "source_name": "DavidAmunga/html-email-templates",
+      "url": "https://github.com/DavidAmunga/html-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/davidamunga/reset_password.html",
+      "byte_size": 4512,
+      "content_hash": "31de283913064c132833abc792e745a5db0f75ff13e2f76508c5e72772490fe4",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": false,
+        "table_count": 3
+      }
+    },
+    {
+      "id": "2419e3c35d02b2e5bac8aaeb63047237",
+      "source_id": "davidamunga",
+      "source_name": "DavidAmunga/html-email-templates",
+      "url": "https://github.com/DavidAmunga/html-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/davidamunga/welcome.html",
+      "byte_size": 4591,
+      "content_hash": "3b626a3f1f8c062910b92f0a3c14db7b4ec094d2a486eb6affd977bbf5b10ae0",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": false,
+        "table_count": 3
+      }
+    },
+    {
+      "id": "1fc7dc4f716ac56899979774cc62caef",
+      "source_id": "usewaypoint_transactional",
+      "source_name": "usewaypoint/responsive-transactional-email-templates",
+      "url": "https://github.com/usewaypoint/responsive-transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/usewaypoint_transactional/banking-payout.html",
+      "byte_size": 13634,
+      "content_hash": "d9bde2cdcbb2845bc9e46faec4e6338385f3a2e19ee0bcb557bd1196319a1d78",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "06e1fbb15abb60d5303ad7fe77d66085",
+      "source_id": "usewaypoint_transactional",
+      "source_name": "usewaypoint/responsive-transactional-email-templates",
+      "url": "https://github.com/usewaypoint/responsive-transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/usewaypoint_transactional/banking-refund-approved.html",
+      "byte_size": 12998,
+      "content_hash": "c9165c5b2d2ce3b2494c07960362d901afbc924ac273806ac110ccf2de9246d1",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "b0a66051c6d7e1f226493e06d6bdaa01",
+      "source_id": "usewaypoint_transactional",
+      "source_name": "usewaypoint/responsive-transactional-email-templates",
+      "url": "https://github.com/usewaypoint/responsive-transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/usewaypoint_transactional/banking-withdrawal.html",
+      "byte_size": 19075,
+      "content_hash": "5bd88e0cddcc6d1452fcec186ddbe87125a46e5c89b07add5e4b9eacb479174f",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "4c5e0c7b3b731ff6bb358c92007519ca",
+      "source_id": "usewaypoint_transactional",
+      "source_name": "usewaypoint/responsive-transactional-email-templates",
+      "url": "https://github.com/usewaypoint/responsive-transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/usewaypoint_transactional/ecommerce-delivery-notification.html",
+      "byte_size": 12636,
+      "content_hash": "297b0d9580b61f35e260307333660f8ad680cf763b36a448818314438d90866e",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "fe8591500c528dc0e9adcfcd4c4b2df6",
+      "source_id": "usewaypoint_transactional",
+      "source_name": "usewaypoint/responsive-transactional-email-templates",
+      "url": "https://github.com/usewaypoint/responsive-transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/usewaypoint_transactional/ecommerce-milestone-reward.html",
+      "byte_size": 17600,
+      "content_hash": "75217f513ccca31ac3acba2eae80ca41217d40051a6a922d6a456648b128b09b",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 3
+      }
+    },
+    {
+      "id": "45b3d73450dcf272125239415980dcc4",
+      "source_id": "usewaypoint_transactional",
+      "source_name": "usewaypoint/responsive-transactional-email-templates",
+      "url": "https://github.com/usewaypoint/responsive-transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/usewaypoint_transactional/ecommerce-new-order-receipt.html",
+      "byte_size": 167703,
+      "content_hash": "c63b04ab4cb71323873eea8f56c237f1849befe653a3da9b47e6761b4a840d74",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 19
+      }
+    },
+    {
+      "id": "4ebe300bda3bcf9fa1eb1723ffded203",
+      "source_id": "usewaypoint_transactional",
+      "source_name": "usewaypoint/responsive-transactional-email-templates",
+      "url": "https://github.com/usewaypoint/responsive-transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/usewaypoint_transactional/ecommerce-promo-code.html",
+      "byte_size": 10538,
+      "content_hash": "7a4f3c12f33f03de865d470fb8e62aa798e0af74766a6b75f4fdb9f3664fc583",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "82ddffde03e349771b20122c2a32d9ba",
+      "source_id": "usewaypoint_transactional",
+      "source_name": "usewaypoint/responsive-transactional-email-templates",
+      "url": "https://github.com/usewaypoint/responsive-transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/usewaypoint_transactional/ecommerce-reengagement.html",
+      "byte_size": 13357,
+      "content_hash": "7b04ff7d931b19cecb865db6c51aa6fbedec46a4cf07816133173dfd1e506ce8",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "6cc08882717fadddc6e3a0020e4f4e91",
+      "source_id": "usewaypoint_transactional",
+      "source_name": "usewaypoint/responsive-transactional-email-templates",
+      "url": "https://github.com/usewaypoint/responsive-transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/usewaypoint_transactional/ecommerce-welcome.html",
+      "byte_size": 20673,
+      "content_hash": "3c954ec9777529c70b84775db261c1e7b76b5881b4fff21745360838b7198c20",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "c6fe65728c353e7a049e7e221f848939",
+      "source_id": "usewaypoint_transactional",
+      "source_name": "usewaypoint/responsive-transactional-email-templates",
+      "url": "https://github.com/usewaypoint/responsive-transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/usewaypoint_transactional/marketplace-credit-expiring.html",
+      "byte_size": 11928,
+      "content_hash": "0dfd61b0c85ec876857910f7163a6f02230562a2a2ae9f30329be82cfb4883a3",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "9e1c520ab956ac19d6672b2170349771",
+      "source_id": "usewaypoint_transactional",
+      "source_name": "usewaypoint/responsive-transactional-email-templates",
+      "url": "https://github.com/usewaypoint/responsive-transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/usewaypoint_transactional/marketplace-first-listing-notification.html",
+      "byte_size": 21914,
+      "content_hash": "2a4ba53d8a7d51c70a819fe9623a8d239f6a013d6510e4b2c84de8ec0877910a",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "76139f6d3c9cc50b08b842af22e1264d",
+      "source_id": "usewaypoint_transactional",
+      "source_name": "usewaypoint/responsive-transactional-email-templates",
+      "url": "https://github.com/usewaypoint/responsive-transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/usewaypoint_transactional/marketplace-new-delivery.html",
+      "byte_size": 68498,
+      "content_hash": "9b0900322f4693e5260189d58b19510a6810c515e064ecf6dc6914e1f262e805",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 9
+      }
+    },
+    {
+      "id": "80d87848466d498aae4219ad1c883838",
+      "source_id": "usewaypoint_transactional",
+      "source_name": "usewaypoint/responsive-transactional-email-templates",
+      "url": "https://github.com/usewaypoint/responsive-transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/usewaypoint_transactional/marketplace-qr-tickets.html",
+      "byte_size": 15246,
+      "content_hash": "22ad1adcc0d5e8fd1f66372230f41bf585cdb8eb853aebc4649bdadc6bc97450",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "8bde75bfcd78c3aac20af523ab84bbe1",
+      "source_id": "usewaypoint_transactional",
+      "source_name": "usewaypoint/responsive-transactional-email-templates",
+      "url": "https://github.com/usewaypoint/responsive-transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/usewaypoint_transactional/marketplace-reservation-reminder.html",
+      "byte_size": 99432,
+      "content_hash": "08e150c34138b5dd6633ad3aace899c3682854af8d59042134479d86f3199e74",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 12
+      }
+    },
+    {
+      "id": "71375f8a8cea58a6a1c0adf69cb5e272",
+      "source_id": "usewaypoint_transactional",
+      "source_name": "usewaypoint/responsive-transactional-email-templates",
+      "url": "https://github.com/usewaypoint/responsive-transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/usewaypoint_transactional/marketplace-respond-to-inquiry.html",
+      "byte_size": 12636,
+      "content_hash": "297b0d9580b61f35e260307333660f8ad680cf763b36a448818314438d90866e",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "62ddaed96f0819bb6bcc61e64987e309",
+      "source_id": "usewaypoint_transactional",
+      "source_name": "usewaypoint/responsive-transactional-email-templates",
+      "url": "https://github.com/usewaypoint/responsive-transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/usewaypoint_transactional/marketplace-saved-search.html",
+      "byte_size": 34105,
+      "content_hash": "459f0b77fa6455068a7ed9f31508e0ed2891abc425377d43a8060484aab2dbdd",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 4
+      }
+    },
+    {
+      "id": "c569bced6e6e1edf518fcac75b03f08b",
+      "source_id": "usewaypoint_transactional",
+      "source_name": "usewaypoint/responsive-transactional-email-templates",
+      "url": "https://github.com/usewaypoint/responsive-transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/usewaypoint_transactional/saas-accept-invite.html",
+      "byte_size": 11952,
+      "content_hash": "b48c2c78dd1804709319dc6c4d265ccdbd45a75a1afcc33f54a8730b58d9a14e",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "15bc333864007a237e0ea1487c62f90d",
+      "source_id": "usewaypoint_transactional",
+      "source_name": "usewaypoint/responsive-transactional-email-templates",
+      "url": "https://github.com/usewaypoint/responsive-transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/usewaypoint_transactional/saas-app-store-links.html",
+      "byte_size": 13147,
+      "content_hash": "ce72485fa20317f3bd60c78dd21d73abcff6f86dc7ad29b04c7bafd777cd0623",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "dd269670baab39c0df489d320b4112d5",
+      "source_id": "usewaypoint_transactional",
+      "source_name": "usewaypoint/responsive-transactional-email-templates",
+      "url": "https://github.com/usewaypoint/responsive-transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/usewaypoint_transactional/saas-credit-usage-report.html",
+      "byte_size": 18531,
+      "content_hash": "04b821c7adfb5d997b571a6258100d11a06b0e0f92309ad85293df239a8b0b75",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 3
+      }
+    },
+    {
+      "id": "3978d067686176f3be3e933cea2a006f",
+      "source_id": "usewaypoint_transactional",
+      "source_name": "usewaypoint/responsive-transactional-email-templates",
+      "url": "https://github.com/usewaypoint/responsive-transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/usewaypoint_transactional/saas-download-ready.html",
+      "byte_size": 11016,
+      "content_hash": "837d0f00ca0fa67edfe197d150d2405325bc762ac8841e96a65083911172e354",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "135e93c43ceb7a3fe2e603ecf6925afc",
+      "source_id": "usewaypoint_transactional",
+      "source_name": "usewaypoint/responsive-transactional-email-templates",
+      "url": "https://github.com/usewaypoint/responsive-transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/usewaypoint_transactional/saas-first-time-watched.html",
+      "byte_size": 19314,
+      "content_hash": "8d9c4bac58861aab35303f0673270e1a297912c9880c604b714153394bda0685",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "3d705a9a0f3f81f07a4c68bf3f0dc154",
+      "source_id": "usewaypoint_transactional",
+      "source_name": "usewaypoint/responsive-transactional-email-templates",
+      "url": "https://github.com/usewaypoint/responsive-transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/usewaypoint_transactional/saas-milestone-next-steps.html",
+      "byte_size": 42240,
+      "content_hash": "b9abdda1e9ef77fa28e456cdb1e29b8800ea74883fc7a005625b6df2a1d4483b",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 5
+      }
+    },
+    {
+      "id": "ba6917c78fbb9165aa3b6f1c187a165b",
+      "source_id": "usewaypoint_transactional",
+      "source_name": "usewaypoint/responsive-transactional-email-templates",
+      "url": "https://github.com/usewaypoint/responsive-transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/usewaypoint_transactional/saas-one-time-passcode-otp.html",
+      "byte_size": 8991,
+      "content_hash": "b14f7c9896eb1296287bec2e4b8b70a048471b9ee48cea977294e1fb5ced2fb0",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "9478b19284a238a5c6a4b95dfc7ca54e",
+      "source_id": "usewaypoint_transactional",
+      "source_name": "usewaypoint/responsive-transactional-email-templates",
+      "url": "https://github.com/usewaypoint/responsive-transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/usewaypoint_transactional/saas-password-changed.html",
+      "byte_size": 10043,
+      "content_hash": "40143e9d5a5903e657f9c521bfcdbec883328a6919f7de145844d385194ced30",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "58fdb39bdbff786295c5297bc59a897c",
+      "source_id": "usewaypoint_transactional",
+      "source_name": "usewaypoint/responsive-transactional-email-templates",
+      "url": "https://github.com/usewaypoint/responsive-transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/usewaypoint_transactional/saas-payment-declined.html",
+      "byte_size": 15954,
+      "content_hash": "2f7b67285bb39b5b815cb98b3721eb0297ea7aaa8c54fa07687683a38889797e",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "e665edaed9cf5f84504b2776b25e041d",
+      "source_id": "usewaypoint_transactional",
+      "source_name": "usewaypoint/responsive-transactional-email-templates",
+      "url": "https://github.com/usewaypoint/responsive-transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/usewaypoint_transactional/saas-reset-password.html",
+      "byte_size": 10477,
+      "content_hash": "1c5a20f3219f4c91d1ba85f26087501995053979fb2a28db1408754f7296cb2f",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "ceaca348dbf5497006be9898e90ee70a",
+      "source_id": "usewaypoint_transactional",
+      "source_name": "usewaypoint/responsive-transactional-email-templates",
+      "url": "https://github.com/usewaypoint/responsive-transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/usewaypoint_transactional/saas-subscription-receipt.html",
+      "byte_size": 81601,
+      "content_hash": "72e5055f9b9e36735ccfbb8654f2a996ec6ce6a1b7c32d53dee7a7c8538172a3",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 11
+      }
+    },
+    {
+      "id": "54ebf64fc9d3e18943ca87e76036d696",
+      "source_id": "usewaypoint_transactional",
+      "source_name": "usewaypoint/responsive-transactional-email-templates",
+      "url": "https://github.com/usewaypoint/responsive-transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/usewaypoint_transactional/saas-trial-ends-soon.html",
+      "byte_size": 64130,
+      "content_hash": "92d5852cfef776785d863c3577ee49ad00cf685b19b61e87ddccc8f4a14a6749",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 4
+      }
+    },
+    {
+      "id": "b101f77860f1dbe6206eb5f4e9c0a441",
+      "source_id": "usewaypoint_transactional",
+      "source_name": "usewaypoint/responsive-transactional-email-templates",
+      "url": "https://github.com/usewaypoint/responsive-transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/usewaypoint_transactional/saas-weekly-metrics-report.html",
+      "byte_size": 99194,
+      "content_hash": "8977e4216abb471414df45a53cd48ad8fd9b52afa8f0d98e8956dedebebe46b8",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 16
+      }
+    },
+    {
+      "id": "f376f31456947d14fc9f3030d374f79c",
+      "source_id": "usewaypoint_transactional",
+      "source_name": "usewaypoint/responsive-transactional-email-templates",
+      "url": "https://github.com/usewaypoint/responsive-transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/usewaypoint_transactional/saas-welcome.html",
+      "byte_size": 12960,
+      "content_hash": "97385cf4bc49f0cdff82d14d4dff76ab1acf2db2286eeaef05a1983baa32fa71",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "e048de8549a6a6e4433a4a72180bd8d3",
+      "source_id": "usewaypoint_transactional",
+      "source_name": "usewaypoint/responsive-transactional-email-templates",
+      "url": "https://github.com/usewaypoint/responsive-transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/usewaypoint_transactional/social-new-comment.html",
+      "byte_size": 19760,
+      "content_hash": "6df9acf754ccaebce97c10509242b995032a00515a3469f186f333f5993b8b8b",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 3
+      }
+    },
+    {
+      "id": "805aa7fd1b7d42d3041e2089e7f06a84",
+      "source_id": "usewaypoint_transactional",
+      "source_name": "usewaypoint/responsive-transactional-email-templates",
+      "url": "https://github.com/usewaypoint/responsive-transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/usewaypoint_transactional/social-new-follower.html",
+      "byte_size": 12880,
+      "content_hash": "195f161232d74d8e0ec88717db48287edae44dc5ba3cd1057900a89162fda287",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "fad90feef384f2d6bdb038bc84c7f614",
+      "source_id": "usewaypoint_transactional",
+      "source_name": "usewaypoint/responsive-transactional-email-templates",
+      "url": "https://github.com/usewaypoint/responsive-transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/usewaypoint_transactional/social-post-metrics.html",
+      "byte_size": 21752,
+      "content_hash": "fb3d1b968b013ab88051aabc60413c7fa3ab0cdd78cf5d5700b67d91a5e578b6",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "863aaadf10526300299e8b4a42cba989",
+      "source_id": "usewaypoint_transactional",
+      "source_name": "usewaypoint/responsive-transactional-email-templates",
+      "url": "https://github.com/usewaypoint/responsive-transactional-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/usewaypoint_transactional/social-yearly-wrapped-report.html",
+      "byte_size": 26674,
+      "content_hash": "8779a722fe1280d0a36c2117e48e9a563e22aa1c77a02f2260f67a1d47102a39",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "7c3e9eac2b995b43ade169a71e7fbd90",
+      "source_id": "moiseshp",
+      "source_name": "moiseshp/email-templates-for-developers",
+      "url": "https://github.com/moiseshp/email-templates-for-developers",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/moiseshp/password_reset_Ac89.html",
+      "byte_size": 14760,
+      "content_hash": "19a60d09c47105a8aa26e52d6adf5e473473e6a8529712cbeea976d555b75cab",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 7
+      }
+    },
+    {
+      "id": "422f52df48e8d8a37593972058213f90",
+      "source_id": "moiseshp",
+      "source_name": "moiseshp/email-templates-for-developers",
+      "url": "https://github.com/moiseshp/email-templates-for-developers",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/moiseshp/password_reset_Al13.html",
+      "byte_size": 6616,
+      "content_hash": "cf612c0fbab45615625eedaba08dc72966ce90d92eddf4264489b32bdbd90b95",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": false,
+        "table_count": 7
+      }
+    },
+    {
+      "id": "6560a4fbee1ee6e9ca6ad55ce0f2d9ae",
+      "source_id": "moiseshp",
+      "source_name": "moiseshp/email-templates-for-developers",
+      "url": "https://github.com/moiseshp/email-templates-for-developers",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/moiseshp/password_reset_Am95.html",
+      "byte_size": 6539,
+      "content_hash": "a5f4260cc242666261a64f79e0e8a54c9d68e48c094f177d09f57d459ba283c6",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": false,
+        "table_count": 7
+      }
+    },
+    {
+      "id": "f53e95279d0416941de068d96ba4db1f",
+      "source_id": "moiseshp",
+      "source_name": "moiseshp/email-templates-for-developers",
+      "url": "https://github.com/moiseshp/email-templates-for-developers",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/moiseshp/password_reset_Ar18.html",
+      "byte_size": 7548,
+      "content_hash": "6458e0c6932a9c6fe268b86dec7bcc1fb2d81d94a15bee24436b86f49f62b91c",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 3
+      }
+    },
+    {
+      "id": "809a2ba97b275c0b7fbcccd3eacb1ab1",
+      "source_id": "moiseshp",
+      "source_name": "moiseshp/email-templates-for-developers",
+      "url": "https://github.com/moiseshp/email-templates-for-developers",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/moiseshp/password_reset_Sb51.html",
+      "byte_size": 12560,
+      "content_hash": "0b43cfb5db89d68925fa31683d0032865359313f60547ab02ab8a50a4664e5dc",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": false,
+        "table_count": 8
+      }
+    },
+    {
+      "id": "799da280999c83d6831f565adcd9ef9c",
+      "source_id": "moiseshp",
+      "source_name": "moiseshp/email-templates-for-developers",
+      "url": "https://github.com/moiseshp/email-templates-for-developers",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/moiseshp/verification_Ar18.html",
+      "byte_size": 7548,
+      "content_hash": "6458e0c6932a9c6fe268b86dec7bcc1fb2d81d94a15bee24436b86f49f62b91c",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 3
+      }
+    },
+    {
+      "id": "5c168c9e1dac0c8a9db9c2e92099ac61",
+      "source_id": "moiseshp",
+      "source_name": "moiseshp/email-templates-for-developers",
+      "url": "https://github.com/moiseshp/email-templates-for-developers",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/moiseshp/verification_As33.html",
+      "byte_size": 6704,
+      "content_hash": "976aaa483dc86d613408a85dee1bce2a38ed3a6e2d4d7c4b2d11c0a243b500db",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": false,
+        "table_count": 4
+      }
+    },
+    {
+      "id": "e9254b929b8e9a073731e570f766b93a",
+      "source_id": "moiseshp",
+      "source_name": "moiseshp/email-templates-for-developers",
+      "url": "https://github.com/moiseshp/email-templates-for-developers",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/moiseshp/verification_At85.html",
+      "byte_size": 14760,
+      "content_hash": "19a60d09c47105a8aa26e52d6adf5e473473e6a8529712cbeea976d555b75cab",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 7
+      }
+    },
+    {
+      "id": "25a916602a30478fbebbd4c1590ddcad",
+      "source_id": "moiseshp",
+      "source_name": "moiseshp/email-templates-for-developers",
+      "url": "https://github.com/moiseshp/email-templates-for-developers",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/moiseshp/verification_Ba56.html",
+      "byte_size": 14760,
+      "content_hash": "19a60d09c47105a8aa26e52d6adf5e473473e6a8529712cbeea976d555b75cab",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 7
+      }
+    },
+    {
+      "id": "2ce8db966e3754ce5ba84e69cdd9ddca",
+      "source_id": "mjml_compiled",
+      "source_name": "mjmlio/email-templates (compiled HTML)",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mjml_compiled/arturia.html",
+      "byte_size": 35561,
+      "content_hash": "04994bfbc584e6c51ebbd0e2e22b2a9060ee8acaf9203e8d700cc1f18afdc25a",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 57
+      }
+    },
+    {
+      "id": "319059a09685a2537ece84f47b3002cb",
+      "source_id": "mjml_compiled",
+      "source_name": "mjmlio/email-templates (compiled HTML)",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mjml_compiled/austin.html",
+      "byte_size": 51882,
+      "content_hash": "8721610698471b76075b33e02540c46361d27c0bff0a2df105bf08d604ea5cb7",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 71
+      }
+    },
+    {
+      "id": "b3a23c1d1b9908ea69628500764bf06a",
+      "source_id": "mjml_compiled",
+      "source_name": "mjmlio/email-templates (compiled HTML)",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mjml_compiled/black-friday.html",
+      "byte_size": 13315,
+      "content_hash": "352233e71aea005560eef278ed1932706e3ed5967fb710abe2579c02f3729032",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 19
+      }
+    },
+    {
+      "id": "ec4065b5cf2afd86488f55fb29b80b49",
+      "source_id": "mjml_compiled",
+      "source_name": "mjmlio/email-templates (compiled HTML)",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mjml_compiled/card.html",
+      "byte_size": 21631,
+      "content_hash": "ff19b21358fc90b90e117872629f6630d319b851d7599edf2bbe14ddfd7dda23",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 37
+      }
+    },
+    {
+      "id": "9fd05f5fc89a6553c95ebb24e417699f",
+      "source_id": "mjml_compiled",
+      "source_name": "mjmlio/email-templates (compiled HTML)",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mjml_compiled/christmas.html",
+      "byte_size": 32014,
+      "content_hash": "2f7a5c912ceba6a8edcb56dc5088b0688300ed7dfb2390493142e2112f08071b",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": true,
+        "table_count": 54
+      }
+    },
+    {
+      "id": "aa92aa58679c30ccb4512340f4082b20",
+      "source_id": "mjml_compiled",
+      "source_name": "mjmlio/email-templates (compiled HTML)",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mjml_compiled/happy-new-year.html",
+      "byte_size": 13535,
+      "content_hash": "e129727272b1a8b08765a38b8a755a1048d62106b462ba8259fc89f7ee850fd1",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 24
+      }
+    },
+    {
+      "id": "cf94f6608891e4454d987a2c02ee9ea2",
+      "source_id": "mjml_compiled",
+      "source_name": "mjmlio/email-templates (compiled HTML)",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mjml_compiled/proof.html",
+      "byte_size": 19198,
+      "content_hash": "2b8a553b31bdd7f94d920e1b812a8bf411c4b325bcd75f3ac756b1b2c9f0ef84",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 24
+      }
+    },
+    {
+      "id": "47de2463654db71cb7acfe4befc1cb3b",
+      "source_id": "mjml_compiled",
+      "source_name": "mjmlio/email-templates (compiled HTML)",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mjml_compiled/reactivation-email.html",
+      "byte_size": 20504,
+      "content_hash": "fdde15c19756c7c84b2ff67b591f7cb7737620b9c088726040aeb5957cb29dc5",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 31
+      }
+    },
+    {
+      "id": "b1aa674e4dd7a500c0c9440bece35cc9",
+      "source_id": "mjml_compiled",
+      "source_name": "mjmlio/email-templates (compiled HTML)",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mjml_compiled/real-estate.html",
+      "byte_size": 61556,
+      "content_hash": "bb03f386498ed847b701aea611831dcd690fa02bbb258115fb50c4c6c121d2fd",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 100
+      }
+    },
+    {
+      "id": "90fe9e521dcb4b3997c61ff68d6372bf",
+      "source_id": "mjml_compiled",
+      "source_name": "mjmlio/email-templates (compiled HTML)",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mjml_compiled/referral-email.html",
+      "byte_size": 9881,
+      "content_hash": "9b9bfe4a522da4bd90af4be5de5a57b70ca9d64d4940ecd75be43cfc33a2e607",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 12
+      }
+    },
+    {
+      "id": "efca699bc70a7e7cf50a2bbc2447a845",
+      "source_id": "mjml_compiled",
+      "source_name": "mjmlio/email-templates (compiled HTML)",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mjml_compiled/sphero-droids.html",
+      "byte_size": 33383,
+      "content_hash": "b76063002fd25d675fc8b8da233eb9377f31643dbdb11bd87c195f4b95c7fd36",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 41
+      }
+    },
+    {
+      "id": "271ac6aedcdc0f8021a8fb7275782714",
+      "source_id": "mjml_compiled",
+      "source_name": "mjmlio/email-templates (compiled HTML)",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mjml_compiled/sphero-mini.html",
+      "byte_size": 33603,
+      "content_hash": "d1e5ce66f35e5adbe8b2d963c4a071bd1c8cb6e7d57c3ef9e2b18ff8afa940e7",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 42
+      }
+    },
+    {
+      "id": "4da8c2c23b7460764de28392b85eb486",
+      "source_id": "mjml_compiled",
+      "source_name": "mjmlio/email-templates (compiled HTML)",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mjml_compiled/welcome-email.html",
+      "byte_size": 10465,
+      "content_hash": "9f92b1d256cf1355e3da71cd02cb732e7321bba286fcf56032443564fb4f7b2a",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 14
+      }
+    },
+    {
+      "id": "4ed3792e042e7008e2f98c6d68f3bb42",
+      "source_id": "mjml_complete_compiled",
+      "source_name": "mjmlio/email-templates (complete, compiled HTML)",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mjml_complete_compiled/amario.html",
+      "byte_size": 54056,
+      "content_hash": "9efe124cdc0fd055586f8b6566a8ad8fce96534bd5a4af62f436caad68416289",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 75
+      }
+    },
+    {
+      "id": "11e40c4d10cbc0f717490cf821f0c01d",
+      "source_id": "mjml_complete_compiled",
+      "source_name": "mjmlio/email-templates (complete, compiled HTML)",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mjml_complete_compiled/arturia.html",
+      "byte_size": 35576,
+      "content_hash": "1acbcc0c4a7ae6fd28ae29192cfda3c129a6cdb1508bdc6f726b59203cb0034a",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 57
+      }
+    },
+    {
+      "id": "db6ed9b0830532b163e50d0805174d57",
+      "source_id": "mjml_complete_compiled",
+      "source_name": "mjmlio/email-templates (complete, compiled HTML)",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mjml_complete_compiled/basic.html",
+      "byte_size": 21000,
+      "content_hash": "7a317b7f6e7af4dfc9047ff086e698730d922819b0f0844ca4c128077be7ac83",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 29
+      }
+    },
+    {
+      "id": "3a38c46da6528a09141b3cec0def3de7",
+      "source_id": "mjml_complete_compiled",
+      "source_name": "mjmlio/email-templates (complete, compiled HTML)",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mjml_complete_compiled/black-friday.html",
+      "byte_size": 13364,
+      "content_hash": "103057fd4ac9653478bc509328f2a8faaffa06a2b8acee23ee3b45dbbc3143a6",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 19
+      }
+    },
+    {
+      "id": "4b4f310b0da2d2703d8b20224796dcd4",
+      "source_id": "mjml_complete_compiled",
+      "source_name": "mjmlio/email-templates (complete, compiled HTML)",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mjml_complete_compiled/card.html",
+      "byte_size": 21480,
+      "content_hash": "59286c46ebaa9a20084b0cb81c104e25efb1666b97c57eb2c867f71b0c2b223a",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 37
+      }
+    },
+    {
+      "id": "4292e2bd0a309566f713fd694539f149",
+      "source_id": "mjml_complete_compiled",
+      "source_name": "mjmlio/email-templates (complete, compiled HTML)",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mjml_complete_compiled/christmas.html",
+      "byte_size": 31833,
+      "content_hash": "0b06d6a7aa4e9c278c8afd34fcbfedf17e9a777669650e336c689b7de3d2ddfb",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 54
+      }
+    },
+    {
+      "id": "a85b42199a9f63c0c6085791ae3fdf2c",
+      "source_id": "mjml_complete_compiled",
+      "source_name": "mjmlio/email-templates (complete, compiled HTML)",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mjml_complete_compiled/happy-new-year.html",
+      "byte_size": 13418,
+      "content_hash": "295d237a168520f4fe8b659574dfb89540e68f50f079a54ff1197e1550c31efc",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 24
+      }
+    },
+    {
+      "id": "283e9470a5150aa531e3afe2344c1477",
+      "source_id": "mjml_complete_compiled",
+      "source_name": "mjmlio/email-templates (complete, compiled HTML)",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mjml_complete_compiled/newsletter.html",
+      "byte_size": 23828,
+      "content_hash": "057ac3fe4533638b988d99e99b4ff48a1f5f9686530da35a0048aa7d64c22968",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 41
+      }
+    },
+    {
+      "id": "5a516b3b718579fd064a90298f9d061e",
+      "source_id": "mjml_complete_compiled",
+      "source_name": "mjmlio/email-templates (complete, compiled HTML)",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mjml_complete_compiled/onepage.html",
+      "byte_size": 33805,
+      "content_hash": "31cd6668a7c9acebdb13021b0022e47eaa58cb67ce01b2c369bce6b3178ae6ad",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 48
+      }
+    },
+    {
+      "id": "1bab11922fa6159724b4f24fd1c24189",
+      "source_id": "mjml_complete_compiled",
+      "source_name": "mjmlio/email-templates (complete, compiled HTML)",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mjml_complete_compiled/proof.html",
+      "byte_size": 19016,
+      "content_hash": "8634a2e3223c134f04e0e19cc5f029e9b889215670bde077131c5d59fd4d2bbb",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 24
+      }
+    },
+    {
+      "id": "627e0c875da89f8b58bd014d778837d7",
+      "source_id": "mjml_complete_compiled",
+      "source_name": "mjmlio/email-templates (complete, compiled HTML)",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mjml_complete_compiled/racoon.html",
+      "byte_size": 72900,
+      "content_hash": "30edb6ffb3bc62c4b43cbba6d402b8b21fcea4c574560c85c0b9d6c7c709920c",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 97
+      }
+    },
+    {
+      "id": "bf2185e5a0a5bd7923b8d6b365f9b5b8",
+      "source_id": "mjml_complete_compiled",
+      "source_name": "mjmlio/email-templates (complete, compiled HTML)",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mjml_complete_compiled/reactivation-email.html",
+      "byte_size": 20476,
+      "content_hash": "eadc1c6864231d97c94d1c1f31d9b06b971cfb79a6438d454a73e28e1c93733e",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 31
+      }
+    },
+    {
+      "id": "f9fbb91a14213644cd04cf45948a84a2",
+      "source_id": "mjml_complete_compiled",
+      "source_name": "mjmlio/email-templates (complete, compiled HTML)",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mjml_complete_compiled/real-estate.html",
+      "byte_size": 61077,
+      "content_hash": "42b5ad76f988751c6c7d693b361c7ec98ee07e35c715f6c0e660b73ed9e24a29",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 100
+      }
+    },
+    {
+      "id": "2d7ce8384a448e3c5da381ea11ee327d",
+      "source_id": "mjml_complete_compiled",
+      "source_name": "mjmlio/email-templates (complete, compiled HTML)",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mjml_complete_compiled/recast.html",
+      "byte_size": 52214,
+      "content_hash": "f39b1187b0bc13ee83899bea9f7f44d91671aa3a2af3081c280e55242baa1c49",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 87
+      }
+    },
+    {
+      "id": "f8e273dd2a804c31c6a2e75597abf284",
+      "source_id": "mjml_complete_compiled",
+      "source_name": "mjmlio/email-templates (complete, compiled HTML)",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mjml_complete_compiled/receipt-email.html",
+      "byte_size": 23726,
+      "content_hash": "3f583fa2cc0367b6b5568e67655792b3f1e5e53a970bc42e13ece463f7648a2a",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 37
+      }
+    },
+    {
+      "id": "511600161027d5b18c23939d9c6ab29d",
+      "source_id": "mjml_complete_compiled",
+      "source_name": "mjmlio/email-templates (complete, compiled HTML)",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mjml_complete_compiled/referral-email.html",
+      "byte_size": 9869,
+      "content_hash": "a407dc1f3ea7fc09166f35e28618309c7f8215d86a09ffe22110a80ee227aa19",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 12
+      }
+    },
+    {
+      "id": "d98f2b17db04d571905d73e64d457081",
+      "source_id": "mjml_complete_compiled",
+      "source_name": "mjmlio/email-templates (complete, compiled HTML)",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mjml_complete_compiled/sphero-droids.html",
+      "byte_size": 33806,
+      "content_hash": "e8f02b57101e193646a971c07195631e986dbf196959fd74f60c9a295c76b699",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 41
+      }
+    },
+    {
+      "id": "f9352b37c3f880dbc32d15ad26476dec",
+      "source_id": "mjml_complete_compiled",
+      "source_name": "mjmlio/email-templates (complete, compiled HTML)",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mjml_complete_compiled/sphero-mini.html",
+      "byte_size": 33736,
+      "content_hash": "da1055528e2df1a71199d6db4e1bf54e40e5c1eb07644d07023155cdb069b656",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 42
+      }
+    },
+    {
+      "id": "c3ec637f2d309fe4690ba1cf7afac4cd",
+      "source_id": "mjml_complete_compiled",
+      "source_name": "mjmlio/email-templates (complete, compiled HTML)",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mjml_complete_compiled/ticketshop.html",
+      "byte_size": 43138,
+      "content_hash": "dbe4adb1db8b486acc75a3eaa0d4d26164e26eb4ace4e799d2a459bd919fca5a",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 68
+      }
+    },
+    {
+      "id": "1048a377808b5b84c1757f966908e3a9",
+      "source_id": "mjml_complete_compiled",
+      "source_name": "mjmlio/email-templates (complete, compiled HTML)",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mjml_complete_compiled/ugg-royale.html",
+      "byte_size": 92048,
+      "content_hash": "8b2f670220daa0fe880b687bb417fbd7103bc5ffe39af87eb5715176efed24bb",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 121
+      }
+    },
+    {
+      "id": "0d5afbe7da786d568de647b60c8606f6",
+      "source_id": "mjml_complete_compiled",
+      "source_name": "mjmlio/email-templates (complete, compiled HTML)",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mjml_complete_compiled/welcome-email.html",
+      "byte_size": 10455,
+      "content_hash": "e93e7777dc0449377cfeb1ca5b662f28d3fd169c6a54083484bbf9a6cafea414",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 14
+      }
+    },
+    {
+      "id": "cf23028f72f20ac05f1423269740d82c",
+      "source_id": "mjml_complete_compiled",
+      "source_name": "mjmlio/email-templates (complete, compiled HTML)",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mjml_complete_compiled/worldly.html",
+      "byte_size": 53489,
+      "content_hash": "1c96c067f618c9393b208f520617d67d3761f5dd31e8b98a8a674a2a36913104",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 80
+      }
+    },
+    {
+      "id": "2228ee40bca0df89a5c6e4bfbb4e7e0e",
+      "source_id": "nedssoft_compiled",
+      "source_name": "nedssoft/responsive-html-email-templates (compiled HTML)",
+      "url": "https://github.com/nedssoft/responsive-html-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/nedssoft_compiled/invitation.html",
+      "byte_size": 19274,
+      "content_hash": "cc78e10f83d5615dff3bee070777553262527ba26ee2d40dcb6b2b2c8fd1f708",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 28
+      }
+    },
+    {
+      "id": "97db1242aa21b7142682d13acb462244",
+      "source_id": "nedssoft_compiled",
+      "source_name": "nedssoft/responsive-html-email-templates (compiled HTML)",
+      "url": "https://github.com/nedssoft/responsive-html-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/nedssoft_compiled/invitation-to-bid-quote.html",
+      "byte_size": 19167,
+      "content_hash": "6f9ea138d17f4e8ab9b89b91e6e49d40f973f19cceb868fd8ca5e51d05b94f1b",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 28
+      }
+    },
+    {
+      "id": "31618d8bbca6f1874abf4134ea91e962",
+      "source_id": "nedssoft_compiled",
+      "source_name": "nedssoft/responsive-html-email-templates (compiled HTML)",
+      "url": "https://github.com/nedssoft/responsive-html-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/nedssoft_compiled/invite-vendor.html",
+      "byte_size": 21052,
+      "content_hash": "1408f0a2fcde61bb77503455230588b48d45c3900d0c97cc99f4fb3b187168e0",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 29
+      }
+    },
+    {
+      "id": "1f878fb80599024a1d8a5c668d05e93e",
+      "source_id": "nedssoft_compiled",
+      "source_name": "nedssoft/responsive-html-email-templates (compiled HTML)",
+      "url": "https://github.com/nedssoft/responsive-html-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/nedssoft_compiled/join-company-request.html",
+      "byte_size": 20955,
+      "content_hash": "e667abdcc6a717c025aeaed1cd0bc20840c3c0b778983af3f52d9031edcb81b8",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 29
+      }
+    },
+    {
+      "id": "15aceb1f901e2fcec0616454872b3605",
+      "source_id": "nedssoft_compiled",
+      "source_name": "nedssoft/responsive-html-email-templates (compiled HTML)",
+      "url": "https://github.com/nedssoft/responsive-html-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/nedssoft_compiled/join-request-approved.html",
+      "byte_size": 20924,
+      "content_hash": "2b9b1c9110b5c37424f47bd0900760055fcb43d6135869c8cf4cb26769464a08",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 29
+      }
+    },
+    {
+      "id": "7e9d2eed854cdd978195db964e133ec7",
+      "source_id": "nedssoft_compiled",
+      "source_name": "nedssoft/responsive-html-email-templates (compiled HTML)",
+      "url": "https://github.com/nedssoft/responsive-html-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/nedssoft_compiled/payment-details.html",
+      "byte_size": 55901,
+      "content_hash": "1694b86c1cdeaac10fc502cab05206a26f7b689a80352336a9e16169e2506ef8",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 72
+      }
+    },
+    {
+      "id": "b0b5ea0da5baa6bd43028cbeaae98f1a",
+      "source_id": "nedssoft_compiled",
+      "source_name": "nedssoft/responsive-html-email-templates (compiled HTML)",
+      "url": "https://github.com/nedssoft/responsive-html-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/nedssoft_compiled/vendor.html",
+      "byte_size": 22453,
+      "content_hash": "66446e323c799f4679a32439a09fa4775eaf3c33501997e4acc0fcbcac528472",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 31
+      }
+    },
+    {
+      "id": "79c558902c1683bb82f76a7b05afc81c",
+      "source_id": "greeeg_compiled",
+      "source_name": "greeeg/mjml-templates (compiled HTML)",
+      "url": "https://github.com/greeeg/mjml-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/greeeg_compiled/dropbox-product-update.html",
+      "byte_size": 37072,
+      "content_hash": "0287adbdc4f188fa305afe7783b177e97661c1fa4e4e376f1c0e81568292cfe5",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 66
+      }
+    },
+    {
+      "id": "8dc6411507fc68779521db0b0ea5ff7e",
+      "source_id": "greeeg_compiled",
+      "source_name": "greeeg/mjml-templates (compiled HTML)",
+      "url": "https://github.com/greeeg/mjml-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/greeeg_compiled/miro-onboarding.html",
+      "byte_size": 41142,
+      "content_hash": "aa2903ae892bd88f3a361f14a7192f826a621725350caf3bd730e8e9321cc64f",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 76
+      }
+    },
+    {
+      "id": "1ed85677cba90771a64284082bfe919e",
+      "source_id": "greeeg_compiled",
+      "source_name": "greeeg/mjml-templates (compiled HTML)",
+      "url": "https://github.com/greeeg/mjml-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/greeeg_compiled/stripe-notification.html",
+      "byte_size": 36370,
+      "content_hash": "d772a73f3d3cd6ce773f2ba29d0f72204ceb4c8fee101b9d30141bb0ae615dd8",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 66
+      }
+    },
+    {
+      "id": "97561e3bc73ce1b160b20b53dd167f00",
+      "source_id": "easy_email_compiled",
+      "source_name": "Easy-Email-Pro/email-templates (compiled HTML)",
+      "url": "https://github.com/Easy-Email-Pro/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/easy_email_compiled/template10.html",
+      "byte_size": 51345,
+      "content_hash": "019d411e5a0dc0c0a6c8c508049e6cbdd986272f914bce09248e38d3f3a5be51",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 81
+      }
+    },
+    {
+      "id": "0283af9fe4e6504565b36f54ebec3842",
+      "source_id": "easy_email_compiled",
+      "source_name": "Easy-Email-Pro/email-templates (compiled HTML)",
+      "url": "https://github.com/Easy-Email-Pro/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/easy_email_compiled/template11.html",
+      "byte_size": 46872,
+      "content_hash": "3863735f06e0928cbf4cdc2272aacfc083c61744d46aa9cad7eff390f6a040b6",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 80
+      }
+    },
+    {
+      "id": "0d6b2ce69854e805107338b5cdd0525e",
+      "source_id": "easy_email_compiled",
+      "source_name": "Easy-Email-Pro/email-templates (compiled HTML)",
+      "url": "https://github.com/Easy-Email-Pro/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/easy_email_compiled/template12.html",
+      "byte_size": 34173,
+      "content_hash": "69ac71dc225e1067daddc4548b7245757399c28f02bfc3ee96d0d717123dba0e",
+      "quick_features": {
+        "sections_detected": 5,
+        "has_media_queries": true,
+        "table_count": 60
+      }
+    },
+    {
+      "id": "0a35a5e44377c778d95a8f8323c2179d",
+      "source_id": "easy_email_compiled",
+      "source_name": "Easy-Email-Pro/email-templates (compiled HTML)",
+      "url": "https://github.com/Easy-Email-Pro/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/easy_email_compiled/template13.html",
+      "byte_size": 27584,
+      "content_hash": "e5333143b7c26226d3ddd26f5484b0d79b7e4a93ad98219bab4522b6e467e7f1",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": true,
+        "table_count": 39
+      }
+    },
+    {
+      "id": "3ee5309e9468af84015211ef8c9cf25b",
+      "source_id": "easy_email_compiled",
+      "source_name": "Easy-Email-Pro/email-templates (compiled HTML)",
+      "url": "https://github.com/Easy-Email-Pro/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/easy_email_compiled/template14.html",
+      "byte_size": 25552,
+      "content_hash": "ee9d0ae3a1d911d4e331b3a0522c7aa40a43b3769d725937fef861ca970be14e",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 39
+      }
+    },
+    {
+      "id": "4c773577dab686b2ca35e40925437135",
+      "source_id": "easy_email_compiled",
+      "source_name": "Easy-Email-Pro/email-templates (compiled HTML)",
+      "url": "https://github.com/Easy-Email-Pro/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/easy_email_compiled/template15.html",
+      "byte_size": 32489,
+      "content_hash": "2d8d70de904328c418dbcc78b19692c5f340dedaf24948262ab64a1f93d64d08",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 45
+      }
+    },
+    {
+      "id": "17e6594c75e72072d1cbcb9dbbe0d561",
+      "source_id": "easy_email_compiled",
+      "source_name": "Easy-Email-Pro/email-templates (compiled HTML)",
+      "url": "https://github.com/Easy-Email-Pro/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/easy_email_compiled/template16.html",
+      "byte_size": 33536,
+      "content_hash": "ff21f94fea4b51cb4d9f2de870a314a8534c1f62c19095540480243fe946850f",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 51
+      }
+    },
+    {
+      "id": "ac2423c507cc9c0bc768fe34f321c213",
+      "source_id": "easy_email_compiled",
+      "source_name": "Easy-Email-Pro/email-templates (compiled HTML)",
+      "url": "https://github.com/Easy-Email-Pro/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/easy_email_compiled/template17.html",
+      "byte_size": 30417,
+      "content_hash": "f613f1a62e97e35d197adc8e31ccc3c91a107531560173d0f506b713300193ba",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 46
+      }
+    },
+    {
+      "id": "5a2ee650f35b466f6cd8f45972579785",
+      "source_id": "easy_email_compiled",
+      "source_name": "Easy-Email-Pro/email-templates (compiled HTML)",
+      "url": "https://github.com/Easy-Email-Pro/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/easy_email_compiled/template18.html",
+      "byte_size": 39602,
+      "content_hash": "0d0d873c4e9ac556bc3ccee6707cd61d6d1ed8e4cd7200a978a737339610fa50",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 55
+      }
+    },
+    {
+      "id": "a59ae1f8cce1cc136580c5ec0da38879",
+      "source_id": "easy_email_compiled",
+      "source_name": "Easy-Email-Pro/email-templates (compiled HTML)",
+      "url": "https://github.com/Easy-Email-Pro/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/easy_email_compiled/template19.html",
+      "byte_size": 34796,
+      "content_hash": "b0c337fa5da80c1eee4f71cd7c9cdcc05e00672d40526ab0a0ef6ac06fb8575e",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 53
+      }
+    },
+    {
+      "id": "adf733479460183c5c16ce22c2a5307c",
+      "source_id": "easy_email_compiled",
+      "source_name": "Easy-Email-Pro/email-templates (compiled HTML)",
+      "url": "https://github.com/Easy-Email-Pro/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/easy_email_compiled/template1.html",
+      "byte_size": 30010,
+      "content_hash": "1aec478708c97e8d0c88db689ec8ca5594833c3689b947ece569fe33e5221925",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": true,
+        "table_count": 47
+      }
+    },
+    {
+      "id": "cf1ecea67e441c224d963fac29fe5886",
+      "source_id": "easy_email_compiled",
+      "source_name": "Easy-Email-Pro/email-templates (compiled HTML)",
+      "url": "https://github.com/Easy-Email-Pro/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/easy_email_compiled/template20.html",
+      "byte_size": 40403,
+      "content_hash": "84da952cb1d3e77748e2534e1b8db9a55a5856f75043afddc4c3565cc1b30dd2",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 62
+      }
+    },
+    {
+      "id": "a82d529a963f9b623d8cf07cf649a9bf",
+      "source_id": "easy_email_compiled",
+      "source_name": "Easy-Email-Pro/email-templates (compiled HTML)",
+      "url": "https://github.com/Easy-Email-Pro/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/easy_email_compiled/template21.html",
+      "byte_size": 35835,
+      "content_hash": "929377a3625747c726f9626ca62ba7f07e7edb53ad37c4f473d2e36ad851dc6f",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 53
+      }
+    },
+    {
+      "id": "0ea1a20c8c7607f7734eae739b018390",
+      "source_id": "easy_email_compiled",
+      "source_name": "Easy-Email-Pro/email-templates (compiled HTML)",
+      "url": "https://github.com/Easy-Email-Pro/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/easy_email_compiled/template22.html",
+      "byte_size": 50336,
+      "content_hash": "9d5c45f88e921dd7bf7b850ffdbe951b22014267866e1eb337b74180c24896e0",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 79
+      }
+    },
+    {
+      "id": "cff57595755095efc5cac8f2b16b4533",
+      "source_id": "easy_email_compiled",
+      "source_name": "Easy-Email-Pro/email-templates (compiled HTML)",
+      "url": "https://github.com/Easy-Email-Pro/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/easy_email_compiled/template23.html",
+      "byte_size": 31267,
+      "content_hash": "2ff0d5777998c4162194a1a795097189838be7b058da4739496c5e14c43a867e",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 51
+      }
+    },
+    {
+      "id": "f51a7677863a85f180bb461945951c80",
+      "source_id": "easy_email_compiled",
+      "source_name": "Easy-Email-Pro/email-templates (compiled HTML)",
+      "url": "https://github.com/Easy-Email-Pro/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/easy_email_compiled/template24.html",
+      "byte_size": 31267,
+      "content_hash": "2ff0d5777998c4162194a1a795097189838be7b058da4739496c5e14c43a867e",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 51
+      }
+    },
+    {
+      "id": "0145ff86a7ae648138fb52004ceb5a76",
+      "source_id": "easy_email_compiled",
+      "source_name": "Easy-Email-Pro/email-templates (compiled HTML)",
+      "url": "https://github.com/Easy-Email-Pro/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/easy_email_compiled/template25.html",
+      "byte_size": 24288,
+      "content_hash": "faf45afa0ddad606a21eaee323b7a4c675b57143cf24996ff383c193d9e5060f",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 37
+      }
+    },
+    {
+      "id": "93668e4d5ac3ae57e845f68f49b4bc76",
+      "source_id": "easy_email_compiled",
+      "source_name": "Easy-Email-Pro/email-templates (compiled HTML)",
+      "url": "https://github.com/Easy-Email-Pro/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/easy_email_compiled/template26.html",
+      "byte_size": 42069,
+      "content_hash": "542e8865c40ea5569af93ab12dcbe1468ab6cef275d421f48116aec7d95d8ad5",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 64
+      }
+    },
+    {
+      "id": "cee82d72eba48c203c659f8b10d44427",
+      "source_id": "easy_email_compiled",
+      "source_name": "Easy-Email-Pro/email-templates (compiled HTML)",
+      "url": "https://github.com/Easy-Email-Pro/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/easy_email_compiled/template27.html",
+      "byte_size": 41782,
+      "content_hash": "1aea422f91495c3a50964ac3bb620d503de491e938311fdd9e4166ddd27a500e",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 70
+      }
+    },
+    {
+      "id": "7bca5d54ccfed59a3799d887923afe20",
+      "source_id": "easy_email_compiled",
+      "source_name": "Easy-Email-Pro/email-templates (compiled HTML)",
+      "url": "https://github.com/Easy-Email-Pro/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/easy_email_compiled/template28.html",
+      "byte_size": 35035,
+      "content_hash": "66e3e6844e9c618b8cbd2a7071a31c4f6328a2731d0cc684f1c69ee714d2c0b2",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 53
+      }
+    },
+    {
+      "id": "2ae49e35577019509a9c66c53040784c",
+      "source_id": "easy_email_compiled",
+      "source_name": "Easy-Email-Pro/email-templates (compiled HTML)",
+      "url": "https://github.com/Easy-Email-Pro/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/easy_email_compiled/template29.html",
+      "byte_size": 14328,
+      "content_hash": "cd4c2917ae898f41fd0ede1f6608043cbec13c4f90886713ad904c1c2503e704",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 24
+      }
+    },
+    {
+      "id": "a24124d46b262755aec5e870493fa1a9",
+      "source_id": "easy_email_compiled",
+      "source_name": "Easy-Email-Pro/email-templates (compiled HTML)",
+      "url": "https://github.com/Easy-Email-Pro/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/easy_email_compiled/template2.html",
+      "byte_size": 33047,
+      "content_hash": "869de285818236bf7510b277d26b02e09ec882b84242c786025a014c6214ac88",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": true,
+        "table_count": 45
+      }
+    },
+    {
+      "id": "2b40dec69b0b44afb2c59081f025b83a",
+      "source_id": "easy_email_compiled",
+      "source_name": "Easy-Email-Pro/email-templates (compiled HTML)",
+      "url": "https://github.com/Easy-Email-Pro/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/easy_email_compiled/template30.html",
+      "byte_size": 26619,
+      "content_hash": "c88921ae32043a95f552cbd1e9e909c6ef2a1f388f178f8b0ccc1c876d28db3f",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 40
+      }
+    },
+    {
+      "id": "636c0807c26bc14a7b9874a37547fdf8",
+      "source_id": "easy_email_compiled",
+      "source_name": "Easy-Email-Pro/email-templates (compiled HTML)",
+      "url": "https://github.com/Easy-Email-Pro/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/easy_email_compiled/template31.html",
+      "byte_size": 27303,
+      "content_hash": "9fbedeaca91ed88c14b6d87b7f8c5932cf285c2586c0197998f18fbac7697ac4",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 40
+      }
+    },
+    {
+      "id": "7bdd5ed3071b2258a046d92b5a009c0d",
+      "source_id": "easy_email_compiled",
+      "source_name": "Easy-Email-Pro/email-templates (compiled HTML)",
+      "url": "https://github.com/Easy-Email-Pro/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/easy_email_compiled/template32.html",
+      "byte_size": 26980,
+      "content_hash": "b4e8361440a8a2775ccce1116692c53c1ab9b2d9a5bce73e3b298aaec1374daf",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 37
+      }
+    },
+    {
+      "id": "d3f475c057ef5e3134093a34ed5cf8d3",
+      "source_id": "easy_email_compiled",
+      "source_name": "Easy-Email-Pro/email-templates (compiled HTML)",
+      "url": "https://github.com/Easy-Email-Pro/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/easy_email_compiled/template33.html",
+      "byte_size": 30654,
+      "content_hash": "1da63775e9c7113361c7889b06747363b1bf83126195a3a908afaf776db0e28f",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 50
+      }
+    },
+    {
+      "id": "fdbde0be142c3748841ae84c685665e2",
+      "source_id": "easy_email_compiled",
+      "source_name": "Easy-Email-Pro/email-templates (compiled HTML)",
+      "url": "https://github.com/Easy-Email-Pro/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/easy_email_compiled/template34.html",
+      "byte_size": 28776,
+      "content_hash": "1b4ad3d36a53ed1a9f273cf01f0db3b1ce5a4db54b1b1d611f64271e4b48177e",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 45
+      }
+    },
+    {
+      "id": "f2df94fa7dc909f51d32d9ffdd33df73",
+      "source_id": "easy_email_compiled",
+      "source_name": "Easy-Email-Pro/email-templates (compiled HTML)",
+      "url": "https://github.com/Easy-Email-Pro/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/easy_email_compiled/template35.html",
+      "byte_size": 27899,
+      "content_hash": "670f898f9bd1175d35d3c68c0903be13b0721e4863ff47f416f87a3aa220c0fe",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 43
+      }
+    },
+    {
+      "id": "7d2c859869a7baf5db78e9b098a4ecde",
+      "source_id": "easy_email_compiled",
+      "source_name": "Easy-Email-Pro/email-templates (compiled HTML)",
+      "url": "https://github.com/Easy-Email-Pro/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/easy_email_compiled/template3.html",
+      "byte_size": 43432,
+      "content_hash": "794bfc1403732441ca72a1c28610d20d055887e7f9dd243ac9ea974966d7b106",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": true,
+        "table_count": 71
+      }
+    },
+    {
+      "id": "0ea3aaf9ddb89c6a8b6a7bf2dbf2dc0e",
+      "source_id": "easy_email_compiled",
+      "source_name": "Easy-Email-Pro/email-templates (compiled HTML)",
+      "url": "https://github.com/Easy-Email-Pro/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/easy_email_compiled/template4.html",
+      "byte_size": 23762,
+      "content_hash": "b74359457f924657981bd460d6148d2ac038bbc4500907ae07658d6e4591db4f",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": true,
+        "table_count": 35
+      }
+    },
+    {
+      "id": "c15295ad2a469e62caf7ff37e60acaad",
+      "source_id": "easy_email_compiled",
+      "source_name": "Easy-Email-Pro/email-templates (compiled HTML)",
+      "url": "https://github.com/Easy-Email-Pro/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/easy_email_compiled/template5.html",
+      "byte_size": 28500,
+      "content_hash": "dd2d00b65586769bf0e8623fa88f0d74970bdbeaac840624b309c7b948d1af96",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 43
+      }
+    },
+    {
+      "id": "ea06197d09ca9a4bde1d98da6aa6f9bc",
+      "source_id": "easy_email_compiled",
+      "source_name": "Easy-Email-Pro/email-templates (compiled HTML)",
+      "url": "https://github.com/Easy-Email-Pro/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/easy_email_compiled/template6.html",
+      "byte_size": 37091,
+      "content_hash": "64ceba8e2f50cb583db3f7d2d0d451365dfca5d6d48d38c10e091ba9796969e5",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": true,
+        "table_count": 58
+      }
+    },
+    {
+      "id": "94100644616b59fbc1dcec476d56e926",
+      "source_id": "easy_email_compiled",
+      "source_name": "Easy-Email-Pro/email-templates (compiled HTML)",
+      "url": "https://github.com/Easy-Email-Pro/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/easy_email_compiled/template7.html",
+      "byte_size": 29490,
+      "content_hash": "816bf8102424a99873323a0f28db11d3bfe1741d5d58d501429e328e4ad92a46",
+      "quick_features": {
+        "sections_detected": 6,
+        "has_media_queries": true,
+        "table_count": 41
+      }
+    },
+    {
+      "id": "79fa3ae63e51d8b1287f6ae56cf45a58",
+      "source_id": "easy_email_compiled",
+      "source_name": "Easy-Email-Pro/email-templates (compiled HTML)",
+      "url": "https://github.com/Easy-Email-Pro/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/easy_email_compiled/template8.html",
+      "byte_size": 34443,
+      "content_hash": "8fbd155e628078a2982f47b0b1cfc9e88909d089ad243c1826c7f2cf98313888",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 54
+      }
+    },
+    {
+      "id": "c29ef2a03201a4076a3b980a1039c08f",
+      "source_id": "easy_email_compiled",
+      "source_name": "Easy-Email-Pro/email-templates (compiled HTML)",
+      "url": "https://github.com/Easy-Email-Pro/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/easy_email_compiled/template9.html",
+      "byte_size": 30878,
+      "content_hash": "f61fa8481b190567d0b8aa49ea6d5eeb7947c39a2c390a63d0439584d1dc84c2",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": true,
+        "table_count": 50
+      }
+    },
+    {
+      "id": "84b6e62c462c09255f066837127dbf0b",
+      "source_id": "modunisa_compiled",
+      "source_name": "modunisa/MJML-Templates (compiled HTML)",
+      "url": "https://github.com/modunisa/MJML-Templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/modunisa_compiled/mod-edm.html",
+      "byte_size": 22996,
+      "content_hash": "e81c47dba6f67fccc1bbc8c5cebb2c662107c64aafecb3051756ce9ce31e2bc7",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 37
+      }
+    },
+    {
+      "id": "de41da4f94b9a0e3568a38a8de936e1a",
+      "source_id": "modunisa_compiled",
+      "source_name": "modunisa/MJML-Templates (compiled HTML)",
+      "url": "https://github.com/modunisa/MJML-Templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/modunisa_compiled/mod-edm-launch.html",
+      "byte_size": 23475,
+      "content_hash": "c8df55074d7c02cc1ff3c1215b04b59fb52319821edde22562efb1814065da80",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 37
+      }
+    },
+    {
+      "id": "4c4950439d5d3f78dce2fd734816ef83",
+      "source_id": "modunisa_compiled",
+      "source_name": "modunisa/MJML-Templates (compiled HTML)",
+      "url": "https://github.com/modunisa/MJML-Templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/modunisa_compiled/mod-newsletter.html",
+      "byte_size": 36755,
+      "content_hash": "3740125d5fedff99345238fd4147d6ab8263acb4f7ddc656c85626d2771d3a6a",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 64
+      }
+    },
+    {
+      "id": "d90ed2961d4566125cfc11d8e27a8bcb",
+      "source_id": "bbulakh_compiled",
+      "source_name": "bbulakh/ecommerce-email (compiled HTML)",
+      "url": "https://github.com/bbulakh/ecommerce-email",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/bbulakh_compiled/cart-reminder.html",
+      "byte_size": 68124,
+      "content_hash": "f4f85ce3d095b1008d74c0294e85659c5c4c7670613ca7ff0dc3664756fdd775",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 102
+      }
+    },
+    {
+      "id": "b3360675a03ff4fd4cf920fb65060d86",
+      "source_id": "bbulakh_compiled",
+      "source_name": "bbulakh/ecommerce-email (compiled HTML)",
+      "url": "https://github.com/bbulakh/ecommerce-email",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/bbulakh_compiled/new-feature.html",
+      "byte_size": 47442,
+      "content_hash": "285e01ffb6115b42adc486500606e622176de865e57d4e060ded01ae15cdb47a",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 78
+      }
+    },
+    {
+      "id": "8aebe1d3459f51cc6cd2e2da98d37637",
+      "source_id": "bbulakh_compiled",
+      "source_name": "bbulakh/ecommerce-email (compiled HTML)",
+      "url": "https://github.com/bbulakh/ecommerce-email",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/bbulakh_compiled/order-confirmation.html",
+      "byte_size": 64520,
+      "content_hash": "b3bd9557eac6bcbc3cd9d749e2951c575a2abdf5bba6ecc16e89eab81f478189",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 93
+      }
+    },
+    {
+      "id": "baabdea13c423b48c52956c409dd4394",
+      "source_id": "bbulakh_compiled",
+      "source_name": "bbulakh/ecommerce-email (compiled HTML)",
+      "url": "https://github.com/bbulakh/ecommerce-email",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/bbulakh_compiled/survey.html",
+      "byte_size": 36807,
+      "content_hash": "59427c666cb8c5bbebf89cbe278f8fb042ad1ea9189ba00b8ea45bf453c9089c",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 60
+      }
+    },
+    {
+      "id": "1857e7e5af99054332d3aedf9c4940bc",
+      "source_id": "bbulakh_compiled",
+      "source_name": "bbulakh/ecommerce-email (compiled HTML)",
+      "url": "https://github.com/bbulakh/ecommerce-email",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/bbulakh_compiled/welcome.html",
+      "byte_size": 33749,
+      "content_hash": "bff8a41eb76d2753803bb6bf4033e014dad3112f11689659d00d107014801101",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 55
+      }
+    },
+    {
+      "id": "c3c3958710eebfc523767bb0f66be596",
+      "source_id": "nirajrajgor",
+      "source_name": "nirajrajgor/email-templates",
+      "url": "https://github.com/nirajrajgor/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/nirajrajgor/abandoned-cart.html",
+      "byte_size": 25135,
+      "content_hash": "84bd7cf0d2964fd43ee5e8e4b9123e67ace8fd766f183ce54cead62a99bd8b03",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": false,
+        "table_count": 9
+      }
+    },
+    {
+      "id": "a2370e177d5859b3c41e2edf42f7a1c7",
+      "source_id": "nirajrajgor",
+      "source_name": "nirajrajgor/email-templates",
+      "url": "https://github.com/nirajrajgor/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/nirajrajgor/account-verification.html",
+      "byte_size": 20622,
+      "content_hash": "7b3e38f51e1333eeb1f5936c7518811acbfe27af4a6301477191a7dee154f306",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 16
+      }
+    },
+    {
+      "id": "3eaa398cbcdf689649ffd0b865028fe7",
+      "source_id": "nirajrajgor",
+      "source_name": "nirajrajgor/email-templates",
+      "url": "https://github.com/nirajrajgor/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/nirajrajgor/ai-newsletter.html",
+      "byte_size": 8162,
+      "content_hash": "c3c2f57e33d599c76c2531b0a57167286dad87029e5ab88411c8df84cc2f7dd1",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 7
+      }
+    },
+    {
+      "id": "87550960f0525a240ef11cb6efe64ba6",
+      "source_id": "nirajrajgor",
+      "source_name": "nirajrajgor/email-templates",
+      "url": "https://github.com/nirajrajgor/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/nirajrajgor/ecommerce-order.html",
+      "byte_size": 27122,
+      "content_hash": "4c21e2f386bc359fae03db9d4745c355a2a184b50ce193d7f4fdf29561a970c5",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 13
+      }
+    },
+    {
+      "id": "6e7483cb46426c2e46de6f67013a2417",
+      "source_id": "nirajrajgor",
+      "source_name": "nirajrajgor/email-templates",
+      "url": "https://github.com/nirajrajgor/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/nirajrajgor/gift-decor.html",
+      "byte_size": 21713,
+      "content_hash": "6e8a25e84450258249044f390f368ce0d6d1f9e989d1afb56eaf41b8bdb9d242",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 8
+      }
+    },
+    {
+      "id": "0a5051b6e2a284b8bfc972c13abeb1ba",
+      "source_id": "nirajrajgor",
+      "source_name": "nirajrajgor/email-templates",
+      "url": "https://github.com/nirajrajgor/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/nirajrajgor/music-event-promotion.html",
+      "byte_size": 20011,
+      "content_hash": "c35d59b6204dcd55f684e9e1682abdae85870bb024504c61dba5d746243bdd66",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": false,
+        "table_count": 12
+      }
+    },
+    {
+      "id": "45f51ddd4597678f6b5efdfde7e26dfa",
+      "source_id": "nirajrajgor",
+      "source_name": "nirajrajgor/email-templates",
+      "url": "https://github.com/nirajrajgor/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/nirajrajgor/password-reset.html",
+      "byte_size": 11524,
+      "content_hash": "597fe05cfa8b351f8ff3f346434f63f5fadacd558a74b4d619e977df3902c831",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 3
+      }
+    },
+    {
+      "id": "e2958af48ae576cfd69c99b717bf5479",
+      "source_id": "nirajrajgor",
+      "source_name": "nirajrajgor/email-templates",
+      "url": "https://github.com/nirajrajgor/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/nirajrajgor/product-announcements.html",
+      "byte_size": 24679,
+      "content_hash": "9b7fb6393637d96b3fffbec814657041587a583c208ba0718bc5fe74e85a6a5f",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": false,
+        "table_count": 13
+      }
+    },
+    {
+      "id": "fbcd2a43f8c9762604e9c3a3d66430db",
+      "source_id": "nirajrajgor",
+      "source_name": "nirajrajgor/email-templates",
+      "url": "https://github.com/nirajrajgor/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/nirajrajgor/product-confirmation.html",
+      "byte_size": 7795,
+      "content_hash": "7246867de74e8ebb38fcae180606b0ba0db5fb32d8ed8f81292615524a3b7275",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 7
+      }
+    },
+    {
+      "id": "51374dd0a3ba44c5c6a5ba58c16ae0d9",
+      "source_id": "nirajrajgor",
+      "source_name": "nirajrajgor/email-templates",
+      "url": "https://github.com/nirajrajgor/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/nirajrajgor/product-review.html",
+      "byte_size": 16977,
+      "content_hash": "9d5fac99e26f0e04894fcbd5958328504c584acaa6ae5fccb7730dbda502e1cc",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": false,
+        "table_count": 9
+      }
+    },
+    {
+      "id": "f1f21b94bc0c0f2f98e7269ded66ccd9",
+      "source_id": "nirajrajgor",
+      "source_name": "nirajrajgor/email-templates",
+      "url": "https://github.com/nirajrajgor/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/nirajrajgor/promotional-offer.html",
+      "byte_size": 39898,
+      "content_hash": "42ed758f0959dd18d1c25e27e0602a4590d6933267da1bd2c0bd6dfb504b4c1e",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 14
+      }
+    },
+    {
+      "id": "fe260d30446051d3246938968e3e0d36",
+      "source_id": "nirajrajgor",
+      "source_name": "nirajrajgor/email-templates",
+      "url": "https://github.com/nirajrajgor/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/nirajrajgor/purchase-confirmation.html",
+      "byte_size": 15069,
+      "content_hash": "baf18bc54d6d397281fbc6a2944f44d912498a286b8f17d04b74b30060aa065a",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": false,
+        "table_count": 3
+      }
+    },
+    {
+      "id": "b4b83a260e64be971217f2cff6ccd5e7",
+      "source_id": "nirajrajgor",
+      "source_name": "nirajrajgor/email-templates",
+      "url": "https://github.com/nirajrajgor/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/nirajrajgor/shopping-deals.html",
+      "byte_size": 37564,
+      "content_hash": "f272bd8a10330549ff1616891d3c7019b29c603c3fea3c6d0a825958ca08f6cb",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 19
+      }
+    },
+    {
+      "id": "7aff20589c51cce935dea530b39ebb14",
+      "source_id": "nirajrajgor",
+      "source_name": "nirajrajgor/email-templates",
+      "url": "https://github.com/nirajrajgor/email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/nirajrajgor/welcome-onboarding.html",
+      "byte_size": 23724,
+      "content_hash": "aa2a71267b3cbf52e33c7eb37937fc6793e8a16c3db2b1a118885423893aa0ee",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": false,
+        "table_count": 9
+      }
+    },
+    {
+      "id": "c18e7c2f504584a666ff1ccdf962b81d",
+      "source_id": "zenlogin",
+      "source_name": "zenlogin/suspicious-login-detection-email-template",
+      "url": "https://github.com/zenlogin/suspicious-login-detection-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/zenlogin/suspicious_login.html",
+      "byte_size": 19524,
+      "content_hash": "848af8dec859c84f8a6c9751083e8ed29930a10bf44d15c55f878c124991cb6c",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 8
+      }
+    },
+    {
+      "id": "ae70d0e2c3731a87b34c1f10af113e74",
+      "source_id": "sundartech",
+      "source_name": "sundardsTechMind/E-mail-Templates",
+      "url": "https://github.com/sundardsTechMind/E-mail-Templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/sundartech/basic-content-center.html",
+      "byte_size": 6492,
+      "content_hash": "d89ef4f96c6522d7b8274edea6828146c2dadcfbf2655107e633ea26d7099ace",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 4
+      }
+    },
+    {
+      "id": "08cb89dd73efcb672ea60979273a262b",
+      "source_id": "sundartech",
+      "source_name": "sundardsTechMind/E-mail-Templates",
+      "url": "https://github.com/sundardsTechMind/E-mail-Templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/sundartech/basic-content-left.html",
+      "byte_size": 6714,
+      "content_hash": "426ccccccf53a89d379f6a54fca073ba01180489071ff4dd6bda4870a2dd50fe",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 4
+      }
+    },
+    {
+      "id": "1acda354508a9a1d0450f672e98c3aad",
+      "source_id": "sundartech",
+      "source_name": "sundardsTechMind/E-mail-Templates",
+      "url": "https://github.com/sundardsTechMind/E-mail-Templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/sundartech/email-confirm.html",
+      "byte_size": 8176,
+      "content_hash": "14f6fc62f8a8a99db176edb94984eb95d33acd961a70028ac85a1a1da87fda1a",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 4
+      }
+    },
+    {
+      "id": "79e66cbc9b3e580eb1a6a3423de7f153",
+      "source_id": "sundartech",
+      "source_name": "sundardsTechMind/E-mail-Templates",
+      "url": "https://github.com/sundardsTechMind/E-mail-Templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/sundartech/kyc-approved.html",
+      "byte_size": 6256,
+      "content_hash": "4ac56bb51c2b5d34bd5b219ffe50278655b8441a62592687c848cb476d7e4e33",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 4
+      }
+    },
+    {
+      "id": "fdb98fc248f7e8a0cd61e0e402d23f70",
+      "source_id": "sundartech",
+      "source_name": "sundardsTechMind/E-mail-Templates",
+      "url": "https://github.com/sundardsTechMind/E-mail-Templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/sundartech/kyc-pending.html",
+      "byte_size": 6390,
+      "content_hash": "25c78518faca9f9e9294dd95244fc38962c5d8dcd74e57718aa72e1cef20d77b",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 4
+      }
+    },
+    {
+      "id": "0152859333443404f9b6cbb14d1d8140",
+      "source_id": "sundartech",
+      "source_name": "sundardsTechMind/E-mail-Templates",
+      "url": "https://github.com/sundardsTechMind/E-mail-Templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/sundartech/kyc-submission.html",
+      "byte_size": 6337,
+      "content_hash": "1f277ed890b922ecaedd60580e79084aec8c0df0e348131c71fee2e38bd9ef39",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 4
+      }
+    },
+    {
+      "id": "544555be4e6e5336e0d284b0f60132d3",
+      "source_id": "sundartech",
+      "source_name": "sundardsTechMind/E-mail-Templates",
+      "url": "https://github.com/sundardsTechMind/E-mail-Templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/sundartech/newsletter.html",
+      "byte_size": 10783,
+      "content_hash": "e1a0d2814e4b60d2d67122ab0c611ca8a136199e4203deefd254e71fed9e459d",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 5
+      }
+    },
+    {
+      "id": "6e4ad2a4c5cda1c2bbe7d89814f0b32c",
+      "source_id": "sundartech",
+      "source_name": "sundardsTechMind/E-mail-Templates",
+      "url": "https://github.com/sundardsTechMind/E-mail-Templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/sundartech/password-request.html",
+      "byte_size": 7238,
+      "content_hash": "02607c3f6b93c3a4c16b74e904d274493932f3011b077f3b659c3da1ac03906f",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 4
+      }
+    },
+    {
+      "id": "682e0bb3c45114e389d3a46d8fd22bb5",
+      "source_id": "sundartech",
+      "source_name": "sundardsTechMind/E-mail-Templates",
+      "url": "https://github.com/sundardsTechMind/E-mail-Templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/sundartech/password-reset-success.html",
+      "byte_size": 6820,
+      "content_hash": "dc6ac7823f055534c225d7b798f956843f109cdfd0468d2259953f28a864e32e",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 4
+      }
+    },
+    {
+      "id": "00b56cc0fdebe028988d4fcf2b9c3852",
+      "source_id": "sundartech",
+      "source_name": "sundardsTechMind/E-mail-Templates",
+      "url": "https://github.com/sundardsTechMind/E-mail-Templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/sundartech/welcome.html",
+      "byte_size": 6556,
+      "content_hash": "70fda35d6ec675f2863616e2f3e0a50bb15d879383484de3769a9f98f32688d3",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 4
+      }
+    },
+    {
+      "id": "b62f87a0dcef7c85d5c137b7b74c2e5a",
+      "source_id": "hermes",
+      "source_name": "matcornic/hermes",
+      "url": "https://github.com/matcornic/hermes",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/hermes/default.invite_code.html",
+      "byte_size": 7755,
+      "content_hash": "60293e8f6c918b166fcab042d7c29e531b84d409065ea286d8cd3596bbb47e28",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 8
+      }
+    },
+    {
+      "id": "c44b702a3a24fbd317ca4470bbfb9b10",
+      "source_id": "hermes",
+      "source_name": "matcornic/hermes",
+      "url": "https://github.com/matcornic/hermes",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/hermes/default.maintenance.html",
+      "byte_size": 5519,
+      "content_hash": "4244abff34e4f7d31f2f365cf10c61cf6b803224fdd7ccdd761f299f84221f5b",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 5
+      }
+    },
+    {
+      "id": "f25f0e50df07942429f4ebfa728143a1",
+      "source_id": "hermes",
+      "source_name": "matcornic/hermes",
+      "url": "https://github.com/matcornic/hermes",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/hermes/default.receipt.html",
+      "byte_size": 12151,
+      "content_hash": "f1fd9b39cfb66b03ef18ee649c91db0c147ae69aa4e0df2a4446f866120bbb67",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 8
+      }
+    },
+    {
+      "id": "17ebdf265125a6338f91da08d425171e",
+      "source_id": "hermes",
+      "source_name": "matcornic/hermes",
+      "url": "https://github.com/matcornic/hermes",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/hermes/default.reset.html",
+      "byte_size": 8810,
+      "content_hash": "9a73fbb470b6d28e9b7bc6ddbd55dea092294dc0d7976a3900eef94de99b2543",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 6
+      }
+    },
+    {
+      "id": "04dd33fe6b007acf858f6486176082b6",
+      "source_id": "hermes",
+      "source_name": "matcornic/hermes",
+      "url": "https://github.com/matcornic/hermes",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/hermes/default.welcome.html",
+      "byte_size": 9699,
+      "content_hash": "32e00bd63c41f23ac0607cc6d66086cac5ae78dea493eace1ee17cbfa4564135",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 6
+      }
+    },
+    {
+      "id": "16a9adcfc9d49350464d4d54a5c7e5f5",
+      "source_id": "hermes",
+      "source_name": "matcornic/hermes",
+      "url": "https://github.com/matcornic/hermes",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/hermes/flat.invite_code.html",
+      "byte_size": 7488,
+      "content_hash": "a2f23eb6b23a36bd47740bf5f768226ee99655cd05772b4c13757d0c28383b06",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 8
+      }
+    },
+    {
+      "id": "c6a98b92aafd4cdbd5e474800b7ec1ad",
+      "source_id": "hermes",
+      "source_name": "matcornic/hermes",
+      "url": "https://github.com/matcornic/hermes",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/hermes/flat.maintenance.html",
+      "byte_size": 5439,
+      "content_hash": "2f0904826692a525cf985faf1aa63244ddef7d8d3677bde08db900c36a92e47e",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 5
+      }
+    },
+    {
+      "id": "80a1faf3ba0feaacad0706c153b26371",
+      "source_id": "hermes",
+      "source_name": "matcornic/hermes",
+      "url": "https://github.com/matcornic/hermes",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/hermes/flat.receipt.html",
+      "byte_size": 11811,
+      "content_hash": "81cdd26c4dd2e91711fb3886a861b0f68cb9e0e6c7769b3632b46456d81f7f25",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 8
+      }
+    },
+    {
+      "id": "03978a100f17e4e77de34ca775bcbc25",
+      "source_id": "hermes",
+      "source_name": "matcornic/hermes",
+      "url": "https://github.com/matcornic/hermes",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/hermes/flat.reset.html",
+      "byte_size": 8470,
+      "content_hash": "ff9eaa9a14d2befb9ffdda24bf6c3d6719b3412f48ccce398a9017f3e4824e67",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 6
+      }
+    },
+    {
+      "id": "b0db1e36566bfd719405dd91cf264d48",
+      "source_id": "hermes",
+      "source_name": "matcornic/hermes",
+      "url": "https://github.com/matcornic/hermes",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/hermes/flat.welcome.html",
+      "byte_size": 9506,
+      "content_hash": "249bd163266623a70f393e836c1eea6e1ed939f806bd224a394e117cdc3e8da3",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 6
+      }
     }
   ]
 }
