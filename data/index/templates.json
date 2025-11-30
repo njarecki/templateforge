@@ -18415,6 +18415,2182 @@
         "has_media_queries": true,
         "table_count": 36
       }
+    },
+    {
+      "id": "b93dacfad9787646c1ca71ebb5307bc4",
+      "source_id": "maizzle_litmus_ceej",
+      "source_name": "Maizzle Litmus CEEJ Templates",
+      "url": "https://github.com/Maizzle/starter-litmus",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_litmus_ceej/account-update.html",
+      "byte_size": 8294,
+      "content_hash": "61d424c4ca01cb190edbdf96eca74b5bd420c7e1ccd35aaefec5430b0c395775",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": false,
+        "table_count": 9
+      }
+    },
+    {
+      "id": "38a6df897ad9f1035262b67f2070b203",
+      "source_id": "maizzle_litmus_ceej",
+      "source_name": "Maizzle Litmus CEEJ Templates",
+      "url": "https://github.com/Maizzle/starter-litmus",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_litmus_ceej/card-expired.html",
+      "byte_size": 7337,
+      "content_hash": "91447eb063f9d75513fdd7cad02d9478381aa96c22a607986db0c37eaf71f956",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 13
+      }
+    },
+    {
+      "id": "2bd1fb1dd22161ee5354d862eb9040ce",
+      "source_id": "maizzle_litmus_ceej",
+      "source_name": "Maizzle Litmus CEEJ Templates",
+      "url": "https://github.com/Maizzle/starter-litmus",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_litmus_ceej/closed-account.html",
+      "byte_size": 7710,
+      "content_hash": "b471a9ea1e027183d3551a098009d875bfa98d5d775df1f9fbbf59019be6f381",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 13
+      }
+    },
+    {
+      "id": "e5aa2809f02c47067f005f3459b26243",
+      "source_id": "maizzle_litmus_ceej",
+      "source_name": "Maizzle Litmus CEEJ Templates",
+      "url": "https://github.com/Maizzle/starter-litmus",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_litmus_ceej/new-account.html",
+      "byte_size": 7051,
+      "content_hash": "530652db64106160a61d8448aba78d7fc01b19e2ba4ceb6188f668db28c76f55",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 11
+      }
+    },
+    {
+      "id": "7451bbe0a1a994813cf4cbc95e42b23e",
+      "source_id": "maizzle_litmus_ceej",
+      "source_name": "Maizzle Litmus CEEJ Templates",
+      "url": "https://github.com/Maizzle/starter-litmus",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_litmus_ceej/password-reset.html",
+      "byte_size": 7318,
+      "content_hash": "df1b95fe60b96ad054bbebb37db402dec633767c0b86f7f202360299c7a37daf",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 13
+      }
+    },
+    {
+      "id": "f623c54be2c055a357c7b0ac5d974da8",
+      "source_id": "maizzle_litmus_slate",
+      "source_name": "Maizzle Litmus Slate Templates",
+      "url": "https://github.com/Maizzle/starter-litmus",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_litmus_slate/newsletter.html",
+      "byte_size": 46858,
+      "content_hash": "15cb3562e9c8042c45ae1573413193fa21df37a4be6c205315c69050f8e7ee28",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 59
+      }
+    },
+    {
+      "id": "1407da5c91ac964ad1b64be3ac660cc0",
+      "source_id": "maizzle_litmus_slate",
+      "source_name": "Maizzle Litmus Slate Templates",
+      "url": "https://github.com/Maizzle/starter-litmus",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_litmus_slate/product-update.html",
+      "byte_size": 17304,
+      "content_hash": "c3219989b0df0edc296bf45596a175fbbf5f699c8faafcc481195f2d2059ac32",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": false,
+        "table_count": 29
+      }
+    },
+    {
+      "id": "3352e101f17a9746af37fecd054097ae",
+      "source_id": "maizzle_litmus_slate",
+      "source_name": "Maizzle Litmus Slate Templates",
+      "url": "https://github.com/Maizzle/starter-litmus",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_litmus_slate/receipt.html",
+      "byte_size": 13678,
+      "content_hash": "dfa7a36a60b962075e78f428bca9bbbce1a178ff8dfc906eb7b8f890f1bce1c6",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 35
+      }
+    },
+    {
+      "id": "f0757885c1e1479ce874503fc1af2874",
+      "source_id": "maizzle_litmus_slate",
+      "source_name": "Maizzle Litmus Slate Templates",
+      "url": "https://github.com/Maizzle/starter-litmus",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_litmus_slate/simple-announcement.html",
+      "byte_size": 4031,
+      "content_hash": "07cd137554653c90f164062927ed2c237fe2fa048e05a71a23045515d7b7fda7",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 7
+      }
+    },
+    {
+      "id": "5ccb82db2ae0912d472fa7b30c3ad16f",
+      "source_id": "maizzle_litmus_slate",
+      "source_name": "Maizzle Litmus Slate Templates",
+      "url": "https://github.com/Maizzle/starter-litmus",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_litmus_slate/stationery.html",
+      "byte_size": 3623,
+      "content_hash": "375bfbbf27473a8489e04a100714784084efb7c8a655490440d6f9949a3febba",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 5
+      }
+    },
+    {
+      "id": "aa1a9491dc27becd69eb8eb086429c0f",
+      "source_id": "mjmlio_email_templates",
+      "source_name": "MJML.io Email Templates",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "data/raw/mjmlio_email_templates/amario.mjml",
+      "byte_size": 14076,
+      "content_hash": "0047cf27b6af231409dfba55b6aa07d568e8f0cfdacd346429d921d19260c8b6",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "70f0343f8a4406d158cc235b7a01cca9",
+      "source_id": "mjmlio_email_templates",
+      "source_name": "MJML.io Email Templates",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "data/raw/mjmlio_email_templates/arturia.mjml",
+      "byte_size": 7348,
+      "content_hash": "961f46823974ecc2474d771542a775461c98ab298b2c00322fa4ad22e1ebd93b",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "b3241d2fdb1677d12a1f78ea18b9b5c1",
+      "source_id": "mjmlio_email_templates",
+      "source_name": "MJML.io Email Templates",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "data/raw/mjmlio_email_templates/basic.mjml",
+      "byte_size": 2806,
+      "content_hash": "701085fb834cdf819f987065519c4bfcf974fa922d4129c12b6fa67bca96bcb5",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "0e1aee31557bde267ffb4f19b466c038",
+      "source_id": "mjmlio_email_templates",
+      "source_name": "MJML.io Email Templates",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "data/raw/mjmlio_email_templates/black-friday.mjml",
+      "byte_size": 3615,
+      "content_hash": "b358bbca7b31729d1c9e54a56f29fee12965a27f7c8c407c9a290abe8495fcc7",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "12046eafa387050afd237b13008cbc74",
+      "source_id": "mjmlio_email_templates",
+      "source_name": "MJML.io Email Templates",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "data/raw/mjmlio_email_templates/card.mjml",
+      "byte_size": 3643,
+      "content_hash": "8bdfbb50f308a13287a220800b6bbd8dd7b1292ce61e50f2eabf5788876c84bd",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "b1d68054f377159c76bb0ba8aaa9e90f",
+      "source_id": "mjmlio_email_templates",
+      "source_name": "MJML.io Email Templates",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "data/raw/mjmlio_email_templates/christmas.mjml",
+      "byte_size": 7631,
+      "content_hash": "d14e3fc1775277e0ac85749f0435827f8c57abb577584e0aad7a05a24bc265fe",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "9825ce0aaf3ce44924d525acf616e4f4",
+      "source_id": "mjmlio_email_templates",
+      "source_name": "MJML.io Email Templates",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "data/raw/mjmlio_email_templates/happy-new-year.mjml",
+      "byte_size": 2416,
+      "content_hash": "bcbc58d02a6f9e6197021d4732960fc55ba8255ba0bea3f917ae2ffda2940312",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "12a7f19eaa0991b779b346354d39481b",
+      "source_id": "mjmlio_email_templates",
+      "source_name": "MJML.io Email Templates",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "data/raw/mjmlio_email_templates/newsletter.mjml",
+      "byte_size": 3197,
+      "content_hash": "ba25aa49ecf9755186ab57c2c76b6c60ea0e47f17d8e1ae490849609d66c01e6",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "e4c2a0990b22f21e84b8715554341a1e",
+      "source_id": "mjmlio_email_templates",
+      "source_name": "MJML.io Email Templates",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "data/raw/mjmlio_email_templates/onepage.mjml",
+      "byte_size": 6528,
+      "content_hash": "c9eacf28ecd1b7b35982b6335d48fe59ec2bd861ecb70d4b62a32e4e2ec191b6",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "f03d17ac0d633fb3939f17df70e116b5",
+      "source_id": "mjmlio_email_templates",
+      "source_name": "MJML.io Email Templates",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "data/raw/mjmlio_email_templates/proof.mjml",
+      "byte_size": 2541,
+      "content_hash": "0afcf18d24f370ecb8c61944c4f937a119b776db026def6a210006b7dcc1b7dd",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "af7e6f05a00c2dab78f1518fbfadf023",
+      "source_id": "mjmlio_email_templates",
+      "source_name": "MJML.io Email Templates",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "data/raw/mjmlio_email_templates/racoon.mjml",
+      "byte_size": 13951,
+      "content_hash": "ee32e939272997c1dc23be6e95389d862a6e6ce30bdf555867d6539d8b029283",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "048353afa86034e17e5ac627187f8454",
+      "source_id": "mjmlio_email_templates",
+      "source_name": "MJML.io Email Templates",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "data/raw/mjmlio_email_templates/reactivation-email.mjml",
+      "byte_size": 3461,
+      "content_hash": "ac5a223e3b8e50e63af08ac38a4925a456a6bfca6db44ce4ea4b3ddfa10c7c50",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "139af25e1929f7253c1e8479fbe1e2da",
+      "source_id": "mjmlio_email_templates",
+      "source_name": "MJML.io Email Templates",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "data/raw/mjmlio_email_templates/real-estate.mjml",
+      "byte_size": 9235,
+      "content_hash": "1df84a5b9712550faa794963a80cc1387f03b0c83a085542461f7d3a40dd6167",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "9db00015026eebd2f470445d98bd3d5f",
+      "source_id": "mjmlio_email_templates",
+      "source_name": "MJML.io Email Templates",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "data/raw/mjmlio_email_templates/recast.mjml",
+      "byte_size": 10046,
+      "content_hash": "d2ffdb56dc507b2c0a4c09dface9cf21902f40b6de2e58197c3d352bbd5d4a4f",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "4408a25f393df63d845fc271fe8a4016",
+      "source_id": "mjmlio_email_templates",
+      "source_name": "MJML.io Email Templates",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "data/raw/mjmlio_email_templates/receipt-email.mjml",
+      "byte_size": 4871,
+      "content_hash": "b7e53ad57402fb90bc3344434d7285c250b3af94191e3ccc48283cf4c3ca92fc",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "771c300081790f46ae5e3a90768a3def",
+      "source_id": "mjmlio_email_templates",
+      "source_name": "MJML.io Email Templates",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "data/raw/mjmlio_email_templates/referral-email.mjml",
+      "byte_size": 1845,
+      "content_hash": "ed0626a47f86665475d3b93c18ef1a250d9b948f488eb0215fdf3d46d83835c1",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "f40bee7ae70546e0fb9e5ef5dc26038a",
+      "source_id": "mjmlio_email_templates",
+      "source_name": "MJML.io Email Templates",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "data/raw/mjmlio_email_templates/sphero-droids.mjml",
+      "byte_size": 6219,
+      "content_hash": "2cb478f03364bc89033e298b787bc0fc82534c5d6a4a1dbbb5d07ee89acaceb0",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "585fbd10c92d049b747c621d150fb5e1",
+      "source_id": "mjmlio_email_templates",
+      "source_name": "MJML.io Email Templates",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "data/raw/mjmlio_email_templates/sphero-mini.mjml",
+      "byte_size": 6157,
+      "content_hash": "ee19d3a7452e7bece9347cbb878a9a2795981022b9d235759f0fddc835e01867",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "5e280b46082f1ca6150e6528f254e295",
+      "source_id": "mjmlio_email_templates",
+      "source_name": "MJML.io Email Templates",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "data/raw/mjmlio_email_templates/ticketshop.mjml",
+      "byte_size": 6439,
+      "content_hash": "4aac5e315b7a10af654a5e736914a0773237115095880cb4a7cca4993023fddc",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "7d36bd0d0a41ce5b702de8b2d2ae3626",
+      "source_id": "mjmlio_email_templates",
+      "source_name": "MJML.io Email Templates",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "data/raw/mjmlio_email_templates/ugg-royale.mjml",
+      "byte_size": 16909,
+      "content_hash": "f8f4b644c16a213edb718684dc573d4707a9a586a01cf7921a7087c036ec8424",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "c14b53b4737953bbd198fccaaa750659",
+      "source_id": "mjmlio_email_templates",
+      "source_name": "MJML.io Email Templates",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "data/raw/mjmlio_email_templates/welcome-email.mjml",
+      "byte_size": 2139,
+      "content_hash": "d2f8d69a96f422e6969abd72357717c4102a2b87bab6f159541658d13151197a",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "a46872238bbcd31aa3f5214f3631611b",
+      "source_id": "mjmlio_email_templates",
+      "source_name": "MJML.io Email Templates",
+      "url": "https://github.com/mjmlio/email-templates",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "data/raw/mjmlio_email_templates/worldly.mjml",
+      "byte_size": 7002,
+      "content_hash": "274b8b54fb20369b9bea170cfe052b530b2d856e0b580eda013e9732f7aecb00",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "3794f1097961fb66b3701b50ec9ca199",
+      "source_id": "postmark_activecampaign_basic",
+      "source_name": "ActiveCampaign Postmark Templates (postmark_activecampaign_basic)",
+      "url": "https://github.com/ActiveCampaign/postmark-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/postmark_activecampaign_basic/comment-notification.html",
+      "byte_size": 11907,
+      "content_hash": "18a8537e383b831225a69dccab6ac8e10dbe4b896426fea9858080967d82fc2e",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 6
+      }
+    },
+    {
+      "id": "eebf80795a04b1efa1c016291b63f7e4",
+      "source_id": "postmark_activecampaign_basic",
+      "source_name": "ActiveCampaign Postmark Templates (postmark_activecampaign_basic)",
+      "url": "https://github.com/ActiveCampaign/postmark-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/postmark_activecampaign_basic/dunning.html",
+      "byte_size": 13953,
+      "content_hash": "986cebb446546913aa88f9ad99b782ef57d5a4f1a1f2c9d41fd5b5894c69c9a8",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 8
+      }
+    },
+    {
+      "id": "e1faa39d629a33eb7771aaafea34cd08",
+      "source_id": "postmark_activecampaign_basic",
+      "source_name": "ActiveCampaign Postmark Templates (postmark_activecampaign_basic)",
+      "url": "https://github.com/ActiveCampaign/postmark-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/postmark_activecampaign_basic/example.html",
+      "byte_size": 20258,
+      "content_hash": "b3b7fc59f64858412f4734340345f34d578bcf56bd93308fea96eb7d82b20a6f",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 15
+      }
+    },
+    {
+      "id": "528a1831283d365b1acfb6117d975aa9",
+      "source_id": "postmark_activecampaign_basic",
+      "source_name": "ActiveCampaign Postmark Templates (postmark_activecampaign_basic)",
+      "url": "https://github.com/ActiveCampaign/postmark-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/postmark_activecampaign_basic/invoice.html",
+      "byte_size": 15988,
+      "content_hash": "489a875227a761d2552fec5bc2582fa04dfe4118bd4ef8cc86a07f06d983fa91",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 11
+      }
+    },
+    {
+      "id": "7dc19208439329b97035f7650054ef25",
+      "source_id": "postmark_activecampaign_basic",
+      "source_name": "ActiveCampaign Postmark Templates (postmark_activecampaign_basic)",
+      "url": "https://github.com/ActiveCampaign/postmark-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/postmark_activecampaign_basic/password-reset-help.html",
+      "byte_size": 13079,
+      "content_hash": "a8742015626cafd39c9ecb4d2869fa622f8161fbf3a3a3b9b76242cb682dd7c2",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 7
+      }
+    },
+    {
+      "id": "fb66d08a326e97e7b3723711b1829a08",
+      "source_id": "postmark_activecampaign_basic",
+      "source_name": "ActiveCampaign Postmark Templates (postmark_activecampaign_basic)",
+      "url": "https://github.com/ActiveCampaign/postmark-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/postmark_activecampaign_basic/password-reset.html",
+      "byte_size": 12940,
+      "content_hash": "ac6a52cf1c707bc510ef43bb10d933fb0dddb67ec1f1b0198323e0df3499aa20",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 7
+      }
+    },
+    {
+      "id": "0877d61feeee505966c51c52d568d420",
+      "source_id": "postmark_activecampaign_basic",
+      "source_name": "ActiveCampaign Postmark Templates (postmark_activecampaign_basic)",
+      "url": "https://github.com/ActiveCampaign/postmark-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/postmark_activecampaign_basic/receipt.html",
+      "byte_size": 16524,
+      "content_hash": "1f6a3f3168eafdcaefd3843a4dc3b6d24cc82e8f042fe59963a973bce1bdf50b",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 11
+      }
+    },
+    {
+      "id": "fb06242ddb526ca48f2c832214e27375",
+      "source_id": "postmark_activecampaign_basic",
+      "source_name": "ActiveCampaign Postmark Templates (postmark_activecampaign_basic)",
+      "url": "https://github.com/ActiveCampaign/postmark-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/postmark_activecampaign_basic/trial-expired.html",
+      "byte_size": 15575,
+      "content_hash": "0b4edc204366978a3a8770ec4fefbee755ebae1fe738a080dba9e34dbed58e13",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 8
+      }
+    },
+    {
+      "id": "411f2d2f1c9c98f1a1a669803b44fbf5",
+      "source_id": "postmark_activecampaign_basic",
+      "source_name": "ActiveCampaign Postmark Templates (postmark_activecampaign_basic)",
+      "url": "https://github.com/ActiveCampaign/postmark-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/postmark_activecampaign_basic/trial-expiring.html",
+      "byte_size": 15586,
+      "content_hash": "54e2ed413a449b0a6ec4bbb58cf96f93ef430871a06f141e238d42971182ae62",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 8
+      }
+    },
+    {
+      "id": "414871f6c5b2683e1c2a17450d7fd900",
+      "source_id": "postmark_activecampaign_basic",
+      "source_name": "ActiveCampaign Postmark Templates (postmark_activecampaign_basic)",
+      "url": "https://github.com/ActiveCampaign/postmark-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/postmark_activecampaign_basic/user-invitation.html",
+      "byte_size": 13227,
+      "content_hash": "2e39adafe0e1f478073aabd78a823a39adfa797afe2373edd95104fc156b3b43",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 7
+      }
+    },
+    {
+      "id": "41cf5055303c4a0dc33e14895a8d6a70",
+      "source_id": "postmark_activecampaign_basic",
+      "source_name": "ActiveCampaign Postmark Templates (postmark_activecampaign_basic)",
+      "url": "https://github.com/ActiveCampaign/postmark-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/postmark_activecampaign_basic/welcome.html",
+      "byte_size": 15559,
+      "content_hash": "f4e6f8c99eb7badb601d06c16373c7e5913f8366e0d7aeeca5c4765657e17a35",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 11
+      }
+    },
+    {
+      "id": "00ea154038505d35c4a9ca43ff1967bf",
+      "source_id": "postmark_activecampaign_basic_full",
+      "source_name": "ActiveCampaign Postmark Templates (postmark_activecampaign_basic_full)",
+      "url": "https://github.com/ActiveCampaign/postmark-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/postmark_activecampaign_basic_full/comment-notification.html",
+      "byte_size": 11907,
+      "content_hash": "18a8537e383b831225a69dccab6ac8e10dbe4b896426fea9858080967d82fc2e",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 6
+      }
+    },
+    {
+      "id": "58e9d7b8af1c014052388048ef539dca",
+      "source_id": "postmark_activecampaign_basic_full",
+      "source_name": "ActiveCampaign Postmark Templates (postmark_activecampaign_basic_full)",
+      "url": "https://github.com/ActiveCampaign/postmark-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/postmark_activecampaign_basic_full/dunning.html",
+      "byte_size": 13953,
+      "content_hash": "986cebb446546913aa88f9ad99b782ef57d5a4f1a1f2c9d41fd5b5894c69c9a8",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 8
+      }
+    },
+    {
+      "id": "16fbe832697dd3cff66a7c8692a4acd1",
+      "source_id": "postmark_activecampaign_basic_full",
+      "source_name": "ActiveCampaign Postmark Templates (postmark_activecampaign_basic_full)",
+      "url": "https://github.com/ActiveCampaign/postmark-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/postmark_activecampaign_basic_full/example.html",
+      "byte_size": 20258,
+      "content_hash": "b3b7fc59f64858412f4734340345f34d578bcf56bd93308fea96eb7d82b20a6f",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 15
+      }
+    },
+    {
+      "id": "43ab5a5f6a92e4c95c819290d8931010",
+      "source_id": "postmark_activecampaign_basic_full",
+      "source_name": "ActiveCampaign Postmark Templates (postmark_activecampaign_basic_full)",
+      "url": "https://github.com/ActiveCampaign/postmark-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/postmark_activecampaign_basic_full/invoice.html",
+      "byte_size": 15988,
+      "content_hash": "489a875227a761d2552fec5bc2582fa04dfe4118bd4ef8cc86a07f06d983fa91",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 11
+      }
+    },
+    {
+      "id": "47741943eab4277800bab7f3121818be",
+      "source_id": "postmark_activecampaign_basic_full",
+      "source_name": "ActiveCampaign Postmark Templates (postmark_activecampaign_basic_full)",
+      "url": "https://github.com/ActiveCampaign/postmark-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/postmark_activecampaign_basic_full/password-reset-help.html",
+      "byte_size": 13079,
+      "content_hash": "a8742015626cafd39c9ecb4d2869fa622f8161fbf3a3a3b9b76242cb682dd7c2",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 7
+      }
+    },
+    {
+      "id": "afd5f420ee3cc0b84ed239b1c6a4cd95",
+      "source_id": "postmark_activecampaign_basic_full",
+      "source_name": "ActiveCampaign Postmark Templates (postmark_activecampaign_basic_full)",
+      "url": "https://github.com/ActiveCampaign/postmark-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/postmark_activecampaign_basic_full/password-reset.html",
+      "byte_size": 12940,
+      "content_hash": "ac6a52cf1c707bc510ef43bb10d933fb0dddb67ec1f1b0198323e0df3499aa20",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 7
+      }
+    },
+    {
+      "id": "f03d8472cf76dcb950d26ea2b1d6ce3c",
+      "source_id": "postmark_activecampaign_basic_full",
+      "source_name": "ActiveCampaign Postmark Templates (postmark_activecampaign_basic_full)",
+      "url": "https://github.com/ActiveCampaign/postmark-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/postmark_activecampaign_basic_full/receipt.html",
+      "byte_size": 16524,
+      "content_hash": "1f6a3f3168eafdcaefd3843a4dc3b6d24cc82e8f042fe59963a973bce1bdf50b",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 11
+      }
+    },
+    {
+      "id": "96594a16f53ee0bc8186d0ee356d27fa",
+      "source_id": "postmark_activecampaign_basic_full",
+      "source_name": "ActiveCampaign Postmark Templates (postmark_activecampaign_basic_full)",
+      "url": "https://github.com/ActiveCampaign/postmark-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/postmark_activecampaign_basic_full/trial-expired.html",
+      "byte_size": 15575,
+      "content_hash": "0b4edc204366978a3a8770ec4fefbee755ebae1fe738a080dba9e34dbed58e13",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 8
+      }
+    },
+    {
+      "id": "7d39b62840841a89173520e869b0609a",
+      "source_id": "postmark_activecampaign_basic_full",
+      "source_name": "ActiveCampaign Postmark Templates (postmark_activecampaign_basic_full)",
+      "url": "https://github.com/ActiveCampaign/postmark-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/postmark_activecampaign_basic_full/trial-expiring.html",
+      "byte_size": 15586,
+      "content_hash": "54e2ed413a449b0a6ec4bbb58cf96f93ef430871a06f141e238d42971182ae62",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 8
+      }
+    },
+    {
+      "id": "19f54771e18a705237188a47d618e1e0",
+      "source_id": "postmark_activecampaign_basic_full",
+      "source_name": "ActiveCampaign Postmark Templates (postmark_activecampaign_basic_full)",
+      "url": "https://github.com/ActiveCampaign/postmark-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/postmark_activecampaign_basic_full/user-invitation.html",
+      "byte_size": 13227,
+      "content_hash": "2e39adafe0e1f478073aabd78a823a39adfa797afe2373edd95104fc156b3b43",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 7
+      }
+    },
+    {
+      "id": "b39da06bae75660ad04710f3a83f280c",
+      "source_id": "postmark_activecampaign_basic_full",
+      "source_name": "ActiveCampaign Postmark Templates (postmark_activecampaign_basic_full)",
+      "url": "https://github.com/ActiveCampaign/postmark-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/postmark_activecampaign_basic_full/welcome.html",
+      "byte_size": 15559,
+      "content_hash": "f4e6f8c99eb7badb601d06c16373c7e5913f8366e0d7aeeca5c4765657e17a35",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 11
+      }
+    },
+    {
+      "id": "9013be8a2b99233718824b1442754487",
+      "source_id": "postmark_activecampaign_plain",
+      "source_name": "ActiveCampaign Postmark Templates (postmark_activecampaign_plain)",
+      "url": "https://github.com/ActiveCampaign/postmark-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/postmark_activecampaign_plain/comment-notification.html",
+      "byte_size": 11700,
+      "content_hash": "b31a9f568bf03ecb294349be1d4f8eed4c3de0d548e59f6b07e98ea1b239c13e",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 6
+      }
+    },
+    {
+      "id": "9086fbf4184e04a15aaa46e989648cb0",
+      "source_id": "postmark_activecampaign_plain",
+      "source_name": "ActiveCampaign Postmark Templates (postmark_activecampaign_plain)",
+      "url": "https://github.com/ActiveCampaign/postmark-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/postmark_activecampaign_plain/dunning.html",
+      "byte_size": 13746,
+      "content_hash": "eefd535987ffe3e4c79b254978432ff383f1f75cbc3ff4d229997517c80a20b0",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 8
+      }
+    },
+    {
+      "id": "4d27352f59e386fb8519ec783aade8ee",
+      "source_id": "postmark_activecampaign_plain",
+      "source_name": "ActiveCampaign Postmark Templates (postmark_activecampaign_plain)",
+      "url": "https://github.com/ActiveCampaign/postmark-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/postmark_activecampaign_plain/example.html",
+      "byte_size": 20051,
+      "content_hash": "2f62fc8e8d6d139cd4c8490f50d93f6374854eb241e77d23f505690134cc0723",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 15
+      }
+    },
+    {
+      "id": "c618039b07e774c4b8a45ccbf74c063a",
+      "source_id": "postmark_activecampaign_plain",
+      "source_name": "ActiveCampaign Postmark Templates (postmark_activecampaign_plain)",
+      "url": "https://github.com/ActiveCampaign/postmark-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/postmark_activecampaign_plain/invoice.html",
+      "byte_size": 15781,
+      "content_hash": "cc98baafb19de86bd443a09fc6d787ba1194b70299631c6d553e3f1f7fcc4dcd",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 11
+      }
+    },
+    {
+      "id": "ca176adf54d6bcc554415b9afc6378c9",
+      "source_id": "postmark_activecampaign_plain",
+      "source_name": "ActiveCampaign Postmark Templates (postmark_activecampaign_plain)",
+      "url": "https://github.com/ActiveCampaign/postmark-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/postmark_activecampaign_plain/password-reset-help.html",
+      "byte_size": 12872,
+      "content_hash": "5b176f77e4545b11de0249d05b0860b83f3581621c04cb366e91cfb687efa4ed",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 7
+      }
+    },
+    {
+      "id": "7c57a7e66ce9a842b55207452cf503ba",
+      "source_id": "postmark_activecampaign_plain",
+      "source_name": "ActiveCampaign Postmark Templates (postmark_activecampaign_plain)",
+      "url": "https://github.com/ActiveCampaign/postmark-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/postmark_activecampaign_plain/password-reset.html",
+      "byte_size": 12733,
+      "content_hash": "02c5186ea3863b2c362080c40fce3b8c12755a02fc55383cfded045e8f457b37",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 7
+      }
+    },
+    {
+      "id": "5c97f0ec83929912770e2a3f587a12a7",
+      "source_id": "postmark_activecampaign_plain",
+      "source_name": "ActiveCampaign Postmark Templates (postmark_activecampaign_plain)",
+      "url": "https://github.com/ActiveCampaign/postmark-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/postmark_activecampaign_plain/receipt.html",
+      "byte_size": 16317,
+      "content_hash": "b4e1eec21695ac1934fdeee7b859a964d577b796f584795b0f83fd18b6098225",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 11
+      }
+    },
+    {
+      "id": "69d6e7b080a0ae1c79a664f3691c8358",
+      "source_id": "postmark_activecampaign_plain",
+      "source_name": "ActiveCampaign Postmark Templates (postmark_activecampaign_plain)",
+      "url": "https://github.com/ActiveCampaign/postmark-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/postmark_activecampaign_plain/trial-expired.html",
+      "byte_size": 15368,
+      "content_hash": "0c394363cac06bb3bf9e844284ce2ab7b0e89bdc3cf90ed66207547d27e20f66",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 8
+      }
+    },
+    {
+      "id": "46fb4cab31ac31af7f66b79ba3212a5d",
+      "source_id": "postmark_activecampaign_plain",
+      "source_name": "ActiveCampaign Postmark Templates (postmark_activecampaign_plain)",
+      "url": "https://github.com/ActiveCampaign/postmark-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/postmark_activecampaign_plain/trial-expiring.html",
+      "byte_size": 15379,
+      "content_hash": "382c715e8565c0d021e81c55daa35aff8aabbfc46db30c2718768d4e4497e476",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 8
+      }
+    },
+    {
+      "id": "3cb75e2986ac4556992b820c14eb4d0e",
+      "source_id": "postmark_activecampaign_plain",
+      "source_name": "ActiveCampaign Postmark Templates (postmark_activecampaign_plain)",
+      "url": "https://github.com/ActiveCampaign/postmark-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/postmark_activecampaign_plain/user-invitation.html",
+      "byte_size": 13020,
+      "content_hash": "189f5f03e4f9d4cd7406cb954eeda3c31c7a52fe107164dced6db3dcf52a5f66",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 7
+      }
+    },
+    {
+      "id": "d823fdad7e0b886ba42f7d8d2c8c02d2",
+      "source_id": "postmark_activecampaign_plain",
+      "source_name": "ActiveCampaign Postmark Templates (postmark_activecampaign_plain)",
+      "url": "https://github.com/ActiveCampaign/postmark-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/postmark_activecampaign_plain/welcome.html",
+      "byte_size": 15352,
+      "content_hash": "c43d741cd52f0d044f6c5fda7049e3bf50e758e9dc2bdb2b0449ea4032e02c44",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 11
+      }
+    },
+    {
+      "id": "f8950723fe1200c43d2d072e3940feea",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/general-email-aleos.html",
+      "byte_size": 29553,
+      "content_hash": "7f171f400236441e0c044e194f5fc2fa53749cd2228eab8e58561b43ad19330e",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 46
+      }
+    },
+    {
+      "id": "0ccbc42c954b8eb8d39f4867ea0bc888",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/general-email-canaotes.html",
+      "byte_size": 23367,
+      "content_hash": "3df0c5d33683c6037f0ccaa107cc7595de3d538fe4767678a3ded3a5a902ac79",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 35
+      }
+    },
+    {
+      "id": "727024cca2f8d3b760c33e6d52a120e0",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/general-email-dineos.html",
+      "byte_size": 19911,
+      "content_hash": "76e1643c109540fa70ec6504859666b34f0906b4685cad6eb956cd488a60516b",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 32
+      }
+    },
+    {
+      "id": "5a9bcec169bd3966b0b8695fa44bd816",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/general-email-faedra.html",
+      "byte_size": 19799,
+      "content_hash": "5a76486cff351834a1c2e3089c0dadb54e980b3555e681a014d96c62498addc4",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 29
+      }
+    },
+    {
+      "id": "af09c7b58321493a988af36a3005ad8b",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/newsletter-email-aleos.html",
+      "byte_size": 38391,
+      "content_hash": "cb335a1a437012f471864e3198a045baa6e6954fa264504d28c3320df79a2b74",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 56
+      }
+    },
+    {
+      "id": "e08e5f5cf8f8d7f6873e51e247e05ccf",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/newsletter-email-canaotes.html",
+      "byte_size": 34330,
+      "content_hash": "324973e7d9ceec54b12ca88777e12f2375f3ee656f60456cb1280836cd9cb0af",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 46
+      }
+    },
+    {
+      "id": "b25de486219e9868106fb81fe57715a8",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/newsletter-email-dineos.html",
+      "byte_size": 33732,
+      "content_hash": "fcd38f89d711fdad986418db7c99e8f20492f4d25874b327f5cbb7fe5ed1d39c",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 50
+      }
+    },
+    {
+      "id": "e2dde5c56fe6e1c529987b2929691a2a",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/newsletter-email-faedra.html",
+      "byte_size": 48410,
+      "content_hash": "86cb70d1e1eafebd4d723b6f49ebbd8e07b203c6f985c18ba42a1322cbaf6c32",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 69
+      }
+    },
+    {
+      "id": "2b3ea323474bd39afa7c82961a028032",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/newsletter-email-korlavas.html",
+      "byte_size": 56036,
+      "content_hash": "342c3c242615ffc7a16a37059c2fbfe819189e9bdf153c513c70767abe931cb9",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 80
+      }
+    },
+    {
+      "id": "9a02928f421a217c147b6bbd150abfd5",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/newsletter-email-mardaloas.html",
+      "byte_size": 46185,
+      "content_hash": "14752255588403ae8a3a8051ba7dfa263b9697ce31f4c5852bdae666729a9566",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 63
+      }
+    },
+    {
+      "id": "cd5cdae4fdb9692a18eb7ed46b308430",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/newsletter-email-meslerides.html",
+      "byte_size": 42621,
+      "content_hash": "28bb5967f52747878eb0b7d09f0a4d266a138941eb7e11c0a3a684b6dbedf4b6",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 60
+      }
+    },
+    {
+      "id": "0f80ebf564741ed114e39b00755c2900",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/newsletter-email-ormes.html",
+      "byte_size": 48285,
+      "content_hash": "6ac4e3cd39b8ab27586af6bdb1c7e7f775e011b0a2712538dc78bfd06ef53d87",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 65
+      }
+    },
+    {
+      "id": "899687ba15509cf911845071a6f41acf",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/newsletter-email-orthipis.html",
+      "byte_size": 45284,
+      "content_hash": "7f1dc6a5e689d5082bd50501081cb3d2d387e613113b85d164f7542550f89ef3",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 63
+      }
+    },
+    {
+      "id": "fc3bfd65b0dc4877c8ccb76216aeba75",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/newsletter-email-tetrapis.html",
+      "byte_size": 48073,
+      "content_hash": "3521f7120e4343bc7f172a2b9442cf6ec3e5198d1df26113c37c0092dc6f04f7",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 70
+      }
+    },
+    {
+      "id": "caa2e7a57c79403566c012be8da6bd7e",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/newsletter-email-usiac.html",
+      "byte_size": 66769,
+      "content_hash": "afb7319f3caab40898e38a149c53f5c278408facaac7d029a5eb91baf5a7af21",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 89
+      }
+    },
+    {
+      "id": "f33984bb9d6a41c2d95ea89ccfb9c7b4",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/newsletter-email-xyimeasi.html",
+      "byte_size": 53963,
+      "content_hash": "634db032f185ea8aeeb85f5f68bb225c5d68534f832b2cbd64c7693893b91963",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 87
+      }
+    },
+    {
+      "id": "698eaa47f14e84f529d4b99988c3fce5",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/notification-email-aleos.html",
+      "byte_size": 47301,
+      "content_hash": "1ab7d2d60c31b867099b59cba53275c206d63c3e851ab8997944a55961612b44",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 77
+      }
+    },
+    {
+      "id": "392aeeb2c7bab46dccb7b6293e4e2436",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/notification-email-canaotes.html",
+      "byte_size": 39691,
+      "content_hash": "1c43b55bc0cee7ec9949615b9055ba546d78fd044c29441d9b862b3df4296e3e",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 65
+      }
+    },
+    {
+      "id": "00ecedb69f84b5765b4e59b1acdc5a5d",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/notification-email-dineos.html",
+      "byte_size": 44590,
+      "content_hash": "413adf724981d5f9dfcbefa6ef5bb0ea677413d7d9a867c878815824f8f51528",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 73
+      }
+    },
+    {
+      "id": "9415382e865298f6274046a690842517",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/notification-email-faedra.html",
+      "byte_size": 48064,
+      "content_hash": "b08182b204b63b961925de8812cb5a4e18be0197f28f71fd0d36230b399331c7",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 76
+      }
+    },
+    {
+      "id": "e07f9e9f5132b8d2c2ec306b231ecc87",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/notification-email-korlavas.html",
+      "byte_size": 46919,
+      "content_hash": "bc4d5f26f609ed7fa380333131b7dc906e803ed4d023a82d307b8f87c1934cff",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 71
+      }
+    },
+    {
+      "id": "651f5026dfd7f84dce0e292389407445",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/notification-email-mardaloas.html",
+      "byte_size": 35002,
+      "content_hash": "99a92d5013f2100d3ce7d234b9fc9484071cea125259ef16a5aff90c2b1a24d8",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 53
+      }
+    },
+    {
+      "id": "1bd73a9795500321b03442de441fa8d0",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/notification-email-meslerides.html",
+      "byte_size": 44640,
+      "content_hash": "db3fa605ffea51ede19a7fe883ec62937648d95841c43f5abbe59928149c4d6b",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 72
+      }
+    },
+    {
+      "id": "0fe2ff500846a90da18b6381c68b5cdd",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/notification-email-ormes.html",
+      "byte_size": 40994,
+      "content_hash": "dc21d7f1a2bc2daf347e6dbbb94310f2b92b101fa3a7a3eda98dd7943e6de795",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 61
+      }
+    },
+    {
+      "id": "277c16088fe0b63f43a8cafd2459ba92",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/notification-email-orthipis.html",
+      "byte_size": 45643,
+      "content_hash": "78971af2c57e6c92d66311574401fb271d332fa7bcff73e5d03c44c89ea13d7e",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 70
+      }
+    },
+    {
+      "id": "fdbf85cbe280ee4877b677e29877e489",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/notification-email-tetrapis.html",
+      "byte_size": 47070,
+      "content_hash": "389f1d108db8f58bc947eafceffc6db4098a31393c07739dd2aef019ac1cbc2c",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 70
+      }
+    },
+    {
+      "id": "54b674b7f0f7df3c4af6061db86961c4",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/notification-email-usiac.html",
+      "byte_size": 50072,
+      "content_hash": "3948ae6a2e9accc22faf0e9b8ebd7f2a8a778276412c7f3391758cac79472181",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 78
+      }
+    },
+    {
+      "id": "0b1f4f23276eac4244f6efc40938f1f8",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/notification-email-xyimeasi.html",
+      "byte_size": 40611,
+      "content_hash": "b2a9bd7547630b55be1741a6ab5237328b68dd6f6a3d68b2674ba00fa1a603ca",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 69
+      }
+    },
+    {
+      "id": "7bfa084ed08149d300da01016edae29a",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/receipt-email-aleos.html",
+      "byte_size": 33790,
+      "content_hash": "7f3d6dd5aad90fef0e46e8ecfe849793128fa79d99963b4f666235219090dff0",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 48
+      }
+    },
+    {
+      "id": "266ec787e06a5291bc65cc42ab83dd3e",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/receipt-email-canaotes.html",
+      "byte_size": 27062,
+      "content_hash": "d3d744f15ea41248fecd4c9f09c832a6ab57417648c37534125240efc0123c9e",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 36
+      }
+    },
+    {
+      "id": "54b10fce60d02aabf7c1e67075d19fa3",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/receipt-email-dineos.html",
+      "byte_size": 28798,
+      "content_hash": "d6f856585df9eb7c7bfca53d9274a6ff6b5ab076716f1428af422390c14e2d5a",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 43
+      }
+    },
+    {
+      "id": "c03931483fadf184d168d7c2ed0db75a",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/receipt-email-faedra.html",
+      "byte_size": 61256,
+      "content_hash": "ab3a20ab61f0acb27417ea5e3b645d7ffb4ce3705196ded837fbb839adb70a56",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 85
+      }
+    },
+    {
+      "id": "a560e1eafd81d982750f2239f77b7fe0",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/receipt-email-korlavas.html",
+      "byte_size": 40658,
+      "content_hash": "fd9fce42af1ccffde865e4c3cd89810b500faf4de960b6b7ad1fd2a915d99a5e",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 56
+      }
+    },
+    {
+      "id": "1fb814ab1dea0d85cd988f8f3e7fa09b",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/receipt-email-mardaloas.html",
+      "byte_size": 50130,
+      "content_hash": "d225cdf34bcafd3733f1c3eec0c1cbaacce128c6805de97134d85e68c3c73dd6",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 72
+      }
+    },
+    {
+      "id": "f7c6ef8929ad3496b2f1872d7a91154b",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/receipt-email-meslerides.html",
+      "byte_size": 32827,
+      "content_hash": "3c20d7dd1bcecb721f5b2b983879f1f0455189aeed9cc850722fca7dc84b0a49",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 50
+      }
+    },
+    {
+      "id": "0b50bca51c058b9897d24a2df192bdad",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/receipt-email-ormes.html",
+      "byte_size": 52174,
+      "content_hash": "b5687a5531041874ed0a1c9deebc63eb6f743ba0e57d0ac1d46d9086af5f9693",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 76
+      }
+    },
+    {
+      "id": "c49f27fcce56127d07a12c2b9158353e",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/receipt-email-orthipis.html",
+      "byte_size": 29461,
+      "content_hash": "5c914808409a2ce64885752b62288cbac3909102c473616299df2cf8d6776a35",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 39
+      }
+    },
+    {
+      "id": "c3c50dc53168dfd463a01a288f617154",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/receipt-email-tetrapis.html",
+      "byte_size": 31500,
+      "content_hash": "e2c7db38d26e1edb9a10c2b98e6c377df0bf254683d271df31b00f10782da567",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 46
+      }
+    },
+    {
+      "id": "c5dfdd398df317c2d17c272be914d347",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/receipt-email-usiac.html",
+      "byte_size": 34275,
+      "content_hash": "df922dc21b321d4db35daabc8fa035d2c3c1ea53ab624d14ae3bab80a7cefbb2",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 43
+      }
+    },
+    {
+      "id": "754dbf50b6334fa473a6e8a51cfe6715",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/receipt-email-xyimeasi.html",
+      "byte_size": 30268,
+      "content_hash": "bf859f3bd3937d975c0604fec2b1364a6c00ea62128d78f67e9500594283d9c1",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 50
+      }
+    },
+    {
+      "id": "ce7f0c4ca7bb273ae7da0d4bdfd6abc0",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/reset-email-aleos.html",
+      "byte_size": 22712,
+      "content_hash": "9f1fc246e5a05f45a15982daf03a1ca71953500a83f7111919f91009112b43ea",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 37
+      }
+    },
+    {
+      "id": "b0acb14d34f167c8d679369f76dc1b53",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/reset-email-canaotes.html",
+      "byte_size": 18377,
+      "content_hash": "d1ff3ad2d2845355eb0fb0fdecc52acbcc24bc6330407a287993ef9b45b14aa6",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 27
+      }
+    },
+    {
+      "id": "fffb2434717139473c18e3e9f45d68cf",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/reset-email-dineos.html",
+      "byte_size": 17033,
+      "content_hash": "eea2de5bf48e3844f210d71536745d08d21be2d624fc16eed422bef091a95590",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 26
+      }
+    },
+    {
+      "id": "e2aa38e46f35f30cf9e90a49ed1f2c6c",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/reset-email-faedra.html",
+      "byte_size": 19879,
+      "content_hash": "d9f0ef2d052ed695bf4f5ad8375da4d481bae4b5a1bbbc3a9405555dd5e28850",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 29
+      }
+    },
+    {
+      "id": "944c7832344973097470ce13b6cae0de",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/reset-email-korlavas.html",
+      "byte_size": 31729,
+      "content_hash": "6623b16d5e471773da1810a379485a4e37239964f6e9b5bff571320d7831d890",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 48
+      }
+    },
+    {
+      "id": "78c9d8538ad87cc12a269f7c05731395",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/reset-email-mardaloas.html",
+      "byte_size": 20803,
+      "content_hash": "23369a392064fb4a6fb9e074a31c7501168e332591f19e45ae113a4acaa1b8ff",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 26
+      }
+    },
+    {
+      "id": "243ba68fe09fa64c6cf6ef01ebfc76bb",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/reset-email-meslerides.html",
+      "byte_size": 24269,
+      "content_hash": "aa932f3eddfd0f041aeecf80999890236c747c6e7a0147cc4d563006b2f58e66",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 40
+      }
+    },
+    {
+      "id": "ef5dd2ed929b995e4a818ec5d0351848",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/reset-email-ormes.html",
+      "byte_size": 21311,
+      "content_hash": "33037a58b2db919b3b2e432149253bd0ea7f27b696c6e19af2bce447453e62af",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 30
+      }
+    },
+    {
+      "id": "469539c181908e4812f45855083e9bb8",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/reset-email-orthipis.html",
+      "byte_size": 18640,
+      "content_hash": "5783a3c271237fa314e9f4842bd9545b8646b3f3795c770cb8df3a87c652fb56",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 28
+      }
+    },
+    {
+      "id": "e672bea028de75e4d3c6497efa15d8d2",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/reset-email-tetrapis.html",
+      "byte_size": 24736,
+      "content_hash": "93d3031006817f83be944de4d2efbb19503d6aa0941d6bea655bf98cec2cc425",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 39
+      }
+    },
+    {
+      "id": "81c51b83b336b2547477626aa6f83553",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/reset-email-usiac.html",
+      "byte_size": 25363,
+      "content_hash": "8b639ca68ed25787106841d8df907bef8152440013ec12a55c1d0db71f573f90",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 33
+      }
+    },
+    {
+      "id": "55a5e857a25488a49f461d1d03f2ff19",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/reset-email-xyimeasi.html",
+      "byte_size": 25075,
+      "content_hash": "701748afcabbf8902409dcc3622168e71b6e01f5a853d425804b7856e1ebd9d4",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 42
+      }
+    },
+    {
+      "id": "19a17f9958a6c783c1dc10372afcfee3",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/welcome-email-aleos.html",
+      "byte_size": 19281,
+      "content_hash": "222b1dad9044b6af73c06f8dea24ec4d20fac9dcd135968c9d3efcf8a0a13d61",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 30
+      }
+    },
+    {
+      "id": "2e0fc7943485c227fa3029ea8e98fe54",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/welcome-email-canaotes.html",
+      "byte_size": 18681,
+      "content_hash": "0f9d4e8d9fc13ef6c7169cbd33bd12de3fd65ced28aa74424a0b8977a1c27a49",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 27
+      }
+    },
+    {
+      "id": "ef47f886a179bcea7db648651cf2a9a2",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/welcome-email-dineos.html",
+      "byte_size": 34165,
+      "content_hash": "2806e5d839c77a616c3e316946bf55fc9e2d6a15f88f78a5e59e2c32a6290db9",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 51
+      }
+    },
+    {
+      "id": "a086732887f4f2cb12d2db05eac08259",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/welcome-email-faedra.html",
+      "byte_size": 19371,
+      "content_hash": "e765f7378a67c96a679dbfac91611ae8d50d1e4f79cc29161ba8982f241dc1c0",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 29
+      }
+    },
+    {
+      "id": "e2adfa8f135d3c53b1dabe05c2fe1d09",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/welcome-email-korlavas.html",
+      "byte_size": 32122,
+      "content_hash": "a478b955b9f6411aff18b88f8253f63b23856495b00ab45891b91c9453f1ac21",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 48
+      }
+    },
+    {
+      "id": "c785b03e88b2a6a4c2bc4ebda7e660ea",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/welcome-email-mardaloas.html",
+      "byte_size": 20027,
+      "content_hash": "1c671401b352837124b50840de0d2d350378a9ecf63b17981c6ef6d94dba25f6",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 26
+      }
+    },
+    {
+      "id": "030dca64bd88af2553bab312a3f2e50c",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/welcome-email-meslerides.html",
+      "byte_size": 24879,
+      "content_hash": "ff0d83d3a49738cfe8180680642a6ca2e5678eb513a601a89e43f73e48032cae",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 40
+      }
+    },
+    {
+      "id": "01d2179d94348c9b14905b1790462aae",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/welcome-email-ormes.html",
+      "byte_size": 22728,
+      "content_hash": "ac98f95726226904bfde9a3b7cd17b882eb7554caad3e5021400b1a32ae8198f",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 30
+      }
+    },
+    {
+      "id": "855c4105c60837e809d28f79aa5b72f8",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/welcome-email-orthipis.html",
+      "byte_size": 18670,
+      "content_hash": "f514a7baafbc01d16ba2412755c8c3977f0e767f4154e5832bd98f1c309dbe85",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 28
+      }
+    },
+    {
+      "id": "a4de2512b8b43471088bae5e6fbf0c94",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/welcome-email-tetrapis.html",
+      "byte_size": 24320,
+      "content_hash": "9e4c1d8b072374cd4da2008000b546c370847b8b4cd13c88216f662a1bb70154",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 39
+      }
+    },
+    {
+      "id": "34a5411431de58fe82b6fef4165a0419",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/welcome-email-usiac.html",
+      "byte_size": 25239,
+      "content_hash": "25ae35b9dc1555e3a1d4b6949f85ccef5095fca9d833e6eba96eb95ad13c9c19",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 33
+      }
+    },
+    {
+      "id": "04d9e0d41873e91b7c0e1e92788bf01a",
+      "source_id": "codedmailsfree_full",
+      "source_name": "CodedMailsFree Templates",
+      "url": "https://github.com/hunzaboy/CodedMailsFree",
+      "license": "Other",
+      "type": "html",
+      "file_path": "data/raw/codedmailsfree_full/welcome-email-xyimeasi.html",
+      "byte_size": 25212,
+      "content_hash": "2ab09411acc796d0d7fc908d6e00f873d93a19d33209c582ea8d59c11b046a4d",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 42
+      }
+    },
+    {
+      "id": "7b199e2ad2b956d76b5fe61c363dd632",
+      "source_id": "mailchimp_blueprints",
+      "source_name": "Mailchimp Email Blueprints",
+      "url": "https://github.com/mailchimp/email-blueprints",
+      "license": "None",
+      "type": "html",
+      "file_path": "data/raw/mailchimp_blueprints/fancy-1-3-2.html",
+      "byte_size": 36577,
+      "content_hash": "ffe29523e5966a42454c2d0a6fe822ffa5b9b52ad74c20a73526656699a59e2e",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 17
+      }
+    },
+    {
+      "id": "5c089de387621b34a941f372641e8488",
+      "source_id": "mailchimp_blueprints",
+      "source_name": "Mailchimp Email Blueprints",
+      "url": "https://github.com/mailchimp/email-blueprints",
+      "license": "None",
+      "type": "html",
+      "file_path": "data/raw/mailchimp_blueprints/fancy-1-50-25-25.html",
+      "byte_size": 28728,
+      "content_hash": "654fba3b44cdc59b5ca74108c7f010b93d8775ef0d8e2215327b7697ef9d30d5",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 12
+      }
+    },
+    {
+      "id": "9dd022e4b05c9caf4854dfb52e214124",
+      "source_id": "mailchimp_blueprints",
+      "source_name": "Mailchimp Email Blueprints",
+      "url": "https://github.com/mailchimp/email-blueprints",
+      "license": "None",
+      "type": "html",
+      "file_path": "data/raw/mailchimp_blueprints/fancy-2-1-3-leftsidebar.html",
+      "byte_size": 49235,
+      "content_hash": "df37b1ed8111850d17af2c2fc05ab07f87c77c325803de0a323251e9fe9ad88d",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 24
+      }
+    },
+    {
+      "id": "bde28521ea3dd15f0135eeacc86fa4e8",
+      "source_id": "mailchimp_blueprints",
+      "source_name": "Mailchimp Email Blueprints",
+      "url": "https://github.com/mailchimp/email-blueprints",
+      "license": "None",
+      "type": "html",
+      "file_path": "data/raw/mailchimp_blueprints/fancy-2-1-3-rightsidebar.html",
+      "byte_size": 49237,
+      "content_hash": "fa6dce7c41c0de07b0085eb1839473cc20ceff8c2b5fea45783a1d0fd9f4fe89",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 24
+      }
+    },
+    {
+      "id": "dd45a3026f6bafcab4767f0ad1a5423e",
+      "source_id": "mailchimp_blueprints",
+      "source_name": "Mailchimp Email Blueprints",
+      "url": "https://github.com/mailchimp/email-blueprints",
+      "license": "None",
+      "type": "html",
+      "file_path": "data/raw/mailchimp_blueprints/fancy-50-25-25-1.html",
+      "byte_size": 28721,
+      "content_hash": "ad7a67701e06397dec893fa82f955fab98e9b4fdf2d6fc3fa4f9405a39a02ee1",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 12
+      }
+    },
+    {
+      "id": "a0350ab8e5b90c4f5215adfbf371dddb",
+      "source_id": "mailchimp_blueprints",
+      "source_name": "Mailchimp Email Blueprints",
+      "url": "https://github.com/mailchimp/email-blueprints",
+      "license": "None",
+      "type": "html",
+      "file_path": "data/raw/mailchimp_blueprints/fancy-50-25-25.html",
+      "byte_size": 25160,
+      "content_hash": "c0e4c4e838bffac60c177121081f3bd304b2990fadb4aac6e641b2115d7a25a2",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 11
+      }
+    },
+    {
+      "id": "083a0859abb6837245449e3ceb08920e",
+      "source_id": "mailchimp_blueprints",
+      "source_name": "Mailchimp Email Blueprints",
+      "url": "https://github.com/mailchimp/email-blueprints",
+      "license": "None",
+      "type": "html",
+      "file_path": "data/raw/mailchimp_blueprints/modular-template-patterns.html",
+      "byte_size": 83092,
+      "content_hash": "154a45287aebf4f3f2e1936efe19b37191e91e67f3e811f44a45b844ee54c0a0",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 81
+      }
     }
   ]
 }
