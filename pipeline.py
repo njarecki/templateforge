@@ -29,9 +29,10 @@ from external_sources import (
     extract_section_patterns,
     EXTERNAL_SOURCES,
 )
+from mjml_converter import convert_template_to_mjml, generate_mjml_template
 
 
-def run_pipeline(output_file=None, verbose=True):
+def run_pipeline(output_file=None, verbose=True, output_format="html"):
     """
     Execute the full TemplateForge pipeline.
 
@@ -43,6 +44,11 @@ def run_pipeline(output_file=None, verbose=True):
     5. Generate 3 Layout Variants Per Template
     6. Self-Critique + Auto-Fix
     7. Return Final Output
+
+    Args:
+        output_file: Path to save output JSON
+        verbose: Whether to print progress messages
+        output_format: 'html' or 'mjml' - determines template output format
     """
     if verbose:
         print("=" * 60)
@@ -114,10 +120,29 @@ def run_pipeline(output_file=None, verbose=True):
         fix_template_issues(t) for t in batch["layoutVariants"]
     ]
 
+    # Convert to MJML if requested
+    if output_format == "mjml":
+        if verbose:
+            print("Converting templates to MJML format...")
+
+        for template in batch["normalizedTemplates"]:
+            template["mjml"] = convert_template_to_mjml(template)
+
+        for template in batch["reskinnedTemplates"]:
+            template["mjml"] = convert_template_to_mjml(template)
+
+        for template in batch["layoutVariants"]:
+            template["mjml"] = convert_template_to_mjml(template)
+
+        if verbose:
+            print(f"  - Converted {batch['metadata']['total_templates']} templates to MJML")
+            print()
+
     # Add generation metadata
     batch["metadata"]["generated_at"] = datetime.now(timezone.utc).isoformat()
     batch["metadata"]["pipeline_version"] = "1.0.0"
     batch["metadata"]["validation"] = validation_results
+    batch["metadata"]["output_format"] = output_format
 
     # Step 7: Output
     if verbose:
@@ -143,15 +168,25 @@ def run_pipeline(output_file=None, verbose=True):
     return batch
 
 
-def run_single_template(template_type, skin="apple_light", output_file=None):
+def run_single_template(template_type, skin="apple_light", output_file=None, output_format="html"):
     """Generate a single template with optional output to file."""
     template = generate_template(template_type, skin)
     template = fix_template_issues(template)
+
+    # Add MJML conversion if requested
+    if output_format == "mjml":
+        template["mjml"] = convert_template_to_mjml(template)
 
     if output_file:
         if output_file.endswith(".html"):
             with open(output_file, "w") as f:
                 f.write(template["html"])
+        elif output_file.endswith(".mjml"):
+            # Output raw MJML file
+            if "mjml" not in template:
+                template["mjml"] = convert_template_to_mjml(template)
+            with open(output_file, "w") as f:
+                f.write(template["mjml"])
         else:
             with open(output_file, "w") as f:
                 json.dump(template, f, indent=2)
@@ -282,6 +317,12 @@ def main():
         action="store_true",
         help="List available external template sources"
     )
+    parser.add_argument(
+        "--format", "-f",
+        help="Output format: html (default) or mjml",
+        choices=["html", "mjml"],
+        default="html"
+    )
 
     args = parser.parse_args()
 
@@ -330,7 +371,8 @@ def main():
         result = run_single_template(
             args.template,
             args.skin,
-            args.output
+            args.output,
+            output_format=args.format
         )
         if not args.output:
             if args.json_only:
@@ -338,14 +380,19 @@ def main():
             else:
                 print(f"Generated: {result['name']} ({result['skin_name']})")
                 print(f"Sections: {', '.join(result['sections_used'])}")
+                print(f"Format: {args.format.upper()}")
                 if not args.quiet:
-                    print("\nHTML Preview (first 500 chars):")
-                    print(result['html'][:500] + "...")
+                    if args.format == "mjml" and "mjml" in result:
+                        print("\nMJML Preview (first 500 chars):")
+                        print(result['mjml'][:500] + "...")
+                    else:
+                        print("\nHTML Preview (first 500 chars):")
+                        print(result['html'][:500] + "...")
         return
 
     # Run full pipeline
     verbose = not (args.quiet or args.json_only)
-    result = run_pipeline(args.output, verbose=verbose)
+    result = run_pipeline(args.output, verbose=verbose, output_format=args.format)
 
     if args.json_only and not args.output:
         print(json.dumps(result))
