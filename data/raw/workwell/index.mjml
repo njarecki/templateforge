@@ -1,0 +1,127 @@
+<mjml>
+    <mj-head>
+        <mj-title>Goodbye, Doubt 👋</mj-title>
+        <mj-attributes>
+        <mj-class name="bg" background-color="#f2ebdf" />
+        <mj-class name="txt--aqua" color="#2ecfcf" />
+        <mj-class name="txt--salmon" color="#e68383" />
+        <mj-all font-family="sans-serif" />
+        </mj-attributes>
+    </mj-head>
+    <mj-body background-color="#f2ebdf" width="640px">
+        <mj-include path="./style/style.css" type="css"/>
+        
+            <mj-section>
+                <mj-column>
+                    <mj-image src="./img/workwell.png" alt="Work Well" href="https://www.weworkwell.io/" width="125px" />
+                    <mj-text align="center">
+                        <h1>THE WORKWELL WEEKLY</h1>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section background-color="#fff">
+                <mj-column width="640px" padding="0">
+                    <mj-text align="center" padding="0">
+                        <h2 style="margin:0px;">What We're Reading</h2>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section background-color="#fff" padding-top="0px">
+                 <mj-column vertical-align="middle" width="300px">
+                    <mj-image src="./img/art.png" alt="Artwork" padding="0 0 0 30px" css-class="artwork" />
+                    
+                </mj-column>
+                <mj-column vertical-align="middle" width="300px">
+                    <mj-text line-height="1.6"  align="center" >
+                        <p>
+                            Are you being sabotaged by self-doubt? Recently overheard while hiding in the back row of a Soul Cycle  🚴‍♀️  class - "Doubts will have more of your dreams than you will if you let it." This hit hard, and I started thinking about all the opportunities I turned away or chances that passed by because discounting myself was less painful than letting somebody else potentially do it first. If you can think of any of those times too (even just one), here's an <a href="https://money.com/self-doubt-at-work-strategies/" target="_blank">article</a> on how to overcome the different types of doubt holding you back. 
+                        </p>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <!-- Divider -->
+            <mj-section padding="1px">
+                <mj-column width="640px">
+                </mj-column>
+            </mj-section>
+            <mj-section background-color="#fff">
+                <mj-column width="640px">
+                    <mj-text align="center" >
+                        <h2>Upcoming Events</h2>
+                    </mj-text>
+                    <mj-text padding="0 45px 50px" >
+                        <h3>Thursday, 23 September</h3>
+                        <h4 class="sub-headline">Growing your Network from your Couch <span><img src="./img/couch.png" class="emoji"></span> (with GA) 5 - 6:30 PDT</h4>
+                        <p style="line-height:1.6">
+                        <span class="semi-bold"> Do you want to connect with the people who can help forward your career without ever going to another networking event again? If you are a yes to this and are struggling to gain traction in your job search or career path, we have exactly what you need. While networking events provide great speakers, a reason to put on pants, and often dinner, we know there are some nights you’d rather make career moves with Netflix playing quietly in the background. Join WorkWell founders, Whitney and Lucy, for an evening on what they like to call couch networking. This event is partnered with General Assembly - click HERE for your ticket.</span>
+                        
+                        Join WorkWell founders, Whitney and Lucy, for an evening on what they like to call couch networking. This event is partnered with General Assembly - click <a href="https://www.weworkwell.io/events" class="link">HERE</a> for your ticket.   
+                        </p>
+                    </mj-text>
+                    <mj-text padding="0 40px" >
+                    <h3>Thursday, 30 September</h3>
+                    <h4 class="sub-headline">How to Get the Job ASAP 📈(with General Assembly) 5 - 6:30 PDT</h4>
+                    <p style="line-height:1.6"><span class="sub-headline">Do you want to find your dream job without sacrificing your sanity / giving up the things that bring you joy? Are you a job seeker or working professional who is #doingallthethings + have no idea when / how to effectively put effort into your job search? If you're a yes to any of that, join WorkWell's Founders, Whitney + Lucy for a session on breaking down your job search so that you can handle all of life's moving parts while still crushing your goals.</span>
+                    This event is partnered with General Assembly - click <a href="https://www.weworkwell.io/events" class="link">HERE</a> for your ticket.  
+                    </p>
+                    </mj-text>
+                    <mj-text align="center" font-size="18px" font-weight="bold">
+                        <span >Interested in more upcoming Events?</span>
+                    </mj-text>
+                    <mj-button font-weight="600" font-size="18px" background-color="#e68383" inner-padding="15px 30px" href="https://www.weworkwell.io/events" border-radius="4px" color="#ffffff">
+                        Click Here!
+                    </mj-button>
+                </mj-column>
+            </mj-section>
+            <!-- Divider -->
+            <mj-section padding="1px">
+                <mj-column width="640px">
+                </mj-column>
+            </mj-section>
+            <mj-section background-color="#ffffff">
+                <mj-column>
+                    <mj-text align="center" padding-top="0">
+                        <h1>WorkWell Wisdom</h1>
+                    </mj-text>
+                    <mj-text padding="0 45px 5px" line-height="1.6" font-size="18px">
+                        <p class="semi-bold" style="text-align:center">
+                         Focus on the positive (even if there's a negative). Have a running note of all the good things that have happened and what you've achieved so you can look back at where you've come from. It'll set you up nicely for when you need to update your resume or looking for behavioral answers for interviews.
+                        </p>
+                       
+                        <p class="semi-bold" style="text-align:center; padding-top:20px">
+                        While your life isn't always going to be rainbows 🌈 and butterflies 🦋, that's okay because there will always be some kind of positive in a negative, whether it's something you learned from that experience, what you discovered about yourself or even a partnership that formed. And when you're feeling the negatives too much, it'll a reminder of what an awesome person you are 🌟!
+                        </p>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+             <!-- Divider -->
+            <mj-section padding="1px">
+                <mj-column width="640px">
+                </mj-column>
+            </mj-section>
+            <mj-section background-color="#ffffff">
+                <mj-column>
+                    <mj-text align="center">
+                        <h1>Job Search + Interview Skills Accelerator</h1>
+                    </mj-text>
+                    <mj-image src="img/elevate-career.png" alt="Elevate your Career" width="550px" padding-bottom="30px" />
+                    <mj-text padding="0 45px 5px">
+                        <h4 class="sub-headline">Your Dream Career Starts Here.</h4>
+                        <p style="line-height:1.6; font-family: Montserrat, sans-serif;">
+                        Shorter job searches and higher-paying + fulfilling jobs? <br>
+
+We’re <b>SO</b> here for it… and have the insider knowledge to help you take your (next) career further, faster. <br>
+
+<b>YOU</b> are the key to landing the role of your dreams, taking your career to new heights, and getting paid what you deserve. Join a WorkWell cohort, and we’ll give you all the tools you need to do it.
+                        </p>
+                        <p style="line-height:1.6; font-family: Montserrat, sans-serif; padding-top:20px">The first step? Book your Info Session, right here! </p>
+                    </mj-text>
+                    <mj-button font-weight="600" font-size="18px" background-color="#e68383" inner-padding="15px 30px" href="https://www.weworkwell.io/events" border-radius="4px" color="#ffffff">
+                        Next Session: September 24th!
+                    </mj-button>
+                    </mj-button>
+                </mj-column>
+            </mj-section>
+            <mj-include path="./footer.mjml" />
+    </mj-body>
+</mjml>

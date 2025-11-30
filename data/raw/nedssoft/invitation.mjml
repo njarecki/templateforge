@@ -1,0 +1,53 @@
+<mjml>
+  <mj-head>
+    <mj-title>Vendor Added</mj-title>
+    <mj-font name="Lato" href="https://fonts.googleapis.com/css?family=Lato"></mj-font>
+    <mj-style inline="inline">*{ font-family: Lato; }
+        .link-no-style:link{
+          color: #0180C6;
+
+        }
+            .link-no-style:hover{
+          color: #0180C6;
+          
+        }
+         
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#FFF">
+     <mj-section background-color="#F5F8FA">
+      <mj-column width="600px">
+        <mj-text align="center" font-style="#333333" font-size="16px" line-height="19px" >SpendTrim</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="600px">
+        <mj-text font-size="18px" font-family="Lato" line-height="21px" align="center" color="#000000">You’ve been invited!</mj-text>
+        <mj-text font-size="18px" line-height="21px" font-family="Lato" align="center">Mark Essien (mark@hotels.​ng) has invited you to join the company Hotels.ng on SpendTrim. Join now to start collaborating!</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="600px">
+        <mj-button href="#" background-color="#0187D0" font-style="bold" line-height="21px" font-size="18px" border-radius="25px" font-family="Lato">Join Now</mj-button>
+        <mj-text align="center" color="#000000" font-style="Book" font-size="18px" line-height="21px" font-family="Lato">SpendTrim is an award-winning web based smart & simple platform for companies to manage Expenses and Assets.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="600px">
+        <mj-text font-size="18px" line-height="21px" align="left" font-family="Lato">Thanks,</mj-text>
+        <mj-text font-size="18px" line-height="21px" align="left" font-family="Lato">SpendTrim Support Team</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#F5F8FA">
+      <mj-column width="600px">
+        <mj-text align="center" font-style="#333333" font-size="16px" line-height="19px" font-family="Lato">Copyright © 2018 - SpendTrim</mj-text>
+        <mj-social font-size="15px" icon-size="16px" mode="horizontal">
+          <mj-social-element name="facebook"></mj-social-element>
+          <mj-social-element name="twitter"></mj-social-element>
+          <mj-social-element name="google"></mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

@@ -1,0 +1,59 @@
+<mjml>
+  <mj-head>
+    <mj-title>Vendor Added</mj-title>
+    <mj-font name="Lato" href="https://fonts.googleapis.com/css?family=Lato"></mj-font>
+    <mj-style inline="inline">*{ font-family: Lato; }
+        .link-no-style:link{
+          color: #0180C6;
+
+        }
+            .link-no-style:hover{
+          color: #0180C6;
+          
+        }
+         
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#FFF">
+     <mj-section background-color="#F5F8FA">
+      <mj-column width="600px">
+        <mj-text align="center" font-style="#333333" font-size="16px" line-height="19px" font-family="Lato" >SpendTrim</mj-text>
+        
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="600px">
+
+        <mj-text font-size="18px" font-family="Lato"  line-height="21px" align="left"><b>Hotels.ng</b> has invited you to bid on <b>30 tables for the office expense</b>.
+       </mj-text>
+      <mj-button href="#" background-color="#0187D0" font-family="Lato" font-style="bold" line-height="21px" align="left"font-size="18px" height="58px" width="282px">Accept Invitation</mj-button>
+      </mj-column>
+    </mj-section>
+     <mj-section>
+      <mj-column width="600px">
+
+        <mj-text font-size="18px" font-family="Lato"  line-height="21px" align="left"> SpendTrim is an app that is used to manage company expenses
+       </mj-text>
+       <mj-text font-size="18px" font-family="Lato"  line-height="21px" align="left"> With SpendTrim, You can bid on expenses, create and manage your own company expenses and also get vendors to bid on your expenses.
+       </mj-text>
+       </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column width="600px">
+        <mj-text font-size="18px" line-height="21px" font-family="Lato"  align="left">Thanks,</mj-text>
+        <mj-text font-size="18px" line-height="21px" font-family="Lato"  align="left">SpendTrim Support Team</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#F5F8FA">
+      <mj-column width="600px">
+        <mj-text align="center" font-style="#333333" font-size="16px" line-height="19px" font-family="Lato" >Copyright © 2018 - SpendTrim Inc.</mj-text>
+        <mj-social font-size="15px" icon-size="16px" mode="horizontal">
+          <mj-social-element name="facebook"></mj-social-element>
+          <mj-social-element name="twitter"></mj-social-element>
+          <mj-social-element name="google"></mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

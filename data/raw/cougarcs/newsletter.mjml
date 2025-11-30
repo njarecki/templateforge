@@ -1,0 +1,231 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Arial, Helvetica, sans-serif" font-size="16px" line-height="1.5" color="#000" padding="0" align="left" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body width="500px">
+    <mj-wrapper padding="15px" background-color="#fff">
+      <mj-section>
+        <mj-column>
+          <mj-image width="200px" padding-bottom="30px" src="https://cougarcs.com/static/media/logo.59994e81.png" />
+          <mj-text font-size="20px" padding-bottom="30px">Newsletter - Month 01, 2021</mj-text>
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Announcement -->
+      <mj-section padding-bottom="40px">
+        <mj-column background-color="#FEE7E7" border-radius="5px" padding="20px">
+          <mj-text color="#EC1C24" font-weight="bold" padding-bottom="20px">Announcement</mj-text>
+          <mj-text>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+
+
+
+
+      <!-- Events -->
+      <mj-section padding-bottom="50px">
+        <mj-column>
+          <mj-text color="#EC1C24" font-weight="bold" font-size="28px">
+            Events at CougarCS
+          </mj-text>
+          <!-- ----------------------- -->
+
+
+          <!-- ----------------------- -->
+
+          <mj-image padding-top="30px" padding-bottom="25px" src="http://cdn.mcauto-images-production.sendgrid.net/d00602356fcec198/18cefa79-bd44-4668-baef-25d7dfb48998/647x312.png" />
+          <mj-text font-size="20px" font-weight="600">Career Fair 101
+          </mj-text>
+          <mj-text font-size="13px">powered by <b>CougarCS</b></mj-text>
+
+          <mj-table padding-top="15px">
+            <tr>
+              <td style="padding: 0 0 10px 0;" width="20px">
+                <img src="http://cdn.mcauto-images-production.sendgrid.net/a52504832f6f59ef/79647fa6-6235-40cd-a100-4ef8a78f2225/18x21.jpg" width="20px" />
+              </td>
+              <td style="padding: 0 0 10px 20px;">
+                <mj-text>Wed, Feb 24th </mj-text>
+              </td>
+            </tr>
+            <tr>
+              <td widht="20px">
+                <img src="http://cdn.mcauto-images-production.sendgrid.net/a52504832f6f59ef/193f8d26-5fef-47b8-abb7-e08067f3dafe/20x21.jpg" width="20px" />
+              </td>
+              <td style="padding: 0 0 0 20px;">
+                <mj-text padding-top="10px">6:00 - 7:00 PM</mj-text>
+              </td>
+            </tr>
+          </mj-table>
+          <mj-text padding-top="20px">
+            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+            <a href="">Follow this link to join!</a>
+          </mj-text>
+
+          <!-- ----------------------- -->
+          <!-- ----------------------- -->
+
+          <mj-image padding-top="30px" padding-bottom="25px" src="http://cdn.mcauto-images-production.sendgrid.net/d00602356fcec198/f5aace3b-d6fc-4da5-ae31-10ba8530e7a3/656x324.png" />
+          <mj-text font-size="20px" font-weight="600">HackerRank 101</mj-text>
+          <mj-text font-size="13px">powered by <b>CougarCS</b></mj-text>
+
+          <mj-table padding-top="15px">
+            <tr>
+              <td style="padding: 0 0 10px 0;" width="20px">
+                <img src="http://cdn.mcauto-images-production.sendgrid.net/a52504832f6f59ef/79647fa6-6235-40cd-a100-4ef8a78f2225/18x21.jpg" width="20px" />
+              </td>
+              <td style="padding: 0 0 10px 20px;">
+                <mj-text>Mon, March 8th </mj-text>
+              </td>
+            </tr>
+            <tr>
+              <td widht="20px">
+                <img src="http://cdn.mcauto-images-production.sendgrid.net/a52504832f6f59ef/193f8d26-5fef-47b8-abb7-e08067f3dafe/20x21.jpg" width="20px" />
+              </td>
+              <td style="padding: 0 0 0 20px;">
+                <mj-text padding-top="10px">6:00 - 7:30 PM</mj-text>
+              </td>
+            </tr>
+          </mj-table>
+          <mj-text padding-top="20px">
+            CougarCS Tutoring will be hosting our first Hackerrank Workshop for the semester! This workshop will be covering interview prep as well as feature one of the most common styles of technical interview questions you will face in Internship & Entry level interviews. Join us for a lighthearted competition against your peers that will run the gambit from very basic Hackerrank questions to a ‘Boss Fight’ question that is guaranteed to fray the nerves of even the most seasoned coder. This is going to be fun!
+            <a href="https://discord.gg/mrUmSSa">Follow this link to join!</a>
+          </mj-text>
+
+          <!-- ----------------------- -->
+          <!-- ----------------------- -->
+
+
+          <mj-divider border-width="2px" padding-top="30px" padding-bottom="30px" />
+          <mj-text font-size="20px" font-weight="600">Wacode Hackathon
+
+          </mj-text>
+
+          <mj-text padding-top="15px">
+            <b>Feb 27th, 11:00 AM</b><br /> Wacode virtual hackathon is to take place in just two weeks! They’ll have prizes, tech-talks, and networking opportunities. <a href="www.wacode.org">Follow this link for more information!</a>
+          </mj-text>
+
+
+          <!-- ----------------------- -->
+          <!-- ----------------------- -->
+
+
+          <mj-divider border-width="2px" padding-top="30px" padding-bottom="30px" />
+          <mj-text font-size="20px" font-weight="600">Diversity in Quantum Computing Conference
+
+          </mj-text>
+
+          <mj-text padding-top="15px">
+            <b>Feb 27th, 10:00 AM - 5:00 PM</b><br /> Qubit by Qubit, a quantum computing education nonprofit, is hosting a free Diversity in Quantum Computing conference. This event will bring together students, educators, and academic and industry leaders to discuss how we can create an inclusive and equitable quantum future. This event is completely free to attend and will feature panels, a graduate student fireside chat, and industry leader spotlight presentations <a href="https://www.qubitbyqubit.org/conference">Follow this link for more information and register!</a>
+          </mj-text>
+
+          <!-- ----------------------- -->
+
+
+
+
+        </mj-column>
+      </mj-section>
+
+
+
+      <!-- Round Up -->
+      <mj-section padding-bottom="50px">
+        <mj-column>
+
+          <mj-text color="#EC1C24" font-weight="bold" font-size="28px" padding-bottom="28px">
+            Round Up
+          </mj-text>
+          
+					<mj-text padding-bottom="15px">
+            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+          </mj-text>
+
+          <mj-text padding-bottom="15px">
+            Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. <a href="https://veteransunited.wd1.myworkdayjobs.com/en-US/VUHL/job/Internship--Immersion-Diversity-Summer-2021-Opportunities_R74">Follow this link to learn more!</a>
+          </mj-text>
+
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Connect with us -->
+      <mj-section padding-bottom="20px">
+        <mj-column>
+          <mj-text color="#EC1C24" font-weight="bold" font-size="28px" padding-bottom="28px">
+            Connect with us
+          </mj-text>
+          <mj-table>
+            <tr>
+              <td style="padding: 0 0 14px 0;" width="35px">
+                <img src="http://cdn.mcauto-images-production.sendgrid.net/a52504832f6f59ef/80a9b732-e81a-4c87-abb5-a92dde1c8f64/18x21.jpg" width="18px" />
+              </td>
+              <td style="padding: 0 0 14px 0;">
+                <mj-text padding-left="10px" vertical-align="middle"><a href="https://discord.gg/gXRMPpT">Join the CougarCS Discord</a></mj-text>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding: 0 0 14px 0;" width="35px">
+                <img src="http://cdn.mcauto-images-production.sendgrid.net/a52504832f6f59ef/80a9b732-e81a-4c87-abb5-a92dde1c8f64/18x21.jpg" width="18px" />
+              </td>
+              <td style="padding: 0 0 14px 0;">
+                <mj-text padding-left="10px" vertical-align="middle"><a href="https://discord.gg/h2nKve4">Join the CougarCS Tutoring Discord</a></mj-text>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding: 0 0 14px 0;" width="35px">
+                <img src="http://cdn.mcauto-images-production.sendgrid.net/a52504832f6f59ef/7b9a859b-6c89-435e-aaa7-79f9028cdff6/21x21.jpg" width="20px" />
+              </td>
+              <td style="padding: 0 0 14px 0;">
+                <mj-text padding-left="10px" vertical-align="middle"><a href="https://groupme.com/join_group/43340116/mcgUwN">Join the CougarCS GroupMe</a></mj-text>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding: 0 0 14px 0;" width="35px">
+                <img src="http://cdn.mcauto-images-production.sendgrid.net/a52504832f6f59ef/7b9a859b-6c89-435e-aaa7-79f9028cdff6/21x21.jpg" width="20px" />
+              </td>
+              <td style="padding: 0 0 14px 0;">
+                <mj-text padding-left="10px" vertical-align="middle"><a href="https://groupme.com/join_group/63122888/kX0fPEpB">Join the CougarCS Events Announcement GroupMe</a></mj-text>
+              </td>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+
+    <mj-section padding="30px" background-color="#F0F0F0">
+      <mj-column>
+        <mj-text align="center" font-size="18px" font-weight="bold" padding-bottom="20px">Follow Us</mj-text>
+        <mj-navbar align="center" padding-bottom="40px">
+          <mj-navbar-link href="https://www.instagram.com/uhcougarcs/" padding="0 12px">
+            <img src="http://cdn.mcauto-images-production.sendgrid.net/a52504832f6f59ef/e9db312f-a2ea-4041-b1b8-e2546fef331c/18x19.png" width="17px" />
+          </mj-navbar-link>
+          <mj-navbar-link href="https://www.facebook.com/cougarcs" padding="0 12px">
+            <img src="http://cdn.mcauto-images-production.sendgrid.net/a52504832f6f59ef/63dae031-f875-4bdf-afc5-dc23fb673eb3/10x16.png" width="10px" />
+          </mj-navbar-link>
+          <mj-navbar-link href="https://www.linkedin.com/company/cougarcs-uh/" padding="0 12px">
+            <img src="http://cdn.mcauto-images-production.sendgrid.net/a52504832f6f59ef/4eaa7652-5b2e-4ea7-8237-2d8a20ae0361/16x16.png" width="16px" />
+          </mj-navbar-link>
+          <mj-navbar-link href="https://twitter.com/UHCougarCS" padding="0 12px">
+            <img src="http://cdn.mcauto-images-production.sendgrid.net/a52504832f6f59ef/f7d18a28-b4f9-42c1-a3d8-56ccf109bf8c/17x15.png" width="17px" />
+          </mj-navbar-link>
+          <mj-navbar-link href="https://cougarcs.com/" padding="0 12px">
+            <img src="http://cdn.mcauto-images-production.sendgrid.net/a52504832f6f59ef/9d32fae7-08e7-4dfd-8bbe-70187256c6a4/17x17.png" width="17px" />
+          </mj-navbar-link>
+        </mj-navbar>
+        <mj-text align="center" font-size="12px">
+          Want to change how you receive these emails? You can <a href=[%unsubscribe%]>unsubscribe</a> from this list.
+          <br /><br /> 4800 Calhoun Rd, Houston, TX 77004
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
