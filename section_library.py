@@ -1112,6 +1112,280 @@ def section_app_store_badges():
     }
 
 
+def section_team_members():
+    """Team members grid with photos and roles."""
+    return {
+        "type": "team_members",
+        "name": "Team Members",
+        "html": f'''
+<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+    <tr>
+        <td style="padding: 24px;">
+            <h2 style="font-family: {{{{brandFont}}}}; font-size: 24px; color: {{{{brandPrimary}}}}; margin: 0 0 24px; text-align: center;">{{{{teamHeadline}}}}</h2>
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                <tr>
+                    <!--[if mso]>
+                    <td width="33%" valign="top">
+                    <![endif]-->
+                    <!--[if !mso]><!-->
+                    <td style="display: inline-block; width: 100%; max-width: 192px; vertical-align: top; padding: 8px;" class="mobile-full">
+                    <!--<![endif]-->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                            <tr>
+                                <td align="center">
+                                    <img src="{IMAGE_PLACEHOLDERS['avatar']}" alt="{{{{member1Name}}}}" width="100" height="100" style="display: block; border-radius: 50%;" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" style="padding-top: 12px;">
+                                    <h4 style="font-family: {{{{brandFont}}}}; font-size: 16px; color: {{{{brandPrimary}}}}; margin: 0;">{{{{member1Name}}}}</h4>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" style="padding-top: 4px;">
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandSecondary}}}}; margin: 0;">{{{{member1Role}}}}</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <!--[if mso]>
+                    </td><td width="33%" valign="top">
+                    <![endif]-->
+                    <!--[if !mso]><!-->
+                    <td style="display: inline-block; width: 100%; max-width: 192px; vertical-align: top; padding: 8px;" class="mobile-full">
+                    <!--<![endif]-->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                            <tr>
+                                <td align="center">
+                                    <img src="{IMAGE_PLACEHOLDERS['avatar']}" alt="{{{{member2Name}}}}" width="100" height="100" style="display: block; border-radius: 50%;" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" style="padding-top: 12px;">
+                                    <h4 style="font-family: {{{{brandFont}}}}; font-size: 16px; color: {{{{brandPrimary}}}}; margin: 0;">{{{{member2Name}}}}</h4>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" style="padding-top: 4px;">
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandSecondary}}}}; margin: 0;">{{{{member2Role}}}}</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <!--[if mso]>
+                    </td><td width="33%" valign="top">
+                    <![endif]-->
+                    <!--[if !mso]><!-->
+                    <td style="display: inline-block; width: 100%; max-width: 192px; vertical-align: top; padding: 8px;" class="mobile-full">
+                    <!--<![endif]-->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                            <tr>
+                                <td align="center">
+                                    <img src="{IMAGE_PLACEHOLDERS['avatar']}" alt="{{{{member3Name}}}}" width="100" height="100" style="display: block; border-radius: 50%;" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" style="padding-top: 12px;">
+                                    <h4 style="font-family: {{{{brandFont}}}}; font-size: 16px; color: {{{{brandPrimary}}}}; margin: 0;">{{{{member3Name}}}}</h4>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" style="padding-top: 4px;">
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandSecondary}}}}; margin: 0;">{{{{member3Role}}}}</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <!--[if mso]>
+                    </td>
+                    <![endif]-->
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+'''
+    }
+
+
+def section_comparison_table():
+    """Feature comparison table for products/plans."""
+    return {
+        "type": "comparison_table",
+        "name": "Comparison Table",
+        "html": '''
+<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+    <tr>
+        <td style="padding: 24px;">
+            <h2 style="font-family: {brandFont}; font-size: 24px; color: {brandPrimary}; margin: 0 0 24px; text-align: center;">{{comparisonHeadline}}</h2>
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="border: 1px solid {brandSecondary}30; border-radius: 8px; overflow: hidden;">
+                <!-- Header Row -->
+                <tr style="background-color: {brandPrimary};">
+                    <td style="padding: 12px 16px; border-right: 1px solid {brandSecondary}30;">
+                        <p style="font-family: {brandFont}; font-size: 14px; color: {brandBG}; margin: 0; font-weight: 600;">Feature</p>
+                    </td>
+                    <td style="padding: 12px 16px; border-right: 1px solid {brandSecondary}30; text-align: center;">
+                        <p style="font-family: {brandFont}; font-size: 14px; color: {brandBG}; margin: 0; font-weight: 600;">{{compCol1}}</p>
+                    </td>
+                    <td style="padding: 12px 16px; text-align: center;">
+                        <p style="font-family: {brandFont}; font-size: 14px; color: {brandBG}; margin: 0; font-weight: 600;">{{compCol2}}</p>
+                    </td>
+                </tr>
+                <!-- Row 1 -->
+                <tr style="background-color: {brandBG};">
+                    <td style="padding: 12px 16px; border-right: 1px solid {brandSecondary}20; border-bottom: 1px solid {brandSecondary}20;">
+                        <p style="font-family: {brandFont}; font-size: 14px; color: {brandText}; margin: 0;">{{compRow1Feature}}</p>
+                    </td>
+                    <td style="padding: 12px 16px; border-right: 1px solid {brandSecondary}20; border-bottom: 1px solid {brandSecondary}20; text-align: center;">
+                        <p style="font-family: {brandFont}; font-size: 14px; color: {brandText}; margin: 0;">{{compRow1Col1}}</p>
+                    </td>
+                    <td style="padding: 12px 16px; border-bottom: 1px solid {brandSecondary}20; text-align: center;">
+                        <p style="font-family: {brandFont}; font-size: 14px; color: {brandText}; margin: 0;">{{compRow1Col2}}</p>
+                    </td>
+                </tr>
+                <!-- Row 2 -->
+                <tr style="background-color: {brandSecondary}08;">
+                    <td style="padding: 12px 16px; border-right: 1px solid {brandSecondary}20; border-bottom: 1px solid {brandSecondary}20;">
+                        <p style="font-family: {brandFont}; font-size: 14px; color: {brandText}; margin: 0;">{{compRow2Feature}}</p>
+                    </td>
+                    <td style="padding: 12px 16px; border-right: 1px solid {brandSecondary}20; border-bottom: 1px solid {brandSecondary}20; text-align: center;">
+                        <p style="font-family: {brandFont}; font-size: 14px; color: {brandText}; margin: 0;">{{compRow2Col1}}</p>
+                    </td>
+                    <td style="padding: 12px 16px; border-bottom: 1px solid {brandSecondary}20; text-align: center;">
+                        <p style="font-family: {brandFont}; font-size: 14px; color: {brandText}; margin: 0;">{{compRow2Col2}}</p>
+                    </td>
+                </tr>
+                <!-- Row 3 -->
+                <tr style="background-color: {brandBG};">
+                    <td style="padding: 12px 16px; border-right: 1px solid {brandSecondary}20; border-bottom: 1px solid {brandSecondary}20;">
+                        <p style="font-family: {brandFont}; font-size: 14px; color: {brandText}; margin: 0;">{{compRow3Feature}}</p>
+                    </td>
+                    <td style="padding: 12px 16px; border-right: 1px solid {brandSecondary}20; border-bottom: 1px solid {brandSecondary}20; text-align: center;">
+                        <p style="font-family: {brandFont}; font-size: 14px; color: {brandText}; margin: 0;">{{compRow3Col1}}</p>
+                    </td>
+                    <td style="padding: 12px 16px; border-bottom: 1px solid {brandSecondary}20; text-align: center;">
+                        <p style="font-family: {brandFont}; font-size: 14px; color: {brandText}; margin: 0;">{{compRow3Col2}}</p>
+                    </td>
+                </tr>
+                <!-- Row 4 -->
+                <tr style="background-color: {brandSecondary}08;">
+                    <td style="padding: 12px 16px; border-right: 1px solid {brandSecondary}20;">
+                        <p style="font-family: {brandFont}; font-size: 14px; color: {brandText}; margin: 0;">{{compRow4Feature}}</p>
+                    </td>
+                    <td style="padding: 12px 16px; border-right: 1px solid {brandSecondary}20; text-align: center;">
+                        <p style="font-family: {brandFont}; font-size: 14px; color: {brandText}; margin: 0;">{{compRow4Col1}}</p>
+                    </td>
+                    <td style="padding: 12px 16px; text-align: center;">
+                        <p style="font-family: {brandFont}; font-size: 14px; color: {brandText}; margin: 0;">{{compRow4Col2}}</p>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+'''
+    }
+
+
+def section_stats_metrics():
+    """Stats/metrics row with 3-4 key numbers."""
+    return {
+        "type": "stats_metrics",
+        "name": "Stats Metrics",
+        "html": '''
+<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+    <tr>
+        <td style="padding: 32px 24px; background-color: {brandPrimary};">
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                <tr>
+                    <!--[if mso]>
+                    <td width="25%" valign="top">
+                    <![endif]-->
+                    <!--[if !mso]><!-->
+                    <td style="display: inline-block; width: 100%; max-width: 144px; vertical-align: top; padding: 8px;" class="mobile-full">
+                    <!--<![endif]-->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                            <tr>
+                                <td align="center">
+                                    <p style="font-family: {brandFont}; font-size: 36px; color: {brandBG}; margin: 0; font-weight: 700;">{{stat1Value}}</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" style="padding-top: 4px;">
+                                    <p style="font-family: {brandFont}; font-size: 14px; color: {brandBG}; margin: 0; opacity: 0.8;">{{stat1Label}}</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <!--[if mso]>
+                    </td><td width="25%" valign="top">
+                    <![endif]-->
+                    <!--[if !mso]><!-->
+                    <td style="display: inline-block; width: 100%; max-width: 144px; vertical-align: top; padding: 8px;" class="mobile-full">
+                    <!--<![endif]-->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                            <tr>
+                                <td align="center">
+                                    <p style="font-family: {brandFont}; font-size: 36px; color: {brandBG}; margin: 0; font-weight: 700;">{{stat2Value}}</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" style="padding-top: 4px;">
+                                    <p style="font-family: {brandFont}; font-size: 14px; color: {brandBG}; margin: 0; opacity: 0.8;">{{stat2Label}}</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <!--[if mso]>
+                    </td><td width="25%" valign="top">
+                    <![endif]-->
+                    <!--[if !mso]><!-->
+                    <td style="display: inline-block; width: 100%; max-width: 144px; vertical-align: top; padding: 8px;" class="mobile-full">
+                    <!--<![endif]-->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                            <tr>
+                                <td align="center">
+                                    <p style="font-family: {brandFont}; font-size: 36px; color: {brandBG}; margin: 0; font-weight: 700;">{{stat3Value}}</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" style="padding-top: 4px;">
+                                    <p style="font-family: {brandFont}; font-size: 14px; color: {brandBG}; margin: 0; opacity: 0.8;">{{stat3Label}}</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <!--[if mso]>
+                    </td><td width="25%" valign="top">
+                    <![endif]-->
+                    <!--[if !mso]><!-->
+                    <td style="display: inline-block; width: 100%; max-width: 144px; vertical-align: top; padding: 8px;" class="mobile-full">
+                    <!--<![endif]-->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                            <tr>
+                                <td align="center">
+                                    <p style="font-family: {brandFont}; font-size: 36px; color: {brandBG}; margin: 0; font-weight: 700;">{{stat4Value}}</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" style="padding-top: 4px;">
+                                    <p style="font-family: {brandFont}; font-size: 14px; color: {brandBG}; margin: 0; opacity: 0.8;">{{stat4Label}}</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <!--[if mso]>
+                    </td>
+                    <![endif]-->
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+'''
+    }
+
+
 # Registry of all sections
 SECTION_REGISTRY = {
     "hero": section_hero,
@@ -1144,6 +1418,9 @@ SECTION_REGISTRY = {
     "pricing_table": section_pricing_table,
     "progress_tracker": section_progress_tracker,
     "app_store_badges": section_app_store_badges,
+    "team_members": section_team_members,
+    "comparison_table": section_comparison_table,
+    "stats_metrics": section_stats_metrics,
 }
 
 
