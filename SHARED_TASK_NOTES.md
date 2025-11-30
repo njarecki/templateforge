@@ -1,10 +1,10 @@
 # TemplateForge Generation Task Notes
 
 ## Current Status (Updated 2025-11-30)
-- **Generated**: 134 templates (66 original, 68 inspired)
+- **Generated**: 158 templates (79 original, 79 inspired)
 - **Target**: 10,000 unique templates (score ≥85)
 - **Required split**: 50% inspired / 50% original
-- **Current split**: 49% original / 51% inspired (well balanced)
+- **Current split**: 50% original / 50% inspired (perfectly balanced)
 - **All templates**: Valid HTML, MJML-compiled, 0 duplicates
 
 ## Run Commands
@@ -29,11 +29,11 @@ npx mjml temp_generation/input.mjml -o temp_generation/output.html
 ```
 
 ## Category Distribution (Current)
-- Ecommerce: 29
-- Transactional: 27
-- Welcome: 26
-- Promo: 26
-- Newsletter: 26
+- Ecommerce: 34
+- Transactional: 32
+- Newsletter: 31
+- Promo: 31
+- Welcome: 30
 
 ## Section Library (from runbook)
 hero, subhero, 1col_text, 2col_text_image, 3col_features, product_grid, testimonial, story_block, cta_band, header_nav, offer_banner, order_summary, social_icons, footer_simple, footer_complex, divider, spacer, countdown, numbered_list
@@ -64,30 +64,35 @@ All images: placeholder URLs from placehold.co
    - All 10 style packs being used
    - Continue rotating through styles per category
 
-## Latest Batch Added (19 new templates)
+## Latest Batch Added (24 new templates)
 
-**Original (10):**
-- newsletter_original_011 (Newsletter, Editorial Serif, score 91)
-- newsletter_original_012 (Newsletter, Brutalist Bold, score 92)
-- newsletter_original_013 (Newsletter, Warm Neutral, score 91)
-- welcome_original_013 (Welcome, Modern Gradient, score 91)
-- promo_original_010 (Promo, DTC Pastel, score 92)
-- promo_original_011 (Promo, Modern Gradient, score 92)
-- ecommerce_original_010 (Ecommerce, Apple Light Minimal, score 91)
-- ecommerce_original_011 (Ecommerce, Neon Gaming, score 91)
-- transactional_original_009 (Transactional, Linear Dark, score 91)
-- transactional_original_010 (Transactional, Apple Light Minimal, score 90)
+**Original (13):**
+- welcome_original_014 (Welcome, Warm Neutral, score 91)
+- welcome_original_015 (Welcome, Linear Dark, score 92)
+- promo_original_012 (Promo, DTC Pastel, score 92)
+- promo_original_013 (Promo, Apple Light Minimal, score 91)
+- promo_original_014 (Promo, Neon Gaming, score 92)
+- ecommerce_original_012 (Ecommerce, Minimal White, score 91)
+- ecommerce_original_013 (Ecommerce, Editorial Serif, score 92)
+- ecommerce_original_014 (Ecommerce, DTC Pastel, score 91)
+- newsletter_original_014 (Newsletter, Modern Gradient, score 91)
+- newsletter_original_015 (Newsletter, Brutalist Bold, score 92)
+- newsletter_original_016 (Newsletter, Warm Neutral, score 91)
+- transactional_original_011 (Transactional, Warm Neutral, score 91)
+- transactional_original_012 (Transactional, Apple Light Minimal, score 90)
 
-**Inspired (9):**
-- newsletter_inspired_012 (Newsletter, DTC Pastel, score 90)
-- newsletter_inspired_013 (Newsletter, Neon Gaming, score 92)
-- welcome_inspired_012 (Welcome, Black & Gold Premium, score 93)
-- welcome_inspired_013 (Welcome, DTC Pastel, score 90)
-- promo_inspired_012 (Promo, Minimal White, score 91)
-- ecommerce_inspired_012 (Ecommerce, Minimal White, score 90)
-- ecommerce_inspired_013 (Ecommerce, Warm Neutral, score 91)
-- transactional_inspired_011 (Transactional, Modern Gradient, score 90)
-- transactional_inspired_012 (Transactional, DTC Pastel, score 90)
+**Inspired (11):**
+- welcome_inspired_014 (Welcome, Neon Gaming, score 90)
+- welcome_inspired_015 (Welcome, Black & Gold Premium, score 91)
+- promo_inspired_013 (Promo, Linear Dark, score 91)
+- promo_inspired_014 (Promo, DTC Pastel, score 90)
+- ecommerce_inspired_014 (Ecommerce, Warm Neutral, score 91)
+- ecommerce_inspired_015 (Ecommerce, Modern Gradient, score 91)
+- newsletter_inspired_014 (Newsletter, Apple Light Minimal, score 90)
+- newsletter_inspired_015 (Newsletter, Editorial Serif, score 92)
+- transactional_inspired_013 (Transactional, Minimal White, score 90)
+- transactional_inspired_014 (Transactional, Linear Dark, score 91)
+- transactional_inspired_015 (Transactional, Brutalist Bold, score 90)
 
 ## Quality Criteria (from runbook)
 - Score ≥85 to keep

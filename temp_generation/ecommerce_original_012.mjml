@@ -1,0 +1,140 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}" />
+      <mj-text color="{brandText}" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" />
+    </mj-attributes>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .mobile-stack { display: block !important; width: 100% !important; }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="{brandBG}" width="640px">
+    <mj-section background-color="#ffffff" padding="15px 25px">
+      <mj-column width="33%">
+        <mj-image src="https://placehold.co/120x45/png?text=LOGO" alt="Store logo" width="120px" align="left" />
+      </mj-column>
+      <mj-column width="67%">
+        <mj-text align="right" font-size="13px" padding-top="12px">
+          <a href="#" style="color: {brandText}; text-decoration: none; margin-right: 20px;">Shop</a>
+          <a href="#" style="color: {brandText}; text-decoration: none; margin-right: 20px;">New</a>
+          <a href="#" style="color: {brandText}; text-decoration: none; margin-right: 20px;">Sale</a>
+          <a href="#" style="color: {brandText}; text-decoration: none;">Account</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="{brandPrimary}" padding="8px 20px">
+      <mj-column>
+        <mj-text align="center" color="#ffffff" font-size="12px">
+          Free shipping on orders $50+ | Easy 30-day returns
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="40px 25px 30px">
+      <mj-column>
+        <mj-image src="https://placehold.co/590x350/png?text=Hero+Image" alt="New arrivals hero" width="590px" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="10px 25px 40px">
+      <mj-column>
+        <mj-text font-size="32px" font-weight="bold" align="center" color="{brandPrimary}">
+          New Arrivals
+        </mj-text>
+        <mj-text font-size="16px" align="center" line-height="1.6" padding-top="15px">
+          Fresh styles just landed. Be the first to shop our latest collection.
+        </mj-text>
+        <mj-button href="#" font-size="15px" padding="14px 40px" border-radius="5px" padding-top="25px">
+          Shop New Arrivals
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f7f7f7" padding="40px 15px">
+      <mj-column width="50%">
+        <mj-image src="https://placehold.co/280x340/png?text=Product+1" alt="Product 1" />
+        <mj-text font-size="16px" font-weight="bold" align="center" padding-top="15px">Classic Essential Tee</mj-text>
+        <mj-text font-size="15px" align="center" color="#666666">$34.99</mj-text>
+        <mj-button href="#" font-size="13px" padding="10px 30px" border-radius="3px" padding-top="10px">
+          Add to Cart
+        </mj-button>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image src="https://placehold.co/280x340/png?text=Product+2" alt="Product 2" />
+        <mj-text font-size="16px" font-weight="bold" align="center" padding-top="15px">Premium Denim Jacket</mj-text>
+        <mj-text font-size="15px" align="center" color="#666666">$89.99</mj-text>
+        <mj-button href="#" font-size="13px" padding="10px 30px" border-radius="3px" padding-top="10px">
+          Add to Cart
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f7f7f7" padding="0 15px 40px">
+      <mj-column width="50%">
+        <mj-image src="https://placehold.co/280x340/png?text=Product+3" alt="Product 3" />
+        <mj-text font-size="16px" font-weight="bold" align="center" padding-top="15px">Weekend Hoodie</mj-text>
+        <mj-text font-size="15px" align="center" color="#666666">$59.99</mj-text>
+        <mj-button href="#" font-size="13px" padding="10px 30px" border-radius="3px" padding-top="10px">
+          Add to Cart
+        </mj-button>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image src="https://placehold.co/280x340/png?text=Product+4" alt="Product 4" />
+        <mj-text font-size="16px" font-weight="bold" align="center" padding-top="15px">Athletic Joggers</mj-text>
+        <mj-text font-size="15px" align="center" color="#666666">$49.99</mj-text>
+        <mj-button href="#" font-size="13px" padding="10px 30px" border-radius="3px" padding-top="10px">
+          Add to Cart
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="{brandSecondary}" padding="40px 30px">
+      <mj-column>
+        <mj-text font-size="22px" font-weight="bold" align="center" color="{brandPrimary}">
+          Complete the Look
+        </mj-text>
+        <mj-text font-size="15px" align="center" padding-top="10px">
+          Pair your favorites with accessories and essentials.
+        </mj-text>
+        <mj-button href="#" font-size="14px" padding="12px 35px" border-radius="20px" padding-top="20px">
+          Shop Accessories
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="35px 30px">
+      <mj-column width="33%">
+        <mj-image src="https://placehold.co/60x60/png?text=Ship" alt="Shipping icon" width="50px" align="center" />
+        <mj-text font-size="13px" font-weight="bold" align="center" padding-top="10px">Free Shipping</mj-text>
+        <mj-text font-size="11px" align="center" color="#888888">Orders $50+</mj-text>
+      </mj-column>
+      <mj-column width="33%">
+        <mj-image src="https://placehold.co/60x60/png?text=Return" alt="Returns icon" width="50px" align="center" />
+        <mj-text font-size="13px" font-weight="bold" align="center" padding-top="10px">Easy Returns</mj-text>
+        <mj-text font-size="11px" align="center" color="#888888">30-day policy</mj-text>
+      </mj-column>
+      <mj-column width="33%">
+        <mj-image src="https://placehold.co/60x60/png?text=Secure" alt="Security icon" width="50px" align="center" />
+        <mj-text font-size="13px" font-weight="bold" align="center" padding-top="10px">Secure Checkout</mj-text>
+        <mj-text font-size="11px" align="center" color="#888888">SSL encrypted</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#1a1a1a" padding="30px">
+      <mj-column>
+        <mj-social font-size="15px" icon-size="25px" mode="horizontal" align="center">
+          <mj-social-element name="facebook" href="#" alt="Facebook" />
+          <mj-social-element name="instagram" href="#" alt="Instagram" />
+          <mj-social-element name="twitter" href="#" alt="Twitter" />
+          <mj-social-element name="pinterest" href="#" alt="Pinterest" />
+        </mj-social>
+        <mj-text align="center" color="#888888" font-size="12px" padding-top="20px">
+          <a href="#" style="color: #aaaaaa;">Shop</a> | <a href="#" style="color: #aaaaaa;">About</a> | <a href="#" style="color: #aaaaaa;">Contact</a>
+        </mj-text>
+        <mj-divider border-color="#333333" padding="15px 0" />
+        <mj-text align="center" color="#666666" font-size="11px">
+          <a href="#" style="color: #888888;">Unsubscribe</a> | <a href="#" style="color: #888888;">Preferences</a> | <a href="#" style="color: #888888;">Privacy</a>
+        </mj-text>
+        <mj-text align="center" color="#555555" font-size="10px" padding-top="10px">
+          Store Name, 555 Fashion Ave, Style City 88776
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
