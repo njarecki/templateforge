@@ -1925,6 +1925,213 @@ def section_subscription_renewal():
     }
 
 
+def section_wishlist_item():
+    """Wishlist reminder product item with availability status."""
+    return {
+        "type": "wishlist_item",
+        "name": "Wishlist Item",
+        "html": f'''
+<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+    <tr>
+        <td style="padding: 16px 24px;">
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="border: 1px solid {{{{brandSecondary}}}}20; border-radius: 8px;">
+                <tr>
+                    <td style="padding: 16px;">
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                            <tr>
+                                <td width="120" valign="top">
+                                    <img src="{IMAGE_PLACEHOLDERS['product']}" alt="{{{{wishlistItemAlt}}}}" width="100" height="100" style="display: block; border-radius: 4px;" />
+                                </td>
+                                <td style="padding-left: 16px;" valign="top">
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                                        <tr>
+                                            <td>
+                                                <p style="font-family: {{{{brandFont}}}}; font-size: 12px; color: {{{{brandSecondary}}}}; margin: 0 0 4px; text-transform: uppercase; letter-spacing: 0.5px;">{{{{wishlistItemBrand}}}}</p>
+                                                <h4 style="font-family: {{{{brandFont}}}}; font-size: 16px; color: {{{{brandPrimary}}}}; margin: 0 0 8px; font-weight: 600;">{{{{wishlistItemName}}}}</h4>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p style="font-family: {{{{brandFont}}}}; font-size: 18px; color: {{{{brandPrimary}}}}; margin: 0 0 8px; font-weight: 700;">{{{{wishlistItemPrice}}}}</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <table cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: {{{{wishlistItemStatusColor}}}}15; border-radius: 4px;">
+                                                    <tr>
+                                                        <td style="padding: 4px 10px;">
+                                                            <p style="font-family: {{{{brandFont}}}}; font-size: 12px; color: {{{{wishlistItemStatusColor}}}}; margin: 0; font-weight: 600;">{{{{wishlistItemStatus}}}}</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding-top: 12px;">
+                                                <a href="{{{{wishlistItemUrl}}}}" style="display: inline-block; padding: 10px 20px; background-color: {{{{brandAccent}}}}; color: #ffffff; font-family: {{{{brandFont}}}}; font-size: 14px; font-weight: 600; text-decoration: none; border-radius: 6px;">View Item</a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+'''
+    }
+
+
+def section_price_alert():
+    """Price drop alert section showing original and new price."""
+    return {
+        "type": "price_alert",
+        "name": "Price Alert",
+        "html": f'''
+<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+    <tr>
+        <td style="padding: 24px;">
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="border: 2px solid {{{{brandAccent}}}}; border-radius: 12px; overflow: hidden;">
+                <!-- Alert header -->
+                <tr>
+                    <td style="background-color: {{{{brandAccent}}}}; padding: 12px 20px;">
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                            <tr>
+                                <td>
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: #ffffff; margin: 0; font-weight: 700;">🔔 PRICE DROP ALERT</p>
+                                </td>
+                                <td align="right">
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: #ffffff; margin: 0; font-weight: 600;">{{{{priceAlertSavings}}}} OFF</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- Product details -->
+                <tr>
+                    <td style="padding: 20px;">
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                            <tr>
+                                <td width="140" valign="top">
+                                    <img src="{IMAGE_PLACEHOLDERS['product']}" alt="{{{{priceAlertItemAlt}}}}" width="120" height="120" style="display: block; border-radius: 8px;" />
+                                </td>
+                                <td style="padding-left: 20px;" valign="top">
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 12px; color: {{{{brandSecondary}}}}; margin: 0 0 4px; text-transform: uppercase; letter-spacing: 0.5px;">{{{{priceAlertItemBrand}}}}</p>
+                                    <h3 style="font-family: {{{{brandFont}}}}; font-size: 18px; color: {{{{brandPrimary}}}}; margin: 0 0 12px; font-weight: 600;">{{{{priceAlertItemName}}}}</h3>
+
+                                    <!-- Price comparison -->
+                                    <table cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-bottom: 16px;">
+                                        <tr>
+                                            <td style="padding-right: 12px;">
+                                                <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandSecondary}}}}; margin: 0; text-decoration: line-through;">{{{{priceAlertOriginalPrice}}}}</p>
+                                            </td>
+                                            <td>
+                                                <p style="font-family: {{{{brandFont}}}}; font-size: 24px; color: {{{{brandAccent}}}}; margin: 0; font-weight: 700;">{{{{priceAlertNewPrice}}}}</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <a href="{{{{priceAlertItemUrl}}}}" style="display: inline-block; padding: 12px 24px; background-color: {{{{brandAccent}}}}; color: #ffffff; font-family: {{{{brandFont}}}}; font-size: 14px; font-weight: 600; text-decoration: none; border-radius: 6px;">Shop Now</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- Urgency footer -->
+                <tr>
+                    <td style="background-color: {{{{brandSecondary}}}}08; padding: 12px 20px;">
+                        <p style="font-family: {{{{brandFont}}}}; font-size: 13px; color: {{{{brandSecondary}}}}; margin: 0; text-align: center;">{{{{priceAlertUrgency}}}}</p>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+'''
+    }
+
+
+def section_back_in_stock():
+    """Back-in-stock notification section with product details and quick-buy option."""
+    return {
+        "type": "back_in_stock",
+        "name": "Back In Stock",
+        "html": f'''
+<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+    <tr>
+        <td style="padding: 24px;">
+            <!-- Back in stock banner -->
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-bottom: 20px;">
+                <tr>
+                    <td align="center" style="background: linear-gradient(135deg, {{{{brandAccent}}}}20 0%, {{{{brandPrimary}}}}10 100%); padding: 16px; border-radius: 8px;">
+                        <p style="font-family: {{{{brandFont}}}}; font-size: 16px; color: {{{{brandAccent}}}}; margin: 0; font-weight: 700;">✨ BACK IN STOCK ✨</p>
+                    </td>
+                </tr>
+            </table>
+
+            <!-- Product card -->
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="border: 1px solid {{{{brandSecondary}}}}20; border-radius: 12px;">
+                <tr>
+                    <td style="padding: 24px;">
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                            <tr>
+                                <td align="center" style="padding-bottom: 20px;">
+                                    <img src="{IMAGE_PLACEHOLDERS['product']}" alt="{{{{backInStockItemAlt}}}}" width="200" height="200" style="display: block; border-radius: 8px;" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 12px; color: {{{{brandSecondary}}}}; margin: 0 0 8px; text-transform: uppercase; letter-spacing: 1px;">{{{{backInStockItemBrand}}}}</p>
+                                    <h3 style="font-family: {{{{brandFont}}}}; font-size: 22px; color: {{{{brandPrimary}}}}; margin: 0 0 12px; font-weight: 600;">{{{{backInStockItemName}}}}</h3>
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 20px; color: {{{{brandPrimary}}}}; margin: 0 0 20px; font-weight: 700;">{{{{backInStockItemPrice}}}}</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    <table cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: #22c55e15; border-radius: 20px; margin-bottom: 20px;">
+                                        <tr>
+                                            <td style="padding: 8px 16px;">
+                                                <table cellpadding="0" cellspacing="0" border="0" role="presentation">
+                                                    <tr>
+                                                        <td style="padding-right: 6px;">
+                                                            <table width="8" height="8" cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: #22c55e; border-radius: 50%;">
+                                                                <tr><td></td></tr>
+                                                            </table>
+                                                        </td>
+                                                        <td>
+                                                            <p style="font-family: {{{{brandFont}}}}; font-size: 13px; color: #22c55e; margin: 0; font-weight: 600;">{{{{backInStockQuantity}}}} items available</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    <a href="{{{{backInStockItemUrl}}}}" style="display: inline-block; padding: 14px 32px; background-color: {{{{brandAccent}}}}; color: #ffffff; font-family: {{{{brandFont}}}}; font-size: 16px; font-weight: 600; text-decoration: none; border-radius: 8px;">Buy Now</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" style="padding-top: 16px;">
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 13px; color: {{{{brandSecondary}}}}; margin: 0;">{{{{backInStockMessage}}}}</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+'''
+    }
+
+
 # Registry of all sections
 SECTION_REGISTRY = {
     "hero": section_hero,
@@ -1967,6 +2174,9 @@ SECTION_REGISTRY = {
     "loyalty_points": section_loyalty_points,
     "gift_card": section_gift_card,
     "subscription_renewal": section_subscription_renewal,
+    "wishlist_item": section_wishlist_item,
+    "price_alert": section_price_alert,
+    "back_in_stock": section_back_in_stock,
 }
 
 
