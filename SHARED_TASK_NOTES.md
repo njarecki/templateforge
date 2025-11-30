@@ -1,12 +1,12 @@
 # TemplateForge Task Notes
 
 ## Current State
-Core pipeline is complete with full MJML support for all 36 section types and MJML-to-HTML compilation.
+Core pipeline is complete with full MJML support for all 40 section types and MJML-to-HTML compilation.
 
 ## What's Working
 - 27 built-in template types across 6 categories
-- 36 section components in the library
-- **36 MJML converters** (100% coverage - all sections now have MJML support)
+- **40 section components** in the library (added 4 new: referral_program, loyalty_points, gift_card, subscription_renewal)
+- **40 MJML converters** (100% coverage - all sections now have MJML support)
 - **MJML to HTML compilation** via `--compile` flag (requires mjml npm package)
 - 5 design skins (Linear Dark, Apple Light, DTC Pastel, Editorial Serif, Brutalist Bold)
 - 3 layout variants per template
@@ -37,11 +37,11 @@ python3 pipeline.py --list-templates                  # 27 built-in types
 ```
 
 ## Next Steps
-1. **More section types to consider** - referral program, loyalty points, gift card, subscription renewal
+1. **Improve derivation accuracy** - Better content pattern matching for more precise section inference
 
-2. **Improve derivation accuracy** - Better content pattern matching for more precise section inference
+2. **Template analytics** - Track which sections/skins are most commonly used
 
-3. **Template analytics** - Track which sections/skins are most commonly used
+3. **Additional template types** - Consider adding referral_invite, gift_card_purchase, subscription_canceled templates that use the new sections
 
 ## File Structure
 ```

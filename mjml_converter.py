@@ -1227,6 +1227,180 @@ def section_to_mjml_multi_step_form(skin_name="apple_light"):
     </mj-section>'''
 
 
+def section_to_mjml_referral_program(skin_name="apple_light"):
+    """Convert referral program section to MJML."""
+    skin = DESIGN_SKINS.get(skin_name, DESIGN_SKINS["apple_light"])
+
+    return f'''    <mj-section padding="24px">
+      <mj-column background-color="{skin['brandAccent']}10" border="2px dashed {skin['brandAccent']}40" border-radius="12px" padding="32px">
+        <!-- Icon -->
+        <mj-image src="{IMAGE_PLACEHOLDERS['icon']}" alt="Refer" width="80px" background-color="{skin['brandAccent']}" border-radius="50%" padding="0" />
+        <mj-text align="center" font-size="24px" color="{skin['brandPrimary']}" font-weight="600" padding="24px 0 8px">
+          {{{{referralHeadline}}}}
+        </mj-text>
+        <mj-text align="center" font-size="16px" color="{skin['brandSecondary']}" padding="0 0 24px">
+          {{{{referralDescription}}}}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 24px">
+      <mj-column width="50%" background-color="{skin['brandBG']}" border-radius="8px 0 0 8px" padding="16px">
+        <mj-text align="center" font-size="12px" color="{skin['brandSecondary']}" text-transform="uppercase" padding="0 0 4px">
+          You Get
+        </mj-text>
+        <mj-text align="center" font-size="24px" color="{skin['brandAccent']}" font-weight="700" padding="0">
+          {{{{referralYourReward}}}}
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%" background-color="{skin['brandBG']}" border-radius="0 8px 8px 0" border-left="2px solid {skin['brandSecondary']}20" padding="16px">
+        <mj-text align="center" font-size="12px" color="{skin['brandSecondary']}" text-transform="uppercase" padding="0 0 4px">
+          They Get
+        </mj-text>
+        <mj-text align="center" font-size="24px" color="{skin['brandAccent']}" font-weight="700" padding="0">
+          {{{{referralTheirReward}}}}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="24px">
+      <mj-column>
+        <mj-text font-family="monospace" font-size="14px" color="{skin['brandPrimary']}" background-color="{skin['brandBG']}" border="1px solid {skin['brandSecondary']}30" border-radius="8px" padding="14px 20px" align="center">
+          {{{{referralLink}}}}
+        </mj-text>
+        <mj-button href="{{{{referralShareUrl}}}}" background-color="{skin['brandAccent']}" padding="20px 0 0">
+          {{{{referralCtaLabel}}}}
+        </mj-button>
+      </mj-column>
+    </mj-section>'''
+
+
+def section_to_mjml_loyalty_points(skin_name="apple_light"):
+    """Convert loyalty points section to MJML."""
+    skin = DESIGN_SKINS.get(skin_name, DESIGN_SKINS["apple_light"])
+
+    return f'''    <mj-section padding="24px">
+      <mj-column background-color="{skin['brandPrimary']}" border-radius="16px" padding="32px">
+        <!-- Header row -->
+        <mj-text font-size="14px" color="#ffffff99" text-transform="uppercase" letter-spacing="1px" padding="0 0 4px">
+          {{{{loyaltyProgramName}}}}
+        </mj-text>
+        <mj-text font-size="28px" color="#ffffff" font-weight="600" padding="0 0 24px">
+          {{{{loyaltyUserName}}}}
+        </mj-text>
+        <!-- Points display -->
+        <mj-text align="center" font-size="56px" color="#ffffff" font-weight="700" line-height="1" padding="0">
+          {{{{loyaltyPoints}}}}
+        </mj-text>
+        <mj-text align="center" font-size="16px" color="#ffffff99" padding="8px 0 24px">
+          points available
+        </mj-text>
+        <!-- Tier badge -->
+        <mj-text align="center" font-size="14px" color="#ffffff" font-weight="600" background-color="#ffffff20" border-radius="20px" padding="6px 16px">
+          {{{{loyaltyTier}}}}
+        </mj-text>
+        <!-- Progress bar placeholder -->
+        <mj-text align="center" font-size="13px" color="#ffffff99" padding="24px 0">
+          {{{{loyaltyPointsToNext}}}} points to {{{{loyaltyNextTier}}}}
+        </mj-text>
+        <mj-button href="{{{{loyaltyRedeemUrl}}}}" background-color="#ffffff" color="{skin['brandPrimary']}" padding="0">
+          {{{{loyaltyCtaLabel}}}}
+        </mj-button>
+      </mj-column>
+    </mj-section>'''
+
+
+def section_to_mjml_gift_card(skin_name="apple_light"):
+    """Convert gift card section to MJML."""
+    skin = DESIGN_SKINS.get(skin_name, DESIGN_SKINS["apple_light"])
+
+    return f'''    <mj-section padding="24px">
+      <mj-column background-color="{skin['brandPrimary']}" border-radius="16px" padding="0">
+        <!-- Decorative header strip -->
+        <mj-text font-size="14px" color="#ffffff" font-weight="600" text-transform="uppercase" letter-spacing="2px" background-color="{skin['brandAccent']}" padding="16px 32px">
+          {{{{giftCardBrandName}}}}
+        </mj-text>
+        <!-- Main body -->
+        <mj-text font-size="16px" color="#ffffff99" padding="32px 32px 8px">
+          Gift Card
+        </mj-text>
+        <mj-text font-size="48px" color="#ffffff" font-weight="700" padding="0 32px 24px">
+          {{{{giftCardAmount}}}}
+        </mj-text>
+        <!-- Gift card code -->
+        <mj-text font-size="12px" color="#ffffff80" text-transform="uppercase" background-color="#ffffff15" border-radius="8px" padding="20px 20px 8px">
+          Your Gift Code
+        </mj-text>
+        <mj-text font-family="monospace" font-size="28px" color="#ffffff" font-weight="600" letter-spacing="4px" background-color="#ffffff15" border-radius="8px" padding="0 20px 20px">
+          {{{{giftCardCode}}}}
+        </mj-text>
+        <!-- From/To info -->
+        <mj-text font-size="12px" color="#ffffff80" text-transform="uppercase" padding="24px 32px 4px">
+          From: {{{{giftCardFrom}}}} | To: {{{{giftCardTo}}}}
+        </mj-text>
+        <!-- Personal message -->
+        <mj-text font-size="16px" color="#ffffff" font-style="italic" border-left="3px solid {skin['brandAccent']}" padding="16px 32px 24px">
+          "{{{{giftCardMessage}}}}"
+        </mj-text>
+        <mj-button href="{{{{giftCardRedeemUrl}}}}" background-color="{skin['brandAccent']}" padding="0 32px 24px">
+          {{{{giftCardCtaLabel}}}}
+        </mj-button>
+        <mj-text align="center" font-size="12px" color="#ffffff60" padding="0 32px 32px">
+          Valid until {{{{giftCardExpiry}}}}
+        </mj-text>
+      </mj-column>
+    </mj-section>'''
+
+
+def section_to_mjml_subscription_renewal(skin_name="apple_light"):
+    """Convert subscription renewal section to MJML."""
+    skin = DESIGN_SKINS.get(skin_name, DESIGN_SKINS["apple_light"])
+
+    return f'''    <mj-section padding="24px">
+      <mj-column border="1px solid {skin['brandSecondary']}20" border-radius="12px" padding="32px">
+        <!-- Status indicator -->
+        <mj-text font-size="13px" color="{{{{subscriptionStatusColor}}}}" font-weight="600" background-color="{{{{subscriptionStatusColor}}}}15" border-radius="20px" padding="6px 16px">
+          {{{{subscriptionStatus}}}}
+        </mj-text>
+        <mj-text font-size="24px" color="{skin['brandPrimary']}" font-weight="600" padding="24px 0 8px">
+          {{{{subscriptionHeadline}}}}
+        </mj-text>
+        <mj-text font-size="16px" color="{skin['brandSecondary']}" padding="0 0 24px">
+          {{{{subscriptionDescription}}}}
+        </mj-text>
+        <!-- Plan details card -->
+        <mj-text font-size="14px" color="{skin['brandSecondary']}" background-color="{skin['brandSecondary']}08" border-radius="8px" padding="24px 24px 4px">
+          Current Plan
+        </mj-text>
+        <mj-text font-size="20px" color="{skin['brandPrimary']}" font-weight="600" background-color="{skin['brandSecondary']}08" border-radius="8px" padding="0 24px 16px">
+          {{{{subscriptionPlanName}}}}
+        </mj-text>
+        <mj-text font-size="28px" color="{skin['brandPrimary']}" font-weight="700" background-color="{skin['brandSecondary']}08" border-radius="8px" padding="0 24px 4px" align="right">
+          {{{{subscriptionPrice}}}}
+        </mj-text>
+        <mj-text font-size="14px" color="{skin['brandSecondary']}" background-color="{skin['brandSecondary']}08" border-radius="8px" padding="0 24px 24px" align="right">
+          {{{{subscriptionBillingCycle}}}}
+        </mj-text>
+        <mj-divider border-color="{skin['brandSecondary']}20" padding="0 24px" />
+        <!-- Renewal info -->
+        <mj-text font-size="13px" color="{skin['brandSecondary']}" padding="16px 0 4px">
+          Renewal Date: {{{{subscriptionRenewalDate}}}}
+        </mj-text>
+        <mj-text font-size="13px" color="{skin['brandSecondary']}" padding="0 0 24px">
+          Payment Method: {{{{subscriptionPaymentMethod}}}}
+        </mj-text>
+        <!-- Action buttons -->
+        <mj-button href="{{{{subscriptionManageUrl}}}}" background-color="{skin['brandAccent']}" padding="0 0 12px">
+          {{{{subscriptionPrimaryCtaLabel}}}}
+        </mj-button>
+        <mj-button href="{{{{subscriptionUpgradeUrl}}}}" background-color="transparent" color="{skin['brandAccent']}" border="2px solid {skin['brandAccent']}" padding="0 0 24px">
+          {{{{subscriptionSecondaryCtaLabel}}}}
+        </mj-button>
+        <mj-text align="center" font-size="13px" color="{skin['brandSecondary']}" padding="0">
+          Questions? <a href="{{{{subscriptionHelpUrl}}}}" style="color: {skin['brandAccent']}; text-decoration: underline;">Contact Support</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>'''
+
+
 # Registry mapping section types to MJML converters
 MJML_SECTION_REGISTRY = {
     "hero": section_to_mjml_hero,
@@ -1265,6 +1439,10 @@ MJML_SECTION_REGISTRY = {
     "rating_stars": section_to_mjml_rating_stars,
     "gallery_carousel": section_to_mjml_gallery_carousel,
     "multi_step_form": section_to_mjml_multi_step_form,
+    "referral_program": section_to_mjml_referral_program,
+    "loyalty_points": section_to_mjml_loyalty_points,
+    "gift_card": section_to_mjml_gift_card,
+    "subscription_renewal": section_to_mjml_subscription_renewal,
 }
 
 
