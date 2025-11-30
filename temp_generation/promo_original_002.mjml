@@ -1,0 +1,139 @@
+<mjml>
+  <mj-head>
+    <mj-title>Flash Sale - Limited Time Only</mj-title>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}, Arial, sans-serif" />
+      <mj-text font-size="16px" line-height="1.5" color="{brandText}" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" border-radius="0" font-size="18px" font-weight="bold" />
+    </mj-attributes>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .countdown-cell { width: 25% !important; }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="{brandBG}" width="640px">
+    <!-- Offer Banner -->
+    <mj-section background-color="{brandAccent}" padding="10px">
+      <mj-column>
+        <mj-text align="center" font-size="14px" font-weight="bold" color="#ffffff">
+          ⚡ FLASH SALE - UP TO 70% OFF - ENDS TONIGHT ⚡
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Header Nav -->
+    <mj-section background-color="{brandBG}" padding="15px 20px">
+      <mj-column width="30%">
+        <mj-image src="https://placehold.co/120x40/png?text=LOGO" alt="Logo" width="120px" align="left" />
+      </mj-column>
+      <mj-column width="70%">
+        <mj-text align="right" font-size="13px" color="{brandText}">
+          <a href="#" style="color: {brandText}; text-decoration: none; margin: 0 10px;">Women</a>
+          <a href="#" style="color: {brandText}; text-decoration: none; margin: 0 10px;">Men</a>
+          <a href="#" style="color: {brandText}; text-decoration: none; margin: 0 10px;">Sale</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Hero -->
+    <mj-section background-color="{brandPrimary}" padding="60px 20px">
+      <mj-column>
+        <mj-text align="center" color="#ffffff" font-size="48px" font-weight="bold" line-height="1.1">
+          FLASH SALE
+        </mj-text>
+        <mj-text align="center" color="#ffffff" font-size="72px" font-weight="bold" padding-top="10px">
+          70% OFF
+        </mj-text>
+        <mj-text align="center" color="#ffffff" font-size="18px" padding-top="20px">
+          On selected items. Don't miss out on these incredible deals.
+        </mj-text>
+        <mj-button background-color="#ffffff" color="{brandPrimary}" padding-top="30px" href="#">
+          SHOP THE SALE
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Countdown -->
+    <mj-section background-color="{brandSecondary}" padding="30px 20px">
+      <mj-column width="25%">
+        <mj-text align="center" font-size="36px" font-weight="bold" color="{brandPrimary}">08</mj-text>
+        <mj-text align="center" font-size="12px" color="{brandText}">HOURS</mj-text>
+      </mj-column>
+      <mj-column width="25%">
+        <mj-text align="center" font-size="36px" font-weight="bold" color="{brandPrimary}">45</mj-text>
+        <mj-text align="center" font-size="12px" color="{brandText}">MINUTES</mj-text>
+      </mj-column>
+      <mj-column width="25%">
+        <mj-text align="center" font-size="36px" font-weight="bold" color="{brandPrimary}">32</mj-text>
+        <mj-text align="center" font-size="12px" color="{brandText}">SECONDS</mj-text>
+      </mj-column>
+      <mj-column width="25%">
+        <mj-text align="center" font-size="14px" font-weight="bold" color="{brandAccent}" padding-top="10px">Sale Ends<br/>Tonight!</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Product Grid -->
+    <mj-section background-color="{brandBG}" padding="40px 20px">
+      <mj-column>
+        <mj-text align="center" font-size="24px" font-weight="bold" color="{brandText}" padding-bottom="30px">
+          Top Picks
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="{brandBG}" padding="0 20px">
+      <mj-column>
+        <mj-image src="https://placehold.co/260x260/png?text=Product+1" alt="Product 1" />
+        <mj-text align="center" font-weight="bold" color="{brandText}" padding-top="10px">Classic Jacket</mj-text>
+        <mj-text align="center" color="{brandAccent}"><s style="color: {brandText};">$199</s> $59</mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-image src="https://placehold.co/260x260/png?text=Product+2" alt="Product 2" />
+        <mj-text align="center" font-weight="bold" color="{brandText}" padding-top="10px">Premium Sneakers</mj-text>
+        <mj-text align="center" color="{brandAccent}"><s style="color: {brandText};">$149</s> $45</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="{brandBG}" padding="20px">
+      <mj-column>
+        <mj-image src="https://placehold.co/260x260/png?text=Product+3" alt="Product 3" />
+        <mj-text align="center" font-weight="bold" color="{brandText}" padding-top="10px">Designer Bag</mj-text>
+        <mj-text align="center" color="{brandAccent}"><s style="color: {brandText};">$299</s> $89</mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-image src="https://placehold.co/260x260/png?text=Product+4" alt="Product 4" />
+        <mj-text align="center" font-weight="bold" color="{brandText}" padding-top="10px">Luxury Watch</mj-text>
+        <mj-text align="center" color="{brandAccent}"><s style="color: {brandText};">$399</s> $119</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- CTA Band -->
+    <mj-section background-color="{brandPrimary}" padding="40px 20px">
+      <mj-column>
+        <mj-text align="center" font-size="22px" font-weight="bold" color="#ffffff">
+          Use Code: FLASH70
+        </mj-text>
+        <mj-text align="center" color="#ffffff" padding-top="10px">
+          Extra 10% off your entire order
+        </mj-text>
+        <mj-button background-color="#ffffff" color="{brandPrimary}" padding-top="20px" href="#">
+          APPLY CODE NOW
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="{brandSecondary}" padding="30px 20px">
+      <mj-column>
+        <mj-social font-size="12px" icon-size="24px" mode="horizontal" align="center">
+          <mj-social-element name="facebook" href="#" />
+          <mj-social-element name="twitter" href="#" />
+          <mj-social-element name="instagram" href="#" />
+        </mj-social>
+        <mj-text align="center" font-size="11px" color="{brandText}" padding-top="20px">
+          © 2024 Brand Name. All rights reserved.<br/>
+          <a href="#" style="color: {brandText};">Unsubscribe</a> | <a href="#" style="color: {brandText};">View in Browser</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

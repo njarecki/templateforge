@@ -1,0 +1,143 @@
+<mjml>
+  <mj-head>
+    <mj-title>Monthly Roundup - What You Missed</mj-title>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}, Arial, sans-serif" />
+      <mj-text font-size="16px" line-height="1.6" color="{brandText}" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" border-radius="4px" font-size="14px" />
+    </mj-attributes>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .stat-col { width: 50% !important; }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f7f7f7" width="640px">
+    <!-- Header -->
+    <mj-section background-color="{brandBG}" padding="25px 30px">
+      <mj-column width="40%">
+        <mj-image src="https://placehold.co/130x40/png?text=LOGO" alt="Logo" width="130px" align="left" />
+      </mj-column>
+      <mj-column width="60%">
+        <mj-text align="right" font-size="12px" color="{brandText}">
+          <a href="#" style="color: {brandText}; text-decoration: none;">View Online</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Hero -->
+    <mj-section background-color="{brandPrimary}" padding="50px 30px">
+      <mj-column>
+        <mj-text align="center" color="#ffffff" font-size="14px" text-transform="uppercase" letter-spacing="2px">
+          November 2024
+        </mj-text>
+        <mj-text align="center" color="#ffffff" font-size="34px" font-weight="bold" padding-top="10px">
+          Monthly Roundup
+        </mj-text>
+        <mj-text align="center" color="#ffffff" font-size="16px" padding-top="15px">
+          The highlights, updates, and news you need to know.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Stats Section -->
+    <mj-section background-color="{brandBG}" padding="40px 20px">
+      <mj-column>
+        <mj-text align="center" font-size="36px" font-weight="bold" color="{brandPrimary}">12K+</mj-text>
+        <mj-text align="center" font-size="12px" text-transform="uppercase" color="{brandText}">New Users</mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text align="center" font-size="36px" font-weight="bold" color="{brandPrimary}">48</mj-text>
+        <mj-text align="center" font-size="12px" text-transform="uppercase" color="{brandText}">New Features</mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text align="center" font-size="36px" font-weight="bold" color="{brandPrimary}">99.9%</mj-text>
+        <mj-text align="center" font-size="12px" text-transform="uppercase" color="{brandText}">Uptime</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Main Update -->
+    <mj-section background-color="{brandBG}" padding="20px 30px 40px">
+      <mj-column>
+        <mj-text font-size="12px" text-transform="uppercase" letter-spacing="2px" color="{brandAccent}">
+          Big Announcement
+        </mj-text>
+        <mj-text font-size="24px" font-weight="bold" color="{brandText}" padding-top="10px">
+          Introducing Our New Dashboard
+        </mj-text>
+        <mj-image src="https://placehold.co/580x300/png?text=New+Dashboard" alt="New Dashboard" padding-top="20px" border-radius="8px" />
+        <mj-text color="{brandText}" padding-top="20px">
+          We've completely redesigned the dashboard experience. It's now faster, more intuitive, and packed with new features you've been asking for.
+        </mj-text>
+        <mj-button padding-top="20px" href="#">See What's New</mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Updates Grid -->
+    <mj-section background-color="{brandSecondary}" padding="40px 30px 20px">
+      <mj-column>
+        <mj-text font-size="20px" font-weight="bold" color="{brandText}" align="center">
+          More Updates This Month
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="{brandSecondary}" padding="10px 20px">
+      <mj-column>
+        <mj-image src="https://placehold.co/260x150/png?text=Feature+1" alt="Feature 1" border-radius="6px" />
+        <mj-text font-weight="bold" color="{brandText}" padding-top="15px">Dark Mode</mj-text>
+        <mj-text font-size="14px" color="{brandText}">Easy on the eyes, now available across all platforms.</mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-image src="https://placehold.co/260x150/png?text=Feature+2" alt="Feature 2" border-radius="6px" />
+        <mj-text font-weight="bold" color="{brandText}" padding-top="15px">Mobile App Update</mj-text>
+        <mj-text font-size="14px" color="{brandText}">Faster performance and new gesture controls.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="{brandSecondary}" padding="10px 20px 40px">
+      <mj-column>
+        <mj-image src="https://placehold.co/260x150/png?text=Feature+3" alt="Feature 3" border-radius="6px" />
+        <mj-text font-weight="bold" color="{brandText}" padding-top="15px">API v3.0</mj-text>
+        <mj-text font-size="14px" color="{brandText}">More endpoints and better documentation.</mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-image src="https://placehold.co/260x150/png?text=Feature+4" alt="Feature 4" border-radius="6px" />
+        <mj-text font-weight="bold" color="{brandText}" padding-top="15px">Team Collaboration</mj-text>
+        <mj-text font-size="14px" color="{brandText}">Real-time editing and comments are here.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- CTA -->
+    <mj-section background-color="{brandPrimary}" padding="45px 30px">
+      <mj-column>
+        <mj-text align="center" font-size="22px" font-weight="bold" color="#ffffff">
+          Have Feedback?
+        </mj-text>
+        <mj-text align="center" color="#ffffff" padding-top="10px">
+          We'd love to hear what you think about the updates.
+        </mj-text>
+        <mj-button background-color="#ffffff" color="{brandPrimary}" padding-top="20px" href="#">
+          Share Your Thoughts
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="{brandBG}" padding="30px">
+      <mj-column>
+        <mj-social font-size="12px" icon-size="24px" mode="horizontal" align="center">
+          <mj-social-element name="twitter" href="#" />
+          <mj-social-element name="linkedin" href="#" />
+          <mj-social-element name="github" href="#" />
+        </mj-social>
+        <mj-text align="center" font-size="12px" color="{brandText}" padding-top="20px">
+          © 2024 Company Name. All rights reserved.
+        </mj-text>
+        <mj-text align="center" font-size="11px" color="{brandText}">
+          <a href="#" style="color: {brandText};">Unsubscribe</a> | <a href="#" style="color: {brandText};">Preferences</a> | <a href="#" style="color: {brandText};">Privacy</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

@@ -1,0 +1,123 @@
+<mjml>
+  <mj-head>
+    <mj-title>Welcome to the Family</mj-title>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}, Helvetica, sans-serif" />
+      <mj-text font-size="16px" line-height="1.6" color="{brandText}" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" border-radius="8px" font-size="16px" />
+    </mj-attributes>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .welcome-hero { padding: 40px 20px !important; }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#fafafa" width="640px">
+    <!-- Header -->
+    <mj-section background-color="{brandBG}" padding="20px 30px">
+      <mj-column>
+        <mj-image src="https://placehold.co/140x45/png?text=BRAND" alt="Brand Logo" width="140px" align="center" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Hero -->
+    <mj-section background-url="https://placehold.co/640x350/png?text=Welcome+Background" background-size="cover" padding="80px 40px" css-class="welcome-hero">
+      <mj-column>
+        <mj-text align="center" color="#ffffff" font-size="40px" font-weight="bold">
+          Welcome!
+        </mj-text>
+        <mj-text align="center" color="#ffffff" font-size="18px" padding-top="15px">
+          You've just joined a community of 50,000+ happy customers.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Personal Message -->
+    <mj-section background-color="{brandBG}" padding="50px 40px">
+      <mj-column>
+        <mj-text color="{brandText}">
+          Hi there,
+        </mj-text>
+        <mj-text color="{brandText}" padding-top="15px">
+          Thank you for signing up! We're genuinely excited to have you here. Our team has worked hard to create something special, and we can't wait for you to experience it.
+        </mj-text>
+        <mj-text color="{brandText}" padding-top="15px">
+          To get started, here are a few things you can do right now:
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Steps -->
+    <mj-section background-color="{brandBG}" padding="0 30px">
+      <mj-column width="15%" vertical-align="top">
+        <mj-text align="center" font-size="24px" font-weight="bold" color="{brandPrimary}">1</mj-text>
+      </mj-column>
+      <mj-column width="85%" vertical-align="top">
+        <mj-text font-weight="bold" color="{brandText}">Complete Your Profile</mj-text>
+        <mj-text font-size="14px" color="{brandText}">Add your photo and preferences for a personalized experience.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="{brandBG}" padding="20px 30px">
+      <mj-column width="15%" vertical-align="top">
+        <mj-text align="center" font-size="24px" font-weight="bold" color="{brandPrimary}">2</mj-text>
+      </mj-column>
+      <mj-column width="85%" vertical-align="top">
+        <mj-text font-weight="bold" color="{brandText}">Explore Our Collection</mj-text>
+        <mj-text font-size="14px" color="{brandText}">Browse hundreds of curated items just for you.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="{brandBG}" padding="0 30px 40px">
+      <mj-column width="15%" vertical-align="top">
+        <mj-text align="center" font-size="24px" font-weight="bold" color="{brandPrimary}">3</mj-text>
+      </mj-column>
+      <mj-column width="85%" vertical-align="top">
+        <mj-text font-weight="bold" color="{brandText}">Enjoy Your Welcome Gift</mj-text>
+        <mj-text font-size="14px" color="{brandText}">Use code WELCOME15 for 15% off your first order.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- CTA -->
+    <mj-section background-color="{brandPrimary}" padding="50px 30px">
+      <mj-column>
+        <mj-text align="center" font-size="24px" font-weight="bold" color="#ffffff">
+          Ready to Dive In?
+        </mj-text>
+        <mj-button background-color="#ffffff" color="{brandPrimary}" padding-top="25px" href="#">
+          Start Exploring
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Team Signature -->
+    <mj-section background-color="{brandBG}" padding="40px 40px 20px">
+      <mj-column>
+        <mj-text color="{brandText}">
+          Welcome aboard!
+        </mj-text>
+        <mj-image src="https://placehold.co/120x50/png?text=Signature" alt="Signature" width="120px" align="left" padding-top="10px" />
+        <mj-text color="{brandText}" padding-top="10px">
+          Sarah & The Team
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="{brandSecondary}" padding="30px">
+      <mj-column>
+        <mj-social font-size="12px" icon-size="28px" mode="horizontal" align="center">
+          <mj-social-element name="facebook" href="#" />
+          <mj-social-element name="instagram" href="#" />
+          <mj-social-element name="twitter" href="#" />
+        </mj-social>
+        <mj-text align="center" font-size="12px" color="{brandText}" padding-top="20px">
+          © 2024 Brand Name. All rights reserved.
+        </mj-text>
+        <mj-text align="center" font-size="11px" color="{brandText}">
+          <a href="#" style="color: {brandText};">Unsubscribe</a> | <a href="#" style="color: {brandText};">Privacy Policy</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

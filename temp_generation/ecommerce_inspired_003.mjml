@@ -1,0 +1,132 @@
+<mjml>
+  <mj-head>
+    <mj-title>Back in Stock - Your Favorites</mj-title>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}, -apple-system, sans-serif" />
+      <mj-text font-size="16px" line-height="1.5" color="{brandText}" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" border-radius="4px" font-size="15px" />
+    </mj-attributes>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .product-col { width: 100% !important; }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f5f5f5" width="640px">
+    <!-- Header -->
+    <mj-section background-color="{brandBG}" padding="20px 30px">
+      <mj-column width="35%">
+        <mj-image src="https://placehold.co/120x40/png?text=STORE" alt="Store Logo" width="120px" align="left" />
+      </mj-column>
+      <mj-column width="65%">
+        <mj-text align="right" font-size="13px" color="{brandText}">
+          <a href="#" style="color: {brandText}; text-decoration: none; margin-left: 15px;">New</a>
+          <a href="#" style="color: {brandText}; text-decoration: none; margin-left: 15px;">Bestsellers</a>
+          <a href="#" style="color: {brandText}; text-decoration: none; margin-left: 15px;">Sale</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Hero -->
+    <mj-section background-color="{brandPrimary}" padding="60px 30px">
+      <mj-column>
+        <mj-text align="center" color="#ffffff" font-size="14px" text-transform="uppercase" letter-spacing="3px">
+          Great News
+        </mj-text>
+        <mj-text align="center" color="#ffffff" font-size="36px" font-weight="bold" padding-top="15px">
+          Back in Stock!
+        </mj-text>
+        <mj-text align="center" color="#ffffff" font-size="18px" padding-top="15px">
+          The items you've been waiting for are available again. Don't miss out this time!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Product Alert -->
+    <mj-section background-color="{brandBG}" padding="40px 30px">
+      <mj-column>
+        <mj-text align="center" font-size="12px" text-transform="uppercase" letter-spacing="2px" color="{brandAccent}">
+          Your Wishlist Item
+        </mj-text>
+        <mj-text align="center" font-size="24px" font-weight="bold" color="{brandText}" padding-top="10px">
+          Classic Canvas Sneakers
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="{brandBG}" padding="0 30px 40px">
+      <mj-column>
+        <mj-image src="https://placehold.co/400x400/png?text=Sneakers" alt="Classic Canvas Sneakers" border-radius="8px" />
+        <mj-text align="center" font-size="28px" font-weight="bold" color="{brandText}" padding-top="25px">$79.00</mj-text>
+        <mj-text align="center" font-size="14px" color="{brandAccent}" padding-top="5px">Limited Quantities Available</mj-text>
+        <mj-button padding-top="25px" href="#">Buy Now</mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Divider -->
+    <mj-section background-color="{brandBG}" padding="0 30px">
+      <mj-column>
+        <mj-divider border-color="{brandSecondary}" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Similar Products -->
+    <mj-section background-color="{brandBG}" padding="40px 30px 20px">
+      <mj-column>
+        <mj-text align="center" font-size="20px" font-weight="bold" color="{brandText}">
+          You Might Also Like
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="{brandBG}" padding="10px 20px">
+      <mj-column>
+        <mj-image src="https://placehold.co/180x180/png?text=Product+1" alt="Product 1" border-radius="8px" />
+        <mj-text align="center" font-weight="bold" color="{brandText}" padding-top="12px">Leather Loafers</mj-text>
+        <mj-text align="center" color="{brandText}">$119.00</mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-image src="https://placehold.co/180x180/png?text=Product+2" alt="Product 2" border-radius="8px" />
+        <mj-text align="center" font-weight="bold" color="{brandText}" padding-top="12px">Running Shoes</mj-text>
+        <mj-text align="center" color="{brandText}">$135.00</mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-image src="https://placehold.co/180x180/png?text=Product+3" alt="Product 3" border-radius="8px" />
+        <mj-text align="center" font-weight="bold" color="{brandText}" padding-top="12px">Slip-On Flats</mj-text>
+        <mj-text align="center" color="{brandText}">$89.00</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- CTA Band -->
+    <mj-section background-color="{brandSecondary}" padding="40px 30px">
+      <mj-column>
+        <mj-text align="center" font-size="20px" font-weight="bold" color="{brandText}">
+          Get Notified First
+        </mj-text>
+        <mj-text align="center" color="{brandText}" padding-top="10px">
+          Never miss a restock again. Set up alerts for your favorite items.
+        </mj-text>
+        <mj-button background-color="{brandPrimary}" padding-top="20px" href="#">
+          Manage Alerts
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="{brandBG}" padding="30px">
+      <mj-column>
+        <mj-social font-size="12px" icon-size="24px" mode="horizontal" align="center">
+          <mj-social-element name="facebook" href="#" />
+          <mj-social-element name="instagram" href="#" />
+          <mj-social-element name="twitter" href="#" />
+        </mj-social>
+        <mj-text align="center" font-size="12px" color="{brandText}" padding-top="20px">
+          © 2024 Store Name. All rights reserved.
+        </mj-text>
+        <mj-text align="center" font-size="11px" color="{brandText}">
+          <a href="#" style="color: {brandText};">Unsubscribe</a> | <a href="#" style="color: {brandText};">Privacy Policy</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
