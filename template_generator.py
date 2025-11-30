@@ -216,6 +216,25 @@ TEMPLATE_TYPES = {
         "sections": ["header_nav", "1col_text", "gift_card", "order_summary", "footer_simple"],
         "description": "Gift card purchase confirmation with delivery details"
     },
+    # Specialized ecommerce notification templates
+    "wishlist_reminder": {
+        "name": "Wishlist Reminder",
+        "category": "Ecommerce",
+        "sections": ["header_nav", "1col_text", "wishlist_item", "wishlist_item", "cta_band", "footer_simple"],
+        "description": "Reminder email about items saved in customer's wishlist"
+    },
+    "back_in_stock_alert": {
+        "name": "Back In Stock Alert",
+        "category": "Ecommerce",
+        "sections": ["header_nav", "1col_text", "back_in_stock", "product_grid", "cta_band", "footer_simple"],
+        "description": "Alert notification when a previously out-of-stock item becomes available"
+    },
+    "price_drop_alert": {
+        "name": "Price Drop Alert",
+        "category": "Ecommerce",
+        "sections": ["header_nav", "1col_text", "price_alert", "urgency_banner", "cta_band", "footer_simple"],
+        "description": "Alert notification when a tracked item's price drops"
+    },
 }
 
 

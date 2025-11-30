@@ -1401,6 +1401,129 @@ def section_to_mjml_subscription_renewal(skin_name="apple_light"):
     </mj-section>'''
 
 
+def section_to_mjml_wishlist_item(skin_name="apple_light"):
+    """Convert wishlist item section to MJML."""
+    skin = DESIGN_SKINS.get(skin_name, DESIGN_SKINS["apple_light"])
+
+    return f'''    <mj-section padding="16px 24px">
+      <mj-column border="1px solid {skin['brandSecondary']}20" border-radius="8px" padding="16px">
+        <mj-group>
+          <mj-column width="120px" padding="0">
+            <mj-image src="{IMAGE_PLACEHOLDERS['product']}" alt="{{{{wishlistItemAlt}}}}" width="100px" border-radius="4px" />
+          </mj-column>
+          <mj-column padding-left="16px">
+            <mj-text font-size="12px" color="{skin['brandSecondary']}" text-transform="uppercase" letter-spacing="0.5px" padding="0 0 4px">
+              {{{{wishlistItemBrand}}}}
+            </mj-text>
+            <mj-text font-size="16px" color="{skin['brandPrimary']}" font-weight="600" padding="0 0 8px">
+              {{{{wishlistItemName}}}}
+            </mj-text>
+            <mj-text font-size="18px" color="{skin['brandPrimary']}" font-weight="700" padding="0 0 8px">
+              {{{{wishlistItemPrice}}}}
+            </mj-text>
+            <mj-text font-size="12px" color="{{{{wishlistItemStatusColor}}}}" font-weight="600" background-color="{{{{wishlistItemStatusColor}}}}15" border-radius="4px" padding="4px 10px" width="auto">
+              {{{{wishlistItemStatus}}}}
+            </mj-text>
+            <mj-button href="{{{{wishlistItemUrl}}}}" background-color="{skin['brandAccent']}" padding="12px 0 0" font-size="14px" border-radius="6px" inner-padding="10px 20px">
+              View Item
+            </mj-button>
+          </mj-column>
+        </mj-group>
+      </mj-column>
+    </mj-section>'''
+
+
+def section_to_mjml_price_alert(skin_name="apple_light"):
+    """Convert price alert section to MJML."""
+    skin = DESIGN_SKINS.get(skin_name, DESIGN_SKINS["apple_light"])
+
+    return f'''    <mj-section padding="24px">
+      <mj-column border="2px solid {skin['brandAccent']}" border-radius="12px">
+        <!-- Alert header -->
+        <mj-section background-color="{skin['brandAccent']}" padding="12px 20px" full-width="full-width">
+          <mj-column width="50%">
+            <mj-text font-size="14px" color="#ffffff" font-weight="700">
+              🔔 PRICE DROP ALERT
+            </mj-text>
+          </mj-column>
+          <mj-column width="50%">
+            <mj-text align="right" font-size="14px" color="#ffffff" font-weight="600">
+              {{{{priceAlertSavings}}}} OFF
+            </mj-text>
+          </mj-column>
+        </mj-section>
+        <!-- Product details -->
+        <mj-section padding="20px">
+          <mj-column width="140px" padding="0">
+            <mj-image src="{IMAGE_PLACEHOLDERS['product']}" alt="{{{{priceAlertItemAlt}}}}" width="120px" border-radius="8px" />
+          </mj-column>
+          <mj-column padding-left="20px">
+            <mj-text font-size="12px" color="{skin['brandSecondary']}" text-transform="uppercase" letter-spacing="0.5px" padding="0 0 4px">
+              {{{{priceAlertItemBrand}}}}
+            </mj-text>
+            <mj-text font-size="18px" color="{skin['brandPrimary']}" font-weight="600" padding="0 0 12px">
+              {{{{priceAlertItemName}}}}
+            </mj-text>
+            <mj-text font-size="14px" color="{skin['brandSecondary']}" text-decoration="line-through" padding="0">
+              {{{{priceAlertOriginalPrice}}}}
+            </mj-text>
+            <mj-text font-size="24px" color="{skin['brandAccent']}" font-weight="700" padding="0 0 16px">
+              {{{{priceAlertNewPrice}}}}
+            </mj-text>
+            <mj-button href="{{{{priceAlertItemUrl}}}}" background-color="{skin['brandAccent']}" padding="0" font-size="14px" border-radius="6px" inner-padding="12px 24px">
+              Shop Now
+            </mj-button>
+          </mj-column>
+        </mj-section>
+        <!-- Urgency footer -->
+        <mj-section background-color="{skin['brandSecondary']}08" padding="12px 20px">
+          <mj-column>
+            <mj-text align="center" font-size="13px" color="{skin['brandSecondary']}">
+              {{{{priceAlertUrgency}}}}
+            </mj-text>
+          </mj-column>
+        </mj-section>
+      </mj-column>
+    </mj-section>'''
+
+
+def section_to_mjml_back_in_stock(skin_name="apple_light"):
+    """Convert back-in-stock section to MJML."""
+    skin = DESIGN_SKINS.get(skin_name, DESIGN_SKINS["apple_light"])
+
+    return f'''    <mj-section padding="24px">
+      <mj-column>
+        <!-- Back in stock banner -->
+        <mj-text align="center" font-size="16px" color="{skin['brandAccent']}" font-weight="700" background-color="{skin['brandAccent']}20" border-radius="8px" padding="16px">
+          ✨ BACK IN STOCK ✨
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 24px 24px">
+      <mj-column border="1px solid {skin['brandSecondary']}20" border-radius="12px" padding="24px">
+        <mj-image src="{IMAGE_PLACEHOLDERS['product']}" alt="{{{{backInStockItemAlt}}}}" width="200px" border-radius="8px" padding-bottom="20px" />
+        <mj-text align="center" font-size="12px" color="{skin['brandSecondary']}" text-transform="uppercase" letter-spacing="1px" padding="0 0 8px">
+          {{{{backInStockItemBrand}}}}
+        </mj-text>
+        <mj-text align="center" font-size="22px" color="{skin['brandPrimary']}" font-weight="600" padding="0 0 12px">
+          {{{{backInStockItemName}}}}
+        </mj-text>
+        <mj-text align="center" font-size="20px" color="{skin['brandPrimary']}" font-weight="700" padding="0 0 20px">
+          {{{{backInStockItemPrice}}}}
+        </mj-text>
+        <mj-text align="center" font-size="13px" color="#22c55e" font-weight="600" background-color="#22c55e15" border-radius="20px" padding="8px 16px">
+          {{{{backInStockQuantity}}}} items available
+        </mj-text>
+        <mj-button href="{{{{backInStockItemUrl}}}}" background-color="{skin['brandAccent']}" padding="20px 0" font-size="16px" border-radius="8px" inner-padding="14px 32px">
+          Buy Now
+        </mj-button>
+        <mj-text align="center" font-size="13px" color="{skin['brandSecondary']}" padding="0">
+          {{{{backInStockMessage}}}}
+        </mj-text>
+      </mj-column>
+    </mj-section>'''
+
+
 # Registry mapping section types to MJML converters
 MJML_SECTION_REGISTRY = {
     "hero": section_to_mjml_hero,
@@ -1443,6 +1566,9 @@ MJML_SECTION_REGISTRY = {
     "loyalty_points": section_to_mjml_loyalty_points,
     "gift_card": section_to_mjml_gift_card,
     "subscription_renewal": section_to_mjml_subscription_renewal,
+    "wishlist_item": section_to_mjml_wishlist_item,
+    "price_alert": section_to_mjml_price_alert,
+    "back_in_stock": section_to_mjml_back_in_stock,
 }
 
 
