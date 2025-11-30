@@ -1,10 +1,10 @@
 # TemplateForge Generation Task Notes
 
 ## Current Status (Updated 2025-11-30)
-- **Generated**: 20 templates (8 original, 12 inspired)
+- **Generated**: 34 templates (17 original, 17 inspired)
 - **Target**: 10,000 unique templates (score ≥85)
 - **Required split**: 50% inspired / 50% original
-- **Current split**: 40% original / 60% inspired
+- **Current split**: 50% original / 50% inspired (BALANCED)
 - **All templates**: Valid HTML, MJML-compiled
 
 ## Run Commands
@@ -29,11 +29,11 @@ npx mjml input.mjml -o output.html
 ```
 
 ## Category Distribution (Current)
-- Ecommerce: 6
-- Transactional: 6
-- Promo: 4
-- Newsletter: 2
-- Welcome: 2
+- Ecommerce: 8
+- Transactional: 8
+- Promo: 6
+- Newsletter: 6
+- Welcome: 6
 
 ## Section Library (from runbook)
 hero, subhero, 1col_text, 2col_text_image, 3col_features, product_grid, testimonial, story_block, cta_band, header_nav, offer_banner, order_summary, social_icons, footer_simple, footer_complex, divider, spacer
@@ -49,36 +49,39 @@ All images: placeholder URLs from placehold.co
 
 ## Next Steps (Priority)
 
-1. **Generate more "original" templates** - Currently at 40% original, need 50%
-   - Create diverse original layouts using section library
-   - Focus on underrepresented categories: Welcome, Newsletter
-
-2. **Scale up volume**:
-   - Batch generate 50+ templates per session
+1. **Scale up volume** (50/50 balance achieved):
+   - Target 50+ new templates per iteration
    - Continue until 10,000 unique templates reached
-   - Categories needed most: Welcome, Newsletter
+   - Maintain 50/50 original/inspired balance
 
-3. **Apply style variations**:
+2. **Apply style variations**:
    - Create 2-3 style variants per template
-   - All 10 style packs now being used
+   - All 10 style packs being used
 
-4. **Batch generation workflow**:
+3. **Batch generation workflow**:
    - Create MJML templates in temp_generation/
-   - Compile all: `for f in *.mjml; do npx mjml "$f" -o "${f%.mjml}.html"; done`
+   - Compile: `cd temp_generation && npx mjml <file>.mjml -o <file>.html`
    - Add each with proper metadata via design_pipeline.py
    - Run dedupe after each batch
 
-## Templates Added This Session (10 inspired)
-- welcome_inspired_002 (Welcome, Apple Light Minimal, score 88)
-- receipt_inspired_001 (Transactional, Linear Dark, score 89)
-- cart_inspired_001 (Ecommerce, DTC Pastel, score 90)
-- newsletter_inspired_002 (Newsletter, Editorial Serif, score 91)
-- promo_inspired_001 (Promo, Brutalist Bold, score 90)
-- account_confirm_inspired_001 (Transactional, Minimal White, score 87)
-- product_launch_inspired_001 (Ecommerce, Black & Gold Premium, score 92)
-- review_request_inspired_001 (Transactional, Warm Neutral, score 88)
-- event_invite_inspired_001 (Promo, Modern Gradient, score 91)
-- loyalty_program_inspired_001 (Ecommerce, Neon Gaming, score 89)
+## Templates Added This Iteration (14 new)
+**Original (9):**
+- welcome_original_001 (Welcome, Linear Dark, score 88)
+- welcome_original_002 (Welcome, Apple Light Minimal, score 89)
+- welcome_original_003 (Welcome, DTC Pastel, score 90)
+- newsletter_original_001 (Newsletter, Editorial Serif, score 91)
+- newsletter_original_002 (Newsletter, Minimal White, score 90)
+- newsletter_original_003 (Newsletter, Brutalist Bold, score 88)
+- promo_original_001 (Promo, Brutalist Bold, score 92)
+- ecommerce_original_001 (Ecommerce, Apple Light Minimal, score 91)
+- transactional_original_001 (Transactional, Linear Dark, score 90)
+
+**Inspired (5):**
+- welcome_inspired_003 (Welcome, Modern Gradient, score 89)
+- newsletter_inspired_003 (Newsletter, Editorial Serif, score 90)
+- promo_inspired_002 (Promo, DTC Pastel, score 91)
+- ecommerce_inspired_002 (Ecommerce, Warm Neutral, score 89)
+- transactional_inspired_002 (Transactional, Linear Dark, score 90)
 
 ## Quality Criteria (from runbook)
 - Score ≥85 to keep

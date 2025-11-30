@@ -1,0 +1,135 @@
+<mjml>
+  <mj-head>
+    <mj-title>The Daily Brief</mj-title>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}, 'Helvetica Neue', Arial, sans-serif" />
+      <mj-text font-size="16px" line-height="1.65" color="{brandText}" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" font-size="14px" border-radius="4px" />
+    </mj-attributes>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .mobile-text { font-size: 14px !important; }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="{brandBG}" width="640px">
+    <!-- Simple Header -->
+    <mj-section background-color="#ffffff" padding="20px 25px" border-bottom="3px solid {brandPrimary}">
+      <mj-column>
+        <mj-text font-size="24px" font-weight="bold" align="center">
+          THE DAILY BRIEF
+        </mj-text>
+        <mj:text font-size="12px" align="center" color="#888888" padding-top="5px">
+          Your morning news in 5 minutes
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Date Banner -->
+    <mj-section background-color="{brandSecondary}" padding="12px 25px">
+      <mj-column>
+        <mj-text font-size="13px" align="center" font-weight="bold">
+          Monday, December 9, 2024
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Top Story -->
+    <mj-section background-color="#ffffff" padding="35px 25px 20px">
+      <mj-column>
+        <mj-text font-size="11px" text-transform="uppercase" letter-spacing="2px" color="{brandAccent}" font-weight="bold">
+          Top Story
+        </mj-text>
+        <mj-text font-size="24px" font-weight="bold" padding-top="12px" line-height="1.3">
+          Markets Rally as Fed Signals Rate Pause
+        </mj-text>
+        <mj-text padding-top="15px">
+          Major indices closed higher after Federal Reserve officials indicated a potential pause in rate hikes. The S&P 500 gained 1.2%, with tech stocks leading the advance.
+        </mj-text>
+        <mj-text font-size="13px" padding-top="15px">
+          <a href="#" style="color: {brandPrimary}; font-weight: bold; text-decoration: none;">Continue reading →</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="0 25px">
+      <mj-column>
+        <mj-divider border-color="#eeeeee" border-width="1px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- News Items List -->
+    <mj-section background-color="#ffffff" padding="25px 25px">
+      <mj-column>
+        <mj-text font-size="11px" text-transform="uppercase" letter-spacing="2px" color="{brandAccent}" font-weight="bold">
+          More Headlines
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="0 25px 15px">
+      <mj-column width="8%">
+        <mj-text font-size="20px" font-weight="bold" color="{brandPrimary}">1</mj-text>
+      </mj-column>
+      <mj-column width="92%">
+        <mj-text font-size="17px" font-weight="bold">Climate Summit Reaches Historic Agreement</mj-text>
+        <mj-text font-size="14px" color="#666666" padding-top="5px">195 nations commit to new emissions targets.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="0 25px 15px">
+      <mj-column width="8%">
+        <mj-text font-size="20px" font-weight="bold" color="{brandPrimary}">2</mj-text>
+      </mj-column>
+      <mj-column width="92%">
+        <mj-text font-size="17px" font-weight="bold">Tech Giants Face New Antitrust Probe</mj-text>
+        <mj-text font-size="14px" color="#666666" padding-top="5px">EU regulators announce expanded investigation.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="0 25px 15px">
+      <mj-column width="8%">
+        <mj-text font-size="20px" font-weight="bold" color="{brandPrimary}">3</mj-text>
+      </mj-column>
+      <mj-column width="92%">
+        <mj-text font-size="17px" font-weight="bold">AI Breakthrough in Medical Diagnosis</mj-text>
+        <mj-text font-size="14px" color="#666666" padding-top="5px">New model outperforms specialists in early detection.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Sponsor/Ad Section -->
+    <mj-section background-color="{brandSecondary}" padding="25px" border-radius="4px">
+      <mj-column>
+        <mj-text font-size="11px" text-transform="uppercase" color="#888888" align="center">
+          Sponsor
+        </mj-text>
+        <mj-text font-size="16px" font-weight="bold" align="center" padding-top="10px">
+          Start Your Free Trial Today
+        </mj-text>
+        <mj-text font-size="14px" align="center" padding-top="8px">
+          Productivity tools for modern teams. No credit card required.
+        </mj-text>
+        <mj-button href="#" padding-top="15px">
+          Learn More
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="#ffffff" padding="30px 25px">
+      <mj-column>
+        <mj-text font-size="13px" align="center">
+          <a href="#" style="color: {brandText}; margin: 0 8px;">Share</a> •
+          <a href="#" style="color: {brandText}; margin: 0 8px;">Archive</a> •
+          <a href="#" style="color: {brandText}; margin: 0 8px;">Subscribe</a>
+        </mj-text>
+        <mj-text font-size="12px" align="center" color="#888888" padding-top="20px">
+          You're receiving this because you signed up at dailybrief.com
+        </mj-text>
+        <mj-text font-size="12px" align="center" color="#888888">
+          <a href="#" style="color: #888888;">Unsubscribe</a> | <a href="#" style="color: #888888;">Manage preferences</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
