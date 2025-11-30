@@ -179,6 +179,43 @@ TEMPLATE_TYPES = {
         "sections": ["header_nav", "1col_text", "multi_step_form", "1col_text", "footer_simple"],
         "description": "Survey or feedback form invitation email"
     },
+    # New template types using recently added sections
+    "referral_invite": {
+        "name": "Referral Invite",
+        "category": "Promo",
+        "sections": ["header_nav", "hero", "referral_program", "testimonial", "cta_band", "footer_simple"],
+        "description": "Referral program invitation with reward details and sharing options"
+    },
+    "gift_card_delivery": {
+        "name": "Gift Card Delivery",
+        "category": "Ecommerce",
+        "sections": ["header_nav", "1col_text", "gift_card", "1col_text", "footer_simple"],
+        "description": "Gift card delivery email with redemption code and message"
+    },
+    "subscription_reminder": {
+        "name": "Subscription Reminder",
+        "category": "Transactional",
+        "sections": ["header_nav", "1col_text", "subscription_renewal", "accordion_faq", "footer_simple"],
+        "description": "Subscription renewal reminder with plan details and management options"
+    },
+    "loyalty_status": {
+        "name": "Loyalty Status Update",
+        "category": "Ecommerce",
+        "sections": ["header_nav", "hero", "loyalty_points", "product_grid", "cta_band", "footer_simple"],
+        "description": "Loyalty program status update with points balance and reward opportunities"
+    },
+    "subscription_canceled": {
+        "name": "Subscription Canceled",
+        "category": "Transactional",
+        "sections": ["header_nav", "1col_text", "subscription_renewal", "testimonial", "cta_band", "footer_simple"],
+        "description": "Subscription cancellation confirmation with reactivation option"
+    },
+    "gift_card_purchase": {
+        "name": "Gift Card Purchase Confirmation",
+        "category": "Ecommerce",
+        "sections": ["header_nav", "1col_text", "gift_card", "order_summary", "footer_simple"],
+        "description": "Gift card purchase confirmation with delivery details"
+    },
 }
 
 
