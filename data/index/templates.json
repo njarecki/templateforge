@@ -22479,6 +22479,518 @@
         "has_media_queries": true,
         "table_count": 15
       }
+    },
+    {
+      "id": "5b8050fea98212ee567e8a0c847fd61c",
+      "source_id": "danielrussellLA",
+      "source_name": "danielrussellLA/responsive-email-templates",
+      "url": "https://github.com/danielrussellLA/responsive-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/danielrussellLA/nested-tables.html",
+      "byte_size": 11171,
+      "content_hash": "f2a5b610375532bdf96ab81f9d6dafd3af027d38a6ed2f9243a912d33799ce3b",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 15
+      }
+    },
+    {
+      "id": "839f5095bf64290b881810cec3a7646c",
+      "source_id": "kazuki_shopify",
+      "source_name": "Kazuki-tam/shopify-email-notification",
+      "url": "https://github.com/Kazuki-tam/shopify-email-notification",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/kazuki_shopify/abandoned-checkout-notification.html",
+      "byte_size": 10159,
+      "content_hash": "f3b285aabed9fd90cd1e977226aa2e41a44053eaf804d0ad78fd544ed11030a8",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 16
+      }
+    },
+    {
+      "id": "dca1fff269a02fe8b06f13d47843156e",
+      "source_id": "kazuki_shopify",
+      "source_name": "Kazuki-tam/shopify-email-notification",
+      "url": "https://github.com/Kazuki-tam/shopify-email-notification",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/kazuki_shopify/buy-online.html",
+      "byte_size": 25518,
+      "content_hash": "7f6fbbb6e981cf81be9d623b5ea6a8d954f3757ccead569714a50e44f6cc7921",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 26
+      }
+    },
+    {
+      "id": "3fc32800a165e5ba98a484f9b0834fe3",
+      "source_id": "kazuki_shopify",
+      "source_name": "Kazuki-tam/shopify-email-notification",
+      "url": "https://github.com/Kazuki-tam/shopify-email-notification",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/kazuki_shopify/delivered.html",
+      "byte_size": 13607,
+      "content_hash": "9caa2b430020fd1737d5d4dbeb16b240c1bf79db35a07c6e0a2ab38c82a90586",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 19
+      }
+    },
+    {
+      "id": "3d4e0d4e23f63353b41502d972de8db4",
+      "source_id": "kazuki_shopify",
+      "source_name": "Kazuki-tam/shopify-email-notification",
+      "url": "https://github.com/Kazuki-tam/shopify-email-notification",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/kazuki_shopify/draft-order-invoice.html",
+      "byte_size": 26025,
+      "content_hash": "3020f58790520096326a53d1c9d454de7baae96d67d2005420024fd4c3170112",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 25
+      }
+    },
+    {
+      "id": "ff983eed4c2d78acb3c81227d3ab0a88",
+      "source_id": "kazuki_shopify",
+      "source_name": "Kazuki-tam/shopify-email-notification",
+      "url": "https://github.com/Kazuki-tam/shopify-email-notification",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/kazuki_shopify/local-delivery-delivered.html",
+      "byte_size": 11736,
+      "content_hash": "ecd8af5021379a1f85695a8f8bbbdb355c37ddfbbe928fa34e16e9d0d5342c8b",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 18
+      }
+    },
+    {
+      "id": "dd51162818f9454cf9c84db1b769134f",
+      "source_id": "kazuki_shopify",
+      "source_name": "Kazuki-tam/shopify-email-notification",
+      "url": "https://github.com/Kazuki-tam/shopify-email-notification",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/kazuki_shopify/local-out-for-delivery.html",
+      "byte_size": 10474,
+      "content_hash": "590761316c23a2ec9fd8d342052bb30546f9b65848fb88857c3c61cdca284cd0",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 18
+      }
+    },
+    {
+      "id": "da3c59c674954354f22580bdded7b92e",
+      "source_id": "kazuki_shopify",
+      "source_name": "Kazuki-tam/shopify-email-notification",
+      "url": "https://github.com/Kazuki-tam/shopify-email-notification",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/kazuki_shopify/missed-delivery.html",
+      "byte_size": 10598,
+      "content_hash": "f7a1034721bcae9020b1e3aa7a22b6f6a7e9e1597d66ada24557915849a603cc",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 18
+      }
+    },
+    {
+      "id": "9ea163760d35635839baace1d92962e8",
+      "source_id": "kazuki_shopify",
+      "source_name": "Kazuki-tam/shopify-email-notification",
+      "url": "https://github.com/Kazuki-tam/shopify-email-notification",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/kazuki_shopify/new-order-notification.html",
+      "byte_size": 30497,
+      "content_hash": "98a8dd8a999492d392217310b39985ac71d0fa36342657bac846d1c8d444ef35",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 25
+      }
+    },
+    {
+      "id": "080e69347bb02a74cbca7a5b7672b6ae",
+      "source_id": "kazuki_shopify",
+      "source_name": "Kazuki-tam/shopify-email-notification",
+      "url": "https://github.com/Kazuki-tam/shopify-email-notification",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/kazuki_shopify/order-cancelled.html",
+      "byte_size": 23420,
+      "content_hash": "f8f35e7e3a7a2b14bcf354a870ad67b55ed4bb4386ca27460d5a49c4bb25d8aa",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 17
+      }
+    },
+    {
+      "id": "63a260070abf72374214bd34e05f8c69",
+      "source_id": "kazuki_shopify",
+      "source_name": "Kazuki-tam/shopify-email-notification",
+      "url": "https://github.com/Kazuki-tam/shopify-email-notification",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/kazuki_shopify/order-confirmation.html",
+      "byte_size": 30982,
+      "content_hash": "1b611f42195c6de44958a5f307d7039cdf647ed18a9829e07494049c50d77ea4",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 30
+      }
+    },
+    {
+      "id": "7186937e9b48eee2876da1f413cdfabf",
+      "source_id": "kazuki_shopify",
+      "source_name": "Kazuki-tam/shopify-email-notification",
+      "url": "https://github.com/Kazuki-tam/shopify-email-notification",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/kazuki_shopify/order-edited.html",
+      "byte_size": 28479,
+      "content_hash": "dbc97595719e7b4df0bff64e7eef155a5ce751939cd20042361c6586e10e5a91",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 27
+      }
+    },
+    {
+      "id": "a4d38a77ff9c760a0d195b4fb51e68d6",
+      "source_id": "kazuki_shopify",
+      "source_name": "Kazuki-tam/shopify-email-notification",
+      "url": "https://github.com/Kazuki-tam/shopify-email-notification",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/kazuki_shopify/order-invoice.html",
+      "byte_size": 20151,
+      "content_hash": "9066e34c07165dd727928b529882003a3c6aab7f755c57a5a31922687e796e6f",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 26
+      }
+    },
+    {
+      "id": "438eb673160683b03d9eeb0a4892bbca",
+      "source_id": "kazuki_shopify",
+      "source_name": "Kazuki-tam/shopify-email-notification",
+      "url": "https://github.com/Kazuki-tam/shopify-email-notification",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/kazuki_shopify/out-for-delivery.html",
+      "byte_size": 13246,
+      "content_hash": "75092b995d6114198c3474b96976d8d4008ae77c6df810406d3b98af1517c493",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 18
+      }
+    },
+    {
+      "id": "4899c7c67ed34aa6ec4893ccd27ece70",
+      "source_id": "kazuki_shopify",
+      "source_name": "Kazuki-tam/shopify-email-notification",
+      "url": "https://github.com/Kazuki-tam/shopify-email-notification",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/kazuki_shopify/pending-payment-failure.html",
+      "byte_size": 19683,
+      "content_hash": "4126c469885a834c277ef59b2905d68c88dc063e0fc695851e153585b133f473",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 26
+      }
+    },
+    {
+      "id": "56b1140d53143a1e5d6c550dd4d27f1c",
+      "source_id": "kazuki_shopify",
+      "source_name": "Kazuki-tam/shopify-email-notification",
+      "url": "https://github.com/Kazuki-tam/shopify-email-notification",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/kazuki_shopify/pending-payment-success.html",
+      "byte_size": 30393,
+      "content_hash": "1b07f30442c21a5d43b78b9ea7656f745dda1960a8cd4db1a6caf3685938bc11",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 30
+      }
+    },
+    {
+      "id": "f6357668e5aff56bc5a2eae2525f82cc",
+      "source_id": "kazuki_shopify",
+      "source_name": "Kazuki-tam/shopify-email-notification",
+      "url": "https://github.com/Kazuki-tam/shopify-email-notification",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/kazuki_shopify/pickup-receipt.html",
+      "byte_size": 22890,
+      "content_hash": "d74b0d2a09ee4c4413db330b659c2a30f615be220b92364df644221fcdacde43",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 19
+      }
+    },
+    {
+      "id": "af96506abe4053204de4293d3e97a645",
+      "source_id": "kazuki_shopify",
+      "source_name": "Kazuki-tam/shopify-email-notification",
+      "url": "https://github.com/Kazuki-tam/shopify-email-notification",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/kazuki_shopify/pos-exchange-receipt.html",
+      "byte_size": 30107,
+      "content_hash": "0206bbb28a417f371e12ff686380e958bc753798f1460fd4bdaa8d4ace3315ee",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 26
+      }
+    },
+    {
+      "id": "73755b82e16c093d40c22cadee3d035c",
+      "source_id": "kazuki_shopify",
+      "source_name": "Kazuki-tam/shopify-email-notification",
+      "url": "https://github.com/Kazuki-tam/shopify-email-notification",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/kazuki_shopify/pos-exchange-v2-receipt.html",
+      "byte_size": 25993,
+      "content_hash": "abf4c8e91a0d675690c2a784450b27543d37bd7737a3bc4207aebe8b9da4a3bf",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 32
+      }
+    },
+    {
+      "id": "75a4e451dd45fc6500a322e220168c23",
+      "source_id": "kazuki_shopify",
+      "source_name": "Kazuki-tam/shopify-email-notification",
+      "url": "https://github.com/Kazuki-tam/shopify-email-notification",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/kazuki_shopify/ready-for-pickup.html",
+      "byte_size": 26884,
+      "content_hash": "80c027e88c769aeb1c9faeab101a1ede55afc9798271e9791abeadc43e97ccd3",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 23
+      }
+    },
+    {
+      "id": "8ac72720246f572d4e10d26be60b70b1",
+      "source_id": "kazuki_shopify",
+      "source_name": "Kazuki-tam/shopify-email-notification",
+      "url": "https://github.com/Kazuki-tam/shopify-email-notification",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/kazuki_shopify/refund-notification.html",
+      "byte_size": 22469,
+      "content_hash": "0beaff04bb95e93976dd5972fa36c568678978314fc1b7278088575370dabfdc",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 17
+      }
+    },
+    {
+      "id": "4565a479c055120d5028c8b3d507ccef",
+      "source_id": "kazuki_shopify",
+      "source_name": "Kazuki-tam/shopify-email-notification",
+      "url": "https://github.com/Kazuki-tam/shopify-email-notification",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/kazuki_shopify/return_approved.html",
+      "byte_size": 14900,
+      "content_hash": "9ac03883768ed78da7f84efd40b1bd18bbd358473adf90d119fa4cf71d130349",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 21
+      }
+    },
+    {
+      "id": "dccd95a836025cbf2daf11a696592696",
+      "source_id": "kazuki_shopify",
+      "source_name": "Kazuki-tam/shopify-email-notification",
+      "url": "https://github.com/Kazuki-tam/shopify-email-notification",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/kazuki_shopify/return-created.html",
+      "byte_size": 13077,
+      "content_hash": "20c465c66ded1d0bea8fd26c91f4ef65078c6db8d3257060d5ccb055bb0ef79f",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 19
+      }
+    },
+    {
+      "id": "cdab451585f9c849d354e1e55b853684",
+      "source_id": "kazuki_shopify",
+      "source_name": "Kazuki-tam/shopify-email-notification",
+      "url": "https://github.com/Kazuki-tam/shopify-email-notification",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/kazuki_shopify/shipping-confirmation.html",
+      "byte_size": 13174,
+      "content_hash": "5dad087edce5de64222748515d053288eeaafc1a489a1542b8e09ab90ae4a65c",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 18
+      }
+    },
+    {
+      "id": "93b19e2cd7a986b9238ca7e47eb6e6a5",
+      "source_id": "kazuki_shopify",
+      "source_name": "Kazuki-tam/shopify-email-notification",
+      "url": "https://github.com/Kazuki-tam/shopify-email-notification",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/kazuki_shopify/shipping-update.html",
+      "byte_size": 11731,
+      "content_hash": "bfb1db1d5052f7bc2f022045b78a3d133a9c7a0ef0e42331227082607b7e2fd1",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 18
+      }
+    },
+    {
+      "id": "3236e75bed2a6e7c0d4fde32dfcb4354",
+      "source_id": "simplepleb_laravel",
+      "source_name": "simplepleb/laravel-email-templates",
+      "url": "https://github.com/simplepleb/laravel-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/simplepleb_laravel/email_verification.html",
+      "byte_size": 27295,
+      "content_hash": "e885f5dfca7395dfee206ede38956bab818264994df1e1b19f957a381c569693",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 20
+      }
+    },
+    {
+      "id": "85c3292431208ffcb35be1e4a3f67328",
+      "source_id": "simplepleb_laravel",
+      "source_name": "simplepleb/laravel-email-templates",
+      "url": "https://github.com/simplepleb/laravel-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/simplepleb_laravel/forgot_password.html",
+      "byte_size": 26116,
+      "content_hash": "2ec4534b7cb17a52bccda7379d7065a669055fcb466d23584494407bb32ae165",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 19
+      }
+    },
+    {
+      "id": "1e746a8f9441e90612874e602b79453b",
+      "source_id": "simplepleb_laravel",
+      "source_name": "simplepleb/laravel-email-templates",
+      "url": "https://github.com/simplepleb/laravel-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/simplepleb_laravel/thank_you_payment.html",
+      "byte_size": 36246,
+      "content_hash": "735589cdbffbe07901e6f9b48ceb8979f38c1625558d590f1ce9a6164a469948",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 28
+      }
+    },
+    {
+      "id": "7e901935bf8ecb254169c170daae28a0",
+      "source_id": "simplepleb_laravel",
+      "source_name": "simplepleb/laravel-email-templates",
+      "url": "https://github.com/simplepleb/laravel-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/simplepleb_laravel/welcome_message.html",
+      "byte_size": 45204,
+      "content_hash": "0debfdd79b4a265dc24a37f1a392d435b1f07ab90877c12dac4209cdc03a9fb5",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 42
+      }
+    },
+    {
+      "id": "d890da50ca399411d716f3b618f7426e",
+      "source_id": "bootstrap_email",
+      "source_name": "bootstrap-email/bootstrap-email",
+      "url": "https://github.com/bootstrap-email/bootstrap-email",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/bootstrap_email/integration.html",
+      "byte_size": 26493,
+      "content_hash": "abb1bfce18825b47db169bb37488de5b108a757d684221d02080631bb7e53319",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 27
+      }
+    },
+    {
+      "id": "2eaae7258c4ceb89b2036b82813edb72",
+      "source_id": "bootstrap_email",
+      "source_name": "bootstrap-email/bootstrap-email",
+      "url": "https://github.com/bootstrap-email/bootstrap-email",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/bootstrap_email/lyft.html",
+      "byte_size": 29998,
+      "content_hash": "290f97a8729e12e317ad88d33cdf258eb5a18544a6a66169c3adb422dc7c152f",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 24
+      }
+    },
+    {
+      "id": "f89ac9ce7b337e890107b950331abfb5",
+      "source_id": "bootstrap_email",
+      "source_name": "bootstrap-email/bootstrap-email",
+      "url": "https://github.com/bootstrap-email/bootstrap-email",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/bootstrap_email/product-hunt.html",
+      "byte_size": 25137,
+      "content_hash": "90be0d5dfd27df8c5f2203cf48d22bf35889b6b0bfc9179eca1f26b2799831a0",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 25
+      }
     }
   ]
 }
