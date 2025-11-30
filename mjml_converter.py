@@ -2302,6 +2302,287 @@ def section_to_mjml_referral_success(skin_name="apple_light"):
     </mj-section>'''
 
 
+def section_to_mjml_order_returned(skin_name="apple_light"):
+    """Convert order returned notification to MJML."""
+    skin = DESIGN_SKINS.get(skin_name, DESIGN_SKINS["apple_light"])
+
+    return f'''    <!-- Order returned header -->
+    <mj-section padding="24px" background-color="#10b98110" border-radius="12px">
+      <mj-column>
+        <mj-text align="center" font-size="48px" padding="0 0 16px">
+          📦
+        </mj-text>
+        <mj-text align="center" font-size="24px" color="#10b981" font-weight="700" padding="0 0 8px">
+          Return Received
+        </mj-text>
+        <mj-text align="center" font-size="15px" color="{skin['brandSecondary']}" padding="0 0 24px">
+          We've received your return and are processing your refund
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Return details -->
+    <mj-section padding="0 24px 16px">
+      <mj-column background-color="#ffffff" border-radius="8px" padding="0">
+        <mj-text font-size="14px" color="{skin['brandSecondary']}" padding="16px 20px">
+          <span style="display: inline-block; width: 50%;">Order number</span>
+          <span style="display: inline-block; width: 50%; text-align: right; color: {skin['brandPrimary']}; font-weight: 600;">{{{{orderNumber}}}}</span>
+        </mj-text>
+        <mj-divider border-color="{skin['brandSecondary']}10" padding="0 20px" />
+        <mj-text font-size="14px" color="{skin['brandSecondary']}" padding="16px 20px">
+          <span style="display: inline-block; width: 50%;">Return ID</span>
+          <span style="display: inline-block; width: 50%; text-align: right; color: {skin['brandPrimary']};">{{{{returnId}}}}</span>
+        </mj-text>
+        <mj-divider border-color="{skin['brandSecondary']}10" padding="0 20px" />
+        <mj-text font-size="14px" color="{skin['brandSecondary']}" padding="16px 20px">
+          <span style="display: inline-block; width: 50%;">Item returned</span>
+          <span style="display: inline-block; width: 50%; text-align: right; color: {skin['brandPrimary']};">{{{{returnedItemName}}}}</span>
+        </mj-text>
+        <mj-divider border-color="{skin['brandSecondary']}10" padding="0 20px" />
+        <mj-text font-size="14px" color="{skin['brandSecondary']}" padding="16px 20px">
+          <span style="display: inline-block; width: 50%;">Refund amount</span>
+          <span style="display: inline-block; width: 50%; text-align: right; color: #10b981; font-weight: 600;">{{{{refundAmount}}}}</span>
+        </mj-text>
+        <mj-divider border-color="{skin['brandSecondary']}10" padding="0 20px" />
+        <mj-text font-size="14px" color="{skin['brandSecondary']}" padding="16px 20px">
+          <span style="display: inline-block; width: 50%;">Refund method</span>
+          <span style="display: inline-block; width: 50%; text-align: right; color: {skin['brandPrimary']};">{{{{refundMethod}}}}</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Timeline info -->
+    <mj-section padding="0 24px 16px">
+      <mj-column background-color="{skin['brandSecondary']}05" border-radius="8px" padding="16px 20px">
+        <mj-text font-size="13px" color="{skin['brandSecondary']}" font-weight="600" padding="0 0 4px">
+          When will I get my refund?
+        </mj-text>
+        <mj-text font-size="13px" color="{skin['brandSecondary']}" line-height="1.5" padding="0">
+          Your refund will be processed within {{{{refundDays}}}} business days. You'll receive a confirmation email once it's complete.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Action button -->
+    <mj-section padding="0 24px 24px">
+      <mj-column>
+        <mj-button href="{{{{returnDetailsUrl}}}}" background-color="{skin['brandAccent']}" color="#ffffff" font-size="14px" font-weight="600" border-radius="8px" inner-padding="14px 32px">
+          View Return Details
+        </mj-button>
+      </mj-column>
+    </mj-section>'''
+
+
+def section_to_mjml_account_reactivated(skin_name="apple_light"):
+    """Convert account reactivated notification to MJML."""
+    skin = DESIGN_SKINS.get(skin_name, DESIGN_SKINS["apple_light"])
+
+    return f'''    <!-- Account reactivated header -->
+    <mj-section padding="24px" background-color="#6366f110" border-radius="12px">
+      <mj-column>
+        <mj-text align="center" font-size="48px" padding="0 0 16px">
+          🎉
+        </mj-text>
+        <mj-text align="center" font-size="24px" color="#6366f1" font-weight="700" padding="0 0 8px">
+          Welcome Back!
+        </mj-text>
+        <mj-text align="center" font-size="15px" color="{skin['brandSecondary']}" padding="0 0 24px">
+          Your account has been successfully reactivated
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Account details -->
+    <mj-section padding="0 24px 16px">
+      <mj-column background-color="#ffffff" border-radius="8px" padding="0">
+        <mj-text font-size="14px" color="{skin['brandSecondary']}" padding="16px 20px">
+          <span style="display: inline-block; width: 50%;">Account</span>
+          <span style="display: inline-block; width: 50%; text-align: right; color: {skin['brandPrimary']}; font-weight: 600;">{{{{userEmail}}}}</span>
+        </mj-text>
+        <mj-divider border-color="{skin['brandSecondary']}10" padding="0 20px" />
+        <mj-text font-size="14px" color="{skin['brandSecondary']}" padding="16px 20px">
+          <span style="display: inline-block; width: 50%;">Status</span>
+          <span style="display: inline-block; width: 50%; text-align: right; color: #10b981; font-weight: 600;">Active</span>
+        </mj-text>
+        <mj-divider border-color="{skin['brandSecondary']}10" padding="0 20px" />
+        <mj-text font-size="14px" color="{skin['brandSecondary']}" padding="16px 20px">
+          <span style="display: inline-block; width: 50%;">Plan</span>
+          <span style="display: inline-block; width: 50%; text-align: right; color: {skin['brandPrimary']};">{{{{planName}}}}</span>
+        </mj-text>
+        <mj-divider border-color="{skin['brandSecondary']}10" padding="0 20px" />
+        <mj-text font-size="14px" color="{skin['brandSecondary']}" padding="16px 20px">
+          <span style="display: inline-block; width: 50%;">Reactivated on</span>
+          <span style="display: inline-block; width: 50%; text-align: right; color: {skin['brandPrimary']};">{{{{reactivationDate}}}}</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- What's new section -->
+    <mj-section padding="0 24px 16px">
+      <mj-column background-color="{skin['brandSecondary']}05" border-radius="8px" padding="16px 20px">
+        <mj-text font-size="13px" color="{skin['brandSecondary']}" font-weight="600" padding="0 0 4px">
+          While you were away
+        </mj-text>
+        <mj-text font-size="13px" color="{skin['brandSecondary']}" line-height="1.5" padding="0">
+          {{{{whatsNewText}}}}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Action button -->
+    <mj-section padding="0 24px 24px">
+      <mj-column>
+        <mj-button href="{{{{dashboardUrl}}}}" background-color="{skin['brandAccent']}" color="#ffffff" font-size="14px" font-weight="600" border-radius="8px" inner-padding="14px 32px">
+          Go to Dashboard
+        </mj-button>
+      </mj-column>
+    </mj-section>'''
+
+
+def section_to_mjml_loyalty_tier_upgrade(skin_name="apple_light"):
+    """Convert loyalty tier upgrade notification to MJML."""
+    skin = DESIGN_SKINS.get(skin_name, DESIGN_SKINS["apple_light"])
+
+    return f'''    <!-- Loyalty tier upgrade header -->
+    <mj-section padding="24px" background-color="#fbbf2420" border-radius="12px">
+      <mj-column>
+        <mj-text align="center" font-size="48px" padding="0 0 16px">
+          👑
+        </mj-text>
+        <mj-text align="center" font-size="24px" color="#f59e0b" font-weight="700" padding="0 0 8px">
+          You've Been Upgraded!
+        </mj-text>
+        <mj-text align="center" font-size="15px" color="{skin['brandSecondary']}" padding="0 0 24px">
+          Welcome to {{{{newTierName}}}} status
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Tier change display -->
+    <mj-section padding="0 24px 16px">
+      <mj-column>
+        <mj-text align="center" font-size="14px" color="{skin['brandSecondary']}" padding="12px 24px">
+          <span style="display: inline-block; padding: 12px 24px; background-color: {skin['brandSecondary']}10; border-radius: 8px; text-decoration: line-through;">{{{{previousTierName}}}}</span>
+          <span style="display: inline-block; padding: 0 16px; font-size: 20px;">→</span>
+          <span style="display: inline-block; padding: 12px 24px; background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%); border-radius: 8px; color: #ffffff; font-weight: 600;">{{{{newTierName}}}}</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- New benefits -->
+    <mj-section padding="0 24px 16px">
+      <mj-column>
+        <mj-text align="center" font-size="14px" color="{skin['brandPrimary']}" font-weight="600" padding="0 0 16px">
+          Your New Benefits
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0 24px 16px">
+      <mj-column background-color="#ffffff" border-radius="8px" padding="0">
+        <mj-text font-size="14px" color="{skin['brandPrimary']}" padding="14px 20px">
+          <span style="margin-right: 8px;">✨</span> {{{{benefit1}}}}
+        </mj-text>
+        <mj-divider border-color="{skin['brandSecondary']}10" padding="0 20px" />
+        <mj-text font-size="14px" color="{skin['brandPrimary']}" padding="14px 20px">
+          <span style="margin-right: 8px;">🎁</span> {{{{benefit2}}}}
+        </mj-text>
+        <mj-divider border-color="{skin['brandSecondary']}10" padding="0 20px" />
+        <mj-text font-size="14px" color="{skin['brandPrimary']}" padding="14px 20px">
+          <span style="margin-right: 8px;">🚀</span> {{{{benefit3}}}}
+        </mj-text>
+        <mj-divider border-color="{skin['brandSecondary']}10" padding="0 20px" />
+        <mj-text font-size="14px" color="{skin['brandPrimary']}" padding="14px 20px">
+          <span style="margin-right: 8px;">💎</span> {{{{benefit4}}}}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Points info -->
+    <mj-section padding="0 24px 16px">
+      <mj-column background-color="{skin['brandSecondary']}05" border-radius="8px" padding="16px 20px">
+        <mj-text font-size="13px" color="{skin['brandSecondary']}" padding="0">
+          <span style="display: inline-block; width: 50%;">Current points balance</span>
+          <span style="display: inline-block; width: 50%; text-align: right; color: #f59e0b; font-weight: 600; font-size: 16px;">{{{{pointsBalance}}}} pts</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Action button -->
+    <mj-section padding="0 24px 24px">
+      <mj-column>
+        <mj-button href="{{{{rewardsUrl}}}}" background-color="{skin['brandAccent']}" color="#ffffff" font-size="14px" font-weight="600" border-radius="8px" inner-padding="14px 32px">
+          Explore Your Rewards
+        </mj-button>
+      </mj-column>
+    </mj-section>'''
+
+
+def section_to_mjml_password_changed(skin_name="apple_light"):
+    """Convert password changed notification to MJML."""
+    skin = DESIGN_SKINS.get(skin_name, DESIGN_SKINS["apple_light"])
+
+    return f'''    <!-- Password changed header -->
+    <mj-section padding="24px" background-color="#10b98110" border-radius="12px">
+      <mj-column>
+        <mj-text align="center" font-size="48px" padding="0 0 16px">
+          🔒
+        </mj-text>
+        <mj-text align="center" font-size="24px" color="#10b981" font-weight="700" padding="0 0 8px">
+          Password Changed
+        </mj-text>
+        <mj-text align="center" font-size="15px" color="{skin['brandSecondary']}" padding="0 0 24px">
+          Your password has been successfully updated
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Change details -->
+    <mj-section padding="0 24px 16px">
+      <mj-column background-color="#ffffff" border-radius="8px" padding="0">
+        <mj-text font-size="14px" color="{skin['brandSecondary']}" padding="16px 20px">
+          <span style="display: inline-block; width: 50%;">Account</span>
+          <span style="display: inline-block; width: 50%; text-align: right; color: {skin['brandPrimary']}; font-weight: 600;">{{{{userEmail}}}}</span>
+        </mj-text>
+        <mj-divider border-color="{skin['brandSecondary']}10" padding="0 20px" />
+        <mj-text font-size="14px" color="{skin['brandSecondary']}" padding="16px 20px">
+          <span style="display: inline-block; width: 50%;">Changed on</span>
+          <span style="display: inline-block; width: 50%; text-align: right; color: {skin['brandPrimary']};">{{{{changeDate}}}}</span>
+        </mj-text>
+        <mj-divider border-color="{skin['brandSecondary']}10" padding="0 20px" />
+        <mj-text font-size="14px" color="{skin['brandSecondary']}" padding="16px 20px">
+          <span style="display: inline-block; width: 50%;">IP Address</span>
+          <span style="display: inline-block; width: 50%; text-align: right; color: {skin['brandPrimary']};">{{{{ipAddress}}}}</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Security warning -->
+    <mj-section padding="0 24px 16px">
+      <mj-column background-color="#f59e0b10" border-radius="8px" border="1px solid #f59e0b25" padding="16px 20px">
+        <mj-text font-size="13px" color="#b45309" padding="0">
+          <span style="margin-right: 8px;">⚠️</span>
+          <strong>Didn't make this change?</strong><br/>
+          If you didn't change your password, your account may be compromised. Please secure your account immediately.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Action buttons -->
+    <mj-section padding="0 24px 24px">
+      <mj-column width="50%">
+        <mj-button href="{{{{secureAccountUrl}}}}" background-color="#f59e0b" color="#ffffff" font-size="14px" font-weight="600" border-radius="8px" inner-padding="14px 28px" width="100%">
+          Secure My Account
+        </mj-button>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-button href="{{{{accountSettingsUrl}}}}" background-color="transparent" color="{skin['brandAccent']}" font-size="14px" font-weight="600" border-radius="8px" border="2px solid {skin['brandAccent']}" inner-padding="12px 28px" width="100%">
+          Account Settings
+        </mj-button>
+      </mj-column>
+    </mj-section>'''
+
+
 # Registry mapping section types to MJML converters
 MJML_SECTION_REGISTRY = {
     "hero": section_to_mjml_hero,
@@ -2357,6 +2638,10 @@ MJML_SECTION_REGISTRY = {
     "order_hold": section_to_mjml_order_hold,
     "subscription_paused": section_to_mjml_subscription_paused,
     "referral_success": section_to_mjml_referral_success,
+    "order_returned": section_to_mjml_order_returned,
+    "account_reactivated": section_to_mjml_account_reactivated,
+    "loyalty_tier_upgrade": section_to_mjml_loyalty_tier_upgrade,
+    "password_changed": section_to_mjml_password_changed,
 }
 
 

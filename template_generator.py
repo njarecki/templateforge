@@ -304,6 +304,31 @@ TEMPLATE_TYPES = {
         "sections": ["header_nav", "1col_text", "wishlist_item", "price_alert", "urgency_banner", "cta_band", "footer_simple"],
         "description": "Price drop notification for items in customer wishlist with urgency"
     },
+    # Additional specialized templates
+    "order_returned": {
+        "name": "Order Returned",
+        "category": "Ecommerce",
+        "sections": ["header_nav", "order_returned", "1col_text", "cta_band", "footer_simple"],
+        "description": "Return received confirmation with refund status and timeline"
+    },
+    "account_reactivated": {
+        "name": "Account Reactivated",
+        "category": "Transactional",
+        "sections": ["header_nav", "account_reactivated", "3col_features", "cta_band", "footer_simple"],
+        "description": "Welcome back email after account reactivation with what's new"
+    },
+    "loyalty_tier_upgrade": {
+        "name": "Loyalty Tier Upgrade",
+        "category": "Ecommerce",
+        "sections": ["header_nav", "loyalty_tier_upgrade", "testimonial", "cta_band", "footer_simple"],
+        "description": "Loyalty tier upgrade notification with new benefits and rewards"
+    },
+    "password_changed": {
+        "name": "Password Changed",
+        "category": "Transactional",
+        "sections": ["header_nav", "password_changed", "1col_text", "footer_simple"],
+        "description": "Password change confirmation with security notice and account protection"
+    },
 }
 
 
