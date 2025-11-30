@@ -914,6 +914,204 @@ def section_accordion_faq():
     }
 
 
+def section_pricing_table():
+    """Pricing table with 3 tiers for SaaS/subscription plans."""
+    return {
+        "type": "pricing_table",
+        "name": "Pricing Table",
+        "html": '''
+<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+    <tr>
+        <td style="padding: 24px;">
+            <h2 style="font-family: {brandFont}; font-size: 24px; color: {brandPrimary}; margin: 0 0 8px; text-align: center;">Choose Your Plan</h2>
+            <p style="font-family: {brandFont}; font-size: 16px; color: {brandSecondary}; margin: 0 0 24px; text-align: center;">{{pricingSubheadline}}</p>
+
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                <tr>
+                    <!--[if mso]>
+                    <td width="33%" valign="top">
+                    <![endif]-->
+                    <!--[if !mso]><!-->
+                    <td style="display: inline-block; width: 100%; max-width: 192px; vertical-align: top; padding: 8px;" class="mobile-full">
+                    <!--<![endif]-->
+                        <!-- Basic Plan -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="border: 1px solid {brandSecondary}30; border-radius: 8px;">
+                            <tr>
+                                <td style="padding: 24px 16px; text-align: center;">
+                                    <p style="font-family: {brandFont}; font-size: 14px; color: {brandSecondary}; margin: 0 0 8px; text-transform: uppercase; letter-spacing: 1px;">{{plan1Name}}</p>
+                                    <p style="font-family: {brandFont}; font-size: 36px; color: {brandPrimary}; margin: 0; font-weight: 700;">{{plan1Price}}</p>
+                                    <p style="font-family: {brandFont}; font-size: 12px; color: {brandSecondary}; margin: 4px 0 16px;">{{plan1Period}}</p>
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-bottom: 16px;">
+                                        <tr><td style="padding: 6px 0;"><p style="font-family: {brandFont}; font-size: 13px; color: {brandText}; margin: 0;">&#10003; {{plan1Feature1}}</p></td></tr>
+                                        <tr><td style="padding: 6px 0;"><p style="font-family: {brandFont}; font-size: 13px; color: {brandText}; margin: 0;">&#10003; {{plan1Feature2}}</p></td></tr>
+                                        <tr><td style="padding: 6px 0;"><p style="font-family: {brandFont}; font-size: 13px; color: {brandText}; margin: 0;">&#10003; {{plan1Feature3}}</p></td></tr>
+                                    </table>
+                                    <a href="{{plan1Url}}" style="display: inline-block; padding: 10px 20px; background-color: transparent; color: {brandAccent}; font-family: {brandFont}; font-size: 14px; font-weight: 600; text-decoration: none; border: 2px solid {brandAccent}; border-radius: 6px;">Select Plan</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <!--[if mso]>
+                    </td><td width="33%" valign="top">
+                    <![endif]-->
+                    <!--[if !mso]><!-->
+                    <td style="display: inline-block; width: 100%; max-width: 192px; vertical-align: top; padding: 8px;" class="mobile-full">
+                    <!--<![endif]-->
+                        <!-- Pro Plan (Featured) -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="border: 2px solid {brandAccent}; border-radius: 8px; background-color: {brandAccent}08;">
+                            <tr>
+                                <td style="padding: 8px 16px; background-color: {brandAccent}; text-align: center; border-radius: 6px 6px 0 0;">
+                                    <p style="font-family: {brandFont}; font-size: 12px; color: #ffffff; margin: 0; text-transform: uppercase; letter-spacing: 1px;">Most Popular</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 24px 16px; text-align: center;">
+                                    <p style="font-family: {brandFont}; font-size: 14px; color: {brandSecondary}; margin: 0 0 8px; text-transform: uppercase; letter-spacing: 1px;">{{plan2Name}}</p>
+                                    <p style="font-family: {brandFont}; font-size: 36px; color: {brandPrimary}; margin: 0; font-weight: 700;">{{plan2Price}}</p>
+                                    <p style="font-family: {brandFont}; font-size: 12px; color: {brandSecondary}; margin: 4px 0 16px;">{{plan2Period}}</p>
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-bottom: 16px;">
+                                        <tr><td style="padding: 6px 0;"><p style="font-family: {brandFont}; font-size: 13px; color: {brandText}; margin: 0;">&#10003; {{plan2Feature1}}</p></td></tr>
+                                        <tr><td style="padding: 6px 0;"><p style="font-family: {brandFont}; font-size: 13px; color: {brandText}; margin: 0;">&#10003; {{plan2Feature2}}</p></td></tr>
+                                        <tr><td style="padding: 6px 0;"><p style="font-family: {brandFont}; font-size: 13px; color: {brandText}; margin: 0;">&#10003; {{plan2Feature3}}</p></td></tr>
+                                        <tr><td style="padding: 6px 0;"><p style="font-family: {brandFont}; font-size: 13px; color: {brandText}; margin: 0;">&#10003; {{plan2Feature4}}</p></td></tr>
+                                    </table>
+                                    <a href="{{plan2Url}}" style="display: inline-block; padding: 10px 20px; background-color: {brandAccent}; color: #ffffff; font-family: {brandFont}; font-size: 14px; font-weight: 600; text-decoration: none; border-radius: 6px;">Select Plan</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <!--[if mso]>
+                    </td><td width="33%" valign="top">
+                    <![endif]-->
+                    <!--[if !mso]><!-->
+                    <td style="display: inline-block; width: 100%; max-width: 192px; vertical-align: top; padding: 8px;" class="mobile-full">
+                    <!--<![endif]-->
+                        <!-- Enterprise Plan -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="border: 1px solid {brandSecondary}30; border-radius: 8px;">
+                            <tr>
+                                <td style="padding: 24px 16px; text-align: center;">
+                                    <p style="font-family: {brandFont}; font-size: 14px; color: {brandSecondary}; margin: 0 0 8px; text-transform: uppercase; letter-spacing: 1px;">{{plan3Name}}</p>
+                                    <p style="font-family: {brandFont}; font-size: 36px; color: {brandPrimary}; margin: 0; font-weight: 700;">{{plan3Price}}</p>
+                                    <p style="font-family: {brandFont}; font-size: 12px; color: {brandSecondary}; margin: 4px 0 16px;">{{plan3Period}}</p>
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-bottom: 16px;">
+                                        <tr><td style="padding: 6px 0;"><p style="font-family: {brandFont}; font-size: 13px; color: {brandText}; margin: 0;">&#10003; {{plan3Feature1}}</p></td></tr>
+                                        <tr><td style="padding: 6px 0;"><p style="font-family: {brandFont}; font-size: 13px; color: {brandText}; margin: 0;">&#10003; {{plan3Feature2}}</p></td></tr>
+                                        <tr><td style="padding: 6px 0;"><p style="font-family: {brandFont}; font-size: 13px; color: {brandText}; margin: 0;">&#10003; {{plan3Feature3}}</p></td></tr>
+                                        <tr><td style="padding: 6px 0;"><p style="font-family: {brandFont}; font-size: 13px; color: {brandText}; margin: 0;">&#10003; {{plan3Feature4}}</p></td></tr>
+                                        <tr><td style="padding: 6px 0;"><p style="font-family: {brandFont}; font-size: 13px; color: {brandText}; margin: 0;">&#10003; {{plan3Feature5}}</p></td></tr>
+                                    </table>
+                                    <a href="{{plan3Url}}" style="display: inline-block; padding: 10px 20px; background-color: transparent; color: {brandAccent}; font-family: {brandFont}; font-size: 14px; font-weight: 600; text-decoration: none; border: 2px solid {brandAccent}; border-radius: 6px;">Contact Sales</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <!--[if mso]>
+                    </td>
+                    <![endif]-->
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+'''
+    }
+
+
+def section_progress_tracker():
+    """Progress/step tracker for onboarding or multi-step processes."""
+    return {
+        "type": "progress_tracker",
+        "name": "Progress Tracker",
+        "html": '''
+<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+    <tr>
+        <td style="padding: 24px;">
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                <tr>
+                    <!-- Step 1 (Completed) -->
+                    <td width="25%" align="center" valign="top">
+                        <table cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: {brandAccent}; border-radius: 50%; width: 40px; height: 40px;">
+                            <tr>
+                                <td align="center" valign="middle" style="padding: 8px;">
+                                    <span style="font-family: {brandFont}; font-size: 18px; color: #ffffff; font-weight: 700;">&#10003;</span>
+                                </td>
+                            </tr>
+                        </table>
+                        <p style="font-family: {brandFont}; font-size: 12px; color: {brandAccent}; margin: 8px 0 0; font-weight: 600;">{{step1Label}}</p>
+                    </td>
+                    <!-- Step 2 (Current) -->
+                    <td width="25%" align="center" valign="top">
+                        <table cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: {brandAccent}; border-radius: 50%; width: 40px; height: 40px;">
+                            <tr>
+                                <td align="center" valign="middle">
+                                    <span style="font-family: {brandFont}; font-size: 18px; color: #ffffff; font-weight: 700;">2</span>
+                                </td>
+                            </tr>
+                        </table>
+                        <p style="font-family: {brandFont}; font-size: 12px; color: {brandPrimary}; margin: 8px 0 0; font-weight: 600;">{{step2Label}}</p>
+                    </td>
+                    <!-- Step 3 (Pending) -->
+                    <td width="25%" align="center" valign="top">
+                        <table cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: transparent; border: 2px solid {brandSecondary}40; border-radius: 50%; width: 40px; height: 40px;">
+                            <tr>
+                                <td align="center" valign="middle">
+                                    <span style="font-family: {brandFont}; font-size: 18px; color: {brandSecondary}; font-weight: 700;">3</span>
+                                </td>
+                            </tr>
+                        </table>
+                        <p style="font-family: {brandFont}; font-size: 12px; color: {brandSecondary}; margin: 8px 0 0;">{{step3Label}}</p>
+                    </td>
+                    <!-- Step 4 (Pending) -->
+                    <td width="25%" align="center" valign="top">
+                        <table cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: transparent; border: 2px solid {brandSecondary}40; border-radius: 50%; width: 40px; height: 40px;">
+                            <tr>
+                                <td align="center" valign="middle">
+                                    <span style="font-family: {brandFont}; font-size: 18px; color: {brandSecondary}; font-weight: 700;">4</span>
+                                </td>
+                            </tr>
+                        </table>
+                        <p style="font-family: {brandFont}; font-size: 12px; color: {brandSecondary}; margin: 8px 0 0;">{{step4Label}}</p>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+'''
+    }
+
+
+def section_app_store_badges():
+    """App store download badges for mobile app promotion."""
+    return {
+        "type": "app_store_badges",
+        "name": "App Store Badges",
+        "html": f'''
+<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+    <tr>
+        <td align="center" style="padding: 24px;">
+            <p style="font-family: {{{{brandFont}}}}; font-size: 16px; color: {{{{brandPrimary}}}}; margin: 0 0 16px;">{{{{appStoreHeadline}}}}</p>
+            <table cellpadding="0" cellspacing="0" border="0" role="presentation">
+                <tr>
+                    <td style="padding-right: 8px;">
+                        <a href="{{{{appStoreUrl}}}}" style="display: block;">
+                            <img src="{IMAGE_PLACEHOLDERS['product']}" alt="Download on the App Store" width="135" height="40" style="display: block; border-radius: 6px;" />
+                        </a>
+                    </td>
+                    <td style="padding-left: 8px;">
+                        <a href="{{{{playStoreUrl}}}}" style="display: block;">
+                            <img src="{IMAGE_PLACEHOLDERS['product']}" alt="Get it on Google Play" width="135" height="40" style="display: block; border-radius: 6px;" />
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+'''
+    }
+
+
 # Registry of all sections
 SECTION_REGISTRY = {
     "hero": section_hero,
@@ -943,6 +1141,9 @@ SECTION_REGISTRY = {
     "countdown_timer": section_countdown_timer,
     "video_placeholder": section_video_placeholder,
     "accordion_faq": section_accordion_faq,
+    "pricing_table": section_pricing_table,
+    "progress_tracker": section_progress_tracker,
+    "app_store_badges": section_app_store_badges,
 }
 
 

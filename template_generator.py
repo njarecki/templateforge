@@ -125,6 +125,24 @@ TEMPLATE_TYPES = {
         "sections": ["header_nav", "1col_text", "video_placeholder", "accordion_faq", "cta_band", "footer_simple"],
         "description": "Tutorial or demo video with FAQ section"
     },
+    "subscription_plans": {
+        "name": "Subscription Plans",
+        "category": "SaaS",
+        "sections": ["header_nav", "hero", "pricing_table", "accordion_faq", "cta_band", "footer_simple"],
+        "description": "SaaS pricing page email with tiered plans and FAQ"
+    },
+    "mobile_app_launch": {
+        "name": "Mobile App Launch",
+        "category": "Promo",
+        "sections": ["header_nav", "hero", "3col_features", "app_store_badges", "testimonial", "cta_band", "footer_simple"],
+        "description": "Mobile app launch announcement with download badges"
+    },
+    "onboarding_progress": {
+        "name": "Onboarding Progress",
+        "category": "SaaS",
+        "sections": ["header_nav", "progress_tracker", "1col_text", "3col_features", "cta_band", "footer_simple"],
+        "description": "Onboarding email showing user progress and next steps"
+    },
 }
 
 
