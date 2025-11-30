@@ -1,0 +1,176 @@
+<mjml>
+	<!-- header-->
+	<mj-head>
+		<mj-title>
+			New user account
+		</mj-title>
+		<mj-preview>
+			We are sending you login information to a user account with UID: %subject.recid%.
+		</mj-preview>
+		<mj-include path="./mjml-shared/header-grey.mjml" />
+	</mj-head>
+	<!--// header-->
+
+	<mj-body mj-class="bg-grey">
+		<mj-section mj-class="pd10"></mj-section>
+		<mj-include path="./mjml-shared/navbar-grey.mjml" />
+		<!--// navbar-->
+
+		<!-- content-->
+		<mj-section mj-class="pt10 pd10-0-10 bg-white br-light-top-lr">
+			<mj-column>
+				<mj-text mj-class="caption20 lh24">
+					New user account
+				</mj-text>
+			</mj-column>
+		</mj-section>
+		<mj-section mj-class="pt0 pd10-10-10 bg-white br-light-bottom-lr">
+			<mj-column mj-class="w25">
+				<mj-image src="./img/account-new.png" width="70px"></mj-image>
+			</mj-column>
+			<mj-column mj-class="w75">
+				<mj-text padding-top="20px" mj-class="pd15-10-15 fn14-left color-grey-lt lh16">
+					Thank you for creating a new user account that has been assigned a customer number with UID: %subject.recid%.
+				</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<mj-section mj-class="pd10"></mj-section>
+
+		<mj-section mj-class="pd5 bg-blue">
+			<mj-column>
+				<mj-text mj-class="caption16-white lh20">
+					Login information:
+				</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<mj-section mj-class="pd10 bg-white">
+			<mj-column>
+				<mj-text mj-class="pb0 fn14-center color-black lh16">
+					Login name via account ID: <span style="font-weight:bold">%subject.recid%</span>
+				</mj-text>
+				<mj-text mj-class="pb0 fn14-center color-black lh16">
+					Login name via email: <span style="font-weight:bold">%subject.email%</span>
+				</mj-text>
+				<mj-text mj-class="pb0 fn14-center color-black lh16">
+					Password: <span style="font-weight:bold">%subject.login_heslo%</span>
+				</mj-text>
+				<mj-text mj-class="fn14-center color-black lh16">
+					User Interface:
+					<a href="#" class="link-underline" style="font-weight:bold">https://example.com</a>
+				</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<!-- tipy a FAQ -->
+		<mj-section mj-class="pd10">
+			<mj-column>
+				<mj-text mj-class="caption18 lh22">
+					How to continue?
+				</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<mj-section mj-class="bg-white br-light-top-lr">
+			<mj-column mj-class="w25">
+				<mj-image width="50px" src="./img/c-one.png"></mj-image>
+			</mj-column>
+			<mj-column mj-class="w75">
+				<mj-text mj-class="caption16-blue lh20">
+					Choose from our services
+				</mj-text>
+				<mj-text padding="5px 25px" mj-class="fn14-left color-grey-lt lh16">
+				  You can select the services that interest you in the <a href="#" class="link-underline" style="font-style: italic;">Service order</a>.
+				</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<mj-section mj-class="pt0 pb0 bg-white br-light-lr">
+			<mj-column>
+				<mj-divider border-width="1px" border-color="#e5e5e5"></mj-divider>
+			</mj-column>
+		</mj-section>
+
+		<mj-section mj-class="bg-white br-light-lr">
+			<mj-column mj-class="w25">
+				<mj-image width="50px" src="./img/c-two.png"></mj-image>
+			</mj-column>
+			<mj-column mj-class="w75">
+				<mj-text padding="5px 25px" mj-class="caption16-blue lh20">
+					Set up your account as needed
+				</mj-text>
+				<mj-text padding="5px 25px" mj-class="fn14-left color-grey-lt lh16">
+					In the <span style="font-style: italic;">User account</span> settings, you'll find everything you need to edit your contact and billing information.
+				</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<mj-section mj-class="pt0 pb0 bg-white br-light-lr">
+			<mj-column>
+				<mj-divider border-width="1px" border-color="#e5e5e5"></mj-divider>
+			</mj-column>
+		</mj-section>
+
+		<mj-section mj-class="bg-white br-light-lr">
+			<mj-column mj-class="w25">
+				<mj-image width="50px" src="./img/c-three.png"></mj-image>
+			</mj-column>
+			<mj-column mj-class="w75">
+				<mj-text padding="5px 25px" mj-class="caption16-blue lh20">
+					Make a payment for the ordered services
+				</mj-text>
+				<mj-text padding="5px 25px" mj-class="fn14-left color-grey-lt lh16">
+					In the <a href="#" class="link-underline" style="font-style: italic;">Billing</a> menu you get an overview of the services to be paid and an online payment gateway.
+				</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<mj-section mj-class="pt0 pb0 bg-white br-light-lr">
+			<mj-column>
+				<mj-divider border-width="1px" border-color="#e5e5e5"></mj-divider>
+			</mj-column>
+		</mj-section>
+
+		<mj-section mj-class="bg-white br-light-lr">
+			<mj-column mj-class="w25">
+				<mj-image width="50px" src="./img/c-check-mark.png"></mj-image>
+			</mj-column>
+			<mj-column mj-class="w75">
+				<mj-text padding="5px 25px" mj-class="caption16-blue lh20">
+					Enjoy our services
+				</mj-text>
+				<mj-text padding="5px 25px" mj-class="fn14-left color-grey-lt lh16">
+					Enjoy our services and if you have any questions <a href="#" class="link-underline" style="font-style: italic;">we are here for you</a>.
+				</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<mj-section mj-class="pt0 pb0 bg-white br-light-lr">
+			<mj-column>
+				<mj-divider border-width="1px" border-color="#e5e5e5"></mj-divider>
+			</mj-column>
+		</mj-section>
+
+		<mj-section mj-class="bg-white br-light-bottom-lr">
+			<mj-column mj-class="w25">
+				<mj-image width="50px" src="./img/c-help.png"></mj-image>
+			</mj-column>
+			<mj-column mj-class="w75">
+				<mj-text padding="10px 25px 5px 25px" mj-class="caption16-blue lh20">
+					Don't know what to do?
+				</mj-text>
+				<mj-text padding="5px 25px" mj-class="fn14-left color-grey-lt lh16">
+					You can also see our <a href="#" class="link-underline" style="font-style: italic;">help</a>.
+				</mj-text>
+			</mj-column>
+		</mj-section>
+		<!-- // tipy a FAQ -->
+		<!-- // content-->
+
+		<!-- footer-->
+		<mj-include path="./mjml-shared/footer-grey.mjml" />
+		<!-- // footer-->
+
+	</mj-body>
+</mjml>

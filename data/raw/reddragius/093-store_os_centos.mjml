@@ -1,0 +1,59 @@
+<mjml>
+	<!-- header-->
+	<mj-head>
+		<mj-title>
+			Your server with ID: %vserver.recid% is ready
+		</mj-title>
+		<mj-preview>
+			Your server with ID: %vserver.recid% is ready with CentOS install medium for your installation.
+		</mj-preview>
+		<mj-include path="./mjml-shared/header-grey.mjml" />
+	</mj-head>
+	<!--// header-->
+
+	<mj-body mj-class="bg-grey">
+		<mj-section mj-class="pd10"></mj-section>
+		<mj-include path="./mjml-shared/navbar-grey.mjml" />
+		<!--// navbar-->
+
+		<!-- content-->
+		<mj-include path="./mjml-shared/section-title-server-ready.mjml" />
+		<mj-section mj-class="pt0 pd10-10-10 bg-white br-light-bottom-lr">
+			<mj-column mj-class="w25">
+				<mj-image src="./img/centos.png" width="70px"></mj-image>
+			</mj-column>
+			<mj-column mj-class="w75">
+				<mj-text padding-top="20px" mj-class="pd15-10-15 fn14-left color-grey-lt lh16">
+					Server with ID: %vserver.recid% is ready with CentOS install medium for your installation. You can change the current server configuration in the UI.
+				</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<!-- tipy a FAQ -->
+		<mj-section mj-class="pd10"></mj-section>
+	  	
+	  	<mj-include path="./mjml-shared/section-tip-lamp-vs-centos.mjml" />
+	  	
+	    <mj-section mj-class="pd10"></mj-section>
+
+		<mj-include path="./mjml-shared/section-remote-connect-iso.mjml" />
+
+		<mj-section mj-class="pt0 pd10-10-10 bg-white br-light-bottom-lr">
+			<mj-column>
+				<mj-text mj-class="pt10 pd15-0-15 caption20 lh24">
+					Documentation
+				</mj-text>
+				<mj-text mj-class="pd10-15 fn14-center color-grey-lt lh20">
+					CentOS operating system: <a href="https://centos.org/docs" class="link-underline">https://centos.org/docs</a>
+				</mj-text>
+			</mj-column>
+		</mj-section>
+		<!-- // tipy a FAQ -->
+		<!-- // content-->
+
+		<!-- footer-->
+		<mj-include path="./mjml-shared/footer-grey.mjml" />
+		<!-- // footer-->
+
+	</mj-body>
+</mjml>

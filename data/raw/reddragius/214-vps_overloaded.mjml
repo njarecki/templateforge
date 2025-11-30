@@ -1,0 +1,89 @@
+<mjml>
+	<!-- header-->
+	<mj-head>
+		<mj-title>
+			Lorem ipsum dolor veniam!
+		</mj-title>
+		<mj-preview>
+			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias iste ipsam quod, architecto quam quis sunt amet tempora rerum, hic rem nobis accusantium modi laudantium magnam
+		</mj-preview>
+		<mj-include path="./mjml-shared/header-grey.mjml" />
+	</mj-head>
+	<!--// header-->
+
+	<mj-body mj-class="bg-grey">
+		<mj-include path="./mjml-shared/navbar-grey.mjml" />
+		<!--// navbar-->
+
+		<!-- content-->
+		<mj-section mj-class="pd10 bg-white">
+			<mj-column>
+				<mj-text mj-class="caption20 lh24">
+					Lorem ipsum dolor veniam!
+				</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<mj-section background-color="#f3f3f3" mj-class="pd10">
+			<mj-column mj-class="w25">
+				<mj-image src="./img/monitoring.png" width="70px"></mj-image>
+			</mj-column>
+			<mj-column mj-class="w75">
+				<mj-text padding-top="18px" mj-class="fn14-left color-black lh18">
+					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias iste ipsam quod, architecto quam quis sunt amet tempora rerum, hic rem nobis accusantium modi laudantium magnam 
+				</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<mj-section mj-class="pd10 bg-white" direction="rtl">
+			<mj-column mj-class="w25">
+				<mj-image src="./img/load.png" width="70px"></mj-image>
+			</mj-column>
+			<mj-column mj-class="w75">
+				<mj-text padding-top="25px" mj-class="fn14-left color-black lh18">
+					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias iste ipsam quod, architecto quam quis sunt amet tempora rerum, hic rem nobis accusantium modi laudantium magnam
+				</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<mj-section background-color="#f3f3f3" mj-class="pd10">
+			<mj-column mj-class="w25">
+				<mj-image src="./img/upgrade.png" width="70px"></mj-image>
+			</mj-column>
+			<mj-column mj-class="w75">
+				<mj-text padding-top="20px" mj-class="fn14-left color-black lh18">
+					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias iste ipsam quod, architecto quam quis sunt amet tempora rerum, hic rem nobis accusantium modi laudantium magnam
+				</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<mj-section padding="20px" mj-class="bg-white">
+			<mj-column>
+				<mj-text padding-left="25px" padding-right="25px" color="#5fa91d" mj-class="fn15-left bold">1.
+					<a href="#" class="link-underline">
+						Recommend me a suitable package
+					</a>
+				</mj-text>
+				<mj-text padding-left="25px" padding-right="25px" color="#5fa91d" mj-class="fn15-left bold">2.
+					<a href="#" class="link-underline">
+						I don't want to make any changes
+					</a>
+				</mj-text>
+				<mj-text padding-left="25px" padding-right="25px" color="#5fa91d" mj-class="fn15-left bold">3.
+					<a href="#" class="link-underline">
+						Do not send me information about the status of my servers
+					</a>
+				</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<!-- tipy a FAQ -->
+		<!--< // tipy a FAQ -->
+		<!-- // content-->
+
+		<!-- footer-->
+		<mj-include path="./mjml-shared/footer-grey.mjml" />
+		<!-- // footer-->
+
+	</mj-body>
+</mjml>

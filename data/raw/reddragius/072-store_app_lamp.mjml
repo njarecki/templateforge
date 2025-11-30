@@ -1,0 +1,77 @@
+<mjml>
+	<!-- header-->
+	<mj-head>
+		<mj-title>
+			Your server with ID: %vserver.recid% is ready
+		</mj-title>
+		<mj-preview>
+			The web server with ID: %vserver.recid% is ready and installed with Linux (CentOS), Apache, MariaDB a PHP.
+		</mj-preview>
+		<mj-include path="./mjml-shared/header-grey.mjml" />
+	</mj-head>
+	<!--// header-->
+
+	<mj-body mj-class="bg-grey">
+		<mj-section mj-class="pd10"></mj-section>
+		<mj-include path="./mjml-shared/navbar-grey.mjml" />
+		<!--// navbar-->
+
+		<!-- content-->
+		<mj-include path="./mjml-shared/section-title-server-ready.mjml" />
+		<mj-section mj-class="pt0 pd10-10-10 bg-white br-light-bottom-lr">
+			<mj-column mj-class="w25">
+				<mj-image src="/img/webapps.png" width="70px"></mj-image>
+			</mj-column>
+			<mj-column mj-class="w75">
+				<mj-text padding-top="15px" mj-class="pd15-10-15 fn14-left color-grey-lt lh16">
+					The web server with ID: %vserver.recid% is ready and installed with Linux (CentOS), Apache, MariaDB a PHP. You can change the current server configuration in the UI.
+				</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<!-- tipy a FAQ -->
+		<mj-section mj-class="pd10"></mj-section>
+
+		<mj-include path="./mjml-shared/section-remote-connect.mjml" />
+
+		<mj-section mj-class="pt0 pd10-10-10 bg-white br-light-bottom-lr">
+			<mj-column>
+				<mj-text mj-class="pt10 pd15-0-15 caption20 lh24">
+					Documentation
+				</mj-text>
+				<mj-text mj-class="pd-list fn14-left color-grey-lt lh20">
+					<ul>
+						<li>
+							CentOS operating system: <a href="https://centos.org/docs" class="link-underline">https://centos.org/docs</a>
+						</li>
+						<li>
+							Apache server: <a href="https://httpd.apache.org" class="link-underline">https://httpd.apache.org</a>
+						</li>
+						<li>
+							MariaDB database: <a href="https://mariadb.com/kb/en/mariadb/documentation" class="link-underline">https://mariadb.com/kb/en/mariadb/documentation</a>
+						</li>
+						<li>
+							phpMyAdmin: <a href="https://phpmyadmin.net/docs" class="link-underline">https://phpmyadmin.net/docs</a>
+						</li>
+						<li>
+							PHP: <a href="https://php.net" class="link-underline">https://php.net</a>
+						</li>
+						<li>
+							Python: <a href="https://python.org/doc" class="link-underline">https://python.org/doc</a>
+						</li>
+						<li>
+							Perl: <a href="https://perl.org/docs.html" class="link-underline">https://perl.org/docs.html</a>
+						</li>
+					</ul>
+				</mj-text>
+			</mj-column>
+		</mj-section>
+		<!-- // tipy a FAQ -->
+		<!-- // content-->
+
+		<!-- footer-->
+		<mj-include path="./mjml-shared/footer-grey.mjml" />
+		<!-- // footer-->
+
+	</mj-body>
+</mjml>

@@ -1,0 +1,153 @@
+<mjml>
+	<!-- header-->
+	<mj-head>
+		<mj-title>
+			Your server with ID: %vserver.recid% is ready
+		</mj-title>
+		<mj-preview>
+			The database server with ID: %vserver.recid% is ready and installed.
+		</mj-preview>
+		<mj-include path="./mjml-shared/header-grey.mjml" />
+	</mj-head>
+	<!--// header-->
+
+	<mj-body mj-class="bg-grey">
+		<mj-section mj-class="pd10"></mj-section>
+		<mj-include path="./mjml-shared/navbar-grey.mjml" />
+		<!--// navbar-->
+
+		<!-- content-->
+		<mj-include path="./mjml-shared/section-title-server-ready.mjml" />
+		<mj-section mj-class="pt0 pd10-10-10 bg-white br-light-bottom-lr">
+			<mj-column mj-class="w25">
+				<mj-image src="./img/mysql.png" width="70px"></mj-image>
+			</mj-column>
+			<mj-column mj-class="w75">
+				<mj-text padding-top="18px" mj-class="pd15-10-15 fn14-left color-grey-lt lh16">
+					The database server with ID: %vserver.recid% is ready and installed. You can change the current server configuration in the UI.
+				</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<mj-section mj-class="pd10"></mj-section>
+
+		<mj-include path="./mjml-shared/section-title-login-db.mjml" />
+		<mj-section mj-class="pd10 bg-white">
+			<mj-column>
+				<mj-text mj-class="pb0 fn14-center color-black">
+					User name: <span style="font-weight:bold;">root</span>
+				</mj-text>
+				<mj-text mj-class="fn14-center color-black">
+					Password: <span style="font-weight:bold;">%password_mariadb%</span>
+				</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<mj-section mj-class="pd10"></mj-section>
+
+		<mj-include path="./mjml-shared/section-box-phpmyadmin-blue.mjml" />
+
+		<!-- tipy a FAQ -->
+		<mj-section mj-class="pd10"></mj-section>
+
+		<mj-section mj-class="pt10 pd15-0-15 bg-white br-light-top-lr">
+			<mj-column>
+				<mj-text mj-class="pb0 caption20 lh24">
+					Managing VPS content
+				</mj-text>
+				<mj-text mj-class="pb0 fn16-center lh20" font-weight="lighter">
+					The GUI offers many features on the Web Apps tab to help you manage content, especially:
+				</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<mj-section mj-class="pt10 bg-white br-light-lr">
+			<mj-column vertical-align="bottom">
+				<mj-image width="180px" padding="15px 0px" align="center" mj-class="br-light" src="./img/eu-sql.png" alt="SQL Server on the Web apps tab">
+				</mj-image>
+				<mj-text padding="0px 25px" mj-class="caption15-blue lh19">
+					SQL server
+				</mj-text>
+				<mj-text padding="5px 25px" mj-class="fn13-center color-grey-lt">
+					Managing MariaDB databases and users.
+				</mj-text>
+			</mj-column>
+			<mj-column vertical-align="bottom">
+				<mj-image width="180px" padding="15px 0px" align="center" mj-class="br-light" src="./img/eu-cron.png" alt="CRON on the Web apps tab">
+				</mj-image>
+				<mj-text padding="0px 25px" mj-class="caption15-blue lh19">
+					Cron
+				</mj-text>
+				<mj-text padding="5px 25px" mj-class="fn13-center color-grey-lt">
+					Periodic triggering of your Cron.
+				</mj-text>
+			</mj-column>
+			<mj-column vertical-align="bottom">
+				<mj-image width="180px" padding="15px 0px" align="center" mj-class="br-light" src="./img/eu-firewall.png" alt="Firewall on the Web apps tab">
+				</mj-image>
+				<mj-text padding="0px 25px" mj-class="caption15-blue lh19">
+					Firewall
+				</mj-text>
+				<mj-text padding="5px 25px" mj-class="fn13-center color-grey-lt">
+					Unlimited IPv4 and IPv6 firewall management.
+				</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<mj-section mj-class="pt0 pb10 bg-white br-light-lr">
+			<mj-column>
+				<mj-text mj-class="pb0 caption20 lh24">
+					Are you missing some features in the GUI?
+				</mj-text>
+				<mj-text mj-class="pb0 fn16-center lh20" font-weight="lighter">
+					manage your server directly and without restrictions:
+				</mj-text>
+				<mj-text mj-class="caption15-blue lh19">
+					from the Web console
+				</mj-text>
+				<mj-image width="540px" src="./img/console.png" alt="Web Console in UI"></mj-image>
+				<mj-text mj-class="fn14-center color-grey-lt lh16">
+					You need only your web browser and your root login.
+				</mj-text>
+				<mj-text mj-class="caption15-blue lh19">
+					from third-party VNC clients
+				</mj-text>
+				<mj-image width="540px" src="./img/vnc.png" alt="VNC configuration in UI"></mj-image>
+				<mj-text mj-class="fn14-center color-grey-lt lh16">
+					Configure your favorite VNC client according to the VNC configuration in the UI.
+				</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<mj-section mj-class="pt0 pb0 bg-white br-light-lr">
+			<mj-column>
+				<mj-divider border-width="1px" border-color="#e5e5e5"></mj-divider>
+			</mj-column>
+		</mj-section>
+
+		<mj-section mj-class="pt0 pd10-10-10 bg-white br-light-bottom-lr">
+			<mj-column>
+				<mj-text mj-class="pt10 pd15-0-15 caption20 lh24">
+					Documentation
+				</mj-text>
+				<mj-text mj-class="pd-list fn14-left color-grey-lt lh20">
+					<ul>
+						<li>
+							MariaDB: <a href="https://mariadb.com/kb/en/mariadb/documentation" class="link-underline">https://mariadb.com/kb/en/mariadb/documentation</a>
+						</li>
+						<li>
+							CentOS operating system: <a href="https://centos.org/docs" class="link-underline">https://centos.org/docs</a>
+						</li>
+					</ul>
+				</mj-text>
+			</mj-column>
+		</mj-section>
+		<!-- // tipy a FAQ -->
+		<!-- // content-->
+
+		<!-- footer-->
+		<mj-include path="./mjml-shared/footer-grey.mjml" />
+		<!-- // footer-->
+
+	</mj-body>
+</mjml>
