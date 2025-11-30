@@ -1,0 +1,343 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-size="14px" font-family="Helvetica" />
+      <mj-text padding="12px" />
+      <mj-section padding="16px" background-color="#ffffff"/>
+      <mj-class name="background-blue-darker" background-color="#1E4D81" />
+      <mj-class name="btn" border-radius="3px" align="left" inner-padding="10px 16px" padding="12px" font-size="12px" font-weight="700"/>
+    </mj-attributes>
+    <mj-style>
+
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container width="600px" background-color="#e6e9ef">
+
+        <mj-section background-color="#e6e9ef" padding="8px"></mj-section> 
+
+        <mj-section vertical-align="middle" background-color="transparent" padding="0">
+            <mj-group>
+              <mj-column width="75%">
+                  <mj-text padding="0"  align="left" line-height="10px" color="#bdbdbd" font-size="10px">
+                    Today Only - 15% Cash Back on Your Favorite Outdoor Brands
+                  </mj-text>
+              </mj-column>
+              <mj-column width="25%">
+                  <mj-text padding="0"  align="right" line-height="10px" font-size="10px">
+                    <span>                  
+                      <a href="*|ARCHIVE|*" target="_blank" style="color: #a0a0a0;">View it in your browser</a>
+                    </span>
+                  </mj-text>
+              </mj-column>
+            </mj-group>
+        </mj-section>
+
+        <mj-section vertical-align="middle" text-align="text-align" background-color="transparent">
+            <mj-column width="100%">
+                <mj-image width="200" href="https://www.activejunky.com" src="https://activejunky-cdn.s3.amazonaws.com/email/active-junky-logo.png" />
+            </mj-column>
+        </mj-section>
+        
+        <mj-section padding="0" background-color="#3b444a" border-bottom="1px solid #e6e9ef">
+          <mj-group>
+              <mj-column background-color="#3b444a" border-right="1px solid #e6e9ef">
+                <mj-text align="center" font-size="12px" padding="7px">
+                  <a href="https://www.activejunky.com/stores" target="_blank" style="color: #ffffff; text-decoration: none;">Stores</a>
+                </mj-text>
+              </mj-column>
+              <mj-column background-color="#3b444a" border-right="1px solid #e6e9ef">
+                <mj-text align="center" font-size="12px" padding="7px">
+                  <a href="https://www.activejunky.com/channel/explore" target="_blank" style="color: #ffffff; text-decoration: none;">Explore</a>
+                </mj-text>
+              </mj-column>
+              <mj-column background-color="#3b444a">
+                <mj-text align="center" font-size="12px" padding="7px">
+                  <a href="https://www.activejunky.com/tr?a=/&l=/members/*|MEMBER_ID|*" target="_blank" style="color: #ffffff; text-decoration: none;">My Profile</a>
+                </mj-text>
+              </mj-column>
+          </mj-group>
+        </mj-section>
+
+        <mj-section padding="0 0 12px 0" background-color="transparent">
+            <mj-column>
+                <mj-image padding="0" src="https://activejunky-cdn.s3.amazonaws.com/email/15cashBack.jpg" href=" https://www.activejunky.com/digital_event/15-cash-back-friday" alt="15% Cash Back Friday"/>
+            </mj-column>
+        </mj-section>
+
+        <mj-section padding="0 0 12px 0" background-color="transparent">
+            <mj-column>
+                <mj-image padding="0" src="https://activejunky-cdn.s3.amazonaws.com/email/cabelas_3_31.jpg" href="https://activejunky.com/stores/21314/handoff/new?click_type=email-store&deal_id=21170" alt="Save up to 50% at Cabela's Spring Great Outdoor Days +15% Cash Back"/>
+            </mj-column>
+        </mj-section>
+
+        <mj-section padding="0 0 12px 0" background-color="transparent">
+           <mj-group>
+
+               <mj-column background-color="#ffffff" width="49%">
+                   <mj-image padding="12px" src="https://activejunky-cdn.s3.amazonaws.com/email/moosejaw-290.png" href="https://activejunky.com/stores/45/handoff/new?click_type=email-store" alt="Moosejaw"/>
+                   <mj-text align="center" padding-top="0" color="#f54a2e" font-size="16px" font-weight="700">
+                       <a href="https://activejunky.com/stores/45/handoff/new?click_type=email-store" target="_blank" style="color: #f54a2e; text-decoration: none;">15% Cash Back</a>
+                   </mj-text>
+                   <mj-button href="https://activejunky.com/stores/45/handoff/new?click_type=email-store" font-size="12px" background-color="#1099d2" padding-bottom="30px" font-weight="700">SHOP NOW</mj-button>
+               </mj-column>               
+
+               <mj-column width="2%"></mj-column>
+
+               <mj-column background-color="#ffffff"  width="49%">
+                   <mj-image padding="12px" src="https://activejunky-cdn.s3.amazonaws.com/email/underarmour-290.png" href="https://activejunky.com/stores/19022/handoff/new?click_type=email-store" alt="Under Armour"/>
+                   <mj-text align="center" padding-top="0" color="#f54a2e" font-size="16px" font-weight="700">
+                       <a href="https://activejunky.com/stores/19022/handoff/new?click_type=email-store" target="_blank" style="color: #f54a2e; text-decoration: none;">15% Cash Back</a>
+                   </mj-text>
+                   <mj-button href="https://activejunky.com/stores/19022/handoff/new?click_type=email-store" font-size="12px" background-color="#1099d2" padding-bottom="30px" font-weight="700">SHOP NOW</mj-button>
+               </mj-column>
+
+           </mj-group>
+        </mj-section>
+
+        <mj-section padding="0 0 12px 0" background-color="transparent">
+           <mj-group>
+           
+               <mj-column background-color="#ffffff" width="49%">
+                   <mj-image padding="12px" src="https://activejunky-cdn.s3.amazonaws.com/email/columbia-290.png" href="https://activejunky.com/stores/18423/handoff/new?click_type=email-store" alt="Columbia"/>
+                   <mj-text align="center" padding-top="0" color="#f54a2e" font-size="16px" font-weight="700">
+                       <a href="https://activejunky.com/stores/18423/handoff/new?click_type=email-store" target="_blank" style="color: #f54a2e; text-decoration: none;">15% Cash Back</a>
+                   </mj-text>
+                   <mj-button href="https://activejunky.com/stores/18423/handoff/new?click_type=email-store" font-size="12px" background-color="#1099d2" padding-bottom="30px" font-weight="700">SHOP NOW</mj-button>
+               </mj-column>               
+
+               <mj-column width="2%"></mj-column>
+
+               <mj-column background-color="#ffffff"  width="49%">
+                   <mj-image padding="12px" src="https://activejunky-cdn.s3.amazonaws.com/email/mountainhardware-290.png" href="https://activejunky.com/stores/18428/handoff/new?click_type=email-store" alt="Mountain Hardware"/>
+                   <mj-text align="center" padding-top="0" color="#f54a2e" font-size="16px" font-weight="700">
+                       <a href="https://activejunky.com/stores/18428/handoff/new?click_type=email-store" target="_blank" style="color: #f54a2e; text-decoration: none;">15% Cash Back</a>
+                   </mj-text>
+                   <mj-button href="https://activejunky.com/stores/18428/handoff/new?click_type=email-store" font-size="12px" background-color="#1099d2" padding-bottom="30px" font-weight="700">SHOP NOW</mj-button>
+               </mj-column>
+
+           </mj-group>
+        </mj-section>
+
+        <mj-section padding="0 0 12px 0" background-color="transparent">
+           <mj-group>
+           
+               <mj-column background-color="#ffffff" width="49%">
+                   <mj-image padding="12px" src="https://activejunky-cdn.s3.amazonaws.com/email/ems-290.png" href="https://activejunky.com/stores/18920/handoff/new?click_type=email-store" alt="Eastern Mountain Sports"/>
+                   <mj-text align="center" padding-top="0" color="#f54a2e" font-size="16px" font-weight="700">
+                       <a href="https://activejunky.com/stores/18920/handoff/new?click_type=email-store" target="_blank" style="color: #f54a2e; text-decoration: none;">15% Cash Back</a>
+                   </mj-text>
+                   <mj-button href="https://activejunky.com/stores/18920/handoff/new?click_type=email-store" font-size="12px" background-color="#1099d2" padding-bottom="30px" font-weight="700">SHOP NOW</mj-button>
+               </mj-column>               
+
+               <mj-column width="2%"></mj-column>
+
+               <mj-column background-color="#ffffff"  width="49%">
+                   <mj-image padding="12px" src="https://activejunky-cdn.s3.amazonaws.com/email/swell-290.png" href="https://activejunky.com/stores/20347/handoff/new?click_type=email-store" alt="Swell"/>
+                   <mj-text align="center" padding-top="0" color="#f54a2e" font-size="16px" font-weight="700">
+                       <a href="https://activejunky.com/stores/20347/handoff/new?click_type=email-store" target="_blank" style="color: #f54a2e; text-decoration: none;">15% Cash Back</a>
+                   </mj-text>
+                   <mj-button href="https://activejunky.com/stores/20347/handoff/new?click_type=email-store" font-size="12px" background-color="#1099d2" padding-bottom="30px" font-weight="700">SHOP NOW</mj-button>
+               </mj-column>
+
+           </mj-group>
+        </mj-section>
+
+        <mj-section padding="0 0 12px 0" background-color="transparent">
+           <mj-group>
+           
+               <mj-column background-color="#ffffff" width="49%">
+                   <mj-image padding="12px" src="https://activejunky-cdn.s3.amazonaws.com/email/roadrunnersports-290.png" href="https://activejunky.com/stores/19456/handoff/new?click_type=email-store" alt="Road Runner Sports"/>
+                   <mj-text align="center" padding-top="0" color="#f54a2e" font-size="16px" font-weight="700">
+                       <a href="https://activejunky.com/stores/19456/handoff/new?click_type=email-store" target="_blank" style="color: #f54a2e; text-decoration: none;">15% Cash Back</a>
+                   </mj-text>
+                   <mj-button href="https://activejunky.com/stores/19456/handoff/new?click_type=email-store" font-size="12px" background-color="#1099d2" padding-bottom="30px" font-weight="700">SHOP NOW</mj-button>
+               </mj-column>               
+
+               <mj-column width="2%"></mj-column>
+
+               <mj-column background-color="#ffffff"  width="49%">
+                   <mj-image padding="12px" src="https://activejunky-cdn.s3.amazonaws.com/email/mountainsteals-290.png" href="https://activejunky.com/stores/21701/handoff/new?click_type=email-store" alt="MountainSteals.com"/>
+                   <mj-text align="center" padding-top="0" color="#f54a2e" font-size="16px" font-weight="700">
+                       <a href="https://activejunky.com/stores/21701/handoff/new?click_type=email-store" target="_blank" style="color: #f54a2e; text-decoration: none;">15% Cash Back</a>
+                   </mj-text>
+                   <mj-button href="https://activejunky.com/stores/21701/handoff/new?click_type=email-store" font-size="12px" background-color="#1099d2" padding-bottom="30px" font-weight="700">SHOP NOW</mj-button>
+               </mj-column>
+
+           </mj-group>
+        </mj-section>
+
+        <mj-section padding="0 0 12px 0" background-color="transparent">
+           <mj-group>
+           
+               <mj-column background-color="#ffffff" width="49%">
+                   <mj-image padding="12px" src="https://activejunky-cdn.s3.amazonaws.com/email/jackrabbit-290.png" href="https://activejunky.com/stores/23548/handoff/new?click_type=email-store" alt="JackRabbit"/>
+                   <mj-text align="center" padding-top="0" color="#f54a2e" font-size="16px" font-weight="700">
+                       <a href="https://activejunky.com/stores/23548/handoff/new?click_type=email-store" target="_blank" style="color: #f54a2e; text-decoration: none;">15% Cash Back</a>
+                   </mj-text>
+                   <mj-button href="https://activejunky.com/stores/23548/handoff/new?click_type=email-store" font-size="12px" background-color="#1099d2" padding-bottom="30px" font-weight="700">SHOP NOW</mj-button>
+               </mj-column>               
+
+               <mj-column width="2%"></mj-column>
+
+               <mj-column background-color="#ffffff"  width="49%">
+                   <mj-image padding="12px" src="https://activejunky-cdn.s3.amazonaws.com/email/rockymountaintrail-290.png" href="https://activejunky.com/stores/18983/handoff/new?click_type=email-store" alt="Rocky Mountain Trail"/>
+                   <mj-text align="center" padding-top="0" color="#f54a2e" font-size="16px" font-weight="700">
+                       <a href="https://activejunky.com/stores/18983/handoff/new?click_type=email-store" target="_blank" style="color: #f54a2e; text-decoration: none;">15% Cash Back</a>
+                   </mj-text>
+                   <mj-button href="https://activejunky.com/stores/18983/handoff/new?click_type=email-store" font-size="12px" background-color="#1099d2" padding-bottom="30px" font-weight="700">SHOP NOW</mj-button>
+               </mj-column>
+
+           </mj-group>
+        </mj-section>
+
+        <mj-section padding="0 0 12px 0" background-color="transparent">
+           <mj-group>
+           
+               <mj-column background-color="#ffffff" width="49%">
+                   <mj-image padding="12px" src="https://activejunky-cdn.s3.amazonaws.com/email/speedo-290.png" href="https://activejunky.com/stores/21271/handoff/new?click_type=email-store" alt="Speedo"/>
+                   <mj-text align="center" padding-top="0" color="#f54a2e" font-size="16px" font-weight="700">
+                       <a href="https://activejunky.com/stores/21271/handoff/new?click_type=email-store" target="_blank" style="color: #f54a2e; text-decoration: none;">15% Cash Back</a>
+                   </mj-text>
+                   <mj-button href="https://activejunky.com/stores/21271/handoff/new?click_type=email-store" font-size="12px" background-color="#1099d2" padding-bottom="30px" font-weight="700">SHOP NOW</mj-button>
+               </mj-column>               
+
+               <mj-column width="2%"></mj-column>
+
+               <mj-column background-color="#ffffff"  width="49%">
+                   <mj-image padding="12px" src="https://activejunky-cdn.s3.amazonaws.com/email/spy-290.png" href="https://activejunky.com/stores/19110/handoff/new?click_type=email-store" alt="SPY"/>
+                   <mj-text align="center" padding-top="0" color="#f54a2e" font-size="16px" font-weight="700">
+                       <a href="https://activejunky.com/stores/19110/handoff/new?click_type=email-store" target="_blank" style="color: #f54a2e; text-decoration: none;">15% Cash Back</a>
+                   </mj-text>
+                   <mj-button href="https://activejunky.com/stores/19110/handoff/new?click_type=email-store" font-size="12px" background-color="#1099d2" padding-bottom="30px" font-weight="700">SHOP NOW</mj-button>
+               </mj-column>
+
+           </mj-group>
+        </mj-section>
+
+        <mj-section padding="0 0 12px 0" background-color="transparent">
+           <mj-group>
+           
+               <mj-column background-color="#ffffff" width="49%">
+                   <mj-image padding="12px" src="https://activejunky-cdn.s3.amazonaws.com/email/ebags-290.png" href="https://activejunky.com/stores/20263/handoff/new?click_type=email-store" alt="eBags"/>
+                   <mj-text align="center" padding-top="0" color="#f54a2e" font-size="16px" font-weight="700">
+                       <a href="https://activejunky.com/stores/20263/handoff/new?click_type=email-store" target="_blank" style="color: #f54a2e; text-decoration: none;">15% Cash Back</a>
+                   </mj-text>
+                   <mj-button href="https://activejunky.com/stores/20263/handoff/new?click_type=email-store" font-size="12px" background-color="#1099d2" padding-bottom="30px" font-weight="700">SHOP NOW</mj-button>
+               </mj-column>               
+
+               <mj-column width="2%"></mj-column>
+
+               <mj-column background-color="#ffffff"  width="49%">
+                   <mj-image padding="12px" src="https://activejunky-cdn.s3.amazonaws.com/email/misfit22-290.png" href="https://activejunky.com/stores/24121/handoff/new?click_type=email-store" alt="Mistfit"/>
+                   <mj-text align="center" padding-top="0" color="#f54a2e" font-size="16px" font-weight="700">
+                       <a href="https://activejunky.com/stores/24121/handoff/new?click_type=email-store" target="_blank" style="color: #f54a2e; text-decoration: none;">15% Cash Back</a>
+                   </mj-text>
+                   <mj-button href="https://activejunky.com/stores/24121/handoff/new?click_type=email-store" font-size="12px" background-color="#1099d2" padding-bottom="30px" font-weight="700">SHOP NOW</mj-button>
+               </mj-column>
+
+           </mj-group>
+        </mj-section>
+
+        <mj-section padding="0 0 12px 0" background-color="transparent">
+           <mj-group>
+           
+               <mj-column background-color="#ffffff" width="49%">
+                   <mj-image padding="12px" src="https://activejunky-cdn.s3.amazonaws.com/email/nike-290.png" href="https://activejunky.com/stores/14283/handoff/new?click_type=email-store" alt="Nike"/>
+                   <mj-text align="center" padding-top="0" color="#f54a2e" font-size="16px" font-weight="700">
+                       <a href="https://activejunky.com/stores/14283/handoff/new?click_type=email-store" target="_blank" style="color: #f54a2e; text-decoration: none;">15% Cash Back</a>
+                   </mj-text>
+                   <mj-button href="https://activejunky.com/stores/14283/handoff/new?click_type=email-store" font-size="12px" background-color="#1099d2" padding-bottom="30px" font-weight="700">SHOP NOW</mj-button>
+               </mj-column>               
+
+               <mj-column width="2%"></mj-column>
+
+               <mj-column background-color="#ffffff"  width="49%">
+                   <mj-image padding="12px" src="https://activejunky-cdn.s3.amazonaws.com/email/aftershokz-290.png" href="https://activejunky.com/stores/20741/handoff/new?click_type=email-store" alt="AfterShokz"/>
+                   <mj-text align="center" padding-top="0" color="#f54a2e" font-size="16px" font-weight="700">
+                       <a href="https://activejunky.com/stores/20741/handoff/new?click_type=email-store" target="_blank" style="color: #f54a2e; text-decoration: none;">15% Cash Back</a>
+                   </mj-text>
+                   <mj-button href="https://activejunky.com/stores/20741/handoff/new?click_type=email-store" font-size="12px" background-color="#1099d2" padding-bottom="30px" font-weight="700">SHOP NOW</mj-button>
+               </mj-column>
+
+           </mj-group>
+        </mj-section>
+
+          <mj-navbar padding="16px 16px 0 16px" border-bottom="1px solid #cccccc">
+            <mj-column width="100%">
+              <mj-inline-links base-url="https://activejunky.com">
+                <mj-link href="/stores" padding-bottom="3px" padding-top="3px" text-transform="none" color="#606060" font-size="12px">Stores</mj-link>
+                <mj-link href="/tr?a=/&l=/members/*|MEMBER_ID|*" padding-bottom="3px" padding-top="3px" text-transform="none" color="#606060" font-size="12px">My Profile</mj-link>
+                <mj-link href="/channel/explore" padding-bottom="3px" padding-top="3px" text-transform="none" color="#606060" font-size="12px">Articles</mj-link>
+                <mj-link href="/about_us/terms-of-service" padding-bottom="3px" padding-top="3px" text-transform="none" color="#606060" font-size="12px">Terms of Service</mj-link>
+                <mj-link href="/about_us/privacy-policy" padding-bottom="3px" padding-top="3px" text-transform="none" color="#606060" font-size="12px">Privacy Policy</mj-link>
+                <mj-link href="/about_us/faqs" padding-bottom="3px" padding-top="3px" text-transform="none" color="#606060" font-size="12px">FAQs</mj-link>
+                <mj-link href="/about_us/contact" padding-bottom="3px" padding-top="3px" text-transform="none" color="#606060" font-size="12px">Contact</mj-link>
+              </mj-inline-links>
+            </mj-column>
+          </mj-navbar>
+
+        <mj-section background-color="transparent" padding-bottom="0">            
+          <mj-column width="100%">
+              <mj-image width="150" href="https://www.activejunky.com" src="https://activejunky-cdn.s3.amazonaws.com/email/aj-logo-black.png" />
+          </mj-column>
+        </mj-section>
+
+        <mj-section background-color="transparent" padding-top="0" padding-bottom="0">            
+          <mj-column width="100%">
+              <mj-text align="center">
+                  <ul style="list-style-type: none; text-align: center; margin: 0 auto; padding: 0;">
+                    <li style="display: inline-block; margin-right: 15px; margin-left: 0;">
+                      <a href="https://instagram.com/activejunky" target="_blank">
+                        <img src="https://activejunky-cdn.s3.amazonaws.com/email/ag-instagram.png" alt="Active Junky Instagram" style="width: 19px;"/>
+                      </a>
+                    </li>
+                    <li style="display: inline-block; margin-right: 15px; margin-left: 0;">
+                      <a href="https://twitter.com/activejunky" target="_blank">
+                        <img src="https://activejunky-cdn.s3.amazonaws.com/email/ag-twitter.png" alt="Active Junky Instagram" style="width: 19px;"/>
+                      </a>
+                    </li>
+                    <li style="display: inline-block; margin-right: 15px; margin-left: 0;">
+                      <a href="https://www.facebook.com/ActiveJunky" target="_blank">
+                        <img src="https://activejunky-cdn.s3.amazonaws.com/email/ag-facebook.png" alt="Active Junky Instagram" style="width: 19px;"/>
+                      </a>
+                    </li>
+                    <li style="display: inline-block; margin-right: 15px; margin-left: 0;">
+                      <a href="https://www.pinterest.com/activejunky/" target="_blank">
+                        <img src="https://activejunky-cdn.s3.amazonaws.com/email/ag-pinterest.png" alt="Active Junky Instagram" style="width: 19px;"/>
+                      </a>
+                    </li>
+                    <li style="display: inline-block; margin-right: 15px; margin-left: 0;">
+                      <a href="https://vimeo.com/activejunky" target="_blank">
+                        <img src="https://activejunky-cdn.s3.amazonaws.com/email/ag-vimeo.png" alt="Active Junky Instagram" style="width: 19px;"/>
+                      </a>
+                    </li>
+                    <li style="display: inline-block; margin-left: 0;">
+                      <a href="https://www.youtube.com/user/activejunky/videos" target="_blank">
+                        <img src="https://activejunky-cdn.s3.amazonaws.com/email/ag-youtube.png" alt="Active Junky Instagram" style="width: 19px;"/>
+                      </a>
+                    </li>
+                  </ul>
+              </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section background-color="transparent" padding-top="0" padding-bottom="40px">            
+          <mj-column width="100%">
+              <mj-text align="center" padding="0" font-size="10px" color="#808080" line-height="14px">
+                  Sent with ♥ from Active Junky 
+                  <br />
+                  Copyright © *|CURRENT_YEAR|* Active Junky, All rights reserved. 
+                  <br />
+                  1875 Lawerence St. Suite 300 Denver, CO 80202
+                  <br />                  
+                  <a href="*|ARCHIVE|*" target="_blank" style="color:#808080;">View it in your browser</a>
+                  <br />
+                  <a href="*|UNSUB|*" target="_blank" style="color:#808080;">Unsubscribe</a>
+              </mj-text>
+            </mj-column>
+        </mj-section>
+      
+    </mj-container>
+  </mj-body>
+</mjml>
