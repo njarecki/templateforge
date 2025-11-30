@@ -1,3 +1,35 @@
 {
-  "clusters": []
+  "clusters": [
+    {
+      "content_hash": "2263c9c5413c1693e77a266fd38ab94a1dd83cd76c13bdc457bfafd0fcf9312d",
+      "keep": "cc0c93b6f1b981d3fa723d3163d6dac9",
+      "drop": [
+        "a76461bb27485a629436bedb43a2ccf4"
+      ]
+    },
+    {
+      "content_hash": "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed",
+      "keep": "9858781751bff4114b90e0017516cb69",
+      "drop": [
+        "434f72650ea89324cda1dbb1e10f398c",
+        "fdcc5c77b05e43164079cbb36239176a",
+        "24b6f1358ecc6816d3906d57655a2f28",
+        "ecff2fc3f7835af739bbd2f8476c63d8",
+        "0b39f6d5f33f5ebd7639417517be5a8c",
+        "5d951e06a1502849aff319f91c1fb711",
+        "1607dd21c93f44137ef1cb5ab6cda942",
+        "1fec7a6c3963538d71ce31a4d9ee20d7",
+        "f7d538302273dc155bf1886d4d2794b4",
+        "094fe487098f739cf77e63ac059bf53c",
+        "af050a183daa20c34194039bdd785728",
+        "fef9dcedb68f113d9a7c4cb856718b02",
+        "c4b930d1a284fc7826dd491a161c040e",
+        "5557956082f50de999eb9a15932cd869",
+        "e92eb7eb561327c2e2b710ab91c78ed1",
+        "4c28dede7ff675bd71219eb3efc211b1",
+        "2c7f65b1010bad40003b65eb347e77e5",
+        "08420fd9ba42034981a33f5c3b77b28d"
+      ]
+    }
+  ]
 }
