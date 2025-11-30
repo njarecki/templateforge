@@ -701,6 +701,697 @@ TEMPLATE_TYPES = {
         "sections": ["header_nav", "1col_text", "cta_band", "accordion_faq", "footer_simple"],
         "description": "Data export download ready notification"
     },
+    # ========== NEW TEMPLATES - BATCH 2 (111 new templates to reach 2000+) ==========
+    # ========== HEALTHCARE TEMPLATES ==========
+    "healthcare_appointment_confirm": {
+        "name": "Healthcare Appointment Confirmation",
+        "category": "Transactional",
+        "sections": ["header_nav", "appointment_reminder", "1col_text", "accordion_faq", "footer_simple"],
+        "description": "Medical appointment confirmation with preparation instructions"
+    },
+    "healthcare_lab_results": {
+        "name": "Lab Results Ready",
+        "category": "Transactional",
+        "sections": ["header_nav", "security_alert", "1col_text", "cta_band", "footer_simple"],
+        "description": "Notification that lab results are available in patient portal"
+    },
+    "healthcare_prescription_ready": {
+        "name": "Prescription Ready",
+        "category": "Transactional",
+        "sections": ["header_nav", "1col_text", "order_summary", "cta_band", "footer_simple"],
+        "description": "Pharmacy pickup notification for prescription"
+    },
+    "healthcare_wellness_tips": {
+        "name": "Wellness Tips Newsletter",
+        "category": "Newsletter",
+        "sections": ["header_nav", "hero", "3col_features", "story_block", "cta_band", "footer_complex"],
+        "description": "Health and wellness tips newsletter"
+    },
+    "healthcare_vaccination_reminder": {
+        "name": "Vaccination Reminder",
+        "category": "Transactional",
+        "sections": ["header_nav", "urgency_banner", "1col_text", "appointment_reminder", "cta_band", "footer_simple"],
+        "description": "Reminder to schedule vaccination appointment"
+    },
+    "healthcare_telehealth_invite": {
+        "name": "Telehealth Appointment",
+        "category": "Transactional",
+        "sections": ["header_nav", "1col_text", "video_placeholder", "appointment_reminder", "cta_band", "footer_simple"],
+        "description": "Virtual appointment link and instructions"
+    },
+    # ========== REAL ESTATE TEMPLATES ==========
+    "realestate_new_listing": {
+        "name": "New Property Listing",
+        "category": "Promo",
+        "sections": ["header_nav", "hero", "gallery_carousel", "3col_features", "cta_band", "footer_complex"],
+        "description": "New property listing announcement with photos"
+    },
+    "realestate_open_house": {
+        "name": "Open House Invitation",
+        "category": "Promo",
+        "sections": ["header_nav", "hero", "event_details", "gallery_carousel", "rsvp_buttons", "footer_simple"],
+        "description": "Open house event invitation with property details"
+    },
+    "realestate_price_reduction": {
+        "name": "Price Reduction Alert",
+        "category": "Promo",
+        "sections": ["header_nav", "price_alert", "gallery_carousel", "urgency_banner", "cta_band", "footer_simple"],
+        "description": "Property price reduction notification"
+    },
+    "realestate_market_report": {
+        "name": "Market Report",
+        "category": "Newsletter",
+        "sections": ["header_nav", "hero", "stats_metrics", "story_block", "comparison_table", "cta_band", "footer_complex"],
+        "description": "Local real estate market analysis report"
+    },
+    "realestate_saved_search": {
+        "name": "Saved Search Results",
+        "category": "Ecommerce",
+        "sections": ["header_nav", "1col_text", "product_grid", "product_grid", "cta_band", "footer_simple"],
+        "description": "New properties matching saved search criteria"
+    },
+    "realestate_offer_accepted": {
+        "name": "Offer Accepted",
+        "category": "Transactional",
+        "sections": ["header_nav", "hero", "1col_text", "progress_tracker", "cta_band", "footer_simple"],
+        "description": "Notification that property offer was accepted"
+    },
+    "realestate_closing_reminder": {
+        "name": "Closing Reminder",
+        "category": "Transactional",
+        "sections": ["header_nav", "appointment_reminder", "accordion_faq", "1col_text", "footer_simple"],
+        "description": "Real estate closing date reminder with checklist"
+    },
+    # ========== EDUCATION TEMPLATES ==========
+    "education_course_enrollment": {
+        "name": "Course Enrollment Confirmation",
+        "category": "Transactional",
+        "sections": ["header_nav", "1col_text", "3col_features", "cta_band", "footer_simple"],
+        "description": "Course enrollment confirmation with schedule"
+    },
+    "education_assignment_due": {
+        "name": "Assignment Due Reminder",
+        "category": "Transactional",
+        "sections": ["header_nav", "urgency_banner", "1col_text", "countdown_timer", "cta_band", "footer_simple"],
+        "description": "Upcoming assignment deadline reminder"
+    },
+    "education_grade_posted": {
+        "name": "Grade Posted",
+        "category": "Transactional",
+        "sections": ["header_nav", "1col_text", "stats_metrics", "cta_band", "footer_simple"],
+        "description": "Notification that grades have been posted"
+    },
+    "education_course_complete": {
+        "name": "Course Completion Certificate",
+        "category": "Transactional",
+        "sections": ["header_nav", "hero", "stats_metrics", "testimonial", "social_icons", "footer_complex"],
+        "description": "Course completion congratulations with certificate"
+    },
+    "education_new_course": {
+        "name": "New Course Available",
+        "category": "Promo",
+        "sections": ["header_nav", "hero", "video_placeholder", "3col_features", "pricing_table", "cta_band", "footer_simple"],
+        "description": "New course announcement with preview"
+    },
+    "education_scholarship": {
+        "name": "Scholarship Opportunity",
+        "category": "Promo",
+        "sections": ["header_nav", "hero", "1col_text", "accordion_faq", "cta_band", "footer_simple"],
+        "description": "Scholarship application announcement"
+    },
+    "education_parent_update": {
+        "name": "Parent Update",
+        "category": "Newsletter",
+        "sections": ["header_nav", "1col_text", "stats_metrics", "story_block", "cta_band", "footer_complex"],
+        "description": "Student progress update for parents"
+    },
+    "education_alumni_newsletter": {
+        "name": "Alumni Newsletter",
+        "category": "Newsletter",
+        "sections": ["header_nav", "hero", "team_members", "story_block", "stats_metrics", "cta_band", "social_icons", "footer_complex"],
+        "description": "Alumni news and updates newsletter"
+    },
+    # ========== TRAVEL & HOSPITALITY TEMPLATES ==========
+    "travel_booking_confirm": {
+        "name": "Travel Booking Confirmation",
+        "category": "Transactional",
+        "sections": ["header_nav", "1col_text", "order_summary", "appointment_reminder", "cta_band", "footer_simple"],
+        "description": "Travel reservation confirmation with itinerary"
+    },
+    "travel_checkin_reminder": {
+        "name": "Check-in Reminder",
+        "category": "Transactional",
+        "sections": ["header_nav", "urgency_banner", "1col_text", "cta_band", "footer_simple"],
+        "description": "Flight or hotel check-in reminder"
+    },
+    "travel_trip_itinerary": {
+        "name": "Trip Itinerary",
+        "category": "Transactional",
+        "sections": ["header_nav", "hero", "order_summary", "1col_text", "accordion_faq", "footer_complex"],
+        "description": "Complete trip itinerary with all bookings"
+    },
+    "travel_destination_guide": {
+        "name": "Destination Guide",
+        "category": "Newsletter",
+        "sections": ["header_nav", "hero", "gallery_carousel", "3col_features", "story_block", "cta_band", "footer_complex"],
+        "description": "Travel destination guide with tips"
+    },
+    "travel_deal_alert": {
+        "name": "Travel Deal Alert",
+        "category": "Promo",
+        "sections": ["offer_banner", "header_nav", "hero", "product_grid", "countdown_timer", "cta_band", "footer_simple"],
+        "description": "Limited time travel deal notification"
+    },
+    "travel_loyalty_status": {
+        "name": "Travel Loyalty Update",
+        "category": "Ecommerce",
+        "sections": ["header_nav", "hero", "loyalty_points", "progress_tracker", "cta_band", "footer_simple"],
+        "description": "Travel rewards program status update"
+    },
+    "travel_review_request": {
+        "name": "Trip Review Request",
+        "category": "Ecommerce",
+        "sections": ["header_nav", "1col_text", "rating_stars", "testimonial", "cta_band", "footer_simple"],
+        "description": "Post-trip review request"
+    },
+    "travel_cancellation": {
+        "name": "Booking Cancellation",
+        "category": "Transactional",
+        "sections": ["header_nav", "1col_text", "receipt_summary", "cta_band", "footer_simple"],
+        "description": "Travel booking cancellation confirmation"
+    },
+    # ========== FITNESS & WELLNESS TEMPLATES ==========
+    "fitness_workout_summary": {
+        "name": "Workout Summary",
+        "category": "Newsletter",
+        "sections": ["header_nav", "hero", "stats_metrics", "progress_tracker", "cta_band", "footer_simple"],
+        "description": "Weekly workout summary with stats"
+    },
+    "fitness_class_reminder": {
+        "name": "Fitness Class Reminder",
+        "category": "Transactional",
+        "sections": ["header_nav", "appointment_reminder", "1col_text", "cta_band", "footer_simple"],
+        "description": "Upcoming fitness class reminder"
+    },
+    "fitness_membership_renewal": {
+        "name": "Gym Membership Renewal",
+        "category": "Transactional",
+        "sections": ["header_nav", "1col_text", "subscription_renewal", "pricing_table", "cta_band", "footer_simple"],
+        "description": "Gym membership renewal notice"
+    },
+    "fitness_challenge_invite": {
+        "name": "Fitness Challenge",
+        "category": "Promo",
+        "sections": ["header_nav", "hero", "countdown_timer", "3col_features", "rsvp_buttons", "footer_simple"],
+        "description": "Fitness challenge invitation"
+    },
+    "fitness_goal_achieved": {
+        "name": "Goal Achieved",
+        "category": "Transactional",
+        "sections": ["header_nav", "hero", "stats_metrics", "testimonial", "social_icons", "footer_simple"],
+        "description": "Fitness goal achievement celebration"
+    },
+    "fitness_nutrition_tips": {
+        "name": "Nutrition Tips",
+        "category": "Newsletter",
+        "sections": ["header_nav", "hero", "3col_features", "story_block", "cta_band", "footer_complex"],
+        "description": "Weekly nutrition and diet tips"
+    },
+    # ========== FOOD & RESTAURANT TEMPLATES ==========
+    "restaurant_reservation_confirm": {
+        "name": "Reservation Confirmation",
+        "category": "Transactional",
+        "sections": ["header_nav", "appointment_reminder", "1col_text", "cta_band", "footer_simple"],
+        "description": "Restaurant reservation confirmation"
+    },
+    "restaurant_order_confirm": {
+        "name": "Food Order Confirmation",
+        "category": "Ecommerce",
+        "sections": ["header_nav", "1col_text", "order_summary", "shipping_tracker", "footer_simple"],
+        "description": "Food delivery order confirmation"
+    },
+    "restaurant_menu_update": {
+        "name": "New Menu Items",
+        "category": "Promo",
+        "sections": ["header_nav", "hero", "gallery_carousel", "product_grid", "cta_band", "footer_simple"],
+        "description": "New menu items announcement"
+    },
+    "restaurant_loyalty_reward": {
+        "name": "Restaurant Reward",
+        "category": "Promo",
+        "sections": ["header_nav", "hero", "loyalty_points", "gift_card", "cta_band", "footer_simple"],
+        "description": "Restaurant loyalty reward notification"
+    },
+    "restaurant_weekly_special": {
+        "name": "Weekly Special",
+        "category": "Promo",
+        "sections": ["offer_banner", "header_nav", "hero", "product_grid", "countdown_timer", "cta_band", "footer_simple"],
+        "description": "Weekly special menu promotion"
+    },
+    "restaurant_catering_inquiry": {
+        "name": "Catering Follow-up",
+        "category": "SaaS",
+        "sections": ["header_nav", "1col_text", "multi_step_form", "testimonial", "cta_band", "footer_complex"],
+        "description": "Catering inquiry follow-up"
+    },
+    # ========== FINANCE & BANKING TEMPLATES ==========
+    "finance_statement_ready": {
+        "name": "Statement Ready",
+        "category": "Transactional",
+        "sections": ["header_nav", "security_alert", "1col_text", "cta_band", "footer_simple"],
+        "description": "Monthly statement available notification"
+    },
+    "finance_payment_confirm": {
+        "name": "Payment Confirmation",
+        "category": "Transactional",
+        "sections": ["header_nav", "1col_text", "receipt_summary", "footer_simple"],
+        "description": "Bill payment confirmation"
+    },
+    "finance_fraud_alert": {
+        "name": "Fraud Alert",
+        "category": "Transactional",
+        "sections": ["header_nav", "security_alert", "1col_text", "cta_band", "footer_simple"],
+        "description": "Suspicious activity fraud alert"
+    },
+    "finance_credit_score": {
+        "name": "Credit Score Update",
+        "category": "Newsletter",
+        "sections": ["header_nav", "hero", "stats_metrics", "progress_tracker", "cta_band", "footer_simple"],
+        "description": "Monthly credit score update"
+    },
+    "finance_investment_report": {
+        "name": "Investment Report",
+        "category": "Newsletter",
+        "sections": ["header_nav", "hero", "stats_metrics", "comparison_table", "cta_band", "footer_complex"],
+        "description": "Portfolio performance report"
+    },
+    "finance_loan_approved": {
+        "name": "Loan Approved",
+        "category": "Transactional",
+        "sections": ["header_nav", "hero", "1col_text", "order_summary", "cta_band", "footer_simple"],
+        "description": "Loan application approval notification"
+    },
+    "finance_tax_documents": {
+        "name": "Tax Documents Ready",
+        "category": "Transactional",
+        "sections": ["header_nav", "1col_text", "accordion_faq", "cta_band", "footer_simple"],
+        "description": "Tax documents available for download"
+    },
+    "finance_savings_goal": {
+        "name": "Savings Goal Update",
+        "category": "Newsletter",
+        "sections": ["header_nav", "1col_text", "progress_tracker", "stats_metrics", "cta_band", "footer_simple"],
+        "description": "Savings goal progress update"
+    },
+    # ========== NONPROFIT & CHARITY TEMPLATES ==========
+    "nonprofit_donation_thank": {
+        "name": "Donation Thank You",
+        "category": "Transactional",
+        "sections": ["header_nav", "hero", "1col_text", "receipt_summary", "social_icons", "footer_complex"],
+        "description": "Donation receipt and thank you"
+    },
+    "nonprofit_impact_report": {
+        "name": "Impact Report",
+        "category": "Newsletter",
+        "sections": ["header_nav", "hero", "stats_metrics", "story_block", "testimonial", "cta_band", "footer_complex"],
+        "description": "Donor impact report showing results"
+    },
+    "nonprofit_fundraising_campaign": {
+        "name": "Fundraising Campaign",
+        "category": "Promo",
+        "sections": ["header_nav", "hero", "progress_tracker", "story_block", "cta_band", "social_icons", "footer_complex"],
+        "description": "Fundraising campaign with progress"
+    },
+    "nonprofit_volunteer_invite": {
+        "name": "Volunteer Opportunity",
+        "category": "Promo",
+        "sections": ["header_nav", "hero", "event_details", "3col_features", "rsvp_buttons", "footer_simple"],
+        "description": "Volunteer opportunity invitation"
+    },
+    "nonprofit_event_ticket": {
+        "name": "Charity Event Ticket",
+        "category": "Transactional",
+        "sections": ["header_nav", "1col_text", "event_details", "1col_text", "social_icons", "footer_simple"],
+        "description": "Charity event ticket confirmation"
+    },
+    "nonprofit_matching_gift": {
+        "name": "Matching Gift",
+        "category": "Promo",
+        "sections": ["offer_banner", "header_nav", "hero", "countdown_timer", "cta_band", "footer_simple"],
+        "description": "Matching gift campaign announcement"
+    },
+    "nonprofit_year_end_appeal": {
+        "name": "Year-End Appeal",
+        "category": "Promo",
+        "sections": ["header_nav", "hero", "stats_metrics", "story_block", "countdown_timer", "cta_band", "footer_complex"],
+        "description": "Year-end giving appeal"
+    },
+    # ========== EVENT & CONFERENCE TEMPLATES ==========
+    "event_ticket_confirm": {
+        "name": "Event Ticket Confirmation",
+        "category": "Transactional",
+        "sections": ["header_nav", "1col_text", "event_details", "1col_text", "footer_simple"],
+        "description": "Event ticket purchase confirmation"
+    },
+    "event_speaker_lineup": {
+        "name": "Speaker Lineup",
+        "category": "Promo",
+        "sections": ["header_nav", "hero", "team_members", "3col_features", "cta_band", "footer_complex"],
+        "description": "Conference speaker lineup announcement"
+    },
+    "event_agenda_release": {
+        "name": "Event Agenda",
+        "category": "Newsletter",
+        "sections": ["header_nav", "hero", "accordion_faq", "1col_text", "cta_band", "footer_simple"],
+        "description": "Event schedule and agenda release"
+    },
+    "event_countdown": {
+        "name": "Event Countdown",
+        "category": "Promo",
+        "sections": ["header_nav", "hero", "countdown_timer", "3col_features", "cta_band", "social_icons", "footer_simple"],
+        "description": "Event countdown reminder"
+    },
+    "event_session_reminder": {
+        "name": "Session Reminder",
+        "category": "Transactional",
+        "sections": ["header_nav", "appointment_reminder", "1col_text", "cta_band", "footer_simple"],
+        "description": "Upcoming session reminder"
+    },
+    "event_feedback_request": {
+        "name": "Event Feedback",
+        "category": "SaaS",
+        "sections": ["header_nav", "1col_text", "rating_stars", "multi_step_form", "footer_simple"],
+        "description": "Post-event feedback survey request"
+    },
+    "event_recording_available": {
+        "name": "Event Recording",
+        "category": "Transactional",
+        "sections": ["header_nav", "1col_text", "video_placeholder", "cta_band", "footer_simple"],
+        "description": "Event recording now available"
+    },
+    "event_early_bird": {
+        "name": "Early Bird Registration",
+        "category": "Promo",
+        "sections": ["offer_banner", "header_nav", "hero", "pricing_table", "countdown_timer", "cta_band", "footer_simple"],
+        "description": "Early bird pricing announcement"
+    },
+    # ========== AUTOMOTIVE TEMPLATES ==========
+    "auto_service_reminder": {
+        "name": "Service Reminder",
+        "category": "Transactional",
+        "sections": ["header_nav", "1col_text", "appointment_reminder", "cta_band", "footer_simple"],
+        "description": "Vehicle service appointment reminder"
+    },
+    "auto_service_complete": {
+        "name": "Service Complete",
+        "category": "Transactional",
+        "sections": ["header_nav", "1col_text", "invoice_details", "cta_band", "footer_simple"],
+        "description": "Vehicle service completion notification"
+    },
+    "auto_recall_notice": {
+        "name": "Recall Notice",
+        "category": "Transactional",
+        "sections": ["header_nav", "security_alert", "1col_text", "cta_band", "footer_simple"],
+        "description": "Vehicle recall safety notice"
+    },
+    "auto_new_model": {
+        "name": "New Model Announcement",
+        "category": "Promo",
+        "sections": ["header_nav", "hero", "gallery_carousel", "3col_features", "comparison_table", "cta_band", "footer_complex"],
+        "description": "New vehicle model announcement"
+    },
+    "auto_lease_ending": {
+        "name": "Lease Ending",
+        "category": "Transactional",
+        "sections": ["header_nav", "urgency_banner", "1col_text", "comparison_table", "cta_band", "footer_simple"],
+        "description": "Vehicle lease ending notification"
+    },
+    "auto_test_drive": {
+        "name": "Test Drive Confirmation",
+        "category": "Transactional",
+        "sections": ["header_nav", "appointment_reminder", "1col_text", "gallery_carousel", "footer_simple"],
+        "description": "Test drive appointment confirmation"
+    },
+    # ========== ENTERTAINMENT & MEDIA TEMPLATES ==========
+    "media_new_release": {
+        "name": "New Release",
+        "category": "Promo",
+        "sections": ["header_nav", "hero", "video_placeholder", "3col_features", "cta_band", "social_icons", "footer_simple"],
+        "description": "New content release announcement"
+    },
+    "media_subscription_confirm": {
+        "name": "Subscription Confirmation",
+        "category": "Transactional",
+        "sections": ["header_nav", "1col_text", "3col_features", "cta_band", "app_store_badges", "footer_simple"],
+        "description": "Media subscription confirmation"
+    },
+    "media_personalized_picks": {
+        "name": "Personalized Picks",
+        "category": "Newsletter",
+        "sections": ["header_nav", "hero", "product_grid", "product_grid", "cta_band", "footer_simple"],
+        "description": "Personalized content recommendations"
+    },
+    "media_watchlist_reminder": {
+        "name": "Watchlist Reminder",
+        "category": "Newsletter",
+        "sections": ["header_nav", "1col_text", "product_grid", "cta_band", "footer_simple"],
+        "description": "Reminder about saved content"
+    },
+    "media_season_premiere": {
+        "name": "Season Premiere",
+        "category": "Promo",
+        "sections": ["header_nav", "hero", "countdown_timer", "video_placeholder", "cta_band", "social_icons", "footer_simple"],
+        "description": "New season premiere announcement"
+    },
+    "media_creator_update": {
+        "name": "Creator Update",
+        "category": "Newsletter",
+        "sections": ["header_nav", "hero", "team_members", "story_block", "cta_band", "social_icons", "footer_complex"],
+        "description": "Creator/artist update newsletter"
+    },
+    # ========== GAMING TEMPLATES ==========
+    "gaming_account_created": {
+        "name": "Gaming Account Created",
+        "category": "Welcome",
+        "sections": ["header_nav", "hero", "3col_features", "app_store_badges", "cta_band", "social_icons", "footer_simple"],
+        "description": "Gaming account welcome email"
+    },
+    "gaming_achievement": {
+        "name": "Achievement Unlocked",
+        "category": "Transactional",
+        "sections": ["header_nav", "hero", "stats_metrics", "social_icons", "footer_simple"],
+        "description": "Gaming achievement notification"
+    },
+    "gaming_friend_invite": {
+        "name": "Friend Invite",
+        "category": "Promo",
+        "sections": ["header_nav", "hero", "referral_program", "cta_band", "footer_simple"],
+        "description": "Invite friends to play together"
+    },
+    "gaming_tournament": {
+        "name": "Tournament Invitation",
+        "category": "Promo",
+        "sections": ["header_nav", "hero", "event_details", "countdown_timer", "rsvp_buttons", "footer_simple"],
+        "description": "Gaming tournament invitation"
+    },
+    "gaming_in_game_purchase": {
+        "name": "In-Game Purchase",
+        "category": "Transactional",
+        "sections": ["header_nav", "1col_text", "receipt_summary", "footer_simple"],
+        "description": "In-game purchase confirmation"
+    },
+    "gaming_season_pass": {
+        "name": "Season Pass",
+        "category": "Promo",
+        "sections": ["header_nav", "hero", "3col_features", "pricing_table", "cta_band", "footer_simple"],
+        "description": "New season pass announcement"
+    },
+    # ========== PROFESSIONAL SERVICES TEMPLATES ==========
+    "legal_document_ready": {
+        "name": "Document Ready",
+        "category": "Transactional",
+        "sections": ["header_nav", "security_alert", "1col_text", "cta_band", "footer_simple"],
+        "description": "Legal document ready for review"
+    },
+    "legal_case_update": {
+        "name": "Case Status Update",
+        "category": "Transactional",
+        "sections": ["header_nav", "1col_text", "progress_tracker", "cta_band", "footer_simple"],
+        "description": "Legal case status update"
+    },
+    "consulting_proposal": {
+        "name": "Proposal Sent",
+        "category": "Transactional",
+        "sections": ["header_nav", "1col_text", "pricing_table", "accordion_faq", "cta_band", "footer_complex"],
+        "description": "Consulting proposal delivery"
+    },
+    "consulting_project_kickoff": {
+        "name": "Project Kickoff",
+        "category": "Transactional",
+        "sections": ["header_nav", "hero", "team_members", "progress_tracker", "cta_band", "footer_complex"],
+        "description": "Project kickoff announcement"
+    },
+    "consulting_milestone": {
+        "name": "Project Milestone",
+        "category": "Newsletter",
+        "sections": ["header_nav", "1col_text", "stats_metrics", "progress_tracker", "cta_band", "footer_simple"],
+        "description": "Project milestone completion update"
+    },
+    # ========== INSURANCE TEMPLATES ==========
+    "insurance_policy_confirm": {
+        "name": "Policy Confirmation",
+        "category": "Transactional",
+        "sections": ["header_nav", "1col_text", "order_summary", "accordion_faq", "footer_complex"],
+        "description": "Insurance policy purchase confirmation"
+    },
+    "insurance_renewal_reminder": {
+        "name": "Renewal Reminder",
+        "category": "Transactional",
+        "sections": ["header_nav", "urgency_banner", "1col_text", "subscription_renewal", "cta_band", "footer_simple"],
+        "description": "Insurance policy renewal reminder"
+    },
+    "insurance_claim_received": {
+        "name": "Claim Received",
+        "category": "Transactional",
+        "sections": ["header_nav", "1col_text", "progress_tracker", "accordion_faq", "footer_simple"],
+        "description": "Insurance claim receipt confirmation"
+    },
+    "insurance_claim_update": {
+        "name": "Claim Update",
+        "category": "Transactional",
+        "sections": ["header_nav", "1col_text", "progress_tracker", "1col_text", "footer_simple"],
+        "description": "Insurance claim status update"
+    },
+    "insurance_quote_ready": {
+        "name": "Quote Ready",
+        "category": "Transactional",
+        "sections": ["header_nav", "1col_text", "pricing_table", "comparison_table", "cta_band", "footer_simple"],
+        "description": "Insurance quote comparison"
+    },
+    # ========== SUBSCRIPTION BOX TEMPLATES ==========
+    "subscription_box_shipped": {
+        "name": "Box Shipped",
+        "category": "Ecommerce",
+        "sections": ["header_nav", "1col_text", "shipping_tracker", "gallery_carousel", "cta_band", "footer_simple"],
+        "description": "Subscription box shipment notification"
+    },
+    "subscription_box_reveal": {
+        "name": "Box Reveal",
+        "category": "Ecommerce",
+        "sections": ["header_nav", "hero", "gallery_carousel", "product_grid", "social_icons", "footer_simple"],
+        "description": "Monthly box contents reveal"
+    },
+    "subscription_box_customize": {
+        "name": "Customize Your Box",
+        "category": "Ecommerce",
+        "sections": ["header_nav", "1col_text", "countdown_timer", "product_grid", "cta_band", "footer_simple"],
+        "description": "Box customization reminder"
+    },
+    "subscription_box_review": {
+        "name": "Rate Your Box",
+        "category": "Ecommerce",
+        "sections": ["header_nav", "1col_text", "rating_stars", "product_grid", "cta_band", "footer_simple"],
+        "description": "Subscription box review request"
+    },
+    "subscription_box_gift": {
+        "name": "Gift a Subscription",
+        "category": "Promo",
+        "sections": ["header_nav", "hero", "gift_card", "pricing_table", "cta_band", "footer_simple"],
+        "description": "Gift subscription promotion"
+    },
+    # ========== PET INDUSTRY TEMPLATES ==========
+    "pet_order_confirm": {
+        "name": "Pet Supply Order",
+        "category": "Ecommerce",
+        "sections": ["header_nav", "1col_text", "order_summary", "product_grid", "footer_simple"],
+        "description": "Pet supply order confirmation"
+    },
+    "pet_vet_reminder": {
+        "name": "Vet Appointment Reminder",
+        "category": "Transactional",
+        "sections": ["header_nav", "appointment_reminder", "1col_text", "cta_band", "footer_simple"],
+        "description": "Veterinary appointment reminder"
+    },
+    "pet_prescription_refill": {
+        "name": "Prescription Refill",
+        "category": "Transactional",
+        "sections": ["header_nav", "urgency_banner", "1col_text", "order_summary", "cta_band", "footer_simple"],
+        "description": "Pet medication refill reminder"
+    },
+    "pet_birthday": {
+        "name": "Pet Birthday",
+        "category": "Promo",
+        "sections": ["header_nav", "hero", "gift_card", "product_grid", "cta_band", "footer_simple"],
+        "description": "Pet birthday special offer"
+    },
+    "pet_adoption_update": {
+        "name": "Adoption Update",
+        "category": "Newsletter",
+        "sections": ["header_nav", "hero", "gallery_carousel", "story_block", "cta_band", "social_icons", "footer_complex"],
+        "description": "Pet adoption center update"
+    },
+    # ========== HOME SERVICES TEMPLATES ==========
+    "home_service_scheduled": {
+        "name": "Service Scheduled",
+        "category": "Transactional",
+        "sections": ["header_nav", "appointment_reminder", "1col_text", "team_members", "footer_simple"],
+        "description": "Home service appointment scheduled"
+    },
+    "home_service_complete": {
+        "name": "Service Complete",
+        "category": "Transactional",
+        "sections": ["header_nav", "1col_text", "invoice_details", "rating_stars", "footer_simple"],
+        "description": "Home service completion with invoice"
+    },
+    "home_maintenance_reminder": {
+        "name": "Maintenance Reminder",
+        "category": "Newsletter",
+        "sections": ["header_nav", "1col_text", "3col_features", "cta_band", "footer_simple"],
+        "description": "Seasonal home maintenance tips"
+    },
+    "home_quote_ready": {
+        "name": "Quote Ready",
+        "category": "Transactional",
+        "sections": ["header_nav", "1col_text", "pricing_table", "cta_band", "accordion_faq", "footer_simple"],
+        "description": "Home service quote delivery"
+    },
+    "home_referral_reward": {
+        "name": "Referral Reward",
+        "category": "Promo",
+        "sections": ["header_nav", "hero", "referral_success", "gift_card", "cta_band", "footer_simple"],
+        "description": "Home service referral reward earned"
+    },
+    # ========== BEAUTY & COSMETICS TEMPLATES ==========
+    "beauty_new_collection": {
+        "name": "New Beauty Collection",
+        "category": "Ecommerce",
+        "sections": ["header_nav", "hero", "gallery_carousel", "product_grid", "cta_band", "social_icons", "footer_complex"],
+        "description": "New beauty collection launch"
+    },
+    "beauty_routine_tips": {
+        "name": "Beauty Routine Tips",
+        "category": "Newsletter",
+        "sections": ["header_nav", "hero", "video_placeholder", "3col_features", "product_grid", "cta_band", "footer_simple"],
+        "description": "Skincare and beauty routine tips"
+    },
+    "beauty_replenishment": {
+        "name": "Product Replenishment",
+        "category": "Ecommerce",
+        "sections": ["header_nav", "1col_text", "product_grid", "urgency_banner", "cta_band", "footer_simple"],
+        "description": "Beauty product replenishment reminder"
+    },
+    "beauty_quiz_results": {
+        "name": "Quiz Results",
+        "category": "SaaS",
+        "sections": ["header_nav", "hero", "3col_features", "product_grid", "cta_band", "footer_simple"],
+        "description": "Personalized beauty quiz results"
+    },
+    "beauty_sample_offer": {
+        "name": "Free Sample Offer",
+        "category": "Promo",
+        "sections": ["offer_banner", "header_nav", "hero", "product_grid", "cta_band", "footer_simple"],
+        "description": "Free beauty sample promotion"
+    },
 }
 
 
