@@ -58,7 +58,41 @@ def inline_placeholder_images(html: str) -> str:
     return result
 
 
-def get_template_preview(template_type, skin="apple_light", output_format="html", inline=False):
+def replace_placeholders_with_boxes(html: str) -> str:
+    """Replace known placeholder <img> tags with styled box divs of correct size.
+
+    This is a compatibility fallback for environments that block data URIs or images entirely.
+    """
+    size_map = {
+        IMAGE_PLACEHOLDERS.get('hero'): (640, 320, '640×320'),
+        IMAGE_PLACEHOLDERS.get('product'): (300, 300, '300×300'),
+        IMAGE_PLACEHOLDERS.get('icon'): (64, 64, '64×64'),
+        IMAGE_PLACEHOLDERS.get('logo'): (150, 50, '150×50'),
+        IMAGE_PLACEHOLDERS.get('avatar'): (80, 80, '80×80'),
+    }
+
+    result = html
+    for url, (w, h, label) in size_map.items():
+        if not url:
+            continue
+        box = (
+            f"<div style=\"width:{w}px;height:{h}px;background:#e5e7eb;"
+            f"border:1px solid #9ca3af;color:#6b7280;"
+            f"display:flex;align-items:center;justify-content:center;"
+            f"font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;"
+            f"font-size:12px;\">{label}</div>"
+        )
+        # Replace only occurrences referencing the known placeholder URL
+        result = result.replace(f'src="{url}"', f'src="" data-replaced="box"')
+        # Replace the entire img tag conservatively by swapping common patterns
+        result = result.replace(
+            f'<img src="{url}"',
+            box
+        )
+    return result
+
+
+def get_template_preview(template_type, skin="apple_light", output_format="html", inline=False, inline_mode="svg"):
     """Generate a template and return HTML or MJML."""
     template = generate_template(template_type, skin)
     template = fix_template_issues(template)
@@ -69,7 +103,10 @@ def get_template_preview(template_type, skin="apple_light", output_format="html"
 
     html = template["html"]
     if inline:
-        html = inline_placeholder_images(html)
+        if inline_mode == "box":
+            html = replace_placeholders_with_boxes(html)
+        else:
+            html = inline_placeholder_images(html)
     return html, "text/html"
 
 
@@ -456,13 +493,14 @@ class PreviewHandler(http.server.SimpleHTTPRequestHandler):
             skin = query.get("skin", ["apple_light"])[0]
             output_format = query.get("format", ["html"])[0]
             inline = query.get("inline", ["0"])[0] in ("1", "true", "yes")
+            inline_mode = query.get("placeholder", ["svg"])[0]
 
             if skin not in DESIGN_SKINS:
                 skin = "apple_light"
 
             try:
                 content, content_type = get_template_preview(
-                    template_type, skin, output_format, inline=inline
+                    template_type, skin, output_format, inline=inline, inline_mode=inline_mode
                 )
                 self.send_response(200)
                 self.send_header("Content-type", content_type)
