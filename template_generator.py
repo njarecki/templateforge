@@ -76,6 +76,43 @@ TEMPLATE_TYPES = {
         "sections": ["offer_banner", "hero", "cta_band", "product_grid", "cta_band", "footer_simple"],
         "description": "Urgent flash sale with multiple CTAs"
     },
+    # Transactional templates
+    "password_reset": {
+        "name": "Password Reset",
+        "category": "Transactional",
+        "sections": ["header_nav", "security_alert", "verification_code", "1col_text", "footer_simple"],
+        "description": "Password reset request with verification code"
+    },
+    "account_verification": {
+        "name": "Account Verification",
+        "category": "Transactional",
+        "sections": ["header_nav", "1col_text", "verification_code", "1col_text", "footer_simple"],
+        "description": "Email verification for new account signup"
+    },
+    "abandoned_cart": {
+        "name": "Abandoned Cart",
+        "category": "Ecommerce",
+        "sections": ["header_nav", "1col_text", "cart_item", "cart_item", "urgency_banner", "cta_band", "footer_simple"],
+        "description": "Cart abandonment recovery email"
+    },
+    "shipping_notification": {
+        "name": "Shipping Notification",
+        "category": "Ecommerce",
+        "sections": ["header_nav", "1col_text", "shipping_tracker", "order_summary", "cta_band", "footer_simple"],
+        "description": "Shipment tracking and delivery notification"
+    },
+    "event_invitation": {
+        "name": "Event Invitation",
+        "category": "SaaS",
+        "sections": ["header_nav", "hero", "event_details", "1col_text", "rsvp_buttons", "footer_simple"],
+        "description": "Event or webinar invitation with RSVP"
+    },
+    "review_request": {
+        "name": "Review Request",
+        "category": "Ecommerce",
+        "sections": ["header_nav", "1col_text", "product_grid", "cta_band", "testimonial", "footer_simple"],
+        "description": "Post-purchase review solicitation"
+    },
 }
 
 
