@@ -408,6 +408,21 @@ def generate_full_batch():
     return result
 
 
+def register_derived_templates(derived_types: dict):
+    """
+    Register derived template types from external sources.
+
+    Args:
+        derived_types: Dictionary of template type definitions from template_derivation
+    """
+    TEMPLATE_TYPES.update(derived_types)
+
+
+def get_all_template_types():
+    """Get all template types including any registered derived types."""
+    return TEMPLATE_TYPES
+
+
 def list_template_types():
     """List all available template types."""
     return [

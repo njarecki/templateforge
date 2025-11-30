@@ -17,6 +17,7 @@ from template_generator import (
     generate_all_skins_for_template,
     generate_layout_variant,
     list_template_types,
+    register_derived_templates,
     TEMPLATE_TYPES,
 )
 from design_system import DESIGN_SKINS
@@ -31,6 +32,11 @@ from external_sources import (
 )
 from mjml_converter import convert_template_to_mjml, generate_mjml_template
 from preview_server import run_server as run_preview_server
+from template_derivation import (
+    derive_all_templates,
+    get_derived_template_types,
+    print_derivation_report,
+)
 
 
 def run_pipeline(output_file=None, verbose=True, output_format="html"):
@@ -335,6 +341,25 @@ def main():
         default=8080,
         help="Port for preview server (default: 8080)"
     )
+    parser.add_argument(
+        "--derive-templates",
+        action="store_true",
+        help="Derive new template types from external sources"
+    )
+    parser.add_argument(
+        "--derive-report",
+        action="store_true",
+        help="Show detailed derivation report"
+    )
+    parser.add_argument(
+        "--include-derived",
+        action="store_true",
+        help="Include derived templates from external sources in batch generation"
+    )
+    parser.add_argument(
+        "--derived-template",
+        help="Generate a specific derived template (fetches from external sources)"
+    )
 
     args = parser.parse_args()
 
@@ -383,6 +408,56 @@ def main():
             print(json.dumps(result))
         return
 
+    # Template derivation mode
+    if args.derive_templates or args.derive_report:
+        verbose = not (args.quiet or args.json_only)
+        results = derive_all_templates(verbose=verbose)
+
+        if args.derive_report:
+            print_derivation_report(results)
+
+        if args.output:
+            with open(args.output, 'w') as f:
+                json.dump(results["derived_templates"], f, indent=2)
+            if verbose:
+                print(f"\nSaved derived templates to: {args.output}")
+
+        if args.json_only and not args.output:
+            print(json.dumps(results["derived_templates"]))
+        return
+
+    # Generate derived template
+    if args.derived_template:
+        verbose = not (args.quiet or args.json_only)
+        if verbose:
+            print("Fetching and deriving templates from external sources...")
+
+        # Get derived template types
+        derived_types = get_derived_template_types()
+        register_derived_templates(derived_types)
+
+        if args.derived_template not in TEMPLATE_TYPES:
+            print(f"Error: Template '{args.derived_template}' not found.")
+            print("\nAvailable derived templates:")
+            for tid in sorted(derived_types.keys()):
+                print(f"  {tid}: {derived_types[tid]['name']}")
+            return
+
+        result = run_single_template(
+            args.derived_template,
+            args.skin,
+            args.output,
+            output_format=args.format
+        )
+        if not args.output:
+            if args.json_only:
+                print(json.dumps(result, indent=2))
+            else:
+                print(f"Generated: {result['name']} ({result['skin_name']})")
+                print(f"Sections: {', '.join(result['sections_used'])}")
+                print(f"Format: {args.format.upper()}")
+        return
+
     # Generate single template
     if args.template:
         result = run_single_template(
@@ -406,6 +481,15 @@ def main():
                         print("\nHTML Preview (first 500 chars):")
                         print(result['html'][:500] + "...")
         return
+
+    # Include derived templates if requested
+    if args.include_derived:
+        if not (args.quiet or args.json_only):
+            print("Including derived templates from external sources...")
+        derived_types = get_derived_template_types()
+        register_derived_templates(derived_types)
+        if not (args.quiet or args.json_only):
+            print(f"  Added {len(derived_types)} derived template types\n")
 
     # Run full pipeline
     verbose = not (args.quiet or args.json_only)
