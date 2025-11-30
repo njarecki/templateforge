@@ -1,0 +1,121 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}" />
+      <mj-text font-size="15px" color="{brandText}" line-height="1.6" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" font-size="14px" border-radius="6px" />
+    </mj-attributes>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .mobile-full { width: 100% !important; }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f4f4f4" width="640px">
+    <mj-section background-color="#ffffff" padding="25px 30px">
+      <mj-column>
+        <mj-image src="https://placehold.co/140x45/png?text=Store" alt="Store Logo" width="140px" align="center" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="{brandSecondary}" padding="40px 30px">
+      <mj-column>
+        <mj-image src="https://placehold.co/60x60/png?text=📦" alt="Package" width="60px" align="center" />
+        <mj-text font-size="26px" font-weight="bold" align="center" padding-top="20px">
+          Your Order Has Shipped!
+        </mj-text>
+        <mj-text align="center" color="#666666" padding-top="10px">
+          Great news! Your package is on its way.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="35px 30px">
+      <mj-column>
+        <mj-text font-size="12px" text-transform="uppercase" letter-spacing="1px" color="#888888">
+          Tracking Information
+        </mj-text>
+        <mj-divider border-color="#e0e0e0" border-width="1px" padding="15px 0" />
+        <mj-text>
+          <strong>Tracking Number:</strong> 1Z999AA10123456784<br /><br />
+          <strong>Carrier:</strong> UPS Ground<br /><br />
+          <strong>Estimated Delivery:</strong> December 18-20, 2024
+        </mj-text>
+        <mj-button href="#" padding-top="25px">
+          Track Your Package
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f9f9f9" padding="30px">
+      <mj-column>
+        <mj-text font-size="12px" text-transform="uppercase" letter-spacing="1px" color="#888888">
+          Order Summary
+        </mj-text>
+        <mj-divider border-color="#e0e0e0" border-width="1px" padding="15px 0" />
+        <mj-text font-size="14px">
+          <strong>Order #:</strong> ORD-2024-45892
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f9f9f9" padding="0 30px 15px">
+      <mj-column width="20%">
+        <mj-image src="https://placehold.co/80x80/png?text=Item1" alt="Product 1" border-radius="4px" />
+      </mj-column>
+      <mj-column width="55%">
+        <mj-text font-size="14px" font-weight="bold">Wireless Headphones</mj-text>
+        <mj-text font-size="12px" color="#666666">Color: Black | Qty: 1</mj-text>
+      </mj-column>
+      <mj-column width="25%">
+        <mj-text font-size="14px" font-weight="bold" align="right">$149.99</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f9f9f9" padding="0 30px 30px">
+      <mj-column width="20%">
+        <mj-image src="https://placehold.co/80x80/png?text=Item2" alt="Product 2" border-radius="4px" />
+      </mj-column>
+      <mj-column width="55%">
+        <mj-text font-size="14px" font-weight="bold">Phone Case</mj-text>
+        <mj-text font-size="12px" color="#666666">Color: Clear | Qty: 1</mj-text>
+      </mj-column>
+      <mj-column width="25%">
+        <mj-text font-size="14px" font-weight="bold" align="right">$29.99</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="25px 30px">
+      <mj-column width="50%">
+        <mj-text font-size="12px" text-transform="uppercase" letter-spacing="1px" color="#888888">
+          Shipping Address
+        </mj-text>
+        <mj-text font-size="14px" padding-top="10px">
+          John Smith<br />
+          123 Main Street, Apt 4B<br />
+          New York, NY 10001
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text font-size="12px" text-transform="uppercase" letter-spacing="1px" color="#888888">
+          Order Total
+        </mj-text>
+        <mj-text font-size="14px" padding-top="10px">
+          Subtotal: $179.98<br />
+          Shipping: Free<br />
+          Tax: $15.75<br />
+          <strong>Total: $195.73</strong>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="{brandPrimary}" padding="25px 30px">
+      <mj-column>
+        <mj-text font-size="14px" align="center" color="#ffffff">
+          Questions? Contact us at <a href="mailto:support@store.com" style="color:#ffffff;">support@store.com</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f4f4f4" padding="30px">
+      <mj-column>
+        <mj-text font-size="11px" align="center" color="#999999">
+          © 2024 Store Name. All rights reserved.<br />
+          <a href="#" style="color: #999999;">Unsubscribe</a> | <a href="#" style="color: #999999;">Privacy</a> | <a href="#" style="color: #999999;">Help</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

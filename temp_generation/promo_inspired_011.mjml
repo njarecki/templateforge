@@ -1,0 +1,92 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}" />
+      <mj-text font-size="15px" color="{brandText}" line-height="1.6" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" font-size="13px" border-radius="0" text-transform="uppercase" letter-spacing="2px" />
+    </mj-attributes>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .mobile-stack { width: 100% !important; }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#0a0a0a" width="640px">
+    <mj-section background-color="#0a0a0a" padding="25px 20px">
+      <mj-column>
+        <mj-image src="https://placehold.co/140x45/png?text=SPORT" alt="Sport Brand" width="140px" align="center" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#0a0a0a" padding="10px 20px">
+      <mj-column>
+        <mj-navbar base-url="#">
+          <mj-navbar-link href="#" color="#ffffff" font-size="11px" text-transform="uppercase" letter-spacing="1px" padding="10px 15px">Men</mj-navbar-link>
+          <mj-navbar-link href="#" color="#ffffff" font-size="11px" text-transform="uppercase" letter-spacing="1px" padding="10px 15px">Women</mj-navbar-link>
+          <mj-navbar-link href="#" color="#ffffff" font-size="11px" text-transform="uppercase" letter-spacing="1px" padding="10px 15px">Kids</mj-navbar-link>
+          <mj-navbar-link href="#" color="#ff4444" font-size="11px" text-transform="uppercase" letter-spacing="1px" padding="10px 15px">Sale</mj-navbar-link>
+        </mj-navbar>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0">
+      <mj-column>
+        <mj-image src="https://placehold.co/640x400/png?text=Athlete+Action+Shot" alt="Athlete in Action" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#0a0a0a" padding="50px 30px">
+      <mj-column>
+        <mj-text font-size="12px" letter-spacing="4px" text-transform="uppercase" color="#ff4444" align="center">
+          End of Season Sale
+        </mj-text>
+        <mj-text font-size="56px" font-weight="bold" align="center" color="#ffffff" line-height="1" padding-top="15px">
+          UP TO 60%
+        </mj-text>
+        <mj-text font-size="24px" align="center" color="#ffffff" padding-top="5px">
+          OFF SELECT STYLES
+        </mj-text>
+        <mj-text align="center" color="#888888" padding-top="20px">
+          Performance gear at unbeatable prices. Limited stock available.
+        </mj-text>
+        <mj-button href="#" padding-top="30px" background-color="#ff4444">
+          Shop the Sale
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#151515" padding="30px 20px">
+      <mj-column width="50%">
+        <mj-image src="https://placehold.co/280x350/png?text=Running+Shoes" alt="Running Shoes" />
+        <mj-text font-size="11px" color="#ff4444" padding-top="15px">-50%</mj-text>
+        <mj-text font-weight="bold" color="#ffffff" padding-top="5px">UltraBoost Running</mj-text>
+        <mj-text font-size="14px" color="#888888"><s>$180</s> <span style="color:#ffffff;">$90</span></mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image src="https://placehold.co/280x350/png?text=Training+Jacket" alt="Training Jacket" />
+        <mj-text font-size="11px" color="#ff4444" padding-top="15px">-40%</mj-text>
+        <mj-text font-weight="bold" color="#ffffff" padding-top="5px">Storm Training Jacket</mj-text>
+        <mj-text font-size="14px" color="#888888"><s>$120</s> <span style="color:#ffffff;">$72</span></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#0a0a0a" padding="35px 30px">
+      <mj-column>
+        <mj-text font-size="16px" align="center" color="#ffffff" font-weight="bold">
+          ⚡ EXTRA 10% OFF WITH CODE: FINAL10
+        </mj-text>
+        <mj-text font-size="12px" align="center" color="#666666" padding-top="10px">
+          Free shipping on orders $75+ • Free returns within 60 days
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#0a0a0a" padding="25px">
+      <mj-column>
+        <mj-social font-size="12px" icon-size="24px" mode="horizontal" align="center">
+          <mj-social-element name="instagram" href="#" alt="Instagram" background-color="#333333" />
+          <mj-social-element name="twitter" href="#" alt="Twitter" background-color="#333333" />
+          <mj-social-element name="youtube" href="#" alt="YouTube" background-color="#333333" />
+        </mj-social>
+        <mj-text font-size="10px" align="center" color="#555555" padding-top="20px">
+          © 2024 Sport Brand. All rights reserved.<br />
+          <a href="#" style="color: #555555;">Unsubscribe</a> | <a href="#" style="color: #555555;">Privacy Policy</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

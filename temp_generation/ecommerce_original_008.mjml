@@ -1,0 +1,109 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}" />
+      <mj-text font-size="15px" color="{brandText}" line-height="1.6" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" font-size="13px" border-radius="4px" />
+    </mj-attributes>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .mobile-stack { width: 100% !important; }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f0f4f8" width="640px">
+    <mj-section background-color="#ffffff" padding="20px 25px">
+      <mj-column width="40%">
+        <mj-image src="https://placehold.co/120x40/png?text=TechStore" alt="TechStore Logo" width="120px" align="left" />
+      </mj-column>
+      <mj-column width="60%">
+        <mj-text align="right" font-size="12px">
+          <a href="#" style="color: {brandText}; text-decoration: none;">Deals</a> •
+          <a href="#" style="color: {brandText}; text-decoration: none;"> Products</a> •
+          <a href="#" style="color: {brandText}; text-decoration: none;"> Support</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="linear-gradient(135deg, {brandPrimary}, {brandSecondary})" padding="0">
+      <mj-column>
+        <mj-image src="https://placehold.co/640x280/png?text=New+Tech+Arrivals" alt="New Tech Arrivals" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="40px 30px">
+      <mj-column>
+        <mj-text font-size="11px" letter-spacing="2px" text-transform="uppercase" color="{brandAccent}" align="center">
+          Just Dropped
+        </mj-text>
+        <mj-text font-size="26px" font-weight="bold" align="center" padding-top="10px">
+          The Latest in Tech
+        </mj-text>
+        <mj-text align="center" color="#666666" padding-top="10px">
+          Be the first to get your hands on our newest arrivals. Premium quality, competitive prices.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="0 20px 30px">
+      <mj-column width="50%">
+        <mj-image src="https://placehold.co/280x280/png?text=Headphones" alt="Wireless Headphones" border-radius="8px" />
+        <mj-text font-size="11px" text-transform="uppercase" color="{brandAccent}" padding-top="15px">New</mj-text>
+        <mj-text font-weight="bold" padding-top="5px">Pro Wireless Headphones</mj-text>
+        <mj-text font-size="13px" color="#666666">Active noise cancellation, 30hr battery</mj-text>
+        <mj-text font-size="18px" font-weight="bold" color="{brandPrimary}" padding-top="8px">$249.99</mj-text>
+        <mj-button href="#" padding-top="15px">Add to Cart</mj-button>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image src="https://placehold.co/280x280/png?text=Smartwatch" alt="Smart Watch" border-radius="8px" />
+        <mj-text font-size="11px" text-transform="uppercase" color="{brandAccent}" padding-top="15px">Bestseller</mj-text>
+        <mj-text font-weight="bold" padding-top="5px">Smart Watch Series X</mj-text>
+        <mj-text font-size="13px" color="#666666">Health tracking, GPS, water resistant</mj-text>
+        <mj-text font-size="18px" font-weight="bold" color="{brandPrimary}" padding-top="8px">$399.99</mj-text>
+        <mj-button href="#" padding-top="15px">Add to Cart</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="0 20px 40px">
+      <mj-column width="50%">
+        <mj-image src="https://placehold.co/280x280/png?text=Speaker" alt="Portable Speaker" border-radius="8px" />
+        <mj-text font-size="11px" text-transform="uppercase" color="#ff6b6b" padding-top="15px">Sale</mj-text>
+        <mj-text font-weight="bold" padding-top="5px">Portable Bluetooth Speaker</mj-text>
+        <mj-text font-size="13px" color="#666666">360° sound, waterproof design</mj-text>
+        <mj-text font-size="18px" font-weight="bold" padding-top="8px"><span style="color:#999; text-decoration:line-through;">$129.99</span> <span style="color:{brandPrimary};">$89.99</span></mj-text>
+        <mj-button href="#" padding-top="15px">Add to Cart</mj-button>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image src="https://placehold.co/280x280/png?text=Charger" alt="Wireless Charger" border-radius="8px" />
+        <mj-text font-size="11px" text-transform="uppercase" color="{brandAccent}" padding-top="15px">Popular</mj-text>
+        <mj-text font-weight="bold" padding-top="5px">3-in-1 Wireless Charger</mj-text>
+        <mj-text font-size="13px" color="#666666">Phone, watch & earbuds charging</mj-text>
+        <mj-text font-size="18px" font-weight="bold" color="{brandPrimary}" padding-top="8px">$69.99</mj-text>
+        <mj-button href="#" padding-top="15px">Add to Cart</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="{brandSecondary}" padding="30px">
+      <mj-column width="33%">
+        <mj-text font-size="12px" align="center" font-weight="bold">🚚 Free Shipping</mj-text>
+        <mj-text font-size="11px" align="center" color="#666666">Orders $50+</mj-text>
+      </mj-column>
+      <mj-column width="33%">
+        <mj-text font-size="12px" align="center" font-weight="bold">↩️ Easy Returns</mj-text>
+        <mj-text font-size="11px" align="center" color="#666666">30-day policy</mj-text>
+      </mj-column>
+      <mj-column width="33%">
+        <mj-text font-size="12px" align="center" font-weight="bold">🛡️ 2-Year Warranty</mj-text>
+        <mj-text font-size="11px" align="center" color="#666666">All products</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#1a1a2e" padding="30px">
+      <mj-column>
+        <mj-social font-size="12px" icon-size="22px" mode="horizontal" align="center">
+          <mj-social-element name="twitter" href="#" alt="Twitter" />
+          <mj-social-element name="instagram" href="#" alt="Instagram" />
+          <mj-social-element name="youtube" href="#" alt="YouTube" />
+        </mj-social>
+        <mj-text font-size="10px" align="center" color="#666666" padding-top="20px">
+          © 2024 TechStore. All rights reserved.<br />
+          <a href="#" style="color: #666666;">Unsubscribe</a> | <a href="#" style="color: #666666;">Privacy</a> | <a href="#" style="color: #666666;">Contact</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

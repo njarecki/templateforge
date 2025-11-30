@@ -1,0 +1,115 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}" />
+      <mj-text font-size="15px" color="{brandText}" line-height="1.6" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" font-size="14px" border-radius="4px" />
+    </mj-attributes>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .mobile-full { width: 100% !important; }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f4f4f4" width="640px">
+    <mj-section background-color="#ffffff" padding="25px 30px">
+      <mj-column>
+        <mj-image src="https://placehold.co/140x45/png?text=Logo" alt="Company Logo" width="140px" align="center" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="{brandPrimary}" padding="40px 30px">
+      <mj-column>
+        <mj-text font-size="28px" font-weight="bold" align="center" color="#ffffff">
+          Payment Successful!
+        </mj-text>
+        <mj-text font-size="16px" align="center" color="rgba(255,255,255,0.9)" padding-top="10px">
+          Thank you for your purchase
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="40px 30px">
+      <mj-column>
+        <mj-text font-size="14px" color="#888888">
+          Hi {firstName},
+        </mj-text>
+        <mj-text padding-top="15px">
+          We've received your payment and your order is being processed. Here's a summary of your transaction:
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f9f9f9" padding="25px 30px">
+      <mj-column>
+        <mj-text font-size="12px" text-transform="uppercase" letter-spacing="1px" color="#888888">
+          Transaction Details
+        </mj-text>
+        <mj-divider border-color="#e0e0e0" border-width="1px" padding="15px 0" />
+        <mj-text font-size="14px">
+          <strong>Order Number:</strong> #ORD-2024-78542<br />
+          <strong>Transaction ID:</strong> TXN-9847362514<br />
+          <strong>Date:</strong> December 15, 2024<br />
+          <strong>Payment Method:</strong> Visa ending in 4242
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="30px">
+      <mj-column>
+        <mj-text font-size="12px" text-transform="uppercase" letter-spacing="1px" color="#888888">
+          Order Summary
+        </mj-text>
+        <mj-divider border-color="#e0e0e0" border-width="1px" padding="15px 0 20px" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="0 30px">
+      <mj-column width="15%">
+        <mj-image src="https://placehold.co/70x70/png?text=Item" alt="Product" border-radius="4px" />
+      </mj-column>
+      <mj-column width="55%">
+        <mj-text font-size="14px" font-weight="bold">Premium Plan - Annual</mj-text>
+        <mj-text font-size="13px" color="#666666">12 months subscription</mj-text>
+      </mj-column>
+      <mj-column width="30%">
+        <mj-text font-size="14px" font-weight="bold" align="right">$99.00</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="20px 30px">
+      <mj-column>
+        <mj-divider border-color="#e0e0e0" border-width="1px" padding="0 0 20px" />
+        <mj-text font-size="14px">
+          <span style="color:#666666;">Subtotal:</span> <span style="float:right;">$99.00</span><br />
+          <span style="color:#666666;">Tax:</span> <span style="float:right;">$8.91</span>
+        </mj-text>
+        <mj-divider border-color="#e0e0e0" border-width="1px" padding="15px 0" />
+        <mj-text font-size="18px" font-weight="bold">
+          Total Paid: <span style="float:right; color:{brandPrimary};">$107.91</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="10px 30px 40px">
+      <mj-column>
+        <mj-button href="#">
+          View Receipt
+        </mj-button>
+        <mj-button href="#" background-color="transparent" color="{brandPrimary}" border="1px solid {brandPrimary}">
+          Manage Subscription
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="{brandSecondary}" padding="30px">
+      <mj-column>
+        <mj-text font-size="14px" align="center">
+          <strong>Need help?</strong> Contact our support team at<br />
+          <a href="mailto:support@company.com" style="color:{brandPrimary};">support@company.com</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f4f4f4" padding="30px">
+      <mj-column>
+        <mj-text font-size="11px" align="center" color="#999999">
+          © 2024 Company Name. All rights reserved.<br />
+          123 Business Street, Suite 100, City, State 12345<br /><br />
+          <a href="#" style="color: #999999;">Unsubscribe</a> | <a href="#" style="color: #999999;">Privacy Policy</a> | <a href="#" style="color: #999999;">Terms</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
