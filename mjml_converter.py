@@ -1524,6 +1524,309 @@ def section_to_mjml_back_in_stock(skin_name="apple_light"):
     </mj-section>'''
 
 
+def section_to_mjml_invoice_details(skin_name="apple_light"):
+    """Convert invoice details section to MJML."""
+    skin = DESIGN_SKINS.get(skin_name, DESIGN_SKINS["apple_light"])
+
+    return f'''    <mj-section padding="24px">
+      <mj-column>
+        <!-- Invoice header -->
+        <mj-text font-size="24px" color="{skin['brandPrimary']}" font-weight="700" padding="0 0 8px">
+          INVOICE
+        </mj-text>
+        <mj-text font-size="14px" color="{skin['brandSecondary']}" padding="0 0 16px">
+          Invoice #{{{{invoiceNumber}}}}
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text align="right" font-size="14px" color="{skin['brandSecondary']}" padding="0 0 4px">
+          Issue Date: {{{{invoiceDate}}}}
+        </mj-text>
+        <mj-text align="right" font-size="14px" color="{skin['brandSecondary']}" padding="0">
+          Due Date: {{{{invoiceDueDate}}}}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Billing info -->
+    <mj-section padding="0 24px 24px" border-top="1px solid {skin['brandSecondary']}20">
+      <mj-column>
+        <mj-text font-size="12px" color="{skin['brandSecondary']}" text-transform="uppercase" letter-spacing="0.5px" padding="16px 0 8px">
+          Bill To:
+        </mj-text>
+        <mj-text font-size="14px" color="{skin['brandPrimary']}" font-weight="600" padding="0 0 4px">
+          {{{{invoiceBillToName}}}}
+        </mj-text>
+        <mj-text font-size="14px" color="{skin['brandText']}" line-height="1.5" padding="0">
+          {{{{invoiceBillToAddress}}}}
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text align="right" font-size="12px" color="{skin['brandSecondary']}" text-transform="uppercase" letter-spacing="0.5px" padding="16px 0 8px">
+          From:
+        </mj-text>
+        <mj-text align="right" font-size="14px" color="{skin['brandPrimary']}" font-weight="600" padding="0 0 4px">
+          {{{{companyName}}}}
+        </mj-text>
+        <mj-text align="right" font-size="14px" color="{skin['brandText']}" line-height="1.5" padding="0">
+          {{{{companyAddress}}}}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Line items table -->
+    <mj-section padding="0 24px" background-color="{skin['brandSecondary']}08">
+      <mj-column width="40%">
+        <mj-text font-size="12px" color="{skin['brandSecondary']}" font-weight="600" text-transform="uppercase" padding="12px 16px">
+          Description
+        </mj-text>
+      </mj-column>
+      <mj-column width="20%">
+        <mj-text align="center" font-size="12px" color="{skin['brandSecondary']}" font-weight="600" text-transform="uppercase" padding="12px 16px">
+          Qty
+        </mj-text>
+      </mj-column>
+      <mj-column width="20%">
+        <mj-text align="right" font-size="12px" color="{skin['brandSecondary']}" font-weight="600" text-transform="uppercase" padding="12px 16px">
+          Rate
+        </mj-text>
+      </mj-column>
+      <mj-column width="20%">
+        <mj-text align="right" font-size="12px" color="{skin['brandSecondary']}" font-weight="600" text-transform="uppercase" padding="12px 16px">
+          Amount
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Line item 1 -->
+    <mj-section padding="0 24px" border-top="1px solid {skin['brandSecondary']}10">
+      <mj-column width="40%">
+        <mj-text font-size="14px" color="{skin['brandPrimary']}" font-weight="500" padding="16px 16px 4px">
+          {{{{invoiceItem1Name}}}}
+        </mj-text>
+        <mj-text font-size="12px" color="{skin['brandSecondary']}" padding="0 16px 16px">
+          {{{{invoiceItem1Description}}}}
+        </mj-text>
+      </mj-column>
+      <mj-column width="20%">
+        <mj-text align="center" font-size="14px" color="{skin['brandText']}" padding="16px">
+          {{{{invoiceItem1Qty}}}}
+        </mj-text>
+      </mj-column>
+      <mj-column width="20%">
+        <mj-text align="right" font-size="14px" color="{skin['brandText']}" padding="16px">
+          {{{{invoiceItem1Rate}}}}
+        </mj-text>
+      </mj-column>
+      <mj-column width="20%">
+        <mj-text align="right" font-size="14px" color="{skin['brandPrimary']}" font-weight="600" padding="16px">
+          {{{{invoiceItem1Amount}}}}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Line item 2 -->
+    <mj-section padding="0 24px" border-top="1px solid {skin['brandSecondary']}10">
+      <mj-column width="40%">
+        <mj-text font-size="14px" color="{skin['brandPrimary']}" font-weight="500" padding="16px 16px 4px">
+          {{{{invoiceItem2Name}}}}
+        </mj-text>
+        <mj-text font-size="12px" color="{skin['brandSecondary']}" padding="0 16px 16px">
+          {{{{invoiceItem2Description}}}}
+        </mj-text>
+      </mj-column>
+      <mj-column width="20%">
+        <mj-text align="center" font-size="14px" color="{skin['brandText']}" padding="16px">
+          {{{{invoiceItem2Qty}}}}
+        </mj-text>
+      </mj-column>
+      <mj-column width="20%">
+        <mj-text align="right" font-size="14px" color="{skin['brandText']}" padding="16px">
+          {{{{invoiceItem2Rate}}}}
+        </mj-text>
+      </mj-column>
+      <mj-column width="20%">
+        <mj-text align="right" font-size="14px" color="{skin['brandPrimary']}" font-weight="600" padding="16px">
+          {{{{invoiceItem2Amount}}}}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Totals -->
+    <mj-section padding="16px 24px 0">
+      <mj-column width="60%"></mj-column>
+      <mj-column width="40%">
+        <mj-text font-size="14px" color="{skin['brandSecondary']}" padding="8px 0">
+          <span style="display: inline-block; width: 50%;">Subtotal</span>
+          <span style="display: inline-block; width: 50%; text-align: right;">{{{{invoiceSubtotal}}}}</span>
+        </mj-text>
+        <mj-text font-size="14px" color="{skin['brandSecondary']}" padding="8px 0">
+          <span style="display: inline-block; width: 50%;">Tax ({{{{invoiceTaxRate}}}})</span>
+          <span style="display: inline-block; width: 50%; text-align: right;">{{{{invoiceTax}}}}</span>
+        </mj-text>
+        <mj-divider border-color="{skin['brandPrimary']}" border-width="2px" padding="8px 0" />
+        <mj-text font-size="16px" color="{skin['brandPrimary']}" font-weight="700" padding="4px 0">
+          <span style="display: inline-block; width: 50%;">Total Due</span>
+          <span style="display: inline-block; width: 50%; text-align: right; font-size: 18px;">{{{{invoiceTotal}}}}</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>'''
+
+
+def section_to_mjml_receipt_summary(skin_name="apple_light"):
+    """Convert receipt summary section to MJML."""
+    skin = DESIGN_SKINS.get(skin_name, DESIGN_SKINS["apple_light"])
+
+    return f'''    <mj-section padding="24px">
+      <mj-column>
+        <!-- Success checkmark -->
+        <mj-text align="center" font-size="32px" background-color="#22c55e20" border-radius="50%" padding="16px" css-class="checkmark-circle">
+          ✓
+        </mj-text>
+        <mj-text align="center" font-size="24px" color="{skin['brandPrimary']}" font-weight="700" padding="16px 0 8px">
+          Payment Successful
+        </mj-text>
+        <mj-text align="center" font-size="16px" color="{skin['brandSecondary']}" padding="0 0 24px">
+          Receipt #{{{{receiptNumber}}}}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Amount paid highlight -->
+    <mj-section padding="0 24px 24px">
+      <mj-column background-color="{skin['brandAccent']}08" border-radius="12px" padding="24px">
+        <mj-text align="center" font-size="14px" color="{skin['brandSecondary']}" text-transform="uppercase" letter-spacing="0.5px" padding="0 0 8px">
+          Amount Paid
+        </mj-text>
+        <mj-text align="center" font-size="36px" color="{skin['brandPrimary']}" font-weight="700" padding="0">
+          {{{{receiptAmount}}}}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Transaction details -->
+    <mj-section padding="0 24px 24px">
+      <mj-column border="1px solid {skin['brandSecondary']}20" border-radius="8px">
+        <mj-text font-size="14px" color="{skin['brandSecondary']}" padding="16px" border-bottom="1px solid {skin['brandSecondary']}10">
+          <span style="display: inline-block; width: 50%;">Transaction ID</span>
+          <span style="display: inline-block; width: 50%; text-align: right; color: {skin['brandPrimary']}; font-weight: 500;">{{{{receiptTransactionId}}}}</span>
+        </mj-text>
+        <mj-text font-size="14px" color="{skin['brandSecondary']}" padding="16px" border-bottom="1px solid {skin['brandSecondary']}10">
+          <span style="display: inline-block; width: 50%;">Date &amp; Time</span>
+          <span style="display: inline-block; width: 50%; text-align: right; color: {skin['brandPrimary']}; font-weight: 500;">{{{{receiptDateTime}}}}</span>
+        </mj-text>
+        <mj-text font-size="14px" color="{skin['brandSecondary']}" padding="16px" border-bottom="1px solid {skin['brandSecondary']}10">
+          <span style="display: inline-block; width: 50%;">Payment Method</span>
+          <span style="display: inline-block; width: 50%; text-align: right; color: {skin['brandPrimary']}; font-weight: 500;">{{{{receiptPaymentMethod}}}}</span>
+        </mj-text>
+        <mj-text font-size="14px" color="{skin['brandSecondary']}" padding="16px">
+          <span style="display: inline-block; width: 50%;">Billed To</span>
+          <span style="display: inline-block; width: 50%; text-align: right; color: {skin['brandPrimary']}; font-weight: 500;">{{{{receiptBilledTo}}}}</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Items breakdown -->
+    <mj-section padding="0 24px 24px">
+      <mj-column>
+        <mj-text font-size="14px" color="{skin['brandSecondary']}" text-transform="uppercase" letter-spacing="0.5px" font-weight="600" padding="0 0 12px">
+          Items
+        </mj-text>
+        <mj-text font-size="14px" color="{skin['brandPrimary']}" padding="12px 0" border-bottom="1px solid {skin['brandSecondary']}10">
+          <span style="display: inline-block; width: 70%;">{{{{receiptItem1Name}}}}</span>
+          <span style="display: inline-block; width: 30%; text-align: right;">{{{{receiptItem1Price}}}}</span>
+        </mj-text>
+        <mj-text font-size="14px" color="{skin['brandPrimary']}" padding="12px 0" border-bottom="1px solid {skin['brandSecondary']}10">
+          <span style="display: inline-block; width: 70%;">{{{{receiptItem2Name}}}}</span>
+          <span style="display: inline-block; width: 30%; text-align: right;">{{{{receiptItem2Price}}}}</span>
+        </mj-text>
+        <mj-text font-size="14px" color="{skin['brandPrimary']}" font-weight="700" padding="12px 0">
+          <span style="display: inline-block; width: 70%;">Total</span>
+          <span style="display: inline-block; width: 30%; text-align: right; font-size: 16px;">{{{{receiptTotal}}}}</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>'''
+
+
+def section_to_mjml_delivery_confirmation(skin_name="apple_light"):
+    """Convert delivery confirmation section to MJML."""
+    skin = DESIGN_SKINS.get(skin_name, DESIGN_SKINS["apple_light"])
+
+    return f'''    <mj-section padding="24px">
+      <mj-column background-color="#22c55e10" border-radius="12px" padding="32px 24px">
+        <mj-text align="center" font-size="48px" padding="0 0 16px">
+          📦
+        </mj-text>
+        <mj-text align="center" font-size="24px" color="#22c55e" font-weight="700" padding="0 0 8px">
+          Delivered!
+        </mj-text>
+        <mj-text align="center" font-size="16px" color="{skin['brandSecondary']}" padding="0">
+          Your package has arrived
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Delivery details card -->
+    <mj-section padding="0 24px 24px">
+      <mj-column border="1px solid {skin['brandSecondary']}20" border-radius="12px">
+        <mj-text font-size="14px" color="{skin['brandSecondary']}" font-weight="600" text-transform="uppercase" letter-spacing="0.5px" background-color="{skin['brandSecondary']}05" padding="16px 20px">
+          Delivery Details
+        </mj-text>
+        <mj-text font-size="12px" color="{skin['brandSecondary']}" text-transform="uppercase" padding="20px 20px 4px">
+          Delivered To
+        </mj-text>
+        <mj-text font-size="14px" color="{skin['brandPrimary']}" font-weight="500" padding="0 20px 16px">
+          {{{{deliveryAddress}}}}
+        </mj-text>
+        <mj-text font-size="12px" color="{skin['brandSecondary']}" text-transform="uppercase" padding="0 20px 4px">
+          Delivery Date &amp; Time
+        </mj-text>
+        <mj-text font-size="14px" color="{skin['brandPrimary']}" font-weight="500" padding="0 20px 16px">
+          {{{{deliveryDateTime}}}}
+        </mj-text>
+        <mj-text font-size="12px" color="{skin['brandSecondary']}" text-transform="uppercase" padding="0 20px 4px">
+          Signed By
+        </mj-text>
+        <mj-text font-size="14px" color="{skin['brandPrimary']}" font-weight="500" padding="0 20px 16px">
+          {{{{deliverySignedBy}}}}
+        </mj-text>
+        <mj-text font-size="12px" color="{skin['brandSecondary']}" text-transform="uppercase" padding="0 20px 4px">
+          Tracking Number
+        </mj-text>
+        <mj-text font-size="14px" color="{skin['brandAccent']}" font-weight="500" padding="0 20px 20px">
+          {{{{deliveryTrackingNumber}}}}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Delivery photo placeholder -->
+    <mj-section padding="0 24px 24px">
+      <mj-column>
+        <mj-text font-size="14px" color="{skin['brandSecondary']}" font-weight="600" text-transform="uppercase" letter-spacing="0.5px" padding="0 0 12px">
+          Proof of Delivery
+        </mj-text>
+        <mj-image src="{IMAGE_PLACEHOLDERS['product']}" alt="Delivery photo" width="300px" border-radius="8px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Order summary -->
+    <mj-section padding="0 24px 24px">
+      <mj-column border="1px solid {skin['brandSecondary']}20" border-radius="8px">
+        <mj-text font-size="14px" color="{skin['brandSecondary']}" font-weight="600" text-transform="uppercase" letter-spacing="0.5px" background-color="{skin['brandSecondary']}05" padding="12px 16px">
+          Order Summary
+        </mj-text>
+        <mj-text font-size="14px" color="{skin['brandSecondary']}" padding="16px">
+          <span style="display: inline-block; width: 50%;">Order Number</span>
+          <span style="display: inline-block; width: 50%; text-align: right; color: {skin['brandPrimary']}; font-weight: 500;">{{{{deliveryOrderNumber}}}}</span>
+        </mj-text>
+        <mj-text font-size="14px" color="{skin['brandSecondary']}" padding="0 16px 16px">
+          <span style="display: inline-block; width: 50%;">Items Delivered</span>
+          <span style="display: inline-block; width: 50%; text-align: right; color: {skin['brandPrimary']}; font-weight: 500;">{{{{deliveryItemCount}}}} item(s)</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>'''
+
+
 # Registry mapping section types to MJML converters
 MJML_SECTION_REGISTRY = {
     "hero": section_to_mjml_hero,
@@ -1569,6 +1872,9 @@ MJML_SECTION_REGISTRY = {
     "wishlist_item": section_to_mjml_wishlist_item,
     "price_alert": section_to_mjml_price_alert,
     "back_in_stock": section_to_mjml_back_in_stock,
+    "invoice_details": section_to_mjml_invoice_details,
+    "receipt_summary": section_to_mjml_receipt_summary,
+    "delivery_confirmation": section_to_mjml_delivery_confirmation,
 }
 
 

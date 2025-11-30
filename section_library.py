@@ -2054,6 +2054,416 @@ def section_price_alert():
     }
 
 
+def section_invoice_details():
+    """Invoice details section with line items, totals, and payment info."""
+    return {
+        "type": "invoice_details",
+        "name": "Invoice Details",
+        "html": f'''
+<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+    <tr>
+        <td style="padding: 24px;">
+            <!-- Invoice header -->
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-bottom: 24px;">
+                <tr>
+                    <td>
+                        <h2 style="font-family: {{{{brandFont}}}}; font-size: 24px; color: {{{{brandPrimary}}}}; margin: 0 0 8px; font-weight: 700;">INVOICE</h2>
+                        <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandSecondary}}}}; margin: 0;">Invoice #{{{{invoiceNumber}}}}</p>
+                    </td>
+                    <td align="right">
+                        <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandSecondary}}}}; margin: 0 0 4px;">Issue Date: {{{{invoiceDate}}}}</p>
+                        <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandSecondary}}}}; margin: 0;">Due Date: {{{{invoiceDueDate}}}}</p>
+                    </td>
+                </tr>
+            </table>
+
+            <!-- Billing info -->
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-bottom: 24px; border-top: 1px solid {{{{brandSecondary}}}}20; padding-top: 16px;">
+                <tr>
+                    <td width="50%" valign="top">
+                        <p style="font-family: {{{{brandFont}}}}; font-size: 12px; color: {{{{brandSecondary}}}}; margin: 0 0 8px; text-transform: uppercase; letter-spacing: 0.5px;">Bill To:</p>
+                        <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandPrimary}}}}; margin: 0 0 4px; font-weight: 600;">{{{{invoiceBillToName}}}}</p>
+                        <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandText}}}}; margin: 0; line-height: 1.5;">{{{{invoiceBillToAddress}}}}</p>
+                    </td>
+                    <td width="50%" valign="top" align="right">
+                        <p style="font-family: {{{{brandFont}}}}; font-size: 12px; color: {{{{brandSecondary}}}}; margin: 0 0 8px; text-transform: uppercase; letter-spacing: 0.5px;">From:</p>
+                        <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandPrimary}}}}; margin: 0 0 4px; font-weight: 600;">{{{{companyName}}}}</p>
+                        <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandText}}}}; margin: 0; line-height: 1.5;">{{{{companyAddress}}}}</p>
+                    </td>
+                </tr>
+            </table>
+
+            <!-- Line items table -->
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="border: 1px solid {{{{brandSecondary}}}}20; border-radius: 8px;">
+                <!-- Header row -->
+                <tr>
+                    <td style="background-color: {{{{brandSecondary}}}}08; padding: 12px 16px; border-radius: 8px 0 0 0;">
+                        <p style="font-family: {{{{brandFont}}}}; font-size: 12px; color: {{{{brandSecondary}}}}; margin: 0; font-weight: 600; text-transform: uppercase;">Description</p>
+                    </td>
+                    <td width="80" align="center" style="background-color: {{{{brandSecondary}}}}08; padding: 12px 16px;">
+                        <p style="font-family: {{{{brandFont}}}}; font-size: 12px; color: {{{{brandSecondary}}}}; margin: 0; font-weight: 600; text-transform: uppercase;">Qty</p>
+                    </td>
+                    <td width="100" align="right" style="background-color: {{{{brandSecondary}}}}08; padding: 12px 16px;">
+                        <p style="font-family: {{{{brandFont}}}}; font-size: 12px; color: {{{{brandSecondary}}}}; margin: 0; font-weight: 600; text-transform: uppercase;">Rate</p>
+                    </td>
+                    <td width="100" align="right" style="background-color: {{{{brandSecondary}}}}08; padding: 12px 16px; border-radius: 0 8px 0 0;">
+                        <p style="font-family: {{{{brandFont}}}}; font-size: 12px; color: {{{{brandSecondary}}}}; margin: 0; font-weight: 600; text-transform: uppercase;">Amount</p>
+                    </td>
+                </tr>
+                <!-- Line item 1 -->
+                <tr>
+                    <td style="padding: 16px; border-top: 1px solid {{{{brandSecondary}}}}10;">
+                        <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandPrimary}}}}; margin: 0 0 4px; font-weight: 500;">{{{{invoiceItem1Name}}}}</p>
+                        <p style="font-family: {{{{brandFont}}}}; font-size: 12px; color: {{{{brandSecondary}}}}; margin: 0;">{{{{invoiceItem1Description}}}}</p>
+                    </td>
+                    <td align="center" style="padding: 16px; border-top: 1px solid {{{{brandSecondary}}}}10;">
+                        <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandText}}}}; margin: 0;">{{{{invoiceItem1Qty}}}}</p>
+                    </td>
+                    <td align="right" style="padding: 16px; border-top: 1px solid {{{{brandSecondary}}}}10;">
+                        <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandText}}}}; margin: 0;">{{{{invoiceItem1Rate}}}}</p>
+                    </td>
+                    <td align="right" style="padding: 16px; border-top: 1px solid {{{{brandSecondary}}}}10;">
+                        <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandPrimary}}}}; margin: 0; font-weight: 600;">{{{{invoiceItem1Amount}}}}</p>
+                    </td>
+                </tr>
+                <!-- Line item 2 -->
+                <tr>
+                    <td style="padding: 16px; border-top: 1px solid {{{{brandSecondary}}}}10;">
+                        <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandPrimary}}}}; margin: 0 0 4px; font-weight: 500;">{{{{invoiceItem2Name}}}}</p>
+                        <p style="font-family: {{{{brandFont}}}}; font-size: 12px; color: {{{{brandSecondary}}}}; margin: 0;">{{{{invoiceItem2Description}}}}</p>
+                    </td>
+                    <td align="center" style="padding: 16px; border-top: 1px solid {{{{brandSecondary}}}}10;">
+                        <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandText}}}}; margin: 0;">{{{{invoiceItem2Qty}}}}</p>
+                    </td>
+                    <td align="right" style="padding: 16px; border-top: 1px solid {{{{brandSecondary}}}}10;">
+                        <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandText}}}}; margin: 0;">{{{{invoiceItem2Rate}}}}</p>
+                    </td>
+                    <td align="right" style="padding: 16px; border-top: 1px solid {{{{brandSecondary}}}}10;">
+                        <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandPrimary}}}}; margin: 0; font-weight: 600;">{{{{invoiceItem2Amount}}}}</p>
+                    </td>
+                </tr>
+            </table>
+
+            <!-- Totals -->
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-top: 16px;">
+                <tr>
+                    <td width="60%"></td>
+                    <td width="40%">
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                            <tr>
+                                <td style="padding: 8px 0;">
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandSecondary}}}}; margin: 0;">Subtotal</p>
+                                </td>
+                                <td align="right" style="padding: 8px 0;">
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandText}}}}; margin: 0;">{{{{invoiceSubtotal}}}}</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 8px 0;">
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandSecondary}}}}; margin: 0;">Tax ({{{{invoiceTaxRate}}}})</p>
+                                </td>
+                                <td align="right" style="padding: 8px 0;">
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandText}}}}; margin: 0;">{{{{invoiceTax}}}}</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 12px 0; border-top: 2px solid {{{{brandPrimary}}}};">
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 16px; color: {{{{brandPrimary}}}}; margin: 0; font-weight: 700;">Total Due</p>
+                                </td>
+                                <td align="right" style="padding: 12px 0; border-top: 2px solid {{{{brandPrimary}}}};">
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 18px; color: {{{{brandPrimary}}}}; margin: 0; font-weight: 700;">{{{{invoiceTotal}}}}</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+'''
+    }
+
+
+def section_receipt_summary():
+    """Receipt summary section with transaction details and payment confirmation."""
+    return {
+        "type": "receipt_summary",
+        "name": "Receipt Summary",
+        "html": f'''
+<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+    <tr>
+        <td style="padding: 24px;">
+            <!-- Receipt header with checkmark -->
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-bottom: 24px;">
+                <tr>
+                    <td align="center">
+                        <table cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: #22c55e20; border-radius: 50%; width: 64px; height: 64px;">
+                            <tr>
+                                <td align="center" valign="middle" style="height: 64px;">
+                                    <p style="font-size: 32px; margin: 0;">✓</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" style="padding-top: 16px;">
+                        <h2 style="font-family: {{{{brandFont}}}}; font-size: 24px; color: {{{{brandPrimary}}}}; margin: 0 0 8px; font-weight: 700;">Payment Successful</h2>
+                        <p style="font-family: {{{{brandFont}}}}; font-size: 16px; color: {{{{brandSecondary}}}}; margin: 0;">Receipt #{{{{receiptNumber}}}}</p>
+                    </td>
+                </tr>
+            </table>
+
+            <!-- Amount paid highlight -->
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: {{{{brandAccent}}}}08; border-radius: 12px; margin-bottom: 24px;">
+                <tr>
+                    <td align="center" style="padding: 24px;">
+                        <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandSecondary}}}}; margin: 0 0 8px; text-transform: uppercase; letter-spacing: 0.5px;">Amount Paid</p>
+                        <p style="font-family: {{{{brandFont}}}}; font-size: 36px; color: {{{{brandPrimary}}}}; margin: 0; font-weight: 700;">{{{{receiptAmount}}}}</p>
+                    </td>
+                </tr>
+            </table>
+
+            <!-- Transaction details -->
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="border: 1px solid {{{{brandSecondary}}}}20; border-radius: 8px;">
+                <tr>
+                    <td style="padding: 16px; border-bottom: 1px solid {{{{brandSecondary}}}}10;">
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                            <tr>
+                                <td>
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandSecondary}}}}; margin: 0;">Transaction ID</p>
+                                </td>
+                                <td align="right">
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandPrimary}}}}; margin: 0; font-weight: 500;">{{{{receiptTransactionId}}}}</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding: 16px; border-bottom: 1px solid {{{{brandSecondary}}}}10;">
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                            <tr>
+                                <td>
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandSecondary}}}}; margin: 0;">Date & Time</p>
+                                </td>
+                                <td align="right">
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandPrimary}}}}; margin: 0; font-weight: 500;">{{{{receiptDateTime}}}}</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding: 16px; border-bottom: 1px solid {{{{brandSecondary}}}}10;">
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                            <tr>
+                                <td>
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandSecondary}}}}; margin: 0;">Payment Method</p>
+                                </td>
+                                <td align="right">
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandPrimary}}}}; margin: 0; font-weight: 500;">{{{{receiptPaymentMethod}}}}</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding: 16px;">
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                            <tr>
+                                <td>
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandSecondary}}}}; margin: 0;">Billed To</p>
+                                </td>
+                                <td align="right">
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandPrimary}}}}; margin: 0; font-weight: 500;">{{{{receiptBilledTo}}}}</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+
+            <!-- Items breakdown -->
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-top: 24px;">
+                <tr>
+                    <td>
+                        <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandSecondary}}}}; margin: 0 0 12px; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 600;">Items</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding: 12px 0; border-bottom: 1px solid {{{{brandSecondary}}}}10;">
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                            <tr>
+                                <td>
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandPrimary}}}}; margin: 0;">{{{{receiptItem1Name}}}}</p>
+                                </td>
+                                <td align="right">
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandText}}}}; margin: 0;">{{{{receiptItem1Price}}}}</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding: 12px 0; border-bottom: 1px solid {{{{brandSecondary}}}}10;">
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                            <tr>
+                                <td>
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandPrimary}}}}; margin: 0;">{{{{receiptItem2Name}}}}</p>
+                                </td>
+                                <td align="right">
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandText}}}}; margin: 0;">{{{{receiptItem2Price}}}}</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding: 12px 0;">
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                            <tr>
+                                <td>
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandPrimary}}}}; margin: 0; font-weight: 700;">Total</p>
+                                </td>
+                                <td align="right">
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 16px; color: {{{{brandPrimary}}}}; margin: 0; font-weight: 700;">{{{{receiptTotal}}}}</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+'''
+    }
+
+
+def section_delivery_confirmation():
+    """Delivery confirmation section with delivery details and signature."""
+    return {
+        "type": "delivery_confirmation",
+        "name": "Delivery Confirmation",
+        "html": f'''
+<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+    <tr>
+        <td style="padding: 24px;">
+            <!-- Delivery success header -->
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: #22c55e10; border-radius: 12px; margin-bottom: 24px;">
+                <tr>
+                    <td align="center" style="padding: 32px 24px;">
+                        <table cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-bottom: 16px;">
+                            <tr>
+                                <td>
+                                    <p style="font-size: 48px; margin: 0;">📦</p>
+                                </td>
+                            </tr>
+                        </table>
+                        <h2 style="font-family: {{{{brandFont}}}}; font-size: 24px; color: #22c55e; margin: 0 0 8px; font-weight: 700;">Delivered!</h2>
+                        <p style="font-family: {{{{brandFont}}}}; font-size: 16px; color: {{{{brandSecondary}}}}; margin: 0;">Your package has arrived</p>
+                    </td>
+                </tr>
+            </table>
+
+            <!-- Delivery details card -->
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="border: 1px solid {{{{brandSecondary}}}}20; border-radius: 12px; margin-bottom: 24px;">
+                <tr>
+                    <td style="background-color: {{{{brandSecondary}}}}05; padding: 16px 20px; border-radius: 12px 12px 0 0;">
+                        <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandSecondary}}}}; margin: 0; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Delivery Details</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding: 20px;">
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                            <tr>
+                                <td style="padding-bottom: 16px;">
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 12px; color: {{{{brandSecondary}}}}; margin: 0 0 4px; text-transform: uppercase;">Delivered To</p>
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandPrimary}}}}; margin: 0; font-weight: 500;">{{{{deliveryAddress}}}}</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding-bottom: 16px;">
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 12px; color: {{{{brandSecondary}}}}; margin: 0 0 4px; text-transform: uppercase;">Delivery Date & Time</p>
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandPrimary}}}}; margin: 0; font-weight: 500;">{{{{deliveryDateTime}}}}</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding-bottom: 16px;">
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 12px; color: {{{{brandSecondary}}}}; margin: 0 0 4px; text-transform: uppercase;">Signed By</p>
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandPrimary}}}}; margin: 0; font-weight: 500;">{{{{deliverySignedBy}}}}</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 12px; color: {{{{brandSecondary}}}}; margin: 0 0 4px; text-transform: uppercase;">Tracking Number</p>
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandAccent}}}}; margin: 0; font-weight: 500;">{{{{deliveryTrackingNumber}}}}</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+
+            <!-- Delivery photo placeholder -->
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-bottom: 24px;">
+                <tr>
+                    <td>
+                        <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandSecondary}}}}; margin: 0 0 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Proof of Delivery</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="{IMAGE_PLACEHOLDERS['product']}" alt="Delivery photo" width="300" style="display: block; border-radius: 8px; max-width: 100%;" />
+                    </td>
+                </tr>
+            </table>
+
+            <!-- Order summary -->
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="border: 1px solid {{{{brandSecondary}}}}20; border-radius: 8px;">
+                <tr>
+                    <td style="background-color: {{{{brandSecondary}}}}05; padding: 12px 16px; border-radius: 8px 8px 0 0;">
+                        <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandSecondary}}}}; margin: 0; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Order Summary</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding: 16px;">
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                            <tr>
+                                <td>
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandSecondary}}}}; margin: 0;">Order Number</p>
+                                </td>
+                                <td align="right">
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandPrimary}}}}; margin: 0; font-weight: 500;">{{{{deliveryOrderNumber}}}}</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding: 0 16px 16px;">
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                            <tr>
+                                <td>
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandSecondary}}}}; margin: 0;">Items Delivered</p>
+                                </td>
+                                <td align="right">
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandPrimary}}}}; margin: 0; font-weight: 500;">{{{{deliveryItemCount}}}} item(s)</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+'''
+    }
+
+
 def section_back_in_stock():
     """Back-in-stock notification section with product details and quick-buy option."""
     return {
@@ -2177,6 +2587,9 @@ SECTION_REGISTRY = {
     "wishlist_item": section_wishlist_item,
     "price_alert": section_price_alert,
     "back_in_stock": section_back_in_stock,
+    "invoice_details": section_invoice_details,
+    "receipt_summary": section_receipt_summary,
+    "delivery_confirmation": section_delivery_confirmation,
 }
 
 

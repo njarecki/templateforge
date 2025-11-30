@@ -235,6 +235,25 @@ TEMPLATE_TYPES = {
         "sections": ["header_nav", "1col_text", "price_alert", "urgency_banner", "cta_band", "footer_simple"],
         "description": "Alert notification when a tracked item's price drops"
     },
+    # New transactional templates
+    "invoice": {
+        "name": "Invoice",
+        "category": "Transactional",
+        "sections": ["header_nav", "1col_text", "invoice_details", "cta_band", "footer_simple"],
+        "description": "Professional invoice with line items, billing details, and payment due date"
+    },
+    "receipt": {
+        "name": "Receipt",
+        "category": "Transactional",
+        "sections": ["header_nav", "receipt_summary", "1col_text", "footer_simple"],
+        "description": "Payment receipt confirming successful transaction with itemized breakdown"
+    },
+    "delivery_confirmed": {
+        "name": "Delivery Confirmation",
+        "category": "Ecommerce",
+        "sections": ["header_nav", "delivery_confirmation", "cta_band", "social_icons", "footer_simple"],
+        "description": "Delivery confirmation email with proof of delivery and order details"
+    },
 }
 
 
