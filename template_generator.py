@@ -329,6 +329,378 @@ TEMPLATE_TYPES = {
         "sections": ["header_nav", "password_changed", "1col_text", "footer_simple"],
         "description": "Password change confirmation with security notice and account protection"
     },
+    # ========== WELCOME & ONBOARDING TEMPLATES ==========
+    "welcome_premium": {
+        "name": "Welcome Premium",
+        "category": "Welcome",
+        "sections": ["header_nav", "hero", "stats_metrics", "testimonial", "3col_features", "cta_band", "footer_complex"],
+        "description": "Premium welcome email with stats and social proof"
+    },
+    "welcome_creator": {
+        "name": "Welcome Creator",
+        "category": "Welcome",
+        "sections": ["header_nav", "hero", "1col_text", "video_placeholder", "cta_band", "social_icons", "footer_simple"],
+        "description": "Creator/influencer welcome with video introduction"
+    },
+    "welcome_b2b": {
+        "name": "Welcome B2B",
+        "category": "Welcome",
+        "sections": ["header_nav", "hero", "3col_features", "team_members", "cta_band", "footer_complex"],
+        "description": "B2B welcome email with team introduction and enterprise features"
+    },
+    "welcome_trial": {
+        "name": "Welcome Trial",
+        "category": "Welcome",
+        "sections": ["header_nav", "hero", "progress_tracker", "3col_features", "cta_band", "footer_simple"],
+        "description": "Trial welcome with progress tracking and feature highlights"
+    },
+    "welcome_app": {
+        "name": "Welcome App Download",
+        "category": "Welcome",
+        "sections": ["header_nav", "hero", "3col_features", "app_store_badges", "cta_band", "footer_simple"],
+        "description": "Welcome email encouraging app download with app store links"
+    },
+    "onboarding_step1": {
+        "name": "Onboarding Step 1",
+        "category": "SaaS",
+        "sections": ["header_nav", "progress_tracker", "1col_text", "video_placeholder", "cta_band", "footer_simple"],
+        "description": "First onboarding step with tutorial video"
+    },
+    "onboarding_step2": {
+        "name": "Onboarding Step 2",
+        "category": "SaaS",
+        "sections": ["header_nav", "progress_tracker", "2col_text_image", "3col_features", "cta_band", "footer_simple"],
+        "description": "Second onboarding step with feature exploration"
+    },
+    "onboarding_step3": {
+        "name": "Onboarding Step 3",
+        "category": "SaaS",
+        "sections": ["header_nav", "progress_tracker", "1col_text", "testimonial", "cta_band", "footer_simple"],
+        "description": "Third onboarding step with success stories"
+    },
+    "onboarding_complete": {
+        "name": "Onboarding Complete",
+        "category": "SaaS",
+        "sections": ["header_nav", "hero", "stats_metrics", "3col_features", "cta_band", "social_icons", "footer_complex"],
+        "description": "Onboarding completion celebration with next steps"
+    },
+    # ========== SAAS TEMPLATES ==========
+    "saas_upgrade_prompt": {
+        "name": "SaaS Upgrade Prompt",
+        "category": "SaaS",
+        "sections": ["header_nav", "1col_text", "pricing_table", "comparison_table", "cta_band", "footer_simple"],
+        "description": "Upgrade prompt with pricing comparison"
+    },
+    "saas_usage_report": {
+        "name": "SaaS Usage Report",
+        "category": "SaaS",
+        "sections": ["header_nav", "hero", "stats_metrics", "progress_tracker", "cta_band", "footer_simple"],
+        "description": "Monthly or weekly usage statistics report"
+    },
+    "saas_trial_ending": {
+        "name": "Trial Ending",
+        "category": "SaaS",
+        "sections": ["header_nav", "urgency_banner", "1col_text", "pricing_table", "testimonial", "cta_band", "footer_simple"],
+        "description": "Trial expiration warning with pricing options"
+    },
+    "saas_trial_expired": {
+        "name": "Trial Expired",
+        "category": "SaaS",
+        "sections": ["header_nav", "1col_text", "pricing_table", "3col_features", "cta_band", "footer_simple"],
+        "description": "Post-trial conversion email with plan options"
+    },
+    "saas_new_integration": {
+        "name": "New Integration",
+        "category": "SaaS",
+        "sections": ["header_nav", "hero", "2col_text_image", "3col_features", "cta_band", "footer_simple"],
+        "description": "New integration announcement with setup guide"
+    },
+    "saas_api_update": {
+        "name": "API Update",
+        "category": "SaaS",
+        "sections": ["header_nav", "1col_text", "comparison_table", "accordion_faq", "cta_band", "footer_simple"],
+        "description": "API version update with migration guide and FAQ"
+    },
+    "saas_downtime": {
+        "name": "Scheduled Maintenance",
+        "category": "SaaS",
+        "sections": ["header_nav", "security_alert", "1col_text", "accordion_faq", "footer_simple"],
+        "description": "Scheduled downtime notification with timeline"
+    },
+    "saas_incident_resolved": {
+        "name": "Incident Resolved",
+        "category": "SaaS",
+        "sections": ["header_nav", "1col_text", "stats_metrics", "cta_band", "footer_simple"],
+        "description": "Service incident resolution notification"
+    },
+    "saas_tips_tricks": {
+        "name": "Tips & Tricks",
+        "category": "SaaS",
+        "sections": ["header_nav", "hero", "3col_features", "video_placeholder", "cta_band", "social_icons", "footer_simple"],
+        "description": "Product tips and best practices email"
+    },
+    "saas_case_study": {
+        "name": "Case Study",
+        "category": "SaaS",
+        "sections": ["header_nav", "hero", "stats_metrics", "testimonial", "1col_text", "cta_band", "footer_complex"],
+        "description": "Customer case study with metrics and testimonial"
+    },
+    # ========== ECOMMERCE TEMPLATES ==========
+    "ecommerce_new_arrivals": {
+        "name": "New Arrivals",
+        "category": "Ecommerce",
+        "sections": ["header_nav", "hero", "product_grid", "product_grid", "cta_band", "social_icons", "footer_complex"],
+        "description": "New product arrivals showcase"
+    },
+    "ecommerce_bestsellers": {
+        "name": "Bestsellers",
+        "category": "Ecommerce",
+        "sections": ["header_nav", "hero", "product_grid", "testimonial", "cta_band", "footer_simple"],
+        "description": "Bestselling products showcase with social proof"
+    },
+    "ecommerce_restock": {
+        "name": "Restock Alert",
+        "category": "Ecommerce",
+        "sections": ["header_nav", "back_in_stock", "product_grid", "urgency_banner", "cta_band", "footer_simple"],
+        "description": "Popular items restocked notification"
+    },
+    "ecommerce_vip_early_access": {
+        "name": "VIP Early Access",
+        "category": "Ecommerce",
+        "sections": ["offer_banner", "header_nav", "hero", "countdown_timer", "product_grid", "cta_band", "footer_simple"],
+        "description": "Exclusive VIP early access to sale or products"
+    },
+    "ecommerce_birthday": {
+        "name": "Birthday Offer",
+        "category": "Ecommerce",
+        "sections": ["header_nav", "hero", "gift_card", "product_grid", "cta_band", "footer_simple"],
+        "description": "Birthday greeting with special offer or gift"
+    },
+    "ecommerce_anniversary": {
+        "name": "Customer Anniversary",
+        "category": "Ecommerce",
+        "sections": ["header_nav", "hero", "stats_metrics", "loyalty_points", "cta_band", "footer_simple"],
+        "description": "Customer anniversary celebration with rewards"
+    },
+    "ecommerce_thank_you": {
+        "name": "Thank You Post-Purchase",
+        "category": "Ecommerce",
+        "sections": ["header_nav", "1col_text", "order_summary", "product_grid", "social_icons", "footer_simple"],
+        "description": "Post-purchase thank you with recommendations"
+    },
+    "ecommerce_category_sale": {
+        "name": "Category Sale",
+        "category": "Ecommerce",
+        "sections": ["offer_banner", "header_nav", "hero", "product_grid", "product_grid", "cta_band", "footer_complex"],
+        "description": "Category-specific sale with product highlights"
+    },
+    "ecommerce_seasonal": {
+        "name": "Seasonal Collection",
+        "category": "Ecommerce",
+        "sections": ["header_nav", "hero", "gallery_carousel", "product_grid", "cta_band", "footer_simple"],
+        "description": "Seasonal collection showcase"
+    },
+    "ecommerce_bundle_offer": {
+        "name": "Bundle Offer",
+        "category": "Ecommerce",
+        "sections": ["header_nav", "hero", "product_grid", "comparison_table", "cta_band", "footer_simple"],
+        "description": "Product bundle or kit offer with value comparison"
+    },
+    "ecommerce_pre_order": {
+        "name": "Pre-Order Available",
+        "category": "Ecommerce",
+        "sections": ["header_nav", "hero", "countdown_timer", "3col_features", "cta_band", "footer_simple"],
+        "description": "Pre-order announcement with countdown and features"
+    },
+    "ecommerce_exclusive_drop": {
+        "name": "Exclusive Drop",
+        "category": "Ecommerce",
+        "sections": ["header_nav", "hero", "countdown_timer", "gallery_carousel", "urgency_banner", "cta_band", "footer_simple"],
+        "description": "Limited edition exclusive product drop"
+    },
+    "ecommerce_clearance": {
+        "name": "Clearance Sale",
+        "category": "Ecommerce",
+        "sections": ["offer_banner", "header_nav", "hero", "product_grid", "product_grid", "urgency_banner", "footer_simple"],
+        "description": "Clearance sale with deep discounts"
+    },
+    "ecommerce_order_update": {
+        "name": "Order Update",
+        "category": "Ecommerce",
+        "sections": ["header_nav", "1col_text", "shipping_tracker", "1col_text", "footer_simple"],
+        "description": "General order status update notification"
+    },
+    "ecommerce_exchange_processed": {
+        "name": "Exchange Processed",
+        "category": "Ecommerce",
+        "sections": ["header_nav", "1col_text", "order_summary", "shipping_tracker", "footer_simple"],
+        "description": "Exchange order processed and shipping notification"
+    },
+    # ========== NEWSLETTER TEMPLATES ==========
+    "newsletter_weekly": {
+        "name": "Weekly Digest",
+        "category": "Newsletter",
+        "sections": ["header_nav", "hero", "story_block", "divider", "story_block", "divider", "story_block", "cta_band", "footer_complex"],
+        "description": "Weekly digest with multiple stories"
+    },
+    "newsletter_monthly": {
+        "name": "Monthly Roundup",
+        "category": "Newsletter",
+        "sections": ["header_nav", "hero", "stats_metrics", "story_block", "product_grid", "cta_band", "social_icons", "footer_complex"],
+        "description": "Monthly roundup with stats and highlights"
+    },
+    "newsletter_curated": {
+        "name": "Curated Links",
+        "category": "Newsletter",
+        "sections": ["header_nav", "1col_text", "story_block", "story_block", "story_block", "cta_band", "footer_simple"],
+        "description": "Curated links and reading list style newsletter"
+    },
+    "newsletter_interview": {
+        "name": "Interview Feature",
+        "category": "Newsletter",
+        "sections": ["header_nav", "hero", "team_members", "1col_text", "testimonial", "cta_band", "footer_complex"],
+        "description": "Interview or Q&A feature newsletter"
+    },
+    "newsletter_industry_news": {
+        "name": "Industry News",
+        "category": "Newsletter",
+        "sections": ["header_nav", "hero", "story_block", "2col_text_image", "stats_metrics", "cta_band", "footer_complex"],
+        "description": "Industry news and market insights newsletter"
+    },
+    "newsletter_tips": {
+        "name": "Tips Newsletter",
+        "category": "Newsletter",
+        "sections": ["header_nav", "subhero", "3col_features", "1col_text", "cta_band", "social_icons", "footer_simple"],
+        "description": "Tips and how-to focused newsletter"
+    },
+    "newsletter_spotlight": {
+        "name": "Community Spotlight",
+        "category": "Newsletter",
+        "sections": ["header_nav", "hero", "team_members", "testimonial", "story_block", "cta_band", "footer_complex"],
+        "description": "Community member or customer spotlight"
+    },
+    "newsletter_product_update": {
+        "name": "Product Update Newsletter",
+        "category": "Newsletter",
+        "sections": ["header_nav", "hero", "3col_features", "video_placeholder", "cta_band", "footer_simple"],
+        "description": "Product updates and changelog newsletter"
+    },
+    # ========== PROMO TEMPLATES ==========
+    "promo_holiday": {
+        "name": "Holiday Promo",
+        "category": "Promo",
+        "sections": ["offer_banner", "header_nav", "hero", "countdown_timer", "product_grid", "gift_card", "cta_band", "footer_complex"],
+        "description": "Holiday themed promotional email"
+    },
+    "promo_weekend": {
+        "name": "Weekend Sale",
+        "category": "Promo",
+        "sections": ["offer_banner", "header_nav", "hero", "countdown_timer", "product_grid", "cta_band", "footer_simple"],
+        "description": "Weekend-only sale promotion"
+    },
+    "promo_member_exclusive": {
+        "name": "Member Exclusive",
+        "category": "Promo",
+        "sections": ["header_nav", "hero", "loyalty_points", "product_grid", "cta_band", "footer_simple"],
+        "description": "Members-only exclusive offer"
+    },
+    "promo_last_chance": {
+        "name": "Last Chance",
+        "category": "Promo",
+        "sections": ["urgency_banner", "header_nav", "hero", "countdown_timer", "product_grid", "cta_band", "footer_simple"],
+        "description": "Last chance to buy promotional email"
+    },
+    "promo_partner": {
+        "name": "Partner Offer",
+        "category": "Promo",
+        "sections": ["header_nav", "hero", "2col_text_image", "1col_text", "cta_band", "footer_complex"],
+        "description": "Partner or collaboration promotional offer"
+    },
+    "promo_giveaway": {
+        "name": "Giveaway",
+        "category": "Promo",
+        "sections": ["header_nav", "hero", "1col_text", "gallery_carousel", "rsvp_buttons", "social_icons", "footer_simple"],
+        "description": "Contest or giveaway announcement"
+    },
+    "promo_reward": {
+        "name": "Reward Earned",
+        "category": "Promo",
+        "sections": ["header_nav", "hero", "loyalty_points", "gift_card", "cta_band", "footer_simple"],
+        "description": "Reward or cashback earned notification"
+    },
+    "promo_double_points": {
+        "name": "Double Points",
+        "category": "Promo",
+        "sections": ["offer_banner", "header_nav", "hero", "loyalty_points", "product_grid", "cta_band", "footer_simple"],
+        "description": "Double points promotion period"
+    },
+    # ========== TRANSACTIONAL TEMPLATES ==========
+    "transactional_welcome_verify": {
+        "name": "Welcome with Verification",
+        "category": "Transactional",
+        "sections": ["header_nav", "1col_text", "verification_code", "3col_features", "footer_simple"],
+        "description": "Welcome email with email verification requirement"
+    },
+    "transactional_login_alert": {
+        "name": "New Login Alert",
+        "category": "Transactional",
+        "sections": ["header_nav", "security_alert", "1col_text", "cta_band", "footer_simple"],
+        "description": "New device or location login notification"
+    },
+    "transactional_email_changed": {
+        "name": "Email Changed",
+        "category": "Transactional",
+        "sections": ["header_nav", "security_alert", "1col_text", "footer_simple"],
+        "description": "Email address change confirmation"
+    },
+    "transactional_profile_updated": {
+        "name": "Profile Updated",
+        "category": "Transactional",
+        "sections": ["header_nav", "1col_text", "cta_band", "footer_simple"],
+        "description": "Account profile update confirmation"
+    },
+    "transactional_invite_accepted": {
+        "name": "Invite Accepted",
+        "category": "Transactional",
+        "sections": ["header_nav", "1col_text", "team_members", "cta_band", "footer_simple"],
+        "description": "Team or workspace invite accepted notification"
+    },
+    "transactional_team_invite": {
+        "name": "Team Invite",
+        "category": "Transactional",
+        "sections": ["header_nav", "1col_text", "team_members", "cta_band", "footer_simple"],
+        "description": "Invitation to join team or workspace"
+    },
+    "transactional_billing_updated": {
+        "name": "Billing Updated",
+        "category": "Transactional",
+        "sections": ["header_nav", "1col_text", "invoice_details", "footer_simple"],
+        "description": "Billing information update confirmation"
+    },
+    "transactional_payment_method_expiring": {
+        "name": "Payment Method Expiring",
+        "category": "Transactional",
+        "sections": ["header_nav", "urgency_banner", "1col_text", "cta_band", "footer_simple"],
+        "description": "Payment method expiration warning"
+    },
+    "transactional_refund_processed": {
+        "name": "Refund Processed",
+        "category": "Transactional",
+        "sections": ["header_nav", "1col_text", "receipt_summary", "footer_simple"],
+        "description": "Refund confirmation with transaction details"
+    },
+    "transactional_account_deleted": {
+        "name": "Account Deleted",
+        "category": "Transactional",
+        "sections": ["header_nav", "1col_text", "testimonial", "cta_band", "footer_simple"],
+        "description": "Account deletion confirmation with reactivation option"
+    },
+    "transactional_data_export": {
+        "name": "Data Export Ready",
+        "category": "Transactional",
+        "sections": ["header_nav", "1col_text", "cta_band", "accordion_faq", "footer_simple"],
+        "description": "Data export download ready notification"
+    },
 }
 
 
