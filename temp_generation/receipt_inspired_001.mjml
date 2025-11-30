@@ -1,0 +1,202 @@
+<mjml>
+  <mj-head>
+    <mj-title>Your Order Receipt</mj-title>
+    <mj-preview>Order confirmation #{{OrderNumber}}</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}, Helvetica, Arial, sans-serif" />
+      <mj-text font-size="16px" color="{brandText}" line-height="24px" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" font-size="14px" font-weight="bold" border-radius="4px" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="{brandBG}" width="640px">
+    <!-- Header -->
+    <mj-section background-color="#ffffff" padding="20px 40px">
+      <mj-column width="50%">
+        <mj-image src="https://placehold.co/120x40/333333/ffffff?text=STORE" alt="Store Logo" width="120px" align="left" />
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text font-size="14px" align="right" color="#888888">
+          Order #{{OrderNumber}}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Hero Banner -->
+    <mj-section background-color="{brandPrimary}" padding="30px 40px">
+      <mj-column>
+        <mj-text font-size="28px" font-weight="bold" color="#ffffff" align="center">
+          Thank You for Your Order!
+        </mj-text>
+        <mj-text color="#ffffff" align="center" padding-top="10px">
+          We've received your order and it's being processed.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Order Summary Header -->
+    <mj-section background-color="#ffffff" padding="30px 40px 10px">
+      <mj-column width="33%">
+        <mj-text font-size="12px" font-weight="bold" color="#888888" text-transform="uppercase">
+          Order Date
+        </mj-text>
+        <mj-text padding-top="5px">
+          {{OrderDate}}
+        </mj-text>
+      </mj-column>
+      <mj-column width="33%">
+        <mj-text font-size="12px" font-weight="bold" color="#888888" text-transform="uppercase">
+          Order Number
+        </mj-text>
+        <mj-text padding-top="5px">
+          #{{OrderNumber}}
+        </mj-text>
+      </mj-column>
+      <mj-column width="33%">
+        <mj-text font-size="12px" font-weight="bold" color="#888888" text-transform="uppercase">
+          Payment Method
+        </mj-text>
+        <mj-text padding-top="5px">
+          {{PaymentMethod}}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Divider -->
+    <mj-section background-color="#ffffff" padding="10px 40px">
+      <mj-column>
+        <mj-divider border-color="#eeeeee" border-width="1px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Order Items -->
+    <mj-section background-color="#ffffff" padding="10px 40px">
+      <mj-column>
+        <mj-text font-weight="bold" font-size="18px">Order Details</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Item 1 -->
+    <mj-section background-color="#ffffff" padding="10px 40px">
+      <mj-column width="20%">
+        <mj-image src="https://placehold.co/100x100/f5f5f5/333333?text=Item" alt="Product image" width="80px" />
+      </mj-column>
+      <mj-column width="55%">
+        <mj-text font-weight="bold" padding-bottom="0">Product Name One</mj-text>
+        <mj-text font-size="14px" color="#888888" padding-top="5px">Qty: 2 | Size: Medium</mj-text>
+      </mj-column>
+      <mj-column width="25%">
+        <mj-text align="right" font-weight="bold">$49.99</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Item 2 -->
+    <mj-section background-color="#ffffff" padding="10px 40px">
+      <mj-column width="20%">
+        <mj-image src="https://placehold.co/100x100/f5f5f5/333333?text=Item" alt="Product image" width="80px" />
+      </mj-column>
+      <mj-column width="55%">
+        <mj-text font-weight="bold" padding-bottom="0">Product Name Two</mj-text>
+        <mj-text font-size="14px" color="#888888" padding-top="5px">Qty: 1 | Color: Blue</mj-text>
+      </mj-column>
+      <mj-column width="25%">
+        <mj-text align="right" font-weight="bold">$29.99</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Totals -->
+    <mj-section background-color="#ffffff" padding="10px 40px">
+      <mj-column>
+        <mj-divider border-color="#eeeeee" border-width="1px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="5px 40px">
+      <mj-column width="70%">
+        <mj-text align="right">Subtotal:</mj-text>
+      </mj-column>
+      <mj-column width="30%">
+        <mj-text align="right">$79.98</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="5px 40px">
+      <mj-column width="70%">
+        <mj-text align="right">Shipping:</mj-text>
+      </mj-column>
+      <mj-column width="30%">
+        <mj-text align="right">$5.99</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="5px 40px">
+      <mj-column width="70%">
+        <mj-text align="right">Tax:</mj-text>
+      </mj-column>
+      <mj-column width="30%">
+        <mj-text align="right">$6.88</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="10px 40px 30px">
+      <mj-column width="70%">
+        <mj-text align="right" font-weight="bold" font-size="18px">Total:</mj-text>
+      </mj-column>
+      <mj-column width="30%">
+        <mj-text align="right" font-weight="bold" font-size="18px" color="{brandPrimary}">$92.85</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- CTA Buttons -->
+    <mj-section background-color="#f9f9f9" padding="30px 40px">
+      <mj-column width="50%">
+        <mj-button href="#" width="100%">
+          Track Order
+        </mj-button>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-button href="#" background-color="{brandSecondary}" width="100%">
+          View Receipt
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Shipping Info -->
+    <mj-section background-color="#ffffff" padding="30px 40px">
+      <mj-column width="50%">
+        <mj-text font-size="12px" font-weight="bold" color="#888888" text-transform="uppercase">
+          Shipping Address
+        </mj-text>
+        <mj-text padding-top="10px" font-size="14px">
+          {{CustomerName}}<br />
+          {{StreetAddress}}<br />
+          {{City}}, {{State}} {{ZipCode}}
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text font-size="12px" font-weight="bold" color="#888888" text-transform="uppercase">
+          Billing Address
+        </mj-text>
+        <mj-text padding-top="10px" font-size="14px">
+          {{CustomerName}}<br />
+          {{BillingStreet}}<br />
+          {{BillingCity}}, {{BillingState}} {{BillingZip}}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="#333333" padding="30px 40px">
+      <mj-column>
+        <mj-text font-size="14px" align="center" color="#ffffff">
+          Questions? Contact us at <a href="mailto:support@example.com" style="color: #ffffff;">support@example.com</a>
+        </mj-text>
+        <mj-text font-size="12px" align="center" color="#888888" padding-top="20px">
+          <a href="#" style="color: #888888;">Unsubscribe</a> | <a href="#" style="color: #888888;">Privacy Policy</a> | <a href="#" style="color: #888888;">Terms of Service</a>
+        </mj-text>
+        <mj-text font-size="12px" align="center" color="#888888" padding-top="10px">
+          © 2024 Store Name. All rights reserved.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

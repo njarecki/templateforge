@@ -1,0 +1,195 @@
+<mjml>
+  <mj-head>
+    <mj-title>Weekly Digest</mj-title>
+    <mj-preview>This week's top stories and updates</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}, Georgia, serif" />
+      <mj-text font-size="16px" color="{brandText}" line-height="26px" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" font-size="14px" font-weight="bold" border-radius="0px" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="{brandBG}" width="640px">
+    <!-- Header -->
+    <mj-section background-color="#ffffff" padding="25px 40px">
+      <mj-column width="60%">
+        <mj-text font-size="28px" font-weight="bold" color="{brandPrimary}">
+          THE WEEKLY
+        </mj-text>
+      </mj-column>
+      <mj-column width="40%">
+        <mj-text align="right" font-size="12px" color="#888888">
+          November 30, 2024
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Divider -->
+    <mj-section background-color="#ffffff" padding="0 40px">
+      <mj-column>
+        <mj-divider border-color="{brandPrimary}" border-width="3px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Hero Article -->
+    <mj-section background-color="#ffffff" padding="30px 40px 20px">
+      <mj-column>
+        <mj-image src="https://placehold.co/560x300/f0f0f0/333333?text=Featured+Story" alt="Featured story image" />
+        <mj-text font-size="12px" color="{brandPrimary}" text-transform="uppercase" font-weight="bold" padding-top="20px">
+          Featured
+        </mj-text>
+        <mj-text font-size="24px" font-weight="bold" line-height="32px" padding-top="10px">
+          The Future of Remote Work: What 2025 Holds for Distributed Teams
+        </mj-text>
+        <mj-text padding-top="15px">
+          As we approach a new year, the landscape of remote work continues to evolve. From hybrid models to fully distributed teams, discover the trends shaping how we work together.
+        </mj-text>
+        <mj-button href="#" align="left" padding-top="20px">
+          Read Full Article
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Divider -->
+    <mj-section background-color="#ffffff" padding="20px 40px">
+      <mj-column>
+        <mj-divider border-color="#eeeeee" border-width="1px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Two Column Articles -->
+    <mj-section background-color="#ffffff" padding="0 30px 20px">
+      <mj-column width="50%">
+        <mj-image src="https://placehold.co/260x180/f5f5f5/333333?text=Article+1" alt="Article 1" padding="0 10px" />
+        <mj-text font-size="12px" color="{brandSecondary}" text-transform="uppercase" font-weight="bold" padding="15px 10px 5px">
+          Technology
+        </mj-text>
+        <mj-text font-size="18px" font-weight="bold" line-height="24px" padding="0 10px">
+          AI Tools Every Professional Should Know
+        </mj-text>
+        <mj-text font-size="14px" padding="10px 10px 0">
+          A roundup of the most impactful AI tools that are changing how we work.
+        </mj-text>
+        <mj-text padding="10px 10px 0">
+          <a href="#" style="color: {brandPrimary}; text-decoration: none; font-size: 14px;">Read More →</a>
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image src="https://placehold.co/260x180/f5f5f5/333333?text=Article+2" alt="Article 2" padding="0 10px" />
+        <mj-text font-size="12px" color="{brandSecondary}" text-transform="uppercase" font-weight="bold" padding="15px 10px 5px">
+          Productivity
+        </mj-text>
+        <mj-text font-size="18px" font-weight="bold" line-height="24px" padding="0 10px">
+          5 Morning Routines of Successful Leaders
+        </mj-text>
+        <mj-text font-size="14px" padding="10px 10px 0">
+          Learn the habits that help top executives start their days right.
+        </mj-text>
+        <mj-text padding="10px 10px 0">
+          <a href="#" style="color: {brandPrimary}; text-decoration: none; font-size: 14px;">Read More →</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Quote Section -->
+    <mj-section background-color="{brandSecondary}" padding="40px">
+      <mj-column>
+        <mj-text font-size="24px" font-style="italic" color="#ffffff" align="center" line-height="36px">
+          "The only way to do great work is to love what you do."
+        </mj-text>
+        <mj-text font-size="14px" color="#ffffff" align="center" padding-top="15px" font-weight="bold">
+          — Steve Jobs
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Quick Reads -->
+    <mj-section background-color="#ffffff" padding="30px 40px 10px">
+      <mj-column>
+        <mj-text font-size="18px" font-weight="bold" text-transform="uppercase" color="{brandPrimary}">
+          Quick Reads
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Quick Read Item 1 -->
+    <mj-section background-color="#ffffff" padding="15px 40px">
+      <mj-column width="75%">
+        <mj-text font-weight="bold">
+          <a href="#" style="color: {brandText}; text-decoration: none;">How to Build Better Habits in 30 Days</a>
+        </mj-text>
+        <mj-text font-size="14px" color="#888888" padding-top="5px">
+          3 min read | Self-Improvement
+        </mj-text>
+      </mj-column>
+      <mj-column width="25%">
+        <mj-image src="https://placehold.co/100x70/f5f5f5/333333?text=Thumb" alt="Article thumbnail" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Quick Read Item 2 -->
+    <mj-section background-color="#ffffff" padding="15px 40px">
+      <mj-column width="75%">
+        <mj-text font-weight="bold">
+          <a href="#" style="color: {brandText}; text-decoration: none;">The Rise of Sustainable Business Practices</a>
+        </mj-text>
+        <mj-text font-size="14px" color="#888888" padding-top="5px">
+          5 min read | Business
+        </mj-text>
+      </mj-column>
+      <mj-column width="25%">
+        <mj-image src="https://placehold.co/100x70/f5f5f5/333333?text=Thumb" alt="Article thumbnail" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Quick Read Item 3 -->
+    <mj-section background-color="#ffffff" padding="15px 40px 30px">
+      <mj-column width="75%">
+        <mj-text font-weight="bold">
+          <a href="#" style="color: {brandText}; text-decoration: none;">Design Trends to Watch in 2025</a>
+        </mj-text>
+        <mj-text font-size="14px" color="#888888" padding-top="5px">
+          4 min read | Design
+        </mj-text>
+      </mj-column>
+      <mj-column width="25%">
+        <mj-image src="https://placehold.co/100x70/f5f5f5/333333?text=Thumb" alt="Article thumbnail" />
+      </mj-column>
+    </mj-section>
+
+    <!-- CTA Section -->
+    <mj-section background-color="{brandPrimary}" padding="30px 40px">
+      <mj-column>
+        <mj-text font-size="20px" font-weight="bold" color="#ffffff" align="center">
+          Want More Great Content?
+        </mj-text>
+        <mj-text color="#ffffff" align="center" padding-top="10px">
+          Visit our website for exclusive articles and insights.
+        </mj-text>
+        <mj-button href="#" background-color="#ffffff" color="{brandPrimary}" padding-top="20px">
+          Visit Website
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="#f5f5f5" padding="30px 40px">
+      <mj-column>
+        <mj-social font-size="15px" icon-size="25px" mode="horizontal" align="center">
+          <mj-social-element name="twitter" href="#" background-color="{brandPrimary}" />
+          <mj-social-element name="linkedin" href="#" background-color="{brandPrimary}" />
+          <mj-social-element name="facebook" href="#" background-color="{brandPrimary}" />
+        </mj-social>
+        <mj-text font-size="12px" align="center" color="#888888" padding-top="20px">
+          You're receiving this because you subscribed to The Weekly.
+        </mj-text>
+        <mj-text font-size="12px" align="center" color="#888888">
+          <a href="#" style="color: #888888;">Unsubscribe</a> | <a href="#" style="color: #888888;">Update Preferences</a> | <a href="#" style="color: #888888;">View Online</a>
+        </mj-text>
+        <mj-text font-size="12px" align="center" color="#888888" padding-top="15px">
+          © 2024 The Weekly. All rights reserved.<br />
+          123 Publishing Lane, Media City, NY 10001
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

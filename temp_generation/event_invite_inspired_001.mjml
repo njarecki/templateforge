@@ -1,0 +1,208 @@
+<mjml>
+  <mj-head>
+    <mj-title>You're Invited</mj-title>
+    <mj-preview>Join us for an exclusive event</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}, Helvetica, Arial, sans-serif" />
+      <mj-text font-size="16px" color="{brandText}" line-height="24px" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" font-size="16px" font-weight="bold" border-radius="4px" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="{brandBG}" width="640px">
+    <!-- Header -->
+    <mj-section background-color="{brandSecondary}" padding="20px 40px">
+      <mj-column>
+        <mj-image src="https://placehold.co/120x40/ffffff/333333?text=BRAND" alt="Brand Logo" width="120px" align="center" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Hero Image -->
+    <mj-section background-color="{brandSecondary}" padding="0">
+      <mj-column>
+        <mj-image src="https://placehold.co/640x320/1a365d/ffffff?text=Event+Hero+Image" alt="Event banner" width="640px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Hero Text -->
+    <mj-section background-color="{brandSecondary}" padding="40px">
+      <mj-column>
+        <mj-text font-size="14px" color="{brandAccent}" text-transform="uppercase" letter-spacing="3px" align="center">
+          Exclusive Invitation
+        </mj-text>
+        <mj-text font-size="36px" font-weight="bold" color="#ffffff" align="center" padding-top="15px" line-height="42px">
+          Annual Design Summit 2024
+        </mj-text>
+        <mj-text color="#ffffff" align="center" padding-top="15px" font-size="18px">
+          Connect with industry leaders and shape the future of design.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Event Details -->
+    <mj-section background-color="#ffffff" padding="40px">
+      <mj-column width="33%">
+        <mj-image src="https://placehold.co/50x50/f5f5f5/333333?text=Cal" alt="Calendar" width="50px" align="center" />
+        <mj-text font-size="12px" color="#888888" text-transform="uppercase" align="center" padding-top="15px">
+          Date
+        </mj-text>
+        <mj-text font-weight="bold" align="center" padding-top="5px">
+          December 15, 2024
+        </mj-text>
+      </mj-column>
+      <mj-column width="33%">
+        <mj-image src="https://placehold.co/50x50/f5f5f5/333333?text=Time" alt="Clock" width="50px" align="center" />
+        <mj-text font-size="12px" color="#888888" text-transform="uppercase" align="center" padding-top="15px">
+          Time
+        </mj-text>
+        <mj-text font-weight="bold" align="center" padding-top="5px">
+          9:00 AM - 5:00 PM
+        </mj-text>
+      </mj-column>
+      <mj-column width="33%">
+        <mj-image src="https://placehold.co/50x50/f5f5f5/333333?text=Loc" alt="Location" width="50px" align="center" />
+        <mj-text font-size="12px" color="#888888" text-transform="uppercase" align="center" padding-top="15px">
+          Location
+        </mj-text>
+        <mj-text font-weight="bold" align="center" padding-top="5px">
+          Grand Convention Center
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- CTA -->
+    <mj-section background-color="#ffffff" padding="0 40px 40px">
+      <mj-column>
+        <mj-button href="#" width="100%">
+          Reserve Your Spot
+        </mj-button>
+        <mj-text font-size="14px" color="#888888" align="center" padding-top="15px">
+          Limited seats available. Early bird pricing ends Dec 1st.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Speakers Section -->
+    <mj-section background-color="#f9f9f9" padding="40px 40px 20px">
+      <mj-column>
+        <mj-text font-size="24px" font-weight="bold" align="center">
+          Featured Speakers
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#f9f9f9" padding="10px 20px">
+      <mj-column width="33%">
+        <mj-image src="https://placehold.co/120x120/dddddd/333333?text=Speaker+1" alt="Speaker 1" width="100px" border-radius="50px" />
+        <mj-text font-weight="bold" align="center" padding-top="15px" font-size="14px">Sarah Chen</mj-text>
+        <mj-text font-size="12px" align="center" color="#888888">Design Director, TechCo</mj-text>
+      </mj-column>
+      <mj-column width="33%">
+        <mj-image src="https://placehold.co/120x120/dddddd/333333?text=Speaker+2" alt="Speaker 2" width="100px" border-radius="50px" />
+        <mj-text font-weight="bold" align="center" padding-top="15px" font-size="14px">Michael Park</mj-text>
+        <mj-text font-size="12px" align="center" color="#888888">CEO, DesignStudio</mj-text>
+      </mj-column>
+      <mj-column width="33%">
+        <mj-image src="https://placehold.co/120x120/dddddd/333333?text=Speaker+3" alt="Speaker 3" width="100px" border-radius="50px" />
+        <mj-text font-weight="bold" align="center" padding-top="15px" font-size="14px">Emily Rodriguez</mj-text>
+        <mj-text font-size="12px" align="center" color="#888888">VP Product, StartupX</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#f9f9f9" padding="20px 40px 40px">
+      <mj-column>
+        <mj-text align="center">
+          <a href="#" style="color: {brandPrimary}; text-decoration: none;">View All Speakers →</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Agenda Preview -->
+    <mj-section background-color="#ffffff" padding="40px 40px 20px">
+      <mj-column>
+        <mj-text font-size="24px" font-weight="bold" align="center">
+          Agenda Highlights
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="15px 40px">
+      <mj-column width="25%">
+        <mj-text font-weight="bold" color="{brandPrimary}">9:00 AM</mj-text>
+      </mj-column>
+      <mj-column width="75%">
+        <mj-text font-weight="bold">Opening Keynote</mj-text>
+        <mj-text font-size="14px" color="#888888" padding-top="5px">The Future of Design in the AI Era</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="15px 40px">
+      <mj-column width="25%">
+        <mj-text font-weight="bold" color="{brandPrimary}">11:00 AM</mj-text>
+      </mj-column>
+      <mj-column width="75%">
+        <mj-text font-weight="bold">Panel Discussion</mj-text>
+        <mj-text font-size="14px" color="#888888" padding-top="5px">Building Design Systems at Scale</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="15px 40px 40px">
+      <mj-column width="25%">
+        <mj-text font-weight="bold" color="{brandPrimary}">2:00 PM</mj-text>
+      </mj-column>
+      <mj-column width="75%">
+        <mj-text font-weight="bold">Workshop Sessions</mj-text>
+        <mj-text font-size="14px" color="#888888" padding-top="5px">Hands-on learning with industry experts</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Location Map -->
+    <mj-section background-color="#f9f9f9" padding="30px 40px">
+      <mj-column>
+        <mj-image src="https://placehold.co/560x200/e0e0e0/333333?text=Map+Location" alt="Event location map" />
+        <mj-text padding-top="20px">
+          <strong>Grand Convention Center</strong><br />
+          123 Main Street, Suite 100<br />
+          New York, NY 10001
+        </mj-text>
+        <mj-text padding-top="10px">
+          <a href="#" style="color: {brandPrimary}; text-decoration: none;">Get Directions →</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Final CTA -->
+    <mj-section background-color="{brandPrimary}" padding="40px">
+      <mj-column>
+        <mj-text font-size="24px" font-weight="bold" color="#ffffff" align="center">
+          Don't Miss This Opportunity
+        </mj-text>
+        <mj-text color="#ffffff" align="center" padding-top="15px">
+          Join 500+ design professionals for a day of inspiration and connection.
+        </mj-text>
+        <mj-button href="#" background-color="#ffffff" color="{brandPrimary}" padding-top="25px">
+          Register Now
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="#333333" padding="30px 40px">
+      <mj-column>
+        <mj-social font-size="15px" icon-size="25px" mode="horizontal" align="center">
+          <mj-social-element name="twitter" href="#" background-color="#555555" />
+          <mj-social-element name="linkedin" href="#" background-color="#555555" />
+          <mj-social-element name="instagram" href="#" background-color="#555555" />
+        </mj-social>
+        <mj-text font-size="12px" align="center" color="#ffffff" padding-top="20px">
+          Questions? <a href="mailto:events@example.com" style="color: #ffffff;">events@example.com</a>
+        </mj-text>
+        <mj-text font-size="12px" align="center" color="#888888" padding-top="15px">
+          <a href="#" style="color: #888888;">Unsubscribe</a> | <a href="#" style="color: #888888;">Privacy Policy</a>
+        </mj-text>
+        <mj-text font-size="12px" align="center" color="#888888" padding-top="10px">
+          © 2024 Brand Name Events. All rights reserved.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
