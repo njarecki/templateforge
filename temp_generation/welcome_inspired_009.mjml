@@ -1,0 +1,58 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="'Helvetica Neue', Arial, sans-serif" />
+      <mj-text color="#333333" />
+      <mj-button background-color="#000000" color="#ffffff" border-radius="0" />
+    </mj-attributes>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .mobile-hide { display: none !important; }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#ffffff" width="640px">
+    <mj-section background-color="#ffffff" padding="35px 40px">
+      <mj-column>
+        <mj-image src="https://placehold.co/80x30/png?text=Logo" alt="Brand logo" width="80px" align="left" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="40px">
+      <mj-column>
+        <mj-text font-size="42px" font-weight="300" line-height="1.2">Welcome to<br/><strong>a new experience.</strong></mj-text>
+        <mj-text font-size="16px" line-height="1.7" padding-top="25px" color="#666666">Thank you for joining us. We believe in simplicity, quality, and attention to detail. Everything we create is designed with you in mind.</mj-text>
+        <mj-button href="#" padding-top="35px" inner-padding="16px 45px">Get Started</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="30px 40px">
+      <mj-column>
+        <mj-divider border-color="#e5e5e5" border-width="1px" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="10px 40px 50px">
+      <mj-column width="50%">
+        <mj-image src="https://placehold.co/260x340/png?text=Feature1" alt="Feature one" />
+        <mj-text font-size="14px" font-weight="bold" padding-top="20px">Crafted with Care</mj-text>
+        <mj-text font-size="13px" color="#888888" padding-top="5px">Every detail matters to us.</mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image src="https://placehold.co/260x340/png?text=Feature2" alt="Feature two" />
+        <mj-text font-size="14px" font-weight="bold" padding-top="20px">Built to Last</mj-text>
+        <mj-text font-size="13px" color="#888888" padding-top="5px">Quality you can count on.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f7f7f7" padding="50px 40px">
+      <mj-column>
+        <mj-text font-size="16px" align="center" font-style="italic" color="#666666">"The purest form of design is simply caring deeply about something."</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="40px">
+      <mj-column>
+        <mj-text font-size="11px" color="#999999" align="center">
+          © 2024 Brand Name. All rights reserved.<br/><br/>
+          <a href="#" style="color: #999999;">Unsubscribe</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

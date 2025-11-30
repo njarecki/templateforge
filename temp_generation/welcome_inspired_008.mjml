@@ -1,0 +1,75 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}" />
+      <mj-text color="{brandText}" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" border-radius="50px" />
+    </mj-attributes>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .responsive-img { width: 100% !important; }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#fef6f3" width="640px">
+    <mj-section background-color="#ffffff" padding="25px 30px">
+      <mj-column>
+        <mj-image src="https://placehold.co/130x45/png?text=Logo" alt="Company logo" width="130px" align="center" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="30px">
+      <mj-column>
+        <mj-image src="https://placehold.co/560x280/png?text=Welcome+Illustration" alt="Welcome illustration" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="20px 30px 40px">
+      <mj-column>
+        <mj-text font-size="32px" font-weight="bold" align="center">Hey there, {{first_name}}! 👋</mj-text>
+        <mj-text font-size="16px" align="center" padding-top="15px" color="#666666" line-height="1.7">Welcome to our community! We're so happy you're here. Get ready for exclusive perks, early access to sales, and personalized recommendations.</mj-text>
+        <mj-button href="#" padding-top="30px" inner-padding="16px 40px">Start Exploring</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="{brandSecondary}" padding="40px 30px">
+      <mj-column>
+        <mj-text font-size="18px" font-weight="bold" align="center">Your Welcome Gift</mj-text>
+        <mj-text font-size="48px" font-weight="bold" color="{brandPrimary}" align="center" padding-top="10px">15% OFF</mj-text>
+        <mj-text font-size="14px" align="center" padding-top="5px" color="#666666">Use code: <strong>HELLO15</strong> at checkout</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="40px 30px">
+      <mj-column>
+        <mj-text font-size="18px" font-weight="bold" align="center">What's Next?</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="0 30px 40px">
+      <mj-column width="33%">
+        <mj-image src="https://placehold.co/60x60/png?text=1" alt="Step one" width="60px" />
+        <mj-text font-size="14px" font-weight="bold" align="center" padding-top="10px">Complete Profile</mj-text>
+        <mj-text font-size="12px" align="center" color="#888888">Tell us about yourself</mj-text>
+      </mj-column>
+      <mj-column width="33%">
+        <mj-image src="https://placehold.co/60x60/png?text=2" alt="Step two" width="60px" />
+        <mj-text font-size="14px" font-weight="bold" align="center" padding-top="10px">Browse Collection</mj-text>
+        <mj-text font-size="12px" align="center" color="#888888">Discover what we offer</mj-text>
+      </mj-column>
+      <mj-column width="33%">
+        <mj-image src="https://placehold.co/60x60/png?text=3" alt="Step three" width="60px" />
+        <mj-text font-size="14px" font-weight="bold" align="center" padding-top="10px">Join Community</mj-text>
+        <mj-text font-size="12px" align="center" color="#888888">Connect with others</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#fef6f3" padding="30px">
+      <mj-column>
+        <mj-social font-size="15px" icon-size="30px" mode="horizontal">
+          <mj-social-element name="instagram" href="#" alt="Instagram" />
+          <mj-social-element name="facebook" href="#" alt="Facebook" />
+          <mj-social-element name="twitter" href="#" alt="Twitter" />
+        </mj-social>
+        <mj-text font-size="11px" color="#888888" align="center" padding-top="20px">
+          © 2024 Company Name<br/>
+          <a href="#" style="color: #888888;">Unsubscribe</a> | <a href="#" style="color: #888888;">Preferences</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

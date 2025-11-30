@@ -1,0 +1,96 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}" />
+      <mj-text color="#374151" />
+      <mj-button background-color="#3b82f6" color="#ffffff" border-radius="6px" />
+    </mj-attributes>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .mobile-pad { padding: 15px !important; }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f3f4f6" width="640px">
+    <mj-section background-color="#ffffff" padding="30px" border-radius="8px 8px 0 0">
+      <mj-column>
+        <mj-image src="https://placehold.co/140x45/png?text=Logo" alt="Company logo" width="140px" align="center" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="20px 30px">
+      <mj-column>
+        <mj-image src="https://placehold.co/100x100/png?text=%F0%9F%93%A6" alt="Package icon" width="100px" align="center" />
+        <mj-text font-size="28px" font-weight="bold" align="center" padding-top="20px">Your Order Has Shipped!</mj-text>
+        <mj-text font-size="15px" color="#6b7280" align="center" padding-top="10px">Great news! Your package is on its way to you.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#eff6ff" padding="25px 30px" border-radius="8px">
+      <mj-column>
+        <mj-text font-size="13px" color="#3b82f6" text-transform="uppercase" letter-spacing="1px">Tracking Number</mj-text>
+        <mj-text font-size="20px" font-weight="bold" padding-top="5px">1Z999AA10123456784</mj-text>
+        <mj-button href="#" padding-top="15px" font-size="13px" inner-padding="12px 25px">Track Package</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="30px">
+      <mj-column>
+        <mj-text font-size="16px" font-weight="bold">Shipment Details</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="0 30px">
+      <mj-column width="50%">
+        <mj-text font-size="13px" color="#6b7280">Shipped From</mj-text>
+        <mj-text font-size="14px" padding-top="5px">Distribution Center<br/>Los Angeles, CA</mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text font-size="13px" color="#6b7280">Shipping To</mj-text>
+        <mj-text font-size="14px" padding-top="5px">{{customer_name}}<br/>{{shipping_address}}</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="30px">
+      <mj-column>
+        <mj-divider border-color="#e5e7eb" border-width="1px" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="0 30px">
+      <mj-column width="50%">
+        <mj-text font-size="13px" color="#6b7280">Carrier</mj-text>
+        <mj-text font-size="14px" padding-top="5px">UPS Ground</mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text font-size="13px" color="#6b7280">Estimated Delivery</mj-text>
+        <mj-text font-size="14px" font-weight="bold" padding-top="5px" color="#10b981">December 4-6, 2024</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="30px">
+      <mj-column>
+        <mj-text font-size="14px" font-weight="bold">What's in this shipment:</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="0 30px">
+      <mj-column width="15%">
+        <mj-image src="https://placehold.co/60x60/png?text=Item" alt="Product thumbnail" width="60px" />
+      </mj-column>
+      <mj-column width="60%">
+        <mj-text font-size="14px">Premium Wireless Headphones</mj-text>
+        <mj-text font-size="12px" color="#6b7280">Color: Matte Black | Qty: 1</mj-text>
+      </mj-column>
+      <mj-column width="25%">
+        <mj-text font-size="14px" align="right">$199.00</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="30px" border-radius="0 0 8px 8px">
+      <mj-column>
+        <mj-text font-size="14px" align="center">Order #ORD-2024-847291 | <a href="#" style="color: #3b82f6;">View Full Order</a></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f3f4f6" padding="30px">
+      <mj-column>
+        <mj-text font-size="14px" align="center">Questions? <a href="#" style="color: #3b82f6;">Contact Support</a></mj-text>
+        <mj-text font-size="11px" color="#9ca3af" align="center" padding-top="20px">
+          © 2024 Company Name<br/>
+          <a href="#" style="color: #9ca3af;">Unsubscribe</a> | <a href="#" style="color: #9ca3af;">Privacy</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

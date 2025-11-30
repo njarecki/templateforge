@@ -1,0 +1,84 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}" />
+      <mj-text color="#333333" />
+      <mj-button background-color="#10b981" color="#ffffff" border-radius="6px" />
+    </mj-attributes>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .tip-col { width: 100% !important; display: block !important; }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#ecfdf5" width="640px">
+    <mj-section background-color="#10b981" padding="25px 30px">
+      <mj-column>
+        <mj-text font-size="24px" color="#ffffff" align="center" font-weight="bold">🌱 The Wellness Digest</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="40px 30px">
+      <mj-column>
+        <mj-text font-size="14px" color="#10b981" text-transform="uppercase" letter-spacing="2px">This Week's Focus</mj-text>
+        <mj-text font-size="30px" font-weight="bold" padding-top="10px" line-height="1.2">Mastering Your Morning Routine</mj-text>
+        <mj-text font-size="15px" color="#6b7280" padding-top="20px" line-height="1.7">How you start your day sets the tone for everything that follows. This week, we're sharing science-backed strategies to transform your mornings and boost your productivity.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="0 30px 30px">
+      <mj-column>
+        <mj-image src="https://placehold.co/560x300/png?text=Morning+Routine" alt="Morning routine illustration" border-radius="8px" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="0 30px 40px">
+      <mj-column>
+        <mj-button href="#" padding-top="10px">Read the Full Guide</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f0fdf4" padding="30px">
+      <mj-column>
+        <mj-text font-size="18px" font-weight="bold" align="center">Quick Wellness Tips</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f0fdf4" padding="0 30px 30px">
+      <mj-column width="33%" css-class="tip-col">
+        <mj-text font-size="32px" align="center">🧘</mj-text>
+        <mj-text font-size="14px" font-weight="bold" align="center" padding-top="10px">5-Min Stretch</mj-text>
+        <mj-text font-size="12px" color="#6b7280" align="center" padding-top="5px">Wake up your body gently</mj-text>
+      </mj-column>
+      <mj-column width="33%" css-class="tip-col">
+        <mj-text font-size="32px" align="center">💧</mj-text>
+        <mj-text font-size="14px" font-weight="bold" align="center" padding-top="10px">Hydrate First</mj-text>
+        <mj-text font-size="12px" color="#6b7280" align="center" padding-top="5px">Water before coffee</mj-text>
+      </mj-column>
+      <mj-column width="33%" css-class="tip-col">
+        <mj-text font-size="32px" align="center">📱</mj-text>
+        <mj-text font-size="14px" font-weight="bold" align="center" padding-top="10px">Screen-Free Hour</mj-text>
+        <mj-text font-size="12px" color="#6b7280" align="center" padding-top="5px">No phone for 60 mins</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="35px 30px">
+      <mj-column>
+        <mj-text font-size="16px" font-weight="bold">This Week's Recipe: Green Energy Smoothie</mj-text>
+        <mj-text font-size="14px" color="#6b7280" padding-top="10px" line-height="1.6">Spinach, banana, almond butter, and a hint of ginger. The perfect fuel for your morning. <a href="#" style="color: #10b981;">Get the recipe →</a></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#10b981" padding="30px">
+      <mj-column>
+        <mj-text font-size="14px" color="#ffffff" align="center">Love these tips? <a href="#" style="color: #ffffff; text-decoration: underline;">Share with a friend</a></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ecfdf5" padding="25px 30px">
+      <mj-column>
+        <mj-social font-size="15px" icon-size="25px" mode="horizontal">
+          <mj-social-element name="instagram" href="#" background-color="#10b981" alt="Instagram" />
+          <mj-social-element name="youtube" href="#" background-color="#10b981" alt="YouTube" />
+          <mj-social-element name="web" href="#" background-color="#10b981" alt="Website" />
+        </mj-social>
+        <mj-text font-size="11px" color="#6b7280" align="center" padding-top="20px">
+          © 2024 The Wellness Digest<br/>
+          <a href="#" style="color: #6b7280;">Unsubscribe</a> | <a href="#" style="color: #6b7280;">Preferences</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

@@ -1,0 +1,139 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}" />
+      <mj-text color="{brandText}" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" border-radius="4px" />
+    </mj-attributes>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .order-details { padding: 15px !important; }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f4f4f4" width="640px">
+    <mj-section background-color="#ffffff" padding="25px 30px">
+      <mj-column>
+        <mj-image src="https://placehold.co/140x45/png?text=Logo" alt="Company logo" width="140px" align="left" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="{brandPrimary}" padding="40px 30px">
+      <mj-column>
+        <mj-text font-size="28px" font-weight="bold" color="#ffffff" align="center">Order Confirmed!</mj-text>
+        <mj-text font-size="16px" color="#ffffff" align="center" padding-top="10px">Thank you for your purchase.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="30px">
+      <mj-column>
+        <mj-text font-size="14px" color="#666666">Hi {{customer_name}},</mj-text>
+        <mj-text font-size="14px" padding-top="15px">We've received your order and it's being prepared for shipment. You'll receive a tracking number once your order ships.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f9f9f9" padding="25px 30px">
+      <mj-column>
+        <mj-text font-size="16px" font-weight="bold">Order Details</mj-text>
+        <mj-text font-size="13px" color="#666666" padding-top="5px">Order #{{order_number}}</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f9f9f9" padding="0 30px">
+      <mj-column width="20%">
+        <mj-image src="https://placehold.co/80x80/png?text=Item1" alt="Product image" width="80px" />
+      </mj-column>
+      <mj-column width="55%">
+        <mj-text font-size="14px" font-weight="bold">Product Name Here</mj-text>
+        <mj-text font-size="12px" color="#666666">Size: M | Color: Black</mj-text>
+        <mj-text font-size="12px" color="#666666">Qty: 1</mj-text>
+      </mj-column>
+      <mj-column width="25%">
+        <mj-text font-size="14px" font-weight="bold" align="right">$89.00</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f9f9f9" padding="15px 30px">
+      <mj-column>
+        <mj-divider border-color="#e0e0e0" border-width="1px" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f9f9f9" padding="0 30px">
+      <mj-column width="20%">
+        <mj-image src="https://placehold.co/80x80/png?text=Item2" alt="Product image" width="80px" />
+      </mj-column>
+      <mj-column width="55%">
+        <mj-text font-size="14px" font-weight="bold">Another Product</mj-text>
+        <mj-text font-size="12px" color="#666666">Size: L | Color: Navy</mj-text>
+        <mj-text font-size="12px" color="#666666">Qty: 2</mj-text>
+      </mj-column>
+      <mj-column width="25%">
+        <mj-text font-size="14px" font-weight="bold" align="right">$130.00</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f9f9f9" padding="20px 30px 10px">
+      <mj-column>
+        <mj-divider border-color="#e0e0e0" border-width="1px" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f9f9f9" padding="0 30px">
+      <mj-column width="70%">
+        <mj-text font-size="14px">Subtotal</mj-text>
+      </mj-column>
+      <mj-column width="30%">
+        <mj-text font-size="14px" align="right">$219.00</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f9f9f9" padding="5px 30px">
+      <mj-column width="70%">
+        <mj-text font-size="14px">Shipping</mj-text>
+      </mj-column>
+      <mj-column width="30%">
+        <mj-text font-size="14px" align="right">$9.99</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f9f9f9" padding="5px 30px">
+      <mj-column width="70%">
+        <mj-text font-size="14px">Tax</mj-text>
+      </mj-column>
+      <mj-column width="30%">
+        <mj-text font-size="14px" align="right">$18.32</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f9f9f9" padding="15px 30px 25px">
+      <mj-column width="70%">
+        <mj-text font-size="16px" font-weight="bold">Total</mj-text>
+      </mj-column>
+      <mj-column width="30%">
+        <mj-text font-size="16px" font-weight="bold" align="right">$247.31</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="30px">
+      <mj-column width="50%">
+        <mj-text font-size="14px" font-weight="bold">Shipping Address</mj-text>
+        <mj-text font-size="13px" color="#666666" padding-top="10px">
+          {{customer_name}}<br/>
+          123 Main Street<br/>
+          Apt 4B<br/>
+          City, ST 12345
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text font-size="14px" font-weight="bold">Estimated Delivery</mj-text>
+        <mj-text font-size="13px" color="#666666" padding-top="10px">
+          Standard Shipping<br/>
+          December 5-8, 2024
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="0 30px 30px">
+      <mj-column>
+        <mj-button href="#" padding-top="10px">Track Your Order</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f4f4f4" padding="30px">
+      <mj-column>
+        <mj-text font-size="14px" align="center">Questions? <a href="#" style="color: {brandPrimary};">Contact Support</a></mj-text>
+        <mj-text font-size="11px" color="#888888" align="center" padding-top="20px">
+          © 2024 Company Name<br/>
+          <a href="#" style="color: #888888;">Unsubscribe</a> | <a href="#" style="color: #888888;">Privacy Policy</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
