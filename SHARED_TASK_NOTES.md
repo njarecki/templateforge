@@ -1,11 +1,11 @@
 # TemplateForge Sourcing Task Notes
 
-## Current Status (Updated)
-- **Indexed**: ~1,287 items
-- **Unique hashes**: ~1,100 (after dedupe)
+## Current Status (Updated 2025-11-30)
+- **Indexed**: ~1,376 items
+- **Unique hashes**: ~1,182 (after dedupe)
 - **Target**: 10,000 unique templates
-- **Gap**: ~8,900 more templates needed
-- **Sources tapped**: ~140+ directories in data/raw/
+- **Gap**: ~8,800 more templates needed
+- **Sources tapped**: ~155+ directories in data/raw/
 
 ## Run Commands
 ```bash
@@ -55,8 +55,18 @@ https://api.github.com/search/repositories?q=email-templates+fork:false&sort=sta
 - ActiveCampaign/postmark-templates (33 HTML)
 - mailchimp/email-blueprints (44 HTML - now complete)
 - Maizzle/starter-litmus (10 HTML - CEEJ + Slate themes)
+- Maizzle/starter-postmark (27 HTML - basic/basic-full/plain variants)
+- Maizzle/starter-emailoctopus (11 HTML)
+- Maizzle/starter-amp4email (2 HTML)
+- Maizzle/starter-netlify-identity (4 HTML)
+- Maizzle/starter-mailbakery (3 HTML)
 - fintech_templates/fintech_clone (~200 HTML)
 - stuartsantos_clone (~67 HTML)
+- phuxen/HTML-Newsletter-templates (8 HTML)
+- mysigmail/html-email-templates (6 HTML)
+- tamimbytescode/html-email-templates (10 HTML)
+- LePatron.email (5 HTML)
+- premail (2 HTML)
 
 ## Strategy for Reaching 10k
 
@@ -115,7 +125,16 @@ The 10,000 target is ambitious. Open-source/free HTML email templates are relati
 - Require accounts to export
 - Generated dynamically (not static files)
 
+**Evidence from this iteration**: After exhaustive GitHub searching, most repos with 5+ stars have been tapped. The remaining repos have:
+- 0-3 stars and often 1-2 templates each
+- TSX/JSX files that need compilation (react-email, jsx-email)
+- Component libraries, not full templates
+
 Consider:
 - Adjusting target based on available quality sources
 - Focusing on quality over quantity
 - Documenting the practical ceiling for open-source templates
+- **Web scraping galleries** - May be the only way to get more bulk templates
+
+## GitHub API Rate Limiting
+Note: GitHub API has rate limits (60 requests/hour unauthenticated). If hitting limits, use git clone directly or wait an hour.
