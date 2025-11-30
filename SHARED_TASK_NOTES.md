@@ -1,11 +1,11 @@
 # TemplateForge Sourcing Task Notes
 
 ## Current Status (Updated 2025-11-30)
-- **Indexed**: ~1,376 items
-- **Unique hashes**: ~1,182 (after dedupe)
+- **Indexed**: 1,405 items
+- **Unique hashes**: 1,186 (after dedupe)
 - **Target**: 10,000 unique templates
 - **Gap**: ~8,800 more templates needed
-- **Sources tapped**: ~155+ directories in data/raw/
+- **Sources tapped**: ~158 directories in data/raw/
 
 ## Run Commands
 ```bash
@@ -25,6 +25,11 @@ python3 scripts/sourcing_indexer.py add \
   --file data/raw/<source_id>/<filename>
 ```
 
+## Recently Added (This Iteration)
+- **mail_plates** (20 HTML) - From Pro-Bandey/Mail-Plates
+- **email_starter_kit** (3 HTML) - From timothylong/email-starter-kit
+- **tigerruslan_saas** (6 HTML) - From TigerRuslan/Email-Templated-HTML-Responsive-
+
 ## Untapped/Underexplored Sources
 
 ### High Priority (Tier 1 - Should Have Bulk Content)
@@ -34,16 +39,20 @@ python3 scripts/sourcing_indexer.py add \
 4. **Really Good Emails** - Curated gallery, may have HTML exports somewhere.
 
 ### GitHub Repos to Check
-These may have more templates not yet fetched:
-- `mailchimp/email-blueprints` - We have 37, repo has ~44
-- `sendwithus/templates` - We have 117, appears complete
-- Search for forks of popular template repos that might have additions
+Most major repos have been tapped. Remaining opportunities:
+- Forks of popular repos (leemunroe, ckissi) may have additions
+- Component libraries that can be assembled into full templates
 
 ### Search Queries That Work
 ```bash
 # GitHub API
 https://api.github.com/search/repositories?q=email+template+mjml&sort=stars
 https://api.github.com/search/repositories?q=email-templates+fork:false&sort=stars
+
+# GitHub Topics (browsable)
+https://github.com/topics/email-templates
+https://github.com/topics/html-email-templates
+https://github.com/topics/mjml-template
 ```
 
 ### Template Repos Already Fully Tapped
@@ -53,29 +62,13 @@ https://api.github.com/search/repositories?q=email-templates+fork:false&sort=sta
 - ColorlibHQ/email-templates (20 HTML)
 - hunzaboy/CodedMailsFree (64 HTML)
 - ActiveCampaign/postmark-templates (33 HTML)
-- mailchimp/email-blueprints (44 HTML - now complete)
-- Maizzle/starter-litmus (10 HTML - CEEJ + Slate themes)
-- Maizzle/starter-postmark (27 HTML - basic/basic-full/plain variants)
-- Maizzle/starter-emailoctopus (11 HTML)
-- Maizzle/starter-amp4email (2 HTML)
-- Maizzle/starter-netlify-identity (4 HTML)
-- Maizzle/starter-mailbakery (3 HTML)
+- mailchimp/email-blueprints (44 HTML)
+- All Maizzle starters (litmus, postmark, emailoctopus, amp4email, netlify, mailbakery)
 - fintech_templates/fintech_clone (~200 HTML)
 - stuartsantos_clone (~67 HTML)
-- phuxen/HTML-Newsletter-templates (8 HTML)
-- mysigmail/html-email-templates (6 HTML)
-- tamimbytescode/html-email-templates (10 HTML)
-- LePatron.email (5 HTML)
-- premail (2 HTML)
-
-## Strategy for Reaching 10k
-
-Given the gap (~8,900), options include:
-
-1. **More GitHub Mining** - Search for lesser-known repos with templates
-2. **Web Scraping** - Carefully scrape gallery sites (respect robots.txt)
-3. **Convert Framework Examples** - React-email, vue-email have TSX that compile to HTML
-4. **Quality Over Quantity Adjustment** - If 10k is unrealistic, document actual available volume
+- Pro-Bandey/Mail-Plates (20 HTML)
+- TigerRuslan/Email-Templated-HTML-Responsive- (6 HTML)
+- timothylong/email-starter-kit (3 HTML)
 
 ## Quality Gates (from runbook)
 - Size: >10KB and <350KB
@@ -93,48 +86,51 @@ data/index/dedupe.json - duplicate clusters
 
 ## Next Steps (Priority Order)
 
-1. **Compile React-email templates** - Install react-email, compile TSX to HTML (22+ templates)
+1. **Compile React-email templates** - Install react-email, compile TSX to HTML
    ```bash
-   # In resend/react-email repo
-   npm install && npm run build
+   git clone https://github.com/resend/react-email.git /tmp/react-email
+   cd /tmp/react-email && npm install && npm run build
    # Then harvest compiled HTML from output
    ```
 
-2. **Search GitHub forks** - Many popular repos have forks with additional templates
-   ```bash
-   # API to find forks
-   https://api.github.com/repos/leemunroe/responsive-html-email-template/forks
-   ```
-
-3. **Web scrape template galleries** (with rate limiting, robots.txt respect):
+2. **Web scrape template galleries** (with rate limiting, robots.txt respect):
    - unlayer.com/templates (free section)
    - templateflip.com/email-templates
    - htmlemaildesigns.com
 
-4. **Check NPM packages** - Some email libraries include template examples
-   - @react-email/components
-   - email-templates (npm package has examples)
+3. **Search GitHub forks** - Popular repos have forks with potential additions
+   ```bash
+   # API to find forks
+   https://api.github.com/repos/leemunroe/responsive-html-email-template/forks
+   https://api.github.com/repos/ckissi/responsive-html-email-templates/forks
+   ```
 
-5. **Track category balance** (from runbook):
-   - Target 15-20% each: Welcome, Promo, Ecommerce, Newsletter, Transactional
-   - Run analysis on current templates to identify gaps
+4. **Check for email templates in unexpected places**:
+   - CMS plugins (WordPress email templates)
+   - E-commerce platforms (WooCommerce, Magento notification templates)
+   - CRM/Marketing tools (HubSpot, Salesforce community templates)
 
 ## Reality Check
-The 10,000 target is ambitious. Open-source/free HTML email templates are relatively scarce compared to website templates. Most quality templates are:
-- Behind paywalls (Litmus, Stripo premium, Beefree premium)
-- Require accounts to export
-- Generated dynamically (not static files)
 
-**Evidence from this iteration**: After exhaustive GitHub searching, most repos with 5+ stars have been tapped. The remaining repos have:
-- 0-3 stars and often 1-2 templates each
-- TSX/JSX files that need compilation (react-email, jsx-email)
-- Component libraries, not full templates
+The 10,000 target is challenging. After extensive GitHub searching across multiple iterations:
 
-Consider:
-- Adjusting target based on available quality sources
-- Focusing on quality over quantity
-- Documenting the practical ceiling for open-source templates
-- **Web scraping galleries** - May be the only way to get more bulk templates
+**What we've found:**
+- ~160 source directories indexed
+- ~1,200 unique templates after deduplication
+- Most high-quality open-source repos have been tapped
+
+**Why the gap exists:**
+- Quality email templates are scarce compared to website templates
+- Most bulk collections (Stripo 1,600+, Beefree) are behind paywalls/accounts
+- Many repos have components/snippets, not complete templates
+- React-email/jsx-email templates need compilation
+- Liquid/Handlebars templates need compilation
+
+**Realistic options to reach 10k:**
+1. Web scraping (requires careful implementation, robots.txt compliance)
+2. Lowering quality thresholds (not recommended per runbook)
+3. Including compiled framework output (React-email, Maizzle builds)
+4. Adjusting target to reflect available open-source supply
 
 ## GitHub API Rate Limiting
 Note: GitHub API has rate limits (60 requests/hour unauthenticated). If hitting limits, use git clone directly or wait an hour.
