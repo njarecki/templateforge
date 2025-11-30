@@ -1,0 +1,58 @@
+<mjml>
+  <mj-head>
+    <mj-title>Vendor Added</mj-title>
+    <mj-font name="Lato" href="https://fonts.googleapis.com/css?family=Lato"></mj-font>
+    <mj-style inline="inline">*{ font-family: Lato; }
+        .link-no-style:link{
+          color: #0180C6;
+
+        }
+            .link-no-style:hover{
+          color: #0180C6;
+          
+        }
+         
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#FFF">
+    <mj-section>
+     
+      <mj-column width="600px">
+        <mj-image src="images/default_vendor_icon.png" alt="" width="60px" height="50px" align="center"></mj-image>
+      </mj-column>
+   
+    </mj-section>
+    <mj-section>
+      <mj-column width="600px">
+        <mj-text font-size="18px" line-height="21px" align="left">Hello Oluwadamilola,</mj-text>
+        <mj-text font-size="18px" line-height="21px" align="left">You have been added by <b>Jeremiah Righteous</b> as a vendor on Hotels.ng SpendTrim account.</mj-text>
+        <mj-text font-size="18px" line-height="21px" align="left">Please click on the "Create account" below to sign up for a Spendtrim account with this company.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="600px">
+        <mj-button href="#" background-color="#0187D0" font-style="bold" line-height="21px" font-size="18px">Create account</mj-button>
+        <mj-text align="center" color="#707070" line-height="24px">Or vist this link</mj-text>
+        <mj-text align="center" color="#0180C6" font-size="20px" line-height="23px">
+          <a href="#" class="link-no-style"> https://expensetrim.ng/activate/test-invite-link </a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="600px">
+        <mj-text font-size="18px" line-height="21px" align="left">Thanks,</mj-text>
+        <mj-text font-size="18px" line-height="21px" align="left">SpendTrim Support Team</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#F5F8FA">
+      <mj-column width="600px">
+        <mj-text align="center" font-style="#333333" font-size="16px" line-height="19px">Copyright © 2018 - SpendTrim</mj-text>
+        <mj-social font-size="15px" icon-size="16px" mode="horizontal">
+          <mj-social-element name="facebook"></mj-social-element>
+          <mj-social-element name="twitter"></mj-social-element>
+          <mj-social-element name="google"></mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

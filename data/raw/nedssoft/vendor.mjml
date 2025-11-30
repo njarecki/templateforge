@@ -1,0 +1,118 @@
+<mjml>
+    <mj-head>
+        <mj-title>Vendor Added</mj-title>
+        <mj-font name="Lato" href="https://fonts.googleapis.com/css?family=Lato" />
+        <mj-style inline="inline">
+            *{
+                font-family: Lato;
+            }
+            
+        </mj-style>
+    </mj-head>
+    <mj-body>
+        <mj-container background-color="#FFF">
+            <mj-section>
+                <mj-column width="">
+                    
+                </mj-column>
+                <mj-column width="">
+                    <mj-image src="images/default_vendor_icon.png" alt="" />
+                </mj-column>
+                <mj-column width="">
+                    
+                </mj-column>
+            </mj-section>
+            <mj-section>
+                <mj-column width="">
+                    <mj-text
+                        font-size="18px"
+                        line-height="21px"
+                        align="justified"
+                    >
+                        Hello Oluwadamilola,
+                    </mj-text>
+                    <mj-text 
+                        font-size="18px"
+                        line-height="21px"
+                        align="justified"
+                    >
+                       You have been added by  <b>Jeremiah Righteous</b> as a vendor on Hotels.ng SpendTrim account. 
+                    </mj-text>
+                     <mj-text 
+                        font-size="18px"
+                        line-height="21px"
+                        align="justified"
+                    >
+                       Please click on the "Create account" below to sign up for a Spendtrim account with this company. 
+                    </mj-text>
+                </mj-column>   
+            </mj-section>
+            <mj-section>
+                <mj-column width="">
+                    <mj-button href="#"
+                    background-color="#0187D0"
+                    font-style="bold"
+                    line-height="21px"
+                    font-size="18px"
+                    >
+                        Create account
+                    </mj-button>
+                    <mj-text align="center"
+                    color="#707070"
+                    line-height="24px"
+        
+                    >
+                        Or vist this link
+                    </mj-text>
+                    <mj-text align="center" 
+                    color="#0180C6"
+                    font-size="20px"
+                    line-height="23px"
+                    >
+                        <mj-link href="#" >
+                        https://expensetrim.ng/activate/test-invite-link
+                        </mj-link>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section>
+                <mj-column width="">
+                    <mj-text font-size="18px"
+                    line-height="21px"
+                    align="left">
+                        Thanks,
+                    </mj-text>
+                     <mj-text font-size="18px"
+                    line-height="21px"
+                    align="left">
+                        SpendTrim Support Team
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section background-color="#F5F8FA">
+                <mj-column width="600px"
+   
+                >
+                   <mj-text align="center"
+                   font-style="#333333"
+                   font-size="16px"
+                   line-height="19px">
+                       Copyright © 2018 - SpendTrim
+                   </mj-text> 
+                  
+                   <mj-social font-size="15px" icon-size="16px" mode="horizontal">
+                        <mj-social-element name="facebook" href="#" background-color="#4d4d4d">
+                            Facebook
+                        </mj-social-element>
+                        <mj-social-element name="linkedin" href="#" background-color="#4d4d4d" src="">
+                            Linkedin
+                        </mj-social-element>
+                        <mj-social-element  name="instagram" href="#" background-color="#4d4d4d">
+                            Instagram
+                        </mj-social-element>
+                    </mj-social>
+                </mj-column>
+            </mj-section>
+        </mj-container>
+    </mj-body>
+</mjml>

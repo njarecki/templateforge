@@ -9807,6 +9807,774 @@
         "has_media_queries": false,
         "table_count": 0
       }
+    },
+    {
+      "id": "0e762be5184a09acc34e193162090062",
+      "source_id": "nedssoft",
+      "source_name": "nedssoft/mjml-email-templates",
+      "url": "https://github.com/nedssoft/mjml-email-templates",
+      "license": "Unknown",
+      "type": "mjml",
+      "file_path": "data/raw/nedssoft/invitation.mjml",
+      "byte_size": 2470,
+      "content_hash": "be9d23567dfe299756f420a4a48bb417a2affea5a0ed1487db57758bee786584",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "dc0236af87ee858e348357f233841792",
+      "source_id": "nedssoft",
+      "source_name": "nedssoft/mjml-email-templates",
+      "url": "https://github.com/nedssoft/mjml-email-templates",
+      "license": "Unknown",
+      "type": "mjml",
+      "file_path": "data/raw/nedssoft/invitation-to-bid-quote.mjml",
+      "byte_size": 2518,
+      "content_hash": "d9468f221d6b98098892e3b7d8691d97146d99445ea4d9ec02d729505eaaac39",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "a86cb09c93976a28a01e8b2c5f14fffc",
+      "source_id": "nedssoft",
+      "source_name": "nedssoft/mjml-email-templates",
+      "url": "https://github.com/nedssoft/mjml-email-templates",
+      "license": "Unknown",
+      "type": "mjml",
+      "file_path": "data/raw/nedssoft/invite-vendor.mjml",
+      "byte_size": 2497,
+      "content_hash": "dcc04c88d4ddddc6ccbc0a3b26d1cc79a216eb0d4591d06c7a7570d41b766843",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "b737e70b6ddbe1cd569e3b1ff0a425dc",
+      "source_id": "nedssoft",
+      "source_name": "nedssoft/mjml-email-templates",
+      "url": "https://github.com/nedssoft/mjml-email-templates",
+      "license": "Unknown",
+      "type": "mjml",
+      "file_path": "data/raw/nedssoft/join-company-request.mjml",
+      "byte_size": 2802,
+      "content_hash": "627082d2f7dfc1c395871e7fff94cb47d54b960ff6be5ad7a4073a91c2dffdef",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "69c1591ec0187a037903eef6cf0a5b2f",
+      "source_id": "nedssoft",
+      "source_name": "nedssoft/mjml-email-templates",
+      "url": "https://github.com/nedssoft/mjml-email-templates",
+      "license": "Unknown",
+      "type": "mjml",
+      "file_path": "data/raw/nedssoft/join-request-approved.mjml",
+      "byte_size": 2818,
+      "content_hash": "dede9bf18de3278eb71e8ee6f96a154a5901fb108cf102b4a44a007941e8c227",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "a622f2bdde1655142d0f7e238ec0187a",
+      "source_id": "nedssoft",
+      "source_name": "nedssoft/mjml-email-templates",
+      "url": "https://github.com/nedssoft/mjml-email-templates",
+      "license": "Unknown",
+      "type": "mjml",
+      "file_path": "data/raw/nedssoft/payment-details.mjml",
+      "byte_size": 25126,
+      "content_hash": "e36b9676a5eac196955b1da2fef7e159d5962a5ba4b0d6936436b3485bf1cf7d",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "9ff6620b36cfa93888245b819c2eec19",
+      "source_id": "nedssoft",
+      "source_name": "nedssoft/mjml-email-templates",
+      "url": "https://github.com/nedssoft/mjml-email-templates",
+      "license": "Unknown",
+      "type": "mjml",
+      "file_path": "data/raw/nedssoft/vendor.mjml",
+      "byte_size": 4385,
+      "content_hash": "595e31babc59f6d1e8d2d6055062899a5614986615d0a5622f095cd5107b84c1",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "631f41cec92b3372c09ad149021410fa",
+      "source_id": "modunisa",
+      "source_name": "MODatUniSA/mod-email-templates",
+      "url": "https://github.com/MODatUniSA/mod-email-templates",
+      "license": "Unknown",
+      "type": "mjml",
+      "file_path": "data/raw/modunisa/mod-newsletter.mjml",
+      "byte_size": 7023,
+      "content_hash": "385d74b047f447d39e6a360ab253ad3d521aab2c2c5b9df00287837cfc2c6bb3",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "5a082237fdf2c8b1971273678fc7a3ba",
+      "source_id": "modunisa",
+      "source_name": "MODatUniSA/mod-email-templates",
+      "url": "https://github.com/MODatUniSA/mod-email-templates",
+      "license": "Unknown",
+      "type": "mjml",
+      "file_path": "data/raw/modunisa/mod-edm.mjml",
+      "byte_size": 4713,
+      "content_hash": "14aa7f9cb3bfcf48eef7ee951c28e6ad575da082d6c6fd41e08cde89646401f1",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "af15b9dd0f45a74b5b64ac0632ced1d4",
+      "source_id": "modunisa",
+      "source_name": "MODatUniSA/mod-email-templates",
+      "url": "https://github.com/MODatUniSA/mod-email-templates",
+      "license": "Unknown",
+      "type": "mjml",
+      "file_path": "data/raw/modunisa/mod-edm-launch.mjml",
+      "byte_size": 4930,
+      "content_hash": "af412253bdccf9402a470fd31590dc29702e070ea7230663fbdba01ffa3fe421",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "3a4ed08f97d50d73f9b766a29a9cb25f",
+      "source_id": "modunisa",
+      "source_name": "MODatUniSA/mod-email-templates",
+      "url": "https://github.com/MODatUniSA/mod-email-templates",
+      "license": "Unknown",
+      "type": "html",
+      "file_path": "data/raw/modunisa/mod-newsletter.html",
+      "byte_size": 38505,
+      "content_hash": "341a33d15d2e4b60211c0fd7d88ba0056c0fa9281f0fe7cbbf885db9c6fa753d",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 64
+      }
+    },
+    {
+      "id": "58d9fd66969c6df605010bdaa018f893",
+      "source_id": "modunisa",
+      "source_name": "MODatUniSA/mod-email-templates",
+      "url": "https://github.com/MODatUniSA/mod-email-templates",
+      "license": "Unknown",
+      "type": "html",
+      "file_path": "data/raw/modunisa/mod-edm.html",
+      "byte_size": 23923,
+      "content_hash": "fc4953160b4e2f7d3640e61011012a9caf4d83e56cd4dc749e299d9c0bb4cec7",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 37
+      }
+    },
+    {
+      "id": "eab1dc05fd52c49b1b972ba68359e4f1",
+      "source_id": "modunisa",
+      "source_name": "MODatUniSA/mod-email-templates",
+      "url": "https://github.com/MODatUniSA/mod-email-templates",
+      "license": "Unknown",
+      "type": "html",
+      "file_path": "data/raw/modunisa/mod-edm-launch.html",
+      "byte_size": 24379,
+      "content_hash": "5190da1a8efbc3b6640622c36a3e89bed1adedb0c5b939562ebcaaf59794fbf7",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 37
+      }
+    },
+    {
+      "id": "d43d7e14e545668a9eacf4a342575e38",
+      "source_id": "speckle",
+      "source_name": "specklesystems/speckle-email-templates",
+      "url": "https://github.com/specklesystems/speckle-email-templates",
+      "license": "Apache-2.0",
+      "type": "mjml",
+      "file_path": "data/raw/speckle/main_server_template.mjml",
+      "byte_size": 3428,
+      "content_hash": "f28bac3860e7f28fc4aa11865caaa4d27de4b092d7eadadec6d1883b6d28df96",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "88c1599915409a0349d01720c2436fb1",
+      "source_id": "accessible_emails",
+      "source_name": "rodriguezcommaj/accessible-emails",
+      "url": "https://github.com/rodriguezcommaj/accessible-emails",
+      "license": "Unknown",
+      "type": "html",
+      "file_path": "data/raw/accessible_emails/account-update-template.html",
+      "byte_size": 9982,
+      "content_hash": "3b0dc6fe96c35898d225714516e17eac63e0e2acb76f266d10eb60c402ec9862",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "4f6c72a0f0bfa5b085940611a78cc700",
+      "source_id": "accessible_emails",
+      "source_name": "rodriguezcommaj/accessible-emails",
+      "url": "https://github.com/rodriguezcommaj/accessible-emails",
+      "license": "Unknown",
+      "type": "html",
+      "file_path": "data/raw/accessible_emails/newsletter-template.html",
+      "byte_size": 12920,
+      "content_hash": "fb8f86a404a5081229e074749f07d767984c6dbf44084500e00184d4aa6327fd",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "e6a15ef99744b53486942663d3f990b9",
+      "source_id": "accessible_emails",
+      "source_name": "rodriguezcommaj/accessible-emails",
+      "url": "https://github.com/rodriguezcommaj/accessible-emails",
+      "license": "Unknown",
+      "type": "html",
+      "file_path": "data/raw/accessible_emails/personal-note-template.html",
+      "byte_size": 10375,
+      "content_hash": "880fbf3a497d334d7bf1656dc9e1ad2934722f33671a975fbe2f68987445d1c9",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "2bce9cf60e40e84e113e76715b745db0",
+      "source_id": "accessible_emails",
+      "source_name": "rodriguezcommaj/accessible-emails",
+      "url": "https://github.com/rodriguezcommaj/accessible-emails",
+      "license": "Unknown",
+      "type": "html",
+      "file_path": "data/raw/accessible_emails/product-feature-template.html",
+      "byte_size": 11330,
+      "content_hash": "3a165c56f53c8be3bdd2913276cc51f2be683308a9af971d7fc77d026ff147a1",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": true,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "deeaf4efa90c6dbb4f337f926ab0d0a0",
+      "source_id": "shopify_cam",
+      "source_name": "Cam/Shopify-HTML-Email-Templates",
+      "url": "https://github.com/Cam/Shopify-HTML-Email-Templates",
+      "license": "Unknown",
+      "type": "html",
+      "file_path": "data/raw/shopify_cam/Abandoned_Checkout_Notification.html",
+      "byte_size": 8488,
+      "content_hash": "591c94d3f5605b6b1ede292cd7fa6844cbd35cbe425de363ed31d9c9df9de7e0",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": true,
+        "table_count": 6
+      }
+    },
+    {
+      "id": "eea26e0ee75949c62232f665150d4c1b",
+      "source_id": "shopify_cam",
+      "source_name": "Cam/Shopify-HTML-Email-Templates",
+      "url": "https://github.com/Cam/Shopify-HTML-Email-Templates",
+      "license": "Unknown",
+      "type": "html",
+      "file_path": "data/raw/shopify_cam/Customer_Account_Activation.html",
+      "byte_size": 8356,
+      "content_hash": "dfdcc78efa8236916c3148feef2ba2c38d1d3c0514a320f360fdf45d3216101b",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": true,
+        "table_count": 6
+      }
+    },
+    {
+      "id": "c978d32db2b53f83908266b8d614ce0d",
+      "source_id": "shopify_cam",
+      "source_name": "Cam/Shopify-HTML-Email-Templates",
+      "url": "https://github.com/Cam/Shopify-HTML-Email-Templates",
+      "license": "Unknown",
+      "type": "html",
+      "file_path": "data/raw/shopify_cam/Customer_Account_Welcome.html",
+      "byte_size": 8356,
+      "content_hash": "260bd7ffcea6baf6808dd1785cbb69d135e81deb123a2533eddaab64e1e33e8f",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": true,
+        "table_count": 6
+      }
+    },
+    {
+      "id": "05de13a5bbae4f1a974ce258bd9294d2",
+      "source_id": "shopify_cam",
+      "source_name": "Cam/Shopify-HTML-Email-Templates",
+      "url": "https://github.com/Cam/Shopify-HTML-Email-Templates",
+      "license": "Unknown",
+      "type": "html",
+      "file_path": "data/raw/shopify_cam/Gift_Card_Notification.html",
+      "byte_size": 8639,
+      "content_hash": "954371c8e927028c4f19a3610789e4529df250d363ba8c740c3609685ba4ffbe",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": true,
+        "table_count": 6
+      }
+    },
+    {
+      "id": "2e92b39c112d3834ee82c35562a6997f",
+      "source_id": "shopify_cam",
+      "source_name": "Cam/Shopify-HTML-Email-Templates",
+      "url": "https://github.com/Cam/Shopify-HTML-Email-Templates",
+      "license": "Unknown",
+      "type": "html",
+      "file_path": "data/raw/shopify_cam/Order_Cancelled.html",
+      "byte_size": 8528,
+      "content_hash": "adeaaf9cffc68dacea51fc81f966f8a72fc29a5b1c801a2e6d289f37f0df66d5",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": true,
+        "table_count": 6
+      }
+    },
+    {
+      "id": "f3bf2ca84b31f2630a7a9cc7af69d6b2",
+      "source_id": "shopify_cam",
+      "source_name": "Cam/Shopify-HTML-Email-Templates",
+      "url": "https://github.com/Cam/Shopify-HTML-Email-Templates",
+      "license": "Unknown",
+      "type": "html",
+      "file_path": "data/raw/shopify_cam/Order_Confirmation.html",
+      "byte_size": 11630,
+      "content_hash": "522894f9b2f427bf81133dffc693deefe180c0506ec7d9963165bbacf8994923",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": true,
+        "table_count": 12
+      }
+    },
+    {
+      "id": "528b9fba89ba1495d3a58353da91386e",
+      "source_id": "shopify_cam",
+      "source_name": "Cam/Shopify-HTML-Email-Templates",
+      "url": "https://github.com/Cam/Shopify-HTML-Email-Templates",
+      "license": "Unknown",
+      "type": "html",
+      "file_path": "data/raw/shopify_cam/Password_Reset.html",
+      "byte_size": 8658,
+      "content_hash": "9496562c65c902ac3c2bc817be39e8642be2e7d0e0333ea7ec4c591dd66f5ce1",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": true,
+        "table_count": 6
+      }
+    },
+    {
+      "id": "929777b6f93576f7c2c84a96bf33022c",
+      "source_id": "shopify_cam",
+      "source_name": "Cam/Shopify-HTML-Email-Templates",
+      "url": "https://github.com/Cam/Shopify-HTML-Email-Templates",
+      "license": "Unknown",
+      "type": "html",
+      "file_path": "data/raw/shopify_cam/Refund_Notification.html",
+      "byte_size": 8441,
+      "content_hash": "0338cef97958763633b953dae63374ebf9598c43ca44bed52bf54f606832ee54",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": true,
+        "table_count": 6
+      }
+    },
+    {
+      "id": "c47c9d97a5cb88eb2603384a9ada7eae",
+      "source_id": "shopify_cam",
+      "source_name": "Cam/Shopify-HTML-Email-Templates",
+      "url": "https://github.com/Cam/Shopify-HTML-Email-Templates",
+      "license": "Unknown",
+      "type": "html",
+      "file_path": "data/raw/shopify_cam/Shipping_Confirmation.html",
+      "byte_size": 10166,
+      "content_hash": "3b5c6e83d943a4f571c413a3a295b95a03e44d657f2640bc2e1951201c4dfa88",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": true,
+        "table_count": 6
+      }
+    },
+    {
+      "id": "f768b56a7bc24fc7f88bcb537d2c8180",
+      "source_id": "shopify_cam",
+      "source_name": "Cam/Shopify-HTML-Email-Templates",
+      "url": "https://github.com/Cam/Shopify-HTML-Email-Templates",
+      "license": "Unknown",
+      "type": "html",
+      "file_path": "data/raw/shopify_cam/Shipping_Update.html",
+      "byte_size": 8869,
+      "content_hash": "890b695c831612ab88397b92a48e2a95c53ca632cb37da63c4f06d21da704edf",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": true,
+        "table_count": 6
+      }
+    },
+    {
+      "id": "6aaac747693a71f43cd6aedcf3f86261",
+      "source_id": "amazon_receipt",
+      "source_name": "edwadewards/amazon-email-receipt",
+      "url": "https://github.com/edwadewards/amazon-email-receipt",
+      "license": "Unknown",
+      "type": "html",
+      "file_path": "data/raw/amazon_receipt/amazon-receipt.html",
+      "byte_size": 12401,
+      "content_hash": "0634032cd62936ae865c7e71495ceb7ef56103b540338b87b2665a35e8db4801",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 23
+      }
+    },
+    {
+      "id": "008064559b9cc99705dcbad67d693a7a",
+      "source_id": "chec_receipt",
+      "source_name": "chec/example-chec-receipt-mjml",
+      "url": "https://github.com/chec/example-chec-receipt-mjml",
+      "license": "Unknown",
+      "type": "mjml",
+      "file_path": "data/raw/chec_receipt/chec-receipt.mjml",
+      "byte_size": 10142,
+      "content_hash": "371320143413dc6ba3b04c4826c84b26b1a2439e1db0e018ffe81e6a14fd1e5e",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "5dabd8a677a882ba586978574397e8a0",
+      "source_id": "chec_receipt",
+      "source_name": "chec/example-chec-receipt-mjml",
+      "url": "https://github.com/chec/example-chec-receipt-mjml",
+      "license": "Unknown",
+      "type": "html",
+      "file_path": "data/raw/chec_receipt/chec-receipt.html",
+      "byte_size": 61967,
+      "content_hash": "a8bdf6bf00960fc78175036f7a43ecdf0fb020538b8e274bd62c482dd0a85603",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 89
+      }
+    },
+    {
+      "id": "06da235d15682f041bfe05f2c0c54bb4",
+      "source_id": "cougarcs",
+      "source_name": "CougarCS/Email-Template",
+      "url": "https://github.com/CougarCS/Email-Template",
+      "license": "Unknown",
+      "type": "mjml",
+      "file_path": "data/raw/cougarcs/newsletter.mjml",
+      "byte_size": 11690,
+      "content_hash": "5a5d94a18d591bc7f8e37d8b30b37ab60a1a113bc0a8d5af1bc6e1c2a6eba078",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "2c483474a665a16febca6314a398f699",
+      "source_id": "workwell",
+      "source_name": "mauricechevez/workwell-newsletter",
+      "url": "https://github.com/mauricechevez/workwell-newsletter",
+      "license": "Unknown",
+      "type": "mjml",
+      "file_path": "data/raw/workwell/index.mjml",
+      "byte_size": 8952,
+      "content_hash": "e3ed3ba0f48e9bc5fe933f94f631b3ee81a0b532e697dcb70fc08d0930a57bc4",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "2a6c35e36d0037485e89b97dee3f8ea8",
+      "source_id": "workwell",
+      "source_name": "mauricechevez/workwell-newsletter",
+      "url": "https://github.com/mauricechevez/workwell-newsletter",
+      "license": "Unknown",
+      "type": "mjml",
+      "file_path": "data/raw/workwell/footer.mjml",
+      "byte_size": 906,
+      "content_hash": "a49b9204868601e2bcbb225f1eb3b7a48cb50468e9f2f8e767851adbb7ff51a9",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "5671fd8922aae1c97323e5322e0b70b8",
+      "source_id": "workwell",
+      "source_name": "mauricechevez/workwell-newsletter",
+      "url": "https://github.com/mauricechevez/workwell-newsletter",
+      "license": "Unknown",
+      "type": "html",
+      "file_path": "data/raw/workwell/index.html",
+      "byte_size": 26392,
+      "content_hash": "535240a483d3d548b2d77266ef3d6e6a62e6c08ced677a185df6aa6e9feb150a",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 54
+      }
+    },
+    {
+      "id": "dfab66cd694515d0e4424085aeaa6f2d",
+      "source_id": "redwiat",
+      "source_name": "Redwiat/otp-verification-email-template",
+      "url": "https://github.com/Redwiat/otp-verification-email-template",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/redwiat/otp-verification.html",
+      "byte_size": 3375,
+      "content_hash": "1fd0e8335726beeebd15b9cdbaf78f0c0eb5f3b0510a98ec9aaa19b01d314c19",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "3cfdff5802283651bcfe52ace81b686d",
+      "source_id": "yomi413",
+      "source_name": "yomi413/html-email-newsletter",
+      "url": "https://github.com/yomi413/html-email-newsletter",
+      "license": "Unknown",
+      "type": "html",
+      "file_path": "data/raw/yomi413/newsletter.html",
+      "byte_size": 35313,
+      "content_hash": "cdfb5547712e604185d2e00c32dd64c40187096e8dfef8a0c131246aff950f29",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 24
+      }
+    },
+    {
+      "id": "565f65f40194fe524f2f583cbc6d77c1",
+      "source_id": "derekpunsalan",
+      "source_name": "derekpunsalan/responsive-email",
+      "url": "https://github.com/derekpunsalan/responsive-email",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/derekpunsalan/simple.html",
+      "byte_size": 2679,
+      "content_hash": "e9279ae2cf7ba5c3b6a4a07d0d7c443d08b7e53bffdd7aa575a9a7eb8b034ce5",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": false,
+        "table_count": 4
+      }
+    },
+    {
+      "id": "b5d4b68e426d2a73fb41c9b9a65a5ce8",
+      "source_id": "mailjet_transactional",
+      "source_name": "mailjet/MJML_translation_for_transactional",
+      "url": "https://github.com/mailjet/MJML_translation_for_transactional",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "data/raw/mailjet_transactional/_footer_1.mjml",
+      "byte_size": 1140,
+      "content_hash": "0db330a756f4ac11e03cd40607b83b5552565a1c950c8bcf9c98fccb4e5e30de",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "53379e882913e38e7243393050f21319",
+      "source_id": "mailjet_transactional",
+      "source_name": "mailjet/MJML_translation_for_transactional",
+      "url": "https://github.com/mailjet/MJML_translation_for_transactional",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "data/raw/mailjet_transactional/_footer_2.mjml",
+      "byte_size": 1281,
+      "content_hash": "428576c8ef7743efbf1991d58ece840a3bc40c246eabab1720300ff4900bf1b5",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "d768ec25cc64726f62c406fcc3cc56d9",
+      "source_id": "mailjet_transactional",
+      "source_name": "mailjet/MJML_translation_for_transactional",
+      "url": "https://github.com/mailjet/MJML_translation_for_transactional",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "data/raw/mailjet_transactional/_footer_3.mjml",
+      "byte_size": 361,
+      "content_hash": "c5006251a4c2b92d0a6d5037c4dcfc61d755bc062c47f11881fbe5f58e20f7d8",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "0f7ae769d29bfce157de170e77ecc00e",
+      "source_id": "mailjet_transactional",
+      "source_name": "mailjet/MJML_translation_for_transactional",
+      "url": "https://github.com/mailjet/MJML_translation_for_transactional",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "data/raw/mailjet_transactional/_header_1.mjml",
+      "byte_size": 481,
+      "content_hash": "cfa225251c6f90981e7c54f9ef51d2ec42286d96812e0c30e9722e2bced28fb1",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "78c9c702cc600edc35877a70f2ba49a4",
+      "source_id": "mailjet_transactional",
+      "source_name": "mailjet/MJML_translation_for_transactional",
+      "url": "https://github.com/mailjet/MJML_translation_for_transactional",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "data/raw/mailjet_transactional/_header_2.mjml",
+      "byte_size": 213,
+      "content_hash": "71ce12af38415190775c6c22f174900487c3ea5915a928290440a67243465f2f",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "6f9da3939eb2361c4c895b4c668d2198",
+      "source_id": "mailjet_transactional",
+      "source_name": "mailjet/MJML_translation_for_transactional",
+      "url": "https://github.com/mailjet/MJML_translation_for_transactional",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "data/raw/mailjet_transactional/_header_3.mjml",
+      "byte_size": 513,
+      "content_hash": "d9ecaf274c2fa7cba0f5862bd4f894aa0d21ca8476c40324936af3d5df6324b7",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "25c7a1f705ac8c240a48216c737ba3b0",
+      "source_id": "mailjet_transactional",
+      "source_name": "mailjet/MJML_translation_for_transactional",
+      "url": "https://github.com/mailjet/MJML_translation_for_transactional",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "data/raw/mailjet_transactional/_snippet_receipt.mjml",
+      "byte_size": 1154,
+      "content_hash": "b6b8d02e032320239e9426dc68d31d7b614c3c1c0c210e63798a4f8e136a3762",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "09af22661d74f606ef6aaee28e83c8db",
+      "source_id": "mailjet_transactional",
+      "source_name": "mailjet/MJML_translation_for_transactional",
+      "url": "https://github.com/mailjet/MJML_translation_for_transactional",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "data/raw/mailjet_transactional/brand1_reg_confirmation.mjml",
+      "byte_size": 245,
+      "content_hash": "394585317af27bca5c2ffc69671926b3a101986925b8f944f265abed468dce00",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "bdc9f2786f0bf4d649dbdfe28dbdf7e8",
+      "source_id": "mailjet_transactional",
+      "source_name": "mailjet/MJML_translation_for_transactional",
+      "url": "https://github.com/mailjet/MJML_translation_for_transactional",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "data/raw/mailjet_transactional/brand2_reg_confirmation.mjml",
+      "byte_size": 245,
+      "content_hash": "6c1e2f460326de06fc0ec04417752f11e37dd9556a216b52790453f01f86b62d",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "3ddb13ba6e3ac57518112282fa74972c",
+      "source_id": "mailjet_transactional",
+      "source_name": "mailjet/MJML_translation_for_transactional",
+      "url": "https://github.com/mailjet/MJML_translation_for_transactional",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "data/raw/mailjet_transactional/brand3_reg_confirmation.mjml",
+      "byte_size": 245,
+      "content_hash": "cdf4452162d4166a5bd485e542e4f94d125ed60a05357bc0129b4e23995a097e",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 0
+      }
     }
   ]
 }

@@ -1,0 +1,18 @@
+<mj-section background-color="#ffffff">
+    <mj-column>
+        <mj-social padding-top="0">
+            <mj-social-element src="./img/facebook.png" icon-size="30px" href="https://www.facebook.com">
+            </mj-social-element>
+            <mj-social-element src="./img/instagram.png" icon-size="30px" href="https://www.instagram.com">
+            </mj-social-element>
+            <mj-social-element src="./img/linkedin.png" icon-size="30px" href="https://www.linkedin.com">
+            </mj-social-element>
+        </mj-social>
+        <mj-text align="center" font-family="Arial, sans-serif" font-size="12px" line-height="1.4">
+            <p class="footer-text"><a href="https://www.weworkwell.io/" target="_blank">Unsubscribe</a> | Sent by WorkWell
+            <br>
+            1267 Willis Street, Suite 200 • Redding, CA • 96001
+            </p>
+        </mj-text>
+    </mj-column>
+</mj-section>
