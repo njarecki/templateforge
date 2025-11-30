@@ -17,7 +17,7 @@ from template_generator import (
     list_template_types,
     TEMPLATE_TYPES,
 )
-from design_system import DESIGN_SKINS
+from design_system import DESIGN_SKINS, IMAGE_PLACEHOLDERS
 from section_library import list_section_types
 from template_validator import fix_template_issues
 from mjml_converter import convert_template_to_mjml
@@ -26,7 +26,22 @@ from mjml_converter import convert_template_to_mjml
 DEFAULT_PORT = 8080
 
 
-def get_template_preview(template_type, skin="apple_light", output_format="html"):
+TRANSPARENT_PNG_DATA_URI = (
+    "data:image/png;base64,"
+    "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGMAAQAABQAB" 
+    "J9i8WQAAAABJRU5ErkJggg=="
+)
+
+
+def inline_placeholder_images(html: str) -> str:
+    """Replace remote placeholder image URLs with inline transparent PNGs for preview."""
+    result = html
+    for url in IMAGE_PLACEHOLDERS.values():
+        result = result.replace(url, TRANSPARENT_PNG_DATA_URI)
+    return result
+
+
+def get_template_preview(template_type, skin="apple_light", output_format="html", inline=False):
     """Generate a template and return HTML or MJML."""
     template = generate_template(template_type, skin)
     template = fix_template_issues(template)
@@ -35,7 +50,10 @@ def get_template_preview(template_type, skin="apple_light", output_format="html"
         template["mjml"] = convert_template_to_mjml(template)
         return template["mjml"], "text/plain"
 
-    return template["html"], "text/html"
+    html = template["html"]
+    if inline:
+        html = inline_placeholder_images(html)
+    return html, "text/html"
 
 
 def get_index_page():
@@ -420,13 +438,14 @@ class PreviewHandler(http.server.SimpleHTTPRequestHandler):
 
             skin = query.get("skin", ["apple_light"])[0]
             output_format = query.get("format", ["html"])[0]
+            inline = query.get("inline", ["0"])[0] in ("1", "true", "yes")
 
             if skin not in DESIGN_SKINS:
                 skin = "apple_light"
 
             try:
                 content, content_type = get_template_preview(
-                    template_type, skin, output_format
+                    template_type, skin, output_format, inline=inline
                 )
                 self.send_response(200)
                 self.send_header("Content-type", content_type)
