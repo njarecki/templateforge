@@ -9311,6 +9311,150 @@
         "has_media_queries": true,
         "table_count": 3
       }
+    },
+    {
+      "id": "943c78f4cfaabd627b2f8d42837f5c50",
+      "source_id": "typographic",
+      "source_name": "Typographic Email",
+      "url": "https://github.com/EmailThis/typographic-email",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/typographic/kitchen_sink.html",
+      "byte_size": 59755,
+      "content_hash": "55a5a700b83c23c0337f476f3c46c969596c7aaabace212ce7824714ff88baff",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 22
+      }
+    },
+    {
+      "id": "e9906b45e9de837b148781f192da7a50",
+      "source_id": "gmail_email",
+      "source_name": "Gmail Email Templates",
+      "url": "https://github.com/atomjoy/gmail-email",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/gmail_email/email-activation.html",
+      "byte_size": 13407,
+      "content_hash": "69b028783fec614c712376f132596f0f932b8847504c89818c134b2cf913844e",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "7edc57b88306f6e0d6ce7e0c4208f11e",
+      "source_id": "gmail_email",
+      "source_name": "Gmail Email Templates",
+      "url": "https://github.com/atomjoy/gmail-email",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/gmail_email/email-center.html",
+      "byte_size": 13413,
+      "content_hash": "16d51dcd692fd4937730ffe14dd333193441ec04e2c2953340ea9704ade7fecc",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "882a1f74dc61cd9ab58eedf38245ab83",
+      "source_id": "gmail_email",
+      "source_name": "Gmail Email Templates",
+      "url": "https://github.com/atomjoy/gmail-email",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/gmail_email/email-code.html",
+      "byte_size": 13553,
+      "content_hash": "3575c1d83124c0c98a378aeea3a9a29302c686a2c8c3c1a0886b93fdc66f60c5",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "2fb19be6cb5018626dcb2e6b142db7cc",
+      "source_id": "gmail_email",
+      "source_name": "Gmail Email Templates",
+      "url": "https://github.com/atomjoy/gmail-email",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/gmail_email/email-default.html",
+      "byte_size": 13402,
+      "content_hash": "b8045989148d44461642466c6579da0ff4efd47f9952ddb48b867461db689eb6",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "bc811f329fab4466738c0830aecaa36d",
+      "source_id": "gmail_email",
+      "source_name": "Gmail Email Templates",
+      "url": "https://github.com/atomjoy/gmail-email",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/gmail_email/email.html",
+      "byte_size": 21282,
+      "content_hash": "c0bdc4fb9b98d140e24c83a07f962fdf1a67d78fb3937d19e8b92ff28fc050eb",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "dc04534f2c506e02d55354d7b6eeeba4",
+      "source_id": "gmail_email",
+      "source_name": "Gmail Email Templates",
+      "url": "https://github.com/atomjoy/gmail-email",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/gmail_email/email-mini.html",
+      "byte_size": 11936,
+      "content_hash": "9ac767c6fd4a95611c53d87bd755c549cf0a4c7c76e4b308e025f08c7e746bbc",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "d98126edef056fa241a24df15c07d762",
+      "source_id": "gmail_email",
+      "source_name": "Gmail Email Templates",
+      "url": "https://github.com/atomjoy/gmail-email",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/gmail_email/email-password.html",
+      "byte_size": 13275,
+      "content_hash": "e54be40a6af9c325de2bec77ab45c54f666daf208ccfe319acae17820d5b4f3e",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "61ba3410bddda2f642faa2b873fbe7d3",
+      "source_id": "gmail_email",
+      "source_name": "Gmail Email Templates",
+      "url": "https://github.com/atomjoy/gmail-email",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/gmail_email/proton.html",
+      "byte_size": 8635,
+      "content_hash": "a816970e753eea5b49672dfabefe18e52bc0027aa2835fdc3a86b1daad76a6f2",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 1
+      }
     }
   ]
 }
