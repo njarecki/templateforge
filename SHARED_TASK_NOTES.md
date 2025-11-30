@@ -1,35 +1,27 @@
-# TemplateForge Enrichment Progress
+# TemplateForge Status
 
-## STATUS: ENRICHMENT PHASE COMPLETE ✓
+## Enrichment Phase: 100% Coverage Achieved
 
-All success criteria from CLAUDE_ENRICH_RUNBOOK.md met:
+Verified stats:
+- 1151/1151 items enriched with metrics + categories
+- 152/176 MJML compiled (24 failures from malformed sources)
+- 62.6% media query rate
 
-| Criterion | Target | Actual | Status |
-|-----------|--------|--------|--------|
-| Enriched items | 100% | 1151/1151 | ✓ |
-| MJML compiled | where possible | 152/176 (86.4%) | ✓ |
-| Categories assigned | 100% | 1151/1151 | ✓ |
+## Next Phase: Normalization & Quality Scoring
 
-## Key Stats
-- **Media query rate**: 62.6% (721/1151)
-- **MJML failures**: 24 (malformed source files - recorded with error)
-- **Category distribution**: Newsletter 51%, Ecommerce 40%, Transactional 19%, Promo 11%, Welcome 6%
-
-## Files Generated
-- `data/index/templates_enriched.json` - enriched index with metrics + categories
-- `data/compiled/<source>/*.html` - 152 compiled MJML→HTML files
-
-## Commands
-```bash
-# Re-run enrichment
-python3 scripts/enrich_index.py --run
-
-# Check stats
-python3 -c "import json; e=json.load(open('data/index/templates_enriched.json')); print(len(e['items']))"
-```
-
-## What's Next
-As per CLAUDE_ENRICH_RUNBOOK.md:
+Per CLAUDE_ENRICH_RUNBOOK.md, the next step is:
 > "Proceed to normalization + quality scoring runs using the enriched index to filter the best candidates."
 
-The enrichment phase is complete. The project owner should decide on next phases (normalization, quality scoring, variant generation).
+**Action needed**: Project owner should create a runbook for the next phase (e.g., `CLAUDE_NORMALIZE_RUNBOOK.md`) or provide direction on:
+1. Normalization criteria
+2. Quality scoring algorithm
+3. Filtering thresholds for "best candidates"
+
+## Quick Commands
+```bash
+# Verify enrichment
+python3 -c "import json; e=json.load(open('data/index/templates_enriched.json')); print(f\"{len(e['items'])} items enriched\")"
+
+# Re-run enrichment if needed
+python3 scripts/enrich_index.py --run
+```
