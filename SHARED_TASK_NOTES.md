@@ -1,12 +1,12 @@
 # TemplateForge Task Notes
 
 ## Current State
-Core pipeline is complete with full MJML support for all 43 section types and MJML-to-HTML compilation.
+Core pipeline is complete with full MJML support for all 46 section types and MJML-to-HTML compilation.
 
 ## What's Working
-- **36 built-in template types** across 6 categories (added 3 new: wishlist_reminder, back_in_stock_alert, price_drop_alert)
-- **43 section components** in the library (added 3 new: wishlist_item, price_alert, back_in_stock)
-- **43 MJML converters** (100% coverage)
+- **39 built-in template types** across 6 categories (added 3 new transactional: invoice, receipt, delivery_confirmed)
+- **46 section components** in the library (added 3 new: invoice_details, receipt_summary, delivery_confirmation)
+- **46 MJML converters** (100% coverage)
 - **MJML to HTML compilation** via `--compile` flag (requires mjml npm package)
 - 5 design skins (Linear Dark, Apple Light, DTC Pastel, Editorial Serif, Brutalist Bold)
 - 3 layout variants per template
@@ -14,13 +14,13 @@ Core pipeline is complete with full MJML support for all 43 section types and MJ
 - External template fetching from MJML and Foundation repos
 - MJML output format support
 - Preview server for browsing templates in browser
-- Template derivation from external sources (440+ total templates when including derived)
+- Template derivation from external sources (470+ total templates when including derived)
 
 ## Quick Commands
 ```bash
 # Standard generation
-python3 pipeline.py -o batch.json                     # 324 templates (36 types x 5 skins x variants)
-python3 pipeline.py --include-derived -o batch.json   # 440+ templates (with derived)
+python3 pipeline.py -o batch.json                     # 351 templates (39 types x 5 skins + variants)
+python3 pipeline.py --include-derived -o batch.json   # 470+ templates (with derived)
 python3 pipeline.py --format mjml -o batch.json       # MJML output
 
 # MJML compilation to production HTML
@@ -33,7 +33,7 @@ npm install -g mjml                                   # Global install
 
 # Other
 python3 pipeline.py --preview                         # Start preview server
-python3 pipeline.py --list-templates                  # 36 built-in types
+python3 pipeline.py --list-templates                  # 39 built-in types
 ```
 
 ## Next Steps
@@ -41,7 +41,7 @@ python3 pipeline.py --list-templates                  # 36 built-in types
 
 2. **Template analytics** - Track which sections/skins are most commonly used
 
-3. **Additional specialized templates** - Consider more transactional templates (invoice, receipt, delivery confirmation)
+3. **Additional specialized templates** - Consider more niche templates (appointment reminder, two-factor auth, account suspended, payment failed)
 
 ## File Structure
 ```
