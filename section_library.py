@@ -1386,6 +1386,228 @@ def section_stats_metrics():
     }
 
 
+def section_rating_stars():
+    """Star rating display with numeric score for reviews/ratings."""
+    return {
+        "type": "rating_stars",
+        "name": "Rating Stars",
+        "html": f'''
+<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+    <tr>
+        <td style="padding: 24px;">
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: {{{{brandSecondary}}}}08; border-radius: 8px;">
+                <tr>
+                    <td style="padding: 24px;">
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                            <tr>
+                                <td width="120" valign="middle">
+                                    <img src="{IMAGE_PLACEHOLDERS['product']}" alt="{{{{ratingProductAlt}}}}" width="100" height="100" style="display: block; border-radius: 8px;" />
+                                </td>
+                                <td style="padding-left: 16px;" valign="middle">
+                                    <h3 style="font-family: {{{{brandFont}}}}; font-size: 18px; color: {{{{brandPrimary}}}}; margin: 0 0 8px;">{{{{ratingProductName}}}}</h3>
+                                    <table cellpadding="0" cellspacing="0" border="0" role="presentation">
+                                        <tr>
+                                            <td style="padding-right: 8px;">
+                                                <!-- Star rating display using HTML entities -->
+                                                <span style="font-size: 20px; color: {{{{brandAccent}}}}; letter-spacing: 2px;">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+                                            </td>
+                                            <td valign="middle">
+                                                <p style="font-family: {{{{brandFont}}}}; font-size: 16px; color: {{{{brandPrimary}}}}; margin: 0; font-weight: 700;">{{{{ratingScore}}}}</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandSecondary}}}}; margin: 8px 0 0;">{{{{ratingCount}}}} reviews</p>
+                                </td>
+                            </tr>
+                        </table>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-top: 16px; padding-top: 16px; border-top: 1px solid {{{{brandSecondary}}}}20;">
+                            <tr>
+                                <td>
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 14px; font-style: italic; color: {{{{brandText}}}}; margin: 0; line-height: 1.5;">&ldquo;{{{{ratingReviewText}}}}&rdquo;</p>
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 13px; color: {{{{brandSecondary}}}}; margin: 8px 0 0;">&mdash; {{{{ratingReviewAuthor}}}}</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+'''
+    }
+
+
+def section_gallery_carousel():
+    """Image gallery with 4 product images in a row (static carousel for email)."""
+    return {
+        "type": "gallery_carousel",
+        "name": "Gallery Carousel",
+        "html": f'''
+<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+    <tr>
+        <td style="padding: 24px;">
+            <h2 style="font-family: {{{{brandFont}}}}; font-size: 24px; color: {{{{brandPrimary}}}}; margin: 0 0 16px; text-align: center;">{{{{galleryHeadline}}}}</h2>
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                <tr>
+                    <!--[if mso]>
+                    <td width="25%" valign="top">
+                    <![endif]-->
+                    <!--[if !mso]><!-->
+                    <td style="display: inline-block; width: 100%; max-width: 144px; vertical-align: top; padding: 4px;" class="mobile-full">
+                    <!--<![endif]-->
+                        <a href="{{{{galleryItem1Url}}}}" style="display: block; text-decoration: none;">
+                            <img src="{IMAGE_PLACEHOLDERS['product']}" alt="{{{{galleryItem1Alt}}}}" width="136" style="width: 100%; max-width: 136px; height: auto; display: block; border-radius: 8px;" />
+                            <p style="font-family: {{{{brandFont}}}}; font-size: 13px; color: {{{{brandPrimary}}}}; margin: 8px 0 0; text-align: center;">{{{{galleryItem1Label}}}}</p>
+                        </a>
+                    </td>
+                    <!--[if mso]>
+                    </td><td width="25%" valign="top">
+                    <![endif]-->
+                    <!--[if !mso]><!-->
+                    <td style="display: inline-block; width: 100%; max-width: 144px; vertical-align: top; padding: 4px;" class="mobile-full">
+                    <!--<![endif]-->
+                        <a href="{{{{galleryItem2Url}}}}" style="display: block; text-decoration: none;">
+                            <img src="{IMAGE_PLACEHOLDERS['product']}" alt="{{{{galleryItem2Alt}}}}" width="136" style="width: 100%; max-width: 136px; height: auto; display: block; border-radius: 8px;" />
+                            <p style="font-family: {{{{brandFont}}}}; font-size: 13px; color: {{{{brandPrimary}}}}; margin: 8px 0 0; text-align: center;">{{{{galleryItem2Label}}}}</p>
+                        </a>
+                    </td>
+                    <!--[if mso]>
+                    </td><td width="25%" valign="top">
+                    <![endif]-->
+                    <!--[if !mso]><!-->
+                    <td style="display: inline-block; width: 100%; max-width: 144px; vertical-align: top; padding: 4px;" class="mobile-full">
+                    <!--<![endif]-->
+                        <a href="{{{{galleryItem3Url}}}}" style="display: block; text-decoration: none;">
+                            <img src="{IMAGE_PLACEHOLDERS['product']}" alt="{{{{galleryItem3Alt}}}}" width="136" style="width: 100%; max-width: 136px; height: auto; display: block; border-radius: 8px;" />
+                            <p style="font-family: {{{{brandFont}}}}; font-size: 13px; color: {{{{brandPrimary}}}}; margin: 8px 0 0; text-align: center;">{{{{galleryItem3Label}}}}</p>
+                        </a>
+                    </td>
+                    <!--[if mso]>
+                    </td><td width="25%" valign="top">
+                    <![endif]-->
+                    <!--[if !mso]><!-->
+                    <td style="display: inline-block; width: 100%; max-width: 144px; vertical-align: top; padding: 4px;" class="mobile-full">
+                    <!--<![endif]-->
+                        <a href="{{{{galleryItem4Url}}}}" style="display: block; text-decoration: none;">
+                            <img src="{IMAGE_PLACEHOLDERS['product']}" alt="{{{{galleryItem4Alt}}}}" width="136" style="width: 100%; max-width: 136px; height: auto; display: block; border-radius: 8px;" />
+                            <p style="font-family: {{{{brandFont}}}}; font-size: 13px; color: {{{{brandPrimary}}}}; margin: 8px 0 0; text-align: center;">{{{{galleryItem4Label}}}}</p>
+                        </a>
+                    </td>
+                    <!--[if mso]>
+                    </td>
+                    <![endif]-->
+                </tr>
+            </table>
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-top: 16px;">
+                <tr>
+                    <td align="center">
+                        <a href="{{{{galleryViewAllUrl}}}}" style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandAccent}}}}; text-decoration: underline;">View all &rarr;</a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+'''
+    }
+
+
+def section_multi_step_form():
+    """Multi-step form with 3 input fields and progress indicator."""
+    return {
+        "type": "multi_step_form",
+        "name": "Multi-Step Form",
+        "html": f'''
+<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+    <tr>
+        <td style="padding: 24px;">
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: {{{{brandSecondary}}}}08; border-radius: 8px;">
+                <tr>
+                    <td style="padding: 24px;">
+                        <h2 style="font-family: {{{{brandFont}}}}; font-size: 20px; color: {{{{brandPrimary}}}}; margin: 0 0 8px;">{{{{formHeadline}}}}</h2>
+                        <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandSecondary}}}}; margin: 0 0 20px;">{{{{formSubheadline}}}}</p>
+
+                        <!-- Progress indicator -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-bottom: 24px;">
+                            <tr>
+                                <td>
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: {{{{brandSecondary}}}}20; border-radius: 4px; height: 8px;">
+                                        <tr>
+                                            <td width="33%" style="background-color: {{{{brandAccent}}}}; border-radius: 4px; height: 8px;"></td>
+                                            <td width="67%"></td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding-top: 8px;">
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 12px; color: {{{{brandSecondary}}}}; margin: 0;">Step {{{{formCurrentStep}}}} of {{{{formTotalSteps}}}}</p>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <!-- Form fields (static display for email) -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                            <!-- Field 1 -->
+                            <tr>
+                                <td style="padding-bottom: 16px;">
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 13px; color: {{{{brandPrimary}}}}; margin: 0 0 6px; font-weight: 600;">{{{{formField1Label}}}}</p>
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="border: 1px solid {{{{brandSecondary}}}}40; border-radius: 6px; background-color: {{{{brandBG}}}};">
+                                        <tr>
+                                            <td style="padding: 12px 14px;">
+                                                <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandSecondary}}}}; margin: 0;">{{{{formField1Placeholder}}}}</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- Field 2 -->
+                            <tr>
+                                <td style="padding-bottom: 16px;">
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 13px; color: {{{{brandPrimary}}}}; margin: 0 0 6px; font-weight: 600;">{{{{formField2Label}}}}</p>
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="border: 1px solid {{{{brandSecondary}}}}40; border-radius: 6px; background-color: {{{{brandBG}}}};">
+                                        <tr>
+                                            <td style="padding: 12px 14px;">
+                                                <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandSecondary}}}}; margin: 0;">{{{{formField2Placeholder}}}}</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- Field 3 -->
+                            <tr>
+                                <td style="padding-bottom: 20px;">
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 13px; color: {{{{brandPrimary}}}}; margin: 0 0 6px; font-weight: 600;">{{{{formField3Label}}}}</p>
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="border: 1px solid {{{{brandSecondary}}}}40; border-radius: 6px; background-color: {{{{brandBG}}}};">
+                                        <tr>
+                                            <td style="padding: 12px 14px;">
+                                                <p style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandSecondary}}}}; margin: 0;">{{{{formField3Placeholder}}}}</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <!-- CTA Button -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                            <tr>
+                                <td align="center">
+                                    <a href="{{{{formContinueUrl}}}}" style="display: inline-block; padding: 14px 32px; background-color: {{{{brandAccent}}}}; color: #ffffff; font-family: {{{{brandFont}}}}; font-size: 16px; font-weight: 600; text-decoration: none; border-radius: 8px;">{{{{formContinueLabel}}}}</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+'''
+    }
+
+
 # Registry of all sections
 SECTION_REGISTRY = {
     "hero": section_hero,
@@ -1421,6 +1643,9 @@ SECTION_REGISTRY = {
     "team_members": section_team_members,
     "comparison_table": section_comparison_table,
     "stats_metrics": section_stats_metrics,
+    "rating_stars": section_rating_stars,
+    "gallery_carousel": section_gallery_carousel,
+    "multi_step_form": section_multi_step_form,
 }
 
 
