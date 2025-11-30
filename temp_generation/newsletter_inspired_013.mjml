@@ -1,0 +1,153 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}" />
+      <mj-text font-size="16px" color="{brandText}" line-height="1.6" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" border-radius="6px" font-size="15px" font-weight="600" />
+    </mj-attributes>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .mobile-center { text-align: center !important; }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#1a1a2e" width="640px">
+    <!-- Header -->
+    <mj-section background-color="#1a1a2e" padding="30px">
+      <mj-column>
+        <mj-text font-size="28px" font-weight="800" color="#00d4ff" align="center">
+          TECH PULSE
+        </mj-text>
+        <mj-text font-size="12px" color="#888899" align="center" padding-top="5px">
+          Your weekly dose of innovation
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Hero -->
+    <mj-section background-color="#252541" padding="0" border-radius="12px">
+      <mj-column padding="0">
+        <mj-image src="https://placehold.co/640x280/png?text=TECH+NEWS" alt="Tech news hero" width="640px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#252541" padding="30px 30px 40px">
+      <mj-column>
+        <mj-text font-size="12px" color="#00d4ff" text-transform="uppercase" letter-spacing="2px">
+          Featured Story
+        </mj-text>
+        <mj-text font-size="26px" font-weight="700" color="#ffffff" padding-top="10px" line-height="1.3">
+          AI Revolution: How Machine Learning is Reshaping Every Industry
+        </mj-text>
+        <mj-text color="#aaaacc" padding-top="15px">
+          From healthcare to finance, artificial intelligence is no longer a future promise—it's today's reality. Explore the breakthroughs making headlines this week.
+        </mj-text>
+        <mj-button href="#" background-color="#00d4ff" color="#1a1a2e" padding-top="25px">
+          Dive In →
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Spacer -->
+    <mj-section background-color="#1a1a2e" padding="10px">
+      <mj-column>
+        <mj-spacer height="10px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- 3 Column Quick Reads -->
+    <mj-section background-color="#1a1a2e" padding="10px 10px 30px">
+      <mj-column background-color="#252541" border-radius="8px" padding="20px">
+        <mj-text font-size="28px" align="center">🚀</mj-text>
+        <mj-text font-size="14px" font-weight="700" color="#ffffff" align="center" padding-top="10px">
+          Startup Watch
+        </mj-text>
+        <mj-text font-size="13px" color="#888899" align="center" padding-top="5px">
+          5 startups raised $100M+ this week
+        </mj-text>
+      </mj-column>
+      <mj-column background-color="#252541" border-radius="8px" padding="20px">
+        <mj-text font-size="28px" align="center">📱</mj:text>
+        <mj-text font-size="14px" font-weight="700" color="#ffffff" align="center" padding-top="10px">
+          Product Launch
+        </mj-text>
+        <mj-text font-size="13px" color="#888899" align="center" padding-top="5px">
+          New flagship devices revealed
+        </mj-text>
+      </mj-column>
+      <mj-column background-color="#252541" border-radius="8px" padding="20px">
+        <mj-text font-size="28px" align="center">🔐</mj-text>
+        <mj-text font-size="14px" font-weight="700" color="#ffffff" align="center" padding-top="10px">
+          Security Alert
+        </mj-text>
+        <mj-text font-size="13px" color="#888899" align="center" padding-top="5px">
+          Critical patch advisory issued
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- 2 Column Articles -->
+    <mj-section background-color="#1a1a2e" padding="0 15px 30px">
+      <mj-column background-color="#252541" border-radius="8px" padding="0">
+        <mj-image src="https://placehold.co/280x150/png?text=Article+A" alt="Article A thumbnail" width="280px" border-radius="8px 8px 0 0" />
+        <mj-text font-size="16px" font-weight="600" color="#ffffff" padding="20px 20px 10px">
+          The Future of Remote Work
+        </mj-text>
+        <mj-text font-size="13px" color="#888899" padding="0 20px 20px">
+          New tools reshaping distributed teams globally.
+        </mj-text>
+      </mj-column>
+      <mj-column background-color="#252541" border-radius="8px" padding="0">
+        <mj-image src="https://placehold.co/280x150/png?text=Article+B" alt="Article B thumbnail" width="280px" border-radius="8px 8px 0 0" />
+        <mj-text font-size="16px" font-weight="600" color="#ffffff" padding="20px 20px 10px">
+          Quantum Computing Update
+        </mj-text>
+        <mj-text font-size="13px" color="#888899" padding="0 20px 20px">
+          Major milestone achieved in error correction.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- CTA Band -->
+    <mj-section background-color="#00d4ff" padding="35px 30px">
+      <mj-column>
+        <mj-text font-size="20px" font-weight="700" color="#1a1a2e" align="center">
+          Get Early Access
+        </mj-text>
+        <mj-text color="#1a1a2e" align="center" padding-top="8px" font-size="14px">
+          Join our premium tier for exclusive analysis and insider insights.
+        </mj-text>
+        <mj-button href="#" background-color="#1a1a2e" color="#00d4ff" padding-top="20px">
+          Upgrade to Pro
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Social -->
+    <mj-section background-color="#1a1a2e" padding="30px">
+      <mj-column>
+        <mj-social font-size="12px" icon-size="24px" mode="horizontal">
+          <mj-social-element name="twitter" href="#" alt="Twitter" background-color="#252541" />
+          <mj-social-element name="linkedin" href="#" alt="LinkedIn" background-color="#252541" />
+          <mj-social-element name="youtube" href="#" alt="YouTube" background-color="#252541" />
+        </mj-social>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="#0f0f1a" padding="25px 30px">
+      <mj-column>
+        <mj-text align="center" font-size="12px" color="#666677">
+          You're receiving this because you signed up for Tech Pulse.
+        </mj-text>
+        <mj-text align="center" font-size="12px" color="#666677" padding-top="10px">
+          <a href="#" style="color: #00d4ff; text-decoration: none;">Unsubscribe</a> ·
+          <a href="#" style="color: #00d4ff; text-decoration: none;">Manage Preferences</a>
+        </mj-text>
+        <mj-text align="center" font-size="11px" color="#444455" padding-top="15px">
+          Tech Pulse Inc. · 100 Innovation Blvd, San Francisco, CA 94105
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

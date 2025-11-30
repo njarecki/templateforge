@@ -1,0 +1,157 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}" />
+      <mj-text font-size="16px" color="{brandText}" line-height="1.6" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" border-radius="50px" font-size="16px" font-weight="700" padding="14px 40px" />
+    </mj-attributes>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .mobile-full { width: 100% !important; }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="{brandBG}" width="640px">
+    <!-- Offer Banner -->
+    <mj-section background-color="{brandPrimary}" padding="12px 20px">
+      <mj-column>
+        <mj-text font-size="14px" font-weight="600" color="#ffffff" align="center">
+          🎁 LIMITED TIME: Use code SAVE20 for 20% off your order!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Header -->
+    <mj-section background-color="#ffffff" padding="20px 30px">
+      <mj-column width="50%">
+        <mj-image src="https://placehold.co/140x50/png?text=LOGO" alt="Company logo" width="140px" align="left" />
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text align="right" font-size="13px" color="#666666">
+          <a href="#" style="color: #666666; text-decoration: none; margin-left: 15px;">Shop</a>
+          <a href="#" style="color: #666666; text-decoration: none; margin-left: 15px;">Sale</a>
+          <a href="#" style="color: #666666; text-decoration: none; margin-left: 15px;">New</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Hero -->
+    <mj-section background-color="#ffffff" padding="0">
+      <mj-column>
+        <mj-image src="https://placehold.co/640x350/png?text=FLASH+SALE" alt="Flash sale hero image" width="640px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="35px 30px">
+      <mj-column>
+        <mj-text font-size="14px" color="{brandAccent}" text-transform="uppercase" letter-spacing="2px" font-weight="600" align="center">
+          Flash Sale
+        </mj-text>
+        <mj-text font-size="36px" font-weight="800" color="{brandPrimary}" align="center" padding-top="10px" line-height="1.1">
+          Up to 50% Off Everything
+        </mj-text>
+        <mj-text align="center" padding-top="15px" color="#555555">
+          Don't miss our biggest sale of the season. Shop now before it's too late!
+        </mj-text>
+        <mj-button href="#" padding-top="25px">
+          Shop the Sale
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Countdown (visual representation) -->
+    <mj-section background-color="{brandSecondary}" padding="30px 20px">
+      <mj-column>
+        <mj-text font-size="14px" color="{brandText}" align="center" text-transform="uppercase" letter-spacing="1px">
+          Sale ends in
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="{brandSecondary}" padding="0 20px 30px">
+      <mj-column>
+        <mj-text font-size="42px" font-weight="800" color="{brandPrimary}" align="center">02</mj-text>
+        <mj-text font-size="12px" color="{brandText}" align="center">DAYS</mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text font-size="42px" font-weight="800" color="{brandPrimary}" align="center">14</mj-text>
+        <mj-text font-size="12px" color="{brandText}" align="center">HOURS</mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text font-size="42px" font-weight="800" color="{brandPrimary}" align="center">36</mj-text>
+        <mj-text font-size="12px" color="{brandText}" align="center">MINS</mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text font-size="42px" font-weight="800" color="{brandPrimary}" align="center">52</mj-text>
+        <mj-text font-size="12px" color="{brandText}" align="center">SECS</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Product Grid -->
+    <mj-section background-color="#ffffff" padding="40px 20px 20px">
+      <mj-column>
+        <mj-text font-size="22px" font-weight="700" color="{brandPrimary}" align="center">
+          Top Picks from the Sale
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="20px">
+      <mj-column>
+        <mj-image src="https://placehold.co/180x180/png?text=Product+1" alt="Product 1" width="180px" />
+        <mj-text font-size="15px" font-weight="600" color="{brandText}" align="center" padding-top="10px">
+          Premium Item
+        </mj-text>
+        <mj-text font-size="14px" align="center">
+          <span style="text-decoration: line-through; color: #999;">$120</span>
+          <span style="color: {brandPrimary}; font-weight: 700;"> $79</span>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-image src="https://placehold.co/180x180/png?text=Product+2" alt="Product 2" width="180px" />
+        <mj-text font-size="15px" font-weight="600" color="{brandText}" align="center" padding-top="10px">
+          Bestseller
+        </mj-text>
+        <mj-text font-size="14px" align="center">
+          <span style="text-decoration: line-through; color: #999;">$95</span>
+          <span style="color: {brandPrimary}; font-weight: 700;"> $59</span>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-image src="https://placehold.co/180x180/png?text=Product+3" alt="Product 3" width="180px" />
+        <mj-text font-size="15px" font-weight="600" color="{brandText}" align="center" padding-top="10px">
+          Staff Pick
+        </mj-text>
+        <mj-text font-size="14px" align="center">
+          <span style="text-decoration: line-through; color: #999;">$85</span>
+          <span style="color: {brandPrimary}; font-weight: 700;"> $49</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="10px 30px 40px">
+      <mj-column>
+        <mj-button href="#">
+          View All Sale Items
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="{brandBG}" padding="30px">
+      <mj-column>
+        <mj-social font-size="12px" icon-size="24px" mode="horizontal">
+          <mj-social-element name="facebook" href="#" alt="Facebook" />
+          <mj-social-element name="instagram" href="#" alt="Instagram" />
+          <mj-social-element name="twitter" href="#" alt="Twitter" />
+        </mj-social>
+        <mj-text align="center" font-size="12px" color="#888888" padding-top="20px">
+          <a href="#" style="color: {brandPrimary}; text-decoration: underline;">Unsubscribe</a> |
+          <a href="#" style="color: {brandPrimary}; text-decoration: underline;">View Online</a>
+        </mj-text>
+        <mj-text align="center" font-size="11px" color="#aaaaaa" padding-top="10px">
+          © 2024 Brand Inc. 123 Commerce Street, City, ST 12345
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

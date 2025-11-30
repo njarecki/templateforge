@@ -1,0 +1,167 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}" />
+      <mj-text font-size="16px" color="{brandText}" line-height="1.6" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" border-radius="50px" font-size="14px" font-weight="600" padding="12px 30px" />
+    </mj-attributes>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .responsive-image { width: 100% !important; }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="{brandBG}" width="640px">
+    <!-- Header -->
+    <mj-section background-color="#ffffff" padding="25px 30px">
+      <mj-column width="60%">
+        <mj-text font-size="22px" font-weight="600" color="{brandPrimary}">
+          ✨ Curated Picks
+        </mj-text>
+      </mj-column>
+      <mj-column width="40%">
+        <mj-text align="right" font-size="13px" color="#999999">
+          December Edition
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Spacer -->
+    <mj-section background-color="#ffffff" padding="0">
+      <mj-column>
+        <mj-divider border-color="{brandSecondary}" border-width="2px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Hero -->
+    <mj-section background-color="#ffffff" padding="30px">
+      <mj-column>
+        <mj-text font-size="13px" color="{brandAccent}" text-transform="uppercase" letter-spacing="2px" font-weight="600">
+          Editor's Pick
+        </mj-text>
+        <mj-text font-size="28px" font-weight="700" color="#222222" padding-top="10px" line-height="1.3">
+          The Art of Slow Living in a Fast-Paced World
+        </mj-text>
+        <mj-text padding-top="15px" color="#555555">
+          Discover how embracing intentionality can transform your daily routine and bring more meaning to every moment.
+        </mj-text>
+        <mj-image src="https://placehold.co/580x300/png?text=Featured+Article" alt="Featured article image" width="580px" padding-top="20px" border-radius="12px" />
+        <mj-button href="#" padding-top="25px">
+          Read the Full Story
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Story Block -->
+    <mj-section background-color="{brandSecondary}" padding="35px 30px">
+      <mj-column>
+        <mj-text font-size="13px" color="{brandPrimary}" text-transform="uppercase" letter-spacing="2px" font-weight="600">
+          This Week's Theme
+        </mj-text>
+        <mj-text font-size="22px" font-weight="700" color="#222222" padding-top="10px">
+          Finding Balance in the Digital Age
+        </mj-text>
+        <mj-text padding-top="12px" color="#555555">
+          Our contributors share their perspectives on navigating technology while staying grounded. From digital detox tips to mindful tech habits, explore practical wisdom for modern life.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- 2 Column Articles -->
+    <mj-section background-color="#ffffff" padding="35px 20px 20px">
+      <mj-column padding="0 10px">
+        <mj-image src="https://placehold.co/260x170/png?text=Article+1" alt="Article 1 preview" width="260px" border-radius="8px" />
+        <mj-text font-size="11px" color="{brandAccent}" text-transform="uppercase" padding-top="15px" font-weight="600">
+          Wellness
+        </mj-text>
+        <mj-text font-size="17px" font-weight="600" color="#222222" padding-top="5px" line-height="1.4">
+          Morning Rituals That Actually Work
+        </mj-text>
+        <mj-text font-size="14px" color="#666666" padding-top="8px">
+          Science-backed habits to start your day with intention.
+        </mj-text>
+      </mj-column>
+      <mj-column padding="0 10px">
+        <mj-image src="https://placehold.co/260x170/png?text=Article+2" alt="Article 2 preview" width="260px" border-radius="8px" />
+        <mj-text font-size="11px" color="{brandAccent}" text-transform="uppercase" padding-top="15px" font-weight="600">
+          Creativity
+        </mj-text>
+        <mj-text font-size="17px" font-weight="600" color="#222222" padding-top="5px" line-height="1.4">
+          Unlocking Your Creative Potential
+        </mj-text>
+        <mj-text font-size="14px" color="#666666" padding-top="8px">
+          Simple exercises to spark inspiration daily.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="15px 20px 35px">
+      <mj-column padding="0 10px">
+        <mj-image src="https://placehold.co/260x170/png?text=Article+3" alt="Article 3 preview" width="260px" border-radius="8px" />
+        <mj-text font-size="11px" color="{brandAccent}" text-transform="uppercase" padding-top="15px" font-weight="600">
+          Home
+        </mj-text>
+        <mj-text font-size="17px" font-weight="600" color="#222222" padding-top="5px" line-height="1.4">
+          Creating Calm Spaces
+        </mj-text>
+        <mj-text font-size="14px" color="#666666" padding-top="8px">
+          Interior tips for a more peaceful environment.
+        </mj-text>
+      </mj-column>
+      <mj-column padding="0 10px">
+        <mj-image src="https://placehold.co/260x170/png?text=Article+4" alt="Article 4 preview" width="260px" border-radius="8px" />
+        <mj-text font-size="11px" color="{brandAccent}" text-transform="uppercase" padding-top="15px" font-weight="600">
+          Food
+        </mj-text>
+        <mj-text font-size="17px" font-weight="600" color="#222222" padding-top="5px" line-height="1.4">
+          Nourishing Recipes for Winter
+        </mj-text>
+        <mj-text font-size="14px" color="#666666" padding-top="8px">
+          Comfort food that's good for body and soul.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- CTA Band -->
+    <mj-section background-color="{brandPrimary}" padding="35px 30px">
+      <mj-column>
+        <mj-text font-size="20px" font-weight="700" color="#ffffff" align="center">
+          Love what you're reading?
+        </mj-text>
+        <mj-text color="rgba(255,255,255,0.85)" align="center" padding-top="10px">
+          Share this newsletter with a friend who needs more calm in their inbox.
+        </mj-text>
+        <mj-button href="#" background-color="#ffffff" color="{brandPrimary}" padding-top="20px">
+          Share With a Friend
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Social -->
+    <mj-section background-color="#ffffff" padding="30px">
+      <mj-column>
+        <mj-social font-size="12px" icon-size="28px" mode="horizontal">
+          <mj-social-element name="instagram" href="#" alt="Instagram" />
+          <mj-social-element name="pinterest" href="#" alt="Pinterest" />
+          <mj-social-element name="twitter" href="#" alt="Twitter" />
+        </mj-social>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="#f8f8f8" padding="25px 30px">
+      <mj-column>
+        <mj-text align="center" font-size="12px" color="#888888">
+          You received this email because you subscribed to Curated Picks.
+        </mj-text>
+        <mj-text align="center" font-size="12px" color="#888888" padding-top="8px">
+          <a href="#" style="color: {brandPrimary}; text-decoration: underline;">Unsubscribe</a> ·
+          <a href="#" style="color: {brandPrimary}; text-decoration: underline;">Update Preferences</a>
+        </mj-text>
+        <mj-text align="center" font-size="11px" color="#aaaaaa" padding-top="15px">
+          789 Creative Lane, Brooklyn, NY 11201
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

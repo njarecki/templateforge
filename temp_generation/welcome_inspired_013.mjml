@@ -1,0 +1,139 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}" />
+      <mj-text font-size="16px" color="{brandText}" line-height="1.6" />
+      <mj-button background-color="#4ecdc4" color="#ffffff" border-radius="6px" font-size="15px" font-weight="600" />
+    </mj-attributes>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .mobile-padding { padding: 20px !important; }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f7f9fc" width="640px">
+    <!-- Header -->
+    <mj-section background-color="#ffffff" padding="25px 30px">
+      <mj-column>
+        <mj-image src="https://placehold.co/130x45/png?text=AppName" alt="App logo" width="130px" align="left" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Hero -->
+    <mj-section background-color="#ffffff" padding="30px 30px 40px">
+      <mj-column>
+        <mj-text font-size="32px" font-weight="700" color="#2c3e50" line-height="1.2">
+          Welcome to your new productivity hub! 🚀
+        </mj-text>
+        <mj-text padding-top="15px" color="#5d6d7e">
+          Hi there! You've just joined thousands of professionals who use our platform to work smarter, not harder.
+        </mj-text>
+        <mj-button href="#" padding-top="25px">
+          Get Started
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Features -->
+    <mj-section background-color="#f7f9fc" padding="40px 20px 20px">
+      <mj-column>
+        <mj-text font-size="20px" font-weight="700" color="#2c3e50" align="center">
+          What You Can Do
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#f7f9fc" padding="15px 15px">
+      <mj-column background-color="#ffffff" border-radius="10px" padding="25px">
+        <mj-image src="https://placehold.co/50x50/png?text=📊" alt="Dashboard icon" width="50px" />
+        <mj-text font-size="17px" font-weight="600" color="#2c3e50" padding-top="15px">
+          Dashboard Overview
+        </mj-text>
+        <mj-text font-size="14px" color="#5d6d7e" padding-top="8px">
+          See all your projects and tasks at a glance with customizable widgets.
+        </mj-text>
+      </mj-column>
+      <mj-column background-color="#ffffff" border-radius="10px" padding="25px">
+        <mj-image src="https://placehold.co/50x50/png?text=👥" alt="Team icon" width="50px" />
+        <mj-text font-size="17px" font-weight="600" color="#2c3e50" padding-top="15px">
+          Team Collaboration
+        </mj-text>
+        <mj-text font-size="14px" color="#5d6d7e" padding-top="8px">
+          Work together in real-time with comments, mentions, and shared views.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#f7f9fc" padding="15px 15px 40px">
+      <mj-column background-color="#ffffff" border-radius="10px" padding="25px">
+        <mj-image src="https://placehold.co/50x50/png?text=🔔" alt="Notifications icon" width="50px" />
+        <mj-text font-size="17px" font-weight="600" color="#2c3e50" padding-top="15px">
+          Smart Notifications
+        </mj-text>
+        <mj-text font-size="14px" color="#5d6d7e" padding-top="8px">
+          Stay updated without the noise. Get alerts that matter to you.
+        </mj-text>
+      </mj-column>
+      <mj-column background-color="#ffffff" border-radius="10px" padding="25px">
+        <mj-image src="https://placehold.co/50x50/png?text=📱" alt="Mobile icon" width="50px" />
+        <mj-text font-size="17px" font-weight="600" color="#2c3e50" padding-top="15px">
+          Mobile Access
+        </mj-text>
+        <mj-text font-size="14px" color="#5d6d7e" padding-top="8px">
+          Take your work anywhere with our iOS and Android apps.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Quick Start -->
+    <mj-section background-color="#ffffff" padding="40px 30px">
+      <mj-column>
+        <mj-text font-size="18px" font-weight="700" color="#2c3e50">
+          Quick Start Guide
+        </mj-text>
+        <mj-text padding-top="15px" color="#5d6d7e">
+          <strong style="color: #4ecdc4;">Step 1:</strong> Complete your profile settings<br /><br />
+          <strong style="color: #4ecdc4;">Step 2:</strong> Create your first project<br /><br />
+          <strong style="color: #4ecdc4;">Step 3:</strong> Invite your team members<br /><br />
+          <strong style="color: #4ecdc4;">Step 4:</strong> Explore integrations
+        </mj-text>
+        <mj-button href="#" padding-top="25px">
+          Open Dashboard
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Help Section -->
+    <mj-section background-color="#4ecdc4" padding="35px 30px">
+      <mj-column>
+        <mj-text font-size="20px" font-weight="700" color="#ffffff" align="center">
+          Need Help Getting Started?
+        </mj-text>
+        <mj-text font-size="14px" color="rgba(255,255,255,0.9)" align="center" padding-top="10px">
+          Our support team is available 24/7 to help you make the most of your account.
+        </mj-text>
+        <mj-button href="#" background-color="#ffffff" color="#4ecdc4" padding-top="20px">
+          Visit Help Center
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="#ffffff" padding="30px">
+      <mj-column>
+        <mj-social font-size="12px" icon-size="24px" mode="horizontal">
+          <mj-social-element name="twitter" href="#" alt="Twitter" />
+          <mj-social-element name="linkedin" href="#" alt="LinkedIn" />
+          <mj-social-element name="youtube" href="#" alt="YouTube" />
+        </mj-social>
+        <mj-text align="center" font-size="12px" color="#888888" padding-top="20px">
+          <a href="#" style="color: #4ecdc4; text-decoration: underline;">Unsubscribe</a> ·
+          <a href="#" style="color: #4ecdc4; text-decoration: underline;">Privacy Policy</a>
+        </mj-text>
+        <mj-text align="center" font-size="11px" color="#aaaaaa" padding-top="10px">
+          © 2024 AppName Inc. 100 Tech Plaza, San Francisco, CA 94102
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
