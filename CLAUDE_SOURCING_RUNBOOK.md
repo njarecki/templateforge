@@ -1,24 +1,20 @@
 # TemplateForge — Sourcing-First Runbook (Do Not Quit)
 
-Goal: Pull as many high-quality, legally safe email templates (HTML/MJML) as possible. Produce a clean catalog + raw files only. No generation, skins, or variants yet.
+Goal (v3): Pull 10,000+ high‑quality, legally safe email templates (HTML/MJML) with strict early quality gates. Produce a clean catalog + raw files only. No generation, skins, or variants yet.
 
 Non-Quit Rules
 - Do not output “complete” or stop early; keep sourcing until explicitly told to stop or time budget ends.
 - If a source is exhausted, move to the next; then broaden GitHub queries.
+ - Target is ≥10,000 unique post‑dedupe. Never stop before that.
 
 Scope & Legality
 - Only public, legally reproducible sources: free/MIT/OSS templates, public galleries, vendor samples meant for display.
 - Record license and URL for every item. Do not copy brand assets for later use; this step only collects raw HTML/MJML.
 
-Target Sources (prioritized)
-1) MJML Official Templates (MIT) — https://mjml.io/templates
-2) Foundation for Emails examples — https://github.com/foundation/foundation-emails
-3) Stripo Free Templates — https://stripo.email/templates/ (free filter)
-4) Beefree Free Templates — https://beefree.io/templates/
-5) Litmus community/public examples — https://litmus.com/community
-6) Mailchimp sample templates — public examples/docs
-7) Klaviyo/Shopify public examples (welcome/promo/newsletter)
-8) GitHub packs: queries such as “email mjml templates”, “responsive html email templates free”, “open-source mjml templates”.
+Source Tiers (pull by weight)
+- Tier 1 (weight 5): MJML official (MIT), Postmark, Mailchimp Blueprints, Codedmails, Cerberus, Antwort, SendGrid/Paste, Shopify official, Foundation Emails (compiled example HTML).
+- Tier 2 (weight 3): Beefree Free, Stripo Free, MailBakery public examples, Designmodo/Postcards samples, Waypoint/usewaypoint transactional.
+- Tier 3 (weight 1): Reputable community GitHub packs (only keep if they pass gates below).
 
 Seed URLs (Quick Start)
 - MJML official raw repo (MIT):
@@ -54,6 +50,17 @@ Seed URLs (Quick Start)
 Discovery Queries (expand when needed)
 - "email mjml template pack", "responsive html email templates free", "open-source mjml templates", "newsletter html template github", "transactional email templates html".
 
+Early Quality Gates (reject during harvest unless overridden)
+- Size: raw/compiled file > 10 KB and < 350 KB.
+- Responsiveness: media queries present in compiled HTML OR known responsive framework (MJML/Antwort/Cerberus/Foundation).
+- Structure: table_count ≥ 5; must include obvious CTA/link AND footer/unsubscribe string.
+- Uniqueness: reject if structure_hash Jaccard ≥ 0.90 vs. an existing item in the same source family.
+- Red flags: inline base64 hero > 1 MB, heavy tracker scripts, excessive external font loads (>3 families).
+
+Category Balance Targets
+- Keep running tallies; aim ≥15–20% each for Welcome, Promo, Ecommerce, Newsletter, Transactional.
+- If a category is underrepresented, backfill from Tier 1/2 sources first.
+
 Quality Bar (Sourcing Stage)
 - Prefer battle‑tested, responsive, section‑based layouts with modern patterns.
 - Skip low-quality/spammy templates; focus on vendor galleries and reputable packs.
@@ -77,14 +84,14 @@ Operational Settings
 - Retry up to 3x; skip on persistent failure; log errors.
 
 Status Reporting (every 30–60 minutes)
-- Print counts: fetched, unique, deduped out, sources done, errors.
-- Never say “complete”; continue until STOP.
+- Print: fetched, unique, deduped out, pass/fail by gate (size/responsive/structure/uniqueness/red‑flags), source mix, category mix, errors.
+- Never say “complete”; continue until STOP. Keep a rolling top‑sources table by unique count.
 
 Start Now
-- Harvest ≥1000 unique base templates across sources above, maximizing diversity (welcome, promo, ecommerce, newsletter, transactional). Keep going until the index shows at least 1000 unique (post‑dedupe) items.
-- Populate data/raw and data/index with accurate metadata and dedupe results.
-- Aim for breadth: at least 6 distinct sources and representation from all five categories.
-- When done with all listed sources, expand GitHub queries and continue until the 1000 unique target is reached.
+- Harvest ≥10,000 unique base templates (post‑dedupe) with the gates above. Keep going until the index shows at least 10,000 unique items.
+- Populate data/raw and data/index with accurate metadata and dedupe results; keep category tallies balanced.
+- Prioritize Tier 1/2 sources; only pull Tier 3 if passing gates AND needed for category balance.
+- Expand GitHub queries aggressively after Tier 1/2 are saturated.
 
 Helper Script (must use)
 - Initialize folders: `python3 scripts/sourcing_indexer.py init`
@@ -94,9 +101,9 @@ Helper Script (must use)
 - Show progress: `python3 scripts/sourcing_indexer.py stats`
 
 Success Criteria (do not stop before this)
-- At least 1000 indexed items after dedupe.
+- ≥10,000 indexed items after dedupe.
 - ≥95% records with both license and URL populated.
 - Healthy mix of `mjml` and `html`; prioritize MJML when available.
-- Source diversity (≥6 sources) and category diversity (welcome, promo, ecommerce, newsletter, transactional all present).
+- Source diversity (≥10 sources, weighted to Tier 1/2) and category diversity (all five present within 15–25% bands).
 
 Index record includes: id, source_id, source_name, url, license, type, file_path, byte_size, content_hash, quick_features.
