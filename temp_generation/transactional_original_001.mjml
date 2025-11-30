@@ -1,171 +1,103 @@
 <mjml>
   <mj-head>
-    <mj-title>Order Confirmation - #{orderNumber}</mj-title>
+    <mj-title>Order Confirmation</mj-title>
     <mj-attributes>
       <mj-all font-family="{brandFont}, Arial, sans-serif" />
-      <mj-text color="{brandText}" line-height="1.6" />
-      <mj-button background-color="{brandPrimary}" color="#ffffff" border-radius="4px" />
-      <mj-table font-size="14px" />
+      <mj-text font-size="15px" line-height="1.6" color="{brandText}" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" font-size="15px" border-radius="4px" />
     </mj-attributes>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .mobile-pad { padding: 15px !important; }
+      }
+    </mj-style>
   </mj-head>
-  <mj-body background-color="{brandBG}">
-    <!-- Header -->
-    <mj-section background-color="#ffffff" padding="20px">
-      <mj-column width="50%">
-        <mj-image src="https://placehold.co/140x45/{brandPrimary}/ffffff?text={brandName}" alt="{brandName}" width="140px" align="left" />
-      </mj-column>
-      <mj-column width="50%">
-        <mj-text font-size="12px" color="#999999" align="right" padding-top="10px">
-          Order #{orderNumber}
-        </mj-text>
-      </mj-column>
-    </mj-section>
-
-    <!-- Confirmation Hero -->
-    <mj-section background-color="{brandSecondary}" padding="40px 20px">
+  <mj-body background-color="{brandBG}" width="640px">
+    <mj-section background-color="#ffffff" padding="22px 25px" border-bottom="1px solid #eeeeee">
       <mj-column>
-        <mj-image src="https://placehold.co/60x60/ffffff/{brandPrimary}?text=✓" alt="Success" width="60px" />
-        <mj-text font-size="28px" font-weight="700" align="center" color="#ffffff" padding-top="20px">
-          Thank you for your order!
-        </mj-text>
-        <mj-text font-size="16px" align="center" color="rgba(255,255,255,0.9)" padding-top="10px">
-          We've received your order and will begin processing it soon.
-        </mj-text>
+        <mj-image src="https://placehold.co/130x45/png?text=SHOP" alt="Shop Logo" width="130px" align="left" />
       </mj-column>
     </mj-section>
-
-    <!-- Order Summary -->
-    <mj-section background-color="#ffffff" padding="30px 20px 10px">
+    <mj-section background-color="#ffffff" padding="45px 30px 30px">
       <mj-column>
-        <mj-text font-size="18px" font-weight="600">
-          Order Summary
-        </mj-text>
+        <mj-image src="https://placehold.co/80x80/22c55e/ffffff/png?text=OK" alt="Order confirmed" width="80px" />
+        <mj-text font-size="26px" font-weight="bold" align="center" padding-top="20px">Order Confirmed!</mj-text>
+        <mj-text align="center" padding-top="10px" color="#666666">Thanks for your order. We are getting it ready to ship.</mj-text>
       </mj-column>
     </mj-section>
-
-    <mj-section background-color="#ffffff" padding="10px 20px">
+    <mj-section background-color="#ffffff" padding="0 30px 30px">
       <mj-column>
         <mj-table>
           <tr style="border-bottom: 1px solid #eeeeee;">
-            <td style="padding: 15px 0; width: 70px;">
-              <img src="https://placehold.co/60x60/{brandBG}/{brandText}?text=Item" alt="Product" width="60" style="border-radius: 4px;" />
-            </td>
-            <td style="padding: 15px 10px;">
-              <strong>{item1Name}</strong><br/>
-              <span style="color: #666; font-size: 12px;">Qty: {item1Qty} | {item1Variant}</span>
-            </td>
-            <td style="padding: 15px 0; text-align: right; font-weight: 600;">
-              {item1Price}
-            </td>
+            <td style="padding: 12px 0; font-size: 14px; color: #888888;">Order Number</td>
+            <td style="padding: 12px 0; font-size: 14px; text-align: right; font-weight: bold;">#ORD-2024-78543</td>
           </tr>
           <tr style="border-bottom: 1px solid #eeeeee;">
-            <td style="padding: 15px 0; width: 70px;">
-              <img src="https://placehold.co/60x60/{brandBG}/{brandText}?text=Item" alt="Product" width="60" style="border-radius: 4px;" />
-            </td>
-            <td style="padding: 15px 10px;">
-              <strong>{item2Name}</strong><br/>
-              <span style="color: #666; font-size: 12px;">Qty: {item2Qty} | {item2Variant}</span>
-            </td>
-            <td style="padding: 15px 0; text-align: right; font-weight: 600;">
-              {item2Price}
-            </td>
+            <td style="padding: 12px 0; font-size: 14px; color: #888888;">Order Date</td>
+            <td style="padding: 12px 0; font-size: 14px; text-align: right;">December 9, 2024</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px 0; font-size: 14px; color: #888888;">Estimated Delivery</td>
+            <td style="padding: 12px 0; font-size: 14px; text-align: right; font-weight: bold; color: {brandAccent};">Dec 12-14, 2024</td>
           </tr>
         </mj-table>
       </mj-column>
     </mj-section>
-
-    <mj-section background-color="#ffffff" padding="10px 20px 20px">
+    <mj-section background-color="#ffffff" padding="0 30px">
+      <mj-column><mj-divider border-color="#eeeeee" border-width="1px" /></mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="25px 30px 10px">
       <mj-column>
-        <mj-table>
-          <tr>
-            <td style="padding: 8px 0;">Subtotal</td>
-            <td style="padding: 8px 0; text-align: right;">{subtotal}</td>
-          </tr>
-          <tr>
-            <td style="padding: 8px 0;">Shipping</td>
-            <td style="padding: 8px 0; text-align: right;">{shipping}</td>
-          </tr>
-          <tr>
-            <td style="padding: 8px 0;">Tax</td>
-            <td style="padding: 8px 0; text-align: right;">{tax}</td>
-          </tr>
-          <tr style="border-top: 2px solid #333;">
-            <td style="padding: 15px 0; font-weight: 700; font-size: 16px;">Total</td>
-            <td style="padding: 15px 0; text-align: right; font-weight: 700; font-size: 16px;">{total}</td>
-          </tr>
-        </mj-table>
+        <mj-text font-size="18px" font-weight="bold">Order Summary</mj-text>
       </mj-column>
     </mj-section>
-
-    <!-- Shipping & Billing -->
-    <mj-section background-color="#f9f9f9" padding="25px 20px">
-      <mj-column>
-        <mj-text font-size="14px" font-weight="600" padding-bottom="10px">
-          Shipping Address
-        </mj-text>
-        <mj-text font-size="14px" color="#666666">
-          {shippingName}<br/>
-          {shippingAddress1}<br/>
-          {shippingAddress2}<br/>
-          {shippingCityStateZip}
-        </mj-text>
+    <mj-section background-color="#ffffff" padding="15px 30px">
+      <mj-column width="20%">
+        <mj-image src="https://placehold.co/100x100/png?text=Item+1" alt="Product 1" border-radius="4px" />
       </mj-column>
-      <mj-column>
-        <mj-text font-size="14px" font-weight="600" padding-bottom="10px">
-          Billing Address
-        </mj-text>
-        <mj-text font-size="14px" color="#666666">
-          {billingName}<br/>
-          {billingAddress1}<br/>
-          {billingAddress2}<br/>
-          {billingCityStateZip}
-        </mj-text>
+      <mj-column width="55%">
+        <mj-text font-size="15px" font-weight="bold">Premium Wireless Headphones</mj-text>
+        <mj-text font-size="13px" color="#888888" padding-top="5px">Color: Black | Qty: 1</mj-text>
+      </mj-column>
+      <mj-column width="25%">
+        <mj-text font-size="15px" align="right" font-weight="bold">$199.00</mj-text>
       </mj-column>
     </mj-section>
-
-    <mj-section background-color="#f9f9f9" padding="0 20px 25px">
-      <mj-column>
-        <mj-text font-size="14px" font-weight="600" padding-bottom="10px">
-          Payment Method
-        </mj-text>
-        <mj-text font-size="14px" color="#666666">
-          {paymentMethod} ending in {paymentLast4}
-        </mj-text>
+    <mj-section background-color="#ffffff" padding="10px 30px">
+      <mj-column><mj-divider border-color="#eeeeee" border-width="1px" /></mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="15px 30px">
+      <mj-column width="70%">
+        <mj-text font-size="14px" color="#888888">Subtotal</mj-text>
+        <mj-text font-size="14px" color="#888888" padding-top="8px">Shipping</mj-text>
+        <mj-text font-size="16px" font-weight="bold" padding-top="12px">Total</mj-text>
       </mj-column>
-      <mj-column>
-        <mj-text font-size="14px" font-weight="600" padding-bottom="10px">
-          Estimated Delivery
-        </mj-text>
-        <mj-text font-size="14px" color="#666666">
-          {estimatedDelivery}
-        </mj-text>
+      <mj-column width="30%">
+        <mj-text font-size="14px" align="right">$199.00</mj-text>
+        <mj-text font-size="14px" align="right" padding-top="8px" color="{brandAccent}">FREE</mj-text>
+        <mj-text font-size="16px" font-weight="bold" align="right" padding-top="12px">$199.00</mj-text>
       </mj-column>
     </mj-section>
-
-    <!-- CTA -->
-    <mj-section background-color="#ffffff" padding="30px 20px">
-      <mj-column>
-        <mj-button href="{trackOrderUrl}" font-size="16px">
-          Track Your Order
-        </mj-button>
-        <mj-text font-size="14px" align="center" padding-top="15px" color="#666666">
-          Questions? <a href="{supportUrl}" style="color: {brandPrimary};">Contact Support</a>
-        </mj-text>
+    <mj-section background-color="{brandSecondary}" padding="25px 30px">
+      <mj-column width="50%">
+        <mj-text font-size="13px" font-weight="bold" text-transform="uppercase" color="#888888">Shipping To</mj-text>
+        <mj-text font-size="14px" padding-top="10px">John Smith<br/>123 Main Street<br/>New York, NY 10001</mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text font-size="13px" font-weight="bold" text-transform="uppercase" color="#888888">Shipping Method</mj-text>
+        <mj-text font-size="14px" padding-top="10px">Express Shipping<br/>Tracking available once shipped</mj-text>
       </mj-column>
     </mj-section>
-
-    <!-- Footer -->
-    <mj-section background-color="#333333" padding="25px 20px">
+    <mj-section background-color="#ffffff" padding="35px 30px">
       <mj-column>
-        <mj-text font-size="12px" color="#aaaaaa" align="center">
-          This email was sent to {customerEmail} regarding order #{orderNumber}.
-        </mj-text>
-        <mj-text font-size="12px" color="#aaaaaa" align="center" padding-top="10px">
-          {companyAddress}
-        </mj-text>
-        <mj-text font-size="12px" color="#aaaaaa" align="center" padding-top="10px">
-          <a href="{unsubscribeUrl}" style="color: #aaaaaa;">Unsubscribe from marketing</a> | <a href="{privacyUrl}" style="color: #aaaaaa;">Privacy Policy</a>
-        </mj-text>
+        <mj-button href="#">Track Your Order</mj-button>
+        <mj-text font-size="13px" align="center" padding-top="20px" color="#888888">Questions? <a href="#" style="color: {brandPrimary};">Contact Support</a></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="25px 30px" border-top="1px solid #eeeeee">
+      <mj-column>
+        <mj-text font-size="12px" align="center" color="#888888">2024 Shop Name | <a href="#" style="color: #888888;">Privacy</a> | <a href="#" style="color: #888888;">Terms</a></mj-text>
+        <mj-text font-size="12px" align="center" color="#888888" padding-top="10px"><a href="#" style="color: #888888;">Unsubscribe from marketing emails</a></mj-text>
       </mj-column>
     </mj-section>
   </mj-body>

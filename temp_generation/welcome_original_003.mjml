@@ -1,0 +1,138 @@
+<mjml>
+  <mj-head>
+    <mj-title>Welcome to Your Free Trial</mj-title>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}, Arial, sans-serif" />
+      <mj-text font-size="16px" line-height="1.6" color="{brandText}" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" font-size="16px" border-radius="6px" inner-padding="15px 30px" />
+    </mj-attributes>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .mobile-center { text-align: center !important; }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="{brandBG}" width="640px">
+    <!-- Header -->
+    <mj-section background-color="#ffffff" padding="25px 30px">
+      <mj-column>
+        <mj-image src="https://placehold.co/130x45/png?text=LOGO" alt="Company Logo" width="130px" align="left" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Hero -->
+    <mj-section background-color="{brandPrimary}" padding="60px 40px">
+      <mj-column>
+        <mj-text font-size="14px" color="#ffffff" text-transform="uppercase" letter-spacing="2px">
+          Your 14-Day Trial Starts Now
+        </mj-text>
+        <mj-text font-size="34px" font-weight="bold" color="#ffffff" padding-top="15px" line-height="1.2">
+          Welcome to the Team!
+        </mj-text>
+        <mj-text font-size="18px" color="#ffffff" padding-top="20px" css-class="opacity-90">
+          You've unlocked full access to all premium features. Let's make the most of it.
+        </mj-text>
+        <mj-button href="#" background-color="#ffffff" color="{brandPrimary}" padding-top="30px">
+          Start Exploring
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Timeline/Steps -->
+    <mj-section background-color="#ffffff" padding="50px 30px 20px">
+      <mj-column>
+        <mj-text font-size="22px" font-weight="bold" align="center">
+          Your First Week Roadmap
+        </mj-text>
+        <mj-text align="center" color="#666666" padding-top="10px">
+          Follow these steps to get the most out of your trial
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="20px 30px">
+      <mj-column width="15%">
+        <mj-text font-size="28px" font-weight="bold" color="{brandAccent}" align="center">1</mj-text>
+      </mj-column>
+      <mj-column width="85%">
+        <mj-text font-size="18px" font-weight="bold">Complete Your Profile</mj-text>
+        <mj-text font-size="14px" color="#666666" padding-top="5px">
+          Add your details to personalize your experience and unlock recommendations.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="20px 30px">
+      <mj-column width="15%">
+        <mj-text font-size="28px" font-weight="bold" color="{brandAccent}" align="center">2</mj-text>
+      </mj-column>
+      <mj-column width="85%">
+        <mj-text font-size="18px" font-weight="bold">Create Your First Project</mj-text>
+        <mj-text font-size="14px" color="#666666" padding-top="5px">
+          Start with a template or build from scratch. We'll guide you through it.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="20px 30px">
+      <mj-column width="15%">
+        <mj-text font-size="28px" font-weight="bold" color="{brandAccent}" align="center">3</mj-text>
+      </mj-column>
+      <mj-column width="85%">
+        <mj-text font-size="18px" font-weight="bold">Invite Your Team</mj-text>
+        <mj-text font-size="14px" color="#666666" padding-top="5px">
+          Collaboration makes everything better. Add teammates to multiply your impact.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Offer Banner -->
+    <mj-section background-color="{brandSecondary}" padding="35px 30px">
+      <mj-column>
+        <mj-text font-size="13px" text-transform="uppercase" letter-spacing="1px" color="{brandAccent}" align="center">
+          Limited Time Offer
+        </mj-text>
+        <mj-text font-size="20px" font-weight="bold" align="center" padding-top="10px">
+          Upgrade now and get 30% off your first year
+        </mj-text>
+        <mj-button href="#" padding-top="20px">
+          Claim Offer
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Support -->
+    <mj-section background-color="#ffffff" padding="40px 30px">
+      <mj-column>
+        <mj-image src="https://placehold.co/60x60/png?text=💬" alt="Support icon" width="60px" />
+        <mj-text font-size="18px" font-weight="bold" align="center" padding-top="15px">
+          Need Help?
+        </mj-text>
+        <mj-text align="center" padding-top="10px" color="#666666">
+          Our support team is available 24/7 to answer your questions.
+        </mj-text>
+        <mj-text align="center" padding-top="15px">
+          <a href="#" style="color: {brandPrimary}; font-weight: bold; text-decoration: none;">Contact Support →</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="{brandPrimary}" padding="30px">
+      <mj-column>
+        <mj-social font-size="12px" icon-size="24px" mode="horizontal" icon-padding="8px">
+          <mj-social-element name="twitter" href="#" alt="Twitter" background-color="transparent" />
+          <mj-social-element name="facebook" href="#" alt="Facebook" background-color="transparent" />
+          <mj-social-element name="linkedin" href="#" alt="LinkedIn" background-color="transparent" />
+        </mj-social>
+        <mj-text font-size="12px" align="center" color="#ffffff" padding-top="20px">
+          © 2024 Company Name. All rights reserved.
+        </mj-text>
+        <mj-text font-size="12px" align="center" color="#ffffff">
+          <a href="#" style="color: #ffffff;">Unsubscribe</a> |
+          <a href="#" style="color: #ffffff;">Privacy Policy</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

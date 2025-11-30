@@ -1,107 +1,74 @@
 <mjml>
   <mj-head>
-    <mj-title>Welcome to {brandName}</mj-title>
+    <mj-title>Welcome to Our Community</mj-title>
     <mj-attributes>
       <mj-all font-family="{brandFont}, Arial, sans-serif" />
-      <mj-text color="{brandText}" line-height="1.6" />
-      <mj-button background-color="{brandPrimary}" color="#ffffff" border-radius="4px" />
+      <mj-text font-size="16px" line-height="1.6" color="{brandText}" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" font-size="16px" border-radius="4px" />
     </mj-attributes>
     <mj-style>
-      .cta-link { color: {brandPrimary}; text-decoration: underline; }
+      @media only screen and (max-width: 480px) {
+        .mobile-full-width { width: 100% !important; }
+        .mobile-padding { padding: 10px !important; }
+      }
     </mj-style>
   </mj-head>
-  <mj-body background-color="{brandBG}">
-    <!-- Header -->
-    <mj-section background-color="{brandPrimary}" padding="20px">
+  <mj-body background-color="{brandBG}" width="640px">
+    <mj-section padding="20px 0">
       <mj-column>
-        <mj-image src="https://placehold.co/150x50/ffffff/333333?text={brandName}" alt="{brandName} Logo" width="150px" />
+        <mj-image src="https://placehold.co/150x50/png?text=LOGO" alt="Company Logo" width="150px" />
       </mj-column>
     </mj-section>
-
-    <!-- Hero -->
-    <mj-section background-color="#ffffff" padding="40px 20px">
+    <mj-section background-color="{brandPrimary}" padding="60px 20px">
       <mj-column>
-        <mj-text font-size="32px" font-weight="700" align="center" color="{brandPrimary}">
+        <mj-text font-size="32px" font-weight="bold" color="#ffffff" align="center">
           Welcome Aboard!
         </mj-text>
-        <mj-text font-size="18px" align="center" padding-top="10px">
-          We're thrilled to have you join our community.
-        </mj-text>
-        <mj-image src="https://placehold.co/560x280/{brandSecondary}/ffffff?text=Welcome+Image" alt="Welcome illustration" padding="30px 0" />
-      </mj-column>
-    </mj-section>
-
-    <!-- 1-Column Text -->
-    <mj-section background-color="#ffffff" padding="20px">
-      <mj-column>
-        <mj-text font-size="16px">
-          Hi {firstName},
-        </mj-text>
-        <mj-text font-size="16px" padding-top="10px">
-          Thank you for signing up! Your account is ready, and you're all set to explore everything we have to offer.
-        </mj-text>
-        <mj-text font-size="16px" padding-top="10px">
-          Here's what you can do next:
+        <mj-text font-size="18px" color="#ffffff" align="center" padding-top="15px">
+          We are thrilled to have you join our community.
         </mj-text>
       </mj-column>
     </mj-section>
-
-    <!-- 3-Column Features -->
-    <mj-section background-color="#ffffff" padding="20px 20px 30px">
+    <mj-section background-color="#ffffff" padding="40px 20px">
       <mj-column>
-        <mj-image src="https://placehold.co/80x80/{brandAccent}/ffffff?text=1" alt="Step 1" width="80px" />
-        <mj-text font-size="18px" font-weight="600" align="center" padding-top="15px">
-          Complete Profile
-        </mj-text>
-        <mj-text font-size="14px" align="center">
-          Add your details to personalize your experience.
-        </mj-text>
+        <mj-image src="https://placehold.co/80x80/png?text=1" alt="Feature 1" width="80px" />
+        <mj-text font-weight="bold" align="center" padding-top="15px">Quick Setup</mj-text>
+        <mj-text font-size="14px" align="center">Get started in minutes.</mj-text>
       </mj-column>
       <mj-column>
-        <mj-image src="https://placehold.co/80x80/{brandAccent}/ffffff?text=2" alt="Step 2" width="80px" />
-        <mj-text font-size="18px" font-weight="600" align="center" padding-top="15px">
-          Browse Catalog
-        </mj-text>
-        <mj-text font-size="14px" align="center">
-          Discover products curated just for you.
-        </mj-text>
+        <mj-image src="https://placehold.co/80x80/png?text=2" alt="Feature 2" width="80px" />
+        <mj-text font-weight="bold" align="center" padding-top="15px">24/7 Support</mj-text>
+        <mj-text font-size="14px" align="center">We are always here to help.</mj-text>
       </mj-column>
       <mj-column>
-        <mj-image src="https://placehold.co/80x80/{brandAccent}/ffffff?text=3" alt="Step 3" width="80px" />
-        <mj-text font-size="18px" font-weight="600" align="center" padding-top="15px">
-          Get Rewards
-        </mj-text>
-        <mj-text font-size="14px" align="center">
-          Earn points on every purchase you make.
-        </mj-text>
+        <mj-image src="https://placehold.co/80x80/png?text=3" alt="Feature 3" width="80px" />
+        <mj-text font-weight="bold" align="center" padding-top="15px">Resources</mj-text>
+        <mj-text font-size="14px" align="center">Access guides and tutorials.</mj-text>
       </mj-column>
     </mj-section>
-
-    <!-- CTA Band -->
-    <mj-section background-color="{brandSecondary}" padding="30px 20px">
+    <mj-section background-color="{brandSecondary}" padding="40px 20px">
       <mj-column>
-        <mj-text font-size="20px" font-weight="600" align="center" color="#ffffff">
-          Ready to get started?
+        <mj-text font-size="22px" font-weight="bold" align="center" color="{brandText}">
+          Ready to Get Started?
         </mj-text>
-        <mj-button href="{ctaUrl}" padding-top="20px" font-size="16px">
-          Explore Now
+        <mj-button href="https://example.com/dashboard" padding-top="20px">
+          Go to Dashboard
         </mj-button>
       </mj-column>
     </mj-section>
-
-    <!-- Footer -->
-    <mj-section background-color="#f5f5f5" padding="30px 20px">
+    <mj-section padding="30px 20px">
       <mj-column>
         <mj-social font-size="12px" icon-size="24px" mode="horizontal">
-          <mj-social-element name="facebook" href="{socialFacebook}" />
-          <mj-social-element name="twitter" href="{socialTwitter}" />
-          <mj-social-element name="instagram" href="{socialInstagram}" />
+          <mj-social-element name="twitter" href="https://twitter.com" alt="Twitter" />
+          <mj-social-element name="facebook" href="https://facebook.com" alt="Facebook" />
+          <mj-social-element name="instagram" href="https://instagram.com" alt="Instagram" />
         </mj-social>
-        <mj-text font-size="12px" color="#666666" align="center" padding-top="20px">
-          {companyAddress}
+        <mj-text font-size="12px" align="center" color="#666666" padding-top="15px">
+          2024 Company Name. All rights reserved.
         </mj-text>
-        <mj-text font-size="12px" color="#666666" align="center">
-          <a href="{unsubscribeUrl}" style="color: #666666;">Unsubscribe</a> | <a href="{preferencesUrl}" style="color: #666666;">Email Preferences</a>
+        <mj-text font-size="12px" align="center" color="#666666">
+          <a href="https://example.com/unsubscribe" style="color: #666666;">Unsubscribe</a> |
+          <a href="https://example.com/preferences" style="color: #666666;">Preferences</a>
         </mj-text>
       </mj-column>
     </mj-section>

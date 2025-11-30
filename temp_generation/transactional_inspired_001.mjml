@@ -1,0 +1,76 @@
+<mjml>
+  <mj-head>
+    <mj-title>Your Package Has Shipped</mj-title>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}, Arial, sans-serif" />
+      <mj-text font-size="15px" line-height="1.6" color="{brandText}" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" font-size="15px" border-radius="4px" />
+    </mj-attributes>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .mobile-pad { padding: 15px !important; }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="{brandBG}" width="640px">
+    <mj-section background-color="#ffffff" padding="20px 25px" border-bottom="1px solid #eeeeee">
+      <mj-column>
+        <mj-image src="https://placehold.co/130x40/png?text=SHOP" alt="Shop Logo" width="130px" align="left" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="{brandSecondary}" padding="45px 30px">
+      <mj-column>
+        <mj-image src="https://placehold.co/70x70/png?text=SHIPPED" alt="Shipped icon" width="70px" />
+        <mj-text font-size="26px" font-weight="bold" align="center" padding-top="20px">Your Order is On Its Way!</mj-text>
+        <mj-text align="center" padding-top="10px" color="#666666">Estimated delivery: December 12-14, 2024</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="30px">
+      <mj-column>
+        <mj-text font-size="13px" text-transform="uppercase" color="#888888" font-weight="bold">Tracking Number</mj-text>
+        <mj-text font-size="16px" font-weight="bold" padding-top="8px" color="{brandPrimary}">1Z999AA10123456784</mj-text>
+        <mj-button href="#" align="left" padding-top="15px">Track Package</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="0 30px">
+      <mj-column><mj-divider border-color="#eeeeee" border-width="1px" /></mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="25px 30px">
+      <mj-column>
+        <mj-text font-size="16px" font-weight="bold">What is in Your Package</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="10px 30px">
+      <mj-column width="18%">
+        <mj-image src="https://placehold.co/80x80/png?text=Item" alt="Product" border-radius="4px" />
+      </mj-column>
+      <mj-column width="60%">
+        <mj-text font-size="15px" font-weight="bold">Wireless Bluetooth Headphones</mj-text>
+        <mj-text font-size="13px" color="#888888">Qty: 1 | Black</mj-text>
+      </mj-column>
+      <mj-column width="22%">
+        <mj-text font-size="15px" align="right" font-weight="bold">$149.00</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="20px 30px">
+      <mj-column width="50%">
+        <mj-text font-size="13px" text-transform="uppercase" color="#888888" font-weight="bold">Shipping Address</mj-text>
+        <mj-text font-size="14px" padding-top="8px">Jane Doe<br/>456 Oak Avenue<br/>Los Angeles, CA 90001</mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text font-size="13px" text-transform="uppercase" color="#888888" font-weight="bold">Shipping Method</mj-text>
+        <mj-text font-size="14px" padding-top="8px">Priority Shipping<br/>2-3 Business Days</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="30px" border-top="1px solid #eeeeee">
+      <mj-column>
+        <mj-text font-size="14px" align="center">Questions about your order? <a href="#" style="color: {brandPrimary};">Contact Support</a></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="20px" border-top="1px solid #eeeeee">
+      <mj-column>
+        <mj-text font-size="12px" align="center" color="#888888">This is a transactional email. <a href="#" style="color: #888888;">Unsubscribe from marketing</a></mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
