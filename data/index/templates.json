@@ -20591,6 +20591,1430 @@
         "has_media_queries": true,
         "table_count": 81
       }
+    },
+    {
+      "id": "0f6c563b877db5fd1e07ab8c83681f01",
+      "source_id": "phuxen_newsletter",
+      "source_name": "phuxen HTML Newsletter Templates",
+      "url": "https://github.com/phuxen/HTML-Newsletter-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/phuxen_newsletter/layoutGrid_Grey.html",
+      "byte_size": 3760,
+      "content_hash": "ac2eb52b5a0e29e7b7a30cbfe12903cf4241ce7b3d09f89a69084c460ea82b22",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 4
+      }
+    },
+    {
+      "id": "5d90096db090b82e33e0ad0776815fa2",
+      "source_id": "phuxen_newsletter",
+      "source_name": "phuxen HTML Newsletter Templates",
+      "url": "https://github.com/phuxen/HTML-Newsletter-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/phuxen_newsletter/layoutGrid_Simple.html",
+      "byte_size": 7720,
+      "content_hash": "9201cb28a3bc59e4d3cae3a57671fb346d2b2eec10073ea436c78dd0939a504d",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": false,
+        "table_count": 4
+      }
+    },
+    {
+      "id": "ed99570dfb2fb8656546b5f66e332dfc",
+      "source_id": "phuxen_newsletter",
+      "source_name": "phuxen HTML Newsletter Templates",
+      "url": "https://github.com/phuxen/HTML-Newsletter-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/phuxen_newsletter/layoutGrid_Simple_SideBar.html",
+      "byte_size": 4308,
+      "content_hash": "965ae67cab56acb357d6e493a5f32db5762a7f37e014c8799ed0d1eb960502ac",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": false,
+        "table_count": 5
+      }
+    },
+    {
+      "id": "8bd51fee6f1f6da4140de02ad779ac60",
+      "source_id": "phuxen_newsletter",
+      "source_name": "phuxen HTML Newsletter Templates",
+      "url": "https://github.com/phuxen/HTML-Newsletter-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/phuxen_newsletter/layoutGrid_blackBar_Horizontal.html",
+      "byte_size": 9905,
+      "content_hash": "817bf0463aab6312381dfec0a4531a695c899bbb0a33d36ccc6ed5ac9248faa0",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 8
+      }
+    },
+    {
+      "id": "d7eb3f96d97a0368752745044dff0e7c",
+      "source_id": "phuxen_newsletter",
+      "source_name": "phuxen HTML Newsletter Templates",
+      "url": "https://github.com/phuxen/HTML-Newsletter-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/phuxen_newsletter/layoutGrid_blackBar_SideBar.html",
+      "byte_size": 8762,
+      "content_hash": "9beb1704401483520f4121dbf717faab9e22d50a04a2aa1fffcdb6a83f958b24",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 9
+      }
+    },
+    {
+      "id": "4ef5e0a1f885cad58825dbb1eac6e0df",
+      "source_id": "phuxen_newsletter",
+      "source_name": "phuxen HTML Newsletter Templates",
+      "url": "https://github.com/phuxen/HTML-Newsletter-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/phuxen_newsletter/layoutGrid_blackBar_Vertical_ThreeCol.html",
+      "byte_size": 8888,
+      "content_hash": "9c015e58c9b02043df9fe5fd16d001caf587969617840815b6c1d4f11f6cc04f",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 8
+      }
+    },
+    {
+      "id": "29be49714678fb05dc1d5d79a6422175",
+      "source_id": "phuxen_newsletter",
+      "source_name": "phuxen HTML Newsletter Templates",
+      "url": "https://github.com/phuxen/HTML-Newsletter-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/phuxen_newsletter/layoutGrid_blackBar_Vertical_TwoCol.html",
+      "byte_size": 7789,
+      "content_hash": "aff6cca87f008ef9dd9c5506219c99b81e323dc02de9dc77e98a09e52d849dd0",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 8
+      }
+    },
+    {
+      "id": "7427c6a942486e71b92a6a07ff557923",
+      "source_id": "phuxen_newsletter",
+      "source_name": "phuxen HTML Newsletter Templates",
+      "url": "https://github.com/phuxen/HTML-Newsletter-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/phuxen_newsletter/layoutGrid_blackBar_basic.html",
+      "byte_size": 4924,
+      "content_hash": "c30d0143271147dad0edb33b1c3de7b9742bc6c1a3e6a16a59a1a703423996bf",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 7
+      }
+    },
+    {
+      "id": "4cc6a3d80be8facd19ec336d6a0afca8",
+      "source_id": "mysigmail",
+      "source_name": "MySigMail HTML Email Templates",
+      "url": "https://github.com/mysigmail/html-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mysigmail/ecommerce-1.html",
+      "byte_size": 31724,
+      "content_hash": "f924fbc17c1f8994295239df7e269efc2fed2137dfb94a80fc407827048c8127",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 33
+      }
+    },
+    {
+      "id": "368182468349e3262033e92a254de058",
+      "source_id": "mysigmail",
+      "source_name": "MySigMail HTML Email Templates",
+      "url": "https://github.com/mysigmail/html-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mysigmail/ecommerce-2.html",
+      "byte_size": 21649,
+      "content_hash": "4a07d70d6c58cb5198dbf869161ab938db5898e1124182edeece3aebefac95c3",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 22
+      }
+    },
+    {
+      "id": "4addc785456be465e4eec65f6692d4e2",
+      "source_id": "mysigmail",
+      "source_name": "MySigMail HTML Email Templates",
+      "url": "https://github.com/mysigmail/html-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mysigmail/newsletter-1.html",
+      "byte_size": 25521,
+      "content_hash": "d50df3e8f1580579109d6ff598813b2239a5092c6b426d1cdb107b39bc8f5cc4",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 26
+      }
+    },
+    {
+      "id": "a1f42172d00b050b1b87cc49c80c05cc",
+      "source_id": "mysigmail",
+      "source_name": "MySigMail HTML Email Templates",
+      "url": "https://github.com/mysigmail/html-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mysigmail/newsletter-2.html",
+      "byte_size": 31131,
+      "content_hash": "e502e8594d4974e2595fe7d573b8a30f8cad1c86c1815623afd38d3483518077",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 32
+      }
+    },
+    {
+      "id": "d6011d3cc821405a5e5ea8e37205461f",
+      "source_id": "mysigmail",
+      "source_name": "MySigMail HTML Email Templates",
+      "url": "https://github.com/mysigmail/html-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mysigmail/request-reset-password-1.html",
+      "byte_size": 14804,
+      "content_hash": "2a56e7bc24321e96db716c1d8b563075501e9582b429641882ff24f4cc22480b",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 20
+      }
+    },
+    {
+      "id": "2a9a046790ca0deecf8c9ca9f6782e69",
+      "source_id": "mysigmail",
+      "source_name": "MySigMail HTML Email Templates",
+      "url": "https://github.com/mysigmail/html-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/mysigmail/request-reset-password-2.html",
+      "byte_size": 25584,
+      "content_hash": "b020acf315287805f3aa97aa72b52241429cdf2a041bef6db671bac80c87c5df",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 29
+      }
+    },
+    {
+      "id": "de12cb8318167e92adf9b07ae9f5275a",
+      "source_id": "typographic_email",
+      "source_name": "Typographic Email",
+      "url": "https://github.com/EmailThis/typographic-email",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/typographic_email/kitchen_sink.html",
+      "byte_size": 59755,
+      "content_hash": "55a5a700b83c23c0337f476f3c46c969596c7aaabace212ce7824714ff88baff",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 22
+      }
+    },
+    {
+      "id": "f52f7b9ecfbc289c43eb688a0ea755e9",
+      "source_id": "tutsplus_email",
+      "source_name": "Tuts+ HTML Email Template",
+      "url": "https://github.com/tutsplus/build-an-html-email-template-from-scratch",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/tutsplus_email/index.html",
+      "byte_size": 5401,
+      "content_hash": "a774dae95760649d4389b7878cfd0f9385f7fdfdd16979bdf3111da65a5fe46b",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 6
+      }
+    },
+    {
+      "id": "0f79df77083e6d4f14b55e021892af84",
+      "source_id": "tamimbytescode",
+      "source_name": "TamimBytesCode Email Templates",
+      "url": "https://github.com/tamimbytescode/html-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/tamimbytescode/AIandCanvaBundle.html",
+      "byte_size": 14134,
+      "content_hash": "6269bcea56241b6510f8c1a5150c2193949ec06efccaa5fe75dee448f64bccab",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "869de47922569accee8785b5a36497be",
+      "source_id": "tamimbytescode",
+      "source_name": "TamimBytesCode Email Templates",
+      "url": "https://github.com/tamimbytescode/html-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/tamimbytescode/ChatGPTBundle.html",
+      "byte_size": 6321,
+      "content_hash": "4ee52071a82a30ab08f10d58a0076c1e69cd11a12e1964250f3dc82921e9a696",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "e34651c1062a2c93fb61940aa225c9ab",
+      "source_id": "tamimbytescode",
+      "source_name": "TamimBytesCode Email Templates",
+      "url": "https://github.com/tamimbytescode/html-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/tamimbytescode/ComplianceSolutionPack.html",
+      "byte_size": 11014,
+      "content_hash": "3ac56bc6f8c8ac38d2835f3c3b998cba4e43bf8261ce7a91242a98d63e5fb371",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "ba65a08327d2544b83a8ac67dddc9960",
+      "source_id": "tamimbytescode",
+      "source_name": "TamimBytesCode Email Templates",
+      "url": "https://github.com/tamimbytescode/html-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/tamimbytescode/CyberSecurityBundle.html",
+      "byte_size": 9503,
+      "content_hash": "48c7cc59a674dffabc628d0c36d87a7ecb4ef76d5cb2e2c653fa275b73a52d6e",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": true,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "463a0f0960b1b58eb5a2b7250980e45a",
+      "source_id": "tamimbytescode",
+      "source_name": "TamimBytesCode Email Templates",
+      "url": "https://github.com/tamimbytescode/html-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/tamimbytescode/JanuaryNewsletter.html",
+      "byte_size": 13764,
+      "content_hash": "0a670fd0ec73a9bfd8d653dbb3e9c57b2299f8b2e6ed9495b3ec683a26ef54ff",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "24e35692688c74ffed1badfbf0a1a73c",
+      "source_id": "tamimbytescode",
+      "source_name": "TamimBytesCode Email Templates",
+      "url": "https://github.com/tamimbytescode/html-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/tamimbytescode/LearnMoreSpendLess.html",
+      "byte_size": 15126,
+      "content_hash": "f6dd4016f0b704878e452661f5c76913c05cd54081e20f9511d49cec29d5fa71",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "7cdaff5a775c85a4f914c53b327259ca",
+      "source_id": "tamimbytescode",
+      "source_name": "TamimBytesCode Email Templates",
+      "url": "https://github.com/tamimbytescode/html-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/tamimbytescode/MentalHealthNewsletter.html",
+      "byte_size": 8276,
+      "content_hash": "5edf285e5d1d0ad7223215a46b1bd56b6323f519b5a2e388626ffde1a017f33a",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "d5d3c646594b1445404edd7432f9dcba",
+      "source_id": "tamimbytescode",
+      "source_name": "TamimBytesCode Email Templates",
+      "url": "https://github.com/tamimbytescode/html-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/tamimbytescode/MonthlyFreebies.html",
+      "byte_size": 12900,
+      "content_hash": "e455c0c2acc6fc3fea70697d7e0e996796b708bc4935107205df91253f1cdeed",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": true,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "9686eae3137a87a4b6cb5f026c6e96f2",
+      "source_id": "tamimbytescode",
+      "source_name": "TamimBytesCode Email Templates",
+      "url": "https://github.com/tamimbytescode/html-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/tamimbytescode/NewsletterTemplate.html",
+      "byte_size": 8502,
+      "content_hash": "545c67d3f4ae63ab92cbb14c67343efc5c844d7db96000537477ea2621706928",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "f444527faaa240488e8ce64fdb7aae73",
+      "source_id": "tamimbytescode",
+      "source_name": "TamimBytesCode Email Templates",
+      "url": "https://github.com/tamimbytescode/html-email-templates",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/tamimbytescode/SexualHarassmentNewsletter.html",
+      "byte_size": 8618,
+      "content_hash": "061ca09726a3050e9eb44dc09b0c27df114aade5b542d60c1d8062f39ab81cba",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 1
+      }
+    },
+    {
+      "id": "00a32ae04c995c428d4a67dc5d24db22",
+      "source_id": "maizzle_mailbakery",
+      "source_name": "Maizzle MailBakery Starter",
+      "url": "https://github.com/maizzle/starter-mailbakery",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_mailbakery/be-shoppy.html",
+      "byte_size": 43227,
+      "content_hash": "9f52d9b451f0ac59c29168757f7df6017d8142ab0ee110e1fac77fedef0d0987",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": false,
+        "table_count": 74
+      }
+    },
+    {
+      "id": "88ee9217be01773fedae5bee878587a1",
+      "source_id": "maizzle_mailbakery",
+      "source_name": "Maizzle MailBakery Starter",
+      "url": "https://github.com/maizzle/starter-mailbakery",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_mailbakery/e-nthusiastic.html",
+      "byte_size": 76134,
+      "content_hash": "3edb48ddfbf379afb0ef98a367971c9deb2976cf1018604abee3c92c234d8d79",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 98
+      }
+    },
+    {
+      "id": "67dd0394a6e0c730bd2d3fb18cd901d6",
+      "source_id": "maizzle_mailbakery",
+      "source_name": "Maizzle MailBakery Starter",
+      "url": "https://github.com/maizzle/starter-mailbakery",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_mailbakery/luxury-estates.html",
+      "byte_size": 43675,
+      "content_hash": "961b73f70ee7d80bdf21ff964950d4bf2a4d9cabc1c47c7a8a0d1bff1d4e90b2",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 75
+      }
+    },
+    {
+      "id": "c7e6cc02aaf842293621655467053e01",
+      "source_id": "promo_templates",
+      "source_name": "Promotional Email Templates Collection",
+      "url": "https://github.com",
+      "license": "Unknown",
+      "type": "html",
+      "file_path": "data/raw/promo_templates/chun_eric_promo2.html",
+      "byte_size": 58647,
+      "content_hash": "106aa66b44ae99a8b57346683a0ad203ea49abe05286286e0c685550e7e7962e",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 50
+      }
+    },
+    {
+      "id": "293f5f1f74fb0a695d5441f9d6961241",
+      "source_id": "promo_templates",
+      "source_name": "Promotional Email Templates Collection",
+      "url": "https://github.com",
+      "license": "Unknown",
+      "type": "html",
+      "file_path": "data/raw/promo_templates/chun_eric_promo.html",
+      "byte_size": 58648,
+      "content_hash": "27888e4beb792f948227da3be9d3a8bd08bd9a78c81a0a81879aef7bbf84d237",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 50
+      }
+    },
+    {
+      "id": "75cc36896efc5a0f6a3ecb423f4f2e79",
+      "source_id": "promo_templates",
+      "source_name": "Promotional Email Templates Collection",
+      "url": "https://github.com",
+      "license": "Unknown",
+      "type": "html",
+      "file_path": "data/raw/promo_templates/codinglone_promo.html",
+      "byte_size": 40725,
+      "content_hash": "14e2ad0180b607cb9b147accbec206ed05cdac6f6ac0bbb9587222f2b4353259",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 40
+      }
+    },
+    {
+      "id": "92ed672d2aaa8c8ac12695fd0f31285b",
+      "source_id": "promo_templates",
+      "source_name": "Promotional Email Templates Collection",
+      "url": "https://github.com",
+      "license": "Unknown",
+      "type": "html",
+      "file_path": "data/raw/promo_templates/ufc_promo.html",
+      "byte_size": 28908,
+      "content_hash": "620a6887aed928e7c1fc2b047349b47565fa23fea44e0a3b64daa9a1952e777f",
+      "quick_features": {
+        "sections_detected": 4,
+        "has_media_queries": true,
+        "table_count": 51
+      }
+    },
+    {
+      "id": "2f34723a8f152e5a7a7e31cfb38b303e",
+      "source_id": "order_confirmation",
+      "source_name": "Order Confirmation Templates",
+      "url": "https://github.com/mohamedshawgi/restaurant-order-confirmation-email",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/order_confirmation/restaurant_order.html",
+      "byte_size": 97548,
+      "content_hash": "da9f19f662e755ede099996c1f8d887459cedcb736983dc5af8b0d8d4807c295",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 174
+      }
+    },
+    {
+      "id": "ecea8b1aee940a7f8b8423162057b6cf",
+      "source_id": "order_confirmation",
+      "source_name": "Order Confirmation Templates",
+      "url": "https://github.com/mohamedshawgi/restaurant-order-confirmation-email",
+      "license": "MIT",
+      "type": "mjml",
+      "file_path": "data/raw/order_confirmation/restaurant_order.mjml",
+      "byte_size": 11868,
+      "content_hash": "5a8ca6f0a44f173b8068332e45c94d9978f2ac5c32d4a6c4b8cd0af12deae092",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "5a926305e2ac8d50d49399a74b48b022",
+      "source_id": "order_confirmation",
+      "source_name": "Order Confirmation Templates",
+      "url": "https://github.com/cdorce/onelabel-order-confirmation-template.github.io",
+      "license": "Unknown",
+      "type": "html",
+      "file_path": "data/raw/order_confirmation/onelabel_order.html",
+      "byte_size": 11504,
+      "content_hash": "c1c23f7b1f499b04a917e470991d4ca4e01d10391aaf6630c927b6266ab2c480",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 10
+      }
+    },
+    {
+      "id": "34a388af190fd341129bdd218b8773e0",
+      "source_id": "kowalskidev_invoice",
+      "source_name": "Invoice Email Templates",
+      "url": "https://github.com/kowalskidev/email-template",
+      "license": "Unknown",
+      "type": "html",
+      "file_path": "data/raw/kowalskidev_invoice/invoice_email.html",
+      "byte_size": 6855,
+      "content_hash": "c3296eeb583e25ea16d85b6f6850d649eae0d77096520b3269c47e4218c35fe8",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 3
+      }
+    },
+    {
+      "id": "98ad6ba22f0d52fb2a593eb5f82d78c5",
+      "source_id": "kowalskidev_invoice",
+      "source_name": "Invoice Email Templates",
+      "url": "https://github.com/sandervanhooft/invoice-templates-generator",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/kowalskidev_invoice/sandervanhooft_invoice.html",
+      "byte_size": 8311,
+      "content_hash": "2db126fc43a4e48dc50b97c63d6ff97873693ef188cb76d3573b46b7a301cc52",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 8
+      }
+    },
+    {
+      "id": "54078af61c4d61efd320e428f78e84f8",
+      "source_id": "maizzle_amp4email",
+      "source_name": "Maizzle AMP4Email Starter",
+      "url": "https://github.com/maizzle/starter-amp4email",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_amp4email/accordion.html",
+      "byte_size": 9060,
+      "content_hash": "feb7bf562779a6df740b39a08c86d12c07965db89ba5156eda3fb2277b2b9994",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "047cfeed79c3cb463648cf335ff7a22c",
+      "source_id": "maizzle_amp4email",
+      "source_name": "Maizzle AMP4Email Starter",
+      "url": "https://github.com/maizzle/starter-amp4email",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_amp4email/carousel.html",
+      "byte_size": 11448,
+      "content_hash": "3c26011bad35175dab824b8740962630d630d1820b8889e41242d3669aea2536",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "82c278b4f66c214a4b3fd35eb2aa5030",
+      "source_id": "maizzle_netlify",
+      "source_name": "Maizzle Netlify Identity Starter",
+      "url": "https://github.com/maizzle/starter-netlify-identity",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_netlify/confirmation.html",
+      "byte_size": 5056,
+      "content_hash": "d8a0f4de2c77ed44e47183bf411f51440c0e003a161a196f314c4c76564b9e6c",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 3
+      }
+    },
+    {
+      "id": "3420e945ce2b497e2b7f236b830a25b8",
+      "source_id": "maizzle_netlify",
+      "source_name": "Maizzle Netlify Identity Starter",
+      "url": "https://github.com/maizzle/starter-netlify-identity",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_netlify/email-change.html",
+      "byte_size": 5011,
+      "content_hash": "0531d4836d32b484a9c478bc68734883412ed77dbf4eab3b392f64ee776ea41f",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 3
+      }
+    },
+    {
+      "id": "5942faffff89f6003d696af1c6064f92",
+      "source_id": "maizzle_netlify",
+      "source_name": "Maizzle Netlify Identity Starter",
+      "url": "https://github.com/maizzle/starter-netlify-identity",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_netlify/invitation.html",
+      "byte_size": 5021,
+      "content_hash": "8a8d5f895f20da885e3b3304f3d32cd4495bf0b1802d5aa86126610276029762",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 3
+      }
+    },
+    {
+      "id": "bab2985a1800154c61bd7d336cfbd3ff",
+      "source_id": "maizzle_netlify",
+      "source_name": "Maizzle Netlify Identity Starter",
+      "url": "https://github.com/maizzle/starter-netlify-identity",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_netlify/password-recovery.html",
+      "byte_size": 4976,
+      "content_hash": "717a057b35576c0452c72f00f1c6c10918ac7b24776456946ffc2c555a66e74f",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 3
+      }
+    },
+    {
+      "id": "36c46445576af4319d3685fe17aa22f5",
+      "source_id": "maizzle_emailoctopus_full",
+      "source_name": "Maizzle EmailOctopus Starter",
+      "url": "https://github.com/maizzle/starter-emailoctopus",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_emailoctopus_full/abacus_blog.html",
+      "byte_size": 26991,
+      "content_hash": "52105ce3ac57e8172fad84d6eed92cba0456e6fb222a412885740304840f8ec2",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": true,
+        "table_count": 28
+      }
+    },
+    {
+      "id": "176345e38eaf3b790d992e8861a2050f",
+      "source_id": "maizzle_emailoctopus_full",
+      "source_name": "Maizzle EmailOctopus Starter",
+      "url": "https://github.com/maizzle/starter-emailoctopus",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_emailoctopus_full/abacus_product.html",
+      "byte_size": 16136,
+      "content_hash": "6c4d0dee6923ae49a1a4d6e6aec55bce132306efbd29a7a20b9e79a88f8b7aee",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 15
+      }
+    },
+    {
+      "id": "9bc4462584603700e7f64280a9635c47",
+      "source_id": "maizzle_emailoctopus_full",
+      "source_name": "Maizzle EmailOctopus Starter",
+      "url": "https://github.com/maizzle/starter-emailoctopus",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_emailoctopus_full/abacus_re-opt-in.html",
+      "byte_size": 6975,
+      "content_hash": "5cd32e7a26d1b150f8b2b5f5f3fbbcbe656b0573a2f486ea1547e880efb09a9f",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 4
+      }
+    },
+    {
+      "id": "8d7ee3a4340b74fb753e8e6ef37148dd",
+      "source_id": "maizzle_emailoctopus_full",
+      "source_name": "Maizzle EmailOctopus Starter",
+      "url": "https://github.com/maizzle/starter-emailoctopus",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_emailoctopus_full/abacus_transactional.html",
+      "byte_size": 14420,
+      "content_hash": "5f446d494f7eb39dbf490204c5fcd86198fd3f73fcd91fe245718a1cebae0600",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 13
+      }
+    },
+    {
+      "id": "67696a7ef71879a04b2b89b99cf04910",
+      "source_id": "maizzle_emailoctopus_full",
+      "source_name": "Maizzle EmailOctopus Starter",
+      "url": "https://github.com/maizzle/starter-emailoctopus",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_emailoctopus_full/karakol_blog.html",
+      "byte_size": 14027,
+      "content_hash": "72f97c028401addc9dc71cfdf618d41e61703c3fed9a5bbac8d387d35f4c1395",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 12
+      }
+    },
+    {
+      "id": "eea2bec8c4ae7c030971765839cbeda4",
+      "source_id": "maizzle_emailoctopus_full",
+      "source_name": "Maizzle EmailOctopus Starter",
+      "url": "https://github.com/maizzle/starter-emailoctopus",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_emailoctopus_full/karakol_product.html",
+      "byte_size": 13920,
+      "content_hash": "ed3c12f40dfe03082b656395b88849b0824f36444378e8abf8efc5bcb00e5d1b",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 11
+      }
+    },
+    {
+      "id": "9e19bf9c577a7b957f9b927e02cf0fda",
+      "source_id": "maizzle_emailoctopus_full",
+      "source_name": "Maizzle EmailOctopus Starter",
+      "url": "https://github.com/maizzle/starter-emailoctopus",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_emailoctopus_full/karakol_transactional.html",
+      "byte_size": 10729,
+      "content_hash": "f78e86b90ee8857a74a8e3e0a8fdead24e9872a8bb806ecdd98248cc6aa3c345",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 9
+      }
+    },
+    {
+      "id": "8a0b774ef988ec0e36a2e2874e0b5341",
+      "source_id": "maizzle_emailoctopus_full",
+      "source_name": "Maizzle EmailOctopus Starter",
+      "url": "https://github.com/maizzle/starter-emailoctopus",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_emailoctopus_full/plain_re-opt-in.html",
+      "byte_size": 4064,
+      "content_hash": "b1304e2a5e4e5d57a259dee5959cefef22ed280ab7cd489c1e7e2d5442e20ad0",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 2
+      }
+    },
+    {
+      "id": "f08475cc029797ce333a39f23c71c356",
+      "source_id": "maizzle_emailoctopus_full",
+      "source_name": "Maizzle EmailOctopus Starter",
+      "url": "https://github.com/maizzle/starter-emailoctopus",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_emailoctopus_full/wayfair_blog.html",
+      "byte_size": 19343,
+      "content_hash": "545dea652d5e41b77ec3bcbb89dcdb5b0cedc3439b556f485b8f597268cdfd30",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 20
+      }
+    },
+    {
+      "id": "f725dca4a12462b1c2cdafec72aa8166",
+      "source_id": "maizzle_emailoctopus_full",
+      "source_name": "Maizzle EmailOctopus Starter",
+      "url": "https://github.com/maizzle/starter-emailoctopus",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_emailoctopus_full/wayfair_newsletter.html",
+      "byte_size": 34889,
+      "content_hash": "57b638cd52227e9af262a0703f56ff42210187318e59ce6a3e2fb77154afdb89",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 45
+      }
+    },
+    {
+      "id": "c33b346e6cc99776fcf75af11d9b3468",
+      "source_id": "maizzle_emailoctopus_full",
+      "source_name": "Maizzle EmailOctopus Starter",
+      "url": "https://github.com/maizzle/starter-emailoctopus",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_emailoctopus_full/wayfair_transactional.html",
+      "byte_size": 11074,
+      "content_hash": "bb377fbeccb0217659896007458f36c64803f7fa982c40296aa4c5beb65e3054",
+      "quick_features": {
+        "sections_detected": 0,
+        "has_media_queries": true,
+        "table_count": 12
+      }
+    },
+    {
+      "id": "1b47c3828fb2273e151f18b5d200e96d",
+      "source_id": "maizzle_postmark_dist",
+      "source_name": "Maizzle Postmark Starter",
+      "url": "https://github.com/maizzle/starter-postmark",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_postmark_dist/basic_welcome.html",
+      "byte_size": 10792,
+      "content_hash": "856acac414534f833eba9e332143155013461a59025537856c338f60129a900d",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 10
+      }
+    },
+    {
+      "id": "b1eb1d741be1927949c25d70ae2345c2",
+      "source_id": "maizzle_postmark_dist",
+      "source_name": "Maizzle Postmark Starter",
+      "url": "https://github.com/maizzle/starter-postmark",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_postmark_dist/basic_comment-notification.html",
+      "byte_size": 6322,
+      "content_hash": "15de0d50ef5f2ab3f95ad56fadd4b47f4aa02234fa1c1127e334362f543cea16",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 6
+      }
+    },
+    {
+      "id": "b8ebe3b8f5e5961f5049cda7b6fa611a",
+      "source_id": "maizzle_postmark_dist",
+      "source_name": "Maizzle Postmark Starter",
+      "url": "https://github.com/maizzle/starter-postmark",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_postmark_dist/basic-full_comment-notification.html",
+      "byte_size": 6275,
+      "content_hash": "34920d89b031a47845e3eef19ee51fb818275088298cb5cc98b233ef7c8e4e52",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 6
+      }
+    },
+    {
+      "id": "5335c82ab7e7cdf9565662d140a1ca94",
+      "source_id": "maizzle_postmark_dist",
+      "source_name": "Maizzle Postmark Starter",
+      "url": "https://github.com/maizzle/starter-postmark",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_postmark_dist/basic-full_invoice.html",
+      "byte_size": 14759,
+      "content_hash": "a7467d23a090eec3a39ef74f0a2c3583f81dffad88c78e372cdf33ca17df29f3",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 10
+      }
+    },
+    {
+      "id": "b4aa0e2cd9a4e989fa29a5f2b50ea1d7",
+      "source_id": "maizzle_postmark_dist",
+      "source_name": "Maizzle Postmark Starter",
+      "url": "https://github.com/maizzle/starter-postmark",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_postmark_dist/basic-full_password-reset-help.html",
+      "byte_size": 7804,
+      "content_hash": "a800ae9951ef7b435f0337225f16cdf08051b22d7653d7f1486a4333b6d2bd70",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 6
+      }
+    },
+    {
+      "id": "fceab8645c23950a9dfe0021e3b5b3af",
+      "source_id": "maizzle_postmark_dist",
+      "source_name": "Maizzle Postmark Starter",
+      "url": "https://github.com/maizzle/starter-postmark",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_postmark_dist/basic-full_password-reset.html",
+      "byte_size": 7123,
+      "content_hash": "3e85e15994fac72090cbe75856d0af5da80cddcb1b6514917617de369022b3f5",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 6
+      }
+    },
+    {
+      "id": "dbdf4ea02aec7f4aba96a5dea223f833",
+      "source_id": "maizzle_postmark_dist",
+      "source_name": "Maizzle Postmark Starter",
+      "url": "https://github.com/maizzle/starter-postmark",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_postmark_dist/basic-full_receipt.html",
+      "byte_size": 13163,
+      "content_hash": "efdb881f3987e4905d3c790672d2cf0a9c768620ee673ee0779b2b56b5b7aa85",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 10
+      }
+    },
+    {
+      "id": "a6da392377adefd2d348ad631f051209",
+      "source_id": "maizzle_postmark_dist",
+      "source_name": "Maizzle Postmark Starter",
+      "url": "https://github.com/maizzle/starter-postmark",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_postmark_dist/basic-full_trial-expired.html",
+      "byte_size": 10196,
+      "content_hash": "006207ac6a94d993e9a8fbbd5af6ceceec825f5d6454392d4450a4aa667a0db0",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 7
+      }
+    },
+    {
+      "id": "d5db83e7d3d238f0b2de5981397c5aa0",
+      "source_id": "maizzle_postmark_dist",
+      "source_name": "Maizzle Postmark Starter",
+      "url": "https://github.com/maizzle/starter-postmark",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_postmark_dist/basic-full_trial-expiring.html",
+      "byte_size": 10203,
+      "content_hash": "392178c12b886ad6416f79e97fb66a8ea15eea180186f7c8b7e271d143d5772d",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 7
+      }
+    },
+    {
+      "id": "3cdb1a38047b9d5c9cb7ab7b591164a2",
+      "source_id": "maizzle_postmark_dist",
+      "source_name": "Maizzle Postmark Starter",
+      "url": "https://github.com/maizzle/starter-postmark",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_postmark_dist/basic-full_user-invitation.html",
+      "byte_size": 8118,
+      "content_hash": "5db5f475050437f24e4cca9ecce083dbbda8cf4478e1238c578689975c5cfa95",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 6
+      }
+    },
+    {
+      "id": "bcd612a807a0494cd4cd75eb24f7c1a5",
+      "source_id": "maizzle_postmark_dist",
+      "source_name": "Maizzle Postmark Starter",
+      "url": "https://github.com/maizzle/starter-postmark",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_postmark_dist/basic-full_welcome.html",
+      "byte_size": 10710,
+      "content_hash": "d3ccfd1739d67273791fd08660b6e97e8644409b9155f658df539b023c487186",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 10
+      }
+    },
+    {
+      "id": "953ac869b8400cf70ab6fd153f3c0f0f",
+      "source_id": "maizzle_postmark_dist",
+      "source_name": "Maizzle Postmark Starter",
+      "url": "https://github.com/maizzle/starter-postmark",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_postmark_dist/basic_invoice.html",
+      "byte_size": 15218,
+      "content_hash": "0d40c2215efde0212793fb7ccbc0dbc59e2738f0f0743b8d47e1671150a3021d",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 11
+      }
+    },
+    {
+      "id": "ae42260ba055983bce7ebc3368e02ba6",
+      "source_id": "maizzle_postmark_dist",
+      "source_name": "Maizzle Postmark Starter",
+      "url": "https://github.com/maizzle/starter-postmark",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_postmark_dist/basic_password-reset-help.html",
+      "byte_size": 8258,
+      "content_hash": "8b058edade16df21974a39691b70bd388c4007f1c409dd6d46a73358bc0ded8d",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 7
+      }
+    },
+    {
+      "id": "dd535d299d652bd732717115ac2aef18",
+      "source_id": "maizzle_postmark_dist",
+      "source_name": "Maizzle Postmark Starter",
+      "url": "https://github.com/maizzle/starter-postmark",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_postmark_dist/basic_password-reset.html",
+      "byte_size": 7535,
+      "content_hash": "aa015881ffd723049a08bfaffde115ec4b21369873994ee2e2157eaa853c943d",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 7
+      }
+    },
+    {
+      "id": "799789d64d3662cc7ebd9ecb0cb18a78",
+      "source_id": "maizzle_postmark_dist",
+      "source_name": "Maizzle Postmark Starter",
+      "url": "https://github.com/maizzle/starter-postmark",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_postmark_dist/basic_receipt.html",
+      "byte_size": 13176,
+      "content_hash": "0b538fd8b46781fa63106f002f772026ea529e74f8b3a1c410e53c595707c2c2",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 10
+      }
+    },
+    {
+      "id": "cf650c6b85b8d68f1f80e7e80dc56d01",
+      "source_id": "maizzle_postmark_dist",
+      "source_name": "Maizzle Postmark Starter",
+      "url": "https://github.com/maizzle/starter-postmark",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_postmark_dist/basic_trial-expired.html",
+      "byte_size": 10217,
+      "content_hash": "4c1c1da6cf0258c8f6144c05d8ca813d32e07223fe6ca01ee362317647414cd1",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 7
+      }
+    },
+    {
+      "id": "4d42c6632c896858a4fe1692d1f82467",
+      "source_id": "maizzle_postmark_dist",
+      "source_name": "Maizzle Postmark Starter",
+      "url": "https://github.com/maizzle/starter-postmark",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_postmark_dist/basic_trial-expiring.html",
+      "byte_size": 10233,
+      "content_hash": "39a14c71a0634d40efa9fc92fcd25aef30e05ad71179246f7917f24b54ec29ee",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 7
+      }
+    },
+    {
+      "id": "aa2ee46761aaafa4a3bd6a2ed2271f78",
+      "source_id": "maizzle_postmark_dist",
+      "source_name": "Maizzle Postmark Starter",
+      "url": "https://github.com/maizzle/starter-postmark",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_postmark_dist/basic_user-invitation.html",
+      "byte_size": 8117,
+      "content_hash": "79fa4f9030ef3004032f470932fb44ae63d2501bf5f4e0dd2db7e5c4a9917a9f",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 6
+      }
+    },
+    {
+      "id": "d6ae3d2ed70ac731e60117b701da34fa",
+      "source_id": "maizzle_postmark_dist",
+      "source_name": "Maizzle Postmark Starter",
+      "url": "https://github.com/maizzle/starter-postmark",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_postmark_dist/plain_comment-notification.html",
+      "byte_size": 6259,
+      "content_hash": "a73ba61a896c8f507a09ea3ab3f73d79e1fa992d805f4199d6d007e341220d64",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 6
+      }
+    },
+    {
+      "id": "d8e7c41a9074b81a0d9d03f208270ef8",
+      "source_id": "maizzle_postmark_dist",
+      "source_name": "Maizzle Postmark Starter",
+      "url": "https://github.com/maizzle/starter-postmark",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_postmark_dist/plain_invoice.html",
+      "byte_size": 14694,
+      "content_hash": "66902359451bbcf305e5cffa0181c22d0d980f5da1cbdef4f27d5fb079738e46",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 10
+      }
+    },
+    {
+      "id": "0f956bb4779278e2d9eb29c12fd24d84",
+      "source_id": "maizzle_postmark_dist",
+      "source_name": "Maizzle Postmark Starter",
+      "url": "https://github.com/maizzle/starter-postmark",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_postmark_dist/plain_password-reset-help.html",
+      "byte_size": 7750,
+      "content_hash": "5a46caf2bbb7e9bd25b29b61be2556f7bdcd693e933f32e70a38a3e1d8f2e46d",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 6
+      }
+    },
+    {
+      "id": "1dfc50cf6c0d40760af7ae9e282ecb79",
+      "source_id": "maizzle_postmark_dist",
+      "source_name": "Maizzle Postmark Starter",
+      "url": "https://github.com/maizzle/starter-postmark",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_postmark_dist/plain_password-reset.html",
+      "byte_size": 7069,
+      "content_hash": "c7ebe570729cc456f925b53fb5ad44fb1cfe0145ba7ade2ed27924ebe7dd1910",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 6
+      }
+    },
+    {
+      "id": "07bf45765b7a031b47a0855317628c18",
+      "source_id": "maizzle_postmark_dist",
+      "source_name": "Maizzle Postmark Starter",
+      "url": "https://github.com/maizzle/starter-postmark",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_postmark_dist/plain_receipt.html",
+      "byte_size": 12876,
+      "content_hash": "f629a50af6afa217a8e4f36dab7713b2336e72f908626f6f5070eb1c4afbdec2",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 10
+      }
+    },
+    {
+      "id": "eba2b7e0d7d7cae59b47e32707887bc6",
+      "source_id": "maizzle_postmark_dist",
+      "source_name": "Maizzle Postmark Starter",
+      "url": "https://github.com/maizzle/starter-postmark",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_postmark_dist/plain_trial-expired.html",
+      "byte_size": 10116,
+      "content_hash": "304cf862757a980f2544e604f3db4fdc8aa12f56451e309b397c71b96b4be546",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 7
+      }
+    },
+    {
+      "id": "55ff1eb3a0c42f801958f349f78773ff",
+      "source_id": "maizzle_postmark_dist",
+      "source_name": "Maizzle Postmark Starter",
+      "url": "https://github.com/maizzle/starter-postmark",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_postmark_dist/plain_trial-expiring.html",
+      "byte_size": 10123,
+      "content_hash": "a187987c540914bbd338d1cbc40d0e2ceb0c0abaf3d0adb14655086e20446c02",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 7
+      }
+    },
+    {
+      "id": "9a322dbce377df021b9f0a84073962f4",
+      "source_id": "maizzle_postmark_dist",
+      "source_name": "Maizzle Postmark Starter",
+      "url": "https://github.com/maizzle/starter-postmark",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_postmark_dist/plain_user-invitation.html",
+      "byte_size": 8064,
+      "content_hash": "48115d0063f8f1bcb9374596b04cef51cfb27c447391978206ad6dbc580398c2",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 6
+      }
+    },
+    {
+      "id": "baba1690e6fcb09ff9e65ef30e137272",
+      "source_id": "maizzle_postmark_dist",
+      "source_name": "Maizzle Postmark Starter",
+      "url": "https://github.com/maizzle/starter-postmark",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/maizzle_postmark_dist/plain_welcome.html",
+      "byte_size": 10774,
+      "content_hash": "48d93484501fd385067d7f3958bd4ce8d3b7f7587bd6a49c6ab6fddf68127dcd",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 10
+      }
+    },
+    {
+      "id": "4095817e4165477a7a419a349ea9146e",
+      "source_id": "lepatron",
+      "source_name": "LePatron Email Builder Templates",
+      "url": "https://github.com/Badsender-com/LePatron.email",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/lepatron/reset-password.html",
+      "byte_size": 20654,
+      "content_hash": "e35c804f8b84ec54e429e2e4283393b69759452601087f1bffc952da49a582bc",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 12
+      }
+    },
+    {
+      "id": "6f729ab76252c2fa6f4add42d2598ef8",
+      "source_id": "lepatron",
+      "source_name": "LePatron Email Builder Templates",
+      "url": "https://github.com/Badsender-com/LePatron.email",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/lepatron/template-sub-themes.html",
+      "byte_size": 23141,
+      "content_hash": "e6b232ea609da9a667b2fb168b55b9a146dfdc4f1897f2594e4de993fa0f762e",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": false,
+        "table_count": 5
+      }
+    },
+    {
+      "id": "549a42a6ac1939c727a62b600e71b71d",
+      "source_id": "lepatron",
+      "source_name": "LePatron Email Builder Templates",
+      "url": "https://github.com/Badsender-com/LePatron.email",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/lepatron/template-tedc15.html",
+      "byte_size": 44133,
+      "content_hash": "68dc7babb985b758b597837d15905ff353a92474b4b1cbb939add71080fb1c27",
+      "quick_features": {
+        "sections_detected": 5,
+        "has_media_queries": false,
+        "table_count": 49
+      }
+    },
+    {
+      "id": "48a2de2ad5d8505102c145326828197f",
+      "source_id": "lepatron",
+      "source_name": "LePatron Email Builder Templates",
+      "url": "https://github.com/Badsender-com/LePatron.email",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/lepatron/template-tutorial.html",
+      "byte_size": 1428,
+      "content_hash": "01ab361a9e2ba9cbfafdd936bf8a90782b1f103f9779bdb06007503c1de126a6",
+      "quick_features": {
+        "sections_detected": 1,
+        "has_media_queries": false,
+        "table_count": 0
+      }
+    },
+    {
+      "id": "56f0b3b6181190889eef8896cd0bc086",
+      "source_id": "lepatron",
+      "source_name": "LePatron Email Builder Templates",
+      "url": "https://github.com/Badsender-com/LePatron.email",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/lepatron/template-versafix-1.html",
+      "byte_size": 225148,
+      "content_hash": "89a8fa925ced3c24b084cf775ac9aec3f89e4e986d2fb318fe3cf14e003ffa91",
+      "quick_features": {
+        "sections_detected": 2,
+        "has_media_queries": true,
+        "table_count": 165
+      }
+    },
+    {
+      "id": "3f5584bf7811b219520fa403623f399c",
+      "source_id": "premail",
+      "source_name": "Premail Email Framework",
+      "url": "https://github.com/premail/premail",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/premail/default_design.html",
+      "byte_size": 88256,
+      "content_hash": "07d377697cf0faec9b50580be88428d951de98ca2aeb0dce4570b9dd08190eb4",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 128
+      }
+    },
+    {
+      "id": "c5b74fea08634c02452140a88ad1d37f",
+      "source_id": "premail",
+      "source_name": "Premail Email Framework",
+      "url": "https://github.com/premail/premail",
+      "license": "MIT",
+      "type": "html",
+      "file_path": "data/raw/premail/example_email.html",
+      "byte_size": 88206,
+      "content_hash": "dd47ae5737e3d432c3db4475d3b86ec8e195067eff69bc46391a139e32717127",
+      "quick_features": {
+        "sections_detected": 3,
+        "has_media_queries": true,
+        "table_count": 128
+      }
     }
   ]
 }

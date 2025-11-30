@@ -1,0 +1,213 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all padding="0"></mj-all>
+      <mj-text align="center" color="#555" />
+      <mj-section background-color="#fff" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#eee">
+    <mj-section padding="5px 0" background-color="#9fd1ae">
+      <mj-column>
+        <mj-divider border-color="transparent" border-width="25px" padding="10px"></mj-divider>
+        <mj-text><a href="http://example.com"><img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/1951/Fatty_Burger_Logo.png" width="200px" alt="logo" </a></mj-text>
+        <mj-divider border-color="transparent" border-width="25px" padding="10px"></mj-divider>
+        <mj-image src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/1951/Coo_Burger_Walking.png" width="300px" alt="burger"></mj-image>
+        <mj-text padding="10px 10px 15px 10px" color="#33563c" font-size="38px"> Your Order Is Too Cool To Wait </mj-text>
+        <mj-text font-size="18px" padding="10px 60px 20px 60px" color="#33563c"> Lorem Ipsum is simply dummy text of the printing<br />& typesetting industry. </mj-text>
+        <mj-button background-color="#fff"><a href="http://www.example.com" style="text-decoration:none;color:#33563c;font-size:16px;">Track Your Food</a></mj-button>
+        <mj-divider border-color="transparent" border-width="25px" padding="10px"></mj-divider>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="5px 0">
+      <mj-column>
+        <mj-text align="left" font-size="16px" padding="10px 30px 5px 30px"><b>Where It's Going:</b></mj-text>
+        <mj-text align="left" padding="10px 30px 1px 30px"><b>James Franco</b><br />3063 Patterson Road<br /> 10011, New York<br /> 718-908-1546</mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text align="left" font-size="16px" padding="10px 30px 0px 30px"><b>Payment:</b></mj-text>
+        <mj-text align="left" font-size="26px" color="#d19fc2" padding="10px 30px 0px 30px"><b>$ 46.99</b></mj-text>
+        <mj-text align="left" padding="10px 30px 1px 30px">Visa Card<br />**** **** **** **76</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-divider border-width="0" padding="10px"></mj-divider>
+        <mj-divider width="100%" border-color="#bbb" border-width="1px"></mj-divider>
+        <mj-divider border-width="0" padding="10px"></mj-divider>
+        <mj-text align="left" font-size="16px" padding="10px 30px 5px 30px"><b>What your order includes:</b></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="25%">
+        <mj-text padding="20px"><img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/1951/Fatty_Burger.png" alt="burger" width="100%"></img></mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-divider border-width="5px" border-color="transparent" padding="10px"></mj-divider>
+        <mj-text align="left" font-size="17px" color="#232323" padding="10px 10px 10px 30px">Fatty Burger x2</mj-text>
+        <mj-text align="left" font-size="14px" color="#848484" padding="10px 10px 0 30px">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </mj-text>
+      </mj-column>
+      <mj-column width="25%">
+        <mj-divider border-width="10px" border-color="transparent" padding="10px"></mj-divider>
+        <mj-text font-size="14px" align="left" color="#555" padding="10px 10px 10px 30px">$ 46.99</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="25%">
+        <mj-text padding="20px"><img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/1951/Poke_Special.png" alt="burger" width="100%"></img></mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-divider border-width="5px" border-color="transparent" padding="10px"></mj-divider>
+        <mj-text align="left" font-size="17px" color="#232323" padding="10px 10px 10px 30px">Poke Special x1</mj-text>
+        <mj-text align="left" font-size="14px" color="#848484" padding="10px 10px 0 30px">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </mj-text>
+      </mj-column>
+      <mj-column width="25%">
+        <mj-divider border-width="10px" border-color="transparent" padding="10px"></mj-divider>
+        <mj-text font-size="14px" align="left" color="#555" padding="10px 10px 10px 30px">$ 46.99</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="25%">
+        <mj-text padding="20px"><img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/1951/New_Yorker_Pizza.png" alt="burger" width="100%"></img></mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-divider border-width="5px" border-color="transparent" padding="10px"></mj-divider>
+        <mj-text align="left" font-size="17px" color="#232323" padding="10px 10px 10px 30px">New Yorker Pizza x1</mj-text>
+        <mj-text align="left" font-size="14px" color="#848484" padding="10px 10px 0 30px">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </mj-text>
+      </mj-column>
+      <mj-column width="25%">
+        <mj-divider border-width="10px" border-color="transparent" padding="10px"></mj-divider>
+        <mj-text font-size="14px" align="left" color="#555" padding="10px 10px 10px 30px">$ 46.99</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-divider border-width="0" padding="10px"></mj-divider>
+        <mj-divider width="100%" border-color="#bbb" border-width="1px"></mj-divider>
+        <mj-divider border-width="0" padding="10px"></mj-divider>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="25%">
+        <mj-text padding="20px">
+          <mj-divider></mj-divider>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text align="left" font-size="14px" color="#848484" padding="10px 10px 0 35px">Order Subtotal:</mj-text>
+      </mj-column>
+      <mj-column width="25%">
+        <mj-text font-size="14px" align="left" color="#555" padding="10px 10px 10px 30px">$ 46.99</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="25%">
+        <mj-text padding="20px">
+          <mj-divider></mj-divider>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text align="left" font-size="14px" color="#848484" padding="10px 10px 0 35px">Delivery:</mj-text>
+      </mj-column>
+      <mj-column width="25%">
+        <mj-text font-size="14px" align="left" color="#555" padding="10px 10px 10px 30px">Free</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="25%">
+        <mj-text padding="20px">
+          <mj-divider></mj-divider>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text align="left" font-size="14px" color="#848484" padding="10px 10px 0 35px">Tax:</mj-text>
+      </mj-column>
+      <mj-column width="25%">
+        <mj-text font-size="14px" align="left" color="#555" padding="10px 10px 10px 30px">$ 0.00</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="25%">
+        <mj-text padding="20px">
+          <mj-divider></mj-divider>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text align="left" font-size="18px" color="#848484" padding="10px 10px 0 35px">Order Total:</mj-text>
+      </mj-column>
+      <mj-column width="25%">
+        <mj-text font-size="18px" align="left" padding="10px 10px 10px 30px" color="#d19fc2">$ 46.99</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="25%">
+        <mj-text padding="20px">
+          <mj-divider border-color="transparent" border-width="5px" padding="10px"></mj-divider>
+      </mj-column>
+      <mj-column width="50%" padding="10px 0 10px 15px">
+        <mj-button align="left" background-color="#d19fc2" padding="5px 20px"> Download Invoice</mj-button>
+      </mj-column>
+      <mj-column width="25%">
+        <mj-divider border-color="transparent" border-width="5px" padding="10px"></mj-divider>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-divider border-width="0" padding="10px"></mj-divider>
+        <mj-divider width="100%" border-color="#bbb" border-width="1px"></mj-divider>
+        <mj-divider border-width="0" padding="10px"></mj-divider>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="5px 0" background-color="#9fd1ae">
+      <mj-column>
+        <mj-divider border-color="transparent" padding="10px" border-width="0"></mj-divider>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#8cb698">
+      <mj-column>
+        <mj-divider border-color="transparent" border-width="10px" padding="10px">
+        </mj-divider>
+        <mj-text><img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/1951/Coin.png" alt="image" width="50%"></img></mj-text>
+        <mj-text font-size="24px" color="#fff" padding="15px 30px 10px 30px"><b>Order From Our Mobile App<br /> To Receive 20% Off Your Next Order</b> </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#8cb698">
+      <mj-column width="25%">
+        <mj-divider border-width="0" padding="10px" border-color="transparent"></mj-divider>
+      </mj-column>
+      <mj-column width="25%" padding="15px 10px 10px 10px">
+        <mj-text><img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/1951/App_Store_Badge_US_Black.png" alt="app store" width="88%"></img></mj-text>
+      </mj-column>
+      <mj-column width="25%" padding="15px 10px 10px 10px">
+        <mj-text><img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/1951/Google_Play_Badge_US.png" alt="google play" width="88%"></img></mj-text>
+      </mj-column>
+      <mj-column width="25%">
+        <mj-divider border-width="0" padding="10px" border-color="transparent"></mj-divider>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#8cb698">
+      <mj-column>
+        <mj-divider border-width="10px" padding="10px" border-color="transparent"></mj-divider>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#9fd1ae">
+      <mj-column>
+        <mj-divider border-width="10px" padding="10px" border-color="transparent"></mj-divider>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#9fd1ae">
+      <mj-column>
+        <mj-text align="left" font-size="18px" color="#33563c" padding="10px 10px 10px 30px">Social Media
+        </mj-text>
+        <mj-text align="left" color="#33563c" font-size="12px" padding="10px 10px 10px 30px" line-height="16px">Stay up-to-date with current activities and future events by following us on your favorite social media channels. </mj-text>
+        <mj-social align="left" padding="10px 10px 10px 30px">
+          <mj-social-element name="facebook-noshare" href="https://facebook.com"></mj-social-element>
+          <mj-social-element name="google-noshare" href="https://google.com"></mj-social-element>
+          <mj-social-element name="twitter-noshare" href="https://twitter.com"></mj-social-element>
+          <mj-social-element name="instagram-noshare" href="https://instagram.com"></mj-social-element>
+        </mj-social>
+      </mj-column>
+      <mj-column>
+        <mj-text align="left" font-size="18px" color="#33563c" padding="10px 10px 10px 30px">Where To Find Us </mj-text>
+        <mj-text align="left" color="#33563c" font-size="12px" padding="10px 10px 10px 30px" line-height="16px"><a href="http://www.example.com">www.company.com</a> Company address here +1123123123 </mj-text>
+        <mj-text align="left" color="#33563c" font-size="12px" padding="10px 10px 10px 30px">Changed your mind? <a href="http://example.com">Unsubscribe </a></mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
