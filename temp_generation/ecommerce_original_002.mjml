@@ -1,0 +1,142 @@
+<mjml>
+  <mj-head>
+    <mj-title>New Collection Has Arrived</mj-title>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}, Georgia, serif" />
+      <mj-text font-size="16px" line-height="1.6" color="{brandText}" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" border-radius="2px" font-size="14px" text-transform="uppercase" letter-spacing="1px" />
+    </mj-attributes>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .stack { width: 100% !important; display: block !important; }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f8f8f8" width="640px">
+    <!-- Header Nav -->
+    <mj-section background-color="{brandBG}" padding="20px 30px">
+      <mj-column width="40%">
+        <mj-image src="https://placehold.co/140x45/png?text=BRAND" alt="Brand Logo" width="140px" align="left" />
+      </mj-column>
+      <mj-column width="60%">
+        <mj-text align="right" font-size="12px" color="{brandText}" text-transform="uppercase" letter-spacing="1px">
+          <a href="#" style="color: {brandText}; text-decoration: none; margin-left: 20px;">New In</a>
+          <a href="#" style="color: {brandText}; text-decoration: none; margin-left: 20px;">Shop</a>
+          <a href="#" style="color: {brandText}; text-decoration: none; margin-left: 20px;">Lookbook</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Hero -->
+    <mj-section background-url="https://placehold.co/640x400/png?text=Hero+Background" background-size="cover" background-repeat="no-repeat" padding="100px 40px">
+      <mj-column>
+        <mj-text align="center" color="#ffffff" font-size="14px" text-transform="uppercase" letter-spacing="3px">
+          New Season
+        </mj-text>
+        <mj-text align="center" color="#ffffff" font-size="42px" font-weight="normal" font-style="italic" padding-top="15px">
+          Autumn Collection
+        </mj-text>
+        <mj-text align="center" color="#ffffff" font-size="16px" padding-top="20px">
+          Discover timeless pieces crafted for the modern wardrobe.
+        </mj-text>
+        <mj-button background-color="#ffffff" color="{brandPrimary}" padding-top="30px" href="#">
+          Explore Now
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- 1 Col Text -->
+    <mj-section background-color="{brandBG}" padding="50px 40px">
+      <mj-column>
+        <mj-text align="center" font-size="28px" font-style="italic" color="{brandText}">
+          "Elegance is the only beauty that never fades."
+        </mj-text>
+        <mj-text align="center" font-size="14px" color="{brandText}" padding-top="15px" text-transform="uppercase" letter-spacing="2px">
+          — Audrey Hepburn
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Product Grid - Row 1 -->
+    <mj-section background-color="{brandBG}" padding="10px 20px">
+      <mj-column>
+        <mj-image src="https://placehold.co/280x350/png?text=Wool+Coat" alt="Wool Coat" />
+        <mj-text align="center" font-weight="bold" color="{brandText}" padding-top="15px">Heritage Wool Coat</mj-text>
+        <mj-text align="center" color="{brandText}" font-size="14px">$485</mj-text>
+        <mj-button padding-top="15px" href="#">Shop Now</mj-button>
+      </mj-column>
+      <mj-column>
+        <mj-image src="https://placehold.co/280x350/png?text=Cashmere+Sweater" alt="Cashmere Sweater" />
+        <mj-text align="center" font-weight="bold" color="{brandText}" padding-top="15px">Cashmere Pullover</mj-text>
+        <mj-text align="center" color="{brandText}" font-size="14px">$295</mj-text>
+        <mj-button padding-top="15px" href="#">Shop Now</mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Product Grid - Row 2 -->
+    <mj-section background-color="{brandBG}" padding="10px 20px">
+      <mj-column>
+        <mj-image src="https://placehold.co/280x350/png?text=Leather+Boots" alt="Leather Boots" />
+        <mj-text align="center" font-weight="bold" color="{brandText}" padding-top="15px">Artisan Leather Boots</mj-text>
+        <mj-text align="center" color="{brandText}" font-size="14px">$365</mj-text>
+        <mj-button padding-top="15px" href="#">Shop Now</mj-button>
+      </mj-column>
+      <mj-column>
+        <mj-image src="https://placehold.co/280x350/png?text=Silk+Scarf" alt="Silk Scarf" />
+        <mj-text align="center" font-weight="bold" color="{brandText}" padding-top="15px">Silk Twill Scarf</mj-text>
+        <mj-text align="center" color="{brandText}" font-size="14px">$165</mj-text>
+        <mj-button padding-top="15px" href="#">Shop Now</mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Story Block -->
+    <mj-section background-color="{brandSecondary}" padding="50px 40px">
+      <mj-column width="45%">
+        <mj-image src="https://placehold.co/260x320/png?text=Craftsmanship" alt="Craftsmanship" />
+      </mj-column>
+      <mj-column width="55%" vertical-align="middle">
+        <mj-text font-size="12px" text-transform="uppercase" letter-spacing="2px" color="{brandText}">Our Craft</mj-text>
+        <mj-text font-size="22px" font-style="italic" color="{brandText}" padding-top="10px">
+          Made to Last
+        </mj-text>
+        <mj-text color="{brandText}" padding-top="15px">
+          Each piece is thoughtfully designed and crafted with the finest materials, ensuring quality that endures season after season.
+        </mj-text>
+        <mj-button padding-top="25px" href="#">Learn More</mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- CTA Band -->
+    <mj-section background-color="{brandPrimary}" padding="50px 30px">
+      <mj-column>
+        <mj-text align="center" font-size="24px" font-style="italic" color="#ffffff">
+          Join Our World
+        </mj-text>
+        <mj-text align="center" color="#ffffff" font-size="14px" padding-top="15px">
+          Subscribe for early access to new collections and exclusive offers.
+        </mj-text>
+        <mj-button background-color="#ffffff" color="{brandPrimary}" padding-top="25px" href="#">
+          Subscribe
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="{brandBG}" padding="40px 30px">
+      <mj-column>
+        <mj-image src="https://placehold.co/100x35/png?text=BRAND" alt="Brand" width="100px" align="center" />
+        <mj-social font-size="12px" icon-size="24px" mode="horizontal" align="center" padding-top="20px">
+          <mj-social-element name="facebook" href="#" />
+          <mj-social-element name="instagram" href="#" />
+          <mj-social-element name="pinterest" href="#" />
+        </mj-social>
+        <mj-text align="center" font-size="11px" color="{brandText}" padding-top="25px">
+          © 2024 Brand Name. All rights reserved.
+        </mj-text>
+        <mj-text align="center" font-size="11px" color="{brandText}">
+          <a href="#" style="color: {brandText};">Unsubscribe</a> | <a href="#" style="color: {brandText};">Privacy Policy</a> | <a href="#" style="color: {brandText};">Terms</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

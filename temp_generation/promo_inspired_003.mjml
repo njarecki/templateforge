@@ -1,0 +1,144 @@
+<mjml>
+  <mj-head>
+    <mj-title>Holiday Sale Event</mj-title>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}, Arial, sans-serif" />
+      <mj-text font-size="16px" line-height="1.5" color="{brandText}" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" border-radius="50px" font-size="16px" font-weight="bold" />
+    </mj-attributes>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .gift-box { width: 100% !important; }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#faf8f5" width="640px">
+    <!-- Offer Banner -->
+    <mj-section background-color="{brandAccent}" padding="12px">
+      <mj-column>
+        <mj-text align="center" font-size="14px" font-weight="bold" color="#ffffff">
+          🎁 FREE SHIPPING ON ALL ORDERS OVER $50 🎁
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Header -->
+    <mj-section background-color="{brandBG}" padding="20px 30px">
+      <mj-column width="30%">
+        <mj-image src="https://placehold.co/100x35/png?text=LOGO" alt="Logo" width="100px" align="left" />
+      </mj-column>
+      <mj-column width="70%">
+        <mj-text align="right" font-size="13px" color="{brandText}">
+          <a href="#" style="color: {brandText}; text-decoration: none; margin-left: 15px;">Gifts</a>
+          <a href="#" style="color: {brandText}; text-decoration: none; margin-left: 15px;">Sale</a>
+          <a href="#" style="color: {brandText}; text-decoration: none; margin-left: 15px;">Collections</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Hero -->
+    <mj-section background-color="{brandPrimary}" padding="70px 30px">
+      <mj-column>
+        <mj-text align="center" color="#ffffff" font-size="16px" letter-spacing="3px" text-transform="uppercase">
+          Holiday Season
+        </mj-text>
+        <mj-text align="center" color="#ffffff" font-size="48px" font-weight="bold" padding-top="15px">
+          GIFT GUIDE
+        </mj-text>
+        <mj-text align="center" color="#ffffff" font-size="18px" padding-top="20px">
+          Find the perfect present for everyone on your list
+        </mj-text>
+        <mj-button background-color="#ffffff" color="{brandPrimary}" padding-top="30px" href="#">
+          Shop Now
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Gift Categories -->
+    <mj-section background-color="{brandBG}" padding="50px 20px 30px">
+      <mj-column>
+        <mj-text align="center" font-size="28px" font-weight="bold" color="{brandText}">
+          Shop By Category
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="{brandBG}" padding="10px 20px">
+      <mj-column>
+        <mj-image src="https://placehold.co/280x200/png?text=For+Her" alt="Gifts for Her" border-radius="10px" />
+        <mj-text align="center" font-size="18px" font-weight="bold" color="{brandText}" padding-top="15px">For Her</mj-text>
+        <mj-text align="center" font-size="14px" color="{brandAccent}">Starting at $25</mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-image src="https://placehold.co/280x200/png?text=For+Him" alt="Gifts for Him" border-radius="10px" />
+        <mj-text align="center" font-size="18px" font-weight="bold" color="{brandText}" padding-top="15px">For Him</mj-text>
+        <mj-text align="center" font-size="14px" color="{brandAccent}">Starting at $30</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="{brandBG}" padding="10px 20px 40px">
+      <mj-column>
+        <mj-image src="https://placehold.co/280x200/png?text=For+Home" alt="For Home" border-radius="10px" />
+        <mj-text align="center" font-size="18px" font-weight="bold" color="{brandText}" padding-top="15px">For Home</mj-text>
+        <mj-text align="center" font-size="14px" color="{brandAccent}">Starting at $35</mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-image src="https://placehold.co/280x200/png?text=Stocking+Stuffers" alt="Stocking Stuffers" border-radius="10px" />
+        <mj-text align="center" font-size="18px" font-weight="bold" color="{brandText}" padding-top="15px">Stocking Stuffers</mj-text>
+        <mj-text align="center" font-size="14px" color="{brandAccent}">Under $15</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Special Offer -->
+    <mj-section background-color="{brandSecondary}" padding="40px 30px">
+      <mj-column width="40%">
+        <mj-image src="https://placehold.co/220x220/png?text=Gift+Box" alt="Gift Box" border-radius="10px" />
+      </mj-column>
+      <mj-column width="60%" vertical-align="middle">
+        <mj-text font-size="14px" text-transform="uppercase" letter-spacing="2px" color="{brandAccent}">Limited Time</mj-text>
+        <mj-text font-size="24px" font-weight="bold" color="{brandText}" padding-top="10px">
+          Holiday Bundle
+        </mj-text>
+        <mj-text color="{brandText}" padding-top="10px">
+          Get our bestselling gift set at 30% off. Includes premium wrapping and a personalized card.
+        </mj-text>
+        <mj-text font-size="24px" font-weight="bold" color="{brandPrimary}" padding-top="15px">
+          <s style="color: {brandText}; font-size: 18px;">$120</s> $84
+        </mj-text>
+        <mj-button padding-top="20px" href="#">Get the Bundle</mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- CTA Band -->
+    <mj-section background-color="{brandPrimary}" padding="50px 30px">
+      <mj-column>
+        <mj-text align="center" font-size="24px" font-weight="bold" color="#ffffff">
+          Order by Dec 18 for Holiday Delivery
+        </mj-text>
+        <mj-text align="center" color="#ffffff" padding-top="15px">
+          Don't wait! Ensure your gifts arrive in time.
+        </mj-text>
+        <mj-button background-color="#ffffff" color="{brandPrimary}" padding-top="25px" href="#">
+          Start Shopping
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="{brandBG}" padding="30px">
+      <mj-column>
+        <mj-social font-size="12px" icon-size="28px" mode="horizontal" align="center">
+          <mj-social-element name="facebook" href="#" />
+          <mj-social-element name="instagram" href="#" />
+          <mj-social-element name="pinterest" href="#" />
+        </mj-social>
+        <mj-text align="center" font-size="12px" color="{brandText}" padding-top="20px">
+          © 2024 Brand Name. All rights reserved.
+        </mj-text>
+        <mj-text align="center" font-size="11px" color="{brandText}">
+          <a href="#" style="color: {brandText};">Unsubscribe</a> | <a href="#" style="color: {brandText};">Privacy</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

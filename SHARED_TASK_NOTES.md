@@ -1,11 +1,11 @@
 # TemplateForge Generation Task Notes
 
 ## Current Status (Updated 2025-11-30)
-- **Generated**: 34 templates (17 original, 17 inspired)
+- **Generated**: 45 templates (23 original, 22 inspired)
 - **Target**: 10,000 unique templates (score ≥85)
 - **Required split**: 50% inspired / 50% original
-- **Current split**: 50% original / 50% inspired (BALANCED)
-- **All templates**: Valid HTML, MJML-compiled
+- **Current split**: 51% original / 49% inspired (nearly balanced)
+- **All templates**: Valid HTML, MJML-compiled, 0 duplicates
 
 ## Run Commands
 ```bash
@@ -29,14 +29,14 @@ npx mjml input.mjml -o output.html
 ```
 
 ## Category Distribution (Current)
-- Ecommerce: 8
-- Transactional: 8
-- Promo: 6
-- Newsletter: 6
-- Welcome: 6
+- Ecommerce: 10
+- Transactional: 10
+- Welcome: 9
+- Promo: 8
+- Newsletter: 8
 
 ## Section Library (from runbook)
-hero, subhero, 1col_text, 2col_text_image, 3col_features, product_grid, testimonial, story_block, cta_band, header_nav, offer_banner, order_summary, social_icons, footer_simple, footer_complex, divider, spacer
+hero, subhero, 1col_text, 2col_text_image, 3col_features, product_grid, testimonial, story_block, cta_band, header_nav, offer_banner, order_summary, social_icons, footer_simple, footer_complex, divider, spacer, countdown, numbered_list
 
 ## Style Packs
 Core: Linear Dark, Apple Light Minimal, DTC Pastel, Editorial Serif, Brutalist Bold
@@ -49,39 +49,36 @@ All images: placeholder URLs from placehold.co
 
 ## Next Steps (Priority)
 
-1. **Scale up volume** (50/50 balance achieved):
-   - Target 50+ new templates per iteration
-   - Continue until 10,000 unique templates reached
+1. **Scale up volume** (need 10x-20x more per iteration):
+   - Target 100+ new templates per iteration to reach 10,000
    - Maintain 50/50 original/inspired balance
+   - Use batch MJML generation workflow
 
-2. **Apply style variations**:
-   - Create 2-3 style variants per template
-   - All 10 style packs being used
-
-3. **Batch generation workflow**:
-   - Create MJML templates in temp_generation/
-   - Compile: `cd temp_generation && npx mjml <file>.mjml -o <file>.html`
+2. **Increase batch efficiency**:
+   - Create multiple MJML templates in temp_generation/
+   - Compile all at once with loop: `for f in *.mjml; do npx mjml "$f" -o "${f%.mjml}.html"; done`
    - Add each with proper metadata via design_pipeline.py
    - Run dedupe after each batch
 
-## Templates Added This Iteration (14 new)
-**Original (9):**
-- welcome_original_001 (Welcome, Linear Dark, score 88)
-- welcome_original_002 (Welcome, Apple Light Minimal, score 89)
-- welcome_original_003 (Welcome, DTC Pastel, score 90)
-- newsletter_original_001 (Newsletter, Editorial Serif, score 91)
-- newsletter_original_002 (Newsletter, Minimal White, score 90)
-- newsletter_original_003 (Newsletter, Brutalist Bold, score 88)
-- promo_original_001 (Promo, Brutalist Bold, score 92)
-- ecommerce_original_001 (Ecommerce, Apple Light Minimal, score 91)
-- transactional_original_001 (Transactional, Linear Dark, score 90)
+3. **Style variety**:
+   - Ensure all 10 style packs are being used
+   - Create style variants of existing layouts
+
+## Templates Added Latest Batch (11 new)
+**Original (6):**
+- welcome_original_004 (Welcome, Warm Neutral, score 89)
+- welcome_original_005 (Welcome, Modern Gradient, score 90)
+- promo_original_002 (Promo, Black & Gold Premium, score 91)
+- ecommerce_original_002 (Ecommerce, Editorial Serif, score 92)
+- transactional_original_002 (Transactional, Apple Light Minimal, score 91)
+- newsletter_original_004 (Newsletter, Editorial Serif, score 90)
 
 **Inspired (5):**
-- welcome_inspired_003 (Welcome, Modern Gradient, score 89)
-- newsletter_inspired_003 (Newsletter, Editorial Serif, score 90)
-- promo_inspired_002 (Promo, DTC Pastel, score 91)
-- ecommerce_inspired_002 (Ecommerce, Warm Neutral, score 89)
-- transactional_inspired_002 (Transactional, Linear Dark, score 90)
+- promo_inspired_003 (Promo, DTC Pastel, score 90)
+- ecommerce_inspired_003 (Ecommerce, Apple Light Minimal, score 89)
+- transactional_inspired_003 (Transactional, Linear Dark, score 91)
+- welcome_inspired_004 (Welcome, Minimal White, score 88)
+- newsletter_inspired_004 (Newsletter, Modern Gradient, score 90)
 
 ## Quality Criteria (from runbook)
 - Score ≥85 to keep

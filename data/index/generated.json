@@ -1277,6 +1277,422 @@
           "validator_unavailable: No module named 'template_validator'"
         ]
       }
+    },
+    {
+      "id": "welcome_original_004",
+      "origin": "original",
+      "tags": [
+        "generated",
+        "original"
+      ],
+      "category": "Welcome",
+      "style": "Warm Neutral",
+      "score": 89,
+      "section_map": [
+        "header_nav",
+        "hero",
+        "subhero",
+        "3col_features",
+        "cta_band",
+        "social_icons",
+        "footer_simple"
+      ],
+      "source_seeds": [],
+      "format": "html",
+      "file_path": "/home/nick/templateforge/data/generated/Welcome/welcome_original_004/welcome_original_004.html",
+      "content_hash": "d59ac56564bf165d52d54d1c22a2c68c31739b21f39abb0d0e4fedee08d7fceb",
+      "structure": {
+        "shingle": 4,
+        "count": 232,
+        "hash": "d95c273680b9d64bdded101407ddcca9024840e2f1261fb9d553e1d87f5e9b4a"
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [
+          "validator_unavailable: No module named 'template_validator'"
+        ]
+      }
+    },
+    {
+      "id": "welcome_original_005",
+      "origin": "original",
+      "tags": [
+        "generated",
+        "original"
+      ],
+      "category": "Welcome",
+      "style": "Modern Gradient",
+      "score": 90,
+      "section_map": [
+        "header_nav",
+        "hero",
+        "story_block",
+        "2col_text_image",
+        "cta_band",
+        "social_icons",
+        "footer_simple"
+      ],
+      "source_seeds": [],
+      "format": "html",
+      "file_path": "/home/nick/templateforge/data/generated/Welcome/welcome_original_005/welcome_original_005.html",
+      "content_hash": "c8806339ff07b5b86ea0f28d3543a4808da68b1b53e5e41fdbf2c5317bc9fb46",
+      "structure": {
+        "shingle": 4,
+        "count": 205,
+        "hash": "d3ccf8303164d0d947865f0101bd879880855af5fecf40e160bb6e5722b0fba9"
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [
+          "validator_unavailable: No module named 'template_validator'"
+        ]
+      }
+    },
+    {
+      "id": "promo_original_002",
+      "origin": "original",
+      "tags": [
+        "generated",
+        "original"
+      ],
+      "category": "Promo",
+      "style": "Black & Gold Premium",
+      "score": 91,
+      "section_map": [
+        "offer_banner",
+        "header_nav",
+        "hero",
+        "countdown",
+        "product_grid",
+        "cta_band",
+        "social_icons",
+        "footer_simple"
+      ],
+      "source_seeds": [],
+      "format": "html",
+      "file_path": "/home/nick/templateforge/data/generated/Promo/promo_original_002/promo_original_002.html",
+      "content_hash": "e60811ccd099555dd3e4dbb585d24407a1258876653990d436fd32371c5d1609",
+      "structure": {
+        "shingle": 4,
+        "count": 326,
+        "hash": "148ace06a62c046d736d2f15d5c7323b8afffb27199c4fdb0f027629438866a5"
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [
+          "validator_unavailable: No module named 'template_validator'"
+        ]
+      }
+    },
+    {
+      "id": "ecommerce_original_002",
+      "origin": "original",
+      "tags": [
+        "generated",
+        "original"
+      ],
+      "category": "Ecommerce",
+      "style": "Editorial Serif",
+      "score": 92,
+      "section_map": [
+        "header_nav",
+        "hero",
+        "1col_text",
+        "product_grid",
+        "story_block",
+        "cta_band",
+        "social_icons",
+        "footer_simple"
+      ],
+      "source_seeds": [],
+      "format": "html",
+      "file_path": "/home/nick/templateforge/data/generated/Ecommerce/ecommerce_original_002/ecommerce_original_002.html",
+      "content_hash": "dc65b55f600e7f6d0919c059e86493a64af34bbb4897c3c91078a5c2fdb38722",
+      "structure": {
+        "shingle": 4,
+        "count": 340,
+        "hash": "fe9f2c8dedf00f0f4a3153a33e091c95f8f46f7fbd8886bca4f224379723bd72"
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [
+          "validator_unavailable: No module named 'template_validator'"
+        ]
+      }
+    },
+    {
+      "id": "transactional_original_002",
+      "origin": "original",
+      "tags": [
+        "generated",
+        "original"
+      ],
+      "category": "Transactional",
+      "style": "Apple Light Minimal",
+      "score": 91,
+      "section_map": [
+        "header_nav",
+        "hero",
+        "1col_text",
+        "order_summary",
+        "2col_text_image",
+        "cta_band",
+        "footer_simple"
+      ],
+      "source_seeds": [],
+      "format": "html",
+      "file_path": "/home/nick/templateforge/data/generated/Transactional/transactional_original_002/transactional_original_002.html",
+      "content_hash": "2da40ebf829f0cc029226931fd1f8966aa15971b3bf173eb02d9cc9f9c991d9d",
+      "structure": {
+        "shingle": 4,
+        "count": 308,
+        "hash": "a827d91d4b3d0ef5cc906b0bde67676e5655d3135c1e3e6d1d3197f69961e622"
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [
+          "validator_unavailable: No module named 'template_validator'"
+        ]
+      }
+    },
+    {
+      "id": "newsletter_original_004",
+      "origin": "original",
+      "tags": [
+        "generated",
+        "original"
+      ],
+      "category": "Newsletter",
+      "style": "Editorial Serif",
+      "score": 90,
+      "section_map": [
+        "header_nav",
+        "hero",
+        "divider",
+        "2col_text_image",
+        "2col_text_image",
+        "2col_text_image",
+        "testimonial",
+        "cta_band",
+        "social_icons",
+        "footer_simple"
+      ],
+      "source_seeds": [],
+      "format": "html",
+      "file_path": "/home/nick/templateforge/data/generated/Newsletter/newsletter_original_004/newsletter_original_004.html",
+      "content_hash": "1a09c1f3c807bae0e1b81786f7e906beb2ea4b1ac094aa3e36a3f2fa7819be77",
+      "structure": {
+        "shingle": 4,
+        "count": 331,
+        "hash": "9b6ca1c2d8749e1693300c6e02a5153203c561cbe9aa11f1c364bf4813fd820c"
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [
+          "validator_unavailable: No module named 'template_validator'"
+        ]
+      }
+    },
+    {
+      "id": "promo_inspired_003",
+      "origin": "inspired",
+      "tags": [
+        "generated",
+        "inspired"
+      ],
+      "category": "Promo",
+      "style": "DTC Pastel",
+      "score": 90,
+      "section_map": [
+        "offer_banner",
+        "header_nav",
+        "hero",
+        "product_grid",
+        "2col_text_image",
+        "cta_band",
+        "social_icons",
+        "footer_simple"
+      ],
+      "source_seeds": [
+        "christmas.mjml"
+      ],
+      "format": "html",
+      "file_path": "/home/nick/templateforge/data/generated/Promo/promo_inspired_003/promo_inspired_003.html",
+      "content_hash": "f3098773b3fd527f50303f19016c1deea7045feed32b4260b0982ffb2b3cc4a8",
+      "structure": {
+        "shingle": 4,
+        "count": 321,
+        "hash": "63590e206c464f152c7b104cb1bb49cc0ffe3f21057a78d3ca3554c0d3ffd957"
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [
+          "validator_unavailable: No module named 'template_validator'"
+        ]
+      }
+    },
+    {
+      "id": "ecommerce_inspired_003",
+      "origin": "inspired",
+      "tags": [
+        "generated",
+        "inspired"
+      ],
+      "category": "Ecommerce",
+      "style": "Apple Light Minimal",
+      "score": 89,
+      "section_map": [
+        "header_nav",
+        "hero",
+        "1col_text",
+        "divider",
+        "3col_features",
+        "cta_band",
+        "social_icons",
+        "footer_simple"
+      ],
+      "source_seeds": [
+        "cart-reminder.mjml"
+      ],
+      "format": "html",
+      "file_path": "/home/nick/templateforge/data/generated/Ecommerce/ecommerce_inspired_003/ecommerce_inspired_003.html",
+      "content_hash": "be2c9a474049bef10d040a4c087d444acbda8f21ea44375cc32a13601f03fb41",
+      "structure": {
+        "shingle": 4,
+        "count": 299,
+        "hash": "637c230a98e2b2ace468a4c186cbada338d318804883ba0312999ddd858c2533"
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [
+          "validator_unavailable: No module named 'template_validator'"
+        ]
+      }
+    },
+    {
+      "id": "transactional_inspired_003",
+      "origin": "inspired",
+      "tags": [
+        "generated",
+        "inspired"
+      ],
+      "category": "Transactional",
+      "style": "Linear Dark",
+      "score": 91,
+      "section_map": [
+        "header_nav",
+        "hero",
+        "order_summary",
+        "divider",
+        "1col_text",
+        "cta_band",
+        "footer_simple"
+      ],
+      "source_seeds": [
+        "receipt-email.mjml"
+      ],
+      "format": "html",
+      "file_path": "/home/nick/templateforge/data/generated/Transactional/transactional_inspired_003/transactional_inspired_003.html",
+      "content_hash": "d27f0fdb9a10a4e621be7e45bfda6b3db07a6881a248dc16840017145836c09b",
+      "structure": {
+        "shingle": 4,
+        "count": 245,
+        "hash": "271487a7e7d807efe3d2b2bd855b4d3db9f711dfdc13ab76c0a045b7cab501fa"
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [
+          "validator_unavailable: No module named 'template_validator'"
+        ]
+      }
+    },
+    {
+      "id": "welcome_inspired_004",
+      "origin": "inspired",
+      "tags": [
+        "generated",
+        "inspired"
+      ],
+      "category": "Welcome",
+      "style": "Minimal White",
+      "score": 88,
+      "section_map": [
+        "header_nav",
+        "hero",
+        "1col_text",
+        "numbered_list",
+        "cta_band",
+        "1col_text",
+        "social_icons",
+        "footer_simple"
+      ],
+      "source_seeds": [
+        "welcome-email.mjml"
+      ],
+      "format": "html",
+      "file_path": "/home/nick/templateforge/data/generated/Welcome/welcome_inspired_004/welcome_inspired_004.html",
+      "content_hash": "3246bdb34345b20db44a4abbc6b923c721fe2fb42af1d14ba345bb992ed674a9",
+      "structure": {
+        "shingle": 4,
+        "count": 263,
+        "hash": "76f899218ac67ed06d92b8260708cdf5b5a0bbd6439a1bea28d814dd55d62c23"
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [
+          "validator_unavailable: No module named 'template_validator'"
+        ]
+      }
+    },
+    {
+      "id": "newsletter_inspired_004",
+      "origin": "inspired",
+      "tags": [
+        "generated",
+        "inspired"
+      ],
+      "category": "Newsletter",
+      "style": "Modern Gradient",
+      "score": 90,
+      "section_map": [
+        "header_nav",
+        "hero",
+        "3col_features",
+        "1col_text",
+        "product_grid",
+        "cta_band",
+        "social_icons",
+        "footer_simple"
+      ],
+      "source_seeds": [
+        "newsletter.mjml",
+        "arturia.mjml"
+      ],
+      "format": "html",
+      "file_path": "/home/nick/templateforge/data/generated/Newsletter/newsletter_inspired_004/newsletter_inspired_004.html",
+      "content_hash": "fb82dd0b6e3190061967457de7ef5d5c9ef5db8774b63f97bf98abc776252f96",
+      "structure": {
+        "shingle": 4,
+        "count": 328,
+        "hash": "4c0af9d3355181c0c9f921ac278fed2b37d80b5e6187153432a4aff588282360"
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [
+          "validator_unavailable: No module named 'template_validator'"
+        ]
+      }
     }
   ]
 }
