@@ -254,6 +254,31 @@ TEMPLATE_TYPES = {
         "sections": ["header_nav", "delivery_confirmation", "cta_band", "social_icons", "footer_simple"],
         "description": "Delivery confirmation email with proof of delivery and order details"
     },
+    # New specialized templates
+    "appointment_reminder": {
+        "name": "Appointment Reminder",
+        "category": "Transactional",
+        "sections": ["header_nav", "appointment_reminder", "1col_text", "footer_simple"],
+        "description": "Appointment reminder with date, time, location, and calendar integration"
+    },
+    "two_factor_auth": {
+        "name": "Two-Factor Authentication",
+        "category": "Transactional",
+        "sections": ["header_nav", "two_factor_code", "1col_text", "footer_simple"],
+        "description": "Two-factor authentication code email for secure login verification"
+    },
+    "account_suspended": {
+        "name": "Account Suspended",
+        "category": "Transactional",
+        "sections": ["header_nav", "account_suspended", "1col_text", "footer_simple"],
+        "description": "Account suspension notification with reason and appeal options"
+    },
+    "payment_failed": {
+        "name": "Payment Failed",
+        "category": "Transactional",
+        "sections": ["header_nav", "payment_failed", "accordion_faq", "footer_simple"],
+        "description": "Payment failure notification with retry and update payment options"
+    },
 }
 
 

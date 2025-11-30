@@ -1827,6 +1827,239 @@ def section_to_mjml_delivery_confirmation(skin_name="apple_light"):
     </mj-section>'''
 
 
+def section_to_mjml_appointment_reminder(skin_name="apple_light"):
+    """Convert appointment reminder to MJML."""
+    skin = DESIGN_SKINS.get(skin_name, DESIGN_SKINS["apple_light"])
+
+    return f'''    <!-- Appointment reminder header -->
+    <mj-section padding="24px" background-color="{skin['brandAccent']}10" border-radius="12px">
+      <mj-column>
+        <mj-image src="{IMAGE_PLACEHOLDERS['icon']}" alt="Calendar" width="64px" padding="0 0 16px" />
+        <mj-text align="center" font-size="24px" color="{skin['brandPrimary']}" font-weight="700" padding="0 0 8px">
+          {{{{appointmentTitle}}}}
+        </mj-text>
+        <mj-text align="center" font-size="16px" color="{skin['brandSecondary']}" padding="0 0 24px">
+          {{{{appointmentMessage}}}}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Appointment details card -->
+    <mj-section padding="0 24px 24px">
+      <mj-column background-color="#ffffff" border-radius="8px" padding="0">
+        <mj-text font-size="12px" color="{skin['brandSecondary']}" text-transform="uppercase" letter-spacing="0.5px" padding="20px 20px 4px">
+          📅 Date
+        </mj-text>
+        <mj-text font-size="18px" color="{skin['brandPrimary']}" font-weight="600" padding="0 20px 16px">
+          {{{{appointmentDate}}}}
+        </mj-text>
+        <mj-divider border-color="{skin['brandSecondary']}15" padding="0 20px" />
+        <mj-text font-size="12px" color="{skin['brandSecondary']}" text-transform="uppercase" letter-spacing="0.5px" padding="16px 20px 4px">
+          ⏰ Time
+        </mj-text>
+        <mj-text font-size="18px" color="{skin['brandPrimary']}" font-weight="600" padding="0 20px 16px">
+          {{{{appointmentTime}}}}
+        </mj-text>
+        <mj-divider border-color="{skin['brandSecondary']}15" padding="0 20px" />
+        <mj-text font-size="12px" color="{skin['brandSecondary']}" text-transform="uppercase" letter-spacing="0.5px" padding="16px 20px 4px">
+          📍 Location
+        </mj-text>
+        <mj-text font-size="16px" color="{skin['brandPrimary']}" padding="0 20px 20px">
+          {{{{appointmentLocation}}}}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Action buttons -->
+    <mj-section padding="0 24px 24px">
+      <mj-column>
+        <mj-button href="{{{{addToCalendarUrl}}}}" background-color="{skin['brandAccent']}" color="#ffffff" font-size="14px" font-weight="600" border-radius="8px" inner-padding="14px 28px">
+          Add to Calendar
+        </mj-button>
+        <mj-button href="{{{{rescheduleUrl}}}}" background-color="transparent" color="{skin['brandAccent']}" font-size="14px" font-weight="600" border-radius="8px" border="2px solid {skin['brandAccent']}" inner-padding="12px 26px">
+          Reschedule
+        </mj-button>
+      </mj-column>
+    </mj-section>'''
+
+
+def section_to_mjml_two_factor_code(skin_name="apple_light"):
+    """Convert two-factor authentication code to MJML."""
+    skin = DESIGN_SKINS.get(skin_name, DESIGN_SKINS["apple_light"])
+
+    return f'''    <!-- 2FA header -->
+    <mj-section padding="24px" background-color="{skin['brandSecondary']}05">
+      <mj-column>
+        <mj-image src="{IMAGE_PLACEHOLDERS['icon']}" alt="Security Shield" width="80px" padding="0 0 20px" css-class="security-badge" />
+        <mj-text align="center" font-size="22px" color="{skin['brandPrimary']}" font-weight="700" padding="0 0 8px">
+          Two-Factor Authentication
+        </mj-text>
+        <mj-text align="center" font-size="15px" color="{skin['brandSecondary']}" padding="0 0 24px">
+          Enter this code to verify your identity
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- 2FA Code Display -->
+    <mj-section padding="0 24px 24px">
+      <mj-column>
+        <mj-text align="center" background-color="#ffffff" border="2px solid {skin['brandPrimary']}" border-radius="12px" padding="24px 48px">
+          <p style="font-family: 'SF Mono', 'Monaco', 'Consolas', monospace; font-size: 42px; color: {skin['brandPrimary']}; margin: 0; font-weight: 700; letter-spacing: 12px;">{{{{twoFactorCode}}}}</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Expiry warning -->
+    <mj-section padding="0 24px 24px">
+      <mj-column>
+        <mj-text align="center" background-color="#f59e0b15" border-radius="8px" padding="12px 20px" font-size="13px" color="#f59e0b" font-weight="600">
+          ⏱ Code expires in {{{{twoFactorExpiry}}}}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Security notice -->
+    <mj-section padding="0 24px 24px">
+      <mj-column>
+        <mj-divider border-color="{skin['brandSecondary']}15" padding="0 0 24px" />
+        <mj-text align="center" font-size="13px" color="{skin['brandSecondary']}" padding="0 0 4px">
+          🔒 If you didn't request this code, please ignore this email.
+        </mj-text>
+        <mj-text align="center" font-size="13px" color="{skin['brandSecondary']}" padding="0">
+          Never share this code with anyone.
+        </mj-text>
+      </mj-column>
+    </mj-section>'''
+
+
+def section_to_mjml_account_suspended(skin_name="apple_light"):
+    """Convert account suspended notification to MJML."""
+    skin = DESIGN_SKINS.get(skin_name, DESIGN_SKINS["apple_light"])
+
+    return f'''    <!-- Account suspended header -->
+    <mj-section padding="24px" background-color="#ef444415" border-radius="12px">
+      <mj-column>
+        <mj-text align="center" font-size="48px" padding="0 0 16px">
+          ⚠️
+        </mj-text>
+        <mj-text align="center" font-size="24px" color="#ef4444" font-weight="700" padding="0 0 8px">
+          Account Suspended
+        </mj-text>
+        <mj-text align="center" font-size="15px" color="{skin['brandSecondary']}" padding="0 0 24px">
+          Your account has been temporarily suspended
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Reason box -->
+    <mj-section padding="0 24px 16px">
+      <mj-column background-color="#ffffff" border-radius="8px" padding="20px">
+        <mj-text font-size="12px" color="{skin['brandSecondary']}" text-transform="uppercase" letter-spacing="0.5px" font-weight="600" padding="0 0 8px">
+          Reason for Suspension
+        </mj-text>
+        <mj-text font-size="15px" color="{skin['brandPrimary']}" line-height="1.6" padding="0">
+          {{{{suspensionReason}}}}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Account details -->
+    <mj-section padding="0 24px 24px">
+      <mj-column background-color="#ffffff" border-radius="8px" padding="0">
+        <mj-text font-size="14px" color="{skin['brandSecondary']}" padding="16px 20px">
+          <span style="display: inline-block; width: 50%;">Account</span>
+          <span style="display: inline-block; width: 50%; text-align: right; color: {skin['brandPrimary']}; font-weight: 500;">{{{{suspendedEmail}}}}</span>
+        </mj-text>
+        <mj-divider border-color="{skin['brandSecondary']}10" padding="0 20px" />
+        <mj-text font-size="14px" color="{skin['brandSecondary']}" padding="16px 20px">
+          <span style="display: inline-block; width: 50%;">Suspended on</span>
+          <span style="display: inline-block; width: 50%; text-align: right; color: {skin['brandPrimary']}; font-weight: 500;">{{{{suspensionDate}}}}</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Action buttons -->
+    <mj-section padding="0 24px 24px">
+      <mj-column>
+        <mj-button href="{{{{appealUrl}}}}" background-color="{skin['brandPrimary']}" color="#ffffff" font-size="14px" font-weight="600" border-radius="8px" inner-padding="14px 32px">
+          Appeal This Decision
+        </mj-button>
+        <mj-text align="center" padding="16px 0 0">
+          <a href="{{{{policyUrl}}}}" style="font-family: {skin['brandFont']}; font-size: 13px; color: {skin['brandSecondary']}; text-decoration: underline;">Review our Terms of Service</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>'''
+
+
+def section_to_mjml_payment_failed(skin_name="apple_light"):
+    """Convert payment failed notification to MJML."""
+    skin = DESIGN_SKINS.get(skin_name, DESIGN_SKINS["apple_light"])
+
+    return f'''    <!-- Payment failed header -->
+    <mj-section padding="24px" background-color="#f59e0b10" border-radius="12px">
+      <mj-column>
+        <mj-text align="center" font-size="48px" padding="0 0 16px">
+          💳
+        </mj-text>
+        <mj-text align="center" font-size="24px" color="#f59e0b" font-weight="700" padding="0 0 8px">
+          Payment Failed
+        </mj-text>
+        <mj-text align="center" font-size="15px" color="{skin['brandSecondary']}" padding="0 0 24px">
+          We couldn't process your payment
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Payment details -->
+    <mj-section padding="0 24px 16px">
+      <mj-column background-color="#ffffff" border-radius="8px" padding="0">
+        <mj-text font-size="14px" color="{skin['brandSecondary']}" padding="16px 20px">
+          <span style="display: inline-block; width: 50%;">Amount</span>
+          <span style="display: inline-block; width: 50%; text-align: right; color: {skin['brandPrimary']}; font-size: 16px; font-weight: 600;">{{{{failedAmount}}}}</span>
+        </mj-text>
+        <mj-divider border-color="{skin['brandSecondary']}10" padding="0 20px" />
+        <mj-text font-size="14px" color="{skin['brandSecondary']}" padding="16px 20px">
+          <span style="display: inline-block; width: 50%;">Card ending in</span>
+          <span style="display: inline-block; width: 50%; text-align: right; color: {skin['brandPrimary']}; font-weight: 500;">•••• {{{{cardLastFour}}}}</span>
+        </mj-text>
+        <mj-divider border-color="{skin['brandSecondary']}10" padding="0 20px" />
+        <mj-text font-size="14px" color="{skin['brandSecondary']}" padding="16px 20px">
+          <span style="display: inline-block; width: 50%;">Attempted on</span>
+          <span style="display: inline-block; width: 50%; text-align: right; color: {skin['brandPrimary']};">{{{{paymentDate}}}}</span>
+        </mj-text>
+        <mj-divider border-color="{skin['brandSecondary']}10" padding="0 20px" />
+        <mj-text font-size="14px" color="{skin['brandSecondary']}" padding="16px 20px">
+          <span style="display: inline-block; width: 50%;">Reason</span>
+          <span style="display: inline-block; width: 50%; text-align: right; color: #ef4444; font-weight: 500;">{{{{failureReason}}}}</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- What happens next -->
+    <mj-section padding="0 24px 24px">
+      <mj-column background-color="{skin['brandSecondary']}05" border-radius="8px" padding="16px 20px">
+        <mj-text font-size="13px" color="{skin['brandSecondary']}" font-weight="600" padding="0 0 4px">
+          What happens next?
+        </mj-text>
+        <mj-text font-size="13px" color="{skin['brandSecondary']}" line-height="1.5" padding="0">
+          We'll automatically retry in {{{{retryDays}}}} days. To avoid service interruption, please update your payment method.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Action buttons -->
+    <mj-section padding="0 24px 24px">
+      <mj-column>
+        <mj-button href="{{{{updatePaymentUrl}}}}" background-color="{skin['brandAccent']}" color="#ffffff" font-size="14px" font-weight="600" border-radius="8px" inner-padding="14px 32px">
+          Update Payment Method
+        </mj-button>
+        <mj-button href="{{{{retryPaymentUrl}}}}" background-color="transparent" color="{skin['brandAccent']}" font-size="14px" font-weight="600" border-radius="8px" border="2px solid {skin['brandAccent']}" inner-padding="12px 26px">
+          Retry Payment
+        </mj-button>
+      </mj-column>
+    </mj-section>'''
+
+
 # Registry mapping section types to MJML converters
 MJML_SECTION_REGISTRY = {
     "hero": section_to_mjml_hero,
@@ -1875,6 +2108,10 @@ MJML_SECTION_REGISTRY = {
     "invoice_details": section_to_mjml_invoice_details,
     "receipt_summary": section_to_mjml_receipt_summary,
     "delivery_confirmation": section_to_mjml_delivery_confirmation,
+    "appointment_reminder": section_to_mjml_appointment_reminder,
+    "two_factor_code": section_to_mjml_two_factor_code,
+    "account_suspended": section_to_mjml_account_suspended,
+    "payment_failed": section_to_mjml_payment_failed,
 }
 
 

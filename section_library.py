@@ -2542,6 +2542,415 @@ def section_back_in_stock():
     }
 
 
+def section_appointment_reminder():
+    """Appointment reminder with date, time, location, and calendar options."""
+    return {
+        "type": "appointment_reminder",
+        "name": "Appointment Reminder",
+        "html": f'''
+<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+    <tr>
+        <td style="padding: 24px;">
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: {{{{brandAccent}}}}10; border-radius: 12px; border: 1px solid {{{{brandAccent}}}}20;">
+                <tr>
+                    <td style="padding: 32px;">
+                        <!-- Header with calendar icon -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                            <tr>
+                                <td align="center" style="padding-bottom: 20px;">
+                                    <table cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: {{{{brandAccent}}}}; border-radius: 12px;">
+                                        <tr>
+                                            <td style="padding: 16px;">
+                                                <img src="{IMAGE_PLACEHOLDERS['icon']}" alt="Calendar" width="32" height="32" style="display: block;" />
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    <h2 style="font-family: {{{{brandFont}}}}; font-size: 24px; color: {{{{brandPrimary}}}}; margin: 0 0 8px;">{{{{appointmentTitle}}}}</h2>
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 16px; color: {{{{brandSecondary}}}}; margin: 0;">{{{{appointmentMessage}}}}</p>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <!-- Date and Time -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-top: 24px;">
+                            <tr>
+                                <td align="center">
+                                    <table cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: #ffffff; border-radius: 8px; width: 100%;">
+                                        <tr>
+                                            <td style="padding: 20px; border-bottom: 1px solid {{{{brandSecondary}}}}15;">
+                                                <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                                                    <tr>
+                                                        <td width="40" valign="top">
+                                                            <p style="font-size: 20px; margin: 0;">📅</p>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <p style="font-family: {{{{brandFont}}}}; font-size: 12px; color: {{{{brandSecondary}}}}; margin: 0 0 4px; text-transform: uppercase; letter-spacing: 0.5px;">Date</p>
+                                                            <p style="font-family: {{{{brandFont}}}}; font-size: 18px; color: {{{{brandPrimary}}}}; margin: 0; font-weight: 600;">{{{{appointmentDate}}}}</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding: 20px; border-bottom: 1px solid {{{{brandSecondary}}}}15;">
+                                                <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                                                    <tr>
+                                                        <td width="40" valign="top">
+                                                            <p style="font-size: 20px; margin: 0;">⏰</p>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <p style="font-family: {{{{brandFont}}}}; font-size: 12px; color: {{{{brandSecondary}}}}; margin: 0 0 4px; text-transform: uppercase; letter-spacing: 0.5px;">Time</p>
+                                                            <p style="font-family: {{{{brandFont}}}}; font-size: 18px; color: {{{{brandPrimary}}}}; margin: 0; font-weight: 600;">{{{{appointmentTime}}}}</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding: 20px;">
+                                                <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                                                    <tr>
+                                                        <td width="40" valign="top">
+                                                            <p style="font-size: 20px; margin: 0;">📍</p>
+                                                        </td>
+                                                        <td valign="top">
+                                                            <p style="font-family: {{{{brandFont}}}}; font-size: 12px; color: {{{{brandSecondary}}}}; margin: 0 0 4px; text-transform: uppercase; letter-spacing: 0.5px;">Location</p>
+                                                            <p style="font-family: {{{{brandFont}}}}; font-size: 16px; color: {{{{brandPrimary}}}}; margin: 0;">{{{{appointmentLocation}}}}</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <!-- Action buttons -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-top: 24px;">
+                            <tr>
+                                <td align="center">
+                                    <a href="{{{{addToCalendarUrl}}}}" style="display: inline-block; padding: 14px 28px; background-color: {{{{brandAccent}}}}; color: #ffffff; font-family: {{{{brandFont}}}}; font-size: 14px; font-weight: 600; text-decoration: none; border-radius: 8px; margin-right: 12px;">Add to Calendar</a>
+                                    <a href="{{{{rescheduleUrl}}}}" style="display: inline-block; padding: 14px 28px; background-color: transparent; color: {{{{brandAccent}}}}; font-family: {{{{brandFont}}}}; font-size: 14px; font-weight: 600; text-decoration: none; border-radius: 8px; border: 2px solid {{{{brandAccent}}}};">Reschedule</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+'''
+    }
+
+
+def section_two_factor_code():
+    """Two-factor authentication code display with security info."""
+    return {
+        "type": "two_factor_code",
+        "name": "Two Factor Code",
+        "html": f'''
+<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+    <tr>
+        <td style="padding: 24px;">
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: {{{{brandSecondary}}}}05; border-radius: 12px;">
+                <tr>
+                    <td style="padding: 32px;">
+                        <!-- Security badge -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                            <tr>
+                                <td align="center" style="padding-bottom: 24px;">
+                                    <table cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: #22c55e20; border-radius: 50%;">
+                                        <tr>
+                                            <td style="padding: 20px;">
+                                                <img src="{IMAGE_PLACEHOLDERS['icon']}" alt="Security Shield" width="40" height="40" style="display: block;" />
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    <h2 style="font-family: {{{{brandFont}}}}; font-size: 22px; color: {{{{brandPrimary}}}}; margin: 0 0 8px;">Two-Factor Authentication</h2>
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 15px; color: {{{{brandSecondary}}}}; margin: 0;">Enter this code to verify your identity</p>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <!-- 2FA Code Display -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-top: 24px;">
+                            <tr>
+                                <td align="center">
+                                    <table cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: #ffffff; border: 2px solid {{{{brandPrimary}}}}; border-radius: 12px;">
+                                        <tr>
+                                            <td style="padding: 24px 48px;">
+                                                <p style="font-family: 'SF Mono', 'Monaco', 'Consolas', monospace; font-size: 42px; color: {{{{brandPrimary}}}}; margin: 0; font-weight: 700; letter-spacing: 12px;">{{{{twoFactorCode}}}}</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <!-- Expiry and info -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-top: 20px;">
+                            <tr>
+                                <td align="center">
+                                    <table cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: #f59e0b15; border-radius: 8px;">
+                                        <tr>
+                                            <td style="padding: 12px 20px;">
+                                                <p style="font-family: {{{{brandFont}}}}; font-size: 13px; color: #f59e0b; margin: 0; font-weight: 600;">⏱ Code expires in {{{{twoFactorExpiry}}}}</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <!-- Security notice -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-top: 24px;">
+                            <tr>
+                                <td align="center" style="border-top: 1px solid {{{{brandSecondary}}}}15; padding-top: 24px;">
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 13px; color: {{{{brandSecondary}}}}; margin: 0 0 4px;">🔒 If you didn't request this code, please ignore this email.</p>
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 13px; color: {{{{brandSecondary}}}}; margin: 0;">Never share this code with anyone.</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+'''
+    }
+
+
+def section_account_suspended():
+    """Account suspended notification with reason and appeal options."""
+    return {
+        "type": "account_suspended",
+        "name": "Account Suspended",
+        "html": f'''
+<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+    <tr>
+        <td style="padding: 24px;">
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: #ef444415; border-radius: 12px; border: 1px solid #ef444430;">
+                <tr>
+                    <td style="padding: 32px;">
+                        <!-- Warning icon -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                            <tr>
+                                <td align="center" style="padding-bottom: 20px;">
+                                    <table cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: #ef4444; border-radius: 50%;">
+                                        <tr>
+                                            <td style="padding: 16px;">
+                                                <p style="font-size: 28px; margin: 0; line-height: 1;">⚠️</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    <h2 style="font-family: {{{{brandFont}}}}; font-size: 24px; color: #ef4444; margin: 0 0 8px;">Account Suspended</h2>
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 15px; color: {{{{brandSecondary}}}}; margin: 0;">Your account has been temporarily suspended</p>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <!-- Reason box -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-top: 24px;">
+                            <tr>
+                                <td>
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: #ffffff; border-radius: 8px;">
+                                        <tr>
+                                            <td style="padding: 20px;">
+                                                <p style="font-family: {{{{brandFont}}}}; font-size: 12px; color: {{{{brandSecondary}}}}; margin: 0 0 8px; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 600;">Reason for Suspension</p>
+                                                <p style="font-family: {{{{brandFont}}}}; font-size: 15px; color: {{{{brandPrimary}}}}; margin: 0; line-height: 1.6;">{{{{suspensionReason}}}}</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <!-- Account details -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-top: 16px;">
+                            <tr>
+                                <td>
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: #ffffff; border-radius: 8px;">
+                                        <tr>
+                                            <td style="padding: 16px 20px; border-bottom: 1px solid {{{{brandSecondary}}}}10;">
+                                                <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                                                    <tr>
+                                                        <td style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandSecondary}}}};">Account</td>
+                                                        <td align="right" style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandPrimary}}}}; font-weight: 500;">{{{{suspendedEmail}}}}</td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding: 16px 20px;">
+                                                <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                                                    <tr>
+                                                        <td style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandSecondary}}}};">Suspended on</td>
+                                                        <td align="right" style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandPrimary}}}}; font-weight: 500;">{{{{suspensionDate}}}}</td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <!-- Action buttons -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-top: 24px;">
+                            <tr>
+                                <td align="center">
+                                    <a href="{{{{appealUrl}}}}" style="display: inline-block; padding: 14px 32px; background-color: {{{{brandPrimary}}}}; color: #ffffff; font-family: {{{{brandFont}}}}; font-size: 14px; font-weight: 600; text-decoration: none; border-radius: 8px;">Appeal This Decision</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" style="padding-top: 16px;">
+                                    <a href="{{{{policyUrl}}}}" style="font-family: {{{{brandFont}}}}; font-size: 13px; color: {{{{brandSecondary}}}}; text-decoration: underline;">Review our Terms of Service</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+'''
+    }
+
+
+def section_payment_failed():
+    """Payment failed notification with retry options and card info."""
+    return {
+        "type": "payment_failed",
+        "name": "Payment Failed",
+        "html": f'''
+<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+    <tr>
+        <td style="padding: 24px;">
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: #f59e0b10; border-radius: 12px; border: 1px solid #f59e0b25;">
+                <tr>
+                    <td style="padding: 32px;">
+                        <!-- Alert header -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                            <tr>
+                                <td align="center" style="padding-bottom: 20px;">
+                                    <table cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: #f59e0b; border-radius: 12px;">
+                                        <tr>
+                                            <td style="padding: 14px;">
+                                                <p style="font-size: 24px; margin: 0; line-height: 1;">💳</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    <h2 style="font-family: {{{{brandFont}}}}; font-size: 24px; color: #f59e0b; margin: 0 0 8px;">Payment Failed</h2>
+                                    <p style="font-family: {{{{brandFont}}}}; font-size: 15px; color: {{{{brandSecondary}}}}; margin: 0;">We couldn't process your payment</p>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <!-- Payment details -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-top: 24px;">
+                            <tr>
+                                <td>
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: #ffffff; border-radius: 8px;">
+                                        <tr>
+                                            <td style="padding: 16px 20px; border-bottom: 1px solid {{{{brandSecondary}}}}10;">
+                                                <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                                                    <tr>
+                                                        <td style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandSecondary}}}};">Amount</td>
+                                                        <td align="right" style="font-family: {{{{brandFont}}}}; font-size: 16px; color: {{{{brandPrimary}}}}; font-weight: 600;">{{{{failedAmount}}}}</td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding: 16px 20px; border-bottom: 1px solid {{{{brandSecondary}}}}10;">
+                                                <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                                                    <tr>
+                                                        <td style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandSecondary}}}};">Card ending in</td>
+                                                        <td align="right" style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandPrimary}}}}; font-weight: 500;">•••• {{{{cardLastFour}}}}</td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding: 16px 20px; border-bottom: 1px solid {{{{brandSecondary}}}}10;">
+                                                <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                                                    <tr>
+                                                        <td style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandSecondary}}}};">Attempted on</td>
+                                                        <td align="right" style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandPrimary}}}};">{{{{paymentDate}}}}</td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding: 16px 20px;">
+                                                <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                                                    <tr>
+                                                        <td style="font-family: {{{{brandFont}}}}; font-size: 14px; color: {{{{brandSecondary}}}};">Reason</td>
+                                                        <td align="right" style="font-family: {{{{brandFont}}}}; font-size: 14px; color: #ef4444; font-weight: 500;">{{{{failureReason}}}}</td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <!-- What happens next -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-top: 20px;">
+                            <tr>
+                                <td>
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: {{{{brandSecondary}}}}05; border-radius: 8px;">
+                                        <tr>
+                                            <td style="padding: 16px 20px;">
+                                                <p style="font-family: {{{{brandFont}}}}; font-size: 13px; color: {{{{brandSecondary}}}}; margin: 0 0 4px; font-weight: 600;">What happens next?</p>
+                                                <p style="font-family: {{{{brandFont}}}}; font-size: 13px; color: {{{{brandSecondary}}}}; margin: 0; line-height: 1.5;">We'll automatically retry in {{{{retryDays}}}} days. To avoid service interruption, please update your payment method.</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <!-- Action buttons -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-top: 24px;">
+                            <tr>
+                                <td align="center">
+                                    <a href="{{{{updatePaymentUrl}}}}" style="display: inline-block; padding: 14px 32px; background-color: {{{{brandAccent}}}}; color: #ffffff; font-family: {{{{brandFont}}}}; font-size: 14px; font-weight: 600; text-decoration: none; border-radius: 8px; margin-right: 12px;">Update Payment Method</a>
+                                    <a href="{{{{retryPaymentUrl}}}}" style="display: inline-block; padding: 14px 28px; background-color: transparent; color: {{{{brandAccent}}}}; font-family: {{{{brandFont}}}}; font-size: 14px; font-weight: 600; text-decoration: none; border-radius: 8px; border: 2px solid {{{{brandAccent}}}};">Retry Payment</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+'''
+    }
+
+
 # Registry of all sections
 SECTION_REGISTRY = {
     "hero": section_hero,
@@ -2590,6 +2999,10 @@ SECTION_REGISTRY = {
     "invoice_details": section_invoice_details,
     "receipt_summary": section_receipt_summary,
     "delivery_confirmation": section_delivery_confirmation,
+    "appointment_reminder": section_appointment_reminder,
+    "two_factor_code": section_two_factor_code,
+    "account_suspended": section_account_suspended,
+    "payment_failed": section_payment_failed,
 }
 
 
