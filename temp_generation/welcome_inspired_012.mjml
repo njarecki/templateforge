@@ -1,0 +1,146 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}" />
+      <mj-text font-size="16px" color="{brandText}" line-height="1.6" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" border-radius="0" font-size="14px" font-weight="700" text-transform="uppercase" letter-spacing="1px" />
+    </mj-attributes>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .mobile-stack { display: block !important; width: 100% !important; }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#000000" width="640px">
+    <!-- Header -->
+    <mj-section background-color="#000000" padding="30px">
+      <mj-column>
+        <mj-image src="https://placehold.co/120x40/png?text=BRAND" alt="Brand logo" width="120px" align="center" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Hero -->
+    <mj-section background-color="#000000" padding="20px 30px 50px">
+      <mj-column>
+        <mj-text font-size="14px" color="#d4af37" text-transform="uppercase" letter-spacing="4px" align="center">
+          Welcome Aboard
+        </mj-text>
+        <mj-text font-size="42px" font-weight="300" color="#ffffff" align="center" padding-top="15px" line-height="1.1">
+          Your Premium Experience Awaits
+        </mj-text>
+        <mj-text font-size="16px" color="#888888" align="center" padding-top="20px">
+          You've joined an exclusive circle. Expect nothing but excellence.
+        </mj-text>
+        <mj-button href="#" background-color="#d4af37" color="#000000" padding-top="30px">
+          Enter Your Account
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Divider -->
+    <mj-section background-color="#000000" padding="0 50px">
+      <mj-column>
+        <mj-divider border-color="#d4af37" border-width="1px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Benefits Section -->
+    <mj-section background-color="#000000" padding="50px 30px 30px">
+      <mj-column>
+        <mj-text font-size="12px" color="#d4af37" text-transform="uppercase" letter-spacing="3px" align="center">
+          Member Benefits
+        </mj-text>
+        <mj-text font-size="28px" font-weight="300" color="#ffffff" align="center" padding-top="10px">
+          What You Unlock
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#000000" padding="10px 30px">
+      <mj-column width="50%">
+        <mj-text font-size="18px" font-weight="600" color="#ffffff">
+          ◆ Priority Access
+        </mj-text>
+        <mj-text font-size="14px" color="#888888" padding-top="8px">
+          Be first to new releases and exclusive drops.
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text font-size="18px" font-weight="600" color="#ffffff">
+          ◆ VIP Support
+        </mj-text>
+        <mj-text font-size="14px" color="#888888" padding-top="8px">
+          Dedicated assistance whenever you need it.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#000000" padding="10px 30px 40px">
+      <mj-column width="50%">
+        <mj-text font-size="18px" font-weight="600" color="#ffffff">
+          ◆ Member Pricing
+        </mj-text>
+        <mj-text font-size="14px" color="#888888" padding-top="8px">
+          Special rates reserved for our members only.
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text font-size="18px" font-weight="600" color="#ffffff">
+          ◆ Exclusive Events
+        </mj-text>
+        <mj-text font-size="14px" color="#888888" padding-top="8px">
+          Invitations to private gatherings and previews.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Image Section -->
+    <mj-section background-color="#000000" padding="0">
+      <mj-column>
+        <mj-image src="https://placehold.co/640x300/png?text=LUXURY+EXPERIENCE" alt="Luxury experience" width="640px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- CTA Section -->
+    <mj-section background-color="#111111" padding="50px 30px">
+      <mj-column>
+        <mj-text font-size="24px" font-weight="300" color="#ffffff" align="center">
+          Begin Your Journey
+        </mj-text>
+        <mj-text font-size="14px" color="#888888" align="center" padding-top="15px">
+          Complete your profile to unlock your full member experience.
+        </mj-text>
+        <mj-button href="#" padding-top="25px">
+          Complete Profile
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Contact -->
+    <mj-section background-color="#000000" padding="30px">
+      <mj-column>
+        <mj-text font-size="12px" color="#666666" align="center">
+          Need assistance? Contact your personal concierge.
+        </mj-text>
+        <mj-text font-size="14px" color="#d4af37" align="center" padding-top="10px">
+          concierge@brand.com | +1 800 555 0199
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="#000000" padding="30px">
+      <mj-column>
+        <mj-divider border-color="#333333" border-width="1px" padding-bottom="20px" />
+        <mj-text align="center" font-size="11px" color="#666666">
+          <a href="#" style="color: #888888; text-decoration: none;">Unsubscribe</a> |
+          <a href="#" style="color: #888888; text-decoration: none;">Privacy</a> |
+          <a href="#" style="color: #888888; text-decoration: none;">Terms</a>
+        </mj-text>
+        <mj-text align="center" font-size="10px" color="#444444" padding-top="15px">
+          © 2024 Brand Inc. All rights reserved.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

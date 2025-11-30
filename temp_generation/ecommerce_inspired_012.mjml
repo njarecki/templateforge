@@ -1,0 +1,151 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}" />
+      <mj-text font-size="16px" color="{brandText}" line-height="1.6" />
+      <mj-button background-color="#2d3436" color="#ffffff" border-radius="0" font-size="13px" font-weight="700" text-transform="uppercase" letter-spacing="1px" />
+    </mj-attributes>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .mobile-full { width: 100% !important; }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f7f7f7" width="640px">
+    <!-- Minimal Header -->
+    <mj-section background-color="#ffffff" padding="25px 30px">
+      <mj-column>
+        <mj-text font-size="24px" font-weight="300" color="#2d3436" align="center" letter-spacing="6px">
+          MINIMAL
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Hero -->
+    <mj-section background-color="#ffffff" padding="0">
+      <mj-column>
+        <mj-image src="https://placehold.co/640x400/png?text=MINIMALIST+DESIGN" alt="Minimalist design hero" width="640px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="50px 40px">
+      <mj-column>
+        <mj-text font-size="32px" font-weight="300" color="#2d3436" align="center" line-height="1.3">
+          Less is more.
+        </mj-text>
+        <mj-text align="center" padding-top="20px" color="#636e72" font-size="15px">
+          Discover our curated collection of essential pieces designed for modern living. Timeless. Functional. Beautiful.
+        </mj-text>
+        <mj-button href="#" padding-top="30px">
+          Explore Collection
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Spacer -->
+    <mj-section background-color="#f7f7f7" padding="20px">
+      <mj-column>
+        <mj-spacer height="1px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Product Feature - Full Width -->
+    <mj-section background-color="#ffffff" padding="0">
+      <mj-column width="50%" padding="0">
+        <mj-image src="https://placehold.co/320x400/png?text=Featured+Item" alt="Featured product" width="320px" />
+      </mj-column>
+      <mj-column width="50%" vertical-align="middle" padding="40px 30px">
+        <mj-text font-size="11px" color="#b2bec3" text-transform="uppercase" letter-spacing="2px">
+          Featured
+        </mj-text>
+        <mj-text font-size="24px" font-weight="300" color="#2d3436" padding-top="10px">
+          The Essential Tote
+        </mj-text>
+        <mj-text font-size="14px" color="#636e72" padding-top="12px">
+          Handcrafted from premium materials. A versatile companion for everyday life.
+        </mj-text>
+        <mj-text font-size="20px" font-weight="600" color="#2d3436" padding-top="15px">
+          $185
+        </mj-text>
+        <mj-button href="#" padding-top="20px">
+          Shop Now
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Spacer -->
+    <mj-section background-color="#f7f7f7" padding="20px">
+      <mj-column>
+        <mj-spacer height="1px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- 3 Column Products -->
+    <mj-section background-color="#ffffff" padding="40px 15px 20px">
+      <mj-column>
+        <mj-image src="https://placehold.co/190x240/png?text=Item+1" alt="Product 1" width="190px" />
+        <mj-text font-size="14px" font-weight="400" color="#2d3436" align="center" padding-top="15px">
+          Ceramic Vase
+        </mj-text>
+        <mj-text font-size="14px" color="#636e72" align="center" padding-top="3px">
+          $65
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-image src="https://placehold.co/190x240/png?text=Item+2" alt="Product 2" width="190px" />
+        <mj-text font-size="14px" font-weight="400" color="#2d3436" align="center" padding-top="15px">
+          Linen Throw
+        </mj-text>
+        <mj-text font-size="14px" color="#636e72" align="center" padding-top="3px">
+          $120
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-image src="https://placehold.co/190x240/png?text=Item+3" alt="Product 3" width="190px" />
+        <mj-text font-size="14px" font-weight="400" color="#2d3436" align="center" padding-top="15px">
+          Candle Set
+        </mj-text>
+        <mj-text font-size="14px" color="#636e72" align="center" padding-top="3px">
+          $48
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="15px 30px 50px">
+      <mj-column>
+        <mj-text align="center" font-size="13px">
+          <a href="#" style="color: #2d3436; text-decoration: underline;">View All Products</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Quote Section -->
+    <mj-section background-color="#2d3436" padding="50px 40px">
+      <mj-column>
+        <mj-text font-size="20px" font-weight="300" color="#ffffff" align="center" line-height="1.5" font-style="italic">
+          "Design is not just what it looks like. Design is how it works."
+        </mj-text>
+        <mj-text font-size="12px" color="#b2bec3" align="center" padding-top="15px" text-transform="uppercase" letter-spacing="2px">
+          — Steve Jobs
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="#ffffff" padding="40px 30px">
+      <mj-column>
+        <mj-social font-size="12px" icon-size="20px" mode="horizontal">
+          <mj-social-element name="instagram" href="#" alt="Instagram" background-color="#2d3436" />
+          <mj-social-element name="pinterest" href="#" alt="Pinterest" background-color="#2d3436" />
+        </mj-social>
+        <mj-text align="center" font-size="11px" color="#b2bec3" padding-top="25px" text-transform="uppercase" letter-spacing="1px">
+          <a href="#" style="color: #b2bec3; text-decoration: none;">Unsubscribe</a> ·
+          <a href="#" style="color: #b2bec3; text-decoration: none;">Preferences</a>
+        </mj-text>
+        <mj-text align="center" font-size="11px" color="#dfe6e9" padding-top="15px">
+          © 2024 Minimal. Designed with intention.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

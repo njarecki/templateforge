@@ -1,0 +1,188 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}" />
+      <mj-text font-size="16px" color="{brandText}" line-height="1.6" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" border-radius="50px" font-size="15px" font-weight="600" />
+    </mj-attributes>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .mobile-stack { display: block !important; width: 100% !important; }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f8f4ff" width="640px">
+    <!-- Header -->
+    <mj-section background-color="#ffffff" padding="20px 30px">
+      <mj-column width="40%">
+        <mj-image src="https://placehold.co/110x40/png?text=BRAND" alt="Brand logo" width="110px" align="left" />
+      </mj-column>
+      <mj-column width="60%">
+        <mj-text align="right" font-size="13px" color="#666666">
+          <a href="#" style="color: #666; text-decoration: none;">Shop</a> ·
+          <a href="#" style="color: #666; text-decoration: none;">New</a> ·
+          <a href="#" style="color: #9b59b6; font-weight: 600; text-decoration: none;">Rewards</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Hero -->
+    <mj-section background-color="linear-gradient(135deg, #9b59b6 0%, #e74c3c 100%)" padding="50px 30px">
+      <mj-column>
+        <mj-text font-size="14px" color="rgba(255,255,255,0.85)" align="center" text-transform="uppercase" letter-spacing="2px">
+          Members Exclusive
+        </mj-text>
+        <mj-text font-size="42px" font-weight="800" color="#ffffff" align="center" padding-top="10px" line-height="1.1">
+          DOUBLE POINTS
+        </mj-text>
+        <mj-text font-size="20px" color="#ffffff" align="center" padding-top="10px">
+          All Weekend Long
+        </mj-text>
+        <mj-text font-size="15px" color="rgba(255,255,255,0.8)" align="center" padding-top="15px">
+          Earn 2x points on every purchase. Stack rewards faster than ever.
+        </mj-text>
+        <mj-button href="#" background-color="#ffffff" color="#9b59b6" padding-top="25px">
+          Start Earning
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Points Status -->
+    <mj-section background-color="#ffffff" padding="35px 30px">
+      <mj-column>
+        <mj-text font-size="13px" color="#888888" align="center" text-transform="uppercase" letter-spacing="1px">
+          Your Current Balance
+        </mj-text>
+        <mj-text font-size="48px" font-weight="800" color="#9b59b6" align="center" padding-top="5px">
+          2,450
+        </mj-text>
+        <mj-text font-size="14px" color="#666666" align="center">
+          points
+        </mj-text>
+        <mj-text font-size="14px" color="#888888" align="center" padding-top="15px">
+          Only 550 points away from your next $25 reward!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- How It Works -->
+    <mj-section background-color="#f8f4ff" padding="40px 20px 20px">
+      <mj-column>
+        <mj-text font-size="20px" font-weight="700" color="#333333" align="center">
+          How Double Points Works
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#f8f4ff" padding="15px 15px 40px">
+      <mj-column background-color="#ffffff" border-radius="12px" padding="25px 15px">
+        <mj-text font-size="32px" align="center">🛍️</mj-text>
+        <mj-text font-size="15px" font-weight="600" color="#333333" align="center" padding-top="10px">
+          Shop
+        </mj-text>
+        <mj-text font-size="13px" color="#666666" align="center" padding-top="5px">
+          Browse and buy your favorites
+        </mj-text>
+      </mj-column>
+      <mj-column background-color="#ffffff" border-radius="12px" padding="25px 15px">
+        <mj-text font-size="32px" align="center">⚡</mj-text>
+        <mj-text font-size="15px" font-weight="600" color="#333333" align="center" padding-top="10px">
+          Earn 2x
+        </mj-text>
+        <mj-text font-size="13px" color="#666666" align="center" padding-top="5px">
+          Points auto-doubled this weekend
+        </mj-text>
+      </mj-column>
+      <mj-column background-color="#ffffff" border-radius="12px" padding="25px 15px">
+        <mj-text font-size="32px" align="center">🎁</mj-text>
+        <mj-text font-size="15px" font-weight="600" color="#333333" align="center" padding-top="10px">
+          Redeem
+        </mj-text>
+        <mj-text font-size="13px" color="#666666" align="center" padding-top="5px">
+          Use points for exclusive rewards
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Featured Products -->
+    <mj-section background-color="#ffffff" padding="40px 20px 20px">
+      <mj-column>
+        <mj-text font-size="18px" font-weight="700" color="#333333" align="center">
+          Earn Big On These Picks
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="15px 20px 40px">
+      <mj-column>
+        <mj-image src="https://placehold.co/180x220/png?text=Product+1" alt="Product 1" width="180px" />
+        <mj-text font-size="14px" font-weight="600" color="#333333" align="center" padding-top="12px">
+          Signature Serum
+        </mj-text>
+        <mj-text font-size="14px" color="#9b59b6" align="center" padding-top="3px" font-weight="600">
+          +240 pts
+        </mj-text>
+        <mj-text font-size="15px" color="#333333" align="center" padding-top="5px">
+          $68
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-image src="https://placehold.co/180x220/png?text=Product+2" alt="Product 2" width="180px" />
+        <mj-text font-size="14px" font-weight="600" color="#333333" align="center" padding-top="12px">
+          Glow Moisturizer
+        </mj-text>
+        <mj-text font-size="14px" color="#9b59b6" align="center" padding-top="3px" font-weight="600">
+          +180 pts
+        </mj-text>
+        <mj-text font-size="15px" color="#333333" align="center" padding-top="5px">
+          $52
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-image src="https://placehold.co/180x220/png?text=Product+3" alt="Product 3" width="180px" />
+        <mj-text font-size="14px" font-weight="600" color="#333333" align="center" padding-top="12px">
+          Eye Cream
+        </mj-text>
+        <mj-text font-size="14px" color="#9b59b6" align="center" padding-top="3px" font-weight="600">
+          +140 pts
+        </mj-text>
+        <mj-text font-size="15px" color="#333333" align="center" padding-top="5px">
+          $42
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- CTA -->
+    <mj-section background-color="#9b59b6" padding="35px 30px">
+      <mj-column>
+        <mj-text font-size="20px" font-weight="700" color="#ffffff" align="center">
+          Don't Miss Out!
+        </mj-text>
+        <mj-text font-size="14px" color="rgba(255,255,255,0.85)" align="center" padding-top="8px">
+          Double points ends Sunday at midnight.
+        </mj-text>
+        <mj-button href="#" background-color="#ffffff" color="#9b59b6" padding-top="20px">
+          Shop Now
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="#ffffff" padding="30px">
+      <mj-column>
+        <mj-social font-size="12px" icon-size="24px" mode="horizontal">
+          <mj-social-element name="instagram" href="#" alt="Instagram" />
+          <mj-social-element name="facebook" href="#" alt="Facebook" />
+          <mj-social-element name="tiktok" href="#" alt="TikTok" />
+        </mj-social>
+        <mj-text align="center" font-size="12px" color="#888888" padding-top="20px">
+          <a href="#" style="color: #9b59b6; text-decoration: underline;">Unsubscribe</a> ·
+          <a href="#" style="color: #9b59b6; text-decoration: underline;">View Online</a>
+        </mj-text>
+        <mj-text align="center" font-size="11px" color="#aaaaaa" padding-top="10px">
+          © 2024 Brand Inc. 456 Beauty Blvd, City, ST 12345
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

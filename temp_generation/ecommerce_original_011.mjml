@@ -1,0 +1,151 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}" />
+      <mj-text font-size="16px" color="{brandText}" line-height="1.6" />
+      <mj-button background-color="#ff4757" color="#ffffff" border-radius="4px" font-size="14px" font-weight="700" text-transform="uppercase" />
+    </mj-attributes>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .mobile-full { width: 100% !important; }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#0a0a0a" width="640px">
+    <!-- Header -->
+    <mj-section background-color="#0a0a0a" padding="25px 30px">
+      <mj-column width="50%">
+        <mj-text font-size="22px" font-weight="900" color="#00ff88" text-transform="uppercase">
+          GAMER ZONE
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text align="right" font-size="12px" color="#666666">
+          <a href="#" style="color: #888; text-decoration: none;">Shop</a> |
+          <a href="#" style="color: #00ff88; text-decoration: none;">Deals</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Hero -->
+    <mj-section background-color="#0a0a0a" padding="0">
+      <mj-column>
+        <mj-image src="https://placehold.co/640x300/png?text=GAMING+GEAR" alt="Gaming gear hero" width="640px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#0a0a0a" padding="30px">
+      <mj-column>
+        <mj-text font-size="14px" color="#00ff88" text-transform="uppercase" letter-spacing="3px" align="center">
+          New Drop
+        </mj-text>
+        <mj-text font-size="36px" font-weight="900" color="#ffffff" align="center" padding-top="10px" line-height="1.1">
+          LEVEL UP YOUR SETUP
+        </mj-text>
+        <mj-text font-size="16px" color="#888888" align="center" padding-top="15px">
+          Pro-grade gear designed for competitive gamers. Limited stock available.
+        </mj-text>
+        <mj-button href="#" background-color="#00ff88" color="#0a0a0a" padding-top="25px">
+          Shop Now
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Product Grid -->
+    <mj-section background-color="#141414" padding="40px 15px 20px">
+      <mj-column>
+        <mj-text font-size="18px" font-weight="800" color="#ffffff" align="center" text-transform="uppercase">
+          Featured Gear
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#141414" padding="15px">
+      <mj-column>
+        <mj-image src="https://placehold.co/180x180/png?text=Keyboard" alt="Gaming keyboard" width="180px" />
+        <mj-text font-size="14px" font-weight="700" color="#ffffff" align="center" padding-top="12px">
+          Mechanical Keyboard
+        </mj-text>
+        <mj-text font-size="12px" color="#00ff88" align="center" padding-top="3px">
+          RGB | Hot-swappable
+        </mj-text>
+        <mj-text font-size="18px" font-weight="800" color="#ffffff" align="center" padding-top="8px">
+          $149
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-image src="https://placehold.co/180x180/png?text=Mouse" alt="Gaming mouse" width="180px" />
+        <mj-text font-size="14px" font-weight="700" color="#ffffff" align="center" padding-top="12px">
+          Pro Gaming Mouse
+        </mj-text>
+        <mj-text font-size="12px" color="#00ff88" align="center" padding-top="3px">
+          25K DPI | Wireless
+        </mj-text>
+        <mj-text font-size="18px" font-weight="800" color="#ffffff" align="center" padding-top="8px">
+          $129
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-image src="https://placehold.co/180x180/png?text=Headset" alt="Gaming headset" width="180px" />
+        <mj-text font-size="14px" font-weight="700" color="#ffffff" align="center" padding-top="12px">
+          7.1 Surround Headset
+        </mj-text>
+        <mj-text font-size="12px" color="#00ff88" align="center" padding-top="3px">
+          Noise Canceling | 50mm
+        </mj-text>
+        <mj-text font-size="18px" font-weight="800" color="#ffffff" align="center" padding-top="8px">
+          $199
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#141414" padding="10px 30px 40px">
+      <mj-column>
+        <mj-button href="#" background-color="transparent" border="2px solid #00ff88" color="#00ff88">
+          View All Products
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Offer Banner -->
+    <mj-section background-color="#ff4757" padding="25px 30px">
+      <mj-column>
+        <mj-text font-size="20px" font-weight="900" color="#ffffff" align="center" text-transform="uppercase">
+          ⚡ Flash Deal: 20% Off All Mice ⚡
+        </mj-text>
+        <mj-text font-size="14px" color="rgba(255,255,255,0.9)" align="center" padding-top="5px">
+          Use code: QUICKDRAW | Ends midnight
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Social -->
+    <mj-section background-color="#0a0a0a" padding="30px">
+      <mj-column>
+        <mj-text font-size="12px" color="#666666" align="center" text-transform="uppercase" letter-spacing="2px">
+          Join the Community
+        </mj-text>
+        <mj-social font-size="12px" icon-size="28px" mode="horizontal" padding-top="15px">
+          <mj-social-element name="discord" href="#" alt="Discord" background-color="#5865F2" />
+          <mj-social-element name="twitter" href="#" alt="Twitter" background-color="#1DA1F2" />
+          <mj-social-element name="youtube" href="#" alt="YouTube" background-color="#FF0000" />
+          <mj-social-element name="twitch" href="#" alt="Twitch" background-color="#9146FF" />
+        </mj-social>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="#0a0a0a" padding="20px 30px">
+      <mj-column>
+        <mj-text align="center" font-size="11px" color="#444444">
+          <a href="#" style="color: #00ff88; text-decoration: none;">Unsubscribe</a> |
+          <a href="#" style="color: #666; text-decoration: none;">Privacy</a> |
+          <a href="#" style="color: #666; text-decoration: none;">Terms</a>
+        </mj-text>
+        <mj-text align="center" font-size="10px" color="#333333" padding-top="10px">
+          © 2024 Gamer Zone. Level up responsibly.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
