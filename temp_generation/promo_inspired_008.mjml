@@ -1,0 +1,76 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}" />
+      <mj-text color="#333333" />
+      <mj-button background-color="#667eea" color="#ffffff" border-radius="8px" />
+    </mj-attributes>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .stack-col { width: 100% !important; display: block !important; }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f0f4ff" width="640px">
+    <mj-section background-color="#ffffff" padding="20px 25px" border-radius="12px 12px 0 0">
+      <mj-column width="50%">
+        <mj-image src="https://placehold.co/120x40/png?text=Brand" alt="Brand logo" width="120px" align="left" />
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text font-size="12px" align="right" padding-top="10px">
+          <a href="#" style="color: #667eea; text-decoration: none;">Shop</a> &nbsp;&nbsp;
+          <a href="#" style="color: #667eea; text-decoration: none;">Deals</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="linear-gradient(135deg, #667eea 0%, #764ba2 100%)" padding="50px 30px">
+      <mj-column>
+        <mj-text font-size="14px" color="rgba(255,255,255,0.8)" align="center" text-transform="uppercase" letter-spacing="2px">Weekend Special</mj-text>
+        <mj-text font-size="56px" font-weight="bold" color="#ffffff" align="center" padding-top="10px">25% OFF</mj-text>
+        <mj-text font-size="18px" color="#ffffff" align="center">Your entire order. No exclusions.</mj-text>
+        <mj-button href="#" background-color="#ffffff" color="#667eea" padding-top="30px" inner-padding="16px 40px">Shop the Sale</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="40px 25px">
+      <mj-column>
+        <mj-text font-size="22px" font-weight="bold" align="center">Trending Now</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="0 25px 40px">
+      <mj-column width="33%" css-class="stack-col">
+        <mj-image src="https://placehold.co/170x200/png?text=Trending1" alt="Trending item one" border-radius="8px" />
+        <mj-text font-size="14px" font-weight="bold" align="center" padding-top="15px">Summer Dress</mj-text>
+        <mj-text font-size="13px" align="center"><s style="color: #999;">$79</s> <span style="color: #667eea;">$59</span></mj-text>
+      </mj-column>
+      <mj-column width="33%" css-class="stack-col">
+        <mj-image src="https://placehold.co/170x200/png?text=Trending2" alt="Trending item two" border-radius="8px" />
+        <mj-text font-size="14px" font-weight="bold" align="center" padding-top="15px">Canvas Sneakers</mj-text>
+        <mj-text font-size="13px" align="center"><s style="color: #999;">$95</s> <span style="color: #667eea;">$71</span></mj-text>
+      </mj-column>
+      <mj-column width="33%" css-class="stack-col">
+        <mj-image src="https://placehold.co/170x200/png?text=Trending3" alt="Trending item three" border-radius="8px" />
+        <mj-text font-size="14px" font-weight="bold" align="center" padding-top="15px">Leather Bag</mj-text>
+        <mj-text font-size="13px" align="center"><s style="color: #999;">$129</s> <span style="color: #667eea;">$97</span></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f8f9ff" padding="30px 25px" border-radius="8px">
+      <mj-column>
+        <mj-text font-size="16px" align="center">Use code <strong style="color: #667eea;">WEEKEND25</strong> at checkout</mj-text>
+        <mj-text font-size="12px" color="#888888" align="center" padding-top="10px">Expires Sunday at midnight. Standard exclusions apply.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="30px 25px" border-radius="0 0 12px 12px">
+      <mj-column>
+        <mj-social font-size="15px" icon-size="25px" mode="horizontal">
+          <mj-social-element name="instagram" href="#" background-color="#667eea" alt="Instagram" />
+          <mj-social-element name="facebook" href="#" background-color="#667eea" alt="Facebook" />
+          <mj-social-element name="twitter" href="#" background-color="#667eea" alt="Twitter" />
+        </mj-social>
+        <mj-text font-size="11px" color="#888888" align="center" padding-top="20px">
+          © 2024 Brand Name<br/>
+          <a href="#" style="color: #888888;">Unsubscribe</a> | <a href="#" style="color: #888888;">Preferences</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

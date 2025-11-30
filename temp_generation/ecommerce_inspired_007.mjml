@@ -1,0 +1,92 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}" />
+      <mj-text color="{brandText}" />
+      <mj-button background-color="#2d3748" color="#ffffff" border-radius="6px" />
+    </mj-attributes>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .product-card { width: 100% !important; }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f7fafc" width="640px">
+    <mj-section background-color="#2d3748" padding="15px 20px">
+      <mj-column>
+        <mj-text font-size="11px" color="#ffffff" align="center">Free Express Shipping on Orders $100+ | Same Day Dispatch</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="20px 25px">
+      <mj-column width="35%">
+        <mj-image src="https://placehold.co/130x45/png?text=Store" alt="Store logo" width="130px" align="left" />
+      </mj-column>
+      <mj-column width="65%">
+        <mj-text font-size="12px" align="right" padding-top="12px">
+          <a href="#" style="color: #2d3748; text-decoration: none;">Men</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+          <a href="#" style="color: #2d3748; text-decoration: none;">Women</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+          <a href="#" style="color: #2d3748; text-decoration: none;">Sale</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="30px 25px">
+      <mj-column>
+        <mj-text font-size="14px" color="#718096" text-transform="uppercase" letter-spacing="2px">New In</mj-text>
+        <mj-text font-size="34px" font-weight="bold" padding-top="10px">Fall/Winter Collection</mj-text>
+        <mj-text font-size="16px" color="#718096" padding-top="15px" line-height="1.7">Explore our latest arrivals. Designed for comfort, built for style. Shop the pieces everyone's talking about.</mj-text>
+        <mj-button href="#" padding-top="25px">Shop New Arrivals</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="20px 25px">
+      <mj-column>
+        <mj-image src="https://placehold.co/580x320/png?text=Hero+Collection" alt="Collection hero" border-radius="8px" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="30px 25px 10px">
+      <mj-column>
+        <mj-text font-size="20px" font-weight="bold">Editor's Picks</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="20px 25px">
+      <mj-column width="50%" css-class="product-card">
+        <mj-image src="https://placehold.co/270x320/png?text=Pick1" alt="Editor pick one" border-radius="6px" />
+        <mj-text font-size="14px" font-weight="bold" padding-top="15px">Merino Wool Sweater</mj-text>
+        <mj-text font-size="14px" color="#718096">$145.00</mj-text>
+        <mj-button href="#" font-size="12px" inner-padding="10px 20px" padding-top="10px">Add to Cart</mj-button>
+      </mj-column>
+      <mj-column width="50%" css-class="product-card">
+        <mj-image src="https://placehold.co/270x320/png?text=Pick2" alt="Editor pick two" border-radius="6px" />
+        <mj-text font-size="14px" font-weight="bold" padding-top="15px">Slim Fit Chinos</mj-text>
+        <mj-text font-size="14px" color="#718096">$89.00</mj-text>
+        <mj-button href="#" font-size="12px" inner-padding="10px 20px" padding-top="10px">Add to Cart</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#edf2f7" padding="35px 25px">
+      <mj-column width="33%">
+        <mj-text font-size="13px" font-weight="bold" align="center">🚚 Free Shipping</mj-text>
+        <mj-text font-size="11px" color="#718096" align="center">On $100+</mj-text>
+      </mj-column>
+      <mj-column width="33%">
+        <mj-text font-size="13px" font-weight="bold" align="center">↩️ Easy Returns</mj-text>
+        <mj-text font-size="11px" color="#718096" align="center">30-day policy</mj-text>
+      </mj-column>
+      <mj-column width="33%">
+        <mj-text font-size="13px" font-weight="bold" align="center">💳 Secure Pay</mj-text>
+        <mj-text font-size="11px" color="#718096" align="center">256-bit SSL</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="30px 25px">
+      <mj-column>
+        <mj-social font-size="15px" icon-size="25px" mode="horizontal">
+          <mj-social-element name="instagram" href="#" alt="Instagram" />
+          <mj-social-element name="facebook" href="#" alt="Facebook" />
+          <mj-social-element name="pinterest" href="#" alt="Pinterest" />
+        </mj-social>
+        <mj-text font-size="11px" color="#a0aec0" align="center" padding-top="20px">
+          © 2024 Store Name. All rights reserved.<br/>
+          <a href="#" style="color: #a0aec0;">Unsubscribe</a> | <a href="#" style="color: #a0aec0;">Privacy</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

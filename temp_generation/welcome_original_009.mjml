@@ -1,0 +1,77 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}" />
+      <mj-text color="{brandText}" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" border-radius="0" />
+    </mj-attributes>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .mobile-full { width: 100% !important; }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#000000" width="640px">
+    <mj-section background-color="#000000" padding="20px">
+      <mj-column>
+        <mj-image src="https://placehold.co/150x50/png?text=LOGO" alt="Company logo" width="150px" align="left" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#000000" padding="80px 20px 60px">
+      <mj-column>
+        <mj-text font-size="48px" font-weight="900" color="#ffffff" align="center" text-transform="uppercase" letter-spacing="4px">YOU'RE IN</mj-text>
+        <mj-divider border-color="{brandPrimary}" border-width="4px" width="100px" padding-top="20px" />
+        <mj-text font-size="16px" color="#cccccc" align="center" padding-top="20px" line-height="1.8">Welcome to the exclusive club. You've just unlocked premium access to everything we have to offer.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#111111" padding="50px 20px">
+      <mj-column width="50%">
+        <mj-image src="https://placehold.co/280x200/png?text=Feature" alt="Feature image" />
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text font-size="22px" font-weight="bold" color="#ffffff">What's Next?</mj-text>
+        <mj-text font-size="14px" color="#aaaaaa" padding-top="10px" line-height="1.7">Complete your profile, explore our catalog, and start discovering what makes us different. Your journey begins now.</mj-text>
+        <mj-button href="#" padding-top="20px" background-color="{brandPrimary}">Complete Profile</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#000000" padding="40px 20px">
+      <mj-column>
+        <mj-text font-size="20px" font-weight="bold" color="#ffffff" align="center">Member Benefits</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#000000" padding="0 20px 40px">
+      <mj-column width="50%">
+        <mj-text font-size="16px" font-weight="bold" color="{brandPrimary}">✓ Free Shipping</mj-text>
+        <mj-text font-size="14px" color="#888888" padding-top="5px">On all orders over $50</mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text font-size="16px" font-weight="bold" color="{brandPrimary}">✓ Early Access</mj-text>
+        <mj-text font-size="14px" color="#888888" padding-top="5px">Shop new arrivals first</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#000000" padding="0 20px 40px">
+      <mj-column width="50%">
+        <mj-text font-size="16px" font-weight="bold" color="{brandPrimary}">✓ Exclusive Deals</mj-text>
+        <mj-text font-size="14px" color="#888888" padding-top="5px">Members-only discounts</mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text font-size="16px" font-weight="bold" color="{brandPrimary}">✓ Priority Support</mj-text>
+        <mj-text font-size="14px" color="#888888" padding-top="5px">24/7 dedicated help</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="{brandPrimary}" padding="40px 20px">
+      <mj-column>
+        <mj-text font-size="22px" font-weight="bold" color="#ffffff" align="center">Ready to Start?</mj-text>
+        <mj-button href="#" background-color="#ffffff" color="{brandPrimary}" padding-top="20px">Explore Now</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#000000" padding="30px 20px">
+      <mj-column>
+        <mj-text font-size="12px" color="#666666" align="center">
+          © 2024 Company Name<br/>
+          <a href="#" style="color: #666666;">Unsubscribe</a> | <a href="#" style="color: #666666;">View in browser</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
