@@ -1,0 +1,103 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}" />
+      <mj-text font-size="15px" color="{brandText}" line-height="1.6" />
+      <mj-button background-color="linear-gradient(135deg, #667eea, #764ba2)" color="#ffffff" font-size="14px" border-radius="25px" />
+    </mj-attributes>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .mobile-full { width: 100% !important; }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f0f0f5" width="640px">
+    <mj-section background-color="#ffffff" padding="20px">
+      <mj-column width="50%">
+        <mj-image src="https://placehold.co/120x40/png?text=Brand" alt="Brand Logo" width="120px" align="left" />
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text align="right" font-size="12px">
+          <a href="#" style="color: #667eea; text-decoration: none;">View in browser</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="linear-gradient(135deg, #667eea 0%, #764ba2 100%)" padding="60px 40px">
+      <mj-column>
+        <mj-text font-size="14px" letter-spacing="3px" text-transform="uppercase" color="rgba(255,255,255,0.8)" align="center">
+          Flash Sale
+        </mj-text>
+        <mj-text font-size="52px" font-weight="bold" align="center" color="#ffffff" line-height="1.1" padding-top="15px">
+          CYBER WEEK
+        </mj-text>
+        <mj-text font-size="24px" align="center" color="#ffffff" padding-top="10px">
+          Up to 70% Off Everything
+        </mj-text>
+        <mj-text align="center" color="rgba(255,255,255,0.9)" padding-top="20px">
+          Our biggest sale of the year is here. Don't miss out on incredible savings across all categories.
+        </mj-text>
+        <mj-button href="#" padding-top="30px" background-color="#ffffff" color="#667eea">
+          Shop the Sale
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="40px 30px 20px">
+      <mj-column>
+        <mj-text font-size="20px" font-weight="bold" align="center">
+          Top Deals
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="0 20px 30px">
+      <mj-column width="50%">
+        <mj-image src="https://placehold.co/280x200/png?text=Deal+1" alt="Deal 1" border-radius="8px" />
+        <mj-text font-size="11px" padding-top="15px"><span style="background:#ff6b6b; color:#fff; padding:3px 8px; border-radius:3px;">-60%</span></mj-text>
+        <mj-text font-weight="bold" padding-top="10px">Premium Headphones</mj-text>
+        <mj-text font-size="14px"><span style="color:#999; text-decoration:line-through;">$299</span> <span style="color:#667eea; font-weight:bold;">$119</span></mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image src="https://placehold.co/280x200/png?text=Deal+2" alt="Deal 2" border-radius="8px" />
+        <mj-text font-size="11px" padding-top="15px"><span style="background:#ff6b6b; color:#fff; padding:3px 8px; border-radius:3px;">-50%</span></mj-text>
+        <mj-text font-weight="bold" padding-top="10px">Smart Watch Pro</mj-text>
+        <mj-text font-size="14px"><span style="color:#999; text-decoration:line-through;">$449</span> <span style="color:#667eea; font-weight:bold;">$225</span></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="0 20px 40px">
+      <mj-column width="50%">
+        <mj-image src="https://placehold.co/280x200/png?text=Deal+3" alt="Deal 3" border-radius="8px" />
+        <mj-text font-size="11px" padding-top="15px"><span style="background:#ff6b6b; color:#fff; padding:3px 8px; border-radius:3px;">-70%</span></mj-text>
+        <mj-text font-weight="bold" padding-top="10px">Wireless Earbuds</mj-text>
+        <mj-text font-size="14px"><span style="color:#999; text-decoration:line-through;">$199</span> <span style="color:#667eea; font-weight:bold;">$59</span></mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image src="https://placehold.co/280x200/png?text=Deal+4" alt="Deal 4" border-radius="8px" />
+        <mj-text font-size="11px" padding-top="15px"><span style="background:#ff6b6b; color:#fff; padding:3px 8px; border-radius:3px;">-55%</span></mj-text>
+        <mj-text font-weight="bold" padding-top="10px">Portable Charger</mj-text>
+        <mj-text font-size="14px"><span style="color:#999; text-decoration:line-through;">$89</span> <span style="color:#667eea; font-weight:bold;">$40</span></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f8f8fc" padding="25px 30px">
+      <mj-column>
+        <mj-text font-size="16px" align="center" font-weight="bold">
+          ⏰ Hurry! Sale ends in 48 hours
+        </mj-text>
+        <mj-text font-size="13px" align="center" color="#666666" padding-top="8px">
+          Free express shipping on all orders • No minimum purchase required
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#1a1a2e" padding="30px">
+      <mj-column>
+        <mj-social font-size="12px" icon-size="24px" mode="horizontal" align="center">
+          <mj-social-element name="instagram" href="#" alt="Instagram" />
+          <mj-social-element name="twitter" href="#" alt="Twitter" />
+          <mj-social-element name="facebook" href="#" alt="Facebook" />
+        </mj-social>
+        <mj-text font-size="10px" align="center" color="#666666" padding-top="20px">
+          © 2024 Brand Name. All rights reserved.<br />
+          <a href="#" style="color: #666666;">Unsubscribe</a> | <a href="#" style="color: #666666;">Privacy Policy</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

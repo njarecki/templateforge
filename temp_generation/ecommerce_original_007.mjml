@@ -1,0 +1,119 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="{brandFont}" />
+      <mj-text font-size="15px" color="{brandText}" line-height="1.6" />
+      <mj-button background-color="{brandPrimary}" color="#ffffff" font-size="14px" border-radius="6px" />
+    </mj-attributes>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .mobile-hide { display: none !important; }
+        .mobile-full { width: 100% !important; }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="{brandBG}" width="640px">
+    <mj-section background-color="#ffffff" padding="15px 20px">
+      <mj-column width="40%">
+        <mj-image src="https://placehold.co/130x40/png?text=Logo" alt="Store Logo" width="130px" align="left" />
+      </mj-column>
+      <mj-column width="60%">
+        <mj-text align="right" font-size="13px">
+          <a href="#" style="color: {brandText}; text-decoration: none; margin-left: 15px;">Women</a>
+          <a href="#" style="color: {brandText}; text-decoration: none; margin-left: 15px;">Men</a>
+          <a href="#" style="color: {brandText}; text-decoration: none; margin-left: 15px;">Kids</a>
+          <a href="#" style="color: {brandText}; text-decoration: none; margin-left: 15px;">Sale</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="{brandPrimary}" padding="10px">
+      <mj-column>
+        <mj-text align="center" color="#ffffff" font-size="13px">
+          Free shipping on orders $75+ | Shop Now →
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0">
+      <mj-column>
+        <mj-image src="https://placehold.co/640x320/png?text=New+Season+Collection" alt="New Season Collection Hero" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="40px 30px">
+      <mj-column>
+        <mj-text font-size="28px" font-weight="bold" align="center">
+          New Arrivals
+        </mj-text>
+        <mj-text align="center" color="#666666" padding-top="10px">
+          Fresh styles for the new season. Be the first to shop our latest collection.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="0 20px 40px">
+      <mj-column width="50%">
+        <mj-image src="https://placehold.co/280x350/png?text=Product+A" alt="Product A" border-radius="4px" />
+        <mj-text font-weight="bold" padding-top="15px">Relaxed Fit Blazer</mj-text>
+        <mj-text font-size="14px" color="#666666">Navy Blue</mj-text>
+        <mj-text font-size="16px" font-weight="bold" color="{brandPrimary}" padding-top="5px">$149.00</mj-text>
+        <mj-button href="#" padding-top="15px" width="100%">Add to Cart</mj-button>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image src="https://placehold.co/280x350/png?text=Product+B" alt="Product B" border-radius="4px" />
+        <mj-text font-weight="bold" padding-top="15px">Wool Blend Coat</mj-text>
+        <mj-text font-size="14px" color="#666666">Camel</mj-text>
+        <mj-text font-size="16px" font-weight="bold" color="{brandPrimary}" padding-top="5px">$229.00</mj-text>
+        <mj-button href="#" padding-top="15px" width="100%">Add to Cart</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="0 20px 40px">
+      <mj-column width="50%">
+        <mj-image src="https://placehold.co/280x350/png?text=Product+C" alt="Product C" border-radius="4px" />
+        <mj-text font-weight="bold" padding-top="15px">Cashmere Sweater</mj-text>
+        <mj-text font-size="14px" color="#666666">Ivory</mj-text>
+        <mj-text font-size="16px" font-weight="bold" color="{brandPrimary}" padding-top="5px">$189.00</mj-text>
+        <mj-button href="#" padding-top="15px" width="100%">Add to Cart</mj-button>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image src="https://placehold.co/280x350/png?text=Product+D" alt="Product D" border-radius="4px" />
+        <mj-text font-weight="bold" padding-top="15px">Leather Ankle Boots</mj-text>
+        <mj-text font-size="14px" color="#666666">Black</mj-text>
+        <mj-text font-size="16px" font-weight="bold" color="{brandPrimary}" padding-top="5px">$175.00</mj-text>
+        <mj-button href="#" padding-top="15px" width="100%">Add to Cart</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="{brandSecondary}" padding="35px 30px">
+      <mj-column>
+        <mj-text font-size="20px" font-weight="bold" align="center">
+          Complete the Look
+        </mj-text>
+        <mj-button href="#" padding-top="20px" background-color="{brandPrimary}">
+          Shop All New Arrivals
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#333333" padding="30px">
+      <mj-column width="33%">
+        <mj-text font-size="12px" color="#ffffff" align="center">📦 Free Returns</mj-text>
+      </mj-column>
+      <mj-column width="33%">
+        <mj-text font-size="12px" color="#ffffff" align="center">🔒 Secure Checkout</mj-text>
+      </mj-column>
+      <mj-column width="33%">
+        <mj-text font-size="12px" color="#ffffff" align="center">💬 24/7 Support</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#222222" padding="25px">
+      <mj-column>
+        <mj-social font-size="12px" icon-size="22px" mode="horizontal" align="center">
+          <mj-social-element name="facebook" href="#" alt="Facebook" />
+          <mj-social-element name="instagram" href="#" alt="Instagram" />
+          <mj-social-element name="twitter" href="#" alt="Twitter" />
+          <mj-social-element name="pinterest" href="#" alt="Pinterest" />
+        </mj-social>
+        <mj-text font-size="11px" align="center" color="#888888" padding-top="15px">
+          © 2024 Store Name. All rights reserved.<br />
+          <a href="#" style="color: #888888;">Unsubscribe</a> | <a href="#" style="color: #888888;">Preferences</a> | <a href="#" style="color: #888888;">Privacy</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

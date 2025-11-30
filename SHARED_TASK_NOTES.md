@@ -1,10 +1,10 @@
 # TemplateForge Generation Task Notes
 
 ## Current Status (Updated 2025-11-30)
-- **Generated**: 90 templates (43 original, 47 inspired)
+- **Generated**: 115 templates (56 original, 59 inspired)
 - **Target**: 10,000 unique templates (score ≥85)
 - **Required split**: 50% inspired / 50% original
-- **Current split**: 48% original / 52% inspired (well balanced)
+- **Current split**: 49% original / 51% inspired (well balanced)
 - **All templates**: Valid HTML, MJML-compiled, 0 duplicates
 
 ## Run Commands
@@ -24,16 +24,16 @@ python3 scripts/design_pipeline.py add-generated \
   --format html \
   --file <path>
 
-# Compile MJML to HTML (use full paths)
-npx mjml /home/nick/templateforge/temp_generation/input.mjml -o /home/nick/templateforge/temp_generation/output.html
+# Compile MJML to HTML (use relative paths from project root)
+npx mjml temp_generation/input.mjml -o temp_generation/output.html
 ```
 
 ## Category Distribution (Current)
-- Ecommerce: 19
-- Transactional: 19
-- Welcome: 18
-- Promo: 17
-- Newsletter: 17
+- Ecommerce: 25
+- Transactional: 23
+- Welcome: 23
+- Promo: 23
+- Newsletter: 21
 
 ## Section Library (from runbook)
 hero, subhero, 1col_text, 2col_text_image, 3col_features, product_grid, testimonial, story_block, cta_band, header_nav, offer_banner, order_summary, social_icons, footer_simple, footer_complex, divider, spacer, countdown, numbered_list
@@ -51,12 +51,12 @@ All images: placeholder URLs from placehold.co
 
 1. **Scale up volume** (need 100x+ more per iteration):
    - Target 100-200 new templates per iteration to reach 10,000
-   - At current pace (20/iteration), would take ~500 iterations
+   - At current pace (25/iteration), would take ~400 iterations
    - Need to parallelize and automate more
 
 2. **Batch MJML workflow (works well)**:
    - Create MJML files in temp_generation/
-   - Compile all: `for f in *.mjml; do npx mjml "$f" -o "${f%.mjml}.html"; done`
+   - Compile: `npx mjml temp_generation/file.mjml -o temp_generation/file.html`
    - Add each with metadata via design_pipeline.py
    - Run dedupe after each batch
 
@@ -64,31 +64,36 @@ All images: placeholder URLs from placehold.co
    - All 10 style packs being used
    - Continue rotating through styles per category
 
-## Latest Batch Added (20 new templates)
+## Latest Batch Added (25 new templates)
 
-**Original (10):**
-- welcome_original_008 (Welcome, DTC Pastel, score 90)
-- welcome_original_009 (Welcome, Brutalist Bold, score 92)
-- promo_original_005 (Promo, DTC Pastel, score 91)
-- promo_original_006 (Promo, Neon Gaming, score 93)
-- ecommerce_original_005 (Ecommerce, Apple Light Minimal, score 90)
-- ecommerce_original_006 (Ecommerce, Editorial Serif, score 91)
-- newsletter_original_007 (Newsletter, Linear Dark, score 90)
-- newsletter_original_008 (Newsletter, Brutalist Bold, score 92)
-- transactional_original_005 (Transactional, Linear Dark, score 91)
-- transactional_original_006 (Transactional, Modern Gradient, score 90)
+**Original (13):**
+- welcome_original_010 (Welcome, Warm Neutral, score 91)
+- welcome_original_011 (Welcome, Neon Gaming, score 93)
+- welcome_original_012 (Welcome, DTC Pastel, score 91)
+- promo_original_007 (Promo, Modern Gradient, score 92)
+- promo_original_008 (Promo, Warm Neutral, score 91)
+- promo_original_009 (Promo, Brutalist Bold, score 92)
+- ecommerce_original_007 (Ecommerce, Apple Light Minimal, score 91)
+- ecommerce_original_008 (Ecommerce, Modern Gradient, score 90)
+- ecommerce_original_009 (Ecommerce, DTC Pastel, score 90)
+- newsletter_original_009 (Newsletter, Minimal White, score 91)
+- newsletter_original_010 (Newsletter, DTC Pastel, score 91)
+- transactional_original_007 (Transactional, Minimal White, score 90)
+- transactional_original_008 (Transactional, Minimal White, score 89)
 
-**Inspired (10):**
-- welcome_inspired_008 (Welcome, DTC Pastel, score 89)
-- welcome_inspired_009 (Welcome, Apple Light Minimal, score 91)
-- promo_inspired_007 (Promo, Black & Gold Premium, score 93)
-- promo_inspired_008 (Promo, Modern Gradient, score 90)
-- ecommerce_inspired_007 (Ecommerce, Warm Neutral, score 91)
-- ecommerce_inspired_008 (Ecommerce, Linear Dark, score 89)
-- newsletter_inspired_008 (Newsletter, Editorial Serif, score 92)
-- newsletter_inspired_009 (Newsletter, Minimal White, score 90)
-- transactional_inspired_007 (Transactional, Modern Gradient, score 91)
-- transactional_inspired_008 (Transactional, DTC Pastel, score 90)
+**Inspired (12):**
+- welcome_inspired_010 (Welcome, Linear Dark, score 90)
+- welcome_inspired_011 (Welcome, Warm Neutral, score 90)
+- promo_inspired_009 (Promo, Black & Gold Premium, score 93)
+- promo_inspired_010 (Promo, Modern Gradient, score 92)
+- promo_inspired_011 (Promo, Linear Dark, score 93)
+- ecommerce_inspired_009 (Ecommerce, Editorial Serif, score 90)
+- ecommerce_inspired_010 (Ecommerce, Warm Neutral, score 91)
+- ecommerce_inspired_011 (Ecommerce, Warm Neutral, score 91)
+- newsletter_inspired_010 (Newsletter, Editorial Serif, score 92)
+- newsletter_inspired_011 (Newsletter, Linear Dark, score 90)
+- transactional_inspired_009 (Transactional, Linear Dark, score 92)
+- transactional_inspired_010 (Transactional, Minimal White, score 89)
 
 ## Quality Criteria (from runbook)
 - Score ≥85 to keep
