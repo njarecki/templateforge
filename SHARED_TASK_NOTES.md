@@ -1,10 +1,10 @@
 # TemplateForge Generation Task Notes
 
 ## Current Status (Updated 2025-12-01)
-- **Generated**: 336 templates (169 original, 167 inspired)
+- **Generated**: 365 templates (183 original, 182 inspired)
 - **Target**: 10,000 unique templates (score ≥85)
 - **Required split**: 50% inspired / 50% original
-- **Current split**: 50.3% original / 49.7% inspired (well balanced)
+- **Current split**: 50.1% original / 49.9% inspired (well balanced)
 - **All templates**: Valid HTML, MJML-compiled, 0 duplicates
 
 ## Run Commands
@@ -36,11 +36,11 @@ sed -e 's/#4A90D9/{brandPrimary}/g' \
 ```
 
 ## Category Distribution (Current)
-- Ecommerce: 68
-- Transactional: 73
-- Newsletter: 64
-- Promo: 67
-- Welcome: 64
+- Ecommerce: 74
+- Transactional: 80
+- Newsletter: 69
+- Promo: 73
+- Welcome: 69
 
 ## Section Library (from runbook)
 hero, subhero, 1col_text, 2col_text_image, 3col_features, product_grid, testimonial, story_block, cta_band, header_nav, offer_banner, order_summary, social_icons, footer_simple, footer_complex, divider, spacer, countdown, numbered_list
@@ -66,39 +66,40 @@ All images: placeholder URLs from placehold.co
 3. Replace colors with tokens via sed (run sed commands one at a time or in a script)
 4. Add via design_pipeline.py
 
-## Latest Batch Added (28 new templates this iteration)
+## Latest Batch Added (29 new templates this iteration)
 
 **Original (14):**
-- welcome_original_031 (Welcome, Minimal White, score 91)
-- welcome_original_032 (Welcome, Black & Gold Premium, score 92)
-- welcome_original_033 (Welcome, DTC Pastel, score 91)
-- promo_original_029 (Promo, Modern Gradient, score 92)
-- promo_original_030 (Promo, Apple Light Minimal, score 91)
-- promo_original_031 (Promo, Editorial Serif, score 92)
-- newsletter_original_032 (Newsletter, Linear Dark, score 91)
-- newsletter_original_033 (Newsletter, Brutalist Bold, score 92)
-- ecommerce_original_029 (Ecommerce, Warm Neutral, score 91)
-- ecommerce_original_030 (Ecommerce, Neon Gaming, score 92)
-- ecommerce_original_031 (Ecommerce, Brutalist Bold, score 91)
-- transactional_original_031 (Transactional, Apple Light Minimal, score 92)
-- transactional_original_032 (Transactional, Warm Neutral, score 91)
-- transactional_original_033 (Transactional, Minimal White, score 92)
+- welcome_original_034 (Welcome, Minimal White, score 91)
+- welcome_original_035 (Welcome, Black & Gold Premium, score 92)
+- promo_original_032 (Promo, DTC Pastel, score 91)
+- promo_original_033 (Promo, Editorial Serif, score 92)
+- promo_original_034 (Promo, Warm Neutral, score 91)
+- newsletter_original_034 (Newsletter, Apple Light Minimal, score 91)
+- newsletter_original_035 (Newsletter, Linear Dark, score 92)
+- ecommerce_original_032 (Ecommerce, Modern Gradient, score 91)
+- ecommerce_original_033 (Ecommerce, Black & Gold Premium, score 92)
+- ecommerce_original_034 (Ecommerce, Minimal White, score 91)
+- transactional_original_034 (Transactional, Apple Light Minimal, score 92)
+- transactional_original_035 (Transactional, Warm Neutral, score 91)
+- transactional_original_036 (Transactional, Linear Dark, score 92)
+- transactional_original_037 (Transactional, DTC Pastel, score 91)
 
-**Inspired (14):**
-- welcome_inspired_030 (Welcome, Linear Dark, score 91)
-- welcome_inspired_031 (Welcome, Black & Gold Premium, score 92)
-- promo_inspired_031 (Promo, Apple Light Minimal, score 91)
-- promo_inspired_032 (Promo, Black & Gold Premium, score 92)
-- promo_inspired_033 (Promo, DTC Pastel, score 91)
-- newsletter_inspired_029 (Newsletter, Warm Neutral, score 92)
-- newsletter_inspired_030 (Newsletter, Linear Dark, score 91)
-- newsletter_inspired_031 (Newsletter, Editorial Serif, score 92)
-- ecommerce_inspired_030 (Ecommerce, Apple Light Minimal, score 91)
-- ecommerce_inspired_031 (Ecommerce, Brutalist Bold, score 92)
-- ecommerce_inspired_032 (Ecommerce, Minimal White, score 91)
-- transactional_inspired_033 (Transactional, Apple Light Minimal, score 92)
-- transactional_inspired_034 (Transactional, Linear Dark, score 91)
-- transactional_inspired_035 (Transactional, Warm Neutral, score 92)
+**Inspired (15):**
+- welcome_inspired_032 (Welcome, Editorial Serif, score 91)
+- welcome_inspired_033 (Welcome, Warm Neutral, score 92)
+- welcome_inspired_034 (Welcome, Linear Dark, score 91)
+- promo_inspired_034 (Promo, Modern Gradient, score 92)
+- promo_inspired_035 (Promo, Black & Gold Premium, score 91)
+- promo_inspired_036 (Promo, DTC Pastel, score 92)
+- newsletter_inspired_032 (Newsletter, Brutalist Bold, score 91)
+- newsletter_inspired_033 (Newsletter, Warm Neutral, score 92)
+- newsletter_inspired_034 (Newsletter, Apple Light Minimal, score 91)
+- ecommerce_inspired_033 (Ecommerce, Editorial Serif, score 92)
+- ecommerce_inspired_034 (Ecommerce, Neon Gaming, score 91)
+- ecommerce_inspired_035 (Ecommerce, Minimal White, score 92)
+- transactional_inspired_036 (Transactional, Apple Light Minimal, score 91)
+- transactional_inspired_037 (Transactional, Warm Neutral, score 92)
+- transactional_inspired_038 (Transactional, Linear Dark, score 91)
 
 ## Quality Criteria (from runbook)
 - Score ≥85 to keep
@@ -126,6 +127,6 @@ High-quality seeds with: media queries, table_count≥8, 20-220KB HTML
 
 ## Next Steps (Priority)
 1. **Scale up volume** - Need ~50 templates per iteration to hit 10,000 in reasonable time
-2. **Categories well balanced** - Transactional slightly higher (73), but all categories 64-73
+2. **Categories well balanced** - Transactional slightly higher (80), but all categories 69-80
 3. **Continue using all 10 style packs** for variety
-4. **Origin split perfect** - 50.3% original / 49.7% inspired, maintain balance
+4. **Origin split near-perfect** - 50.1% original / 49.9% inspired, maintain balance
