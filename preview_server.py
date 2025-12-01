@@ -7,6 +7,9 @@ Supports live template generation with different skins and formats.
 """
 
 import json
+import re
+import os
+import os
 import http.server
 import socketserver
 import urllib.parse
@@ -92,7 +95,23 @@ def replace_placeholders_with_boxes(html: str) -> str:
     return result
 
 
-def get_template_preview(template_type, skin="apple_light", output_format="html", inline=False, inline_mode="svg"):
+def localize_placeholder_images(html: str) -> str:
+    """Rewrite placeholder image URLs to local endpoints served by the preview server."""
+    mapping = {
+        IMAGE_PLACEHOLDERS.get('hero'): '/__placeholders__/hero.svg',
+        IMAGE_PLACEHOLDERS.get('product'): '/__placeholders__/product.svg',
+        IMAGE_PLACEHOLDERS.get('icon'): '/__placeholders__/icon.svg',
+        IMAGE_PLACEHOLDERS.get('logo'): '/__placeholders__/logo.svg',
+        IMAGE_PLACEHOLDERS.get('avatar'): '/__placeholders__/avatar.svg',
+    }
+    result = html
+    for url, local in mapping.items():
+        if url:
+            result = result.replace(url, local)
+    return result
+
+
+def get_template_preview(template_type, skin="apple_light", output_format="html", inline=False, inline_mode="local"):
     """Generate a template and return HTML or MJML."""
     template = generate_template(template_type, skin)
     template = fix_template_issues(template)
@@ -105,8 +124,10 @@ def get_template_preview(template_type, skin="apple_light", output_format="html"
     if inline:
         if inline_mode == "box":
             html = replace_placeholders_with_boxes(html)
-        else:
+        elif inline_mode == "svg":
             html = inline_placeholder_images(html)
+        else:
+            html = localize_placeholder_images(html)
     return html, "text/html"
 
 
@@ -316,6 +337,122 @@ def get_index_page():
         </div>
 """
 
+    # Curated Top 300 (from scoring) – show first
+    try:
+        with open(os.path.join('data','index','curated_top300.json'),'r') as f:
+            curated = json.load(f).get('items', [])
+    except Exception:
+        curated = []
+    if curated:
+        html += """
+        <div class=\"category\">\n            <h2 class=\"category-title\">Curated Top 300 (Scored)</h2>\n            <div class=\"template-grid\">"""
+        for item in curated[:60]:
+            rel = item.get('file','')
+            name = os.path.basename(rel)
+            score = item.get('score', 0)
+            link = f"/compiled/{rel}"
+            html += f"""
+                <div class=\"template-card\">\n                    <div class=\"template-name\">{name}</div>\n                    <div class=\"template-type\">score {score}</div>\n                    <div class=\"template-actions\">\n                        <a href=\"{link}\" class=\"btn btn-primary\">Open</a>\n                    </div>\n                </div>"""
+        html += """
+            </div>\n            <div style=\"margin-top:8px;\"><a class=\"btn btn-secondary\" href=\"/curated\">View All 300</a></div>\n        </div>"""
+
+    # Add generated templates section (newest first) if available
+    try:
+        with open(os.path.join('data','index','generated.json'), 'r') as f:
+            gen_idx = json.load(f)
+        gen_items = gen_idx.get('items', [])
+        if gen_items:
+            def _mtime(it):
+                p = it.get('file_path') or ''
+                try:
+                    return os.path.getmtime(p)
+                except Exception:
+                    return 0
+            latest = sorted(gen_items, key=_mtime, reverse=True)[:24]
+            html += """
+        <div class="category">
+            <h2 class="category-title">Generated (Newest)</h2>
+            <div class="template-grid">"""
+            for it in latest:
+                tid = it.get('id','unknown')
+                origin = it.get('origin','generated')
+                style = it.get('style','')
+                category = it.get('category','Generated')
+                sections = it.get('section_map') or []
+                sections_str = ", ".join(sections[:3]) + ("..." if len(sections)>3 else "")
+                html += f"""
+                <div class=\"template-card\" data-type=\"{tid}\">
+                    <div class=\"template-name\">{category} — {style}</div>
+                    <div class=\"template-type\">{tid} ({origin})</div>
+                    <div class=\"template-sections\">{sections_str}</div>
+                    <div class=\"template-actions\">
+                        <a href=\"/generated/{tid}\" class=\"btn btn-primary\">Open</a>
+                    </div>
+                </div>"""
+            html += """
+            </div>
+        </div>"""
+    except Exception:
+        pass
+
+    # If no generated items, show latest compiled files for quick access
+    try:
+        compiled_files = []
+        for root, dirs, files in os.walk(os.path.join('data','compiled')):
+            for name in files:
+                if name.lower().endswith('.html'):
+                    full = os.path.join(root, name)
+                    compiled_files.append((full, os.path.getmtime(full)))
+        if compiled_files:
+            compiled_files.sort(key=lambda x: x[1], reverse=True)
+            latest_c = [c[0] for c in compiled_files[:24]]
+            html += """
+        <div class=\"category\">
+            <h2 class=\"category-title\">Latest Compiled</h2>
+            <div class=\"template-grid\">"""
+            for full in latest_c:
+                # Build relative path reliably under data/compiled
+                try:
+                    rel = os.path.relpath(full, os.path.join('data','compiled'))
+                except Exception:
+                    rel = os.path.basename(full)
+                rel = rel.replace('\\\\','/')
+                name = os.path.basename(full)
+                html += f"""
+                <div class=\"template-card\">
+                    <div class=\"template-name\">{name}</div>
+                    <div class=\"template-type\">compiled</div>
+                    <div class=\"template-actions\">
+                        <a href=\"/compiled/{rel}\" class=\"btn btn-primary\">Open</a>
+                    </div>
+                </div>"""
+            html += """
+            </div>
+        </div>"""
+    except Exception:
+        pass
+
+    # Curated Top 300 (from scoring) at the top
+    try:
+        with open(os.path.join('data','index','curated_top300.json'),'r') as f:
+            top = json.load(f).get('items', [])
+        if top:
+            html += """
+        <div class=\"category\">
+            <h2 class=\"category-title\">Curated Top 300 (Scored)</h2>
+            <div class=\"template-grid\">"""
+            for item in top[:24]:
+                rel = item.get('file','')
+                name = os.path.basename(rel)
+                score = item.get('score', 0)
+                html += f"""
+                <div class=\"template-card\">\n                    <div class=\"template-name\">{name}</div>\n                    <div class=\"template-type\">score {score}</div>\n                    <div class=\"template-actions\">\n                        <a href=\"/compiled/{rel}\" class=\"btn btn-primary\">Open</a>\n                    </div>\n                </div>"""
+            html += """
+            </div>
+        </div>"""
+    except Exception:
+        pass
+
     for category, cat_templates in categories.items():
         html += f"""
         <div class="category">
@@ -474,12 +611,75 @@ class PreviewHandler(http.server.SimpleHTTPRequestHandler):
         path = parsed.path
         query = urllib.parse.parse_qs(parsed.query)
 
+        # Local placeholder images (SVG)
+        if path.startswith("/__placeholders__/"):
+            name = path.split("/")[-1]
+            sizes = {
+                'hero.svg': (640, 320, '640×320'),
+                'product.svg': (300, 300, '300×300'),
+                'icon.svg': (64, 64, '64×64'),
+                'logo.svg': (150, 50, '150×50'),
+                'avatar.svg': (80, 80, '80×80'),
+            }
+            if name in sizes:
+                w, h, label = sizes[name]
+                svg_data_uri = _svg_data_uri(w, h, label)
+                # Extract raw SVG from data URI
+                svg_raw = urllib.parse.unquote(svg_data_uri.split(',', 1)[1]).encode('utf-8')
+                self.send_response(200)
+                self.send_header("Content-type", "image/svg+xml;charset=UTF-8")
+                self.end_headers()
+                self.wfile.write(svg_raw)
+                return
+            else:
+                self.send_error(404, "Unknown placeholder")
+                return
+
         # Index page
         if path == "/" or path == "/index.html":
             self.send_response(200)
             self.send_header("Content-type", "text/html")
             self.end_headers()
             self.wfile.write(get_index_page().encode())
+            return
+
+        # Curated Top 300 full view
+        if path == "/curated":
+            try:
+                with open(os.path.join('data','index','curated_top300.json'),'r') as f:
+                    items = json.load(f).get('items', [])
+            except Exception:
+                items = []
+
+            html = """<!DOCTYPE html>
+<html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><title>Curated Top 300</title>
+<style>
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0a0a0a;color:#e5e5e5;padding:24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+.card{background:#1a1a1a;border:1px solid #333;border-radius:10px;padding:12px}
+.name{font-weight:600;margin-bottom:6px}
+.meta{color:#aaa;font-size:12px;margin-bottom:8px}
+.btn{display:inline-block;padding:6px 10px;background:#3b82f6;color:#fff;text-decoration:none;border-radius:6px}
+a{color:#9bd}
+</style></head><body>
+<h1>Curated Top 300 (Scored)</h1>
+<p><a href=\"/\">&larr; Back</a></p>
+<div class=\"grid\">"""
+
+            for it in items:
+                rel = it.get('file','')
+                name = os.path.basename(rel)
+                score = it.get('score',0)
+                link = f"/compiled/{rel}"
+                html += f"""
+  <div class=\"card\">\n    <div class=\"name\">{name}</div>\n    <div class=\"meta\">score {score}</div>\n    <a class=\"btn\" href=\"{link}\">Open</a>\n  </div>"""
+
+            html += """</div></body></html>"""
+
+            self.send_response(200)
+            self.send_header("Content-type", "text/html")
+            self.end_headers()
+            self.wfile.write(html.encode())
             return
 
         # Template preview
@@ -493,7 +693,7 @@ class PreviewHandler(http.server.SimpleHTTPRequestHandler):
             skin = query.get("skin", ["apple_light"])[0]
             output_format = query.get("format", ["html"])[0]
             inline = query.get("inline", ["0"])[0] in ("1", "true", "yes")
-            inline_mode = query.get("placeholder", ["svg"])[0]
+            inline_mode = query.get("placeholder", ["local"])[0]
 
             if skin not in DESIGN_SKINS:
                 skin = "apple_light"
@@ -510,6 +710,65 @@ class PreviewHandler(http.server.SimpleHTTPRequestHandler):
                 self.send_error(500, f"Error generating template: {str(e)}")
             return
 
+        # Generated template view by id
+        if path.startswith("/generated/"):
+            gen_id = path.replace("/generated/", "").strip("/")
+            try:
+                with open(os.path.join('data','index','generated.json'), 'r') as f:
+                    gen_idx = json.load(f)
+                items = gen_idx.get('items', [])
+                match = next((it for it in items if it.get('id') == gen_id), None)
+                file_path = None
+                fmt = 'html'
+                if match:
+                    file_path = match.get('file_path')
+                    fmt = match.get('format','html')
+                # Fallback: search under data/generated for a file named <id>.html or .mjml
+                if not file_path or not os.path.isfile(file_path):
+                    # Try direct relative paths (category/id/id.html)
+                    candidates = []
+                    base_html = gen_id + '.html'
+                    base_mjml = gen_id + '.mjml'
+                    for root, dirs, files in os.walk(os.path.join('data','generated')):
+                        for name in files:
+                            if name == base_html or name == base_mjml:
+                                candidates.append(os.path.join(root, name))
+                    if candidates:
+                        # Pick newest
+                        candidates.sort(key=lambda p: os.path.getmtime(p), reverse=True)
+                        file_path = candidates[0]
+                        fmt = 'mjml' if file_path.lower().endswith('.mjml') else 'html'
+                if not file_path or not os.path.isfile(file_path):
+                    self.send_error(404, f"File missing for template: {gen_id}")
+                    return
+                # Serve content (compile MJML if possible)
+                if fmt == 'html':
+                    content_type = "text/html"
+                    with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
+                        content = f.read()
+                else:
+                    try:
+                        from mjml_converter import compile_mjml_to_html
+                        mjml = open(file_path, 'r', encoding='utf-8', errors='ignore').read()
+                        res = compile_mjml_to_html(mjml)
+                        if res.get('success'):
+                            content = res['html']
+                            content_type = "text/html"
+                        else:
+                            content = mjml
+                            content_type = "text/plain"
+                    except Exception:
+                        mjml = open(file_path, 'r', encoding='utf-8', errors='ignore').read()
+                        content = mjml
+                        content_type = "text/plain"
+                self.send_response(200)
+                self.send_header("Content-type", content_type)
+                self.end_headers()
+                self.wfile.write(content.encode())
+            except Exception as e:
+                self.send_error(500, f"Error loading generated template: {str(e)}")
+            return
+
         # Skin comparison page
         if path.startswith("/compare/"):
             template_type = path.replace("/compare/", "").strip("/")
@@ -522,6 +781,32 @@ class PreviewHandler(http.server.SimpleHTTPRequestHandler):
             self.send_header("Content-type", "text/html")
             self.end_headers()
             self.wfile.write(get_comparison_page(template_type).encode())
+            return
+
+        # Serve compiled files from data/compiled
+        if path.startswith("/compiled/"):
+            rel = path.replace("/compiled/", "", 1)
+            # URL-decode
+            try:
+                rel = urllib.parse.unquote(rel)
+            except Exception:
+                pass
+            # prevent directory traversal
+            if ".." in rel or rel.startswith('/'):
+                self.send_error(400, "Bad path")
+                return
+            full = os.path.join('data','compiled', rel)
+            if not os.path.isfile(full):
+                self.send_error(404, "Compiled file not found")
+                return
+            try:
+                content = open(full, 'r', encoding='utf-8', errors='ignore').read()
+                self.send_response(200)
+                self.send_header("Content-type", "text/html")
+                self.end_headers()
+                self.wfile.write(content.encode())
+            except Exception as e:
+                self.send_error(500, f"Error reading compiled file: {e}")
             return
 
         # API: list templates
@@ -542,6 +827,53 @@ class PreviewHandler(http.server.SimpleHTTPRequestHandler):
             ]
             self.wfile.write(json.dumps(skins_list).encode())
             return
+
+        # Fallback: serve files directly from data/compiled or data/generated by URL path
+        # This lets paths like /mailchimp_blueprints/transactional_tabular.html work.
+        rel = path.lstrip('/')
+        if rel:
+            try:
+                rel_decoded = urllib.parse.unquote(rel)
+            except Exception:
+                rel_decoded = rel
+            for base in (os.path.join('data','compiled'), os.path.join('data','generated')):
+                full = os.path.join(base, rel_decoded)
+                if os.path.isfile(full):
+                    try:
+                        if full.lower().endswith('.html'):
+                            content = open(full, 'r', encoding='utf-8', errors='ignore').read()
+                            self.send_response(200)
+                            self.send_header("Content-type", "text/html")
+                            self.end_headers()
+                            self.wfile.write(content.encode())
+                            return
+                        elif full.lower().endswith('.mjml'):
+                            try:
+                                from mjml_converter import compile_mjml_to_html
+                                mjml = open(full, 'r', encoding='utf-8', errors='ignore').read()
+                                res = compile_mjml_to_html(mjml)
+                                if res.get('success'):
+                                    self.send_response(200)
+                                    self.send_header("Content-type", "text/html")
+                                    self.end_headers()
+                                    self.wfile.write(res['html'].encode())
+                                    return
+                                else:
+                                    self.send_response(200)
+                                    self.send_header("Content-type", "text/plain")
+                                    self.end_headers()
+                                    self.wfile.write(mjml.encode())
+                                    return
+                            except Exception:
+                                mjml = open(full, 'r', encoding='utf-8', errors='ignore').read()
+                                self.send_response(200)
+                                self.send_header("Content-type", "text/plain")
+                                self.end_headers()
+                                self.wfile.write(mjml.encode())
+                                return
+                    except Exception as e:
+                        self.send_error(500, f"Error serving file: {e}")
+                        return
 
         # 404 for other paths
         self.send_error(404, "Not Found")
